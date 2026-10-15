@@ -7,3 +7,4 @@ s1m2_firmware_project/bin/
 S1m2_V*.bin
 S1m2_V*.zip
 analysis/unpacked/components/
+/.research-local/

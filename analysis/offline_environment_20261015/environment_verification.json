@@ -1,0 +1,178 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "host": "Windows-11-10.0.26200-SP0",
+  "machine": "AMD64",
+  "scope": "official_tool_versions_help_synthetic_disassembly_and_native_headers",
+  "target_execution": false,
+  "archives": [
+    {
+      "id": "jadx",
+      "sha256": "545ea2be9c242511bc145755cf4bda2485ade42966e096f8b4d3da2a230e8974",
+      "pass": true
+    },
+    {
+      "id": "jre",
+      "sha256": "d35f31e712f0fcf6ac5a093edc90204fbff22f720ba3950bd09d331d5e621636",
+      "pass": true
+    },
+    {
+      "id": "pyelftools",
+      "sha256": "f215ad5f47d3f1373a21496a6c9e0707c622840d0622f23ff7ce08678b020036",
+      "pass": true
+    },
+    {
+      "id": "capstone",
+      "sha256": "732cedbbb56d42e723f14d7af6387f1454194a820b4b96b56d1e53f865ef85d0",
+      "pass": true
+    }
+  ],
+  "checks": [
+    {
+      "name": "capstone_version",
+      "value": "5.0.9",
+      "pass": true
+    },
+    {
+      "name": "pyelftools_version",
+      "value": "0.33",
+      "pass": true
+    },
+    {
+      "name": "synthetic_arm64_ret",
+      "pass": true
+    },
+    {
+      "name": "synthetic_elf64_aarch64",
+      "pass": true
+    },
+    {
+      "name": "java_version",
+      "value": "openjdk version \"21.0.12.1\" 2026-08-18 LTS\nOpenJDK Runtime Environment Temurin-21.0.12.1+1 (build 21.0.12.1+1-LTS)\nOpenJDK 64-Bit Server VM Temurin-21.0.12.1+1 (build 21.0.12.1+1-LTS, mixed mode, sharing)",
+      "pass": true
+    },
+    {
+      "name": "jadx_version",
+      "value": "1.5.6",
+      "pass": true
+    },
+    {
+      "name": "jadx_static_options",
+      "pass": true
+    },
+    {
+      "name": "18_native_headers_read",
+      "pass": true
+    }
+  ],
+  "native_headers": [
+    {
+      "name": "libavcodec.so",
+      "e_machine": "EM_AARCH64",
+      "bits": 64,
+      "pass": true
+    },
+    {
+      "name": "libavformat.so",
+      "e_machine": "EM_AARCH64",
+      "bits": 64,
+      "pass": true
+    },
+    {
+      "name": "libavutil.so",
+      "e_machine": "EM_AARCH64",
+      "bits": 64,
+      "pass": true
+    },
+    {
+      "name": "libc++_shared.so",
+      "e_machine": "EM_AARCH64",
+      "bits": 64,
+      "pass": true
+    },
+    {
+      "name": "libcrypto.so",
+      "e_machine": "EM_AARCH64",
+      "bits": 64,
+      "pass": true
+    },
+    {
+      "name": "libcube_merge.so",
+      "e_machine": "EM_AARCH64",
+      "bits": 64,
+      "pass": true
+    },
+    {
+      "name": "libde265.so",
+      "e_machine": "EM_AARCH64",
+      "bits": 64,
+      "pass": true
+    },
+    {
+      "name": "libffmpeg_mediametadataretriever_jni.so",
+      "e_machine": "EM_AARCH64",
+      "bits": 64,
+      "pass": true
+    },
+    {
+      "name": "libheif.so",
+      "e_machine": "EM_AARCH64",
+      "bits": 64,
+      "pass": true
+    },
+    {
+      "name": "libllc.so",
+      "e_machine": "EM_AARCH64",
+      "bits": 64,
+      "pass": true
+    },
+    {
+      "name": "libonnxruntime.so",
+      "e_machine": "EM_AARCH64",
+      "bits": 64,
+      "pass": true
+    },
+    {
+      "name": "libonnxruntime4j_jni.so",
+      "e_machine": "EM_AARCH64",
+      "bits": 64,
+      "pass": true
+    },
+    {
+      "name": "libssl.so",
+      "e_machine": "EM_AARCH64",
+      "bits": 64,
+      "pass": true
+    },
+    {
+      "name": "libswscale.so",
+      "e_machine": "EM_AARCH64",
+      "bits": 64,
+      "pass": true
+    },
+    {
+      "name": "libtechorfilter.so",
+      "e_machine": "EM_AARCH64",
+      "bits": 64,
+      "pass": true
+    },
+    {
+      "name": "libyuv-decoder.so",
+      "e_machine": "EM_AARCH64",
+      "bits": 64,
+      "pass": true
+    },
+    {
+      "name": "libyuv.so",
+      "e_machine": "EM_AARCH64",
+      "bits": 64,
+      "pass": true
+    },
+    {
+      "name": "libyuv_android.so",
+      "e_machine": "EM_AARCH64",
+      "bits": 64,
+      "pass": true
+    }
+  ],
+  "pass": true
+}

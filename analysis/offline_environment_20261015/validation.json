@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-15 Asia/Taipei",
+  "preparation_scope_complete": true,
+  "target_execution": false,
+  "large_scale_analysis_started": false,
+  "tool_smoke_checks_passed": true,
+  "offline_setup_rerun_passed": true,
+  "inventory_summary": {
+    "apks": {
+      "verified_sha256_reference": 5
+    },
+    "dex": {
+      "verified_sha256_reference": 2
+    },
+    "native": {
+      "verified_sha256_reference": 18
+    },
+    "selected_corrected_sources": {
+      "verified_normalized_lf_reference": 60,
+      "missing_or_different": 1
+    },
+    "public_evidence": {
+      "verified_git_blob_worktree_crlf": 194,
+      "verified_sha256_reference": 13
+    },
+    "supplementary_firmware": {
+      "verified_historical_profile": 4
+    }
+  },
+  "historical_replay_complete": false,
+  "known_source_variant": "p062f5/P2.java",
+  "missing_input_count": 4,
+  "public_evidence_blob_mismatches": 0,
+  "limitations": [
+    "APK signature verification not repeated",
+    "60 cited Java sources match only after newline normalization; one source differs",
+    "S1M2 V1.4 raw input absent within recorded search scope"
+  ]
+}

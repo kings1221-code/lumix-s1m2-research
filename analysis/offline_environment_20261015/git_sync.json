@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-15 Asia/Taipei",
+  "initial_workspace": "unborn master; no tracked or untracked research files before fetch",
+  "initial_fork_main": "11b6c96602bae41a033b838524bfdb52f3452cd4",
+  "upstream_main_at_sync": "8f625cfabb31e8a71177b86e2b63a69c686de5e8",
+  "before_main_ahead_behind": [
+    0,
+    17
+  ],
+  "local_main": "8f625cfabb31e8a71177b86e2b63a69c686de5e8",
+  "fork_main_after_sync": "8f625cfabb31e8a71177b86e2b63a69c686de5e8",
+  "sync_method": "local merge --ff-only; GitHub update_ref force=false with expected_sha lease; post-update fetch checked 0/0",
+  "cli_push_attempt": "did not update remote: local HTTPS credentials unavailable; connected GitHub API completed authorized fast-forward",
+  "force_used": false,
+  "branches_deleted": false,
+  "personal_changes_merged_into_main": false,
+  "research_branch": "codex/offline-research-environment-20261015",
+  "fork_refs_after_sync": [
+    {
+      "ref": "origin/contrib/s5-integration-gap-audit-20261014",
+      "commit": "b599d1b99a6f8e0b0cb866f243eb05c67ffdfeae",
+      "ahead_of_upstream": 1,
+      "behind_upstream": 1,
+      "unique_commits": [
+        "b599d1b99a6f8e0b0cb866f243eb05c67ffdfeae docs: integrate S5 evidence and S5M2 research gap audit"
+      ]
+    },
+    {
+      "ref": "origin/contrib/s5-s5m2-research-handoff",
+      "commit": "22dd24c9603736c8b5756740df8fa4b53aea1d22",
+      "ahead_of_upstream": 0,
+      "behind_upstream": 15,
+      "unique_commits": []
+    },
+    {
+      "ref": "origin/contrib/s5m2-baseline-crypto-20261014",
+      "commit": "c388d5d4d6c344b26f707b3fa66f84aa1b43e629",
+      "ahead_of_upstream": 1,
+      "behind_upstream": 1,
+      "unique_commits": [
+        "c388d5d4d6c344b26f707b3fa66f84aa1b43e629 feat: add verified S5M2 baseline and bounded AES replay"
+      ]
+    },
+    {
+      "ref": "origin/contrib/s5m2-boot-consumer-audit-20261014",
+      "commit": "3362325de9e36e067f1826575f0fffde24ed98fd",
+      "ahead_of_upstream": 1,
+      "behind_upstream": 1,
+      "unique_commits": [
+        "3362325de9e36e067f1826575f0fffde24ed98fd Audit S5M2 Ver1/Ver2 OSS boot consumers with reproducible evidence"
+      ]
+    },
+    {
+      "ref": "origin/contrib/s5m2-corpus-handoff-20261014",
+      "commit": "0e9e45c54a6cadf9095a612fe03d34839ef638ff",
+      "ahead_of_upstream": 1,
+      "behind_upstream": 1,
+      "unique_commits": [
+        "0e9e45c54a6cadf9095a612fe03d34839ef638ff docs: publish S5M2 full-corpus A+B corrections and compact handoff"
+      ]
+    },
+    {
+      "ref": "origin/main",
+      "commit": "8f625cfabb31e8a71177b86e2b63a69c686de5e8",
+      "ahead_of_upstream": 0,
+      "behind_upstream": 0,
+      "unique_commits": []
+    },
+    {
+      "ref": "origin/research/lumix-lab-env-20261015",
+      "commit": "5d2a99075adafb996b73d39aa85ed3c7f0c1ada8",
+      "ahead_of_upstream": 1,
+      "behind_upstream": 0,
+      "unique_commits": [
+        "5d2a99075adafb996b73d39aa85ed3c7f0c1ada8 Prepare reproducible offline LUMIX Lab research environment"
+      ]
+    }
+  ],
+  "preservation_refs": [
+    "preservation/20261015/contrib/s5-integration-gap-audit-20261014 b599d1b99a6f8e0b0cb866f243eb05c67ffdfeae",
+    "preservation/20261015/contrib/s5-s5m2-research-handoff 22dd24c9603736c8b5756740df8fa4b53aea1d22",
+    "preservation/20261015/contrib/s5m2-baseline-crypto-20261014 c388d5d4d6c344b26f707b3fa66f84aa1b43e629",
+    "preservation/20261015/contrib/s5m2-boot-consumer-audit-20261014 3362325de9e36e067f1826575f0fffde24ed98fd",
+    "preservation/20261015/contrib/s5m2-corpus-handoff-20261014 0e9e45c54a6cadf9095a612fe03d34839ef638ff",
+    "preservation/20261015/fork-main 11b6c96602bae41a033b838524bfdb52f3452cd4"
+  ],
+  "concurrent_changes_left_untouched": [
+    ".codex-remote-attachments/",
+    "downloads/",
+    "origin/research/lumix-lab-env-20261015 (appeared after initial remote snapshot)"
+  ]
+}
