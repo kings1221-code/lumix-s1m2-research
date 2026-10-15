@@ -1,0 +1,5659 @@
+{
+  "coverage": "Explicit method bodies listed below; callbacks manually linked by constructor/receiver types and fields. Synthetic multi-case Runnable methods are context-sensitive, not all cases treated as update paths.",
+  "methods": [
+    {
+      "method": "LR5/d;->c(Ljava/lang/Object;)V",
+      "dex": "classes2.dex",
+      "method_index": 7319,
+      "code_item_offset": 1619772,
+      "insns_offset": 1619788,
+      "code_units": 215,
+      "access_flags": 17,
+      "call_sites": [
+        {
+          "offset_cu": 10,
+          "dex_byte_offset": "0x18b760",
+          "target": "Ljava/lang/Object;->getClass()Ljava/lang/Class;",
+          "registers": [
+            1
+          ]
+        },
+        {
+          "offset_cu": 13,
+          "dex_byte_offset": "0x18b766",
+          "target": "Lg8/G0;->b()J",
+          "registers": [
+            14
+          ]
+        },
+        {
+          "offset_cu": 23,
+          "dex_byte_offset": "0x18b77a",
+          "target": "Lcom/panasonic/jp/lumixlab/bean/CommunityDownloadInfoBean;-><init>()V",
+          "registers": [
+            4
+          ]
+        },
+        {
+          "offset_cu": 27,
+          "dex_byte_offset": "0x18b782",
+          "target": "Lg8/G0;->p()Lu8/l;",
+          "registers": [
+            14
+          ]
+        },
+        {
+          "offset_cu": 31,
+          "dex_byte_offset": "0x18b78a",
+          "target": "Lu8/l;->k0()Ljava/io/InputStream;",
+          "registers": [
+            14
+          ]
+        },
+        {
+          "offset_cu": 35,
+          "dex_byte_offset": "0x18b792",
+          "target": "Lcom/panasonic/jp/lumixlab/util/b0;->H()Lcom/panasonic/jp/lumixlab/util/b0;",
+          "registers": []
+        },
+        {
+          "offset_cu": 43,
+          "dex_byte_offset": "0x18b7a2",
+          "target": "Ljava/lang/Object;->getClass()Ljava/lang/Class;",
+          "registers": [
+            6
+          ]
+        },
+        {
+          "offset_cu": 46,
+          "dex_byte_offset": "0x18b7a8",
+          "target": "Lcom/panasonic/jp/lumixlab/util/b0;->A(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;",
+          "registers": [
+            7,
+            13,
+            8
+          ]
+        },
+        {
+          "offset_cu": 52,
+          "dex_byte_offset": "0x18b7b4",
+          "target": "Ljava/io/File;-><init>(Ljava/lang/String;)V",
+          "registers": [
+            7,
+            6
+          ]
+        },
+        {
+          "offset_cu": 55,
+          "dex_byte_offset": "0x18b7ba",
+          "target": "Lcom/panasonic/jp/lumixlab/bean/CommunityDownloadInfoBean;->setFile(Ljava/io/File;)V",
+          "registers": [
+            4,
+            7
+          ]
+        },
+        {
+          "offset_cu": 58,
+          "dex_byte_offset": "0x18b7c0",
+          "target": "Lcom/panasonic/jp/lumixlab/util/b0;->H()Lcom/panasonic/jp/lumixlab/util/b0;",
+          "registers": []
+        },
+        {
+          "offset_cu": 62,
+          "dex_byte_offset": "0x18b7c8",
+          "target": "Ljava/lang/Object;->getClass()Ljava/lang/Class;",
+          "registers": [
+            7
+          ]
+        },
+        {
+          "offset_cu": 67,
+          "dex_byte_offset": "0x18b7d2",
+          "target": "Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;",
+          "registers": [
+            13,
+            7
+          ]
+        },
+        {
+          "offset_cu": 78,
+          "dex_byte_offset": "0x18b7e8",
+          "target": "Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;",
+          "registers": [
+            13,
+            7
+          ]
+        },
+        {
+          "offset_cu": 85,
+          "dex_byte_offset": "0x18b7f6",
+          "target": "Lcom/panasonic/jp/lumixlab/bean/CommunityDownloadInfoBean;->setFileName(Ljava/lang/String;)V",
+          "registers": [
+            4,
+            13
+          ]
+        },
+        {
+          "offset_cu": 88,
+          "dex_byte_offset": "0x18b7fc",
+          "target": "Lcom/panasonic/jp/lumixlab/bean/CommunityDownloadInfoBean;->setFileSize(J)V",
+          "registers": [
+            4,
+            1,
+            2
+          ]
+        },
+        {
+          "offset_cu": 93,
+          "dex_byte_offset": "0x18b806",
+          "target": "Ljava/io/FileOutputStream;-><init>(Ljava/lang/String;)V",
+          "registers": [
+            13,
+            6
+          ]
+        },
+        {
+          "offset_cu": 99,
+          "dex_byte_offset": "0x18b812",
+          "target": "Ljava/io/InputStream;->read([B)I",
+          "registers": [
+            14,
+            3
+          ]
+        },
+        {
+          "offset_cu": 106,
+          "dex_byte_offset": "0x18b820",
+          "target": "Ljava/io/FileOutputStream;->write([BII)V",
+          "registers": [
+            13,
+            3,
+            7,
+            11
+          ]
+        },
+        {
+          "offset_cu": 116,
+          "dex_byte_offset": "0x18b834",
+          "target": "Lcom/panasonic/jp/lumixlab/bean/CommunityDownloadInfoBean;->setProgress(I)V",
+          "registers": [
+            4,
+            11
+          ]
+        },
+        {
+          "offset_cu": 119,
+          "dex_byte_offset": "0x18b83a",
+          "target": "Lcom/panasonic/jp/lumixlab/bean/CommunityDownloadInfoBean;->setSpeed(J)V",
+          "registers": [
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "offset_cu": 122,
+          "dex_byte_offset": "0x18b840",
+          "target": "Lcom/panasonic/jp/lumixlab/bean/CommunityDownloadInfoBean;->setCurrentSize(J)V",
+          "registers": [
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "offset_cu": 136,
+          "dex_byte_offset": "0x18b85c",
+          "target": "Lcom/panasonic/jp/lumixlab/util/V;->e(ILcom/panasonic/jp/lumixlab/bean/CommunityDownloadInfoBean;)V",
+          "registers": [
+            0,
+            11,
+            4
+          ]
+        },
+        {
+          "offset_cu": 145,
+          "dex_byte_offset": "0x18b86e",
+          "target": "Lcom/panasonic/jp/lumixlab/util/V;->e(ILcom/panasonic/jp/lumixlab/bean/CommunityDownloadInfoBean;)V",
+          "registers": [
+            0,
+            8,
+            4
+          ]
+        },
+        {
+          "offset_cu": 149,
+          "dex_byte_offset": "0x18b876",
+          "target": "Ljava/io/OutputStream;->flush()V",
+          "registers": [
+            13
+          ]
+        },
+        {
+          "offset_cu": 152,
+          "dex_byte_offset": "0x18b87c",
+          "target": "Ljava/io/InputStream;->close()V",
+          "registers": [
+            14
+          ]
+        },
+        {
+          "offset_cu": 155,
+          "dex_byte_offset": "0x18b882",
+          "target": "Ljava/io/FileOutputStream;->close()V",
+          "registers": [
+            13
+          ]
+        },
+        {
+          "offset_cu": 185,
+          "dex_byte_offset": "0x18b8be",
+          "target": "Ljava/io/InputStream;->close()V",
+          "registers": [
+            5
+          ]
+        },
+        {
+          "offset_cu": 190,
+          "dex_byte_offset": "0x18b8c8",
+          "target": "Ljava/io/FileOutputStream;->close()V",
+          "registers": [
+            13
+          ]
+        },
+        {
+          "offset_cu": 200,
+          "dex_byte_offset": "0x18b8dc",
+          "target": "Ljava/io/InputStream;->close()V",
+          "registers": [
+            5
+          ]
+        },
+        {
+          "offset_cu": 205,
+          "dex_byte_offset": "0x18b8e6",
+          "target": "Ljava/io/FileOutputStream;->close()V",
+          "registers": [
+            13
+          ]
+        }
+      ],
+      "direct_native_calls": []
+    },
+    {
+      "method": "LR5/e;->b(Loa/h;Loa/s0;)V",
+      "dex": "classes2.dex",
+      "method_index": 7323,
+      "code_item_offset": 1620496,
+      "insns_offset": 1620512,
+      "code_units": 536,
+      "access_flags": 17,
+      "call_sites": [
+        {
+          "offset_cu": 23,
+          "dex_byte_offset": "0x18ba4e",
+          "target": "Lcom/panasonic/jp/lumixlab/bean/LutDataBean;->getHeader()Lcom/panasonic/jp/lumixlab/bean/LutDataBean$HeaderBean;",
+          "registers": [
+            3
+          ]
+        },
+        {
+          "offset_cu": 33,
+          "dex_byte_offset": "0x18ba62",
+          "target": "Lcom/panasonic/jp/lumixlab/bean/LutDataBean;->getHeader()Lcom/panasonic/jp/lumixlab/bean/LutDataBean$HeaderBean;",
+          "registers": [
+            2
+          ]
+        },
+        {
+          "offset_cu": 37,
+          "dex_byte_offset": "0x18ba6a",
+          "target": "Lcom/panasonic/jp/lumixlab/bean/LutDataBean$HeaderBean;->getResponseCode()I",
+          "registers": [
+            2
+          ]
+        },
+        {
+          "offset_cu": 49,
+          "dex_byte_offset": "0x18ba82",
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateDownloadPath()Ljava/lang/String;",
+          "registers": [
+            6
+          ]
+        },
+        {
+          "offset_cu": 59,
+          "dex_byte_offset": "0x18ba96",
+          "target": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->y0(Z)V",
+          "registers": [
+            2,
+            1
+          ]
+        },
+        {
+          "offset_cu": 62,
+          "dex_byte_offset": "0x18ba9c",
+          "target": "Lcom/panasonic/jp/lumixlab/bean/LutDataBean;->getData()Lcom/panasonic/jp/lumixlab/bean/LutDataBean$DataBean;",
+          "registers": [
+            8
+          ]
+        },
+        {
+          "offset_cu": 68,
+          "dex_byte_offset": "0x18baa8",
+          "target": "Lcom/panasonic/jp/lumixlab/bean/LutDataBean;->getData()Lcom/panasonic/jp/lumixlab/bean/LutDataBean$DataBean;",
+          "registers": [
+            8
+          ]
+        },
+        {
+          "offset_cu": 72,
+          "dex_byte_offset": "0x18bab0",
+          "target": "Lcom/panasonic/jp/lumixlab/bean/LutDataBean$DataBean;->getBufsize()I",
+          "registers": [
+            1
+          ]
+        },
+        {
+          "offset_cu": 80,
+          "dex_byte_offset": "0x18bac0",
+          "target": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->z0(Ljava/lang/String;)V",
+          "registers": [
+            2,
+            1
+          ]
+        },
+        {
+          "offset_cu": 85,
+          "dex_byte_offset": "0x18baca",
+          "target": "Lcom/panasonic/jp/lumixlab/bean/LutDataBean;->getData()Lcom/panasonic/jp/lumixlab/bean/LutDataBean$DataBean;",
+          "registers": [
+            8
+          ]
+        },
+        {
+          "offset_cu": 89,
+          "dex_byte_offset": "0x18bad2",
+          "target": "Lcom/panasonic/jp/lumixlab/bean/LutDataBean$DataBean;->getBufsize()I",
+          "registers": [
+            8
+          ]
+        },
+        {
+          "offset_cu": 97,
+          "dex_byte_offset": "0x18bae2",
+          "target": "Ljava/io/File;-><init>(Ljava/lang/String;)V",
+          "registers": [
+            8,
+            6
+          ]
+        },
+        {
+          "offset_cu": 100,
+          "dex_byte_offset": "0x18bae8",
+          "target": "Ljava/io/File;->exists()Z",
+          "registers": [
+            8
+          ]
+        },
+        {
+          "offset_cu": 106,
+          "dex_byte_offset": "0x18baf4",
+          "target": "Ljava/io/File;->isFile()Z",
+          "registers": [
+            8
+          ]
+        },
+        {
+          "offset_cu": 112,
+          "dex_byte_offset": "0x18bb00",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "registers": []
+        },
+        {
+          "offset_cu": 116,
+          "dex_byte_offset": "0x18bb08",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->setFirmwareOperationState(I)V",
+          "registers": [
+            6,
+            7
+          ]
+        },
+        {
+          "offset_cu": 121,
+          "dex_byte_offset": "0x18bb12",
+          "target": "Ljava/io/File;->length()J",
+          "registers": [
+            8
+          ]
+        },
+        {
+          "offset_cu": 132,
+          "dex_byte_offset": "0x18bb28",
+          "target": "Ljava/lang/Math;->ceil(D)D",
+          "registers": [
+            6,
+            7
+          ]
+        },
+        {
+          "offset_cu": 143,
+          "dex_byte_offset": "0x18bb3e",
+          "target": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->x0()V",
+          "registers": [
+            2
+          ]
+        },
+        {
+          "offset_cu": 151,
+          "dex_byte_offset": "0x18bb4e",
+          "target": "Landroidx/fragment/app/N;->getString(I)Ljava/lang/String;",
+          "registers": [
+            2,
+            6
+          ]
+        },
+        {
+          "offset_cu": 155,
+          "dex_byte_offset": "0x18bb56",
+          "target": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->r0(ILjava/lang/String;)V",
+          "registers": [
+            2,
+            0,
+            6
+          ]
+        },
+        {
+          "offset_cu": 160,
+          "dex_byte_offset": "0x18bb60",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "registers": []
+        },
+        {
+          "offset_cu": 164,
+          "dex_byte_offset": "0x18bb68",
+          "target": "Landroid/content/Context;->getString(I)Ljava/lang/String;",
+          "registers": [
+            6,
+            5
+          ]
+        },
+        {
+          "offset_cu": 168,
+          "dex_byte_offset": "0x18bb70",
+          "target": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->r0(ILjava/lang/String;)V",
+          "registers": [
+            2,
+            0,
+            6
+          ]
+        },
+        {
+          "offset_cu": 173,
+          "dex_byte_offset": "0x18bb7a",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "registers": []
+        },
+        {
+          "offset_cu": 177,
+          "dex_byte_offset": "0x18bb82",
+          "target": "Landroid/content/Context;->getString(I)Ljava/lang/String;",
+          "registers": [
+            2,
+            5
+          ]
+        },
+        {
+          "offset_cu": 185,
+          "dex_byte_offset": "0x18bb92",
+          "target": "Lcom/panasonic/jp/lumixlab/bean/LutDataBean;->getData()Lcom/panasonic/jp/lumixlab/bean/LutDataBean$DataBean;",
+          "registers": [
+            8
+          ]
+        },
+        {
+          "offset_cu": 191,
+          "dex_byte_offset": "0x18bb9e",
+          "target": "Lcom/panasonic/jp/lumixlab/bean/LutDataBean$DataBean;->getErrorinfo()Ljava/lang/String;",
+          "registers": [
+            8
+          ]
+        },
+        {
+          "offset_cu": 195,
+          "dex_byte_offset": "0x18bba6",
+          "target": "Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z",
+          "registers": [
+            3
+          ]
+        },
+        {
+          "offset_cu": 201,
+          "dex_byte_offset": "0x18bbb2",
+          "target": "Lcom/panasonic/jp/lumixlab/bean/LutDataBean$DataBean;->getErrorinfo()Ljava/lang/String;",
+          "registers": [
+            8
+          ]
+        },
+        {
+          "offset_cu": 205,
+          "dex_byte_offset": "0x18bbba",
+          "target": "Ljava/util/Locale;->getDefault()Ljava/util/Locale;",
+          "registers": []
+        },
+        {
+          "offset_cu": 209,
+          "dex_byte_offset": "0x18bbc2",
+          "target": "Ljava/lang/String;->toLowerCase(Ljava/util/Locale;)Ljava/lang/String;",
+          "registers": [
+            8,
+            2
+          ]
+        },
+        {
+          "offset_cu": 213,
+          "dex_byte_offset": "0x18bbca",
+          "target": "Ljava/lang/Object;->getClass()Ljava/lang/Class;",
+          "registers": [
+            8
+          ]
+        },
+        {
+          "offset_cu": 216,
+          "dex_byte_offset": "0x18bbd0",
+          "target": "Ljava/lang/String;->hashCode()I",
+          "registers": [
+            8
+          ]
+        },
+        {
+          "offset_cu": 227,
+          "dex_byte_offset": "0x18bbe6",
+          "target": "Ljava/lang/String;->equals(Ljava/lang/Object;)Z",
+          "registers": [
+            8,
+            7
+          ]
+        },
+        {
+          "offset_cu": 238,
+          "dex_byte_offset": "0x18bbfc",
+          "target": "Ljava/lang/String;->equals(Ljava/lang/Object;)Z",
+          "registers": [
+            8,
+            7
+          ]
+        },
+        {
+          "offset_cu": 249,
+          "dex_byte_offset": "0x18bc12",
+          "target": "Ljava/lang/String;->equals(Ljava/lang/Object;)Z",
+          "registers": [
+            8,
+            7
+          ]
+        },
+        {
+          "offset_cu": 260,
+          "dex_byte_offset": "0x18bc28",
+          "target": "Ljava/lang/String;->equals(Ljava/lang/Object;)Z",
+          "registers": [
+            8,
+            7
+          ]
+        },
+        {
+          "offset_cu": 271,
+          "dex_byte_offset": "0x18bc3e",
+          "target": "Ljava/lang/String;->equals(Ljava/lang/Object;)Z",
+          "registers": [
+            8,
+            7
+          ]
+        },
+        {
+          "offset_cu": 282,
+          "dex_byte_offset": "0x18bc54",
+          "target": "Ljava/lang/String;->equals(Ljava/lang/Object;)Z",
+          "registers": [
+            8,
+            7
+          ]
+        },
+        {
+          "offset_cu": 293,
+          "dex_byte_offset": "0x18bc6a",
+          "target": "Ljava/lang/String;->equals(Ljava/lang/Object;)Z",
+          "registers": [
+            8,
+            1
+          ]
+        },
+        {
+          "offset_cu": 302,
+          "dex_byte_offset": "0x18bc7c",
+          "target": "Ljava/lang/String;->equals(Ljava/lang/Object;)Z",
+          "registers": [
+            8,
+            7
+          ]
+        },
+        {
+          "offset_cu": 313,
+          "dex_byte_offset": "0x18bc92",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "registers": []
+        },
+        {
+          "offset_cu": 317,
+          "dex_byte_offset": "0x18bc9a",
+          "target": "Landroid/content/Context;->getString(I)Ljava/lang/String;",
+          "registers": [
+            7,
+            5
+          ]
+        },
+        {
+          "offset_cu": 323,
+          "dex_byte_offset": "0x18bca6",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "registers": []
+        },
+        {
+          "offset_cu": 330,
+          "dex_byte_offset": "0x18bcb4",
+          "target": "Landroid/content/Context;->getString(I)Ljava/lang/String;",
+          "registers": [
+            7,
+            8
+          ]
+        },
+        {
+          "offset_cu": 336,
+          "dex_byte_offset": "0x18bcc0",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "registers": []
+        },
+        {
+          "offset_cu": 343,
+          "dex_byte_offset": "0x18bcce",
+          "target": "Landroid/content/Context;->getString(I)Ljava/lang/String;",
+          "registers": [
+            7,
+            8
+          ]
+        },
+        {
+          "offset_cu": 349,
+          "dex_byte_offset": "0x18bcda",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "registers": []
+        },
+        {
+          "offset_cu": 356,
+          "dex_byte_offset": "0x18bce8",
+          "target": "Landroid/content/Context;->getString(I)Ljava/lang/String;",
+          "registers": [
+            7,
+            8
+          ]
+        },
+        {
+          "offset_cu": 361,
+          "dex_byte_offset": "0x18bcf2",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "registers": []
+        },
+        {
+          "offset_cu": 368,
+          "dex_byte_offset": "0x18bd00",
+          "target": "Landroid/content/Context;->getString(I)Ljava/lang/String;",
+          "registers": [
+            7,
+            8
+          ]
+        },
+        {
+          "offset_cu": 375,
+          "dex_byte_offset": "0x18bd0e",
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateDeviceType()I",
+          "registers": [
+            7
+          ]
+        },
+        {
+          "offset_cu": 381,
+          "dex_byte_offset": "0x18bd1a",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "registers": []
+        },
+        {
+          "offset_cu": 388,
+          "dex_byte_offset": "0x18bd28",
+          "target": "Landroid/content/Context;->getString(I)Ljava/lang/String;",
+          "registers": [
+            7,
+            8
+          ]
+        },
+        {
+          "offset_cu": 393,
+          "dex_byte_offset": "0x18bd32",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "registers": []
+        },
+        {
+          "offset_cu": 400,
+          "dex_byte_offset": "0x18bd40",
+          "target": "Landroid/content/Context;->getString(I)Ljava/lang/String;",
+          "registers": [
+            7,
+            8
+          ]
+        },
+        {
+          "offset_cu": 407,
+          "dex_byte_offset": "0x18bd4e",
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateDeviceType()I",
+          "registers": [
+            7
+          ]
+        },
+        {
+          "offset_cu": 413,
+          "dex_byte_offset": "0x18bd5a",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "registers": []
+        },
+        {
+          "offset_cu": 420,
+          "dex_byte_offset": "0x18bd68",
+          "target": "Landroid/content/Context;->getString(I)Ljava/lang/String;",
+          "registers": [
+            7,
+            8
+          ]
+        },
+        {
+          "offset_cu": 425,
+          "dex_byte_offset": "0x18bd72",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "registers": []
+        },
+        {
+          "offset_cu": 432,
+          "dex_byte_offset": "0x18bd80",
+          "target": "Landroid/content/Context;->getString(I)Ljava/lang/String;",
+          "registers": [
+            7,
+            8
+          ]
+        },
+        {
+          "offset_cu": 437,
+          "dex_byte_offset": "0x18bd8a",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "registers": []
+        },
+        {
+          "offset_cu": 444,
+          "dex_byte_offset": "0x18bd98",
+          "target": "Landroid/content/Context;->getString(I)Ljava/lang/String;",
+          "registers": [
+            7,
+            8
+          ]
+        },
+        {
+          "offset_cu": 449,
+          "dex_byte_offset": "0x18bda2",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "registers": []
+        },
+        {
+          "offset_cu": 456,
+          "dex_byte_offset": "0x18bdb0",
+          "target": "Landroid/content/Context;->getString(I)Ljava/lang/String;",
+          "registers": [
+            7,
+            8
+          ]
+        },
+        {
+          "offset_cu": 464,
+          "dex_byte_offset": "0x18bdc0",
+          "target": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->p0(Ljava/lang/String;)V",
+          "registers": [
+            6,
+            2
+          ]
+        },
+        {
+          "offset_cu": 468,
+          "dex_byte_offset": "0x18bdc8",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "registers": []
+        },
+        {
+          "offset_cu": 472,
+          "dex_byte_offset": "0x18bdd0",
+          "target": "Landroid/content/Context;->getString(I)Ljava/lang/String;",
+          "registers": [
+            6,
+            5
+          ]
+        },
+        {
+          "offset_cu": 478,
+          "dex_byte_offset": "0x18bddc",
+          "target": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->p0(Ljava/lang/String;)V",
+          "registers": [
+            2,
+            6
+          ]
+        }
+      ],
+      "direct_native_calls": []
+    },
+    {
+      "method": "LR5/f;->b(Loa/h;Loa/s0;)V",
+      "dex": "classes2.dex",
+      "method_index": 7326,
+      "code_item_offset": 1621672,
+      "insns_offset": 1621688,
+      "code_units": 168,
+      "access_flags": 17,
+      "call_sites": [
+        {
+          "offset_cu": 0,
+          "dex_byte_offset": "0x18beb8",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "registers": []
+        },
+        {
+          "offset_cu": 7,
+          "dex_byte_offset": "0x18bec6",
+          "target": "Landroid/content/Context;->getString(I)Ljava/lang/String;",
+          "registers": [
+            5,
+            0
+          ]
+        },
+        {
+          "offset_cu": 20,
+          "dex_byte_offset": "0x18bee0",
+          "target": "Lcom/panasonic/jp/lumixlab/bean/LutDataBean;->getData()Lcom/panasonic/jp/lumixlab/bean/LutDataBean$DataBean;",
+          "registers": [
+            6
+          ]
+        },
+        {
+          "offset_cu": 26,
+          "dex_byte_offset": "0x18beec",
+          "target": "Lcom/panasonic/jp/lumixlab/bean/LutDataBean;->getData()Lcom/panasonic/jp/lumixlab/bean/LutDataBean$DataBean;",
+          "registers": [
+            6
+          ]
+        },
+        {
+          "offset_cu": 30,
+          "dex_byte_offset": "0x18bef4",
+          "target": "Lcom/panasonic/jp/lumixlab/bean/LutDataBean$DataBean;->getResult()I",
+          "registers": [
+            2
+          ]
+        },
+        {
+          "offset_cu": 36,
+          "dex_byte_offset": "0x18bf00",
+          "target": "Lcom/panasonic/jp/lumixlab/bean/LutDataBean;->getData()Lcom/panasonic/jp/lumixlab/bean/LutDataBean$DataBean;",
+          "registers": [
+            6
+          ]
+        },
+        {
+          "offset_cu": 40,
+          "dex_byte_offset": "0x18bf08",
+          "target": "Lcom/panasonic/jp/lumixlab/bean/LutDataBean$DataBean;->getErrorinfo()Ljava/lang/String;",
+          "registers": [
+            2
+          ]
+        },
+        {
+          "offset_cu": 44,
+          "dex_byte_offset": "0x18bf10",
+          "target": "Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z",
+          "registers": [
+            2
+          ]
+        },
+        {
+          "offset_cu": 50,
+          "dex_byte_offset": "0x18bf1c",
+          "target": "Lcom/panasonic/jp/lumixlab/bean/LutDataBean;->getData()Lcom/panasonic/jp/lumixlab/bean/LutDataBean$DataBean;",
+          "registers": [
+            6
+          ]
+        },
+        {
+          "offset_cu": 54,
+          "dex_byte_offset": "0x18bf24",
+          "target": "Lcom/panasonic/jp/lumixlab/bean/LutDataBean$DataBean;->getErrorinfo()Ljava/lang/String;",
+          "registers": [
+            2
+          ]
+        },
+        {
+          "offset_cu": 60,
+          "dex_byte_offset": "0x18bf30",
+          "target": "Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z",
+          "registers": [
+            3,
+            2
+          ]
+        },
+        {
+          "offset_cu": 70,
+          "dex_byte_offset": "0x18bf44",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "registers": []
+        },
+        {
+          "offset_cu": 77,
+          "dex_byte_offset": "0x18bf52",
+          "target": "Landroid/content/Context;->getString(I)Ljava/lang/String;",
+          "registers": [
+            4,
+            5
+          ]
+        },
+        {
+          "offset_cu": 83,
+          "dex_byte_offset": "0x18bf5e",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "registers": []
+        },
+        {
+          "offset_cu": 90,
+          "dex_byte_offset": "0x18bf6c",
+          "target": "Landroid/content/Context;->getString(I)Ljava/lang/String;",
+          "registers": [
+            4,
+            5
+          ]
+        },
+        {
+          "offset_cu": 95,
+          "dex_byte_offset": "0x18bf76",
+          "target": "Lcom/panasonic/jp/lumixlab/bean/LutDataBean;->getHeader()Lcom/panasonic/jp/lumixlab/bean/LutDataBean$HeaderBean;",
+          "registers": [
+            6
+          ]
+        },
+        {
+          "offset_cu": 101,
+          "dex_byte_offset": "0x18bf82",
+          "target": "Lcom/panasonic/jp/lumixlab/bean/LutDataBean;->getHeader()Lcom/panasonic/jp/lumixlab/bean/LutDataBean$HeaderBean;",
+          "registers": [
+            6
+          ]
+        },
+        {
+          "offset_cu": 105,
+          "dex_byte_offset": "0x18bf8a",
+          "target": "Lcom/panasonic/jp/lumixlab/bean/LutDataBean$HeaderBean;->getResponseCode()I",
+          "registers": [
+            4
+          ]
+        },
+        {
+          "offset_cu": 113,
+          "dex_byte_offset": "0x18bf9a",
+          "target": "Lcom/panasonic/jp/lumixlab/bean/LutDataBean;->getData()Lcom/panasonic/jp/lumixlab/bean/LutDataBean$DataBean;",
+          "registers": [
+            6
+          ]
+        },
+        {
+          "offset_cu": 117,
+          "dex_byte_offset": "0x18bfa2",
+          "target": "Lcom/panasonic/jp/lumixlab/bean/LutDataBean$DataBean;->getResult()I",
+          "registers": [
+            4
+          ]
+        },
+        {
+          "offset_cu": 126,
+          "dex_byte_offset": "0x18bfb4",
+          "target": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->r0(ILjava/lang/String;)V",
+          "registers": [
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "offset_cu": 132,
+          "dex_byte_offset": "0x18bfc0",
+          "target": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->r0(ILjava/lang/String;)V",
+          "registers": [
+            1,
+            0,
+            5
+          ]
+        },
+        {
+          "offset_cu": 136,
+          "dex_byte_offset": "0x18bfc8",
+          "target": "Lcom/panasonic/jp/lumixlab/bean/LutDataBean;->getHeader()Lcom/panasonic/jp/lumixlab/bean/LutDataBean$HeaderBean;",
+          "registers": [
+            6
+          ]
+        },
+        {
+          "offset_cu": 140,
+          "dex_byte_offset": "0x18bfd0",
+          "target": "Lcom/panasonic/jp/lumixlab/bean/LutDataBean$HeaderBean;->getResponseCode()I",
+          "registers": [
+            4
+          ]
+        },
+        {
+          "offset_cu": 146,
+          "dex_byte_offset": "0x18bfdc",
+          "target": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->r0(ILjava/lang/String;)V",
+          "registers": [
+            1,
+            4,
+            5
+          ]
+        },
+        {
+          "offset_cu": 152,
+          "dex_byte_offset": "0x18bfe8",
+          "target": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->r0(ILjava/lang/String;)V",
+          "registers": [
+            1,
+            0,
+            5
+          ]
+        },
+        {
+          "offset_cu": 158,
+          "dex_byte_offset": "0x18bff4",
+          "target": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->r0(ILjava/lang/String;)V",
+          "registers": [
+            1,
+            0,
+            5
+          ]
+        },
+        {
+          "offset_cu": 164,
+          "dex_byte_offset": "0x18c000",
+          "target": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->r0(ILjava/lang/String;)V",
+          "registers": [
+            1,
+            0,
+            5
+          ]
+        }
+      ],
+      "direct_native_calls": []
+    },
+    {
+      "method": "LR5/h;->b(Ljava/lang/String;Ljava/lang/String;Lg8/y0;ILcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;)V",
+      "dex": "classes2.dex",
+      "method_index": 7332,
+      "code_item_offset": 1622812,
+      "insns_offset": 1622828,
+      "code_units": 87,
+      "access_flags": 17,
+      "call_sites": [
+        {
+          "offset_cu": 2,
+          "dex_byte_offset": "0x18c330",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "registers": []
+        },
+        {
+          "offset_cu": 6,
+          "dex_byte_offset": "0x18c338",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getAuthToken()Ljava/lang/String;",
+          "registers": [
+            1
+          ]
+        },
+        {
+          "offset_cu": 10,
+          "dex_byte_offset": "0x18c340",
+          "target": "LI5/c;->d()Ljava/lang/String;",
+          "registers": []
+        },
+        {
+          "offset_cu": 20,
+          "dex_byte_offset": "0x18c354",
+          "target": "Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V",
+          "registers": [
+            3,
+            0
+          ]
+        },
+        {
+          "offset_cu": 23,
+          "dex_byte_offset": "0x18c35a",
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+          "registers": [
+            3,
+            2
+          ]
+        },
+        {
+          "offset_cu": 28,
+          "dex_byte_offset": "0x18c364",
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+          "registers": [
+            3,
+            0
+          ]
+        },
+        {
+          "offset_cu": 31,
+          "dex_byte_offset": "0x18c36a",
+          "target": "Ljava/lang/StringBuilder;->toString()Ljava/lang/String;",
+          "registers": [
+            3
+          ]
+        },
+        {
+          "offset_cu": 37,
+          "dex_byte_offset": "0x18c376",
+          "target": "Lh6/h;->a()Lh6/h;",
+          "registers": []
+        },
+        {
+          "offset_cu": 41,
+          "dex_byte_offset": "0x18c37e",
+          "target": "Ljava/lang/Object;->getClass()Ljava/lang/Class;",
+          "registers": [
+            0
+          ]
+        },
+        {
+          "offset_cu": 44,
+          "dex_byte_offset": "0x18c384",
+          "target": "Lh6/h;->l()Loa/v0;",
+          "registers": []
+        },
+        {
+          "offset_cu": 48,
+          "dex_byte_offset": "0x18c38c",
+          "target": "Loa/v0;->b()Ljava/lang/Object;",
+          "registers": [
+            0
+          ]
+        },
+        {
+          "offset_cu": 54,
+          "dex_byte_offset": "0x18c398",
+          "target": "Lcom/panasonic/jp/lumixlab/util/v;->J(Ljava/lang/String;)Ljava/lang/String;",
+          "registers": [
+            1
+          ]
+        },
+        {
+          "offset_cu": 58,
+          "dex_byte_offset": "0x18c3a0",
+          "target": "Lh6/a;->A(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lg8/A0;)Loa/h;",
+          "registers": [
+            0,
+            1,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "offset_cu": 64,
+          "dex_byte_offset": "0x18c3ac",
+          "target": "LR5/f;-><init>(LR5/h;ILR5/a;)V",
+          "registers": [
+            6,
+            4,
+            8,
+            9
+          ]
+        },
+        {
+          "offset_cu": 67,
+          "dex_byte_offset": "0x18c3b2",
+          "target": "Loa/h;->z(Loa/k;)V",
+          "registers": [
+            5,
+            6
+          ]
+        },
+        {
+          "offset_cu": 71,
+          "dex_byte_offset": "0x18c3ba",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "registers": []
+        },
+        {
+          "offset_cu": 78,
+          "dex_byte_offset": "0x18c3c8",
+          "target": "Landroid/content/Context;->getString(I)Ljava/lang/String;",
+          "registers": [
+            4,
+            5
+          ]
+        },
+        {
+          "offset_cu": 83,
+          "dex_byte_offset": "0x18c3d2",
+          "target": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->r0(ILjava/lang/String;)V",
+          "registers": [
+            9,
+            5,
+            4
+          ]
+        }
+      ],
+      "direct_native_calls": []
+    },
+    {
+      "method": "LY5/h;->run()V",
+      "dex": "classes2.dex",
+      "method_index": 9055,
+      "code_item_offset": 1781536,
+      "insns_offset": 1781552,
+      "code_units": 1016,
+      "access_flags": 17,
+      "call_sites": [
+        {
+          "offset_cu": 26,
+          "dex_byte_offset": "0x1b2f64",
+          "target": "Ljava/lang/Object;->getClass()Ljava/lang/Class;",
+          "registers": [
+            0
+          ]
+        },
+        {
+          "offset_cu": 33,
+          "dex_byte_offset": "0x1b2f72",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "registers": []
+        },
+        {
+          "offset_cu": 37,
+          "dex_byte_offset": "0x1b2f7a",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getAuthToken()Ljava/lang/String;",
+          "registers": [
+            7
+          ]
+        },
+        {
+          "offset_cu": 41,
+          "dex_byte_offset": "0x1b2f82",
+          "target": "Lcom/panasonic/jp/lumixlab/util/v;->J(Ljava/lang/String;)Ljava/lang/String;",
+          "registers": [
+            7
+          ]
+        },
+        {
+          "offset_cu": 54,
+          "dex_byte_offset": "0x1b2f9c",
+          "target": "Ljava/lang/Thread;->sleep(J)V",
+          "registers": [
+            8,
+            9
+          ]
+        },
+        {
+          "offset_cu": 57,
+          "dex_byte_offset": "0x1b2fa2",
+          "target": "LI5/c;->d()Ljava/lang/String;",
+          "registers": []
+        },
+        {
+          "offset_cu": 67,
+          "dex_byte_offset": "0x1b2fb6",
+          "target": "Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V",
+          "registers": [
+            9,
+            6
+          ]
+        },
+        {
+          "offset_cu": 70,
+          "dex_byte_offset": "0x1b2fbc",
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+          "registers": [
+            9,
+            8
+          ]
+        },
+        {
+          "offset_cu": 75,
+          "dex_byte_offset": "0x1b2fc6",
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+          "registers": [
+            9,
+            6
+          ]
+        },
+        {
+          "offset_cu": 78,
+          "dex_byte_offset": "0x1b2fcc",
+          "target": "Ljava/lang/StringBuilder;->toString()Ljava/lang/String;",
+          "registers": [
+            9
+          ]
+        },
+        {
+          "offset_cu": 86,
+          "dex_byte_offset": "0x1b2fdc",
+          "target": "Lorg/json/JSONObject;-><init>()V",
+          "registers": [
+            6
+          ]
+        },
+        {
+          "offset_cu": 91,
+          "dex_byte_offset": "0x1b2fe6",
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateDeviceType()I",
+          "registers": [
+            4
+          ]
+        },
+        {
+          "offset_cu": 95,
+          "dex_byte_offset": "0x1b2fee",
+          "target": "Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;",
+          "registers": [
+            6,
+            8,
+            9
+          ]
+        },
+        {
+          "offset_cu": 98,
+          "dex_byte_offset": "0x1b2ff4",
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateVersion()Ljava/lang/String;",
+          "registers": [
+            4
+          ]
+        },
+        {
+          "offset_cu": 104,
+          "dex_byte_offset": "0x1b3000",
+          "target": "Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z",
+          "registers": [
+            8,
+            9
+          ]
+        },
+        {
+          "offset_cu": 110,
+          "dex_byte_offset": "0x1b300c",
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateVersion()Ljava/lang/String;",
+          "registers": [
+            4
+          ]
+        },
+        {
+          "offset_cu": 115,
+          "dex_byte_offset": "0x1b3016",
+          "target": "Ljava/lang/String;->substring(I)Ljava/lang/String;",
+          "registers": [
+            8,
+            9
+          ]
+        },
+        {
+          "offset_cu": 120,
+          "dex_byte_offset": "0x1b3020",
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateVersion()Ljava/lang/String;",
+          "registers": [
+            4
+          ]
+        },
+        {
+          "offset_cu": 126,
+          "dex_byte_offset": "0x1b302c",
+          "target": "Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;",
+          "registers": [
+            8,
+            9
+          ]
+        },
+        {
+          "offset_cu": 135,
+          "dex_byte_offset": "0x1b303e",
+          "target": "Ljava/lang/String;->length()I",
+          "registers": [
+            11
+          ]
+        },
+        {
+          "offset_cu": 143,
+          "dex_byte_offset": "0x1b304e",
+          "target": "Ljava/lang/StringBuilder;-><init>()V",
+          "registers": [
+            8
+          ]
+        },
+        {
+          "offset_cu": 148,
+          "dex_byte_offset": "0x1b3058",
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+          "registers": [
+            8,
+            11
+          ]
+        },
+        {
+          "offset_cu": 153,
+          "dex_byte_offset": "0x1b3062",
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+          "registers": [
+            8,
+            11
+          ]
+        },
+        {
+          "offset_cu": 156,
+          "dex_byte_offset": "0x1b3068",
+          "target": "Ljava/lang/StringBuilder;->toString()Ljava/lang/String;",
+          "registers": [
+            8
+          ]
+        },
+        {
+          "offset_cu": 173,
+          "dex_byte_offset": "0x1b308a",
+          "target": "Ljava/lang/String;->join(Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)Ljava/lang/String;",
+          "registers": [
+            11,
+            12
+          ]
+        },
+        {
+          "offset_cu": 179,
+          "dex_byte_offset": "0x1b3096",
+          "target": "Ljava/util/Locale;->getDefault()Ljava/util/Locale;",
+          "registers": []
+        },
+        {
+          "offset_cu": 184,
+          "dex_byte_offset": "0x1b30a0",
+          "target": "Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V",
+          "registers": [
+            2,
+            5
+          ]
+        },
+        {
+          "offset_cu": 187,
+          "dex_byte_offset": "0x1b30a6",
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+          "registers": [
+            2,
+            8
+          ]
+        },
+        {
+          "offset_cu": 190,
+          "dex_byte_offset": "0x1b30ac",
+          "target": "Ljava/lang/StringBuilder;->toString()Ljava/lang/String;",
+          "registers": [
+            2
+          ]
+        },
+        {
+          "offset_cu": 194,
+          "dex_byte_offset": "0x1b30b4",
+          "target": "Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;",
+          "registers": [
+            6,
+            1,
+            2
+          ]
+        },
+        {
+          "offset_cu": 199,
+          "dex_byte_offset": "0x1b30be",
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateDownloadPath()Ljava/lang/String;",
+          "registers": [
+            4
+          ]
+        },
+        {
+          "offset_cu": 203,
+          "dex_byte_offset": "0x1b30c6",
+          "target": "Ljava/io/File;-><init>(Ljava/lang/String;)V",
+          "registers": [
+            1,
+            2
+          ]
+        },
+        {
+          "offset_cu": 206,
+          "dex_byte_offset": "0x1b30cc",
+          "target": "Ljava/io/File;->exists()Z",
+          "registers": [
+            1
+          ]
+        },
+        {
+          "offset_cu": 212,
+          "dex_byte_offset": "0x1b30d8",
+          "target": "Ljava/io/File;->isFile()Z",
+          "registers": [
+            1
+          ]
+        },
+        {
+          "offset_cu": 220,
+          "dex_byte_offset": "0x1b30e8",
+          "target": "Lcom/panasonic/jp/lumixlab/util/b0;->H()Lcom/panasonic/jp/lumixlab/util/b0;",
+          "registers": []
+        },
+        {
+          "offset_cu": 224,
+          "dex_byte_offset": "0x1b30f0",
+          "target": "Ljava/lang/Object;->getClass()Ljava/lang/Class;",
+          "registers": [
+            5
+          ]
+        },
+        {
+          "offset_cu": 227,
+          "dex_byte_offset": "0x1b30f6",
+          "target": "Lcom/panasonic/jp/lumixlab/util/b0;->y(Ljava/io/File;)I",
+          "registers": [
+            1
+          ]
+        },
+        {
+          "offset_cu": 231,
+          "dex_byte_offset": "0x1b30fe",
+          "target": "Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;",
+          "registers": [
+            6,
+            2,
+            5
+          ]
+        },
+        {
+          "offset_cu": 236,
+          "dex_byte_offset": "0x1b3108",
+          "target": "Ljava/io/File;->getName()Ljava/lang/String;",
+          "registers": [
+            1
+          ]
+        },
+        {
+          "offset_cu": 240,
+          "dex_byte_offset": "0x1b3110",
+          "target": "Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;",
+          "registers": [
+            6,
+            2,
+            1
+          ]
+        },
+        {
+          "offset_cu": 245,
+          "dex_byte_offset": "0x1b311a",
+          "target": "Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;",
+          "registers": [
+            6,
+            1,
+            3
+          ]
+        },
+        {
+          "offset_cu": 248,
+          "dex_byte_offset": "0x1b3120",
+          "target": "Lh6/h;->a()Lh6/h;",
+          "registers": []
+        },
+        {
+          "offset_cu": 252,
+          "dex_byte_offset": "0x1b3128",
+          "target": "Ljava/lang/Object;->getClass()Ljava/lang/Class;",
+          "registers": [
+            1
+          ]
+        },
+        {
+          "offset_cu": 255,
+          "dex_byte_offset": "0x1b312e",
+          "target": "Lh6/h;->l()Loa/v0;",
+          "registers": []
+        },
+        {
+          "offset_cu": 259,
+          "dex_byte_offset": "0x1b3136",
+          "target": "Loa/v0;->b()Ljava/lang/Object;",
+          "registers": [
+            1
+          ]
+        },
+        {
+          "offset_cu": 265,
+          "dex_byte_offset": "0x1b3142",
+          "target": "Lorg/json/JSONObject;->toString()Ljava/lang/String;",
+          "registers": [
+            6
+          ]
+        },
+        {
+          "offset_cu": 269,
+          "dex_byte_offset": "0x1b314a",
+          "target": "Lh6/a;->B(Ljava/lang/String;Ljava/lang/String;)Loa/h;",
+          "registers": [
+            1,
+            7,
+            2
+          ]
+        },
+        {
+          "offset_cu": 275,
+          "dex_byte_offset": "0x1b3156",
+          "target": "LR5/e;-><init>(LR5/h;LR5/a;Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;)V",
+          "registers": [
+            2,
+            0,
+            13,
+            4
+          ]
+        },
+        {
+          "offset_cu": 278,
+          "dex_byte_offset": "0x1b315c",
+          "target": "Loa/h;->z(Loa/k;)V",
+          "registers": [
+            1,
+            2
+          ]
+        },
+        {
+          "offset_cu": 282,
+          "dex_byte_offset": "0x1b3164",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "registers": []
+        },
+        {
+          "offset_cu": 286,
+          "dex_byte_offset": "0x1b316c",
+          "target": "Landroid/content/Context;->getString(I)Ljava/lang/String;",
+          "registers": [
+            0,
+            10
+          ]
+        },
+        {
+          "offset_cu": 290,
+          "dex_byte_offset": "0x1b3174",
+          "target": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->p0(Ljava/lang/String;)V",
+          "registers": [
+            13,
+            0
+          ]
+        },
+        {
+          "offset_cu": 294,
+          "dex_byte_offset": "0x1b317c",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "registers": []
+        },
+        {
+          "offset_cu": 298,
+          "dex_byte_offset": "0x1b3184",
+          "target": "Landroid/content/Context;->getString(I)Ljava/lang/String;",
+          "registers": [
+            0,
+            10
+          ]
+        },
+        {
+          "offset_cu": 302,
+          "dex_byte_offset": "0x1b318c",
+          "target": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->p0(Ljava/lang/String;)V",
+          "registers": [
+            13,
+            0
+          ]
+        },
+        {
+          "offset_cu": 310,
+          "dex_byte_offset": "0x1b319c",
+          "target": "Ljava/lang/Object;->getClass()Ljava/lang/Class;",
+          "registers": [
+            0
+          ]
+        },
+        {
+          "offset_cu": 321,
+          "dex_byte_offset": "0x1b31b2",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "registers": []
+        },
+        {
+          "offset_cu": 325,
+          "dex_byte_offset": "0x1b31ba",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "registers": []
+        },
+        {
+          "offset_cu": 332,
+          "dex_byte_offset": "0x1b31c8",
+          "target": "Landroid/content/Context;->getString(I)Ljava/lang/String;",
+          "registers": [
+            0,
+            1
+          ]
+        },
+        {
+          "offset_cu": 336,
+          "dex_byte_offset": "0x1b31d0",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->showMsg(Ljava/lang/String;)V",
+          "registers": [
+            13,
+            0
+          ]
+        },
+        {
+          "offset_cu": 348,
+          "dex_byte_offset": "0x1b31e8",
+          "target": "Lcom/panasonic/jp/lumixlab/controller/fragment/CameraFragment;->q0(Ljava/lang/String;Ljava/lang/String;)V",
+          "registers": [
+            0,
+            1,
+            13
+          ]
+        },
+        {
+          "offset_cu": 368,
+          "dex_byte_offset": "0x1b3210",
+          "target": "Ljava/lang/Object;->getClass()Ljava/lang/Class;",
+          "registers": [
+            13
+          ]
+        },
+        {
+          "offset_cu": 373,
+          "dex_byte_offset": "0x1b321a",
+          "target": "Ljava/lang/Object;->getClass()Ljava/lang/Class;",
+          "registers": [
+            13
+          ]
+        },
+        {
+          "offset_cu": 376,
+          "dex_byte_offset": "0x1b3220",
+          "target": "LA6/r;->k(I)LA6/a;",
+          "registers": [
+            2
+          ]
+        },
+        {
+          "offset_cu": 382,
+          "dex_byte_offset": "0x1b322c",
+          "target": "Lz5/D;->X(LB6/b;Ljava/lang/String;Ljava/lang/String;LM5/d;)V",
+          "registers": [
+            0,
+            1,
+            3,
+            4
+          ]
+        },
+        {
+          "offset_cu": 386,
+          "dex_byte_offset": "0x1b3234",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "registers": []
+        },
+        {
+          "offset_cu": 390,
+          "dex_byte_offset": "0x1b323c",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getPtpSender()Lp6/g;",
+          "registers": [
+            2
+          ]
+        },
+        {
+          "offset_cu": 396,
+          "dex_byte_offset": "0x1b3248",
+          "target": "Lz5/D;->X(LB6/b;Ljava/lang/String;Ljava/lang/String;LM5/d;)V",
+          "registers": [
+            0,
+            1,
+            3,
+            4
+          ]
+        },
+        {
+          "offset_cu": 400,
+          "dex_byte_offset": "0x1b3250",
+          "target": "Lp6/g;->c(LA6/a;)LB6/b;",
+          "registers": [
+            2,
+            13
+          ]
+        },
+        {
+          "offset_cu": 404,
+          "dex_byte_offset": "0x1b3258",
+          "target": "Lz5/D;->X(LB6/b;Ljava/lang/String;Ljava/lang/String;LM5/d;)V",
+          "registers": [
+            13,
+            1,
+            3,
+            4
+          ]
+        },
+        {
+          "offset_cu": 408,
+          "dex_byte_offset": "0x1b3260",
+          "target": "Lz5/D;->X(LB6/b;Ljava/lang/String;Ljava/lang/String;LM5/d;)V",
+          "registers": [
+            0,
+            1,
+            3,
+            4
+          ]
+        },
+        {
+          "offset_cu": 428,
+          "dex_byte_offset": "0x1b3288",
+          "target": "Ljava/lang/Object;->getClass()Ljava/lang/Class;",
+          "registers": [
+            0
+          ]
+        },
+        {
+          "offset_cu": 435,
+          "dex_byte_offset": "0x1b3296",
+          "target": "Lh5/z;->W()V",
+          "registers": [
+            0
+          ]
+        },
+        {
+          "offset_cu": 438,
+          "dex_byte_offset": "0x1b329c",
+          "target": "Lcom/panasonic/jp/lumixlab/util/videoEdit/YUVVideoPackage/h;->g()Lcom/panasonic/jp/lumixlab/util/videoEdit/YUVVideoPackage/h;",
+          "registers": []
+        },
+        {
+          "offset_cu": 442,
+          "dex_byte_offset": "0x1b32a4",
+          "target": "Lcom/panasonic/jp/lumixlab/util/videoEdit/YUVVideoPackage/h;->w(Z)V",
+          "registers": [
+            5,
+            2
+          ]
+        },
+        {
+          "offset_cu": 447,
+          "dex_byte_offset": "0x1b32ae",
+          "target": "LE6/e;-><init>()V",
+          "registers": [
+            5
+          ]
+        },
+        {
+          "offset_cu": 454,
+          "dex_byte_offset": "0x1b32bc",
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->getEditCutStart()J",
+          "registers": [
+            6
+          ]
+        },
+        {
+          "offset_cu": 460,
+          "dex_byte_offset": "0x1b32c8",
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->getEditCutEnd()J",
+          "registers": [
+            8
+          ]
+        },
+        {
+          "offset_cu": 493,
+          "dex_byte_offset": "0x1b330a",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "registers": []
+        },
+        {
+          "offset_cu": 499,
+          "dex_byte_offset": "0x1b3316",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->setEditInfoEntity(Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;)V",
+          "registers": [
+            3,
+            5
+          ]
+        },
+        {
+          "offset_cu": 502,
+          "dex_byte_offset": "0x1b331c",
+          "target": "Lcom/panasonic/jp/lumixlab/util/videoEdit/YUVVideoPackage/h;->g()Lcom/panasonic/jp/lumixlab/util/videoEdit/YUVVideoPackage/h;",
+          "registers": []
+        },
+        {
+          "offset_cu": 510,
+          "dex_byte_offset": "0x1b332c",
+          "target": "Ljava/util/ArrayList;-><init>()V",
+          "registers": [
+            5
+          ]
+        },
+        {
+          "offset_cu": 517,
+          "dex_byte_offset": "0x1b333a",
+          "target": "Lcom/panasonic/jp/lumixlab/util/videoEdit/YUVVideoPackage/h;->g()Lcom/panasonic/jp/lumixlab/util/videoEdit/YUVVideoPackage/h;",
+          "registers": []
+        },
+        {
+          "offset_cu": 524,
+          "dex_byte_offset": "0x1b3348",
+          "target": "Landroid/graphics/PointF;-><init>(FF)V",
+          "registers": [
+            3,
+            7,
+            6
+          ]
+        },
+        {
+          "offset_cu": 527,
+          "dex_byte_offset": "0x1b334e",
+          "target": "Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z",
+          "registers": [
+            5,
+            3
+          ]
+        },
+        {
+          "offset_cu": 532,
+          "dex_byte_offset": "0x1b3358",
+          "target": "Lcom/panasonic/jp/lumixlab/util/videoEdit/YUVVideoPackage/h;->g()Lcom/panasonic/jp/lumixlab/util/videoEdit/YUVVideoPackage/h;",
+          "registers": []
+        },
+        {
+          "offset_cu": 540,
+          "dex_byte_offset": "0x1b3368",
+          "target": "Landroid/graphics/PointF;-><init>(FF)V",
+          "registers": [
+            3,
+            7,
+            6
+          ]
+        },
+        {
+          "offset_cu": 543,
+          "dex_byte_offset": "0x1b336e",
+          "target": "Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z",
+          "registers": [
+            5,
+            3
+          ]
+        },
+        {
+          "offset_cu": 547,
+          "dex_byte_offset": "0x1b3376",
+          "target": "Lcom/panasonic/jp/lumixlab/util/videoEdit/YUVVideoPackage/h;->g()Lcom/panasonic/jp/lumixlab/util/videoEdit/YUVVideoPackage/h;",
+          "registers": []
+        },
+        {
+          "offset_cu": 553,
+          "dex_byte_offset": "0x1b3382",
+          "target": "Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;",
+          "registers": [
+            3
+          ]
+        },
+        {
+          "offset_cu": 557,
+          "dex_byte_offset": "0x1b338a",
+          "target": "Ljava/util/Iterator;->hasNext()Z",
+          "registers": [
+            3
+          ]
+        },
+        {
+          "offset_cu": 563,
+          "dex_byte_offset": "0x1b3396",
+          "target": "Ljava/util/Iterator;->next()Ljava/lang/Object;",
+          "registers": [
+            3
+          ]
+        },
+        {
+          "offset_cu": 575,
+          "dex_byte_offset": "0x1b33ae",
+          "target": "Lcom/panasonic/jp/lumixlab/util/videoEdit/YUVVideoPackage/h;->c(F)F",
+          "registers": [
+            6
+          ]
+        },
+        {
+          "offset_cu": 579,
+          "dex_byte_offset": "0x1b33b6",
+          "target": "Landroid/graphics/PointF;-><init>(FF)V",
+          "registers": [
+            7,
+            8,
+            6
+          ]
+        },
+        {
+          "offset_cu": 582,
+          "dex_byte_offset": "0x1b33bc",
+          "target": "Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z",
+          "registers": [
+            5,
+            7
+          ]
+        },
+        {
+          "offset_cu": 586,
+          "dex_byte_offset": "0x1b33c4",
+          "target": "Lcom/panasonic/jp/lumixlab/util/Q0;->h()Lcom/panasonic/jp/lumixlab/util/Q0;",
+          "registers": []
+        },
+        {
+          "offset_cu": 592,
+          "dex_byte_offset": "0x1b33d0",
+          "target": "Landroidx/lifecycle/K;->d()Ljava/lang/Object;",
+          "registers": [
+            6
+          ]
+        },
+        {
+          "offset_cu": 598,
+          "dex_byte_offset": "0x1b33dc",
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/GalleryInfoEntity;->getFileResolution()Ljava/lang/String;",
+          "registers": [
+            6
+          ]
+        },
+        {
+          "offset_cu": 604,
+          "dex_byte_offset": "0x1b33e8",
+          "target": "Landroidx/lifecycle/K;->d()Ljava/lang/Object;",
+          "registers": [
+            7
+          ]
+        },
+        {
+          "offset_cu": 610,
+          "dex_byte_offset": "0x1b33f4",
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/GalleryInfoEntity;->getFileOrientation()I",
+          "registers": [
+            7
+          ]
+        },
+        {
+          "offset_cu": 618,
+          "dex_byte_offset": "0x1b3404",
+          "target": "Ljava/lang/Object;->getClass()Ljava/lang/Class;",
+          "registers": [
+            3
+          ]
+        },
+        {
+          "offset_cu": 621,
+          "dex_byte_offset": "0x1b340a",
+          "target": "Lcom/panasonic/jp/lumixlab/util/Q0;->q(Ljava/lang/String;ILcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;LE6/e;)V",
+          "registers": [
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "offset_cu": 626,
+          "dex_byte_offset": "0x1b3414",
+          "target": "LE6/e;->d(ZLjava/lang/String;Ljava/lang/String;Ljava/util/ArrayList;)V",
+          "registers": [
+            3,
+            2,
+            4,
+            13,
+            5
+          ]
+        },
+        {
+          "offset_cu": 629,
+          "dex_byte_offset": "0x1b341a",
+          "target": "Lcom/panasonic/jp/lumixlab/util/videoEdit/YUVVideoPackage/h;->g()Lcom/panasonic/jp/lumixlab/util/videoEdit/YUVVideoPackage/h;",
+          "registers": []
+        },
+        {
+          "offset_cu": 638,
+          "dex_byte_offset": "0x1b342c",
+          "target": "Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;",
+          "registers": [
+            4,
+            5
+          ]
+        },
+        {
+          "offset_cu": 642,
+          "dex_byte_offset": "0x1b3434",
+          "target": "Landroidx/lifecycle/M;->k(Ljava/lang/Object;)V",
+          "registers": [
+            3,
+            2
+          ]
+        },
+        {
+          "offset_cu": 649,
+          "dex_byte_offset": "0x1b3442",
+          "target": "Lh5/l;-><init>(Lh5/z;Ljava/lang/String;)V",
+          "registers": [
+            3,
+            0,
+            13
+          ]
+        },
+        {
+          "offset_cu": 656,
+          "dex_byte_offset": "0x1b3450",
+          "target": "LE6/e;->c()V",
+          "registers": [
+            13
+          ]
+        },
+        {
+          "offset_cu": 661,
+          "dex_byte_offset": "0x1b345a",
+          "target": "LE6/e;->e()V",
+          "registers": [
+            13
+          ]
+        },
+        {
+          "offset_cu": 669,
+          "dex_byte_offset": "0x1b346a",
+          "target": "Lh5/z;->s0()V",
+          "registers": [
+            0
+          ]
+        },
+        {
+          "offset_cu": 672,
+          "dex_byte_offset": "0x1b3470",
+          "target": "Lcom/panasonic/jp/lumixlab/util/videoEdit/YUVVideoPackage/h;->g()Lcom/panasonic/jp/lumixlab/util/videoEdit/YUVVideoPackage/h;",
+          "registers": []
+        },
+        {
+          "offset_cu": 676,
+          "dex_byte_offset": "0x1b3478",
+          "target": "Lcom/panasonic/jp/lumixlab/util/videoEdit/YUVVideoPackage/h;->w(Z)V",
+          "registers": [
+            13,
+            1
+          ]
+        },
+        {
+          "offset_cu": 688,
+          "dex_byte_offset": "0x1b3490",
+          "target": "Ljava/lang/Object;->getClass()Ljava/lang/Class;",
+          "registers": [
+            3
+          ]
+        },
+        {
+          "offset_cu": 699,
+          "dex_byte_offset": "0x1b34a6",
+          "target": "Ljava/util/ArrayList;->size()I",
+          "registers": [
+            4
+          ]
+        },
+        {
+          "offset_cu": 703,
+          "dex_byte_offset": "0x1b34ae",
+          "target": "Ljava/util/ArrayList;->size()I",
+          "registers": [
+            5
+          ]
+        },
+        {
+          "offset_cu": 714,
+          "dex_byte_offset": "0x1b34c4",
+          "target": "Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z",
+          "registers": [
+            13,
+            0
+          ]
+        },
+        {
+          "offset_cu": 722,
+          "dex_byte_offset": "0x1b34d4",
+          "target": "LD1/Z;->b()V",
+          "registers": [
+            6
+          ]
+        },
+        {
+          "offset_cu": 727,
+          "dex_byte_offset": "0x1b34de",
+          "target": "LD1/k0;->a()LJ1/r;",
+          "registers": [
+            4
+          ]
+        },
+        {
+          "offset_cu": 731,
+          "dex_byte_offset": "0x1b34e6",
+          "target": "LD1/Z;->c()V",
+          "registers": [
+            6
+          ]
+        },
+        {
+          "offset_cu": 734,
+          "dex_byte_offset": "0x1b34ec",
+          "target": "LJ1/r;->t()I",
+          "registers": [
+            7
+          ]
+        },
+        {
+          "offset_cu": 737,
+          "dex_byte_offset": "0x1b34f2",
+          "target": "LD1/Z;->n()V",
+          "registers": [
+            6
+          ]
+        },
+        {
+          "offset_cu": 740,
+          "dex_byte_offset": "0x1b34f8",
+          "target": "LD1/Z;->f()V",
+          "registers": [
+            6
+          ]
+        },
+        {
+          "offset_cu": 743,
+          "dex_byte_offset": "0x1b34fe",
+          "target": "LD1/k0;->c(LJ1/r;)V",
+          "registers": [
+            4,
+            7
+          ]
+        },
+        {
+          "offset_cu": 746,
+          "dex_byte_offset": "0x1b3504",
+          "target": "Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;",
+          "registers": [
+            5
+          ]
+        },
+        {
+          "offset_cu": 750,
+          "dex_byte_offset": "0x1b350c",
+          "target": "Ljava/util/Iterator;->hasNext()Z",
+          "registers": [
+            4
+          ]
+        },
+        {
+          "offset_cu": 756,
+          "dex_byte_offset": "0x1b3518",
+          "target": "Ljava/util/Iterator;->next()Ljava/lang/Object;",
+          "registers": [
+            4
+          ]
+        },
+        {
+          "offset_cu": 762,
+          "dex_byte_offset": "0x1b3524",
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/FrameEntity;->setFrameId(I)V",
+          "registers": [
+            5,
+            1
+          ]
+        },
+        {
+          "offset_cu": 767,
+          "dex_byte_offset": "0x1b352e",
+          "target": "LC5/J;->e()I",
+          "registers": [
+            6
+          ]
+        },
+        {
+          "offset_cu": 772,
+          "dex_byte_offset": "0x1b3538",
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/FrameEntity;->setFrameOrder(I)V",
+          "registers": [
+            5,
+            6
+          ]
+        },
+        {
+          "offset_cu": 779,
+          "dex_byte_offset": "0x1b3546",
+          "target": "Ljava/util/Locale;->getDefault()Ljava/util/Locale;",
+          "registers": []
+        },
+        {
+          "offset_cu": 783,
+          "dex_byte_offset": "0x1b354e",
+          "target": "Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;Ljava/util/Locale;)V",
+          "registers": [
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "offset_cu": 788,
+          "dex_byte_offset": "0x1b3558",
+          "target": "Ljava/util/Date;-><init>()V",
+          "registers": [
+            7
+          ]
+        },
+        {
+          "offset_cu": 791,
+          "dex_byte_offset": "0x1b355e",
+          "target": "Ljava/text/DateFormat;->format(Ljava/util/Date;)Ljava/lang/String;",
+          "registers": [
+            6,
+            7
+          ]
+        },
+        {
+          "offset_cu": 795,
+          "dex_byte_offset": "0x1b3566",
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/FrameEntity;->setFrameSavedTime(Ljava/lang/String;)V",
+          "registers": [
+            5,
+            6
+          ]
+        },
+        {
+          "offset_cu": 800,
+          "dex_byte_offset": "0x1b3570",
+          "target": "LC5/J;->g(Lcom/panasonic/jp/lumixlab/database/entity/FrameEntity;)V",
+          "registers": [
+            6,
+            5
+          ]
+        },
+        {
+          "offset_cu": 803,
+          "dex_byte_offset": "0x1b3576",
+          "target": "Lf5/i4;->d()V",
+          "registers": [
+            3
+          ]
+        },
+        {
+          "offset_cu": 813,
+          "dex_byte_offset": "0x1b358a",
+          "target": "Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z",
+          "registers": [
+            1,
+            13
+          ]
+        },
+        {
+          "offset_cu": 818,
+          "dex_byte_offset": "0x1b3594",
+          "target": "LD1/Z;->f()V",
+          "registers": [
+            6
+          ]
+        },
+        {
+          "offset_cu": 821,
+          "dex_byte_offset": "0x1b359a",
+          "target": "LD1/k0;->c(LJ1/r;)V",
+          "registers": [
+            4,
+            7
+          ]
+        },
+        {
+          "offset_cu": 827,
+          "dex_byte_offset": "0x1b35a6",
+          "target": "Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z",
+          "registers": [
+            13,
+            0
+          ]
+        },
+        {
+          "offset_cu": 847,
+          "dex_byte_offset": "0x1b35ce",
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/FrameEntity;->getBlurBrightness()I",
+          "registers": [
+            13
+          ]
+        },
+        {
+          "offset_cu": 853,
+          "dex_byte_offset": "0x1b35da",
+          "target": "Landroid/graphics/Bitmap;->copy(Landroid/graphics/Bitmap$Config;Z)Landroid/graphics/Bitmap;",
+          "registers": [
+            3,
+            1,
+            2
+          ]
+        },
+        {
+          "offset_cu": 859,
+          "dex_byte_offset": "0x1b35e6",
+          "target": "Landroid/graphics/Canvas;-><init>(Landroid/graphics/Bitmap;)V",
+          "registers": [
+            2,
+            1
+          ]
+        },
+        {
+          "offset_cu": 864,
+          "dex_byte_offset": "0x1b35f0",
+          "target": "Landroid/graphics/Paint;-><init>()V",
+          "registers": [
+            7
+          ]
+        },
+        {
+          "offset_cu": 869,
+          "dex_byte_offset": "0x1b35fa",
+          "target": "Landroid/graphics/Color;->argb(IIII)I",
+          "registers": [
+            13,
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "offset_cu": 873,
+          "dex_byte_offset": "0x1b3602",
+          "target": "Landroid/graphics/Paint;->setColor(I)V",
+          "registers": [
+            7,
+            13
+          ]
+        },
+        {
+          "offset_cu": 876,
+          "dex_byte_offset": "0x1b3608",
+          "target": "Landroid/graphics/Canvas;->getWidth()I",
+          "registers": [
+            2
+          ]
+        },
+        {
+          "offset_cu": 881,
+          "dex_byte_offset": "0x1b3612",
+          "target": "Landroid/graphics/Canvas;->getHeight()I",
+          "registers": [
+            2
+          ]
+        },
+        {
+          "offset_cu": 888,
+          "dex_byte_offset": "0x1b3620",
+          "target": "Landroid/graphics/Canvas;->drawRect(FFFFLandroid/graphics/Paint;)V",
+          "registers": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "offset_cu": 891,
+          "dex_byte_offset": "0x1b3626",
+          "target": "Lf5/O3;->a(Landroid/graphics/Bitmap;)V",
+          "registers": [
+            0,
+            1
+          ]
+        },
+        {
+          "offset_cu": 897,
+          "dex_byte_offset": "0x1b3632",
+          "target": "Ljava/lang/Object;->getClass()Ljava/lang/Class;",
+          "registers": [
+            1
+          ]
+        },
+        {
+          "offset_cu": 904,
+          "dex_byte_offset": "0x1b3640",
+          "target": "Lf5/O3;->a(Landroid/graphics/Bitmap;)V",
+          "registers": [
+            0,
+            13
+          ]
+        },
+        {
+          "offset_cu": 924,
+          "dex_byte_offset": "0x1b3668",
+          "target": "Ljava/lang/Object;->getClass()Ljava/lang/Class;",
+          "registers": [
+            13
+          ]
+        },
+        {
+          "offset_cu": 929,
+          "dex_byte_offset": "0x1b3672",
+          "target": "Lcom/panasonic/jp/lumixlab/bean/LutCameraPostBean;->getLutId()I",
+          "registers": [
+            3
+          ]
+        },
+        {
+          "offset_cu": 933,
+          "dex_byte_offset": "0x1b367a",
+          "target": "Lcom/panasonic/jp/lumixlab/bean/LutCameraPostBean;->getVisibility()Ljava/lang/Integer;",
+          "registers": [
+            3
+          ]
+        },
+        {
+          "offset_cu": 937,
+          "dex_byte_offset": "0x1b3682",
+          "target": "Ljava/lang/Integer;->intValue()I",
+          "registers": [
+            7
+          ]
+        },
+        {
+          "offset_cu": 946,
+          "dex_byte_offset": "0x1b3694",
+          "target": "Ljava/lang/Object;->getClass()Ljava/lang/Class;",
+          "registers": [
+            13
+          ]
+        },
+        {
+          "offset_cu": 949,
+          "dex_byte_offset": "0x1b369a",
+          "target": "LA6/r;->I(ZIZLjava/util/ArrayList;)LA6/a;",
+          "registers": [
+            2,
+            6,
+            7,
+            4
+          ]
+        },
+        {
+          "offset_cu": 955,
+          "dex_byte_offset": "0x1b36a6",
+          "target": "LY5/D;->o(LB6/b;Lcom/panasonic/jp/lumixlab/bean/LutCameraPostBean;ZLcom/panasonic/jp/lumixlab/controller/fragment/LutFragment;)V",
+          "registers": [
+            0,
+            3,
+            1,
+            5
+          ]
+        },
+        {
+          "offset_cu": 959,
+          "dex_byte_offset": "0x1b36ae",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "registers": []
+        },
+        {
+          "offset_cu": 963,
+          "dex_byte_offset": "0x1b36b6",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getPtpSender()Lp6/g;",
+          "registers": [
+            4
+          ]
+        },
+        {
+          "offset_cu": 969,
+          "dex_byte_offset": "0x1b36c2",
+          "target": "LY5/D;->o(LB6/b;Lcom/panasonic/jp/lumixlab/bean/LutCameraPostBean;ZLcom/panasonic/jp/lumixlab/controller/fragment/LutFragment;)V",
+          "registers": [
+            0,
+            3,
+            1,
+            5
+          ]
+        },
+        {
+          "offset_cu": 973,
+          "dex_byte_offset": "0x1b36ca",
+          "target": "Lp6/g;->c(LA6/a;)LB6/b;",
+          "registers": [
+            4,
+            13
+          ]
+        },
+        {
+          "offset_cu": 979,
+          "dex_byte_offset": "0x1b36d6",
+          "target": "LY5/D;->o(LB6/b;Lcom/panasonic/jp/lumixlab/bean/LutCameraPostBean;ZLcom/panasonic/jp/lumixlab/controller/fragment/LutFragment;)V",
+          "registers": [
+            0,
+            3,
+            1,
+            5
+          ]
+        },
+        {
+          "offset_cu": 991,
+          "dex_byte_offset": "0x1b36ee",
+          "target": "LY5/D;->o(LB6/b;Lcom/panasonic/jp/lumixlab/bean/LutCameraPostBean;ZLcom/panasonic/jp/lumixlab/controller/fragment/LutFragment;)V",
+          "registers": [
+            13,
+            3,
+            2,
+            5
+          ]
+        },
+        {
+          "offset_cu": 995,
+          "dex_byte_offset": "0x1b36f6",
+          "target": "LY5/D;->o(LB6/b;Lcom/panasonic/jp/lumixlab/bean/LutCameraPostBean;ZLcom/panasonic/jp/lumixlab/controller/fragment/LutFragment;)V",
+          "registers": [
+            0,
+            3,
+            1,
+            5
+          ]
+        }
+      ],
+      "direct_native_calls": []
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->x0()V",
+      "dex": "classes2.dex",
+      "method_index": 15314,
+      "code_item_offset": 2186624,
+      "insns_offset": 2186640,
+      "code_units": 181,
+      "access_flags": 17,
+      "call_sites": [
+        {
+          "offset_cu": 19,
+          "dex_byte_offset": "0x215db6",
+          "target": "Landroid/widget/ProgressBar;->setProgress(I)V",
+          "registers": [
+            1,
+            0
+          ]
+        },
+        {
+          "offset_cu": 33,
+          "dex_byte_offset": "0x215dd2",
+          "target": "Landroidx/fragment/app/N;->getString(I)Ljava/lang/String;",
+          "registers": [
+            10,
+            2
+          ]
+        },
+        {
+          "offset_cu": 39,
+          "dex_byte_offset": "0x215dde",
+          "target": "Ljava/lang/StringBuilder;-><init>()V",
+          "registers": [
+            3
+          ]
+        },
+        {
+          "offset_cu": 42,
+          "dex_byte_offset": "0x215de4",
+          "target": "Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;",
+          "registers": [
+            3,
+            0
+          ]
+        },
+        {
+          "offset_cu": 47,
+          "dex_byte_offset": "0x215dee",
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+          "registers": [
+            3,
+            0
+          ]
+        },
+        {
+          "offset_cu": 50,
+          "dex_byte_offset": "0x215df4",
+          "target": "Ljava/lang/StringBuilder;->toString()Ljava/lang/String;",
+          "registers": [
+            3
+          ]
+        },
+        {
+          "offset_cu": 58,
+          "dex_byte_offset": "0x215e04",
+          "target": "Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;",
+          "registers": [
+            2,
+            0
+          ]
+        },
+        {
+          "offset_cu": 62,
+          "dex_byte_offset": "0x215e0c",
+          "target": "Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V",
+          "registers": [
+            1,
+            0
+          ]
+        },
+        {
+          "offset_cu": 78,
+          "dex_byte_offset": "0x215e2c",
+          "target": "Ljava/lang/Math;->min(JJ)J",
+          "registers": [
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "offset_cu": 90,
+          "dex_byte_offset": "0x215e44",
+          "target": "Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V",
+          "registers": [
+            3,
+            4
+          ]
+        },
+        {
+          "offset_cu": 94,
+          "dex_byte_offset": "0x215e4c",
+          "target": "Ljava/io/FileInputStream;->skip(J)J",
+          "registers": [
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "offset_cu": 97,
+          "dex_byte_offset": "0x215e52",
+          "target": "Ljava/io/FileInputStream;->read([B)I",
+          "registers": [
+            3,
+            1
+          ]
+        },
+        {
+          "offset_cu": 100,
+          "dex_byte_offset": "0x215e58",
+          "target": "Ljava/io/FileInputStream;->close()V",
+          "registers": [
+            3
+          ]
+        },
+        {
+          "offset_cu": 103,
+          "dex_byte_offset": "0x215e5e",
+          "target": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->v0()Z",
+          "registers": []
+        },
+        {
+          "offset_cu": 109,
+          "dex_byte_offset": "0x215e6a",
+          "target": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->w0()V",
+          "registers": [
+            10
+          ]
+        },
+        {
+          "offset_cu": 115,
+          "dex_byte_offset": "0x215e76",
+          "target": "Ljava/lang/Object;->getClass()Ljava/lang/Class;",
+          "registers": [
+            2
+          ]
+        },
+        {
+          "offset_cu": 120,
+          "dex_byte_offset": "0x215e80",
+          "target": "Lg8/z0;->a(Lg8/k0;I[BI)Lg8/y0;",
+          "registers": [
+            2,
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "offset_cu": 126,
+          "dex_byte_offset": "0x215e8c",
+          "target": "Ljava/lang/String;->valueOf(I)Ljava/lang/String;",
+          "registers": [
+            0
+          ]
+        },
+        {
+          "offset_cu": 132,
+          "dex_byte_offset": "0x215e98",
+          "target": "Ljava/lang/String;->valueOf(I)Ljava/lang/String;",
+          "registers": [
+            0
+          ]
+        },
+        {
+          "offset_cu": 140,
+          "dex_byte_offset": "0x215ea8",
+          "target": "Ljava/util/List;->get(I)Ljava/lang/Object;",
+          "registers": [
+            0,
+            1
+          ]
+        },
+        {
+          "offset_cu": 146,
+          "dex_byte_offset": "0x215eb4",
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateDeviceType()I",
+          "registers": [
+            0
+          ]
+        },
+        {
+          "offset_cu": 151,
+          "dex_byte_offset": "0x215ebe",
+          "target": "LR5/h;->b(Ljava/lang/String;Ljava/lang/String;Lg8/y0;ILcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;)V",
+          "registers": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "offset_cu": 155,
+          "dex_byte_offset": "0x215ec6",
+          "target": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->v0()Z",
+          "registers": []
+        },
+        {
+          "offset_cu": 161,
+          "dex_byte_offset": "0x215ed2",
+          "target": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->w0()V",
+          "registers": [
+            10
+          ]
+        },
+        {
+          "offset_cu": 172,
+          "dex_byte_offset": "0x215ee8",
+          "target": "Landroidx/fragment/app/N;->getString(I)Ljava/lang/String;",
+          "registers": [
+            10,
+            0
+          ]
+        },
+        {
+          "offset_cu": 177,
+          "dex_byte_offset": "0x215ef2",
+          "target": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->r0(ILjava/lang/String;)V",
+          "registers": [
+            10,
+            1,
+            0
+          ]
+        }
+      ],
+      "direct_native_calls": []
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->z0(Ljava/lang/String;)V",
+      "dex": "classes2.dex",
+      "method_index": 15316,
+      "code_item_offset": 2187124,
+      "insns_offset": 2187140,
+      "code_units": 1242,
+      "access_flags": 17,
+      "call_sites": [
+        {
+          "offset_cu": 21,
+          "dex_byte_offset": "0x215fae",
+          "target": "Landroid/view/View;->setVisibility(I)V",
+          "registers": [
+            9,
+            10
+          ]
+        },
+        {
+          "offset_cu": 32,
+          "dex_byte_offset": "0x215fc4",
+          "target": "Landroid/view/View;->setVisibility(I)V",
+          "registers": [
+            9,
+            10
+          ]
+        },
+        {
+          "offset_cu": 43,
+          "dex_byte_offset": "0x215fda",
+          "target": "Landroid/view/View;->setVisibility(I)V",
+          "registers": [
+            9,
+            10
+          ]
+        },
+        {
+          "offset_cu": 54,
+          "dex_byte_offset": "0x215ff0",
+          "target": "Landroid/view/View;->setVisibility(I)V",
+          "registers": [
+            9,
+            10
+          ]
+        },
+        {
+          "offset_cu": 65,
+          "dex_byte_offset": "0x216006",
+          "target": "Landroid/view/View;->setVisibility(I)V",
+          "registers": [
+            9,
+            10
+          ]
+        },
+        {
+          "offset_cu": 76,
+          "dex_byte_offset": "0x21601c",
+          "target": "Landroid/view/View;->setVisibility(I)V",
+          "registers": [
+            9,
+            10
+          ]
+        },
+        {
+          "offset_cu": 79,
+          "dex_byte_offset": "0x216022",
+          "target": "Ljava/lang/String;->hashCode()I",
+          "registers": [
+            18
+          ]
+        },
+        {
+          "offset_cu": 90,
+          "dex_byte_offset": "0x216038",
+          "target": "Ljava/lang/String;->equals(Ljava/lang/Object;)Z",
+          "registers": [
+            1,
+            9
+          ]
+        },
+        {
+          "offset_cu": 101,
+          "dex_byte_offset": "0x21604e",
+          "target": "Ljava/lang/String;->equals(Ljava/lang/Object;)Z",
+          "registers": [
+            1,
+            9
+          ]
+        },
+        {
+          "offset_cu": 112,
+          "dex_byte_offset": "0x216064",
+          "target": "Ljava/lang/String;->equals(Ljava/lang/Object;)Z",
+          "registers": [
+            1,
+            9
+          ]
+        },
+        {
+          "offset_cu": 123,
+          "dex_byte_offset": "0x21607a",
+          "target": "Ljava/lang/String;->equals(Ljava/lang/Object;)Z",
+          "registers": [
+            1,
+            9
+          ]
+        },
+        {
+          "offset_cu": 134,
+          "dex_byte_offset": "0x216090",
+          "target": "Ljava/lang/String;->equals(Ljava/lang/Object;)Z",
+          "registers": [
+            1,
+            9
+          ]
+        },
+        {
+          "offset_cu": 145,
+          "dex_byte_offset": "0x2160a6",
+          "target": "Ljava/lang/String;->equals(Ljava/lang/Object;)Z",
+          "registers": [
+            1,
+            9
+          ]
+        },
+        {
+          "offset_cu": 166,
+          "dex_byte_offset": "0x2160d0",
+          "target": "Landroid/view/View;->setVisibility(I)V",
+          "registers": [
+            9,
+            8
+          ]
+        },
+        {
+          "offset_cu": 177,
+          "dex_byte_offset": "0x2160e6",
+          "target": "Landroid/view/View;->setVisibility(I)V",
+          "registers": [
+            9,
+            8
+          ]
+        },
+        {
+          "offset_cu": 190,
+          "dex_byte_offset": "0x216100",
+          "target": "Landroid/view/View;->setVisibility(I)V",
+          "registers": [
+            9,
+            8
+          ]
+        },
+        {
+          "offset_cu": 203,
+          "dex_byte_offset": "0x21611a",
+          "target": "Lz5/g4;-><init>(Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;I)V",
+          "registers": [
+            10,
+            0,
+            8
+          ]
+        },
+        {
+          "offset_cu": 206,
+          "dex_byte_offset": "0x216120",
+          "target": "Landroid/view/View;->post(Ljava/lang/Runnable;)Z",
+          "registers": [
+            9,
+            10
+          ]
+        },
+        {
+          "offset_cu": 209,
+          "dex_byte_offset": "0x216126",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "registers": []
+        },
+        {
+          "offset_cu": 213,
+          "dex_byte_offset": "0x21612e",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getUpdateInfoEntityList()Ljava/util/List;",
+          "registers": [
+            9
+          ]
+        },
+        {
+          "offset_cu": 219,
+          "dex_byte_offset": "0x21613a",
+          "target": "Ljava/util/List;->get(I)Ljava/lang/Object;",
+          "registers": [
+            9,
+            10
+          ]
+        },
+        {
+          "offset_cu": 225,
+          "dex_byte_offset": "0x216146",
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateDownloadPath()Ljava/lang/String;",
+          "registers": [
+            9
+          ]
+        },
+        {
+          "offset_cu": 229,
+          "dex_byte_offset": "0x21614e",
+          "target": "Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z",
+          "registers": [
+            9
+          ]
+        },
+        {
+          "offset_cu": 246,
+          "dex_byte_offset": "0x216170",
+          "target": "Landroidx/fragment/app/N;->getString(I)Ljava/lang/String;",
+          "registers": [
+            0,
+            10
+          ]
+        },
+        {
+          "offset_cu": 250,
+          "dex_byte_offset": "0x216178",
+          "target": "Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V",
+          "registers": [
+            9,
+            10
+          ]
+        },
+        {
+          "offset_cu": 264,
+          "dex_byte_offset": "0x216194",
+          "target": "Landroidx/fragment/app/N;->getString(I)Ljava/lang/String;",
+          "registers": [
+            0,
+            10
+          ]
+        },
+        {
+          "offset_cu": 268,
+          "dex_byte_offset": "0x21619c",
+          "target": "Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V",
+          "registers": [
+            9,
+            10
+          ]
+        },
+        {
+          "offset_cu": 281,
+          "dex_byte_offset": "0x2161b6",
+          "target": "Landroid/view/View;->setVisibility(I)V",
+          "registers": [
+            9,
+            8
+          ]
+        },
+        {
+          "offset_cu": 284,
+          "dex_byte_offset": "0x2161bc",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "registers": []
+        },
+        {
+          "offset_cu": 288,
+          "dex_byte_offset": "0x2161c4",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->setFirmwareOperationState(I)V",
+          "registers": [
+            9,
+            5
+          ]
+        },
+        {
+          "offset_cu": 300,
+          "dex_byte_offset": "0x2161dc",
+          "target": "Landroid/view/View;->setVisibility(I)V",
+          "registers": [
+            9,
+            8
+          ]
+        },
+        {
+          "offset_cu": 311,
+          "dex_byte_offset": "0x2161f2",
+          "target": "Landroid/view/View;->setVisibility(I)V",
+          "registers": [
+            9,
+            8
+          ]
+        },
+        {
+          "offset_cu": 323,
+          "dex_byte_offset": "0x21620a",
+          "target": "Landroid/view/View;->setVisibility(I)V",
+          "registers": [
+            9,
+            8
+          ]
+        },
+        {
+          "offset_cu": 334,
+          "dex_byte_offset": "0x216220",
+          "target": "Landroid/view/View;->setVisibility(I)V",
+          "registers": [
+            9,
+            8
+          ]
+        },
+        {
+          "offset_cu": 345,
+          "dex_byte_offset": "0x216236",
+          "target": "Landroid/widget/ProgressBar;->setProgress(I)V",
+          "registers": [
+            9,
+            8
+          ]
+        },
+        {
+          "offset_cu": 359,
+          "dex_byte_offset": "0x216252",
+          "target": "Landroidx/fragment/app/N;->getString(I)Ljava/lang/String;",
+          "registers": [
+            0,
+            10
+          ]
+        },
+        {
+          "offset_cu": 369,
+          "dex_byte_offset": "0x216266",
+          "target": "Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;",
+          "registers": [
+            10,
+            11
+          ]
+        },
+        {
+          "offset_cu": 373,
+          "dex_byte_offset": "0x21626e",
+          "target": "Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V",
+          "registers": [
+            9,
+            10
+          ]
+        },
+        {
+          "offset_cu": 386,
+          "dex_byte_offset": "0x216288",
+          "target": "Ljava/lang/String;->equals(Ljava/lang/Object;)Z",
+          "registers": [
+            10,
+            1
+          ]
+        },
+        {
+          "offset_cu": 395,
+          "dex_byte_offset": "0x21629a",
+          "target": "Landroidx/fragment/app/N;->getString(I)Ljava/lang/String;",
+          "registers": [
+            0,
+            10
+          ]
+        },
+        {
+          "offset_cu": 404,
+          "dex_byte_offset": "0x2162ac",
+          "target": "Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V",
+          "registers": [
+            9,
+            10
+          ]
+        },
+        {
+          "offset_cu": 411,
+          "dex_byte_offset": "0x2162ba",
+          "target": "Ljava/util/List;->get(I)Ljava/lang/Object;",
+          "registers": [
+            9,
+            10
+          ]
+        },
+        {
+          "offset_cu": 417,
+          "dex_byte_offset": "0x2162c6",
+          "target": "Lcom/panasonic/jp/lumixlab/util/b0;->H()Lcom/panasonic/jp/lumixlab/util/b0;",
+          "registers": []
+        },
+        {
+          "offset_cu": 423,
+          "dex_byte_offset": "0x2162d2",
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateDeviceThumbnailPath()Ljava/lang/String;",
+          "registers": [
+            9
+          ]
+        },
+        {
+          "offset_cu": 429,
+          "dex_byte_offset": "0x2162de",
+          "target": "Ljava/lang/Object;->getClass()Ljava/lang/Class;",
+          "registers": [
+            10
+          ]
+        },
+        {
+          "offset_cu": 432,
+          "dex_byte_offset": "0x2162e4",
+          "target": "Lcom/panasonic/jp/lumixlab/util/b0;->A(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;",
+          "registers": [
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "offset_cu": 438,
+          "dex_byte_offset": "0x2162f0",
+          "target": "Ljava/io/File;-><init>(Ljava/lang/String;)V",
+          "registers": [
+            11,
+            10
+          ]
+        },
+        {
+          "offset_cu": 441,
+          "dex_byte_offset": "0x2162f6",
+          "target": "Ljava/io/File;->exists()Z",
+          "registers": [
+            11
+          ]
+        },
+        {
+          "offset_cu": 453,
+          "dex_byte_offset": "0x21630e",
+          "target": "Lcom/panasonic/jp/lumixlab/util/b0;->H()Lcom/panasonic/jp/lumixlab/util/b0;",
+          "registers": []
+        },
+        {
+          "offset_cu": 457,
+          "dex_byte_offset": "0x216316",
+          "target": "Ljava/lang/Object;->getClass()Ljava/lang/Class;",
+          "registers": [
+            12
+          ]
+        },
+        {
+          "offset_cu": 463,
+          "dex_byte_offset": "0x216322",
+          "target": "Lcom/panasonic/jp/lumixlab/util/W;-><init>(Lcom/panasonic/jp/lumixlab/util/b0;ILjava/lang/String;Lh3/j;)V",
+          "registers": [
+            13,
+            12,
+            6,
+            10,
+            14
+          ]
+        },
+        {
+          "offset_cu": 468,
+          "dex_byte_offset": "0x21632c",
+          "target": "Lcom/panasonic/jp/lumixlab/util/X;-><init>(Lh3/j;Landroid/widget/ImageView;I)V",
+          "registers": [
+            10,
+            14,
+            11,
+            8
+          ]
+        },
+        {
+          "offset_cu": 471,
+          "dex_byte_offset": "0x216332",
+          "target": "Lcom/panasonic/jp/lumixlab/util/v;->x(Ljava/util/concurrent/Callable;Lb7/d;)V",
+          "registers": [
+            13,
+            10
+          ]
+        },
+        {
+          "offset_cu": 475,
+          "dex_byte_offset": "0x21633a",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "registers": []
+        },
+        {
+          "offset_cu": 479,
+          "dex_byte_offset": "0x216342",
+          "target": "Lcom/bumptech/glide/c;->c(Landroid/content/Context;)Lcom/bumptech/glide/z;",
+          "registers": [
+            10
+          ]
+        },
+        {
+          "offset_cu": 487,
+          "dex_byte_offset": "0x216352",
+          "target": "Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V",
+          "registers": [
+            11,
+            12
+          ]
+        },
+        {
+          "offset_cu": 490,
+          "dex_byte_offset": "0x216358",
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateDeviceThumbnailPath()Ljava/lang/String;",
+          "registers": [
+            9
+          ]
+        },
+        {
+          "offset_cu": 494,
+          "dex_byte_offset": "0x216360",
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+          "registers": [
+            11,
+            12
+          ]
+        },
+        {
+          "offset_cu": 497,
+          "dex_byte_offset": "0x216366",
+          "target": "Ljava/lang/StringBuilder;->toString()Ljava/lang/String;",
+          "registers": [
+            11
+          ]
+        },
+        {
+          "offset_cu": 501,
+          "dex_byte_offset": "0x21636e",
+          "target": "Lcom/panasonic/jp/lumixlab/util/t0;->b(Ljava/lang/String;)LV2/I;",
+          "registers": [
+            11
+          ]
+        },
+        {
+          "offset_cu": 507,
+          "dex_byte_offset": "0x21637a",
+          "target": "Lcom/bumptech/glide/z;->a(Ljava/lang/Class;)Lcom/bumptech/glide/v;",
+          "registers": [
+            10,
+            12
+          ]
+        },
+        {
+          "offset_cu": 511,
+          "dex_byte_offset": "0x216382",
+          "target": "Lcom/bumptech/glide/v;->J(Ljava/lang/Object;)Lcom/bumptech/glide/v;",
+          "registers": [
+            10,
+            11
+          ]
+        },
+        {
+          "offset_cu": 521,
+          "dex_byte_offset": "0x216396",
+          "target": "Lcom/bumptech/glide/v;->F(Landroid/widget/ImageView;)V",
+          "registers": [
+            10,
+            11
+          ]
+        },
+        {
+          "offset_cu": 528,
+          "dex_byte_offset": "0x2163a4",
+          "target": "Le5/S0;-><init>(ILcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;)V",
+          "registers": [
+            11,
+            7,
+            9
+          ]
+        },
+        {
+          "offset_cu": 531,
+          "dex_byte_offset": "0x2163aa",
+          "target": "Ljava/lang/Thread;-><init>(Ljava/lang/Runnable;)V",
+          "registers": [
+            10,
+            11
+          ]
+        },
+        {
+          "offset_cu": 534,
+          "dex_byte_offset": "0x2163b0",
+          "target": "Ljava/lang/Thread;->start()V",
+          "registers": [
+            10
+          ]
+        },
+        {
+          "offset_cu": 545,
+          "dex_byte_offset": "0x2163c6",
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateName()Ljava/lang/String;",
+          "registers": [
+            9
+          ]
+        },
+        {
+          "offset_cu": 549,
+          "dex_byte_offset": "0x2163ce",
+          "target": "Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V",
+          "registers": [
+            10,
+            11
+          ]
+        },
+        {
+          "offset_cu": 554,
+          "dex_byte_offset": "0x2163d8",
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateVersion()Ljava/lang/String;",
+          "registers": [
+            9
+          ]
+        },
+        {
+          "offset_cu": 560,
+          "dex_byte_offset": "0x2163e4",
+          "target": "Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z",
+          "registers": [
+            11,
+            12
+          ]
+        },
+        {
+          "offset_cu": 566,
+          "dex_byte_offset": "0x2163f0",
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateVersion()Ljava/lang/String;",
+          "registers": [
+            9
+          ]
+        },
+        {
+          "offset_cu": 575,
+          "dex_byte_offset": "0x216402",
+          "target": "Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V",
+          "registers": [
+            11,
+            12
+          ]
+        },
+        {
+          "offset_cu": 578,
+          "dex_byte_offset": "0x216408",
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateVersion()Ljava/lang/String;",
+          "registers": [
+            9
+          ]
+        },
+        {
+          "offset_cu": 582,
+          "dex_byte_offset": "0x216410",
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+          "registers": [
+            11,
+            12
+          ]
+        },
+        {
+          "offset_cu": 585,
+          "dex_byte_offset": "0x216416",
+          "target": "Ljava/lang/StringBuilder;->toString()Ljava/lang/String;",
+          "registers": [
+            11
+          ]
+        },
+        {
+          "offset_cu": 589,
+          "dex_byte_offset": "0x21641e",
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateDeviceType()I",
+          "registers": [
+            9
+          ]
+        },
+        {
+          "offset_cu": 595,
+          "dex_byte_offset": "0x21642a",
+          "target": "Lcom/panasonic/jp/lumixlab/util/v;->B0(Ljava/lang/String;)Ljava/lang/String;",
+          "registers": [
+            11
+          ]
+        },
+        {
+          "offset_cu": 599,
+          "dex_byte_offset": "0x216432",
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateDate()Ljava/lang/String;",
+          "registers": [
+            9
+          ]
+        },
+        {
+          "offset_cu": 603,
+          "dex_byte_offset": "0x21643a",
+          "target": "Lcom/panasonic/jp/lumixlab/util/v;->g(Ljava/lang/String;)Ljava/lang/String;",
+          "registers": [
+            12
+          ]
+        },
+        {
+          "offset_cu": 607,
+          "dex_byte_offset": "0x216442",
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateSize()Ljava/lang/String;",
+          "registers": [
+            9
+          ]
+        },
+        {
+          "offset_cu": 611,
+          "dex_byte_offset": "0x21644a",
+          "target": "Ljava/lang/Long;->parseLong(Ljava/lang/String;)J",
+          "registers": [
+            13
+          ]
+        },
+        {
+          "offset_cu": 619,
+          "dex_byte_offset": "0x21645a",
+          "target": "Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;",
+          "registers": [
+            13,
+            14
+          ]
+        },
+        {
+          "offset_cu": 629,
+          "dex_byte_offset": "0x21646e",
+          "target": "Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;",
+          "registers": [
+            14,
+            13
+          ]
+        },
+        {
+          "offset_cu": 635,
+          "dex_byte_offset": "0x21647a",
+          "target": "Ljava/lang/StringBuilder;-><init>()V",
+          "registers": [
+            14
+          ]
+        },
+        {
+          "offset_cu": 641,
+          "dex_byte_offset": "0x216486",
+          "target": "Landroidx/fragment/app/N;->getString(I)Ljava/lang/String;",
+          "registers": [
+            0,
+            15
+          ]
+        },
+        {
+          "offset_cu": 645,
+          "dex_byte_offset": "0x21648e",
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+          "registers": [
+            14,
+            2
+          ]
+        },
+        {
+          "offset_cu": 650,
+          "dex_byte_offset": "0x216498",
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+          "registers": [
+            14,
+            2
+          ]
+        },
+        {
+          "offset_cu": 653,
+          "dex_byte_offset": "0x21649e",
+          "target": "Ljava/lang/System;->lineSeparator()Ljava/lang/String;",
+          "registers": []
+        },
+        {
+          "offset_cu": 657,
+          "dex_byte_offset": "0x2164a6",
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+          "registers": [
+            14,
+            2
+          ]
+        },
+        {
+          "offset_cu": 663,
+          "dex_byte_offset": "0x2164b2",
+          "target": "Landroidx/fragment/app/N;->getString(I)Ljava/lang/String;",
+          "registers": [
+            0,
+            2
+          ]
+        },
+        {
+          "offset_cu": 667,
+          "dex_byte_offset": "0x2164ba",
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+          "registers": [
+            14,
+            3
+          ]
+        },
+        {
+          "offset_cu": 672,
+          "dex_byte_offset": "0x2164c4",
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+          "registers": [
+            14,
+            3
+          ]
+        },
+        {
+          "offset_cu": 675,
+          "dex_byte_offset": "0x2164ca",
+          "target": "Ljava/lang/StringBuilder;->toString()Ljava/lang/String;",
+          "registers": [
+            14
+          ]
+        },
+        {
+          "offset_cu": 681,
+          "dex_byte_offset": "0x2164d6",
+          "target": "Ljava/lang/StringBuilder;-><init>()V",
+          "registers": [
+            14
+          ]
+        },
+        {
+          "offset_cu": 684,
+          "dex_byte_offset": "0x2164dc",
+          "target": "Landroidx/fragment/app/N;->getString(I)Ljava/lang/String;",
+          "registers": [
+            0,
+            15
+          ]
+        },
+        {
+          "offset_cu": 688,
+          "dex_byte_offset": "0x2164e4",
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+          "registers": [
+            14,
+            15
+          ]
+        },
+        {
+          "offset_cu": 693,
+          "dex_byte_offset": "0x2164ee",
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+          "registers": [
+            14,
+            15
+          ]
+        },
+        {
+          "offset_cu": 696,
+          "dex_byte_offset": "0x2164f4",
+          "target": "Ljava/lang/System;->lineSeparator()Ljava/lang/String;",
+          "registers": []
+        },
+        {
+          "offset_cu": 700,
+          "dex_byte_offset": "0x2164fc",
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+          "registers": [
+            14,
+            15
+          ]
+        },
+        {
+          "offset_cu": 706,
+          "dex_byte_offset": "0x216508",
+          "target": "Landroidx/fragment/app/N;->getString(I)Ljava/lang/String;",
+          "registers": [
+            0,
+            15
+          ]
+        },
+        {
+          "offset_cu": 710,
+          "dex_byte_offset": "0x216510",
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+          "registers": [
+            14,
+            15
+          ]
+        },
+        {
+          "offset_cu": 715,
+          "dex_byte_offset": "0x21651a",
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+          "registers": [
+            14,
+            15
+          ]
+        },
+        {
+          "offset_cu": 718,
+          "dex_byte_offset": "0x216520",
+          "target": "Ljava/lang/System;->lineSeparator()Ljava/lang/String;",
+          "registers": []
+        },
+        {
+          "offset_cu": 722,
+          "dex_byte_offset": "0x216528",
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+          "registers": [
+            14,
+            15
+          ]
+        },
+        {
+          "offset_cu": 725,
+          "dex_byte_offset": "0x21652e",
+          "target": "Landroidx/fragment/app/N;->getString(I)Ljava/lang/String;",
+          "registers": [
+            0,
+            2
+          ]
+        },
+        {
+          "offset_cu": 729,
+          "dex_byte_offset": "0x216536",
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+          "registers": [
+            14,
+            2
+          ]
+        },
+        {
+          "offset_cu": 734,
+          "dex_byte_offset": "0x216540",
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+          "registers": [
+            14,
+            2
+          ]
+        },
+        {
+          "offset_cu": 737,
+          "dex_byte_offset": "0x216546",
+          "target": "Ljava/lang/StringBuilder;->toString()Ljava/lang/String;",
+          "registers": [
+            14
+          ]
+        },
+        {
+          "offset_cu": 745,
+          "dex_byte_offset": "0x216556",
+          "target": "Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;",
+          "registers": [
+            2,
+            14
+          ]
+        },
+        {
+          "offset_cu": 749,
+          "dex_byte_offset": "0x21655e",
+          "target": "Ljava/lang/String;->hashCode()I",
+          "registers": [
+            18
+          ]
+        },
+        {
+          "offset_cu": 759,
+          "dex_byte_offset": "0x216572",
+          "target": "Ljava/lang/String;->equals(Ljava/lang/Object;)Z",
+          "registers": [
+            1,
+            4
+          ]
+        },
+        {
+          "offset_cu": 770,
+          "dex_byte_offset": "0x216588",
+          "target": "Ljava/lang/String;->equals(Ljava/lang/Object;)Z",
+          "registers": [
+            1,
+            4
+          ]
+        },
+        {
+          "offset_cu": 781,
+          "dex_byte_offset": "0x21659e",
+          "target": "Ljava/lang/String;->equals(Ljava/lang/Object;)Z",
+          "registers": [
+            1,
+            4
+          ]
+        },
+        {
+          "offset_cu": 792,
+          "dex_byte_offset": "0x2165b4",
+          "target": "Ljava/lang/String;->equals(Ljava/lang/Object;)Z",
+          "registers": [
+            1,
+            5
+          ]
+        },
+        {
+          "offset_cu": 803,
+          "dex_byte_offset": "0x2165ca",
+          "target": "Ljava/lang/String;->equals(Ljava/lang/Object;)Z",
+          "registers": [
+            1,
+            4
+          ]
+        },
+        {
+          "offset_cu": 814,
+          "dex_byte_offset": "0x2165e0",
+          "target": "Ljava/lang/String;->equals(Ljava/lang/Object;)Z",
+          "registers": [
+            1,
+            4
+          ]
+        },
+        {
+          "offset_cu": 830,
+          "dex_byte_offset": "0x216600",
+          "target": "Landroidx/fragment/app/N;->getString(I)Ljava/lang/String;",
+          "registers": [
+            0,
+            1
+          ]
+        },
+        {
+          "offset_cu": 838,
+          "dex_byte_offset": "0x216610",
+          "target": "Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;",
+          "registers": [
+            2,
+            1
+          ]
+        },
+        {
+          "offset_cu": 842,
+          "dex_byte_offset": "0x216618",
+          "target": "Lcom/panasonic/jp/lumixlab/util/b;->g()Z",
+          "registers": []
+        },
+        {
+          "offset_cu": 854,
+          "dex_byte_offset": "0x216630",
+          "target": "Ljava/util/HashMap;-><init>()V",
+          "registers": [
+            1
+          ]
+        },
+        {
+          "offset_cu": 861,
+          "dex_byte_offset": "0x21663e",
+          "target": "Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;",
+          "registers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "offset_cu": 866,
+          "dex_byte_offset": "0x216648",
+          "target": "Lcom/panasonic/jp/lumixlab/util/b;->j(Ljava/lang/String;Ljava/util/HashMap;)V",
+          "registers": [
+            2,
+            1
+          ]
+        },
+        {
+          "offset_cu": 876,
+          "dex_byte_offset": "0x21665c",
+          "target": "Landroidx/fragment/app/N;->getString(I)Ljava/lang/String;",
+          "registers": [
+            0,
+            1
+          ]
+        },
+        {
+          "offset_cu": 884,
+          "dex_byte_offset": "0x21666c",
+          "target": "Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;",
+          "registers": [
+            3,
+            1
+          ]
+        },
+        {
+          "offset_cu": 896,
+          "dex_byte_offset": "0x216684",
+          "target": "Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V",
+          "registers": [
+            2,
+            3
+          ]
+        },
+        {
+          "offset_cu": 899,
+          "dex_byte_offset": "0x21668a",
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateUrl()Ljava/lang/String;",
+          "registers": [
+            9
+          ]
+        },
+        {
+          "offset_cu": 903,
+          "dex_byte_offset": "0x216692",
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+          "registers": [
+            2,
+            3
+          ]
+        },
+        {
+          "offset_cu": 906,
+          "dex_byte_offset": "0x216698",
+          "target": "Ljava/lang/StringBuilder;->toString()Ljava/lang/String;",
+          "registers": [
+            2
+          ]
+        },
+        {
+          "offset_cu": 912,
+          "dex_byte_offset": "0x2166a4",
+          "target": "Ljava/lang/Object;->getClass()Ljava/lang/Class;",
+          "registers": [
+            1
+          ]
+        },
+        {
+          "offset_cu": 915,
+          "dex_byte_offset": "0x2166aa",
+          "target": "Lh6/h;->a()Lh6/h;",
+          "registers": []
+        },
+        {
+          "offset_cu": 919,
+          "dex_byte_offset": "0x2166b2",
+          "target": "Ljava/lang/Object;->getClass()Ljava/lang/Class;",
+          "registers": [
+            4
+          ]
+        },
+        {
+          "offset_cu": 922,
+          "dex_byte_offset": "0x2166b8",
+          "target": "Lh6/h;->k()Loa/v0;",
+          "registers": []
+        },
+        {
+          "offset_cu": 926,
+          "dex_byte_offset": "0x2166c0",
+          "target": "Loa/v0;->b()Ljava/lang/Object;",
+          "registers": [
+            4
+          ]
+        },
+        {
+          "offset_cu": 932,
+          "dex_byte_offset": "0x2166cc",
+          "target": "Lh6/a;->c(Ljava/lang/String;)LY6/l;",
+          "registers": [
+            4,
+            2
+          ]
+        },
+        {
+          "offset_cu": 938,
+          "dex_byte_offset": "0x2166d8",
+          "target": "LY6/l;->i(LY6/r;)Lh7/B;",
+          "registers": [
+            4,
+            5
+          ]
+        },
+        {
+          "offset_cu": 942,
+          "dex_byte_offset": "0x2166e0",
+          "target": "LY6/l;->f(LY6/r;)Lh7/n;",
+          "registers": [
+            4,
+            5
+          ]
+        },
+        {
+          "offset_cu": 948,
+          "dex_byte_offset": "0x2166ec",
+          "target": "LR5/d;-><init>(LR5/h;Lcom/panasonic/jp/lumixlab/util/V;Ljava/lang/String;)V",
+          "registers": [
+            5,
+            1,
+            3,
+            2
+          ]
+        },
+        {
+          "offset_cu": 951,
+          "dex_byte_offset": "0x2166f2",
+          "target": "LY6/l;->d(LY6/o;)V",
+          "registers": [
+            4,
+            5
+          ]
+        },
+        {
+          "offset_cu": 960,
+          "dex_byte_offset": "0x216704",
+          "target": "Ljava/util/List;->size()I",
+          "registers": [
+            3
+          ]
+        },
+        {
+          "offset_cu": 970,
+          "dex_byte_offset": "0x216718",
+          "target": "Ljava/util/List;->get(I)Ljava/lang/Object;",
+          "registers": [
+            1,
+            3
+          ]
+        },
+        {
+          "offset_cu": 976,
+          "dex_byte_offset": "0x216724",
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateDownloadPath()Ljava/lang/String;",
+          "registers": [
+            1
+          ]
+        },
+        {
+          "offset_cu": 980,
+          "dex_byte_offset": "0x21672c",
+          "target": "Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z",
+          "registers": [
+            1
+          ]
+        },
+        {
+          "offset_cu": 989,
+          "dex_byte_offset": "0x21673e",
+          "target": "Landroidx/fragment/app/N;->getString(I)Ljava/lang/String;",
+          "registers": [
+            0,
+            1
+          ]
+        },
+        {
+          "offset_cu": 998,
+          "dex_byte_offset": "0x216750",
+          "target": "Landroidx/fragment/app/N;->getString(I)Ljava/lang/String;",
+          "registers": [
+            0,
+            1
+          ]
+        },
+        {
+          "offset_cu": 1007,
+          "dex_byte_offset": "0x216762",
+          "target": "Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;",
+          "registers": [
+            2,
+            1
+          ]
+        },
+        {
+          "offset_cu": 1017,
+          "dex_byte_offset": "0x216776",
+          "target": "Ljava/util/List;->get(I)Ljava/lang/Object;",
+          "registers": [
+            2,
+            3
+          ]
+        },
+        {
+          "offset_cu": 1023,
+          "dex_byte_offset": "0x216782",
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateId()J",
+          "registers": [
+            2
+          ]
+        },
+        {
+          "offset_cu": 1027,
+          "dex_byte_offset": "0x21678a",
+          "target": "Ljava/lang/Object;->getClass()Ljava/lang/Class;",
+          "registers": [
+            1
+          ]
+        },
+        {
+          "offset_cu": 1034,
+          "dex_byte_offset": "0x216798",
+          "target": "LR5/c;-><init>(JI)V",
+          "registers": [
+            4,
+            2,
+            3,
+            8
+          ]
+        },
+        {
+          "offset_cu": 1037,
+          "dex_byte_offset": "0x21679e",
+          "target": "Ljava/lang/Thread;-><init>(Ljava/lang/Runnable;)V",
+          "registers": [
+            1,
+            4
+          ]
+        },
+        {
+          "offset_cu": 1040,
+          "dex_byte_offset": "0x2167a4",
+          "target": "Ljava/lang/Thread;->start()V",
+          "registers": [
+            1
+          ]
+        },
+        {
+          "offset_cu": 1047,
+          "dex_byte_offset": "0x2167b2",
+          "target": "Landroidx/fragment/app/N;->getString(I)Ljava/lang/String;",
+          "registers": [
+            0,
+            1
+          ]
+        },
+        {
+          "offset_cu": 1055,
+          "dex_byte_offset": "0x2167c2",
+          "target": "Landroidx/fragment/app/N;->getString(I)Ljava/lang/String;",
+          "registers": [
+            0,
+            1
+          ]
+        },
+        {
+          "offset_cu": 1063,
+          "dex_byte_offset": "0x2167d2",
+          "target": "Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;",
+          "registers": [
+            3,
+            1
+          ]
+        },
+        {
+          "offset_cu": 1067,
+          "dex_byte_offset": "0x2167da",
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateDeviceType()I",
+          "registers": [
+            9
+          ]
+        },
+        {
+          "offset_cu": 1073,
+          "dex_byte_offset": "0x2167e6",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "registers": []
+        },
+        {
+          "offset_cu": 1079,
+          "dex_byte_offset": "0x2167f2",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->setLensName(Ljava/lang/String;)V",
+          "registers": [
+            1,
+            2
+          ]
+        },
+        {
+          "offset_cu": 1083,
+          "dex_byte_offset": "0x2167fa",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "registers": []
+        },
+        {
+          "offset_cu": 1089,
+          "dex_byte_offset": "0x216806",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->setDeviceName(Ljava/lang/String;)V",
+          "registers": [
+            1,
+            2
+          ]
+        },
+        {
+          "offset_cu": 1092,
+          "dex_byte_offset": "0x21680c",
+          "target": "Lcom/panasonic/jp/lumixlab/util/b;->g()Z",
+          "registers": []
+        },
+        {
+          "offset_cu": 1104,
+          "dex_byte_offset": "0x216824",
+          "target": "Ljava/util/HashMap;-><init>()V",
+          "registers": [
+            1
+          ]
+        },
+        {
+          "offset_cu": 1111,
+          "dex_byte_offset": "0x216832",
+          "target": "Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;",
+          "registers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "offset_cu": 1116,
+          "dex_byte_offset": "0x21683c",
+          "target": "Lcom/panasonic/jp/lumixlab/util/b;->j(Ljava/lang/String;Ljava/util/HashMap;)V",
+          "registers": [
+            2,
+            1
+          ]
+        },
+        {
+          "offset_cu": 1125,
+          "dex_byte_offset": "0x21684e",
+          "target": "Landroidx/fragment/app/N;->getString(I)Ljava/lang/String;",
+          "registers": [
+            0,
+            1
+          ]
+        },
+        {
+          "offset_cu": 1133,
+          "dex_byte_offset": "0x21685e",
+          "target": "Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;",
+          "registers": [
+            3,
+            1
+          ]
+        },
+        {
+          "offset_cu": 1143,
+          "dex_byte_offset": "0x216872",
+          "target": "Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V",
+          "registers": [
+            1,
+            10
+          ]
+        },
+        {
+          "offset_cu": 1154,
+          "dex_byte_offset": "0x216888",
+          "target": "Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V",
+          "registers": [
+            0,
+            14
+          ]
+        }
+      ],
+      "direct_native_calls": []
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/util/E1;->b(Ljava/io/File;Ljava/util/ArrayList;Ljava/util/zip/ZipFile;Ljava/util/zip/ZipEntry;Ljava/lang/String;)Z",
+      "dex": "classes2.dex",
+      "method_index": 16340,
+      "code_item_offset": 2441512,
+      "insns_offset": 2441528,
+      "code_units": 149,
+      "access_flags": 9,
+      "call_sites": [
+        {
+          "offset_cu": 2,
+          "dex_byte_offset": "0x25413c",
+          "target": "Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V",
+          "registers": [
+            0,
+            2,
+            6
+          ]
+        },
+        {
+          "offset_cu": 5,
+          "dex_byte_offset": "0x254142",
+          "target": "Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z",
+          "registers": [
+            3,
+            0
+          ]
+        },
+        {
+          "offset_cu": 8,
+          "dex_byte_offset": "0x254148",
+          "target": "Ljava/util/zip/ZipEntry;->isDirectory()Z",
+          "registers": [
+            5
+          ]
+        },
+        {
+          "offset_cu": 16,
+          "dex_byte_offset": "0x254158",
+          "target": "Ljava/io/File;->exists()Z",
+          "registers": [
+            0
+          ]
+        },
+        {
+          "offset_cu": 22,
+          "dex_byte_offset": "0x254164",
+          "target": "Ljava/io/File;->isDirectory()Z",
+          "registers": [
+            0
+          ]
+        },
+        {
+          "offset_cu": 29,
+          "dex_byte_offset": "0x254172",
+          "target": "Ljava/io/File;->mkdirs()Z",
+          "registers": [
+            0
+          ]
+        },
+        {
+          "offset_cu": 37,
+          "dex_byte_offset": "0x254182",
+          "target": "Ljava/io/File;->exists()Z",
+          "registers": [
+            0
+          ]
+        },
+        {
+          "offset_cu": 43,
+          "dex_byte_offset": "0x25418e",
+          "target": "Ljava/io/File;->isFile()Z",
+          "registers": [
+            0
+          ]
+        },
+        {
+          "offset_cu": 48,
+          "dex_byte_offset": "0x254198",
+          "target": "Ljava/io/File;->getParentFile()Ljava/io/File;",
+          "registers": [
+            0
+          ]
+        },
+        {
+          "offset_cu": 54,
+          "dex_byte_offset": "0x2541a4",
+          "target": "Ljava/io/File;->exists()Z",
+          "registers": [
+            2
+          ]
+        },
+        {
+          "offset_cu": 60,
+          "dex_byte_offset": "0x2541b0",
+          "target": "Ljava/io/File;->isDirectory()Z",
+          "registers": [
+            2
+          ]
+        },
+        {
+          "offset_cu": 67,
+          "dex_byte_offset": "0x2541be",
+          "target": "Ljava/io/File;->mkdirs()Z",
+          "registers": [
+            2
+          ]
+        },
+        {
+          "offset_cu": 73,
+          "dex_byte_offset": "0x2541ca",
+          "target": "Ljava/io/File;->createNewFile()Z",
+          "registers": [
+            0
+          ]
+        },
+        {
+          "offset_cu": 89,
+          "dex_byte_offset": "0x2541ea",
+          "target": "Ljava/util/zip/ZipFile;->getInputStream(Ljava/util/zip/ZipEntry;)Ljava/io/InputStream;",
+          "registers": [
+            4,
+            5
+          ]
+        },
+        {
+          "offset_cu": 93,
+          "dex_byte_offset": "0x2541f2",
+          "target": "Ljava/io/BufferedInputStream;-><init>(Ljava/io/InputStream;)V",
+          "registers": [
+            1,
+            4
+          ]
+        },
+        {
+          "offset_cu": 100,
+          "dex_byte_offset": "0x254200",
+          "target": "Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V",
+          "registers": [
+            5,
+            0
+          ]
+        },
+        {
+          "offset_cu": 103,
+          "dex_byte_offset": "0x254206",
+          "target": "Ljava/io/BufferedOutputStream;-><init>(Ljava/io/OutputStream;)V",
+          "registers": [
+            4,
+            5
+          ]
+        },
+        {
+          "offset_cu": 110,
+          "dex_byte_offset": "0x254214",
+          "target": "Ljava/io/InputStream;->read([B)I",
+          "registers": [
+            1,
+            2
+          ]
+        },
+        {
+          "offset_cu": 117,
+          "dex_byte_offset": "0x254222",
+          "target": "Ljava/io/OutputStream;->write([BII)V",
+          "registers": [
+            4,
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "offset_cu": 123,
+          "dex_byte_offset": "0x25422e",
+          "target": "Ljava/io/InputStream;->close()V",
+          "registers": [
+            1
+          ]
+        },
+        {
+          "offset_cu": 126,
+          "dex_byte_offset": "0x254234",
+          "target": "Ljava/io/OutputStream;->close()V",
+          "registers": [
+            4
+          ]
+        },
+        {
+          "offset_cu": 140,
+          "dex_byte_offset": "0x254250",
+          "target": "Ljava/io/InputStream;->close()V",
+          "registers": [
+            1
+          ]
+        },
+        {
+          "offset_cu": 145,
+          "dex_byte_offset": "0x25425a",
+          "target": "Ljava/io/OutputStream;->close()V",
+          "registers": [
+            4
+          ]
+        }
+      ],
+      "direct_native_calls": []
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/util/E1;->c(Ljava/io/File;Ljava/io/File;)Ljava/util/ArrayList;",
+      "dex": "classes2.dex",
+      "method_index": 16341,
+      "code_item_offset": 2442416,
+      "insns_offset": 2442432,
+      "code_units": 68,
+      "access_flags": 9,
+      "call_sites": [
+        {
+          "offset_cu": 2,
+          "dex_byte_offset": "0x2544c4",
+          "target": "Ljava/util/ArrayList;-><init>()V",
+          "registers": [
+            0
+          ]
+        },
+        {
+          "offset_cu": 7,
+          "dex_byte_offset": "0x2544ce",
+          "target": "Ljava/util/zip/ZipFile;-><init>(Ljava/io/File;)V",
+          "registers": [
+            1,
+            6
+          ]
+        },
+        {
+          "offset_cu": 10,
+          "dex_byte_offset": "0x2544d4",
+          "target": "Ljava/util/zip/ZipFile;->entries()Ljava/util/Enumeration;",
+          "registers": [
+            1
+          ]
+        },
+        {
+          "offset_cu": 14,
+          "dex_byte_offset": "0x2544dc",
+          "target": "Ljava/util/Enumeration;->hasMoreElements()Z",
+          "registers": [
+            6
+          ]
+        },
+        {
+          "offset_cu": 20,
+          "dex_byte_offset": "0x2544e8",
+          "target": "Ljava/util/Enumeration;->nextElement()Ljava/lang/Object;",
+          "registers": [
+            6
+          ]
+        },
+        {
+          "offset_cu": 26,
+          "dex_byte_offset": "0x2544f4",
+          "target": "Ljava/util/zip/ZipEntry;->getName()Ljava/lang/String;",
+          "registers": [
+            2
+          ]
+        },
+        {
+          "offset_cu": 34,
+          "dex_byte_offset": "0x254504",
+          "target": "Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;",
+          "registers": [
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "offset_cu": 40,
+          "dex_byte_offset": "0x254510",
+          "target": "Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z",
+          "registers": [
+            3,
+            4
+          ]
+        },
+        {
+          "offset_cu": 51,
+          "dex_byte_offset": "0x254526",
+          "target": "Lcom/panasonic/jp/lumixlab/util/E1;->b(Ljava/io/File;Ljava/util/ArrayList;Ljava/util/zip/ZipFile;Ljava/util/zip/ZipEntry;Ljava/lang/String;)Z",
+          "registers": [
+            7,
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "offset_cu": 57,
+          "dex_byte_offset": "0x254532",
+          "target": "Ljava/util/zip/ZipFile;->close()V",
+          "registers": [
+            1
+          ]
+        },
+        {
+          "offset_cu": 64,
+          "dex_byte_offset": "0x254540",
+          "target": "Ljava/util/zip/ZipFile;->close()V",
+          "registers": [
+            1
+          ]
+        }
+      ],
+      "direct_native_calls": []
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/util/b0;->y(Ljava/io/File;)I",
+      "dex": "classes2.dex",
+      "method_index": 16585,
+      "code_item_offset": 2348600,
+      "insns_offset": 2348616,
+      "code_units": 60,
+      "access_flags": 9,
+      "call_sites": [
+        {
+          "offset_cu": 0,
+          "dex_byte_offset": "0x23d648",
+          "target": "Ljava/io/File;->exists()Z",
+          "registers": [
+            2
+          ]
+        },
+        {
+          "offset_cu": 9,
+          "dex_byte_offset": "0x23d65a",
+          "target": "Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V",
+          "registers": [
+            1,
+            2
+          ]
+        },
+        {
+          "offset_cu": 12,
+          "dex_byte_offset": "0x23d660",
+          "target": "Ljava/io/FileInputStream;->available()I",
+          "registers": [
+            1
+          ]
+        },
+        {
+          "offset_cu": 16,
+          "dex_byte_offset": "0x23d668",
+          "target": "Ljava/io/FileInputStream;->close()V",
+          "registers": [
+            1
+          ]
+        },
+        {
+          "offset_cu": 38,
+          "dex_byte_offset": "0x23d694",
+          "target": "Ljava/io/FileInputStream;->close()V",
+          "registers": [
+            0
+          ]
+        },
+        {
+          "offset_cu": 49,
+          "dex_byte_offset": "0x23d6aa",
+          "target": "Ljava/io/FileInputStream;->close()V",
+          "registers": [
+            0
+          ]
+        }
+      ],
+      "direct_native_calls": []
+    },
+    {
+      "method": "Lg8/y0;-><init>(Lg8/k0;I[BI)V",
+      "dex": "classes2.dex",
+      "method_index": 21570,
+      "code_item_offset": 3137180,
+      "insns_offset": 3137196,
+      "code_units": 12,
+      "access_flags": 65537,
+      "call_sites": [
+        {
+          "offset_cu": 8,
+          "dex_byte_offset": "0x2fdebc",
+          "target": "Lg8/A0;-><init>()V",
+          "registers": [
+            0
+          ]
+        }
+      ],
+      "direct_native_calls": []
+    },
+    {
+      "method": "Lg8/y0;->a()J",
+      "dex": "classes2.dex",
+      "method_index": 21571,
+      "code_item_offset": 3137156,
+      "insns_offset": 3137172,
+      "code_units": 4,
+      "access_flags": 17,
+      "call_sites": [],
+      "direct_native_calls": []
+    },
+    {
+      "method": "Lg8/y0;->b()Lg8/k0;",
+      "dex": "classes2.dex",
+      "method_index": 21572,
+      "code_item_offset": 3137132,
+      "insns_offset": 3137148,
+      "code_units": 3,
+      "access_flags": 17,
+      "call_sites": [],
+      "direct_native_calls": []
+    },
+    {
+      "method": "Lg8/y0;->c(Lu8/k;)V",
+      "dex": "classes2.dex",
+      "method_index": 21573,
+      "code_item_offset": 3137220,
+      "insns_offset": 3137236,
+      "code_units": 10,
+      "access_flags": 17,
+      "call_sites": [
+        {
+          "offset_cu": 6,
+          "dex_byte_offset": "0x2fdee0",
+          "target": "Lu8/k;->S(II[B)Lu8/k;",
+          "registers": [
+            3,
+            2,
+            0,
+            1
+          ]
+        }
+      ],
+      "direct_native_calls": []
+    },
+    {
+      "method": "Lg8/z0;->a(Lg8/k0;I[BI)Lg8/y0;",
+      "dex": "classes2.dex",
+      "method_index": 21578,
+      "code_item_offset": 3137256,
+      "insns_offset": 3137272,
+      "code_units": 35,
+      "access_flags": 9,
+      "call_sites": [
+        {
+          "offset_cu": 25,
+          "dex_byte_offset": "0x2fdf2a",
+          "target": "Lg8/y0;-><init>(Lg8/k0;I[BI)V",
+          "registers": [
+            0,
+            10,
+            13,
+            12,
+            11
+          ]
+        },
+        {
+          "offset_cu": 31,
+          "dex_byte_offset": "0x2fdf36",
+          "target": "Ljava/lang/ArrayIndexOutOfBoundsException;-><init>()V",
+          "registers": [
+            10
+          ]
+        }
+      ],
+      "direct_native_calls": []
+    },
+    {
+      "method": "Lh6/d;->verify(Ljava/lang/String;Ljavax/net/ssl/SSLSession;)Z",
+      "dex": "classes2.dex",
+      "method_index": 21876,
+      "code_item_offset": 3196664,
+      "insns_offset": 3196680,
+      "code_units": 100,
+      "access_flags": 17,
+      "call_sites": [
+        {
+          "offset_cu": 7,
+          "dex_byte_offset": "0x30c716",
+          "target": "Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;",
+          "registers": [
+            0
+          ]
+        },
+        {
+          "offset_cu": 11,
+          "dex_byte_offset": "0x30c71e",
+          "target": "Ljavax/net/ssl/SSLSession;->getPeerCertificates()[Ljava/security/cert/Certificate;",
+          "registers": [
+            2
+          ]
+        },
+        {
+          "offset_cu": 18,
+          "dex_byte_offset": "0x30c72c",
+          "target": "Ljava/security/cert/Certificate;->getEncoded()[B",
+          "registers": [
+            1
+          ]
+        },
+        {
+          "offset_cu": 22,
+          "dex_byte_offset": "0x30c734",
+          "target": "Ljava/security/MessageDigest;->update([B)V",
+          "registers": [
+            0,
+            1
+          ]
+        },
+        {
+          "offset_cu": 25,
+          "dex_byte_offset": "0x30c73a",
+          "target": "Ljava/security/MessageDigest;->digest()[B",
+          "registers": [
+            0
+          ]
+        },
+        {
+          "offset_cu": 29,
+          "dex_byte_offset": "0x30c742",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "registers": []
+        },
+        {
+          "offset_cu": 33,
+          "dex_byte_offset": "0x30c74a",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getCerFingerPrint()[B",
+          "registers": [
+            1
+          ]
+        },
+        {
+          "offset_cu": 37,
+          "dex_byte_offset": "0x30c752",
+          "target": "Ljava/security/MessageDigest;->isEqual([B[B)Z",
+          "registers": [
+            1,
+            0
+          ]
+        },
+        {
+          "offset_cu": 45,
+          "dex_byte_offset": "0x30c762",
+          "target": "Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V",
+          "registers": [
+            1,
+            0
+          ]
+        },
+        {
+          "offset_cu": 51,
+          "dex_byte_offset": "0x30c76e",
+          "target": "Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;",
+          "registers": [
+            0
+          ]
+        },
+        {
+          "offset_cu": 55,
+          "dex_byte_offset": "0x30c776",
+          "target": "Ljavax/net/ssl/SSLSession;->getPeerCertificates()[Ljava/security/cert/Certificate;",
+          "registers": [
+            2
+          ]
+        },
+        {
+          "offset_cu": 62,
+          "dex_byte_offset": "0x30c784",
+          "target": "Ljava/security/cert/Certificate;->getEncoded()[B",
+          "registers": [
+            1
+          ]
+        },
+        {
+          "offset_cu": 66,
+          "dex_byte_offset": "0x30c78c",
+          "target": "Ljava/security/MessageDigest;->update([B)V",
+          "registers": [
+            0,
+            1
+          ]
+        },
+        {
+          "offset_cu": 69,
+          "dex_byte_offset": "0x30c792",
+          "target": "Ljava/security/MessageDigest;->digest()[B",
+          "registers": [
+            0
+          ]
+        },
+        {
+          "offset_cu": 73,
+          "dex_byte_offset": "0x30c79a",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "registers": []
+        },
+        {
+          "offset_cu": 77,
+          "dex_byte_offset": "0x30c7a2",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getCerFingerPrint()[B",
+          "registers": [
+            1
+          ]
+        },
+        {
+          "offset_cu": 81,
+          "dex_byte_offset": "0x30c7aa",
+          "target": "Ljava/security/MessageDigest;->isEqual([B[B)Z",
+          "registers": [
+            1,
+            0
+          ]
+        },
+        {
+          "offset_cu": 89,
+          "dex_byte_offset": "0x30c7ba",
+          "target": "Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V",
+          "registers": [
+            1,
+            0
+          ]
+        }
+      ],
+      "direct_native_calls": []
+    },
+    {
+      "method": "Lz5/j4;->c(Lcom/panasonic/jp/lumixlab/bean/CommunityDownloadInfoBean;)V",
+      "dex": "classes2.dex",
+      "method_index": 30293,
+      "code_item_offset": 3846756,
+      "insns_offset": 3846772,
+      "code_units": 231,
+      "access_flags": 17,
+      "call_sites": [
+        {
+          "offset_cu": 6,
+          "dex_byte_offset": "0x3ab280",
+          "target": "Lcom/panasonic/jp/lumixlab/util/V;->e(ILcom/panasonic/jp/lumixlab/bean/CommunityDownloadInfoBean;)V",
+          "registers": [
+            1,
+            2,
+            11
+          ]
+        },
+        {
+          "offset_cu": 9,
+          "dex_byte_offset": "0x3ab286",
+          "target": "Lcom/panasonic/jp/lumixlab/bean/CommunityDownloadInfoBean;->getFile()Ljava/io/File;",
+          "registers": [
+            11
+          ]
+        },
+        {
+          "offset_cu": 13,
+          "dex_byte_offset": "0x3ab28e",
+          "target": "Lcom/panasonic/jp/lumixlab/util/b0;->H()Lcom/panasonic/jp/lumixlab/util/b0;",
+          "registers": []
+        },
+        {
+          "offset_cu": 17,
+          "dex_byte_offset": "0x3ab296",
+          "target": "Ljava/io/File;->getAbsolutePath()Ljava/lang/String;",
+          "registers": [
+            1
+          ]
+        },
+        {
+          "offset_cu": 21,
+          "dex_byte_offset": "0x3ab29e",
+          "target": "Ljava/lang/Object;->getClass()Ljava/lang/Class;",
+          "registers": [
+            3
+          ]
+        },
+        {
+          "offset_cu": 28,
+          "dex_byte_offset": "0x3ab2ac",
+          "target": "Lcom/panasonic/jp/lumixlab/util/b0;->A(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;",
+          "registers": [
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "offset_cu": 34,
+          "dex_byte_offset": "0x3ab2b8",
+          "target": "Ljava/io/File;-><init>(Ljava/lang/String;)V",
+          "registers": [
+            4,
+            3
+          ]
+        },
+        {
+          "offset_cu": 44,
+          "dex_byte_offset": "0x3ab2cc",
+          "target": "Ljava/util/List;->get(I)Ljava/lang/Object;",
+          "registers": [
+            6,
+            7
+          ]
+        },
+        {
+          "offset_cu": 50,
+          "dex_byte_offset": "0x3ab2d8",
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateSize()Ljava/lang/String;",
+          "registers": [
+            6
+          ]
+        },
+        {
+          "offset_cu": 54,
+          "dex_byte_offset": "0x3ab2e0",
+          "target": "Ljava/lang/Long;->parseLong(Ljava/lang/String;)J",
+          "registers": [
+            6
+          ]
+        },
+        {
+          "offset_cu": 76,
+          "dex_byte_offset": "0x3ab30c",
+          "target": "Lcom/panasonic/jp/lumixlab/util/v;->Y0([J)Z",
+          "registers": [
+            8
+          ]
+        },
+        {
+          "offset_cu": 85,
+          "dex_byte_offset": "0x3ab31e",
+          "target": "Landroidx/fragment/app/N;->getString(I)Ljava/lang/String;",
+          "registers": [
+            10,
+            11
+          ]
+        },
+        {
+          "offset_cu": 89,
+          "dex_byte_offset": "0x3ab326",
+          "target": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->p0(Ljava/lang/String;)V",
+          "registers": [
+            10,
+            11
+          ]
+        },
+        {
+          "offset_cu": 94,
+          "dex_byte_offset": "0x3ab330",
+          "target": "Lcom/panasonic/jp/lumixlab/util/E1;->c(Ljava/io/File;Ljava/io/File;)Ljava/util/ArrayList;",
+          "registers": [
+            1,
+            4
+          ]
+        },
+        {
+          "offset_cu": 98,
+          "dex_byte_offset": "0x3ab338",
+          "target": "Ljava/util/ArrayList;->isEmpty()Z",
+          "registers": [
+            1
+          ]
+        },
+        {
+          "offset_cu": 104,
+          "dex_byte_offset": "0x3ab344",
+          "target": "Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;",
+          "registers": [
+            1
+          ]
+        },
+        {
+          "offset_cu": 108,
+          "dex_byte_offset": "0x3ab34c",
+          "target": "Ljava/util/Iterator;->hasNext()Z",
+          "registers": [
+            1
+          ]
+        },
+        {
+          "offset_cu": 114,
+          "dex_byte_offset": "0x3ab358",
+          "target": "Ljava/util/Iterator;->next()Ljava/lang/Object;",
+          "registers": [
+            1
+          ]
+        },
+        {
+          "offset_cu": 122,
+          "dex_byte_offset": "0x3ab368",
+          "target": "Ljava/io/File;->isFile()Z",
+          "registers": [
+            4
+          ]
+        },
+        {
+          "offset_cu": 128,
+          "dex_byte_offset": "0x3ab374",
+          "target": "Ljava/io/File;->getName()Ljava/lang/String;",
+          "registers": [
+            4
+          ]
+        },
+        {
+          "offset_cu": 132,
+          "dex_byte_offset": "0x3ab37c",
+          "target": "Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z",
+          "registers": [
+            3
+          ]
+        },
+        {
+          "offset_cu": 138,
+          "dex_byte_offset": "0x3ab388",
+          "target": "Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z",
+          "registers": [
+            4
+          ]
+        },
+        {
+          "offset_cu": 146,
+          "dex_byte_offset": "0x3ab398",
+          "target": "Ljava/nio/file/Paths;->get(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;",
+          "registers": [
+            3,
+            1
+          ]
+        },
+        {
+          "offset_cu": 150,
+          "dex_byte_offset": "0x3ab3a0",
+          "target": "Ljava/nio/file/Path;->resolve(Ljava/lang/String;)Ljava/nio/file/Path;",
+          "registers": [
+            1,
+            4
+          ]
+        },
+        {
+          "offset_cu": 154,
+          "dex_byte_offset": "0x3ab3a8",
+          "target": "Ljava/nio/file/Path;->toString()Ljava/lang/String;",
+          "registers": [
+            1
+          ]
+        },
+        {
+          "offset_cu": 160,
+          "dex_byte_offset": "0x3ab3b4",
+          "target": "Lcom/panasonic/jp/lumixlab/util/b0;->H()Lcom/panasonic/jp/lumixlab/util/b0;",
+          "registers": []
+        },
+        {
+          "offset_cu": 164,
+          "dex_byte_offset": "0x3ab3bc",
+          "target": "Lcom/panasonic/jp/lumixlab/bean/CommunityDownloadInfoBean;->getFile()Ljava/io/File;",
+          "registers": [
+            11
+          ]
+        },
+        {
+          "offset_cu": 168,
+          "dex_byte_offset": "0x3ab3c4",
+          "target": "Ljava/lang/Object;->getClass()Ljava/lang/Class;",
+          "registers": [
+            1
+          ]
+        },
+        {
+          "offset_cu": 171,
+          "dex_byte_offset": "0x3ab3ca",
+          "target": "Lcom/panasonic/jp/lumixlab/util/b0;->f(Ljava/io/File;)Z",
+          "registers": [
+            11
+          ]
+        },
+        {
+          "offset_cu": 180,
+          "dex_byte_offset": "0x3ab3dc",
+          "target": "Ljava/lang/Object;->getClass()Ljava/lang/Class;",
+          "registers": [
+            11
+          ]
+        },
+        {
+          "offset_cu": 183,
+          "dex_byte_offset": "0x3ab3e2",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "registers": []
+        },
+        {
+          "offset_cu": 187,
+          "dex_byte_offset": "0x3ab3ea",
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getUpdateInfoEntityList()Ljava/util/List;",
+          "registers": [
+            11
+          ]
+        },
+        {
+          "offset_cu": 191,
+          "dex_byte_offset": "0x3ab3f2",
+          "target": "Ljava/util/List;->get(I)Ljava/lang/Object;",
+          "registers": [
+            11,
+            0
+          ]
+        },
+        {
+          "offset_cu": 197,
+          "dex_byte_offset": "0x3ab3fe",
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->setUpdateDownloadPath(Ljava/lang/String;)V",
+          "registers": [
+            1,
+            3
+          ]
+        },
+        {
+          "offset_cu": 205,
+          "dex_byte_offset": "0x3ab40e",
+          "target": "LA1/b;-><init>(Ljava/lang/Object;Ljava/lang/Object;II)V",
+          "registers": [
+            2,
+            3,
+            11,
+            0,
+            4
+          ]
+        },
+        {
+          "offset_cu": 208,
+          "dex_byte_offset": "0x3ab414",
+          "target": "Ljava/lang/Thread;-><init>(Ljava/lang/Runnable;)V",
+          "registers": [
+            1,
+            2
+          ]
+        },
+        {
+          "offset_cu": 211,
+          "dex_byte_offset": "0x3ab41a",
+          "target": "Ljava/lang/Thread;->start()V",
+          "registers": [
+            1
+          ]
+        },
+        {
+          "offset_cu": 215,
+          "dex_byte_offset": "0x3ab422",
+          "target": "Landroidx/fragment/app/N;->getString(I)Ljava/lang/String;",
+          "registers": [
+            10,
+            5
+          ]
+        },
+        {
+          "offset_cu": 219,
+          "dex_byte_offset": "0x3ab42a",
+          "target": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->p0(Ljava/lang/String;)V",
+          "registers": [
+            10,
+            11
+          ]
+        },
+        {
+          "offset_cu": 223,
+          "dex_byte_offset": "0x3ab432",
+          "target": "Landroidx/fragment/app/N;->getString(I)Ljava/lang/String;",
+          "registers": [
+            10,
+            5
+          ]
+        },
+        {
+          "offset_cu": 227,
+          "dex_byte_offset": "0x3ab43a",
+          "target": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->p0(Ljava/lang/String;)V",
+          "registers": [
+            10,
+            11
+          ]
+        }
+      ],
+      "direct_native_calls": []
+    }
+  ],
+  "path_reads_and_writes": [
+    {
+      "caller": "LC5/C0;->d(LJ1/r;Ljava/lang/Object;)V",
+      "dex": "classes2.dex",
+      "offset_cu": 243,
+      "dex_byte_offset": "0xfffea",
+      "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateDownloadPath()Ljava/lang/String;",
+      "registers": [
+        4
+      ]
+    },
+    {
+      "caller": "LC5/C0;->d(LJ1/r;Ljava/lang/Object;)V",
+      "dex": "classes2.dex",
+      "offset_cu": 255,
+      "dex_byte_offset": "0x100002",
+      "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateDownloadPath()Ljava/lang/String;",
+      "registers": [
+        4
+      ]
+    },
+    {
+      "caller": "LE5/e;->test(Ljava/lang/Object;)Z",
+      "dex": "classes2.dex",
+      "offset_cu": 120,
+      "dex_byte_offset": "0x12bcf4",
+      "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateDownloadPath()Ljava/lang/String;",
+      "registers": [
+        4
+      ]
+    },
+    {
+      "caller": "LF5/b;->accept(Ljava/lang/Object;)V",
+      "dex": "classes2.dex",
+      "offset_cu": 183,
+      "dex_byte_offset": "0x14ed0a",
+      "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateDownloadPath()Ljava/lang/String;",
+      "registers": [
+        2
+      ]
+    },
+    {
+      "caller": "LF5/d;->c(Ljava/lang/Object;)V",
+      "dex": "classes2.dex",
+      "offset_cu": 1318,
+      "dex_byte_offset": "0x14ff94",
+      "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateDownloadPath()Ljava/lang/String;",
+      "registers": [
+        1
+      ]
+    },
+    {
+      "caller": "LF5/d;->c(Ljava/lang/Object;)V",
+      "dex": "classes2.dex",
+      "offset_cu": 1500,
+      "dex_byte_offset": "0x150100",
+      "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateDownloadPath()Ljava/lang/String;",
+      "registers": [
+        1
+      ]
+    },
+    {
+      "caller": "LF5/d;->c(Ljava/lang/Object;)V",
+      "dex": "classes2.dex",
+      "offset_cu": 1513,
+      "dex_byte_offset": "0x15011a",
+      "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateDownloadPath()Ljava/lang/String;",
+      "registers": [
+        1
+      ]
+    },
+    {
+      "caller": "LF5/f;->c(Ljava/util/ArrayList;)Ljava/util/List;",
+      "dex": "classes2.dex",
+      "offset_cu": 65,
+      "dex_byte_offset": "0x1504f2",
+      "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateDownloadPath()Ljava/lang/String;",
+      "registers": [
+        3
+      ]
+    },
+    {
+      "caller": "LF5/f;->c(Ljava/util/ArrayList;)Ljava/util/List;",
+      "dex": "classes2.dex",
+      "offset_cu": 123,
+      "dex_byte_offset": "0x150566",
+      "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateDownloadPath()Ljava/lang/String;",
+      "registers": [
+        3
+      ]
+    },
+    {
+      "caller": "LF5/f;->c(Ljava/util/ArrayList;)Ljava/util/List;",
+      "dex": "classes2.dex",
+      "offset_cu": 143,
+      "dex_byte_offset": "0x15058e",
+      "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateDownloadPath()Ljava/lang/String;",
+      "registers": [
+        3
+      ]
+    },
+    {
+      "caller": "LF5/f;->c(Ljava/util/ArrayList;)Ljava/util/List;",
+      "dex": "classes2.dex",
+      "offset_cu": 216,
+      "dex_byte_offset": "0x150620",
+      "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateDownloadPath()Ljava/lang/String;",
+      "registers": [
+        3
+      ]
+    },
+    {
+      "caller": "LR5/e;->b(Loa/h;Loa/s0;)V",
+      "dex": "classes2.dex",
+      "offset_cu": 49,
+      "dex_byte_offset": "0x18ba82",
+      "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateDownloadPath()Ljava/lang/String;",
+      "registers": [
+        6
+      ]
+    },
+    {
+      "caller": "LR5/h;->a(JLjava/lang/String;ZZ)V",
+      "dex": "classes2.dex",
+      "offset_cu": 271,
+      "dex_byte_offset": "0x18c312",
+      "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->setUpdateDownloadPath(Ljava/lang/String;)V",
+      "registers": [
+        5,
+        6
+      ]
+    },
+    {
+      "caller": "LY5/h;->run()V",
+      "dex": "classes2.dex",
+      "offset_cu": 199,
+      "dex_byte_offset": "0x1b30be",
+      "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateDownloadPath()Ljava/lang/String;",
+      "registers": [
+        4
+      ]
+    },
+    {
+      "caller": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->z0(Ljava/lang/String;)V",
+      "dex": "classes2.dex",
+      "offset_cu": 225,
+      "dex_byte_offset": "0x216146",
+      "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateDownloadPath()Ljava/lang/String;",
+      "registers": [
+        9
+      ]
+    },
+    {
+      "caller": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->z0(Ljava/lang/String;)V",
+      "dex": "classes2.dex",
+      "offset_cu": 976,
+      "dex_byte_offset": "0x216724",
+      "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateDownloadPath()Ljava/lang/String;",
+      "registers": [
+        1
+      ]
+    },
+    {
+      "caller": "Ld7/a;->apply(Ljava/lang/Object;)Ljava/lang/Object;",
+      "dex": "classes2.dex",
+      "offset_cu": 481,
+      "dex_byte_offset": "0x27e536",
+      "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->setUpdateDownloadPath(Ljava/lang/String;)V",
+      "registers": [
+        6,
+        9
+      ]
+    },
+    {
+      "caller": "Le5/T0;->onClick(Landroid/view/View;)V",
+      "dex": "classes2.dex",
+      "offset_cu": 173,
+      "dex_byte_offset": "0x28ff9a",
+      "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateDownloadPath()Ljava/lang/String;",
+      "registers": [
+        2
+      ]
+    },
+    {
+      "caller": "Le5/V0;->h(LC1/e1;I)V",
+      "dex": "classes2.dex",
+      "offset_cu": 311,
+      "dex_byte_offset": "0x2904fa",
+      "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateDownloadPath()Ljava/lang/String;",
+      "registers": [
+        10
+      ]
+    },
+    {
+      "caller": "Le5/V0;->i(LC1/e1;ILjava/util/List;)V",
+      "dex": "classes2.dex",
+      "offset_cu": 25,
+      "dex_byte_offset": "0x290586",
+      "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateDownloadPath()Ljava/lang/String;",
+      "registers": [
+        4
+      ]
+    },
+    {
+      "caller": "Lz5/V3;->O(Ljava/util/List;)V",
+      "dex": "classes2.dex",
+      "offset_cu": 8,
+      "dex_byte_offset": "0x3a9584",
+      "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateDownloadPath()Ljava/lang/String;",
+      "registers": [
+        0
+      ]
+    },
+    {
+      "caller": "Lz5/g4;->run()V",
+      "dex": "classes2.dex",
+      "offset_cu": 62,
+      "dex_byte_offset": "0x3aab44",
+      "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateDownloadPath()Ljava/lang/String;",
+      "registers": [
+        1
+      ]
+    },
+    {
+      "caller": "Lz5/g4;->run()V",
+      "dex": "classes2.dex",
+      "offset_cu": 109,
+      "dex_byte_offset": "0x3aaba2",
+      "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->setUpdateDownloadPath(Ljava/lang/String;)V",
+      "registers": [
+        9,
+        5
+      ]
+    },
+    {
+      "caller": "Lz5/i1;->run()V",
+      "dex": "classes2.dex",
+      "offset_cu": 283,
+      "dex_byte_offset": "0x396c1a",
+      "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateDownloadPath()Ljava/lang/String;",
+      "registers": [
+        2
+      ]
+    },
+    {
+      "caller": "Lz5/i1;->run()V",
+      "dex": "classes2.dex",
+      "offset_cu": 781,
+      "dex_byte_offset": "0x396ffe",
+      "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateDownloadPath()Ljava/lang/String;",
+      "registers": [
+        6
+      ]
+    },
+    {
+      "caller": "Lz5/i1;->run()V",
+      "dex": "classes2.dex",
+      "offset_cu": 834,
+      "dex_byte_offset": "0x397068",
+      "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateDownloadPath()Ljava/lang/String;",
+      "registers": [
+        2
+      ]
+    },
+    {
+      "caller": "Lz5/i4;->onClick(Landroid/view/View;)V",
+      "dex": "classes2.dex",
+      "offset_cu": 154,
+      "dex_byte_offset": "0x3aaf88",
+      "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateDownloadPath()Ljava/lang/String;",
+      "registers": [
+        4
+      ]
+    },
+    {
+      "caller": "Lz5/j4;->c(Lcom/panasonic/jp/lumixlab/bean/CommunityDownloadInfoBean;)V",
+      "dex": "classes2.dex",
+      "offset_cu": 197,
+      "dex_byte_offset": "0x3ab3fe",
+      "target": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->setUpdateDownloadPath(Ljava/lang/String;)V",
+      "registers": [
+        1,
+        3
+      ]
+    }
+  ],
+  "conclusions": [
+    {
+      "status": "已驗證",
+      "claim": "x0 read array register v1 is supplied unchanged to g8/z0 request-body factory; return values from skip/read are not consumed"
+    },
+    {
+      "status": "已驗證",
+      "claim": "z5/j4.c selects first non-null isFile entry and resolves its basename against extraction root; no extension/header/signature predicate in that selection region"
+    },
+    {
+      "status": "已驗證",
+      "claim": "E1.b valid parent branches to createNewFile; generated Java boolean grouping differs"
+    },
+    {
+      "status": "已驗證",
+      "claim": "h6/d.verify hashes peer certificate encoded bytes, not firmware file bytes"
+    },
+    {
+      "status": "尚未確認",
+      "claim": "No complete global absence proof for computed, reflective, optional, platform-provided or body-side firmware processing"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "tools": [
+    {
+      "name": "ghidra",
+      "archive": "ghidra_12.1.4_PUBLIC_20260921.zip",
+      "size": 569649598,
+      "sha256": "ddac49f903da9d5bac833e5cc79395098b9c33cfd3279be5f31bd00387d2d4db",
+      "official_sha256_matches": true
+    },
+    {
+      "name": "jdk25",
+      "archive": "OpenJDK25U-jdk_x64_windows_hotspot_25.0.4.1_1.zip",
+      "size": 141167264,
+      "sha256": "00c847d804f4a78e9f04f2683faf14fed898535b177b7fc704486cb0284e9283",
+      "official_sha256_matches": true
+    }
+  ],
+  "official_metadata_checked": "2026-10-15",
+  "origins": [
+    "https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_12.1.4_build",
+    "https://api.adoptium.net/v3/assets/latest/25/hotspot?architecture=x64&image_type=jdk&os=windows&vendor=eclipse"
+  ],
+  "jadx": "1.5.6, official archive SHA-256 545ea2be9c242511bc145755cf4bda2485ade42966e096f8b4d3da2a230e8974; dexlib2 and Gson bundled in verified jar",
+  "python": "CPython 3.12.14; pyelftools 0.33; Capstone 5.0.9 inherited from verified offline environment"
+}

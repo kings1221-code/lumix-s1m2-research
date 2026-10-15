@@ -1,0 +1,254 @@
+{
+  "verified_relations": [
+    "read buffer v1 passed unchanged to request-body factory",
+    "skip/read return lengths unused (no move-result)",
+    "valid parent directory flows to createNewFile; JADX high-level negation is wrong"
+  ],
+  "instructions": [
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->x0()V",
+      "dex": "classes2.dex",
+      "dex_byte_offset": "0x215e1a",
+      "offset_cu": 69,
+      "opcode": "mul-int",
+      "registers": [
+        2,
+        0,
+        1
+      ],
+      "width_cu": 2
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->x0()V",
+      "dex": "classes2.dex",
+      "dex_byte_offset": "0x215e38",
+      "offset_cu": 84,
+      "opcode": "new-array",
+      "registers": [
+        1,
+        0
+      ],
+      "width_cu": 2,
+      "reference": "[B"
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->x0()V",
+      "dex": "classes2.dex",
+      "dex_byte_offset": "0x215e4c",
+      "offset_cu": 94,
+      "opcode": "invoke-virtual",
+      "registers": [
+        3,
+        4,
+        5
+      ],
+      "width_cu": 3,
+      "reference": "Ljava/io/FileInputStream;->skip(J)J"
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->x0()V",
+      "dex": "classes2.dex",
+      "dex_byte_offset": "0x215e52",
+      "offset_cu": 97,
+      "opcode": "invoke-virtual",
+      "registers": [
+        3,
+        1
+      ],
+      "width_cu": 3,
+      "reference": "Ljava/io/FileInputStream;->read([B)I"
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->x0()V",
+      "dex": "classes2.dex",
+      "dex_byte_offset": "0x215e58",
+      "offset_cu": 100,
+      "opcode": "invoke-virtual",
+      "registers": [
+        3
+      ],
+      "width_cu": 3,
+      "reference": "Ljava/io/FileInputStream;->close()V"
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->x0()V",
+      "dex": "classes2.dex",
+      "dex_byte_offset": "0x215e80",
+      "offset_cu": 120,
+      "opcode": "invoke-static",
+      "registers": [
+        2,
+        3,
+        1,
+        0
+      ],
+      "width_cu": 3,
+      "reference": "Lg8/z0;->a(Lg8/k0;I[BI)Lg8/y0;"
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->x0()V",
+      "dex": "classes2.dex",
+      "dex_byte_offset": "0x215ebe",
+      "offset_cu": 151,
+      "opcode": "invoke-virtual/range",
+      "registers": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "width_cu": 3,
+      "reference": "LR5/h;->b(Ljava/lang/String;Ljava/lang/String;Lg8/y0;ILcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;)V"
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/util/E1;->b(Ljava/io/File;Ljava/util/ArrayList;Ljava/util/zip/ZipFile;Ljava/util/zip/ZipEntry;Ljava/lang/String;)Z",
+      "dex": "classes2.dex",
+      "dex_byte_offset": "0x254142",
+      "offset_cu": 5,
+      "opcode": "invoke-virtual",
+      "registers": [
+        3,
+        0
+      ],
+      "width_cu": 3,
+      "reference": "Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z"
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/util/E1;->b(Ljava/io/File;Ljava/util/ArrayList;Ljava/util/zip/ZipFile;Ljava/util/zip/ZipEntry;Ljava/lang/String;)Z",
+      "dex": "classes2.dex",
+      "dex_byte_offset": "0x2541a0",
+      "offset_cu": 52,
+      "opcode": "if-eqz",
+      "registers": [
+        2
+      ],
+      "width_cu": 2,
+      "target_cu": 82
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/util/E1;->b(Ljava/io/File;Ljava/util/ArrayList;Ljava/util/zip/ZipFile;Ljava/util/zip/ZipEntry;Ljava/lang/String;)Z",
+      "dex": "classes2.dex",
+      "dex_byte_offset": "0x2541b0",
+      "offset_cu": 60,
+      "opcode": "invoke-virtual",
+      "registers": [
+        2
+      ],
+      "width_cu": 3,
+      "reference": "Ljava/io/File;->isDirectory()Z"
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/util/E1;->b(Ljava/io/File;Ljava/util/ArrayList;Ljava/util/zip/ZipFile;Ljava/util/zip/ZipEntry;Ljava/lang/String;)Z",
+      "dex": "classes2.dex",
+      "dex_byte_offset": "0x2541b8",
+      "offset_cu": 64,
+      "opcode": "if-eqz",
+      "registers": [
+        2
+      ],
+      "width_cu": 2,
+      "target_cu": 82
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/util/E1;->b(Ljava/io/File;Ljava/util/ArrayList;Ljava/util/zip/ZipFile;Ljava/util/zip/ZipEntry;Ljava/lang/String;)Z",
+      "dex": "classes2.dex",
+      "dex_byte_offset": "0x2541bc",
+      "offset_cu": 66,
+      "opcode": "goto",
+      "registers": [],
+      "width_cu": 1,
+      "target_cu": 73
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/util/E1;->b(Ljava/io/File;Ljava/util/ArrayList;Ljava/util/zip/ZipFile;Ljava/util/zip/ZipEntry;Ljava/lang/String;)Z",
+      "dex": "classes2.dex",
+      "dex_byte_offset": "0x2541be",
+      "offset_cu": 67,
+      "opcode": "invoke-virtual",
+      "registers": [
+        2
+      ],
+      "width_cu": 3,
+      "reference": "Ljava/io/File;->mkdirs()Z"
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/util/E1;->b(Ljava/io/File;Ljava/util/ArrayList;Ljava/util/zip/ZipFile;Ljava/util/zip/ZipEntry;Ljava/lang/String;)Z",
+      "dex": "classes2.dex",
+      "dex_byte_offset": "0x2541c6",
+      "offset_cu": 71,
+      "opcode": "if-eqz",
+      "registers": [
+        2
+      ],
+      "width_cu": 2,
+      "target_cu": 82
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/util/E1;->b(Ljava/io/File;Ljava/util/ArrayList;Ljava/util/zip/ZipFile;Ljava/util/zip/ZipEntry;Ljava/lang/String;)Z",
+      "dex": "classes2.dex",
+      "dex_byte_offset": "0x2541ca",
+      "offset_cu": 73,
+      "opcode": "invoke-virtual",
+      "registers": [
+        0
+      ],
+      "width_cu": 3,
+      "reference": "Ljava/io/File;->createNewFile()Z"
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/util/E1;->b(Ljava/io/File;Ljava/util/ArrayList;Ljava/util/zip/ZipFile;Ljava/util/zip/ZipEntry;Ljava/lang/String;)Z",
+      "dex": "classes2.dex",
+      "dex_byte_offset": "0x2541de",
+      "offset_cu": 83,
+      "opcode": "if-nez",
+      "registers": [
+        2
+      ],
+      "width_cu": 2,
+      "target_cu": 86
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/util/E1;->b(Ljava/io/File;Ljava/util/ArrayList;Ljava/util/zip/ZipFile;Ljava/util/zip/ZipEntry;Ljava/lang/String;)Z",
+      "dex": "classes2.dex",
+      "dex_byte_offset": "0x2541ea",
+      "offset_cu": 89,
+      "opcode": "invoke-virtual",
+      "registers": [
+        4,
+        5
+      ],
+      "width_cu": 3,
+      "reference": "Ljava/util/zip/ZipFile;->getInputStream(Ljava/util/zip/ZipEntry;)Ljava/io/InputStream;"
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/util/E1;->b(Ljava/io/File;Ljava/util/ArrayList;Ljava/util/zip/ZipFile;Ljava/util/zip/ZipEntry;Ljava/lang/String;)Z",
+      "dex": "classes2.dex",
+      "dex_byte_offset": "0x254214",
+      "offset_cu": 110,
+      "opcode": "invoke-virtual",
+      "registers": [
+        1,
+        2
+      ],
+      "width_cu": 3,
+      "reference": "Ljava/io/InputStream;->read([B)I"
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/util/E1;->b(Ljava/io/File;Ljava/util/ArrayList;Ljava/util/zip/ZipFile;Ljava/util/zip/ZipEntry;Ljava/lang/String;)Z",
+      "dex": "classes2.dex",
+      "dex_byte_offset": "0x254222",
+      "offset_cu": 117,
+      "opcode": "invoke-virtual",
+      "registers": [
+        4,
+        2,
+        3,
+        5
+      ],
+      "width_cu": 3,
+      "reference": "Ljava/io/OutputStream;->write([BII)V"
+    }
+  ]
+}

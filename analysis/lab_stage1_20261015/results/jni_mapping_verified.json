@@ -1,0 +1,5078 @@
+{
+  "scope": "Full DEX native declarations versus full 18-library dynsym and candidate tables; symbol matches alone do not prove function semantics",
+  "mapping": [
+    {
+      "java_method": "Lai/onnxruntime/OnnxMap;->close(JJ)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OnnxMap_close",
+          "elf_va": "0xa8e4",
+          "size": 12,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OnnxMap;->getDoubleValues(JJJ)[D",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OnnxMap_getDoubleValues",
+          "elf_va": "0xa828",
+          "size": 188,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OnnxMap;->getFloatValues(JJJ)[F",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OnnxMap_getFloatValues",
+          "elf_va": "0xa76c",
+          "size": 188,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OnnxMap;->getLongKeys(JJJ)[J",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OnnxMap_getLongKeys",
+          "elf_va": "0xa538",
+          "size": 188,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OnnxMap;->getLongValues(JJJ)[J",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OnnxMap_getLongValues",
+          "elf_va": "0xa6b0",
+          "size": 188,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OnnxMap;->getStringKeys(JJJ)[Ljava/lang/String;",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OnnxMap_getStringKeys",
+          "elf_va": "0xa47c",
+          "size": 188,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OnnxMap;->getStringValues(JJJ)[Ljava/lang/String;",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OnnxMap_getStringValues",
+          "elf_va": "0xa5f4",
+          "size": 188,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OnnxRuntime;->getAvailableProviders(J)[Ljava/lang/String;",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OnnxRuntime_getAvailableProviders",
+          "elf_va": "0xa924",
+          "size": 308,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OnnxRuntime;->initialiseAPIBase(I)J",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OnnxRuntime_initialiseAPIBase",
+          "elf_va": "0xa8f0",
+          "size": 40,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OnnxRuntime;->initialiseTrainingAPIBase(JI)J",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OnnxRuntime_initialiseTrainingAPIBase",
+          "elf_va": "0xa918",
+          "size": 12,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OnnxRuntime;->initialiseVersion()Ljava/lang/String;",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OnnxRuntime_initialiseVersion",
+          "elf_va": "0xaa58",
+          "size": 20,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OnnxSequence;->close(JJ)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OnnxSequence_close",
+          "elf_va": "0xad44",
+          "size": 12,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OnnxSequence;->getMaps(JJJ)[Lai/onnxruntime/OnnxMap;",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OnnxSequence_getMaps",
+          "elf_va": "0xaa6c",
+          "size": 364,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OnnxSequence;->getTensors(JJJ)[Lai/onnxruntime/OnnxTensor;",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OnnxSequence_getTensors",
+          "elf_va": "0xabd8",
+          "size": 364,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OnnxSparseTensor;->close(JJ)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OnnxSparseTensor_close",
+          "elf_va": "0xb870",
+          "size": 12,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OnnxSparseTensor;->createCSRCSparseTensorFromBuffer(JJLjava/nio/Buffer;IJLjava/nio/Buffer;IJLjava/nio/Buffer;I[J[JI)J",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OnnxSparseTensor_createCSRCSparseTensorFromBuffer",
+          "elf_va": "0xb87c",
+          "size": 596,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OnnxSparseTensor;->createSparseTensorFromBuffer(JJLjava/nio/Buffer;IJLjava/nio/Buffer;I[J[J[JII)J",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OnnxSparseTensor_createSparseTensorFromBuffer",
+          "elf_va": "0xbad0",
+          "size": 756,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OnnxSparseTensor;->getIndicesBuffer(JJ)Ljava/nio/ByteBuffer;",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OnnxSparseTensor_getIndicesBuffer",
+          "elf_va": "0xad50",
+          "size": 532,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OnnxSparseTensor;->getIndicesShape(JJ)[J",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OnnxSparseTensor_getIndicesShape",
+          "elf_va": "0xb494",
+          "size": 560,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OnnxSparseTensor;->getInnerIndicesBuffer(JJ)Ljava/nio/ByteBuffer;",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OnnxSparseTensor_getInnerIndicesBuffer",
+          "elf_va": "0xaf64",
+          "size": 476,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OnnxSparseTensor;->getInnerIndicesShape(JJ)[J",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OnnxSparseTensor_getInnerIndicesShape",
+          "elf_va": "0xb2e4",
+          "size": 432,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OnnxSparseTensor;->getValuesBuffer(JJ)Ljava/nio/ByteBuffer;",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OnnxSparseTensor_getValuesBuffer",
+          "elf_va": "0xb140",
+          "size": 420,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OnnxSparseTensor;->getValuesShape(JJ)[J",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OnnxSparseTensor_getValuesShape",
+          "elf_va": "0xb6c4",
+          "size": 428,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OnnxTensor;->close(JJ)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OnnxTensor_close",
+          "elf_va": "0xc92c",
+          "size": 12,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OnnxTensor;->createString(JJLjava/lang/String;)J",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OnnxTensor_createString",
+          "elf_va": "0xbf1c",
+          "size": 284,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OnnxTensor;->createStringTensor(JJ[Ljava/lang/Object;[J)J",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OnnxTensor_createStringTensor",
+          "elf_va": "0xc038",
+          "size": 592,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OnnxTensor;->createTensorFromBuffer(JJLjava/nio/Buffer;IJ[JI)J",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OnnxTensor_createTensorFromBuffer",
+          "elf_va": "0xbdc4",
+          "size": 344,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OnnxTensor;->getBool(JJ)Z",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OnnxTensor_getBool",
+          "elf_va": "0xc7e8",
+          "size": 148,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OnnxTensor;->getBuffer(JJ)Ljava/nio/ByteBuffer;",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OnnxTensor_getBuffer",
+          "elf_va": "0xc288",
+          "size": 204,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OnnxTensor;->getByte(JJI)B",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OnnxTensor_getByte",
+          "elf_va": "0xc498",
+          "size": 172,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OnnxTensor;->getDouble(JJ)D",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OnnxTensor_getDouble",
+          "elf_va": "0xc400",
+          "size": 152,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OnnxTensor;->getFloat(JJI)F",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OnnxTensor_getFloat",
+          "elf_va": "0xc354",
+          "size": 172,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OnnxTensor;->getInt(JJI)I",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OnnxTensor_getInt",
+          "elf_va": "0xc60c",
+          "size": 176,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OnnxTensor;->getLong(JJI)J",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OnnxTensor_getLong",
+          "elf_va": "0xc6bc",
+          "size": 176,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OnnxTensor;->getShort(JJI)S",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OnnxTensor_getShort",
+          "elf_va": "0xc544",
+          "size": 200,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OnnxTensor;->getString(JJ)Ljava/lang/String;",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OnnxTensor_getString",
+          "elf_va": "0xc76c",
+          "size": 124,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OnnxTensor;->getStringArray(JJ[Ljava/lang/String;)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OnnxTensor_getStringArray",
+          "elf_va": "0xc87c",
+          "size": 176,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtAllocator;->closeAllocator(JJ)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtAllocator_closeAllocator",
+          "elf_va": "0xc938",
+          "size": 4,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtEnvironment$ThreadingOptions;->closeThreadingOptions(JJ)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtEnvironment_00024ThreadingOptions_closeThreadingOptions",
+          "elf_va": "0xcd2c",
+          "size": 12,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtEnvironment$ThreadingOptions;->createThreadingOptions(J)J",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtEnvironment_00024ThreadingOptions_createThreadingOptions",
+          "elf_va": "0xcbd0",
+          "size": 112,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtEnvironment$ThreadingOptions;->setGlobalDenormalAsZero(JJ)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtEnvironment_00024ThreadingOptions_setGlobalDenormalAsZero",
+          "elf_va": "0xccf4",
+          "size": 56,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtEnvironment$ThreadingOptions;->setGlobalInterOpNumThreads(JJI)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtEnvironment_00024ThreadingOptions_setGlobalInterOpNumThreads",
+          "elf_va": "0xcc7c",
+          "size": 60,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtEnvironment$ThreadingOptions;->setGlobalIntraOpNumThreads(JJI)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtEnvironment_00024ThreadingOptions_setGlobalIntraOpNumThreads",
+          "elf_va": "0xcc40",
+          "size": 60,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtEnvironment$ThreadingOptions;->setGlobalSpinControl(JJI)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtEnvironment_00024ThreadingOptions_setGlobalSpinControl",
+          "elf_va": "0xccb8",
+          "size": 60,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtEnvironment;->close(JJ)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtEnvironment_close",
+          "elf_va": "0xcb7c",
+          "size": 12,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtEnvironment;->createHandle(JILjava/lang/String;)J",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtEnvironment_createHandle__JILjava_lang_String_2",
+          "elf_va": "0xc93c",
+          "size": 228,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtEnvironment;->createHandle(JILjava/lang/String;J)J",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtEnvironment_createHandle__JILjava_lang_String_2J",
+          "elf_va": "0xca20",
+          "size": 236,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtEnvironment;->getDefaultAllocator(J)J",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtEnvironment_getDefaultAllocator",
+          "elf_va": "0xcb0c",
+          "size": 112,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtEnvironment;->setTelemetry(JJZ)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtEnvironment_setTelemetry",
+          "elf_va": "0xcb88",
+          "size": 72,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtLoraAdapter;->close(JJ)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtLoraAdapter_close",
+          "elf_va": "0xcf94",
+          "size": 12,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtLoraAdapter;->createLoraAdapter(JLjava/lang/String;J)J",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtLoraAdapter_createLoraAdapter",
+          "elf_va": "0xcd38",
+          "size": 180,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtLoraAdapter;->createLoraAdapterFromArray(J[BJ)J",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtLoraAdapter_createLoraAdapterFromArray",
+          "elf_va": "0xce8c",
+          "size": 264,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtLoraAdapter;->createLoraAdapterFromBuffer(JLjava/nio/ByteBuffer;IIJ)J",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtLoraAdapter_createLoraAdapterFromBuffer",
+          "elf_va": "0xcdec",
+          "size": 160,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$RunOptions;->addActiveLoraAdapter(JJJ)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024RunOptions_addActiveLoraAdapter",
+          "elf_va": "0xe978",
+          "size": 60,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$RunOptions;->addRunConfigEntry(JJLjava/lang/String;Ljava/lang/String;)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024RunOptions_addRunConfigEntry",
+          "elf_va": "0xe8b0",
+          "size": 200,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$RunOptions;->close(JJ)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024RunOptions_close",
+          "elf_va": "0xe9fc",
+          "size": 12,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$RunOptions;->createRunOptions(J)J",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024RunOptions_createRunOptions",
+          "elf_va": "0xe5c0",
+          "size": 112,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$RunOptions;->getLogLevel(JJ)I",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024RunOptions_getLogLevel",
+          "elf_va": "0xe66c",
+          "size": 116,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$RunOptions;->getLogVerbosityLevel(JJ)I",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024RunOptions_getLogVerbosityLevel",
+          "elf_va": "0xe71c",
+          "size": 116,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$RunOptions;->getRunTag(JJ)Ljava/lang/String;",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024RunOptions_getRunTag",
+          "elf_va": "0xe814",
+          "size": 156,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$RunOptions;->setLogLevel(JJI)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024RunOptions_setLogLevel",
+          "elf_va": "0xe630",
+          "size": 60,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$RunOptions;->setLogVerbosityLevel(JJI)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024RunOptions_setLogVerbosityLevel",
+          "elf_va": "0xe6e0",
+          "size": 60,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$RunOptions;->setRunTag(JJLjava/lang/String;)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024RunOptions_setRunTag",
+          "elf_va": "0xe790",
+          "size": 132,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$RunOptions;->setTerminate(JJZ)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024RunOptions_setTerminate",
+          "elf_va": "0xe9b4",
+          "size": 72,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$SessionOptions;->addACL(JJZ)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024SessionOptions_addACL",
+          "elf_va": "0xf6c4",
+          "size": 52,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$SessionOptions;->addArmNN(JJI)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024SessionOptions_addArmNN",
+          "elf_va": "0xf6f8",
+          "size": 52,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$SessionOptions;->addCPU(JJI)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024SessionOptions_addCPU",
+          "elf_va": "0xf480",
+          "size": 56,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$SessionOptions;->addCUDA(JJI)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024SessionOptions_addCUDA",
+          "elf_va": "0xf4b8",
+          "size": 52,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$SessionOptions;->addCUDAV2(JJJ)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024SessionOptions_addCUDAV2",
+          "elf_va": "0xf4ec",
+          "size": 52,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$SessionOptions;->addConfigEntry(JJLjava/lang/String;Ljava/lang/String;)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024SessionOptions_addConfigEntry",
+          "elf_va": "0xf3b8",
+          "size": 200,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$SessionOptions;->addCoreML(JJI)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024SessionOptions_addCoreML",
+          "elf_va": "0xf72c",
+          "size": 52,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$SessionOptions;->addDirectML(JJI)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024SessionOptions_addDirectML",
+          "elf_va": "0xf690",
+          "size": 52,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$SessionOptions;->addDnnl(JJI)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024SessionOptions_addDnnl",
+          "elf_va": "0xf520",
+          "size": 52,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$SessionOptions;->addExecutionProvider(JJLjava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024SessionOptions_addExecutionProvider",
+          "elf_va": "0xf794",
+          "size": 604,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$SessionOptions;->addExternalInitializers(JJ[Ljava/lang/String;[J)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024SessionOptions_addExternalInitializers",
+          "elf_va": "0xf128",
+          "size": 460,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$SessionOptions;->addFreeDimensionOverrideByName(JJLjava/lang/String;J)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024SessionOptions_addFreeDimensionOverrideByName",
+          "elf_va": "0xf09c",
+          "size": 140,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$SessionOptions;->addInitializer(JJLjava/lang/String;J)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024SessionOptions_addInitializer",
+          "elf_va": "0xf2f4",
+          "size": 140,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$SessionOptions;->addNnapi(JJI)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024SessionOptions_addNnapi",
+          "elf_va": "0xf5f0",
+          "size": 56,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$SessionOptions;->addOpenVINO(JJLjava/lang/String;)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024SessionOptions_addOpenVINO",
+          "elf_va": "0xf554",
+          "size": 52,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$SessionOptions;->addROCM(JJI)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024SessionOptions_addROCM",
+          "elf_va": "0xf760",
+          "size": 52,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$SessionOptions;->addTensorrt(JJI)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024SessionOptions_addTensorrt",
+          "elf_va": "0xf588",
+          "size": 52,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$SessionOptions;->addTensorrtV2(JJJ)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024SessionOptions_addTensorrtV2",
+          "elf_va": "0xf5bc",
+          "size": 52,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$SessionOptions;->addTvm(JJLjava/lang/String;)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024SessionOptions_addTvm",
+          "elf_va": "0xf628",
+          "size": 52,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$SessionOptions;->closeCustomLibraries([J)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024SessionOptions_closeCustomLibraries",
+          "elf_va": "0xf004",
+          "size": 152,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$SessionOptions;->closeOptions(JJ)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024SessionOptions_closeOptions",
+          "elf_va": "0xec34",
+          "size": 12,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$SessionOptions;->createOptions(J)J",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024SessionOptions_createOptions",
+          "elf_va": "0xeba4",
+          "size": 144,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$SessionOptions;->disablePerSessionThreads(JJ)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024SessionOptions_disablePerSessionThreads",
+          "elf_va": "0xf380",
+          "size": 56,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$SessionOptions;->disableProfiling(JJ)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024SessionOptions_disableProfiling",
+          "elf_va": "0xed48",
+          "size": 56,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$SessionOptions;->enableProfiling(JJLjava/lang/String;)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024SessionOptions_enableProfiling",
+          "elf_va": "0xecc4",
+          "size": 132,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$SessionOptions;->registerCustomOpLibrary(JJLjava/lang/String;)J",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024SessionOptions_registerCustomOpLibrary",
+          "elf_va": "0xeec8",
+          "size": 184,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$SessionOptions;->registerCustomOpsUsingFunction(JJLjava/lang/String;)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024SessionOptions_registerCustomOpsUsingFunction",
+          "elf_va": "0xef80",
+          "size": 132,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$SessionOptions;->setCPUArenaAllocator(JJZ)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024SessionOptions_setCPUArenaAllocator",
+          "elf_va": "0xedc8",
+          "size": 72,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$SessionOptions;->setDeterministicCompute(JJZ)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024SessionOptions_setDeterministicCompute",
+          "elf_va": "0xee88",
+          "size": 64,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$SessionOptions;->setExecutionMode(JJI)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024SessionOptions_setExecutionMode",
+          "elf_va": "0xea08",
+          "size": 80,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$SessionOptions;->setInterOpNumThreads(JJI)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024SessionOptions_setInterOpNumThreads",
+          "elf_va": "0xeae4",
+          "size": 60,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$SessionOptions;->setIntraOpNumThreads(JJI)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024SessionOptions_setIntraOpNumThreads",
+          "elf_va": "0xeaa8",
+          "size": 60,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$SessionOptions;->setLoggerId(JJLjava/lang/String;)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024SessionOptions_setLoggerId",
+          "elf_va": "0xec40",
+          "size": 132,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$SessionOptions;->setMemoryPatternOptimization(JJZ)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024SessionOptions_setMemoryPatternOptimization",
+          "elf_va": "0xed80",
+          "size": 72,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$SessionOptions;->setOptimizationLevel(JJI)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024SessionOptions_setOptimizationLevel",
+          "elf_va": "0xea58",
+          "size": 80,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$SessionOptions;->setOptimizationModelFilePath(JJLjava/lang/String;)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024SessionOptions_setOptimizationModelFilePath",
+          "elf_va": "0xeb20",
+          "size": 132,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$SessionOptions;->setSessionLogLevel(JJI)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024SessionOptions_setSessionLogLevel",
+          "elf_va": "0xee10",
+          "size": 60,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession$SessionOptions;->setSessionLogVerbosityLevel(JJI)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_00024SessionOptions_setSessionLogVerbosityLevel",
+          "elf_va": "0xee4c",
+          "size": 60,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession;->closeSession(JJ)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_closeSession",
+          "elf_va": "0xe01c",
+          "size": 12,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession;->constructMetadata(JJJ)Lai/onnxruntime/OnnxModelMetadata;",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_constructMetadata",
+          "elf_va": "0xe028",
+          "size": 1432,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession;->createSession(JJLjava/lang/String;J)J",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_createSession__JJLjava_lang_String_2J",
+          "elf_va": "0xcfa0",
+          "size": 204,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession;->createSession(JJLjava/nio/ByteBuffer;IIJ)J",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_createSession__JJLjava_nio_ByteBuffer_2IIJ",
+          "elf_va": "0xd06c",
+          "size": 180,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession;->createSession(JJ[BJ)J",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_createSession__JJ_3BJ",
+          "elf_va": "0xd120",
+          "size": 280,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession;->endProfiling(JJJ)Ljava/lang/String;",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_endProfiling",
+          "elf_va": "0xdf50",
+          "size": 204,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession;->getInputInfo(JJJ)[Lai/onnxruntime/NodeInfo;",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_getInputInfo",
+          "elf_va": "0xd650",
+          "size": 564,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession;->getInputNames(JJJ)[Ljava/lang/String;",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_getInputNames",
+          "elf_va": "0xd2b0",
+          "size": 404,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession;->getNumInputs(JJ)J",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_getNumInputs",
+          "elf_va": "0xd238",
+          "size": 120,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession;->getNumOutputs(JJ)J",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_getNumOutputs",
+          "elf_va": "0xd444",
+          "size": 120,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession;->getOutputInfo(JJJ)[Lai/onnxruntime/NodeInfo;",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_getOutputInfo",
+          "elf_va": "0xd884",
+          "size": 564,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession;->getOutputNames(JJJ)[Ljava/lang/String;",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_getOutputNames",
+          "elf_va": "0xd4bc",
+          "size": 404,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession;->getProfilingStartTimeInNs(JJ)J",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_getProfilingStartTimeInNs",
+          "elf_va": "0xded8",
+          "size": 120,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtSession;->run(JJJ[Ljava/lang/String;[JJ[Ljava/lang/String;J[Lai/onnxruntime/OnnxValue;[JJ)[Z",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtSession_run",
+          "elf_va": "0xdab8",
+          "size": 1056,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtTrainingSession$OrtCheckpointState;->addProperty(JJJLjava/lang/String;F)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtTrainingSession_00024OrtCheckpointState_addProperty__JJJLjava_lang_String_2F",
+          "elf_va": "0x11014",
+          "size": 192,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtTrainingSession$OrtCheckpointState;->addProperty(JJJLjava/lang/String;I)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtTrainingSession_00024OrtCheckpointState_addProperty__JJJLjava_lang_String_2I",
+          "elf_va": "0x10f54",
+          "size": 192,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtTrainingSession$OrtCheckpointState;->addProperty(JJJLjava/lang/String;Ljava/lang/String;)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtTrainingSession_00024OrtCheckpointState_addProperty__JJJLjava_lang_String_2Ljava_lang_String_2",
+          "elf_va": "0x110d4",
+          "size": 208,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtTrainingSession$OrtCheckpointState;->close(JJ)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtTrainingSession_00024OrtCheckpointState_close",
+          "elf_va": "0x11544",
+          "size": 12,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtTrainingSession$OrtCheckpointState;->getFloatProperty(JJJJLjava/lang/String;)F",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtTrainingSession_00024OrtCheckpointState_getFloatProperty",
+          "elf_va": "0x112d4",
+          "size": 304,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtTrainingSession$OrtCheckpointState;->getIntProperty(JJJJLjava/lang/String;)I",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtTrainingSession_00024OrtCheckpointState_getIntProperty",
+          "elf_va": "0x111a4",
+          "size": 304,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtTrainingSession$OrtCheckpointState;->getStringProperty(JJJJLjava/lang/String;)Ljava/lang/String;",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtTrainingSession_00024OrtCheckpointState_getStringProperty",
+          "elf_va": "0x11404",
+          "size": 320,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtTrainingSession$OrtCheckpointState;->loadCheckpoint(JJLjava/lang/String;)J",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtTrainingSession_00024OrtCheckpointState_loadCheckpoint",
+          "elf_va": "0x10e04",
+          "size": 180,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtTrainingSession$OrtCheckpointState;->saveCheckpoint(JJJLjava/lang/String;Z)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtTrainingSession_00024OrtCheckpointState_saveCheckpoint",
+          "elf_va": "0x10eb8",
+          "size": 156,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtTrainingSession;->closeSession(JJ)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtTrainingSession_closeSession",
+          "elf_va": "0xfb5c",
+          "size": 12,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtTrainingSession;->createTrainingSession(JJJJJLjava/lang/String;Ljava/lang/String;Ljava/lang/String;)J",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtTrainingSession_createTrainingSession",
+          "elf_va": "0xf9f0",
+          "size": 364,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtTrainingSession;->evalStep(JJJJ[Ljava/lang/String;[JJ[Ljava/lang/String;J[Lai/onnxruntime/OnnxValue;[JJ)[Z",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtTrainingSession_evalStep",
+          "elf_va": "0x10674",
+          "size": 1084,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtTrainingSession;->exportModelForInference(JJJLjava/lang/String;J[Ljava/lang/String;)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtTrainingSession_exportModelForInference",
+          "elf_va": "0x10c4c",
+          "size": 440,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtTrainingSession;->getEvalInputNames(JJJJ)[Ljava/lang/String;",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtTrainingSession_getEvalInputNames",
+          "elf_va": "0xfea8",
+          "size": 416,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtTrainingSession;->getEvalOutputNames(JJJJ)[Ljava/lang/String;",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtTrainingSession_getEvalOutputNames",
+          "elf_va": "0x10048",
+          "size": 416,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtTrainingSession;->getLearningRate(JJJ)F",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtTrainingSession_getLearningRate",
+          "elf_va": "0x10b20",
+          "size": 120,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtTrainingSession;->getTrainInputNames(JJJJ)[Ljava/lang/String;",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtTrainingSession_getTrainInputNames",
+          "elf_va": "0xfb68",
+          "size": 416,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtTrainingSession;->getTrainOutputNames(JJJJ)[Ljava/lang/String;",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtTrainingSession_getTrainOutputNames",
+          "elf_va": "0xfd08",
+          "size": 416,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtTrainingSession;->lazyResetGrad(JJJ)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtTrainingSession_lazyResetGrad",
+          "elf_va": "0x101e8",
+          "size": 56,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtTrainingSession;->optimizerStep(JJJJ)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtTrainingSession_optimizerStep",
+          "elf_va": "0x10b98",
+          "size": 60,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtTrainingSession;->registerLinearLRScheduler(JJJJJF)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtTrainingSession_registerLinearLRScheduler",
+          "elf_va": "0x10bd4",
+          "size": 64,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtTrainingSession;->schedulerStep(JJJ)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtTrainingSession_schedulerStep",
+          "elf_va": "0x10c14",
+          "size": 56,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtTrainingSession;->setLearningRate(JJJF)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtTrainingSession_setLearningRate",
+          "elf_va": "0x10ae8",
+          "size": 56,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtTrainingSession;->setSeed(JJJ)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtTrainingSession_setSeed",
+          "elf_va": "0x10ab0",
+          "size": 56,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/OrtTrainingSession;->trainStep(JJJJ[Ljava/lang/String;[JJ[Ljava/lang/String;J[Lai/onnxruntime/OnnxValue;[JJ)[Z",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_OrtTrainingSession_trainStep",
+          "elf_va": "0x10220",
+          "size": 1108,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/providers/OrtCUDAProviderOptions;->create(J)J",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_providers_OrtCUDAProviderOptions_create",
+          "elf_va": "0x11550",
+          "size": 112,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/providers/OrtCUDAProviderOptions;->applyToNative(JJ[Ljava/lang/String;[Ljava/lang/String;)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_providers_OrtCUDAProviderOptions_applyToNative",
+          "elf_va": "0x115c0",
+          "size": 552,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/providers/OrtCUDAProviderOptions;->close(JJ)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_providers_OrtCUDAProviderOptions_close",
+          "elf_va": "0x117e8",
+          "size": 12,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/providers/OrtTensorRTProviderOptions;->create(J)J",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_providers_OrtTensorRTProviderOptions_create",
+          "elf_va": "0x117f4",
+          "size": 112,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/providers/OrtTensorRTProviderOptions;->applyToNative(JJ[Ljava/lang/String;[Ljava/lang/String;)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_providers_OrtTensorRTProviderOptions_applyToNative",
+          "elf_va": "0x11864",
+          "size": 552,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lai/onnxruntime/providers/OrtTensorRTProviderOptions;->close(JJ)V",
+      "dex": "classes.dex",
+      "static_matches": [
+        {
+          "library": "libonnxruntime4j_jni.so",
+          "export": "Java_ai_onnxruntime_providers_OrtTensorRTProviderOptions_close",
+          "elf_va": "0x11a8c",
+          "size": 12,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/google/android/gms/tasks/NativeOnCompleteListener;->nativeOnComplete(JLjava/lang/Object;ZZLjava/lang/String;)V",
+      "dex": "classes.dex",
+      "static_matches": [],
+      "dynamic_candidates": [],
+      "status": "unresolved_in_18_libraries"
+    },
+    {
+      "java_method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->yuv420ToArgb(Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;IIIII[I)V",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libllc.so",
+          "export": "Java_com_panasonic_jp_lumixlab_LlcApplication_yuv420ToArgb",
+          "elf_va": "0x1700c",
+          "size": 892,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->yuvImageYUV2YUV(Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;IIIII[B[B)V",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libllc.so",
+          "export": "Java_com_panasonic_jp_lumixlab_LlcApplication_yuvImageYUV2YUV",
+          "elf_va": "0x17388",
+          "size": 1400,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->convertToCube(Landroid/graphics/Bitmap;Ljava/lang/String;Ljava/lang/String;IIII)Z",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libllc.so",
+          "export": "Java_com_panasonic_jp_lumixlab_LlcApplication_convertToCube",
+          "elf_va": "0x11560",
+          "size": 416,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getExifData(Ljava/lang/String;)[B",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libllc.so",
+          "export": "Java_com_panasonic_jp_lumixlab_LlcApplication_getExifData",
+          "elf_va": "0x127ec",
+          "size": 780,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getExifInfo(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IIIIII)Z",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libllc.so",
+          "export": "Java_com_panasonic_jp_lumixlab_LlcApplication_getExifInfo",
+          "elf_va": "0x11700",
+          "size": 1488,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getInfo(Lcom/panasonic/jp/lumixlab/bean/HeifInfoBean;J[B)Z",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libllc.so",
+          "export": "Java_com_panasonic_jp_lumixlab_LlcApplication_getInfo",
+          "elf_va": "0x12474",
+          "size": 808,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getJpegExifLutInfo(Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;)I",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libllc.so",
+          "export": "Java_com_panasonic_jp_lumixlab_LlcApplication_getJpegExifLutInfo",
+          "elf_va": "0x13504",
+          "size": 2452,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getMP4ExifInfo(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;ILjava/lang/String;IILjava/lang/String;Ljava/lang/String;)I",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libllc.so",
+          "export": "Java_com_panasonic_jp_lumixlab_LlcApplication_getMP4ExifInfo",
+          "elf_va": "0x13f58",
+          "size": 4668,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getPhotostyleInfo([BIILjava/lang/String;Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;)I",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libllc.so",
+          "export": "Java_com_panasonic_jp_lumixlab_LlcApplication_getPhotostyleInfo",
+          "elf_va": "0x12af8",
+          "size": 2572,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getRW2Info(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;IIILjava/lang/String;Ljava/lang/String;)I",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libllc.so",
+          "export": "Java_com_panasonic_jp_lumixlab_LlcApplication_getRW2Info",
+          "elf_va": "0x15194",
+          "size": 3728,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->isHeic(J[B)Z",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libllc.so",
+          "export": "Java_com_panasonic_jp_lumixlab_LlcApplication_isHeic",
+          "elf_va": "0x1239c",
+          "size": 148,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->isHiresFile(Ljava/lang/String;)I",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libllc.so",
+          "export": "Java_com_panasonic_jp_lumixlab_LlcApplication_isHiresFile",
+          "elf_va": "0x16828",
+          "size": 164,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->isHiresJpegFile(Ljava/lang/String;)I",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libllc.so",
+          "export": "Java_com_panasonic_jp_lumixlab_LlcApplication_isHiresJpegFile",
+          "elf_va": "0x168cc",
+          "size": 164,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->isPanasonicRawFile(Ljava/lang/String;)I",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libllc.so",
+          "export": "Java_com_panasonic_jp_lumixlab_LlcApplication_isPanasonicRawFile",
+          "elf_va": "0x16784",
+          "size": 164,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->mergeCubeFiles(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libllc.so",
+          "export": "Java_com_panasonic_jp_lumixlab_LlcApplication_mergeCubeFiles",
+          "elf_va": "0x122ac",
+          "size": 240,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->nativeHalfFloatRGBAToP010(Ljava/nio/ByteBuffer;IILjava/nio/ByteBuffer;Ljava/nio/ByteBuffer;)V",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libllc.so",
+          "export": "Java_com_panasonic_jp_lumixlab_LlcApplication_nativeHalfFloatRGBAToP010",
+          "elf_va": "0x17900",
+          "size": 1004,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->nativeImageConvert([Ljava/nio/ByteBuffer;[III[B)V",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libllc.so",
+          "export": "Java_com_panasonic_jp_lumixlab_LlcApplication_nativeImageConvert",
+          "elf_va": "0x16970",
+          "size": 492,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->nativeRGB10ToHalfFloat(Ljava/nio/ByteBuffer;IILjava/nio/ByteBuffer;)V",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libllc.so",
+          "export": "Java_com_panasonic_jp_lumixlab_LlcApplication_nativeRGB10ToHalfFloat",
+          "elf_va": "0x17d50",
+          "size": 608,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->nativeRGB10ToP010(Ljava/nio/ByteBuffer;IILjava/nio/ByteBuffer;Ljava/nio/ByteBuffer;)V",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libllc.so",
+          "export": "Java_com_panasonic_jp_lumixlab_LlcApplication_nativeRGB10ToP010",
+          "elf_va": "0x17fb0",
+          "size": 496,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->nativeRGBAToNV12(Ljava/nio/ByteBuffer;IILjava/nio/ByteBuffer;Ljava/nio/ByteBuffer;)V",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libllc.so",
+          "export": "Java_com_panasonic_jp_lumixlab_LlcApplication_nativeRGBAToNV12",
+          "elf_va": "0x16f70",
+          "size": 156,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->nativeScaleAndSplit(Ljava/nio/ByteBuffer;IILjava/nio/ByteBuffer;Ljava/nio/ByteBuffer;)V",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libllc.so",
+          "export": "Java_com_panasonic_jp_lumixlab_LlcApplication_nativeScaleAndSplit",
+          "elf_va": "0x16d48",
+          "size": 208,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->readHeifRating(Ljava/lang/String;)Ljava/lang/String;",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libllc.so",
+          "export": "Java_com_panasonic_jp_lumixlab_LlcApplication_readHeifRating",
+          "elf_va": "0x1630c",
+          "size": 1144,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->readImgRatingJni(Ljava/lang/String;)I",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libllc.so",
+          "export": "Java_com_panasonic_jp_lumixlab_LlcApplication_readImgRatingJni",
+          "elf_va": "0x16170",
+          "size": 164,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->readVideoRatingJni(Ljava/lang/String;)I",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libllc.so",
+          "export": "Java_com_panasonic_jp_lumixlab_LlcApplication_readVideoRatingJni",
+          "elf_va": "0x16024",
+          "size": 164,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->splitYuvArrayToYAndUv([B[B[BII)V",
+      "dex": "classes2.dex",
+      "static_matches": [],
+      "dynamic_candidates": [],
+      "status": "implementation_present_Cpp_mangled_binding_unresolved",
+      "implementation_candidate": {
+        "library": "libllc.so",
+        "elf_va": "0x16e18",
+        "export": "_Z67Java_com_panasonic_jp_lumixlab_LlcApplication_splitYuvArrayToYAndUvP7_JNIEnvP8_jobjectP11_jbyteArrayS4_S4_ii",
+        "reason": "C++ mangling differs from JNI name lookup; implementation exists but runtime binding not established"
+      }
+    },
+    {
+      "java_method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->toRgba(J[BLandroid/graphics/Bitmap;)Z",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libllc.so",
+          "export": "Java_com_panasonic_jp_lumixlab_LlcApplication_toRgba",
+          "elf_va": "0x11e14",
+          "size": 1176,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->writeImgRatingJni(Ljava/lang/String;I)I",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libllc.so",
+          "export": "Java_com_panasonic_jp_lumixlab_LlcApplication_writeImgRatingJni",
+          "elf_va": "0x16214",
+          "size": 168,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->writeVideoRatingJni(Ljava/lang/String;I)I",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libllc.so",
+          "export": "Java_com_panasonic_jp_lumixlab_LlcApplication_writeVideoRatingJni",
+          "elf_va": "0x160c8",
+          "size": 168,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/panasonic/jp/lumixlab/util/Heif/Heif;->decodeToRgb48ByteArray(Ljava/lang/String;[I[I)[B",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libllc.so",
+          "export": "Java_com_panasonic_jp_lumixlab_util_Heif_Heif_decodeToRgb48ByteArray",
+          "elf_va": "0x16b5c",
+          "size": 392,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/panasonic/jp/lumixlab/util/Heif/Heif;->getBitsPerPixel(Ljava/lang/String;)I",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libllc.so",
+          "export": "Java_com_panasonic_jp_lumixlab_util_Heif_Heif_getBitsPerPixel",
+          "elf_va": "0x16ce4",
+          "size": 100,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/techor/techorfilter/ImageFilter;->nativeCnv2(Landroid/content/res/AssetManager;Landroid/graphics/Bitmap;I[FFFFFFFFFFFIFFFFFIIZIFZFIII[FF[FFZZI[FI[FI[FI[FZLcom/techor/techorfilter/ImageFilter$CancelCallback;)I",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libtechorfilter.so",
+          "export": "Java_com_techor_techorfilter_ImageFilter_nativeCnv2",
+          "elf_va": "0x2ee298",
+          "size": 2576,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/techor/techorfilter/ImageFilter;->nativeCnv2RGB(Landroid/content/res/AssetManager;Landroid/graphics/Bitmap;I[FFFFFFFFFFFIFFFFFIIZIFZFIII[FF[FFZZI[FI[FI[FI[FZLcom/techor/techorfilter/ImageFilter$CancelCallback;)I",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libtechorfilter.so",
+          "export": "Java_com_techor_techorfilter_ImageFilter_nativeCnv2RGB",
+          "elf_va": "0x2f1588",
+          "size": 2504,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/techor/techorfilter/ImageFilter;->nativeCnv2YUV(Landroid/content/res/AssetManager;Landroid/graphics/Bitmap;I[FZIFFFFFFFFFFIFFFFFIIZIFZFIII[FF[FFZZI[FI[FI[FI[FZLcom/techor/techorfilter/ImageFilter$CancelCallback;)I",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libtechorfilter.so",
+          "export": "Java_com_techor_techorfilter_ImageFilter_nativeCnv2YUV",
+          "elf_va": "0x2ef664",
+          "size": 2548,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/techor/techorfilter/ImageFilter;->nativeGetRawDecodeLens(Landroid/content/res/AssetManager;[IIIIII[F[FLcom/techor/techorfilter/ImageFilter$CancelCallback;)I",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libtechorfilter.so",
+          "export": "Java_com_techor_techorfilter_ImageFilter_nativeGetRawDecodeLens",
+          "elf_va": "0x2ed69c",
+          "size": 1028,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/techor/techorfilter/ImageFilter;->nativeReadExifAndUnpack([B[F[I[FLcom/techor/techorfilter/ImageFilter$CancelCallback;)Ljava/lang/String;",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libtechorfilter.so",
+          "export": "Java_com_techor_techorfilter_ImageFilter_nativeReadExifAndUnpack",
+          "elf_va": "0x2f2974",
+          "size": 652,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/techor/techorfilter/ImageFilter;->calcDBBMinMax(IF[F)V",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libtechorfilter.so",
+          "export": "Java_com_techor_techorfilter_ImageFilter_calcDBBMinMax",
+          "elf_va": "0x2f3024",
+          "size": 220,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/techor/techorfilter/ImageFilter;->freeAllImageData()V",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libtechorfilter.so",
+          "export": "Java_com_techor_techorfilter_ImageFilter_freeAllImageData",
+          "elf_va": "0x2ed0d0",
+          "size": 80,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/techor/techorfilter/ImageFilter;->getUseToneL(I[FI[FFF)V",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libtechorfilter.so",
+          "export": "Java_com_techor_techorfilter_ImageFilter_getUseToneL",
+          "elf_va": "0x2f2e68",
+          "size": 280,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/techor/techorfilter/ImageFilter;->initPhotoStyleLUT()V",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libtechorfilter.so",
+          "export": "Java_com_techor_techorfilter_ImageFilter_initPhotoStyleLUT",
+          "elf_va": "0x2f34f4",
+          "size": 80,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/techor/techorfilter/ImageFilter;->initRGBArray(I[BIIIZ)V",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libtechorfilter.so",
+          "export": "Java_com_techor_techorfilter_ImageFilter_initRGBArray",
+          "elf_va": "0x2edce8",
+          "size": 216,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/techor/techorfilter/ImageFilter;->initYUVArray(I[B[BIIIZ)V",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libtechorfilter.so",
+          "export": "Java_com_techor_techorfilter_ImageFilter_initYUVArray",
+          "elf_va": "0x2edb6c",
+          "size": 380,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/techor/techorfilter/ImageFilter;->setHSLorSPLTone([FI)V",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libtechorfilter.so",
+          "export": "Java_com_techor_techorfilter_ImageFilter_setHSLorSPLTone",
+          "elf_va": "0x2f2f80",
+          "size": 164,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lcom/techor/techorfilter/ImageFilter;->setPhotoStyleLUT(II[FI[FI[F)V",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libtechorfilter.so",
+          "export": "Java_com_techor_techorfilter_ImageFilter_setPhotoStyleLUT",
+          "elf_va": "0x2f315c",
+          "size": 920,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lio/github/crow_misia/libyuv/Yuv;->allocNativeBuffer(I)Ljava/nio/ByteBuffer;",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libyuv_android.so",
+          "export": "Java_io_github_crow_1misia_libyuv_Yuv_allocNativeBuffer",
+          "elf_va": "0x6d168",
+          "size": 60,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lio/github/crow_misia/libyuv/Yuv;->convertI420ToNV12(Ljava/nio/ByteBuffer;IILjava/nio/ByteBuffer;IILjava/nio/ByteBuffer;IILjava/nio/ByteBuffer;IILjava/nio/ByteBuffer;IIII)V",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libyuv_android.so",
+          "export": "Java_io_github_crow_1misia_libyuv_Yuv_convertI420ToNV12",
+          "elf_va": "0x63ed8",
+          "size": 1688,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lio/github/crow_misia/libyuv/Yuv;->freeNativeBuffer(Ljava/nio/ByteBuffer;)V",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libyuv_android.so",
+          "export": "Java_io_github_crow_1misia_libyuv_Yuv_freeNativeBuffer",
+          "elf_va": "0x6d1a4",
+          "size": 44,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lio/github/crow_misia/libyuv/Yuv;->rotateAndroid420ToI420Rotate(Ljava/nio/ByteBuffer;IILjava/nio/ByteBuffer;IILjava/nio/ByteBuffer;IIILjava/nio/ByteBuffer;IILjava/nio/ByteBuffer;IILjava/nio/ByteBuffer;IIIII)V",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libyuv_android.so",
+          "export": "Java_io_github_crow_1misia_libyuv_Yuv_rotateAndroid420ToI420Rotate",
+          "elf_va": "0x7c820",
+          "size": 1908,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lio/github/crow_misia/libyuv/Yuv;->scaleI420Scale(Ljava/nio/ByteBuffer;IILjava/nio/ByteBuffer;IILjava/nio/ByteBuffer;IIIILjava/nio/ByteBuffer;IILjava/nio/ByteBuffer;IILjava/nio/ByteBuffer;IIIII)V",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libyuv_android.so",
+          "export": "Java_io_github_crow_1misia_libyuv_Yuv_scaleI420Scale",
+          "elf_va": "0x802a4",
+          "size": 1880,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lio/github/crow_misia/libyuv/Yuv;->scaleNV12Scale(Ljava/nio/ByteBuffer;IILjava/nio/ByteBuffer;IIIILjava/nio/ByteBuffer;IILjava/nio/ByteBuffer;IIIII)V",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libyuv_android.so",
+          "export": "Java_io_github_crow_1misia_libyuv_Yuv_scaleNV12Scale",
+          "elf_va": "0x818ac",
+          "size": 1540,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Ljp/co/cyberagent/android/gpuimage/GPUImageNativeLibrary;->YUVtoRBGA([BII[I)V",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libyuv-decoder.so",
+          "export": "Java_jp_co_cyberagent_android_gpuimage_GPUImageNativeLibrary_YUVtoRBGA",
+          "elf_va": "0x4948",
+          "size": 452,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Ljp/co/cyberagent/android/gpuimage/GPUImageNativeLibrary;->adjustBitmap(Landroid/graphics/Bitmap;)V",
+      "dex": "classes2.dex",
+      "static_matches": [
+        {
+          "library": "libyuv-decoder.so",
+          "export": "Java_jp_co_cyberagent_android_gpuimage_GPUImageNativeLibrary_adjustBitmap",
+          "elf_va": "0x4cd0",
+          "size": 288,
+          "kind": "static_jni_symbol"
+        }
+      ],
+      "dynamic_candidates": [],
+      "status": "static_symbol_correspondence"
+    },
+    {
+      "java_method": "Lwseemann/media/FFmpegMediaMetadataRetriever;->_getFrameAtTime(JI)[B",
+      "dex": "classes2.dex",
+      "static_matches": [],
+      "dynamic_candidates": [
+        {
+          "library": "libffmpeg_mediametadataretriever_jni.so",
+          "table_va": "0x15bb0",
+          "name": "_getFrameAtTime",
+          "signature": "(JI)[B",
+          "function_va": "0x7e2c",
+          "status": "candidate_triple_requires_registration_consumer"
+        }
+      ],
+      "status": "verified_dynamic_registration_static_path",
+      "registration_consumer": {
+        "JNI_OnLoad_elf_va": "0x7504",
+        "helper_elf_va": "0x7428",
+        "table_elf_va": "0x15b50",
+        "count": 15,
+        "RegisterNatives_wrapper_elf_va": "0x748c",
+        "JNI_slot_offset": "0x6b8"
+      }
+    },
+    {
+      "java_method": "Lwseemann/media/FFmpegMediaMetadataRetriever;->_getScaledFrameAtTime(JIII)[B",
+      "dex": "classes2.dex",
+      "static_matches": [],
+      "dynamic_candidates": [
+        {
+          "library": "libffmpeg_mediametadataretriever_jni.so",
+          "table_va": "0x15bc8",
+          "name": "_getScaledFrameAtTime",
+          "signature": "(JIII)[B",
+          "function_va": "0x7fd4",
+          "status": "candidate_triple_requires_registration_consumer"
+        }
+      ],
+      "status": "verified_dynamic_registration_static_path",
+      "registration_consumer": {
+        "JNI_OnLoad_elf_va": "0x7504",
+        "helper_elf_va": "0x7428",
+        "table_elf_va": "0x15b50",
+        "count": 15,
+        "RegisterNatives_wrapper_elf_va": "0x748c",
+        "JNI_slot_offset": "0x6b8"
+      }
+    },
+    {
+      "java_method": "Lwseemann/media/FFmpegMediaMetadataRetriever;->_setDataSource(Landroid/media/MediaDataSource;)V",
+      "dex": "classes2.dex",
+      "static_matches": [],
+      "dynamic_candidates": [
+        {
+          "library": "libffmpeg_mediametadataretriever_jni.so",
+          "table_va": "0x15b98",
+          "name": "_setDataSource",
+          "signature": "(Landroid/media/MediaDataSource;)V",
+          "function_va": "0x7d40",
+          "status": "candidate_triple_requires_registration_consumer"
+        }
+      ],
+      "status": "verified_dynamic_registration_static_path",
+      "registration_consumer": {
+        "JNI_OnLoad_elf_va": "0x7504",
+        "helper_elf_va": "0x7428",
+        "table_elf_va": "0x15b50",
+        "count": 15,
+        "RegisterNatives_wrapper_elf_va": "0x748c",
+        "JNI_slot_offset": "0x6b8"
+      }
+    },
+    {
+      "java_method": "Lwseemann/media/FFmpegMediaMetadataRetriever;->_setDataSource(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V",
+      "dex": "classes2.dex",
+      "static_matches": [],
+      "dynamic_candidates": [
+        {
+          "library": "libffmpeg_mediametadataretriever_jni.so",
+          "table_va": "0x15b68",
+          "name": "_setDataSource",
+          "signature": "(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V",
+          "function_va": "0x76a8",
+          "status": "candidate_triple_requires_registration_consumer"
+        }
+      ],
+      "status": "verified_dynamic_registration_static_path",
+      "registration_consumer": {
+        "JNI_OnLoad_elf_va": "0x7504",
+        "helper_elf_va": "0x7428",
+        "table_elf_va": "0x15b50",
+        "count": 15,
+        "RegisterNatives_wrapper_elf_va": "0x748c",
+        "JNI_slot_offset": "0x6b8"
+      }
+    },
+    {
+      "java_method": "Lwseemann/media/FFmpegMediaMetadataRetriever;->native_finalize()V",
+      "dex": "classes2.dex",
+      "static_matches": [],
+      "dynamic_candidates": [
+        {
+          "library": "libffmpeg_mediametadataretriever_jni.so",
+          "table_va": "0x15c70",
+          "name": "native_finalize",
+          "signature": "()V",
+          "function_va": "0x884c",
+          "status": "candidate_triple_requires_registration_consumer"
+        }
+      ],
+      "status": "verified_dynamic_registration_static_path",
+      "registration_consumer": {
+        "JNI_OnLoad_elf_va": "0x7504",
+        "helper_elf_va": "0x7428",
+        "table_elf_va": "0x15b50",
+        "count": 15,
+        "RegisterNatives_wrapper_elf_va": "0x748c",
+        "JNI_slot_offset": "0x6b8"
+      }
+    },
+    {
+      "java_method": "Lwseemann/media/FFmpegMediaMetadataRetriever;->native_getMetadata(ZZLjava/util/HashMap;)Ljava/util/HashMap;",
+      "dex": "classes2.dex",
+      "static_matches": [],
+      "dynamic_candidates": [
+        {
+          "library": "libffmpeg_mediametadataretriever_jni.so",
+          "table_va": "0x15c10",
+          "name": "native_getMetadata",
+          "signature": "(ZZLjava/util/HashMap;)Ljava/util/HashMap;",
+          "function_va": "0x83a8",
+          "status": "candidate_triple_requires_registration_consumer"
+        }
+      ],
+      "status": "verified_dynamic_registration_static_path",
+      "registration_consumer": {
+        "JNI_OnLoad_elf_va": "0x7504",
+        "helper_elf_va": "0x7428",
+        "table_elf_va": "0x15b50",
+        "count": 15,
+        "RegisterNatives_wrapper_elf_va": "0x748c",
+        "JNI_slot_offset": "0x6b8"
+      }
+    },
+    {
+      "java_method": "Lwseemann/media/FFmpegMediaMetadataRetriever;->native_init()V",
+      "dex": "classes2.dex",
+      "static_matches": [],
+      "dynamic_candidates": [
+        {
+          "library": "libffmpeg_mediametadataretriever_jni.so",
+          "table_va": "0x15ca0",
+          "name": "native_init",
+          "signature": "()V",
+          "function_va": "0x8904",
+          "status": "candidate_triple_requires_registration_consumer"
+        }
+      ],
+      "status": "verified_dynamic_registration_static_path",
+      "registration_consumer": {
+        "JNI_OnLoad_elf_va": "0x7504",
+        "helper_elf_va": "0x7428",
+        "table_elf_va": "0x15b50",
+        "count": 15,
+        "RegisterNatives_wrapper_elf_va": "0x748c",
+        "JNI_slot_offset": "0x6b8"
+      }
+    },
+    {
+      "java_method": "Lwseemann/media/FFmpegMediaMetadataRetriever;->native_setup()V",
+      "dex": "classes2.dex",
+      "static_matches": [],
+      "dynamic_candidates": [
+        {
+          "library": "libffmpeg_mediametadataretriever_jni.so",
+          "table_va": "0x15c88",
+          "name": "native_setup",
+          "signature": "()V",
+          "function_va": "0x8878",
+          "status": "candidate_triple_requires_registration_consumer"
+        }
+      ],
+      "status": "verified_dynamic_registration_static_path",
+      "registration_consumer": {
+        "JNI_OnLoad_elf_va": "0x7504",
+        "helper_elf_va": "0x7428",
+        "table_elf_va": "0x15b50",
+        "count": 15,
+        "RegisterNatives_wrapper_elf_va": "0x748c",
+        "JNI_slot_offset": "0x6b8"
+      }
+    },
+    {
+      "java_method": "Lwseemann/media/FFmpegMediaMetadataRetriever;->extractMetadata(Ljava/lang/String;)Ljava/lang/String;",
+      "dex": "classes2.dex",
+      "static_matches": [],
+      "dynamic_candidates": [
+        {
+          "library": "libffmpeg_mediametadataretriever_jni.so",
+          "table_va": "0x15be0",
+          "name": "extractMetadata",
+          "signature": "(Ljava/lang/String;)Ljava/lang/String;",
+          "function_va": "0x818c",
+          "status": "candidate_triple_requires_registration_consumer"
+        }
+      ],
+      "status": "verified_dynamic_registration_static_path",
+      "registration_consumer": {
+        "JNI_OnLoad_elf_va": "0x7504",
+        "helper_elf_va": "0x7428",
+        "table_elf_va": "0x15b50",
+        "count": 15,
+        "RegisterNatives_wrapper_elf_va": "0x748c",
+        "JNI_slot_offset": "0x6b8"
+      }
+    },
+    {
+      "java_method": "Lwseemann/media/FFmpegMediaMetadataRetriever;->extractMetadataFromChapter(Ljava/lang/String;I)Ljava/lang/String;",
+      "dex": "classes2.dex",
+      "static_matches": [],
+      "dynamic_candidates": [
+        {
+          "library": "libffmpeg_mediametadataretriever_jni.so",
+          "table_va": "0x15bf8",
+          "name": "extractMetadataFromChapter",
+          "signature": "(Ljava/lang/String;I)Ljava/lang/String;",
+          "function_va": "0x828c",
+          "status": "candidate_triple_requires_registration_consumer"
+        }
+      ],
+      "status": "verified_dynamic_registration_static_path",
+      "registration_consumer": {
+        "JNI_OnLoad_elf_va": "0x7504",
+        "helper_elf_va": "0x7428",
+        "table_elf_va": "0x15b50",
+        "count": 15,
+        "RegisterNatives_wrapper_elf_va": "0x748c",
+        "JNI_slot_offset": "0x6b8"
+      }
+    },
+    {
+      "java_method": "Lwseemann/media/FFmpegMediaMetadataRetriever;->getEmbeddedPicture()[B",
+      "dex": "classes2.dex",
+      "static_matches": [],
+      "dynamic_candidates": [
+        {
+          "library": "libffmpeg_mediametadataretriever_jni.so",
+          "table_va": "0x15c28",
+          "name": "getEmbeddedPicture",
+          "signature": "()[B",
+          "function_va": "0x85c0",
+          "status": "candidate_triple_requires_registration_consumer"
+        }
+      ],
+      "status": "verified_dynamic_registration_static_path",
+      "registration_consumer": {
+        "JNI_OnLoad_elf_va": "0x7504",
+        "helper_elf_va": "0x7428",
+        "table_elf_va": "0x15b50",
+        "count": 15,
+        "RegisterNatives_wrapper_elf_va": "0x748c",
+        "JNI_slot_offset": "0x6b8"
+      }
+    },
+    {
+      "java_method": "Lwseemann/media/FFmpegMediaMetadataRetriever;->release()V",
+      "dex": "classes2.dex",
+      "static_matches": [],
+      "dynamic_candidates": [
+        {
+          "library": "libffmpeg_mediametadataretriever_jni.so",
+          "table_va": "0x15c40",
+          "name": "release",
+          "signature": "()V",
+          "function_va": "0x8740",
+          "status": "candidate_triple_requires_registration_consumer"
+        }
+      ],
+      "status": "verified_dynamic_registration_static_path",
+      "registration_consumer": {
+        "JNI_OnLoad_elf_va": "0x7504",
+        "helper_elf_va": "0x7428",
+        "table_elf_va": "0x15b50",
+        "count": 15,
+        "RegisterNatives_wrapper_elf_va": "0x748c",
+        "JNI_slot_offset": "0x6b8"
+      }
+    },
+    {
+      "java_method": "Lwseemann/media/FFmpegMediaMetadataRetriever;->setDataSource(Ljava/io/FileDescriptor;JJ)V",
+      "dex": "classes2.dex",
+      "static_matches": [],
+      "dynamic_candidates": [
+        {
+          "library": "libffmpeg_mediametadataretriever_jni.so",
+          "table_va": "0x15b80",
+          "name": "setDataSource",
+          "signature": "(Ljava/io/FileDescriptor;JJ)V",
+          "function_va": "0x7b98",
+          "status": "candidate_triple_requires_registration_consumer"
+        }
+      ],
+      "status": "verified_dynamic_registration_static_path",
+      "registration_consumer": {
+        "JNI_OnLoad_elf_va": "0x7504",
+        "helper_elf_va": "0x7428",
+        "table_elf_va": "0x15b50",
+        "count": 15,
+        "RegisterNatives_wrapper_elf_va": "0x748c",
+        "JNI_slot_offset": "0x6b8"
+      }
+    },
+    {
+      "java_method": "Lwseemann/media/FFmpegMediaMetadataRetriever;->setDataSource(Ljava/lang/String;)V",
+      "dex": "classes2.dex",
+      "static_matches": [],
+      "dynamic_candidates": [
+        {
+          "library": "libffmpeg_mediametadataretriever_jni.so",
+          "table_va": "0x15b50",
+          "name": "setDataSource",
+          "signature": "(Ljava/lang/String;)V",
+          "function_va": "0x766c",
+          "status": "candidate_triple_requires_registration_consumer"
+        }
+      ],
+      "status": "verified_dynamic_registration_static_path",
+      "registration_consumer": {
+        "JNI_OnLoad_elf_va": "0x7504",
+        "helper_elf_va": "0x7428",
+        "table_elf_va": "0x15b50",
+        "count": 15,
+        "RegisterNatives_wrapper_elf_va": "0x748c",
+        "JNI_slot_offset": "0x6b8"
+      }
+    },
+    {
+      "java_method": "Lwseemann/media/FFmpegMediaMetadataRetriever;->setSurface(Ljava/lang/Object;)V",
+      "dex": "classes2.dex",
+      "static_matches": [],
+      "dynamic_candidates": [
+        {
+          "library": "libffmpeg_mediametadataretriever_jni.so",
+          "table_va": "0x15c58",
+          "name": "setSurface",
+          "signature": "(Ljava/lang/Object;)V",
+          "function_va": "0x87bc",
+          "status": "candidate_triple_requires_registration_consumer"
+        }
+      ],
+      "status": "verified_dynamic_registration_static_path",
+      "registration_consumer": {
+        "JNI_OnLoad_elf_va": "0x7504",
+        "helper_elf_va": "0x7428",
+        "table_elf_va": "0x15b50",
+        "count": 15,
+        "RegisterNatives_wrapper_elf_va": "0x748c",
+        "JNI_slot_offset": "0x6b8"
+      }
+    }
+  ],
+  "unmatched_exports": [
+    {
+      "library": "libllc.so",
+      "name": "Java_com_panasonic_jp_lumixlab_LlcApplication_getRW2SubImage",
+      "va": "0x11cd0",
+      "size": 212,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libonnxruntime4j_jni.so",
+      "name": "Java_ai_onnxruntime_OrtSession_00024SessionOptions_addMIGraphX",
+      "va": "0xf65c",
+      "size": 52,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libtechorfilter.so",
+      "name": "Java_com_techor_techorfilter_ImageFilter_setValidRect",
+      "va": "0x2edad8",
+      "size": 148,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libtechorfilter.so",
+      "name": "Java_com_techor_techorfilter_ImageFilter_nativeCnv2YUVtoYUV8",
+      "va": "0x2f0058",
+      "size": 2712,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libtechorfilter.so",
+      "name": "Java_com_techor_techorfilter_ImageFilter_setValidDumpTest",
+      "va": "0x2f3100",
+      "size": 92,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libtechorfilter.so",
+      "name": "Java_com_techor_techorfilter_ImageFilter_nativeCnv2YUVtoYUV16",
+      "va": "0x2f0af0",
+      "size": 2712,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libtechorfilter.so",
+      "name": "Java_com_techor_techorfilter_ImageFilter_nativeCnv2to16",
+      "va": "0x2eeca8",
+      "size": 2492,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libtechorfilter.so",
+      "name": "Java_com_techor_techorfilter_ImageFilter_getRaw",
+      "va": "0x2f2c00",
+      "size": 360,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libtechorfilter.so",
+      "name": "Java_com_techor_techorfilter_ImageFilter_nativeCnv2RGB16",
+      "va": "0x2f1f50",
+      "size": 2596,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libtechorfilter.so",
+      "name": "Java_com_techor_techorfilter_ImageFilter_convertYUV420toRGB16",
+      "va": "0x2edff4",
+      "size": 676,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libtechorfilter.so",
+      "name": "Java_com_techor_techorfilter_ImageFilter_setFrame",
+      "va": "0x2eddc0",
+      "size": 564,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libtechorfilter.so",
+      "name": "Java_com_techor_techorfilter_ImageFilter_nativeCalcelTest",
+      "va": "0x2ecebc",
+      "size": 376,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libtechorfilter.so",
+      "name": "Java_com_techor_techorfilter_ImageFilter_getUseToneLtest",
+      "va": "0x2f2d68",
+      "size": 256,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libtechorfilter.so",
+      "name": "Java_com_techor_techorfilter_ImageFilter_stringFromJNI",
+      "va": "0x2ecdd4",
+      "size": 232,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv-decoder.so",
+      "name": "Java_jp_co_cyberagent_android_gpuimage_GPUImageNativeLibrary_YUVtoARBG",
+      "va": "0x4b0c",
+      "size": 452,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertRGB565ToARGB",
+      "va": "0x5769c",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertARGBToRGB565",
+      "va": "0x66f00",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertARGBToNV21",
+      "va": "0x6b838",
+      "size": 1360,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertAR30ToARGB",
+      "va": "0x5847c",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarARGBMultiply",
+      "va": "0x76fdc",
+      "size": 1336,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarARGBColorTable",
+      "va": "0x74264",
+      "size": 672,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertJ422ToARGB",
+      "va": "0x4b9cc",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertARGBToRAW",
+      "va": "0x66a60",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertI420ToARGB1555",
+      "va": "0x60830",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarYUY2ToI422",
+      "va": "0x6eae4",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertI420ToNV21",
+      "va": "0x64570",
+      "size": 1688,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarARGBUnattenuate",
+      "va": "0x78ffc",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertARGBToRGB24",
+      "va": "0x665c0",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertARGBToI420",
+      "va": "0x44154",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertRGB24ToJ400",
+      "va": "0x48278",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertARGBToARGB1555",
+      "va": "0x673a0",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertARGBToI422",
+      "va": "0x682cc",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarNV12Copy",
+      "va": "0x6e4f8",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertI400ToARGB",
+      "va": "0x5188c",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarARGBColorMatrix",
+      "va": "0x73df8",
+      "size": 1132,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertI422ToRGBA",
+      "va": "0x5a384",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarARGBBlur",
+      "va": "0x7949c",
+      "size": 1132,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_rotateI422Rotate",
+      "va": "0x7b2f0",
+      "size": 1864,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertI444ToNV12",
+      "va": "0x3e8e8",
+      "size": 1688,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertNV21ToI420",
+      "va": "0x42444",
+      "size": 1688,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertRAWToJ420",
+      "va": "0x46ac8",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertRAWToARGB",
+      "va": "0x56d5c",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertJ420ToRAW",
+      "va": "0x5debc",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertI420ToI422",
+      "va": "0x62bb8",
+      "size": 1856,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertARGBToABGR",
+      "va": "0x65c80",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarNV12Mirror",
+      "va": "0x71914",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarI422ToYUY2",
+      "va": "0x77f84",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarI420Blend",
+      "va": "0x76600",
+      "size": 2524,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertUYVYToI420",
+      "va": "0x430c8",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertH420ToARGB",
+      "va": "0x49c30",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarARGBGrayTo",
+      "va": "0x734a0",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertU420ToABGR",
+      "va": "0x4adf4",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertI420ToABGR",
+      "va": "0x5b548",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertJ420ToRGB565",
+      "va": "0x5f66c",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertNV21ToABGR",
+      "va": "0x531bc",
+      "size": 1360,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertJ420ToRGB24",
+      "va": "0x5d8d0",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertARGBToUYVY",
+      "va": "0x6ccc8",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertABGRToNV12",
+      "va": "0x6bd88",
+      "size": 1360,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarI420ToI400",
+      "va": "0x70748",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarI420Rect",
+      "va": "0x72ce0",
+      "size": 1376,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertI422ToI444",
+      "va": "0x3fd58",
+      "size": 1856,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertI420ToRGB565",
+      "va": "0x5f080",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertABGRToJ400",
+      "va": "0x6a508",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_scaleScalePlane",
+      "va": "0x7fde8",
+      "size": 1212,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertH420ToRGB24",
+      "va": "0x5ccf8",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_scaleI422Scale",
+      "va": "0x81154",
+      "size": 1880,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertI420ToUYVY",
+      "va": "0x651f4",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_calcFramePsnr",
+      "va": "0x3ca4c",
+      "size": 836,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertH420ToRGB565",
+      "va": "0x5fc58",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarRAWToRGB24",
+      "va": "0x72840",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarARGBInterpolate",
+      "va": "0x79d30",
+      "size": 1344,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_hashDjb2",
+      "va": "0x3c1d0",
+      "size": 328,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertJ400ToARGB",
+      "va": "0x51d2c",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertARGBToJ420",
+      "va": "0x688b8",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_calcI420Psnr",
+      "va": "0x3cd90",
+      "size": 1732,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarARGBCopyAlpha",
+      "va": "0x752e8",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertNV12ToI420",
+      "va": "0x41dac",
+      "size": 1688,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertARGBToBGRA",
+      "va": "0x657e0",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertARGBToJ422",
+      "va": "0x68ea4",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertI420Copy",
+      "va": "0x40b30",
+      "size": 1856,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertRGBAToI420",
+      "va": "0x45318",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarARGBBlend",
+      "va": "0x760c8",
+      "size": 1336,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertU420ToARGB",
+      "va": "0x4a808",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertI420ToARGB",
+      "va": "0x5a970",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertJ420ToABGR",
+      "va": "0x49644",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertH444ToABGR",
+      "va": "0x4faf0",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertNV21ToARGB",
+      "va": "0x5271c",
+      "size": 1360,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertNV21ToRAW",
+      "va": "0x54c4c",
+      "size": 1360,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertI420ToBGRA",
+      "va": "0x5af5c",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_rotateSplitTransposeUV",
+      "va": "0x7ddb4",
+      "size": 1336,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertAR30ToAB30",
+      "va": "0x58dbc",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarARGBRect",
+      "va": "0x73240",
+      "size": 608,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertNV12ToABGR",
+      "va": "0x52c6c",
+      "size": 1360,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertNV21ToRGB24",
+      "va": "0x53c5c",
+      "size": 1360,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertUYVYToARGB",
+      "va": "0x5563c",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarI422ToUYVY",
+      "va": "0x78570",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertI444ToNV21",
+      "va": "0x3ef80",
+      "size": 1688,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertRGB24ToI420",
+      "va": "0x45904",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertRAWToRGBA",
+      "va": "0x571fc",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertYUY2ToI420",
+      "va": "0x42adc",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarNV21ToNV12",
+      "va": "0x7015c",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarARGBExtractAlpha",
+      "va": "0x75788",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_rotateSplitRotateUV",
+      "va": "0x7d438",
+      "size": 1368,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertI444ToI420",
+      "va": "0x3e0b4",
+      "size": 1856,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertARGB4444ToI420",
+      "va": "0x47c8c",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertABGRToNV21",
+      "va": "0x6c2d8",
+      "size": 1360,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarUYVYToNV12",
+      "va": "0x6fc0c",
+      "size": 1360,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertARGBCopy",
+      "va": "0x48bb8",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarARGBQuantize",
+      "va": "0x7507c",
+      "size": 620,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertBGRAToI420",
+      "va": "0x44740",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarARGBShade",
+      "va": "0x79908",
+      "size": 1064,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertJ420ToARGB",
+      "va": "0x49058",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertH444ToARGB",
+      "va": "0x4f504",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertH420ToAB30",
+      "va": "0x625cc",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertI444ToABGR",
+      "va": "0x4e340",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertU444ToABGR",
+      "va": "0x506c8",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarARGBAttenuate",
+      "va": "0x78b5c",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_scaleI444Scale",
+      "va": "0x809fc",
+      "size": 1880,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_rotateARGBRotate",
+      "va": "0x7f944",
+      "size": 1188,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertABGRToI420",
+      "va": "0x44d2c",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertNV12ToARGB",
+      "va": "0x521cc",
+      "size": 1360,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertRGBAToARGB",
+      "va": "0x5641c",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_calcFrameSsim",
+      "va": "0x3d454",
+      "size": 836,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertH422ToABGR",
+      "va": "0x4cb90",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertARGBToRGBA",
+      "va": "0x66120",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarARGBLumaColorTable",
+      "va": "0x747a4",
+      "size": 1132,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertARGBToI400",
+      "va": "0x6ae48",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertAYUVToNV12",
+      "va": "0x436b4",
+      "size": 1360,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertARGB1555ToI420",
+      "va": "0x476a0",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertI420ToRGBA",
+      "va": "0x5bb34",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_rotateI420Rotate",
+      "va": "0x7aba8",
+      "size": 1864,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_calcI420Ssim",
+      "va": "0x3d798",
+      "size": 1732,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertI422ToNV21",
+      "va": "0x40498",
+      "size": 1688,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertRGB24ToJ420",
+      "va": "0x45ef0",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertRGB24ToARGB",
+      "va": "0x568bc",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertI400Copy",
+      "va": "0x63a38",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_rotateNV21Rotate",
+      "va": "0x7eb64",
+      "size": 1776,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertRAWToJ400",
+      "va": "0x48718",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertI422ToRAW",
+      "va": "0x5ea94",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertYUY2ToARGB",
+      "va": "0x5519c",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertARGBToI444",
+      "va": "0x67ce0",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertH420ToRAW",
+      "va": "0x5d2e4",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertI422ToI420",
+      "va": "0x3f618",
+      "size": 1856,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertI444ToRGB24",
+      "va": "0x50cb4",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertI444ToARGB",
+      "va": "0x4dd54",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertU444ToARGB",
+      "va": "0x500dc",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertI420ToAB30",
+      "va": "0x619f4",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertJ444ToABGR",
+      "va": "0x4ef18",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertARGB4444ToARGB",
+      "va": "0x57fdc",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertI420ToI444",
+      "va": "0x632f8",
+      "size": 1856,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarRGB24Mirror",
+      "va": "0x723a0",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_scaleARGBScale",
+      "va": "0x81eb0",
+      "size": 1212,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_computeHammingDistance",
+      "va": "0x3c40c",
+      "size": 644,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertH422ToARGB",
+      "va": "0x4c5a4",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertBGRAToARGB",
+      "va": "0x55adc",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertI422ToRGB565",
+      "va": "0x60244",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarARGBPolynomial",
+      "va": "0x74c10",
+      "size": 1132,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertU422ToABGR",
+      "va": "0x4d768",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertI422ToABGR",
+      "va": "0x59d98",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarYUY2ToNV12",
+      "va": "0x6f6bc",
+      "size": 1360,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertI420ToRGB24",
+      "va": "0x5c120",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarI400Mirror",
+      "va": "0x71474",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarRGBColorTable",
+      "va": "0x74504",
+      "size": 672,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertNV21ToYUV24",
+      "va": "0x541ac",
+      "size": 1360,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_rotateNV12ToI420Rotate",
+      "va": "0x7c180",
+      "size": 1696,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertABGRToARGB",
+      "va": "0x55f7c",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertNV12ToRGB565",
+      "va": "0x5925c",
+      "size": 1360,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertABGRToJ420",
+      "va": "0x69930",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_rotateNV12Rotate",
+      "va": "0x7e2ec",
+      "size": 1776,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertNV12ToRGB24",
+      "va": "0x5370c",
+      "size": 1360,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertABGRToJ422",
+      "va": "0x69f1c",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertARGBToNV12",
+      "va": "0x6b2e8",
+      "size": 1360,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertARGBToJ400",
+      "va": "0x69490",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarARGBSepia",
+      "va": "0x73b9c",
+      "size": 604,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertI420ToARGB4444",
+      "va": "0x60e1c",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_rotateNV12ToNV21Rotate",
+      "va": "0x7f254",
+      "size": 1776,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertH420ToAR30",
+      "va": "0x61fe0",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarUYVYToI422",
+      "va": "0x6f0d0",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertRGB565ToI420",
+      "va": "0x470b4",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertARGB1555ToARGB",
+      "va": "0x57b3c",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarI420Interpolate",
+      "va": "0x7a270",
+      "size": 2360,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_rotateTransposePlane",
+      "va": "0x7d990",
+      "size": 1060,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertARGBToARGB4444",
+      "va": "0x67840",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_scaleARGBScaleClip",
+      "va": "0x8236c",
+      "size": 1244,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_computeSumSquareErrorPlane",
+      "va": "0x3c690",
+      "size": 956,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarARGBAdd",
+      "va": "0x77514",
+      "size": 1336,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertI400ToNV21",
+      "va": "0x4185c",
+      "size": 1360,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertAYUVToNV21",
+      "va": "0x43c04",
+      "size": 1360,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertJ444ToARGB",
+      "va": "0x4e92c",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarI444Copy",
+      "va": "0x6ddb8",
+      "size": 1856,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertAR30ToABGR",
+      "va": "0x5891c",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertI422ToARGB",
+      "va": "0x4b3e0",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertU422ToARGB",
+      "va": "0x4d17c",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertI444ToRAW",
+      "va": "0x512a0",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarARGBGray",
+      "va": "0x73940",
+      "size": 604,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertJ422ToABGR",
+      "va": "0x4bfb8",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertI422ToBGRA",
+      "va": "0x597ac",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertI400ToI420",
+      "va": "0x41270",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertI420ToRAW",
+      "va": "0x5c70c",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarARGBMirror",
+      "va": "0x71f00",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarARGBCopyYToAlpha",
+      "va": "0x75c28",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertRAWToI420",
+      "va": "0x464dc",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_rotateI444Rotate",
+      "va": "0x7ba38",
+      "size": 1864,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertI422ToRGB24",
+      "va": "0x5e4a8",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_memcopy",
+      "va": "0x6d310",
+      "size": 272,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarI420Mirror",
+      "va": "0x70d34",
+      "size": 1856,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertNV12ToRAW",
+      "va": "0x546fc",
+      "size": 1360,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertI420ToAR30",
+      "va": "0x61408",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertARGBToYUY2",
+      "va": "0x6c828",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_scaleUVScale",
+      "va": "0x82848",
+      "size": 1212,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarSetPlane",
+      "va": "0x6d420",
+      "size": 600,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertI420ToYUY2",
+      "va": "0x64c08",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_rotateRotatePlane",
+      "va": "0x7cf94",
+      "size": 1188,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertH420ToABGR",
+      "va": "0x4a21c",
+      "size": 1516,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_convertRGBAToJ400",
+      "va": "0x6a9a8",
+      "size": 1184,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarI422Copy",
+      "va": "0x6d678",
+      "size": 1856,
+      "defined": true,
+      "type": "STT_FUNC"
+    },
+    {
+      "library": "libyuv_android.so",
+      "name": "Java_io_github_crow_1misia_libyuv_Yuv_planarARGBSubtract",
+      "va": "0x77a4c",
+      "size": 1336,
+      "defined": true,
+      "type": "STT_FUNC"
+    }
+  ]
+}

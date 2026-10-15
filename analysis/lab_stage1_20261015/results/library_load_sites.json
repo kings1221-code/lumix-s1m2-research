@@ -1,0 +1,407 @@
+[
+  {
+    "caller": "Lai/onnxruntime/OnnxRuntime;->load(Ljava/lang/String;)V",
+    "dex": "classes.dex",
+    "offset_cu": 6,
+    "dex_byte_offset": "0x264f0c",
+    "opcode": "invoke-static",
+    "argument_registers": [
+      9
+    ],
+    "target": "Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V",
+    "prior_string_constants": [],
+    "constant_argument_status": "requires_register_definition_check"
+  },
+  {
+    "caller": "Lai/onnxruntime/OnnxRuntime;->load(Ljava/lang/String;)V",
+    "dex": "classes.dex",
+    "offset_cu": 136,
+    "dex_byte_offset": "0x265010",
+    "opcode": "invoke-static",
+    "argument_registers": [
+      6
+    ],
+    "target": "Ljava/lang/System;->load(Ljava/lang/String;)V",
+    "prior_string_constants": [
+      {
+        "registers": [
+          4
+        ],
+        "value": "' not found at ",
+        "offset_cu": 80
+      },
+      {
+        "registers": [
+          5
+        ],
+        "value": "Native library '",
+        "offset_cu": 82
+      },
+      {
+        "registers": [
+          6
+        ],
+        "value": "' from specified path: ",
+        "offset_cu": 84
+      },
+      {
+        "registers": [
+          7
+        ],
+        "value": "Attempting to load native library '",
+        "offset_cu": 86
+      },
+      {
+        "registers": [
+          8
+        ],
+        "value": "Loaded native library '",
+        "offset_cu": 88
+      }
+    ],
+    "constant_argument_status": "requires_register_definition_check"
+  },
+  {
+    "caller": "Lai/onnxruntime/OnnxRuntime;->load(Ljava/lang/String;)V",
+    "dex": "classes.dex",
+    "offset_cu": 217,
+    "dex_byte_offset": "0x2650b2",
+    "opcode": "invoke-static",
+    "argument_registers": [
+      0
+    ],
+    "target": "Ljava/lang/System;->load(Ljava/lang/String;)V",
+    "prior_string_constants": [
+      {
+        "registers": [
+          5
+        ],
+        "value": "Native library '",
+        "offset_cu": 82
+      },
+      {
+        "registers": [
+          6
+        ],
+        "value": "' from specified path: ",
+        "offset_cu": 84
+      },
+      {
+        "registers": [
+          7
+        ],
+        "value": "Attempting to load native library '",
+        "offset_cu": 86
+      },
+      {
+        "registers": [
+          8
+        ],
+        "value": "Loaded native library '",
+        "offset_cu": 88
+      },
+      {
+        "registers": [
+          1
+        ],
+        "value": ".path",
+        "offset_cu": 176
+      }
+    ],
+    "constant_argument_status": "requires_register_definition_check"
+  },
+  {
+    "caller": "Lai/onnxruntime/OnnxRuntime;->load(Ljava/lang/String;)V",
+    "dex": "classes.dex",
+    "offset_cu": 269,
+    "dex_byte_offset": "0x26511a",
+    "opcode": "invoke-static",
+    "argument_registers": [
+      0
+    ],
+    "target": "Ljava/lang/System;->load(Ljava/lang/String;)V",
+    "prior_string_constants": [
+      {
+        "registers": [
+          5
+        ],
+        "value": "Native library '",
+        "offset_cu": 82
+      },
+      {
+        "registers": [
+          6
+        ],
+        "value": "' from specified path: ",
+        "offset_cu": 84
+      },
+      {
+        "registers": [
+          7
+        ],
+        "value": "Attempting to load native library '",
+        "offset_cu": 86
+      },
+      {
+        "registers": [
+          8
+        ],
+        "value": "Loaded native library '",
+        "offset_cu": 88
+      },
+      {
+        "registers": [
+          1
+        ],
+        "value": ".path",
+        "offset_cu": 176
+      }
+    ],
+    "constant_argument_status": "requires_register_definition_check"
+  },
+  {
+    "caller": "Lai/onnxruntime/OnnxRuntime;->load(Ljava/lang/String;)V",
+    "dex": "classes.dex",
+    "offset_cu": 321,
+    "dex_byte_offset": "0x265182",
+    "opcode": "invoke-static",
+    "argument_registers": [
+      9
+    ],
+    "target": "Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V",
+    "prior_string_constants": [
+      {
+        "registers": [
+          7
+        ],
+        "value": "Attempting to load native library '",
+        "offset_cu": 86
+      },
+      {
+        "registers": [
+          8
+        ],
+        "value": "Loaded native library '",
+        "offset_cu": 88
+      },
+      {
+        "registers": [
+          1
+        ],
+        "value": ".path",
+        "offset_cu": 176
+      },
+      {
+        "registers": [
+          9
+        ],
+        "value": "' from resource path",
+        "offset_cu": 284
+      },
+      {
+        "registers": [
+          3
+        ],
+        "value": "' from library path",
+        "offset_cu": 309
+      }
+    ],
+    "constant_argument_status": "requires_register_definition_check"
+  },
+  {
+    "caller": "Lcom/panasonic/jp/lumixlab/LlcApplication;-><clinit>()V",
+    "dex": "classes2.dex",
+    "offset_cu": 29,
+    "dex_byte_offset": "0x1c5c26",
+    "opcode": "invoke-static",
+    "argument_registers": [
+      0
+    ],
+    "target": "Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V",
+    "prior_string_constants": [
+      {
+        "registers": [
+          0
+        ],
+        "value": "llc",
+        "offset_cu": 27
+      }
+    ],
+    "constant_argument_status": "requires_register_definition_check"
+  },
+  {
+    "caller": "Lcom/panasonic/jp/lumixlab/LlcApplication;-><clinit>()V",
+    "dex": "classes2.dex",
+    "offset_cu": 34,
+    "dex_byte_offset": "0x1c5c30",
+    "opcode": "invoke-static",
+    "argument_registers": [
+      0
+    ],
+    "target": "Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V",
+    "prior_string_constants": [
+      {
+        "registers": [
+          0
+        ],
+        "value": "llc",
+        "offset_cu": 27
+      },
+      {
+        "registers": [
+          0
+        ],
+        "value": "c++_shared",
+        "offset_cu": 32
+      }
+    ],
+    "constant_argument_status": "requires_register_definition_check"
+  },
+  {
+    "caller": "Lcom/panasonic/jp/lumixlab/LlcApplication;-><clinit>()V",
+    "dex": "classes2.dex",
+    "offset_cu": 39,
+    "dex_byte_offset": "0x1c5c3a",
+    "opcode": "invoke-static",
+    "argument_registers": [
+      0
+    ],
+    "target": "Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V",
+    "prior_string_constants": [
+      {
+        "registers": [
+          0
+        ],
+        "value": "llc",
+        "offset_cu": 27
+      },
+      {
+        "registers": [
+          0
+        ],
+        "value": "c++_shared",
+        "offset_cu": 32
+      },
+      {
+        "registers": [
+          0
+        ],
+        "value": "cube_merge",
+        "offset_cu": 37
+      }
+    ],
+    "constant_argument_status": "requires_register_definition_check"
+  },
+  {
+    "caller": "Lcom/techor/techorfilter/ImageFilter;-><clinit>()V",
+    "dex": "classes2.dex",
+    "offset_cu": 2,
+    "dex_byte_offset": "0x27b3dc",
+    "opcode": "invoke-static",
+    "argument_registers": [
+      0
+    ],
+    "target": "Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V",
+    "prior_string_constants": [
+      {
+        "registers": [
+          0
+        ],
+        "value": "techorfilter",
+        "offset_cu": 0
+      }
+    ],
+    "constant_argument_status": "requires_register_definition_check"
+  },
+  {
+    "caller": "Lio/github/crow_misia/libyuv/Yuv;-><clinit>()V",
+    "dex": "classes2.dex",
+    "offset_cu": 9,
+    "dex_byte_offset": "0x328606",
+    "opcode": "invoke-static",
+    "argument_registers": [
+      0
+    ],
+    "target": "Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V",
+    "prior_string_constants": [
+      {
+        "registers": [
+          0
+        ],
+        "value": "yuv_android",
+        "offset_cu": 7
+      }
+    ],
+    "constant_argument_status": "requires_register_definition_check"
+  },
+  {
+    "caller": "Ljp/co/cyberagent/android/gpuimage/GPUImageNativeLibrary;-><clinit>()V",
+    "dex": "classes2.dex",
+    "offset_cu": 2,
+    "dex_byte_offset": "0x332acc",
+    "opcode": "invoke-static",
+    "argument_registers": [
+      0
+    ],
+    "target": "Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V",
+    "prior_string_constants": [
+      {
+        "registers": [
+          0
+        ],
+        "value": "yuv-decoder",
+        "offset_cu": 0
+      }
+    ],
+    "constant_argument_status": "requires_register_definition_check"
+  },
+  {
+    "caller": "Lwseemann/media/FFmpegMediaMetadataRetriever;-><clinit>()V",
+    "dex": "classes2.dex",
+    "offset_cu": 26,
+    "dex_byte_offset": "0x387240",
+    "opcode": "invoke-static",
+    "argument_registers": [
+      3
+    ],
+    "target": "Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V",
+    "prior_string_constants": [
+      {
+        "registers": [
+          0
+        ],
+        "value": "crypto",
+        "offset_cu": 4
+      },
+      {
+        "registers": [
+          1
+        ],
+        "value": "ssl",
+        "offset_cu": 6
+      },
+      {
+        "registers": [
+          2
+        ],
+        "value": "avutil",
+        "offset_cu": 8
+      },
+      {
+        "registers": [
+          3
+        ],
+        "value": "swscale",
+        "offset_cu": 10
+      },
+      {
+        "registers": [
+          4
+        ],
+        "value": "avcodec",
+        "offset_cu": 12
+      }
+    ],
+    "constant_argument_status": "requires_register_definition_check"
+  }
+]

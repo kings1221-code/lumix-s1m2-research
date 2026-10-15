@@ -1,0 +1,19 @@
+{
+  "dex_definitions_independently_offset_checked": 76901,
+  "native_declarations": 214,
+  "jni_status": {
+    "static_symbol_correspondence": 197,
+    "unresolved_in_18_libraries": 1,
+    "implementation_present_Cpp_mangled_binding_unresolved": 1,
+    "verified_dynamic_registration_static_path": 15
+  },
+  "jadx_error_events": 42,
+  "distinct_failed_methods": 24,
+  "structural_cfg_recovered": 24,
+  "ghidra_functions": 52,
+  "ghidra_instruction_bytes_compared": 8154,
+  "negative_scope": "No verified firmware-byte-to-JNI flow in the explicitly traced download/unzip/request-body path; this does not exclude computed/reflection/indirect or platform-supplied paths elsewhere.",
+  "device_io": false,
+  "apk_or_firmware_modified": false,
+  "target_program_executed": false
+}

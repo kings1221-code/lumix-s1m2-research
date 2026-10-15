@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-15 Asia/Taipei",
+  "scope": "Public stage-1 artifacts only; excludes local projects and vendor source/binaries",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size": 25,
+      "sha256": "4f1cc3a349adb40d9098c6c27939e254b52e306c28701cd58cb6a4caaae455f3"
+    },
+    {
+      "path": ".gitignore",
+      "size": 8,
+      "sha256": "04e59f5cc75e578a7492cd2c14ddf16487d1af09e188a7cc01224a61b1b3855f"
+    },
+    {
+      "path": "DexIndex.java",
+      "size": 5524,
+      "sha256": "acb49562ba0f09238467aa0d399889b8cc440e15864b3adda9f860349f483c00"
+    },
+    {
+      "path": "ExportStage1.java",
+      "size": 3323,
+      "sha256": "54f591e057d223439a42e80f35687161f7c2889b283fe9bb424279c164a5bb5d"
+    },
+    {
+      "path": "FAILED_METHODS.md",
+      "size": 4037,
+      "sha256": "49c591a5342980e63f97fe6cc6d8a98067adb2b2c2c45f3fa4b371f14cc45fba"
+    },
+    {
+      "path": "README.md",
+      "size": 13820,
+      "sha256": "86657964c75c929646a7334d953b25ccac4dd92971d46ca89a6e0c719f9d108f"
+    },
+    {
+      "path": "REPRODUCE.md",
+      "size": 7649,
+      "sha256": "fdee470a713e1317979e53206351667727dc78b4b1305ed2b4dee9567f123630"
+    },
+    {
+      "path": "derive_indexes.py",
+      "size": 6853,
+      "sha256": "97f8d6b6bb5b485b07a0875a580745ef25e9a0426395d34e9c77fae8a43eb03e"
+    },
+    {
+      "path": "dex_offsets.py",
+      "size": 1438,
+      "sha256": "ef0fe78291b7ab6bdd91769c4880b7906a804d7994e645ee001d24b62bdc697b"
+    },
+    {
+      "path": "native_inventory.py",
+      "size": 3302,
+      "sha256": "aae7aefbf109409f0c4126fd717b3c1c6987aa1bd77c4a46892bca97466f71db"
+    },
+    {
+      "path": "prepare_tools.py",
+      "size": 1677,
+      "sha256": "e142a338be1787ec6fc2c2c8da861604ab04c3be9297ef3d152f673a376ceeb4"
+    },
+    {
+      "path": "publish_report_data.py",
+      "size": 8313,
+      "sha256": "b1246cbf414b4649da4f5e6fdf1b3ba17e3cb6e0005459cdf8a8a1d4af7b8d90"
+    },
+    {
+      "path": "results/critical_dex_evidence.json",
+      "size": 7771,
+      "sha256": "d4aa174edb27b5b10646eed55aaa43fbfb69a3753870febe59d396c3ccecdb94"
+    },
+    {
+      "path": "results/dex_native_methods.json",
+      "size": 154325,
+      "sha256": "140ecc2ead12140e6992176486e94f4d202038b70db7aea450fbaf63f20d6023"
+    },
+    {
+      "path": "results/failed_method_cfg.json.gz",
+      "size": 43376,
+      "sha256": "a019bcf512c888f79d43d7808d9838d0e806d7719f924962c88abbb616fa18e9"
+    },
+    {
+      "path": "results/failed_method_cfg_index.json",
+      "size": 15076,
+      "sha256": "d0a33dd18576734e425ed18fda0ccdd0ef9578a891840d937f8ac7aceb1d3983"
+    },
+    {
+      "path": "results/firmware_api_calls.json",
+      "size": 2152,
+      "sha256": "a1e041ae00be7a952bf7774f477910bd9341ff886632514304b6dfaeb6a6eed5"
+    },
+    {
+      "path": "results/firmware_dataflow.json",
+      "size": 158504,
+      "sha256": "b4b020296c06d4da76fe3dfdb8c1bde662d27f3b0dfea1b1cb1b31d5499d3fc1"
+    },
+    {
+      "path": "results/ghidra_verified_functions.json",
+      "size": 243763,
+      "sha256": "68a94b5e81a6107494c671918f10c40f50f98c1d440e9562f0b9320f298cb019"
+    },
+    {
+      "path": "results/git_snapshot.json",
+      "size": 371,
+      "sha256": "d6c4aadb1bac25146b00fc78bdf16aad77a8c67848facdcfc90ef8254e12e4c9"
+    },
+    {
+      "path": "results/inputs.json",
+      "size": 11247,
+      "sha256": "69b6d5003c245f95d01ef6ac3ac05633a03f34fe41d16174de872cb965ec35e6"
+    },
+    {
+      "path": "results/jadx_error_excerpt.txt",
+      "size": 10085,
+      "sha256": "2177c77a4eb7a7d74c9854e5781b232b7f45f5320e4dff0d8a635e18bb97b679"
+    },
+    {
+      "path": "results/jadx_failures.json",
+      "size": 71629,
+      "sha256": "843a7adf6f11b7c0709ce78ebf88b58d8d2bdd41bb7820b486f9dc0eee9c0b01"
+    },
+    {
+      "path": "results/jni_mapping.json",
+      "size": 155130,
+      "sha256": "9e6f3a5cae578d655c5b102227291f63b241896c7601c1fe69e9d29717dbc538"
+    },
+    {
+      "path": "results/jni_mapping_verified.json",
+      "size": 159508,
+      "sha256": "8fce7c20c573c97fd50effd5c7d4fb9237ec97985bc5f956c83646a29be2c9b1"
+    },
+    {
+      "path": "results/library_load_sites.json",
+      "size": 9160,
+      "sha256": "c553f4f8bfb814f85be14aecec5b003ecdc0e1af1c6e4a130a6015b255096472"
+    },
+    {
+      "path": "results/library_load_sites_verified.json",
+      "size": 9838,
+      "sha256": "6f7f9cb77eb0dfd03cf946716cf689c4a8c4435c983d18e3b631af6e08ce42ea"
+    },
+    {
+      "path": "results/scope_verification.json",
+      "size": 776,
+      "sha256": "0b6c01038068733573e2816b05fb5bbd7a9241b3833049c87de26917f779c639"
+    },
+    {
+      "path": "results/selected_method_locations.json",
+      "size": 32509,
+      "sha256": "7264c7b0650a690712037b3d69e45867d217cea59946777afda607edc6dc0ddd"
+    },
+    {
+      "path": "results/tools.json",
+      "size": 1042,
+      "sha256": "cfd4c4910e2f2a39b9187b8e64fdc4eaecfa5343c682aa5636f6b12d135db829"
+    },
+    {
+      "path": "run_ghidra.py",
+      "size": 2321,
+      "sha256": "95ba09eced9e18fd16e8da231075dc8ea1ed4c3d8946bffd4f757c0c438a895d"
+    },
+    {
+      "path": "verify_delivery.py",
+      "size": 640,
+      "sha256": "59c2c64f35ae04d5e1bf4d787f94e4b6684b24b3b3ea47b9deca21074eb4bb8d"
+    },
+    {
+      "path": "verify_evidence.py",
+      "size": 9326,
+      "sha256": "0aed7a34ed04a80e3574f4e7ca87bb08e77aade1283faf7e8806a52fc20d11b5"
+    }
+  ]
+}

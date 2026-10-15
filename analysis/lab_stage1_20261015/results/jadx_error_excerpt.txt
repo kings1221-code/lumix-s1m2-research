@@ -1,0 +1,67 @@
+ERROR - JadxRuntimeException in pass: RegionMakerVisitor in method: androidx.coordinatorlayout.widget.CoordinatorLayout.u():void, file: classes.dex
+ERROR - JadxOverflowException in pass: RegionMakerVisitor in method: com.google.common.collect.X.put(java.lang.Object, java.lang.Object):java.lang.Object, file: classes.dex, details: Regions stack size limit reached
+ERROR - JadxOverflowException in pass: RegionMakerVisitor in method: l0.h.D(java.io.BufferedInputStream, java.io.BufferedOutputStream):void, file: classes.dex, details: Regions count limit reached at block B:10:0x0041
+ERROR - UnsupportedOperationException in pass: RegionMakerVisitor in method: l0.h.e(l0.b, int, int):void, file: classes.dex
+ERROR - Type inference failed in method: x.i.c(t.d, boolean):void, file: classes.dex, details: Type inference error: updates count limit reached with updateSeq = 20561. Try increasing type updates limit count.
+ERROR - JadxRuntimeException in pass: RegionMakerVisitor in method: com.panasonic.jp.lumixlab.util.v.Q(java.io.BufferedReader, com.panasonic.jp.lumixlab.bean.EditLutListBean):void, file: classes2.dex
+ERROR - NullPointerException in pass: InitCodeVariables in method: B9.o.j(B9.q):B9.q, file: classes2.dex
+ERROR - Type inference failed in method: F0.b0.m(z0.B0, boolean):void, file: classes.dex, details: Type inference error: updates count limit reached with updateSeq = 9921. Try increasing type updates limit count.
+ERROR - JadxOverflowException in pass: RegionMakerVisitor in method: com.google.common.collect.b1.<init>(com.google.common.collect.b1):void, file: classes.dex, details: Regions count limit reached at block B:12:0x000f
+ERROR - JadxOverflowException in pass: RegionMakerVisitor in method: com.google.common.collect.b1.<init>(com.google.common.collect.b1):void, file: classes.dex, details: Regions count limit reached at block B:12:0x000f
+ERROR - Method code generation error in method: C0.Q.w(android.net.Uri, java.lang.String):int, file: classes.dex
+ERROR - JadxOverflowException in pass: RegionMakerVisitor in method: com.google.common.collect.X.put(java.lang.Object, java.lang.Object):java.lang.Object, file: classes.dex, details: Regions stack size limit reached
+ERROR - JadxRuntimeException in pass: ProcessVariables in method: J0.F.f(J0.z, J0.B):java.util.ArrayList, file: classes.dex
+ERROR - NullPointerException in pass: InitCodeVariables in method: n1.a.j(byte[], int, boolean):l1.d, file: classes.dex
+ERROR - Types fix failed in method: com.panasonic.jp.lumixlab.controller.activity.MainActivity.a0(com.panasonic.jp.lumixlab.controller.activity.MainActivity, boolean, android.net.Uri):void, file: classes2.dex, details: Type inference error: updates count limit reached with updateSeq = 13771. Try increasing type updates limit count.
+ERROR - Type inference failed in method: x.i.c(t.d, boolean):void, file: classes.dex, details: Type inference error: updates count limit reached with updateSeq = 20561. Try increasing type updates limit count.
+ERROR - JadxOverflowException in pass: RegionMakerVisitor in method: l0.h.D(java.io.BufferedInputStream, java.io.BufferedOutputStream):void, file: classes.dex, details: Regions count limit reached at block B:10:0x0041
+ERROR - UnsupportedOperationException in pass: RegionMakerVisitor in method: l0.h.e(l0.b, int, int):void, file: classes.dex
+ERROR - JadxRuntimeException in pass: RegionMakerVisitor in method: androidx.coordinatorlayout.widget.CoordinatorLayout.u():void, file: classes.dex
+ERROR - JadxOverflowException in pass: RegionMakerVisitor in method: X7.u.a(X7.d, E7.c):java.lang.Object, file: classes2.dex, details: Regions stack size limit reached
+ERROR - JadxOverflowException in pass: RegionMakerVisitor in method: X7.u.a(X7.d, E7.c):java.lang.Object, file: classes2.dex, details: Regions stack size limit reached
+ERROR - Type inference failed in method: com.google.android.gms.internal.auth.zzga.zzb(java.lang.Object, byte[], int, int, int, com.google.android.gms.internal.auth.zzdt):int, file: classes.dex, details: Type inference error: updates count limit reached with updateSeq = 39381. Try increasing type updates limit count.
+ERROR - Type inference failed in method: B9.x.a(B9.y):B9.y, file: classes2.dex, details: Type inference error: updates count limit reached with updateSeq = 5221. Try increasing type updates limit count.
+ERROR - Type inference failed in method: com.panasonic.jp.lumixlab.controller.activity.RemoteShootingActivity.Y0(K5.Q0):void, file: classes2.dex, details: Type inference error: updates count limit reached with updateSeq = 90501. Try increasing type updates limit count.
+ERROR - Type inference failed in method: B9.x.a(B9.y):B9.y, file: classes2.dex, details: Type inference error: updates count limit reached with updateSeq = 5221. Try increasing type updates limit count.
+ERROR - NullPointerException in pass: InitCodeVariables in method: B9.o.j(B9.q):B9.q, file: classes2.dex
+ERROR - Type inference failed in method: com.google.android.gms.internal.auth.zzga.zzb(java.lang.Object, byte[], int, int, int, com.google.android.gms.internal.auth.zzdt):int, file: classes.dex, details: Type inference error: updates count limit reached with updateSeq = 39381. Try increasing type updates limit count.
+ERROR - Type inference failed in method: j5.C.a(j5.C, long, int, float, E7.c):java.lang.Object, file: classes2.dex, details: Type inference error: updates count limit reached with updateSeq = 5381. Try increasing type updates limit count.
+ERROR - Type inference failed in method: j5.C.a(j5.C, long, int, float, E7.c):java.lang.Object, file: classes2.dex, details: Type inference error: updates count limit reached with updateSeq = 5381. Try increasing type updates limit count.
+ERROR - JadxOverflowException in pass: RegionMakerVisitor in method: H0.H.c():boolean, file: classes.dex, details: Regions stack size limit reached
+ERROR - JadxOverflowException in pass: RegionMakerVisitor in method: H0.H.c():boolean, file: classes.dex, details: Regions stack size limit reached
+ERROR - Type inference failed in method: J2.y.a(K2.f):y2.l, file: classes.dex, details: Type inference error: updates count limit reached with updateSeq = 10221. Try increasing type updates limit count.
+ERROR - Method code generation error in method: r1.f.p(org.xmlpull.v1.XmlPullParser, java.util.HashMap, r1.c, r1.e, java.util.HashMap, java.util.HashMap):void, file: classes.dex
+ERROR - JadxRuntimeException in pass: RegionMakerVisitor in method: com.panasonic.jp.lumixlab.util.v.Q(java.io.BufferedReader, com.panasonic.jp.lumixlab.bean.EditLutListBean):void, file: classes2.dex
+ERROR - JadxOverflowException in pass: RegionMakerVisitor in method: a0.q.r(java.lang.Object):java.lang.Object, file: classes.dex, details: Regions count limit reached at block B:105:0x01ae
+ERROR - Types fix failed in method: com.panasonic.jp.lumixlab.controller.activity.MainActivity.a0(com.panasonic.jp.lumixlab.controller.activity.MainActivity, boolean, android.net.Uri):void, file: classes2.dex, details: Type inference error: updates count limit reached with updateSeq = 13771. Try increasing type updates limit count.
+ERROR - JadxOverflowException in pass: RegionMakerVisitor in method: p6.k.r(java.lang.Object):java.lang.Object, file: classes2.dex, details: Regions stack size limit reached
+ERROR - JadxOverflowException in pass: RegionMakerVisitor in method: p6.k.r(java.lang.Object):java.lang.Object, file: classes2.dex, details: Regions stack size limit reached
+ERROR - JadxOverflowException in pass: RegionMakerVisitor in method: f5.r1.a():void, file: classes2.dex, details: Regions count limit reached at block B:166:0x038f
+ERROR - JadxOverflowException in pass: RegionMakerVisitor in method: f5.r1.a():void, file: classes2.dex, details: Regions count limit reached at block B:166:0x038f
+ERROR - Type inference failed in method: F0.b0.m(z0.B0, boolean):void, file: classes.dex, details: Type inference error: updates count limit reached with updateSeq = 9921. Try increasing type updates limit count.
+ERROR - Type inference failed in method: com.panasonic.jp.lumixlab.controller.activity.RemoteShootingActivity.Y0(K5.Q0):void, file: classes2.dex, details: Type inference error: updates count limit reached with updateSeq = 90501. Try increasing type updates limit count.
+ERROR -   Method: B9.o.j(B9.q):B9.q
+ERROR -   Method: B9.x.a(B9.y):B9.y
+ERROR -   Method: C0.Q.w(android.net.Uri, java.lang.String):int
+ERROR -   Method: F0.b0.m(z0.B0, boolean):void
+ERROR -   Method: H0.H.c():boolean
+ERROR -   Method: J0.F.f(J0.z, J0.B):java.util.ArrayList
+ERROR -   Method: J2.y.a(K2.f):y2.l
+ERROR -   Method: X7.u.a(X7.d, E7.c):java.lang.Object
+ERROR -   Method: a0.q.r(java.lang.Object):java.lang.Object
+ERROR -   Method: androidx.coordinatorlayout.widget.CoordinatorLayout.u():void
+ERROR -   Method: com.google.android.gms.internal.auth.zzga.zzb(java.lang.Object, byte[], int, int, int, com.google.android.gms.internal.auth.zzdt):int
+ERROR -   Method: com.google.common.collect.X.put(java.lang.Object, java.lang.Object):java.lang.Object
+ERROR -   Method: com.google.common.collect.b1.<init>(com.google.common.collect.b1):void
+ERROR -   Method: com.panasonic.jp.lumixlab.controller.activity.MainActivity.a0(com.panasonic.jp.lumixlab.controller.activity.MainActivity, boolean, android.net.Uri):void
+ERROR -   Method: com.panasonic.jp.lumixlab.controller.activity.RemoteShootingActivity.Y0(K5.Q0):void
+ERROR -   Method: com.panasonic.jp.lumixlab.util.v.Q(java.io.BufferedReader, com.panasonic.jp.lumixlab.bean.EditLutListBean):void
+ERROR -   Method: f5.r1.a():void
+ERROR -   Method: j5.C.a(j5.C, long, int, float, E7.c):java.lang.Object
+ERROR -   Method: l0.h.D(java.io.BufferedInputStream, java.io.BufferedOutputStream):void
+ERROR -   Method: l0.h.e(l0.b, int, int):void
+ERROR -   Method: n1.a.j(byte[], int, boolean):l1.d
+ERROR -   Method: p6.k.r(java.lang.Object):java.lang.Object
+ERROR -   Method: r1.f.p(org.xmlpull.v1.XmlPullParser, java.util.HashMap, r1.c, r1.e, java.util.HashMap, java.util.HashMap):void
+ERROR -   Method: x.i.c(t.d, boolean):void
+ERROR - finished with errors, count: 42

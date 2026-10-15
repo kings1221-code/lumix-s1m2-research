@@ -1,0 +1,414 @@
+{
+  "uncompressed_sha256": "66f75977c53876ec9278fce30b9b98223ed7f444fcbdf9b03df4439568dc27b2",
+  "archive": "failed_method_cfg.json.gz",
+  "methods": [
+    {
+      "method": "LB9/o;->j(LB9/q;)LB9/q;",
+      "dex": "classes2.dex",
+      "location": {
+        "method_index": 1573,
+        "code_item_offset": 955368,
+        "insns_offset": 955384,
+        "code_units": 310,
+        "access_flags": 17
+      },
+      "instruction_count": 169,
+      "instruction_bytes_sha256": "d805c1b4fe028bda5e68628675b5ed9d1937b5c6adfb764c19850e0303dfd33d",
+      "block_count": 32,
+      "encoded_branch_targets_valid": true,
+      "register_indices_valid": true,
+      "status": "structural_control_flow_recovered; semantic_review_is_separate"
+    },
+    {
+      "method": "LB9/x;->a(LB9/y;)LB9/y;",
+      "dex": "classes2.dex",
+      "location": {
+        "method_index": 1680,
+        "code_item_offset": 966272,
+        "insns_offset": 966288,
+        "code_units": 522,
+        "access_flags": 17
+      },
+      "instruction_count": 281,
+      "instruction_bytes_sha256": "0f129d4ba65fc4b2c8e6dc87a90f1d0d5abf4410b06882217f159407ccbb4c50",
+      "block_count": 70,
+      "encoded_branch_targets_valid": true,
+      "register_indices_valid": true,
+      "status": "structural_control_flow_recovered; semantic_review_is_separate"
+    },
+    {
+      "method": "LC0/Q;->w(Landroid/net/Uri;Ljava/lang/String;)I",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 1094,
+        "code_item_offset": 1606964,
+        "insns_offset": 1606980,
+        "code_units": 320,
+        "access_flags": 9
+      },
+      "instruction_count": 161,
+      "instruction_bytes_sha256": "ad212d646f4a6e77db8300368344a75aeb65541c8097926801db06ce1cc4668a",
+      "block_count": 66,
+      "encoded_branch_targets_valid": true,
+      "register_indices_valid": true,
+      "status": "structural_control_flow_recovered; semantic_review_is_separate"
+    },
+    {
+      "method": "LF0/b0;->m(Lz0/B0;Z)V",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 3071,
+        "code_item_offset": 1788552,
+        "insns_offset": 1788568,
+        "code_units": 992,
+        "access_flags": 17
+      },
+      "instruction_count": 548,
+      "instruction_bytes_sha256": "edd44b14a791af7550f16ac8e0c59d9aa76f9ea04f32936e6fd581a82124fae8",
+      "block_count": 152,
+      "encoded_branch_targets_valid": true,
+      "register_indices_valid": true,
+      "status": "structural_control_flow_recovered; semantic_review_is_separate"
+    },
+    {
+      "method": "LH0/H;->c()Z",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 3827,
+        "code_item_offset": 1886124,
+        "insns_offset": 1886140,
+        "code_units": 62,
+        "access_flags": 17
+      },
+      "instruction_count": 34,
+      "instruction_bytes_sha256": "9a1e367b18bc4529cb6711e718ba3a5b3a84dcee2318c90d854f856f7816c4d1",
+      "block_count": 14,
+      "encoded_branch_targets_valid": true,
+      "register_indices_valid": true,
+      "status": "structural_control_flow_recovered; semantic_review_is_separate"
+    },
+    {
+      "method": "LJ0/F;->f(LJ0/z;LJ0/B;)Ljava/util/ArrayList;",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 4671,
+        "code_item_offset": 1995328,
+        "insns_offset": 1995344,
+        "code_units": 382,
+        "access_flags": 9
+      },
+      "instruction_count": 199,
+      "instruction_bytes_sha256": "c6759686018f64789554c8d115e63845e82fb581b15bd36b6e7138f61ff1ae37",
+      "block_count": 61,
+      "encoded_branch_targets_valid": true,
+      "register_indices_valid": true,
+      "status": "structural_control_flow_recovered; semantic_review_is_separate"
+    },
+    {
+      "method": "LJ2/y;->a(LK2/f;)Ly2/l;",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 5004,
+        "code_item_offset": 2016412,
+        "insns_offset": 2016428,
+        "code_units": 1022,
+        "access_flags": 9
+      },
+      "instruction_count": 527,
+      "instruction_bytes_sha256": "ea3d1f8a3f695ae2c0e375922bf77f3631eb49f7ef1e861137b61c568c69d8c8",
+      "block_count": 120,
+      "encoded_branch_targets_valid": true,
+      "register_indices_valid": true,
+      "status": "structural_control_flow_recovered; semantic_review_is_separate"
+    },
+    {
+      "method": "LX7/u;->a(LX7/d;LE7/c;)Ljava/lang/Object;",
+      "dex": "classes2.dex",
+      "location": {
+        "method_index": 8897,
+        "code_item_offset": 1766852,
+        "insns_offset": 1766868,
+        "code_units": 288,
+        "access_flags": 17
+      },
+      "instruction_count": 157,
+      "instruction_bytes_sha256": "54785d910e2283708041c36b68983ac137979b4407355881769999cdfa82ef0c",
+      "block_count": 51,
+      "encoded_branch_targets_valid": true,
+      "register_indices_valid": true,
+      "status": "structural_control_flow_recovered; semantic_review_is_separate"
+    },
+    {
+      "method": "La0/q;->r(Ljava/lang/Object;)Ljava/lang/Object;",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 10922,
+        "code_item_offset": 2487092,
+        "insns_offset": 2487108,
+        "code_units": 452,
+        "access_flags": 17
+      },
+      "instruction_count": 246,
+      "instruction_bytes_sha256": "e3ebc97377181cb4a02db075303f4767546b3ad0c3d2ee45f74f76f20565eaf1",
+      "block_count": 68,
+      "encoded_branch_targets_valid": true,
+      "register_indices_valid": true,
+      "status": "structural_control_flow_recovered; semantic_review_is_separate"
+    },
+    {
+      "method": "Landroidx/coordinatorlayout/widget/CoordinatorLayout;->u()V",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 17135,
+        "code_item_offset": 2645504,
+        "insns_offset": 2645520,
+        "code_units": 392,
+        "access_flags": 17
+      },
+      "instruction_count": 199,
+      "instruction_bytes_sha256": "1c22d46a29ca6b227a7287a64ebabc3e286cc9168c7d2e78fba9fa13911143b6",
+      "block_count": 70,
+      "encoded_branch_targets_valid": true,
+      "register_indices_valid": true,
+      "status": "structural_control_flow_recovered; semantic_review_is_separate"
+    },
+    {
+      "method": "Lcom/google/android/gms/internal/auth/zzga;->zzb(Ljava/lang/Object;[BIIILcom/google/android/gms/internal/auth/zzdt;)I",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 30551,
+        "code_item_offset": 3781032,
+        "insns_offset": 3781048,
+        "code_units": 3938,
+        "access_flags": 17
+      },
+      "instruction_count": 2193,
+      "instruction_bytes_sha256": "68a686dda4d6c45e2626e976a837faf46a40493098680d1708e1fa1f2bea1616",
+      "block_count": 443,
+      "encoded_branch_targets_valid": true,
+      "register_indices_valid": true,
+      "status": "structural_control_flow_recovered; semantic_review_is_separate"
+    },
+    {
+      "method": "Lcom/google/common/collect/X;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 43649,
+        "code_item_offset": 4324852,
+        "insns_offset": 4324868,
+        "code_units": 399,
+        "access_flags": 17
+      },
+      "instruction_count": 213,
+      "instruction_bytes_sha256": "d52418fe20b113985fbdcc4d0399df86f7521220bd8628caf1a4ecc303363c1b",
+      "block_count": 39,
+      "encoded_branch_targets_valid": true,
+      "register_indices_valid": true,
+      "status": "structural_control_flow_recovered; semantic_review_is_separate"
+    },
+    {
+      "method": "Lcom/google/common/collect/b1;-><init>(Lcom/google/common/collect/b1;)V",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 43701,
+        "code_item_offset": 4343024,
+        "insns_offset": 4343040,
+        "code_units": 49,
+        "access_flags": 65537
+      },
+      "instruction_count": 25,
+      "instruction_bytes_sha256": "f08cc7d23300a4070ae352b44b70d8b12e260f9fc708926f55f8dab8c019a928",
+      "block_count": 7,
+      "encoded_branch_targets_valid": true,
+      "register_indices_valid": true,
+      "status": "structural_control_flow_recovered; semantic_review_is_separate"
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/controller/activity/MainActivity;->a0(Lcom/panasonic/jp/lumixlab/controller/activity/MainActivity;ZLandroid/net/Uri;)V",
+      "dex": "classes2.dex",
+      "location": {
+        "method_index": 14425,
+        "code_item_offset": 1983616,
+        "insns_offset": 1983632,
+        "code_units": 1377,
+        "access_flags": 9
+      },
+      "instruction_count": 732,
+      "instruction_bytes_sha256": "0471f8c3d1b2019bd5a6a9dd12f76005215652dc946606b40c8a36fd52288c3d",
+      "block_count": 135,
+      "encoded_branch_targets_valid": true,
+      "register_indices_valid": true,
+      "status": "structural_control_flow_recovered; semantic_review_is_separate"
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/controller/activity/RemoteShootingActivity;->Y0(LK5/Q0;)V",
+      "dex": "classes2.dex",
+      "location": {
+        "method_index": 14597,
+        "code_item_offset": 2039060,
+        "insns_offset": 2039076,
+        "code_units": 9050,
+        "access_flags": 17
+      },
+      "instruction_count": 4573,
+      "instruction_bytes_sha256": "d3108bc001c357d1b5d698b12bebf601ce529e67f08ebf352afa80c12e023351",
+      "block_count": 991,
+      "encoded_branch_targets_valid": true,
+      "register_indices_valid": true,
+      "status": "structural_control_flow_recovered; semantic_review_is_separate"
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/util/v;->Q(Ljava/io/BufferedReader;Lcom/panasonic/jp/lumixlab/bean/EditLutListBean;)V",
+      "dex": "classes2.dex",
+      "location": {
+        "method_index": 16891,
+        "code_item_offset": 2318264,
+        "insns_offset": 2318280,
+        "code_units": 1012,
+        "access_flags": 9
+      },
+      "instruction_count": 460,
+      "instruction_bytes_sha256": "ed84a23048bb2811ff15ff8c62596f3a8c5105de81023f3f16f778c703bbb67e",
+      "block_count": 140,
+      "encoded_branch_targets_valid": true,
+      "register_indices_valid": true,
+      "status": "structural_control_flow_recovered; semantic_review_is_separate"
+    },
+    {
+      "method": "Lf5/r1;->a()V",
+      "dex": "classes2.dex",
+      "location": {
+        "method_index": 20592,
+        "code_item_offset": 2888416,
+        "insns_offset": 2888432,
+        "code_units": 1046,
+        "access_flags": 18
+      },
+      "instruction_count": 503,
+      "instruction_bytes_sha256": "28804237f6698e876caa9d3d83426d3ac8c27b6c95189a1d53d49c8bc6edfb7b",
+      "block_count": 118,
+      "encoded_branch_targets_valid": true,
+      "register_indices_valid": true,
+      "status": "structural_control_flow_recovered; semantic_review_is_separate"
+    },
+    {
+      "method": "Lj5/C;->a(Lj5/C;JIFLE7/c;)Ljava/lang/Object;",
+      "dex": "classes2.dex",
+      "location": {
+        "method_index": 22760,
+        "code_item_offset": 3319052,
+        "insns_offset": 3319068,
+        "code_units": 538,
+        "access_flags": 25
+      },
+      "instruction_count": 333,
+      "instruction_bytes_sha256": "3f909e03d5a8792e1ec117cb7f994f8ae4a58f515401011e3751dd31e95d7ec4",
+      "block_count": 95,
+      "encoded_branch_targets_valid": true,
+      "register_indices_valid": true,
+      "status": "structural_control_flow_recovered; semantic_review_is_separate"
+    },
+    {
+      "method": "Ll0/h;->D(Ljava/io/BufferedInputStream;Ljava/io/BufferedOutputStream;)V",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 52034,
+        "code_item_offset": 4835344,
+        "insns_offset": 4835360,
+        "code_units": 199,
+        "access_flags": 17
+      },
+      "instruction_count": 92,
+      "instruction_bytes_sha256": "34064d88340eb7cbcb6b010663907af70c6b4687d52cd888cb8abfc1f83f60df",
+      "block_count": 27,
+      "encoded_branch_targets_valid": true,
+      "register_indices_valid": true,
+      "status": "structural_control_flow_recovered; semantic_review_is_separate"
+    },
+    {
+      "method": "Ll0/h;->e(Ll0/b;II)V",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 52048,
+        "code_item_offset": 4827296,
+        "insns_offset": 4827312,
+        "code_units": 478,
+        "access_flags": 17
+      },
+      "instruction_count": 219,
+      "instruction_bytes_sha256": "69c02e6a360c1a92715a002a97953a7e4ef2878e7f4125112ec186965a6a8a57",
+      "block_count": 46,
+      "encoded_branch_targets_valid": true,
+      "register_indices_valid": true,
+      "status": "structural_control_flow_recovered; semantic_review_is_separate"
+    },
+    {
+      "method": "Ln1/a;->j([BIZ)Ll1/d;",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 52621,
+        "code_item_offset": 4889540,
+        "insns_offset": 4889556,
+        "code_units": 1030,
+        "access_flags": 17
+      },
+      "instruction_count": 520,
+      "instruction_bytes_sha256": "fa9a629a4f75dc7d08f19425628d625bba2721dfe029f0a57aa3c9d2a00b961c",
+      "block_count": 91,
+      "encoded_branch_targets_valid": true,
+      "register_indices_valid": true,
+      "status": "structural_control_flow_recovered; semantic_review_is_separate"
+    },
+    {
+      "method": "Lp6/k;->r(Ljava/lang/Object;)Ljava/lang/Object;",
+      "dex": "classes2.dex",
+      "location": {
+        "method_index": 27114,
+        "code_item_offset": 3543564,
+        "insns_offset": 3543580,
+        "code_units": 1226,
+        "access_flags": 17
+      },
+      "instruction_count": 664,
+      "instruction_bytes_sha256": "b49d7032aba1682ed7160a56311726826c3b9c2b91892e50266bd7966ff1f1aa",
+      "block_count": 161,
+      "encoded_branch_targets_valid": true,
+      "register_indices_valid": true,
+      "status": "structural_control_flow_recovered; semantic_review_is_separate"
+    },
+    {
+      "method": "Lr1/f;->p(Lorg/xmlpull/v1/XmlPullParser;Ljava/util/HashMap;Lr1/c;Lr1/e;Ljava/util/HashMap;Ljava/util/HashMap;)V",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 53581,
+        "code_item_offset": 4977180,
+        "insns_offset": 4977196,
+        "code_units": 638,
+        "access_flags": 9
+      },
+      "instruction_count": 326,
+      "instruction_bytes_sha256": "d5afa2e825745c4a07d27da83167941ee8e61ddb2facce6052649bf2911b7b88",
+      "block_count": 79,
+      "encoded_branch_targets_valid": true,
+      "register_indices_valid": true,
+      "status": "structural_control_flow_recovered; semantic_review_is_separate"
+    },
+    {
+      "method": "Lx/i;->c(Lt/d;Z)V",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 55212,
+        "code_item_offset": 5160200,
+        "insns_offset": 5160216,
+        "code_units": 2056,
+        "access_flags": 1
+      },
+      "instruction_count": 1090,
+      "instruction_bytes_sha256": "eb4f3afc001222979f3e05273e0d38979de1b3361ce93655635acb112248f025",
+      "block_count": 290,
+      "encoded_branch_targets_valid": true,
+      "register_indices_valid": true,
+      "status": "structural_control_flow_recovered; semantic_review_is_separate"
+    }
+  ]
+}

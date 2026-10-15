@@ -1,0 +1,5689 @@
+{
+  "input_version": "LUMIX Lab 3.1.0 versionCode 22",
+  "definitions_checked": 76901,
+  "native_count": 214,
+  "methods": [
+    {
+      "method": "Lai/onnxruntime/OnnxMap;->close(JJ)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11066,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OnnxMap;->close()V",
+          "dex": "classes.dex",
+          "offset_cu": 9,
+          "dex_byte_offset": "0x26424a",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            4,
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OnnxMap;->getDoubleValues(JJJ)[D",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11067,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OnnxMap;->getMapValues()[Ljava/lang/Object;",
+          "dex": "classes.dex",
+          "offset_cu": 29,
+          "dex_byte_offset": "0x263fd2",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OnnxMap;->getFloatValues(JJJ)[F",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11068,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OnnxMap;->getMapValues()[Ljava/lang/Object;",
+          "dex": "classes.dex",
+          "offset_cu": 75,
+          "dex_byte_offset": "0x26402e",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OnnxMap;->getLongKeys(JJJ)[J",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11071,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OnnxMap;->getMapKeys()[Ljava/lang/Object;",
+          "dex": "classes.dex",
+          "offset_cu": 23,
+          "dex_byte_offset": "0x263f66",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OnnxMap;->getLongValues(JJJ)[J",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11072,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OnnxMap;->getMapValues()[Ljava/lang/Object;",
+          "dex": "classes.dex",
+          "offset_cu": 105,
+          "dex_byte_offset": "0x26406a",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OnnxMap;->getStringKeys(JJJ)[Ljava/lang/String;",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11075,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OnnxMap;->getMapKeys()[Ljava/lang/Object;",
+          "dex": "classes.dex",
+          "offset_cu": 11,
+          "dex_byte_offset": "0x263f4e",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OnnxMap;->getStringValues(JJJ)[Ljava/lang/String;",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11076,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OnnxMap;->getMapValues()[Ljava/lang/Object;",
+          "dex": "classes.dex",
+          "offset_cu": 129,
+          "dex_byte_offset": "0x26409a",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OnnxRuntime;->getAvailableProviders(J)[Ljava/lang/String;",
+      "dex": "classes.dex",
+      "access_flags": 266,
+      "method_index": 11108,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OnnxRuntime;->initialiseProviders(J)Ljava/util/EnumSet;",
+          "dex": "classes.dex",
+          "offset_cu": 0,
+          "dex_byte_offset": "0x264a40",
+          "opcode": "invoke-static",
+          "argument_registers": [
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OnnxRuntime;->initialiseAPIBase(I)J",
+      "dex": "classes.dex",
+      "access_flags": 266,
+      "method_index": 11111,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OnnxRuntime;->init()V",
+          "dex": "classes.dex",
+          "offset_cu": 62,
+          "dex_byte_offset": "0x264e18",
+          "opcode": "invoke-static",
+          "argument_registers": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OnnxRuntime;->initialiseTrainingAPIBase(JI)J",
+      "dex": "classes.dex",
+      "access_flags": 266,
+      "method_index": 11113,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OnnxRuntime;->init()V",
+          "dex": "classes.dex",
+          "offset_cu": 74,
+          "dex_byte_offset": "0x264e30",
+          "opcode": "invoke-static",
+          "argument_registers": [
+            3,
+            4,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OnnxRuntime;->initialiseVersion()Ljava/lang/String;",
+      "dex": "classes.dex",
+      "access_flags": 266,
+      "method_index": 11114,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OnnxRuntime;->init()V",
+          "dex": "classes.dex",
+          "offset_cu": 96,
+          "dex_byte_offset": "0x264e5c",
+          "opcode": "invoke-static",
+          "argument_registers": []
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OnnxSequence;->close(JJ)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11124,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OnnxSequence;->close()V",
+          "dex": "classes.dex",
+          "offset_cu": 9,
+          "dex_byte_offset": "0x2655ae",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            4,
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OnnxSequence;->getMaps(JJJ)[Lai/onnxruntime/OnnxMap;",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11127,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OnnxSequence;->getValue()Ljava/util/List;",
+          "dex": "classes.dex",
+          "offset_cu": 16,
+          "dex_byte_offset": "0x265440",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OnnxSequence;->getTensors(JJJ)[Lai/onnxruntime/OnnxTensor;",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11128,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OnnxSequence;->getValue()Ljava/util/List;",
+          "dex": "classes.dex",
+          "offset_cu": 83,
+          "dex_byte_offset": "0x2654c6",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OnnxSparseTensor;->close(JJ)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11167,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OnnxSparseTensor;->close()V",
+          "dex": "classes.dex",
+          "offset_cu": 9,
+          "dex_byte_offset": "0x2667d2",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            4,
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OnnxSparseTensor;->createCSRCSparseTensorFromBuffer(JJLjava/nio/Buffer;IJLjava/nio/Buffer;IJLjava/nio/Buffer;I[J[JI)J",
+      "dex": "classes.dex",
+      "access_flags": 266,
+      "method_index": 11168,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OnnxSparseTensor;->createSparseTensor(Lai/onnxruntime/OrtEnvironment;Lai/onnxruntime/OrtAllocator;Lai/onnxruntime/OnnxSparseTensor$SparseTensor;)Lai/onnxruntime/OnnxSparseTensor;",
+          "dex": "classes.dex",
+          "offset_cu": 162,
+          "dex_byte_offset": "0x2660e4",
+          "opcode": "invoke-static/range",
+          "argument_registers": [
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OnnxSparseTensor;->createSparseTensorFromBuffer(JJLjava/nio/Buffer;IJLjava/nio/Buffer;I[J[J[JII)J",
+      "dex": "classes.dex",
+      "access_flags": 266,
+      "method_index": 11171,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OnnxSparseTensor;->createSparseTensor(Lai/onnxruntime/OrtEnvironment;Lai/onnxruntime/OrtAllocator;Lai/onnxruntime/OnnxSparseTensor$SparseTensor;)Lai/onnxruntime/OnnxSparseTensor;",
+          "dex": "classes.dex",
+          "offset_cu": 248,
+          "dex_byte_offset": "0x266190",
+          "opcode": "invoke-static/range",
+          "argument_registers": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OnnxSparseTensor;->getIndicesBuffer(JJ)Ljava/nio/ByteBuffer;",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11173,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OnnxSparseTensor;->getIndicesBuffer()Ljava/nio/Buffer;",
+          "dex": "classes.dex",
+          "offset_cu": 35,
+          "dex_byte_offset": "0x266382",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            4,
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "caller": "Lai/onnxruntime/OnnxSparseTensor;->getIndicesBuffer()Ljava/nio/Buffer;",
+          "dex": "classes.dex",
+          "offset_cu": 70,
+          "dex_byte_offset": "0x2663c8",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            4,
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OnnxSparseTensor;->getIndicesShape(JJ)[J",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11175,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OnnxSparseTensor;->getIndicesShape()[J",
+          "dex": "classes.dex",
+          "offset_cu": 7,
+          "dex_byte_offset": "0x266662",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            4,
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "caller": "Lai/onnxruntime/OnnxSparseTensor;->getValue()Lai/onnxruntime/OnnxSparseTensor$SparseTensor;",
+          "dex": "classes.dex",
+          "offset_cu": 11,
+          "dex_byte_offset": "0x2661f2",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            10,
+            0,
+            1,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OnnxSparseTensor;->getInnerIndicesBuffer(JJ)Ljava/nio/ByteBuffer;",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11176,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OnnxSparseTensor;->getInnerIndicesBuffer()Ljava/nio/LongBuffer;",
+          "dex": "classes.dex",
+          "offset_cu": 13,
+          "dex_byte_offset": "0x2665da",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            4,
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OnnxSparseTensor;->getInnerIndicesShape(JJ)[J",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11179,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OnnxSparseTensor;->getInnerIndicesShape()[J",
+          "dex": "classes.dex",
+          "offset_cu": 13,
+          "dex_byte_offset": "0x266696",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            4,
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OnnxSparseTensor;->getValuesBuffer(JJ)Ljava/nio/ByteBuffer;",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11185,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OnnxSparseTensor;->getValuesBuffer()Ljava/nio/Buffer;",
+          "dex": "classes.dex",
+          "offset_cu": 7,
+          "dex_byte_offset": "0x266426",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            4,
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OnnxSparseTensor;->getValuesShape(JJ)[J",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11187,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OnnxSparseTensor;->getValue()Lai/onnxruntime/OnnxSparseTensor$SparseTensor;",
+          "dex": "classes.dex",
+          "offset_cu": 75,
+          "dex_byte_offset": "0x266272",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            10,
+            0,
+            1,
+            4,
+            5
+          ]
+        },
+        {
+          "caller": "Lai/onnxruntime/OnnxSparseTensor;->getValuesShape()[J",
+          "dex": "classes.dex",
+          "offset_cu": 7,
+          "dex_byte_offset": "0x2666ea",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            4,
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OnnxTensor;->close(JJ)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11194,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OnnxTensor;->close()V",
+          "dex": "classes.dex",
+          "offset_cu": 9,
+          "dex_byte_offset": "0x26790a",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            4,
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OnnxTensor;->createString(JJLjava/lang/String;)J",
+      "dex": "classes.dex",
+      "access_flags": 266,
+      "method_index": 11195,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OnnxTensor;->createTensor(Lai/onnxruntime/OrtEnvironment;Lai/onnxruntime/OrtAllocator;Ljava/lang/Object;)Lai/onnxruntime/OnnxTensor;",
+          "dex": "classes.dex",
+          "offset_cu": 33,
+          "dex_byte_offset": "0x266bae",
+          "opcode": "invoke-static",
+          "argument_registers": [
+            3,
+            4,
+            5,
+            6,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OnnxTensor;->createStringTensor(JJ[Ljava/lang/Object;[J)J",
+      "dex": "classes.dex",
+      "access_flags": 266,
+      "method_index": 11196,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OnnxTensor;->createTensor(Lai/onnxruntime/OrtEnvironment;Lai/onnxruntime/OrtAllocator;Ljava/lang/Object;)Lai/onnxruntime/OnnxTensor;",
+          "dex": "classes.dex",
+          "offset_cu": 56,
+          "dex_byte_offset": "0x266bdc",
+          "opcode": "invoke-static/range",
+          "argument_registers": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "caller": "Lai/onnxruntime/OnnxTensor;->createTensor(Lai/onnxruntime/OrtEnvironment;Lai/onnxruntime/OrtAllocator;[Ljava/lang/String;[J)Lai/onnxruntime/OnnxTensor;",
+          "dex": "classes.dex",
+          "offset_cu": 23,
+          "dex_byte_offset": "0x266cee",
+          "opcode": "invoke-static/range",
+          "argument_registers": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OnnxTensor;->createTensorFromBuffer(JJLjava/nio/Buffer;IJ[JI)J",
+      "dex": "classes.dex",
+      "access_flags": 266,
+      "method_index": 11217,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OnnxTensor;->createTensor(Lai/onnxruntime/OnnxJavaType;Lai/onnxruntime/OrtAllocator;Ljava/nio/Buffer;[J)Lai/onnxruntime/OnnxTensor;",
+          "dex": "classes.dex",
+          "offset_cu": 32,
+          "dex_byte_offset": "0x266b3c",
+          "opcode": "invoke-static/range",
+          "argument_registers": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "caller": "Lai/onnxruntime/OnnxTensor;->createTensor(Lai/onnxruntime/OrtEnvironment;Lai/onnxruntime/OrtAllocator;Ljava/lang/Object;)Lai/onnxruntime/OnnxTensor;",
+          "dex": "classes.dex",
+          "offset_cu": 141,
+          "dex_byte_offset": "0x266c86",
+          "opcode": "invoke-static/range",
+          "argument_registers": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OnnxTensor;->getBool(JJ)Z",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11219,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OnnxTensor;->getValue()Ljava/lang/Object;",
+          "dex": "classes.dex",
+          "offset_cu": 175,
+          "dex_byte_offset": "0x26719e",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            9,
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OnnxTensor;->getBuffer(JJ)Ljava/nio/ByteBuffer;",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11221,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OnnxTensor;->getBuffer()Ljava/nio/ByteBuffer;",
+          "dex": "classes.dex",
+          "offset_cu": 4,
+          "dex_byte_offset": "0x2675c4",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            4,
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OnnxTensor;->getByte(JJI)B",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11223,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OnnxTensor;->getValue()Ljava/lang/Object;",
+          "dex": "classes.dex",
+          "offset_cu": 162,
+          "dex_byte_offset": "0x267184",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OnnxTensor;->getDouble(JJ)D",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11225,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OnnxTensor;->getValue()Ljava/lang/Object;",
+          "dex": "classes.dex",
+          "offset_cu": 188,
+          "dex_byte_offset": "0x2671b8",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            9,
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OnnxTensor;->getFloat(JJI)F",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11227,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OnnxTensor;->getValue()Ljava/lang/Object;",
+          "dex": "classes.dex",
+          "offset_cu": 208,
+          "dex_byte_offset": "0x2671e0",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OnnxTensor;->getInt(JJI)I",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11229,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OnnxTensor;->getValue()Ljava/lang/Object;",
+          "dex": "classes.dex",
+          "offset_cu": 74,
+          "dex_byte_offset": "0x2670d4",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OnnxTensor;->getLong(JJI)J",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11231,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OnnxTensor;->getValue()Ljava/lang/Object;",
+          "dex": "classes.dex",
+          "offset_cu": 54,
+          "dex_byte_offset": "0x2670ac",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OnnxTensor;->getShort(JJI)S",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11233,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OnnxTensor;->getValue()Ljava/lang/Object;",
+          "dex": "classes.dex",
+          "offset_cu": 94,
+          "dex_byte_offset": "0x2670fc",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "caller": "Lai/onnxruntime/OnnxTensor;->getValue()Ljava/lang/Object;",
+          "dex": "classes.dex",
+          "offset_cu": 114,
+          "dex_byte_offset": "0x267124",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "caller": "Lai/onnxruntime/OnnxTensor;->getValue()Ljava/lang/Object;",
+          "dex": "classes.dex",
+          "offset_cu": 138,
+          "dex_byte_offset": "0x267154",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OnnxTensor;->getString(JJ)Ljava/lang/String;",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11235,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OnnxTensor;->getValue()Ljava/lang/Object;",
+          "dex": "classes.dex",
+          "offset_cu": 38,
+          "dex_byte_offset": "0x26708c",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            9,
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OnnxTensor;->getStringArray(JJ[Ljava/lang/String;)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11236,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OnnxTensor;->getValue()Ljava/lang/Object;",
+          "dex": "classes.dex",
+          "offset_cu": 252,
+          "dex_byte_offset": "0x267238",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtAllocator;->closeAllocator(JJ)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11263,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtAllocator;->close()V",
+          "dex": "classes.dex",
+          "offset_cu": 12,
+          "dex_byte_offset": "0x267bcc",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            4,
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtEnvironment$ThreadingOptions;->closeThreadingOptions(JJ)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11273,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtEnvironment$ThreadingOptions;->close()V",
+          "dex": "classes.dex",
+          "offset_cu": 8,
+          "dex_byte_offset": "0x267d38",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            4,
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtEnvironment$ThreadingOptions;->createThreadingOptions(J)J",
+      "dex": "classes.dex",
+      "access_flags": 266,
+      "method_index": 11274,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtEnvironment$ThreadingOptions;-><init>()V",
+          "dex": "classes.dex",
+          "offset_cu": 8,
+          "dex_byte_offset": "0x267cdc",
+          "opcode": "invoke-static",
+          "argument_registers": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtEnvironment$ThreadingOptions;->setGlobalDenormalAsZero(JJ)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11276,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtEnvironment$ThreadingOptions;->setGlobalDenormalAsZero()V",
+          "dex": "classes.dex",
+          "offset_cu": 7,
+          "dex_byte_offset": "0x267d76",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            4,
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtEnvironment$ThreadingOptions;->setGlobalInterOpNumThreads(JJI)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11278,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtEnvironment$ThreadingOptions;->setGlobalInterOpNumThreads(I)V",
+          "dex": "classes.dex",
+          "offset_cu": 11,
+          "dex_byte_offset": "0x267da6",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtEnvironment$ThreadingOptions;->setGlobalIntraOpNumThreads(JJI)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11280,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtEnvironment$ThreadingOptions;->setGlobalIntraOpNumThreads(I)V",
+          "dex": "classes.dex",
+          "offset_cu": 11,
+          "dex_byte_offset": "0x267de6",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtEnvironment$ThreadingOptions;->setGlobalSpinControl(JJI)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11281,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtEnvironment$ThreadingOptions;->setGlobalSpinControl(Z)V",
+          "dex": "classes.dex",
+          "offset_cu": 9,
+          "dex_byte_offset": "0x267e22",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtEnvironment;->close(JJ)V",
+      "dex": "classes.dex",
+      "access_flags": 266,
+      "method_index": 11289,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtEnvironment;->a(JJ)V",
+          "dex": "classes.dex",
+          "offset_cu": 0,
+          "dex_byte_offset": "0x268324",
+          "opcode": "invoke-static",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtEnvironment;->createHandle(JILjava/lang/String;)J",
+      "dex": "classes.dex",
+      "access_flags": 266,
+      "method_index": 11290,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtEnvironment;-><init>(Lai/onnxruntime/OrtLoggingLevel;Ljava/lang/String;)V",
+          "dex": "classes.dex",
+          "offset_cu": 9,
+          "dex_byte_offset": "0x2683c2",
+          "opcode": "invoke-static",
+          "argument_registers": [
+            0,
+            1,
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtEnvironment;->createHandle(JILjava/lang/String;J)J",
+      "dex": "classes.dex",
+      "access_flags": 266,
+      "method_index": 11291,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtEnvironment;-><init>(Lai/onnxruntime/OrtLoggingLevel;Ljava/lang/String;Lai/onnxruntime/OrtEnvironment$ThreadingOptions;)V",
+          "dex": "classes.dex",
+          "offset_cu": 14,
+          "dex_byte_offset": "0x268440",
+          "opcode": "invoke-static/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtEnvironment;->getDefaultAllocator(J)J",
+      "dex": "classes.dex",
+      "access_flags": 266,
+      "method_index": 11305,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtEnvironment;-><init>(Lai/onnxruntime/OrtLoggingLevel;Ljava/lang/String;)V",
+          "dex": "classes.dex",
+          "offset_cu": 19,
+          "dex_byte_offset": "0x2683d6",
+          "opcode": "invoke-static",
+          "argument_registers": [
+            1,
+            2
+          ]
+        },
+        {
+          "caller": "Lai/onnxruntime/OrtEnvironment;-><init>(Lai/onnxruntime/OrtLoggingLevel;Ljava/lang/String;Lai/onnxruntime/OrtEnvironment$ThreadingOptions;)V",
+          "dex": "classes.dex",
+          "offset_cu": 24,
+          "dex_byte_offset": "0x268454",
+          "opcode": "invoke-static",
+          "argument_registers": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtEnvironment;->setTelemetry(JJZ)V",
+      "dex": "classes.dex",
+      "access_flags": 266,
+      "method_index": 11314,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtEnvironment;->setTelemetry(Z)V",
+          "dex": "classes.dex",
+          "offset_cu": 4,
+          "dex_byte_offset": "0x2684bc",
+          "opcode": "invoke-static",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtLoraAdapter;->close(JJ)V",
+      "dex": "classes.dex",
+      "access_flags": 266,
+      "method_index": 11338,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtLoraAdapter;->close()V",
+          "dex": "classes.dex",
+          "offset_cu": 8,
+          "dex_byte_offset": "0x268b98",
+          "opcode": "invoke-static",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtLoraAdapter;->createLoraAdapter(JLjava/lang/String;J)J",
+      "dex": "classes.dex",
+      "access_flags": 266,
+      "method_index": 11345,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtLoraAdapter;->create(Ljava/lang/String;Lai/onnxruntime/OrtAllocator;)Lai/onnxruntime/OrtLoraAdapter;",
+          "dex": "classes.dex",
+          "offset_cu": 11,
+          "dex_byte_offset": "0x268a16",
+          "opcode": "invoke-static",
+          "argument_registers": [
+            2,
+            3,
+            4,
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtLoraAdapter;->createLoraAdapterFromArray(J[BJ)J",
+      "dex": "classes.dex",
+      "access_flags": 266,
+      "method_index": 11346,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtLoraAdapter;->create([BLai/onnxruntime/OrtAllocator;)Lai/onnxruntime/OrtLoraAdapter;",
+          "dex": "classes.dex",
+          "offset_cu": 16,
+          "dex_byte_offset": "0x2689c4",
+          "opcode": "invoke-static",
+          "argument_registers": [
+            2,
+            3,
+            4,
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtLoraAdapter;->createLoraAdapterFromBuffer(JLjava/nio/ByteBuffer;IIJ)J",
+      "dex": "classes.dex",
+      "access_flags": 266,
+      "method_index": 11347,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtLoraAdapter;->create(Ljava/nio/ByteBuffer;Lai/onnxruntime/OrtAllocator;)Lai/onnxruntime/OrtLoraAdapter;",
+          "dex": "classes.dex",
+          "offset_cu": 39,
+          "dex_byte_offset": "0x268aa2",
+          "opcode": "invoke-static/range",
+          "argument_registers": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$RunOptions;->addActiveLoraAdapter(JJJ)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11378,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$RunOptions;->addActiveLoraAdapter(Lai/onnxruntime/OrtLoraAdapter;)V",
+          "dex": "classes.dex",
+          "offset_cu": 15,
+          "dex_byte_offset": "0x2695a2",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$RunOptions;->addRunConfigEntry(JJLjava/lang/String;Ljava/lang/String;)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11380,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$RunOptions;->addRunConfigEntry(Ljava/lang/String;Ljava/lang/String;)V",
+          "dex": "classes.dex",
+          "offset_cu": 10,
+          "dex_byte_offset": "0x2695d0",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$RunOptions;->close(JJ)V",
+      "dex": "classes.dex",
+      "access_flags": 266,
+      "method_index": 11384,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$RunOptions;->close()V",
+          "dex": "classes.dex",
+          "offset_cu": 8,
+          "dex_byte_offset": "0x269624",
+          "opcode": "invoke-static",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$RunOptions;->createRunOptions(J)J",
+      "dex": "classes.dex",
+      "access_flags": 266,
+      "method_index": 11385,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$RunOptions;-><init>()V",
+          "dex": "classes.dex",
+          "offset_cu": 8,
+          "dex_byte_offset": "0x269564",
+          "opcode": "invoke-static",
+          "argument_registers": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$RunOptions;->getLogLevel(JJ)I",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11386,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$RunOptions;->getLogLevel()Lai/onnxruntime/OrtLoggingLevel;",
+          "dex": "classes.dex",
+          "offset_cu": 7,
+          "dex_byte_offset": "0x26948e",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            4,
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$RunOptions;->getLogVerbosityLevel(JJ)I",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11389,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$RunOptions;->getLogVerbosityLevel()I",
+          "dex": "classes.dex",
+          "offset_cu": 7,
+          "dex_byte_offset": "0x2694be",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            4,
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$RunOptions;->getRunTag(JJ)Ljava/lang/String;",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11392,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$RunOptions;->getRunTag()Ljava/lang/String;",
+          "dex": "classes.dex",
+          "offset_cu": 7,
+          "dex_byte_offset": "0x2694e6",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            4,
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$RunOptions;->setLogLevel(JJI)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11393,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$RunOptions;->setLogLevel(Lai/onnxruntime/OrtLoggingLevel;)V",
+          "dex": "classes.dex",
+          "offset_cu": 12,
+          "dex_byte_offset": "0x26966c",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$RunOptions;->setLogVerbosityLevel(JJI)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11396,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$RunOptions;->setLogVerbosityLevel(I)V",
+          "dex": "classes.dex",
+          "offset_cu": 9,
+          "dex_byte_offset": "0x269696",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$RunOptions;->setRunTag(JJLjava/lang/String;)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11397,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$RunOptions;->setRunTag(Ljava/lang/String;)V",
+          "dex": "classes.dex",
+          "offset_cu": 9,
+          "dex_byte_offset": "0x2696c2",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$RunOptions;->setTerminate(JJZ)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11399,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$RunOptions;->setTerminate(Z)V",
+          "dex": "classes.dex",
+          "offset_cu": 9,
+          "dex_byte_offset": "0x2696ee",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$SessionOptions;->addACL(JJZ)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11415,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$SessionOptions;->addACL(Z)V",
+          "dex": "classes.dex",
+          "offset_cu": 9,
+          "dex_byte_offset": "0x2699e2",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$SessionOptions;->addArmNN(JJI)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11417,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$SessionOptions;->addArmNN(Z)V",
+          "dex": "classes.dex",
+          "offset_cu": 9,
+          "dex_byte_offset": "0x269a0e",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$SessionOptions;->addCPU(JJI)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11419,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$SessionOptions;->addCPU(Z)V",
+          "dex": "classes.dex",
+          "offset_cu": 9,
+          "dex_byte_offset": "0x269a3a",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$SessionOptions;->addCUDA(JJI)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11423,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$SessionOptions;->addCUDA(I)V",
+          "dex": "classes.dex",
+          "offset_cu": 15,
+          "dex_byte_offset": "0x269ae2",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$SessionOptions;->addCUDAV2(JJJ)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11425,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$SessionOptions;->addCUDA(Lai/onnxruntime/providers/OrtCUDAProviderOptions;)V",
+          "dex": "classes.dex",
+          "offset_cu": 19,
+          "dex_byte_offset": "0x269a96",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$SessionOptions;->addConfigEntry(JJLjava/lang/String;Ljava/lang/String;)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11426,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$SessionOptions;->addConfigEntry(Ljava/lang/String;Ljava/lang/String;)V",
+          "dex": "classes.dex",
+          "offset_cu": 10,
+          "dex_byte_offset": "0x269b24",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$SessionOptions;->addCoreML(JJI)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11429,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$SessionOptions;->addCoreML(Ljava/util/EnumSet;)V",
+          "dex": "classes.dex",
+          "offset_cu": 12,
+          "dex_byte_offset": "0x269b84",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$SessionOptions;->addDirectML(JJI)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11433,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$SessionOptions;->addDirectML(I)V",
+          "dex": "classes.dex",
+          "offset_cu": 9,
+          "dex_byte_offset": "0x269bca",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$SessionOptions;->addDnnl(JJI)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11434,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$SessionOptions;->addDnnl(Z)V",
+          "dex": "classes.dex",
+          "offset_cu": 15,
+          "dex_byte_offset": "0x269c02",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$SessionOptions;->addExecutionProvider(JJLjava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11436,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$SessionOptions;->addExecutionProvider(Ljava/lang/String;Ljava/util/Map;)V",
+          "dex": "classes.dex",
+          "offset_cu": 61,
+          "dex_byte_offset": "0x269caa",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$SessionOptions;->addExternalInitializers(JJ[Ljava/lang/String;[J)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11438,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$SessionOptions;->addExternalInitializers(Ljava/util/Map;)V",
+          "dex": "classes.dex",
+          "offset_cu": 69,
+          "dex_byte_offset": "0x269d4e",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$SessionOptions;->addFreeDimensionOverrideByName(JJLjava/lang/String;J)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11440,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$SessionOptions;->setSymbolicDimensionValue(Ljava/lang/String;J)V",
+          "dex": "classes.dex",
+          "offset_cu": 10,
+          "dex_byte_offset": "0x26a3a8",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$SessionOptions;->addInitializer(JJLjava/lang/String;J)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11441,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$SessionOptions;->addInitializer(Ljava/lang/String;Lai/onnxruntime/OnnxTensorLike;)V",
+          "dex": "classes.dex",
+          "offset_cu": 23,
+          "dex_byte_offset": "0x269d96",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$SessionOptions;->addNnapi(JJI)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11444,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$SessionOptions;->addNnapi(Ljava/util/EnumSet;)V",
+          "dex": "classes.dex",
+          "offset_cu": 12,
+          "dex_byte_offset": "0x269dfc",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$SessionOptions;->addOpenVINO(JJLjava/lang/String;)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11446,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$SessionOptions;->addOpenVINO(Ljava/lang/String;)V",
+          "dex": "classes.dex",
+          "offset_cu": 15,
+          "dex_byte_offset": "0x269e32",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$SessionOptions;->addROCM(JJI)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11451,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$SessionOptions;->addROCM(I)V",
+          "dex": "classes.dex",
+          "offset_cu": 15,
+          "dex_byte_offset": "0x269ebe",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$SessionOptions;->addTensorrt(JJI)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11453,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$SessionOptions;->addTensorrt(I)V",
+          "dex": "classes.dex",
+          "offset_cu": 15,
+          "dex_byte_offset": "0x269f5e",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$SessionOptions;->addTensorrtV2(JJJ)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11455,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$SessionOptions;->addTensorrt(Lai/onnxruntime/providers/OrtTensorRTProviderOptions;)V",
+          "dex": "classes.dex",
+          "offset_cu": 19,
+          "dex_byte_offset": "0x269f12",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$SessionOptions;->addTvm(JJLjava/lang/String;)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11456,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$SessionOptions;->addTvm(Ljava/lang/String;)V",
+          "dex": "classes.dex",
+          "offset_cu": 9,
+          "dex_byte_offset": "0x269f9e",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$SessionOptions;->closeCustomLibraries([J)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11462,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$SessionOptions;->close()V",
+          "dex": "classes.dex",
+          "offset_cu": 46,
+          "dex_byte_offset": "0x26a078",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            4,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$SessionOptions;->closeOptions(JJ)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11463,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$SessionOptions;->close()V",
+          "dex": "classes.dex",
+          "offset_cu": 53,
+          "dex_byte_offset": "0x26a086",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            4,
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$SessionOptions;->createOptions(J)J",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11464,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$SessionOptions;-><init>()V",
+          "dex": "classes.dex",
+          "offset_cu": 8,
+          "dex_byte_offset": "0x269994",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            2,
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$SessionOptions;->disablePerSessionThreads(JJ)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11466,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$SessionOptions;->disablePerSessionThreads()V",
+          "dex": "classes.dex",
+          "offset_cu": 7,
+          "dex_byte_offset": "0x26a0c2",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            4,
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$SessionOptions;->disableProfiling(JJ)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11468,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$SessionOptions;->disableProfiling()V",
+          "dex": "classes.dex",
+          "offset_cu": 7,
+          "dex_byte_offset": "0x26a0ea",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            4,
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$SessionOptions;->enableProfiling(JJLjava/lang/String;)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11469,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$SessionOptions;->enableProfiling(Ljava/lang/String;)V",
+          "dex": "classes.dex",
+          "offset_cu": 9,
+          "dex_byte_offset": "0x26a116",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$SessionOptions;->registerCustomOpLibrary(JJLjava/lang/String;)J",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11473,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$SessionOptions;->registerCustomOpLibrary(Ljava/lang/String;)V",
+          "dex": "classes.dex",
+          "offset_cu": 14,
+          "dex_byte_offset": "0x26a14c",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$SessionOptions;->registerCustomOpsUsingFunction(JJLjava/lang/String;)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11475,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$SessionOptions;->registerCustomOpsUsingFunction(Ljava/lang/String;)V",
+          "dex": "classes.dex",
+          "offset_cu": 9,
+          "dex_byte_offset": "0x26a18a",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$SessionOptions;->setCPUArenaAllocator(JJZ)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11477,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$SessionOptions;->setCPUArenaAllocator(Z)V",
+          "dex": "classes.dex",
+          "offset_cu": 9,
+          "dex_byte_offset": "0x26a1b6",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$SessionOptions;->setDeterministicCompute(JJZ)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11479,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$SessionOptions;->setDeterministicCompute(Z)V",
+          "dex": "classes.dex",
+          "offset_cu": 9,
+          "dex_byte_offset": "0x26a1e2",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$SessionOptions;->setExecutionMode(JJI)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11481,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$SessionOptions;->setExecutionMode(Lai/onnxruntime/OrtSession$SessionOptions$ExecutionMode;)V",
+          "dex": "classes.dex",
+          "offset_cu": 12,
+          "dex_byte_offset": "0x26a214",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$SessionOptions;->setInterOpNumThreads(JJI)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11484,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$SessionOptions;->setInterOpNumThreads(I)V",
+          "dex": "classes.dex",
+          "offset_cu": 9,
+          "dex_byte_offset": "0x26a23e",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$SessionOptions;->setIntraOpNumThreads(JJI)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11486,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$SessionOptions;->setIntraOpNumThreads(I)V",
+          "dex": "classes.dex",
+          "offset_cu": 9,
+          "dex_byte_offset": "0x26a26a",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$SessionOptions;->setLoggerId(JJLjava/lang/String;)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11487,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$SessionOptions;->setLoggerId(Ljava/lang/String;)V",
+          "dex": "classes.dex",
+          "offset_cu": 9,
+          "dex_byte_offset": "0x26a296",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$SessionOptions;->setMemoryPatternOptimization(JJZ)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11489,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$SessionOptions;->setMemoryPatternOptimization(Z)V",
+          "dex": "classes.dex",
+          "offset_cu": 9,
+          "dex_byte_offset": "0x26a2c2",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$SessionOptions;->setOptimizationLevel(JJI)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11491,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$SessionOptions;->setOptimizationLevel(Lai/onnxruntime/OrtSession$SessionOptions$OptLevel;)V",
+          "dex": "classes.dex",
+          "offset_cu": 12,
+          "dex_byte_offset": "0x26a2f4",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$SessionOptions;->setOptimizationModelFilePath(JJLjava/lang/String;)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11493,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$SessionOptions;->setOptimizedModelFilePath(Ljava/lang/String;)V",
+          "dex": "classes.dex",
+          "offset_cu": 9,
+          "dex_byte_offset": "0x26a31e",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$SessionOptions;->setSessionLogLevel(JJI)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11495,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$SessionOptions;->setSessionLogLevel(Lai/onnxruntime/OrtLoggingLevel;)V",
+          "dex": "classes.dex",
+          "offset_cu": 12,
+          "dex_byte_offset": "0x26a350",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession$SessionOptions;->setSessionLogVerbosityLevel(JJI)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11498,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession$SessionOptions;->setSessionLogVerbosityLevel(I)V",
+          "dex": "classes.dex",
+          "offset_cu": 9,
+          "dex_byte_offset": "0x26a37a",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession;->closeSession(JJ)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11506,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession;->close()V",
+          "dex": "classes.dex",
+          "offset_cu": 8,
+          "dex_byte_offset": "0x26acd4",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            4,
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession;->constructMetadata(JJJ)Lai/onnxruntime/OnnxModelMetadata;",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11507,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession;->getMetadata()Lai/onnxruntime/OnnxModelMetadata;",
+          "dex": "classes.dex",
+          "offset_cu": 13,
+          "dex_byte_offset": "0x26a3da",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession;->createSession(JJLjava/lang/String;J)J",
+      "dex": "classes.dex",
+      "access_flags": 266,
+      "method_index": 11508,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession;-><init>(Lai/onnxruntime/OrtEnvironment;Ljava/lang/String;Lai/onnxruntime/OrtAllocator;Lai/onnxruntime/OrtSession$SessionOptions;)V",
+          "dex": "classes.dex",
+          "offset_cu": 11,
+          "dex_byte_offset": "0x26abc2",
+          "opcode": "invoke-static/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession;->createSession(JJLjava/nio/ByteBuffer;IIJ)J",
+      "dex": "classes.dex",
+      "access_flags": 266,
+      "method_index": 11509,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession;-><init>(Lai/onnxruntime/OrtEnvironment;Ljava/nio/ByteBuffer;Lai/onnxruntime/OrtAllocator;Lai/onnxruntime/OrtSession$SessionOptions;)V",
+          "dex": "classes.dex",
+          "offset_cu": 19,
+          "dex_byte_offset": "0x26ac0a",
+          "opcode": "invoke-static/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession;->createSession(JJ[BJ)J",
+      "dex": "classes.dex",
+      "access_flags": 266,
+      "method_index": 11510,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession;-><init>(Lai/onnxruntime/OrtEnvironment;[BLai/onnxruntime/OrtAllocator;Lai/onnxruntime/OrtSession$SessionOptions;)V",
+          "dex": "classes.dex",
+          "offset_cu": 11,
+          "dex_byte_offset": "0x26ab8a",
+          "opcode": "invoke-static/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession;->endProfiling(JJJ)Ljava/lang/String;",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11512,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession;->endProfiling()Ljava/lang/String;",
+          "dex": "classes.dex",
+          "offset_cu": 9,
+          "dex_byte_offset": "0x26a892",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession;->getInputInfo(JJJ)[Lai/onnxruntime/NodeInfo;",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11515,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession;->getInputInfo()Ljava/util/Map;",
+          "dex": "classes.dex",
+          "offset_cu": 13,
+          "dex_byte_offset": "0x26a916",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession;->getInputNames(JJJ)[Ljava/lang/String;",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11517,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession;-><init>(JLai/onnxruntime/OrtAllocator;)V",
+          "dex": "classes.dex",
+          "offset_cu": 26,
+          "dex_byte_offset": "0x26ac60",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession;->getNumInputs(JJ)J",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11520,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession;-><init>(JLai/onnxruntime/OrtAllocator;)V",
+          "dex": "classes.dex",
+          "offset_cu": 12,
+          "dex_byte_offset": "0x26ac44",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            8,
+            0,
+            1,
+            9,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession;->getNumOutputs(JJ)J",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11522,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession;-><init>(JLai/onnxruntime/OrtAllocator;)V",
+          "dex": "classes.dex",
+          "offset_cu": 41,
+          "dex_byte_offset": "0x26ac7e",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            8,
+            0,
+            1,
+            9,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession;->getOutputInfo(JJJ)[Lai/onnxruntime/NodeInfo;",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11524,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession;->getOutputInfo()Ljava/util/Map;",
+          "dex": "classes.dex",
+          "offset_cu": 13,
+          "dex_byte_offset": "0x26a962",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession;->getOutputNames(JJJ)[Ljava/lang/String;",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11526,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession;-><init>(JLai/onnxruntime/OrtAllocator;)V",
+          "dex": "classes.dex",
+          "offset_cu": 54,
+          "dex_byte_offset": "0x26ac98",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession;->getProfilingStartTimeInNs(JJ)J",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11528,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession;->getProfilingStartTimeInNs()J",
+          "dex": "classes.dex",
+          "offset_cu": 4,
+          "dex_byte_offset": "0x26ab1c",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            4,
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtSession;->run(JJJ[Ljava/lang/String;[JJ[Ljava/lang/String;J[Lai/onnxruntime/OnnxValue;[JJ)[Z",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11536,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtSession;->run(Ljava/util/Map;Ljava/util/Set;Ljava/util/Map;Lai/onnxruntime/OrtSession$RunOptions;)Lai/onnxruntime/OrtSession$Result;",
+          "dex": "classes.dex",
+          "offset_cu": 388,
+          "dex_byte_offset": "0x26a7cc",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtTrainingSession$OrtCheckpointState;->addProperty(JJJLjava/lang/String;F)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11541,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtTrainingSession$OrtCheckpointState;->addProperty(Ljava/lang/String;F)V",
+          "dex": "classes.dex",
+          "offset_cu": 12,
+          "dex_byte_offset": "0x26aeb0",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtTrainingSession$OrtCheckpointState;->addProperty(JJJLjava/lang/String;I)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11542,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtTrainingSession$OrtCheckpointState;->addProperty(Ljava/lang/String;I)V",
+          "dex": "classes.dex",
+          "offset_cu": 12,
+          "dex_byte_offset": "0x26aee0",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtTrainingSession$OrtCheckpointState;->addProperty(JJJLjava/lang/String;Ljava/lang/String;)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11543,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtTrainingSession$OrtCheckpointState;->addProperty(Ljava/lang/String;Ljava/lang/String;)V",
+          "dex": "classes.dex",
+          "offset_cu": 12,
+          "dex_byte_offset": "0x26af10",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtTrainingSession$OrtCheckpointState;->close(JJ)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11549,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtTrainingSession$OrtCheckpointState;->close()V",
+          "dex": "classes.dex",
+          "offset_cu": 9,
+          "dex_byte_offset": "0x26af66",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            4,
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtTrainingSession$OrtCheckpointState;->getFloatProperty(JJJJLjava/lang/String;)F",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11550,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtTrainingSession$OrtCheckpointState;->getFloatProperty(Lai/onnxruntime/OrtAllocator;Ljava/lang/String;)F",
+          "dex": "classes.dex",
+          "offset_cu": 13,
+          "dex_byte_offset": "0x26adc6",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtTrainingSession$OrtCheckpointState;->getIntProperty(JJJJLjava/lang/String;)I",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11552,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtTrainingSession$OrtCheckpointState;->getIntProperty(Lai/onnxruntime/OrtAllocator;Ljava/lang/String;)I",
+          "dex": "classes.dex",
+          "offset_cu": 13,
+          "dex_byte_offset": "0x26adfa",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtTrainingSession$OrtCheckpointState;->getStringProperty(JJJJLjava/lang/String;)Ljava/lang/String;",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11554,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtTrainingSession$OrtCheckpointState;->getStringProperty(Lai/onnxruntime/OrtAllocator;Ljava/lang/String;)Ljava/lang/String;",
+          "dex": "classes.dex",
+          "offset_cu": 13,
+          "dex_byte_offset": "0x26ae2e",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtTrainingSession$OrtCheckpointState;->loadCheckpoint(JJLjava/lang/String;)J",
+      "dex": "classes.dex",
+      "access_flags": 266,
+      "method_index": 11557,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtTrainingSession$OrtCheckpointState;->loadCheckpoint(Ljava/lang/String;)Lai/onnxruntime/OrtTrainingSession$OrtCheckpointState;",
+          "dex": "classes.dex",
+          "offset_cu": 15,
+          "dex_byte_offset": "0x26ad22",
+          "opcode": "invoke-static",
+          "argument_registers": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtTrainingSession$OrtCheckpointState;->saveCheckpoint(JJJLjava/lang/String;Z)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11560,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtTrainingSession$OrtCheckpointState;->saveCheckpoint(Ljava/nio/file/Path;Z)V",
+          "dex": "classes.dex",
+          "offset_cu": 20,
+          "dex_byte_offset": "0x26afdc",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtTrainingSession;->closeSession(JJ)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11570,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtTrainingSession;->close()V",
+          "dex": "classes.dex",
+          "offset_cu": 8,
+          "dex_byte_offset": "0x26bbb0",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            4,
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtTrainingSession;->createTrainingSession(JJJJJLjava/lang/String;Ljava/lang/String;Ljava/lang/String;)J",
+      "dex": "classes.dex",
+      "access_flags": 266,
+      "method_index": 11571,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtTrainingSession;-><init>(Lai/onnxruntime/OrtEnvironment;Lai/onnxruntime/OrtAllocator;Lai/onnxruntime/OrtSession$SessionOptions;Lai/onnxruntime/OrtTrainingSession$OrtCheckpointState;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V",
+          "dex": "classes.dex",
+          "offset_cu": 22,
+          "dex_byte_offset": "0x26b9c8",
+          "opcode": "invoke-static/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtTrainingSession;->evalStep(JJJJ[Ljava/lang/String;[JJ[Ljava/lang/String;J[Lai/onnxruntime/OnnxValue;[JJ)[Z",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11577,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtTrainingSession;->evalStep(Ljava/util/Map;Ljava/util/Set;Ljava/util/Map;Lai/onnxruntime/OrtSession$RunOptions;)Lai/onnxruntime/OrtSession$Result;",
+          "dex": "classes.dex",
+          "offset_cu": 396,
+          "dex_byte_offset": "0x26b3a4",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtTrainingSession;->exportModelForInference(JJJLjava/lang/String;J[Ljava/lang/String;)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11578,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtTrainingSession;->exportModelForInference(Ljava/nio/file/Path;[Ljava/lang/String;)V",
+          "dex": "classes.dex",
+          "offset_cu": 20,
+          "dex_byte_offset": "0x26bc10",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtTrainingSession;->getEvalInputNames(JJJJ)[Ljava/lang/String;",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11581,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtTrainingSession;-><init>(JLai/onnxruntime/OrtAllocator;Lai/onnxruntime/OrtTrainingSession$OrtCheckpointState;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V",
+          "dex": "classes.dex",
+          "offset_cu": 92,
+          "dex_byte_offset": "0x26bab8",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtTrainingSession;->getEvalOutputNames(JJJJ)[Ljava/lang/String;",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11583,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtTrainingSession;-><init>(JLai/onnxruntime/OrtAllocator;Lai/onnxruntime/OrtTrainingSession$OrtCheckpointState;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V",
+          "dex": "classes.dex",
+          "offset_cu": 118,
+          "dex_byte_offset": "0x26baec",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtTrainingSession;->getLearningRate(JJJ)F",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11587,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtTrainingSession;->getLearningRate()F",
+          "dex": "classes.dex",
+          "offset_cu": 10,
+          "dex_byte_offset": "0x26b89c",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtTrainingSession;->getTrainInputNames(JJJJ)[Ljava/lang/String;",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11590,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtTrainingSession;-><init>(JLai/onnxruntime/OrtAllocator;Lai/onnxruntime/OrtTrainingSession$OrtCheckpointState;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V",
+          "dex": "classes.dex",
+          "offset_cu": 40,
+          "dex_byte_offset": "0x26ba50",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtTrainingSession;->getTrainOutputNames(JJJJ)[Ljava/lang/String;",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11592,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtTrainingSession;-><init>(JLai/onnxruntime/OrtAllocator;Lai/onnxruntime/OrtTrainingSession$OrtCheckpointState;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V",
+          "dex": "classes.dex",
+          "offset_cu": 66,
+          "dex_byte_offset": "0x26ba84",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtTrainingSession;->lazyResetGrad(JJJ)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11594,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtTrainingSession;->lazyResetGrad()V",
+          "dex": "classes.dex",
+          "offset_cu": 10,
+          "dex_byte_offset": "0x26bc4c",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtTrainingSession;->optimizerStep(JJJJ)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11596,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtTrainingSession;->optimizerStep(Lai/onnxruntime/OrtSession$RunOptions;)V",
+          "dex": "classes.dex",
+          "offset_cu": 21,
+          "dex_byte_offset": "0x26bcaa",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtTrainingSession;->registerLinearLRScheduler(JJJJJF)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11599,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtTrainingSession;->registerLinearLRScheduler(JJF)V",
+          "dex": "classes.dex",
+          "offset_cu": 11,
+          "dex_byte_offset": "0x26bcda",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtTrainingSession;->schedulerStep(JJJ)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11602,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtTrainingSession;->schedulerStep()V",
+          "dex": "classes.dex",
+          "offset_cu": 10,
+          "dex_byte_offset": "0x26bd2c",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtTrainingSession;->setLearningRate(JJJF)V",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11604,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtTrainingSession;->setLearningRate(F)V",
+          "dex": "classes.dex",
+          "offset_cu": 11,
+          "dex_byte_offset": "0x26bd5a",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtTrainingSession;->setSeed(JJJ)V",
+      "dex": "classes.dex",
+      "access_flags": 266,
+      "method_index": 11606,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtTrainingSession;->setSeed(J)V",
+          "dex": "classes.dex",
+          "offset_cu": 5,
+          "dex_byte_offset": "0x26bd7e",
+          "opcode": "invoke-static/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/OrtTrainingSession;->trainStep(JJJJ[Ljava/lang/String;[JJ[Ljava/lang/String;J[Lai/onnxruntime/OnnxValue;[JJ)[Z",
+      "dex": "classes.dex",
+      "access_flags": 258,
+      "method_index": 11612,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/OrtTrainingSession;->trainStep(Ljava/util/Map;Ljava/util/Set;Ljava/util/Map;Lai/onnxruntime/OrtSession$RunOptions;)Lai/onnxruntime/OrtSession$Result;",
+          "dex": "classes.dex",
+          "offset_cu": 392,
+          "dex_byte_offset": "0x26b7d8",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/providers/OrtCUDAProviderOptions;->create(J)J",
+      "dex": "classes.dex",
+      "access_flags": 266,
+      "method_index": 11709,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/providers/OrtCUDAProviderOptions;->lambda$new$0()J",
+          "dex": "classes.dex",
+          "offset_cu": 4,
+          "dex_byte_offset": "0x26e5a0",
+          "opcode": "invoke-static",
+          "argument_registers": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/providers/OrtCUDAProviderOptions;->applyToNative(JJ[Ljava/lang/String;[Ljava/lang/String;)V",
+      "dex": "classes.dex",
+      "access_flags": 257,
+      "method_index": 11706,
+      "callers": []
+    },
+    {
+      "method": "Lai/onnxruntime/providers/OrtCUDAProviderOptions;->close(JJ)V",
+      "dex": "classes.dex",
+      "access_flags": 257,
+      "method_index": 11708,
+      "callers": []
+    },
+    {
+      "method": "Lai/onnxruntime/providers/OrtTensorRTProviderOptions;->create(J)J",
+      "dex": "classes.dex",
+      "access_flags": 266,
+      "method_index": 11724,
+      "callers": [
+        {
+          "caller": "Lai/onnxruntime/providers/OrtTensorRTProviderOptions;->lambda$new$0()J",
+          "dex": "classes.dex",
+          "offset_cu": 4,
+          "dex_byte_offset": "0x26e744",
+          "opcode": "invoke-static",
+          "argument_registers": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lai/onnxruntime/providers/OrtTensorRTProviderOptions;->applyToNative(JJ[Ljava/lang/String;[Ljava/lang/String;)V",
+      "dex": "classes.dex",
+      "access_flags": 257,
+      "method_index": 11721,
+      "callers": []
+    },
+    {
+      "method": "Lai/onnxruntime/providers/OrtTensorRTProviderOptions;->close(JJ)V",
+      "dex": "classes.dex",
+      "access_flags": 257,
+      "method_index": 11723,
+      "callers": []
+    },
+    {
+      "method": "Lcom/google/android/gms/tasks/NativeOnCompleteListener;->nativeOnComplete(JLjava/lang/Object;ZZLjava/lang/String;)V",
+      "dex": "classes.dex",
+      "access_flags": 257,
+      "method_index": 31499,
+      "callers": [
+        {
+          "caller": "Lcom/google/android/gms/tasks/NativeOnCompleteListener;->onComplete(Lcom/google/android/gms/tasks/Task;)V",
+          "dex": "classes.dex",
+          "offset_cu": 46,
+          "dex_byte_offset": "0x3a9428",
+          "opcode": "invoke-virtual/range",
+          "argument_registers": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->yuv420ToArgb(Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;IIIII[I)V",
+      "dex": "classes2.dex",
+      "access_flags": 265,
+      "method_index": 11982,
+      "callers": []
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->yuvImageYUV2YUV(Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;IIIII[B[B)V",
+      "dex": "classes2.dex",
+      "access_flags": 265,
+      "method_index": 11983,
+      "callers": []
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->convertToCube(Landroid/graphics/Bitmap;Ljava/lang/String;Ljava/lang/String;IIII)Z",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 11723,
+      "callers": [
+        {
+          "caller": "Lh5/c;->run()V",
+          "dex": "classes2.dex",
+          "offset_cu": 548,
+          "dex_byte_offset": "0x3012e4",
+          "opcode": "invoke-virtual/range",
+          "argument_registers": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getExifData(Ljava/lang/String;)[B",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 11754,
+      "callers": [
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/service/LlcService;->j(Landroid/database/Cursor;Landroid/net/Uri;ZILjava/lang/String;ILjava/lang/String;ILjava/lang/String;II)Lcom/panasonic/jp/lumixlab/database/entity/GalleryInfoEntity;",
+          "dex": "classes2.dex",
+          "offset_cu": 531,
+          "dex_byte_offset": "0x228872",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            4,
+            5
+          ]
+        },
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/b0;->j0(Landroid/content/Context;Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;ZZLjava/lang/String;Ljava/lang/String;I)V",
+          "dex": "classes2.dex",
+          "offset_cu": 59,
+          "dex_byte_offset": "0x23eeda",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            8,
+            9
+          ]
+        },
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/b0;->k0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZLjava/lang/String;Ljava/lang/String;I)V",
+          "dex": "classes2.dex",
+          "offset_cu": 88,
+          "dex_byte_offset": "0x23f750",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            4,
+            0
+          ]
+        },
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/b0;->w(Ljava/lang/String;Z)J",
+          "dex": "classes2.dex",
+          "offset_cu": 83,
+          "dex_byte_offset": "0x23e20e",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            1,
+            0
+          ]
+        },
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/b0;->x(JILjava/lang/String;)Lcom/panasonic/jp/lumixlab/bean/ExifInfoBean;",
+          "dex": "classes2.dex",
+          "offset_cu": 143,
+          "dex_byte_offset": "0x23bb7e",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            2,
+            4
+          ]
+        },
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/v;->T(ILjava/lang/String;)Lcom/panasonic/jp/lumixlab/bean/ExifInfoBean;",
+          "dex": "classes2.dex",
+          "offset_cu": 8,
+          "dex_byte_offset": "0x230a20",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            1,
+            2
+          ]
+        },
+        {
+          "caller": "Lz5/Y5;->x0(Landroid/database/Cursor;Landroid/net/Uri;ZILjava/util/List;Z)V",
+          "dex": "classes2.dex",
+          "offset_cu": 638,
+          "dex_byte_offset": "0x3bc104",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            5,
+            8
+          ]
+        },
+        {
+          "caller": "Lz5/g5;->v0(Landroid/database/Cursor;Landroid/net/Uri;ZILjava/util/List;Z)V",
+          "dex": "classes2.dex",
+          "offset_cu": 638,
+          "dex_byte_offset": "0x3b1de8",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            5,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getExifInfo(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IIIIII)Z",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 11755,
+      "callers": [
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/service/LlcService;->m(ILjava/lang/String;)Z",
+          "dex": "classes2.dex",
+          "offset_cu": 40,
+          "dex_byte_offset": "0x22770c",
+          "opcode": "invoke-virtual/range",
+          "argument_registers": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/b0;->x(JILjava/lang/String;)Lcom/panasonic/jp/lumixlab/bean/ExifInfoBean;",
+          "dex": "classes2.dex",
+          "offset_cu": 868,
+          "dex_byte_offset": "0x23c128",
+          "opcode": "invoke-virtual/range",
+          "argument_registers": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/v;->P0(ILjava/lang/String;)Z",
+          "dex": "classes2.dex",
+          "offset_cu": 38,
+          "dex_byte_offset": "0x22f678",
+          "opcode": "invoke-virtual/range",
+          "argument_registers": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getInfo(Lcom/panasonic/jp/lumixlab/bean/HeifInfoBean;J[B)Z",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 11767,
+      "callers": [
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/b0;->D([B)Landroid/graphics/Bitmap;",
+          "dex": "classes2.dex",
+          "offset_cu": 15,
+          "dex_byte_offset": "0x23a8c2",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            2,
+            0,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/p0;->b([B)Landroid/graphics/Bitmap;",
+          "dex": "classes2.dex",
+          "offset_cu": 12,
+          "dex_byte_offset": "0x245690",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            2,
+            1,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getJpegExifLutInfo(Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;)I",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 11768,
+      "callers": [
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/b0;->x(JILjava/lang/String;)Lcom/panasonic/jp/lumixlab/bean/ExifInfoBean;",
+          "dex": "classes2.dex",
+          "offset_cu": 125,
+          "dex_byte_offset": "0x23bb5a",
+          "opcode": "invoke-virtual/range",
+          "argument_registers": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getMP4ExifInfo(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;ILjava/lang/String;IILjava/lang/String;Ljava/lang/String;)I",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 11775,
+      "callers": [
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/b0;->w(Ljava/lang/String;Z)J",
+          "dex": "classes2.dex",
+          "offset_cu": 50,
+          "dex_byte_offset": "0x23e1cc",
+          "opcode": "invoke-virtual/range",
+          "argument_registers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ]
+        },
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/b0;->x(JILjava/lang/String;)Lcom/panasonic/jp/lumixlab/bean/ExifInfoBean;",
+          "dex": "classes2.dex",
+          "offset_cu": 73,
+          "dex_byte_offset": "0x23baf2",
+          "opcode": "invoke-virtual/range",
+          "argument_registers": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getPhotostyleInfo([BIILjava/lang/String;Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;)I",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 11778,
+      "callers": [
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/b0;->F([B)Lcom/panasonic/jp/lumixlab/bean/ExifInfoBean;",
+          "dex": "classes2.dex",
+          "offset_cu": 70,
+          "dex_byte_offset": "0x23cd8c",
+          "opcode": "invoke-virtual/range",
+          "argument_registers": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getRW2Info(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;IIILjava/lang/String;Ljava/lang/String;)I",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 11784,
+      "callers": [
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/b0;->x(JILjava/lang/String;)Lcom/panasonic/jp/lumixlab/bean/ExifInfoBean;",
+          "dex": "classes2.dex",
+          "offset_cu": 851,
+          "dex_byte_offset": "0x23c106",
+          "opcode": "invoke-virtual/range",
+          "argument_registers": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->isHeic(J[B)Z",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 11823,
+      "callers": []
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->isHiresFile(Ljava/lang/String;)I",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 11824,
+      "callers": [
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/b0;->Q(ILjava/lang/String;)Z",
+          "dex": "classes2.dex",
+          "offset_cu": 37,
+          "dex_byte_offset": "0x23b762",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->isHiresJpegFile(Ljava/lang/String;)I",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 11825,
+      "callers": [
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/b0;->Q(ILjava/lang/String;)Z",
+          "dex": "classes2.dex",
+          "offset_cu": 25,
+          "dex_byte_offset": "0x23b74a",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->isPanasonicRawFile(Ljava/lang/String;)I",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 11829,
+      "callers": [
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/b0;->R(ILjava/lang/String;)Z",
+          "dex": "classes2.dex",
+          "offset_cu": 15,
+          "dex_byte_offset": "0x23b7a2",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->mergeCubeFiles(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 11856,
+      "callers": [
+        {
+          "caller": "Lg5/k;->call()Ljava/lang/Object;",
+          "dex": "classes2.dex",
+          "offset_cu": 531,
+          "dex_byte_offset": "0x2f097e",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            14,
+            4,
+            3,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->nativeHalfFloatRGBAToP010(Ljava/nio/ByteBuffer;IILjava/nio/ByteBuffer;Ljava/nio/ByteBuffer;)V",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 11858,
+      "callers": []
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->nativeImageConvert([Ljava/nio/ByteBuffer;[III[B)V",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 11859,
+      "callers": []
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->nativeRGB10ToHalfFloat(Ljava/nio/ByteBuffer;IILjava/nio/ByteBuffer;)V",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 11860,
+      "callers": []
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->nativeRGB10ToP010(Ljava/nio/ByteBuffer;IILjava/nio/ByteBuffer;Ljava/nio/ByteBuffer;)V",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 11861,
+      "callers": []
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->nativeRGBAToNV12(Ljava/nio/ByteBuffer;IILjava/nio/ByteBuffer;Ljava/nio/ByteBuffer;)V",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 11862,
+      "callers": []
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->nativeScaleAndSplit(Ljava/nio/ByteBuffer;IILjava/nio/ByteBuffer;Ljava/nio/ByteBuffer;)V",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 11863,
+      "callers": []
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->readHeifRating(Ljava/lang/String;)Ljava/lang/String;",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 11877,
+      "callers": [
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/b0;->K(ILjava/lang/String;)I",
+          "dex": "classes2.dex",
+          "offset_cu": 40,
+          "dex_byte_offset": "0x23d76c",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->readImgRatingJni(Ljava/lang/String;)I",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 11878,
+      "callers": [
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/b0;->K(ILjava/lang/String;)I",
+          "dex": "classes2.dex",
+          "offset_cu": 101,
+          "dex_byte_offset": "0x23d7e6",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            7,
+            8
+          ]
+        },
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/b0;->K(ILjava/lang/String;)I",
+          "dex": "classes2.dex",
+          "offset_cu": 184,
+          "dex_byte_offset": "0x23d88c",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->readVideoRatingJni(Ljava/lang/String;)I",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 11879,
+      "callers": [
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/b0;->K(ILjava/lang/String;)I",
+          "dex": "classes2.dex",
+          "offset_cu": 23,
+          "dex_byte_offset": "0x23d74a",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->splitYuvArrayToYAndUv([B[B[BII)V",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 11976,
+      "callers": []
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->toRgba(J[BLandroid/graphics/Bitmap;)Z",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 11977,
+      "callers": [
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/b0;->D([B)Landroid/graphics/Bitmap;",
+          "dex": "classes2.dex",
+          "offset_cu": 62,
+          "dex_byte_offset": "0x23a920",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            2,
+            3,
+            4,
+            5,
+            0
+          ]
+        },
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/p0;->b([B)Landroid/graphics/Bitmap;",
+          "dex": "classes2.dex",
+          "offset_cu": 60,
+          "dex_byte_offset": "0x2456f0",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            2,
+            3,
+            4,
+            5,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->writeImgRatingJni(Ljava/lang/String;I)I",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 11980,
+      "callers": []
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->writeVideoRatingJni(Ljava/lang/String;I)I",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 11981,
+      "callers": [
+        {
+          "caller": "LS5/m;->b()V",
+          "dex": "classes2.dex",
+          "offset_cu": 34,
+          "dex_byte_offset": "0x18de2c",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "caller": "LT5/c;->b()V",
+          "dex": "classes2.dex",
+          "offset_cu": 34,
+          "dex_byte_offset": "0x1921e0",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "caller": "Lg5/k;->call()Ljava/lang/Object;",
+          "dex": "classes2.dex",
+          "offset_cu": 222,
+          "dex_byte_offset": "0x2f0714",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            1,
+            0,
+            14
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/util/Heif/Heif;->decodeToRgb48ByteArray(Ljava/lang/String;[I[I)[B",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 16381,
+      "callers": [
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/b0;->l(Ljava/lang/String;)Lj6/a;",
+          "dex": "classes2.dex",
+          "offset_cu": 7,
+          "dex_byte_offset": "0x23d8d2",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            2,
+            3,
+            1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/util/Heif/Heif;->getBitsPerPixel(Ljava/lang/String;)I",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 16382,
+      "callers": [
+        {
+          "caller": "LQ0/s;->run()V",
+          "dex": "classes.dex",
+          "offset_cu": 41,
+          "dex_byte_offset": "0x22b95a",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            14,
+            6
+          ]
+        },
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/Q0;->e(ZJLjava/lang/String;ILcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;Lg6/b;)V",
+          "dex": "classes2.dex",
+          "offset_cu": 48,
+          "dex_byte_offset": "0x24ab14",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            4,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lcom/techor/techorfilter/ImageFilter;->nativeCnv2(Landroid/content/res/AssetManager;Landroid/graphics/Bitmap;I[FFFFFFFFFFFIFFFFFIIZIFZFIII[FF[FFZZI[FI[FI[FI[FZLcom/techor/techorfilter/ImageFilter$CancelCallback;)I",
+      "dex": "classes2.dex",
+      "access_flags": 258,
+      "method_index": 18175,
+      "callers": [
+        {
+          "caller": "Lcom/techor/techorfilter/ImageFilter;->a(Landroid/content/res/AssetManager;Landroid/graphics/Bitmap;I[FFFFFFFFFFFIFFFFFIIZIFZFIII[FF[FFZZI[FI[FI[FI[FZLcom/techor/techorfilter/ImageFilter$CancelCallback;)V",
+          "dex": "classes2.dex",
+          "offset_cu": 0,
+          "dex_byte_offset": "0x27b41c",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lcom/techor/techorfilter/ImageFilter;->nativeCnv2RGB(Landroid/content/res/AssetManager;Landroid/graphics/Bitmap;I[FFFFFFFFFFFIFFFFFIIZIFZFIII[FF[FFZZI[FI[FI[FI[FZLcom/techor/techorfilter/ImageFilter$CancelCallback;)I",
+      "dex": "classes2.dex",
+      "access_flags": 258,
+      "method_index": 18176,
+      "callers": [
+        {
+          "caller": "Lcom/techor/techorfilter/ImageFilter;->b(Landroid/content/res/AssetManager;Landroid/graphics/Bitmap;I[FFFFFFFFFFFIFFFFFIIZIFZFIII[FF[FFZZI[FI[FI[FI[FZLcom/techor/techorfilter/ImageFilter$CancelCallback;)V",
+          "dex": "classes2.dex",
+          "offset_cu": 0,
+          "dex_byte_offset": "0x27b434",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lcom/techor/techorfilter/ImageFilter;->nativeCnv2YUV(Landroid/content/res/AssetManager;Landroid/graphics/Bitmap;I[FZIFFFFFFFFFFIFFFFFIIZIFZFIII[FF[FFZZI[FI[FI[FI[FZLcom/techor/techorfilter/ImageFilter$CancelCallback;)I",
+      "dex": "classes2.dex",
+      "access_flags": 258,
+      "method_index": 18177,
+      "callers": [
+        {
+          "caller": "Lcom/techor/techorfilter/ImageFilter;->c(Landroid/content/res/AssetManager;Landroid/graphics/Bitmap;I[FIFFFFFFFFFFIFFFFFIIZIFZFIII[FF[FFZZI[FI[FI[FI[FLcom/techor/techorfilter/ImageFilter$CancelCallback;)V",
+          "dex": "classes2.dex",
+          "offset_cu": 97,
+          "dex_byte_offset": "0x27b50e",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lcom/techor/techorfilter/ImageFilter;->nativeGetRawDecodeLens(Landroid/content/res/AssetManager;[IIIIII[F[FLcom/techor/techorfilter/ImageFilter$CancelCallback;)I",
+      "dex": "classes2.dex",
+      "access_flags": 258,
+      "method_index": 18178,
+      "callers": [
+        {
+          "caller": "Lcom/techor/techorfilter/ImageFilter;->d(Landroid/content/res/AssetManager;[IIII[F[FLcom/techor/techorfilter/ImageFilter$CancelCallback;)V",
+          "dex": "classes2.dex",
+          "offset_cu": 15,
+          "dex_byte_offset": "0x27b546",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lcom/techor/techorfilter/ImageFilter;->nativeReadExifAndUnpack([B[F[I[FLcom/techor/techorfilter/ImageFilter$CancelCallback;)Ljava/lang/String;",
+      "dex": "classes2.dex",
+      "access_flags": 258,
+      "method_index": 18179,
+      "callers": [
+        {
+          "caller": "Lcom/techor/techorfilter/ImageFilter;->e([B[F[I[FLcom/techor/techorfilter/ImageFilter$CancelCallback;)Ljava/lang/String;",
+          "dex": "classes2.dex",
+          "offset_cu": 0,
+          "dex_byte_offset": "0x27b3bc",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lcom/techor/techorfilter/ImageFilter;->calcDBBMinMax(IF[F)V",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 18167,
+      "callers": [
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/p1;->b(IFF)F",
+          "dex": "classes2.dex",
+          "offset_cu": 34,
+          "dex_byte_offset": "0x24ff78",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            4,
+            5,
+            6,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lcom/techor/techorfilter/ImageFilter;->freeAllImageData()V",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 18170,
+      "callers": [
+        {
+          "caller": "LD1/A;->c()V",
+          "dex": "classes.dex",
+          "offset_cu": 12,
+          "dex_byte_offset": "0x19d89c",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            1
+          ]
+        },
+        {
+          "caller": "LD1/A;->c()V",
+          "dex": "classes.dex",
+          "offset_cu": 460,
+          "dex_byte_offset": "0x19dc1c",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            0
+          ]
+        },
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/p1;->d()V",
+          "dex": "classes2.dex",
+          "offset_cu": 8,
+          "dex_byte_offset": "0x2503b4",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            0
+          ]
+        },
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/videoEdit/YUVVideoPackage/h;->q()V",
+          "dex": "classes2.dex",
+          "offset_cu": 23,
+          "dex_byte_offset": "0x25979e",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lcom/techor/techorfilter/ImageFilter;->getUseToneL(I[FI[FFF)V",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 18171,
+      "callers": [
+        {
+          "caller": "LD1/A;->c()V",
+          "dex": "classes.dex",
+          "offset_cu": 97,
+          "dex_byte_offset": "0x19d946",
+          "opcode": "invoke-virtual/range",
+          "argument_registers": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/controller/activity/edit/EditActivity;->v0()V",
+          "dex": "classes2.dex",
+          "offset_cu": 372,
+          "dex_byte_offset": "0x20135c",
+          "opcode": "invoke-virtual/range",
+          "argument_registers": [
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ]
+        },
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/Z0;->run()V",
+          "dex": "classes2.dex",
+          "offset_cu": 481,
+          "dex_byte_offset": "0x24bfb6",
+          "opcode": "invoke-virtual/range",
+          "argument_registers": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+          ]
+        },
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/c1;->run()V",
+          "dex": "classes2.dex",
+          "offset_cu": 423,
+          "dex_byte_offset": "0x24ca6a",
+          "opcode": "invoke-virtual/range",
+          "argument_registers": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+          ]
+        },
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/p1;->A(Ljava/lang/String;Lcom/panasonic/jp/lumixlab/util/n1;)V",
+          "dex": "classes2.dex",
+          "offset_cu": 95,
+          "dex_byte_offset": "0x251106",
+          "opcode": "invoke-virtual/range",
+          "argument_registers": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+          ]
+        },
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/p1;->B(JLandroid/graphics/Bitmap;Z)V",
+          "dex": "classes2.dex",
+          "offset_cu": 67,
+          "dex_byte_offset": "0x252072",
+          "opcode": "invoke-virtual/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/p1;->G(Lcom/panasonic/jp/lumixlab/bean/RawProcessingConfigBean;Ljava/lang/String;)V",
+          "dex": "classes2.dex",
+          "offset_cu": 82,
+          "dex_byte_offset": "0x252224",
+          "opcode": "invoke-virtual/range",
+          "argument_registers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/p1;->Q(FI)Landroid/graphics/Bitmap;",
+          "dex": "classes2.dex",
+          "offset_cu": 588,
+          "dex_byte_offset": "0x24e9d4",
+          "opcode": "invoke-virtual/range",
+          "argument_registers": [
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42
+          ]
+        },
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/p1;->S(Lcom/panasonic/jp/lumixlab/bean/RawProcessingConfigBean;IFILjava/lang/String;)Landroid/graphics/Bitmap;",
+          "dex": "classes2.dex",
+          "offset_cu": 629,
+          "dex_byte_offset": "0x24f386",
+          "opcode": "invoke-virtual/range",
+          "argument_registers": [
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+          ]
+        },
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/p1;->u()Landroid/graphics/Bitmap;",
+          "dex": "classes2.dex",
+          "offset_cu": 380,
+          "dex_byte_offset": "0x24dddc",
+          "opcode": "invoke-virtual/range",
+          "argument_registers": [
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        },
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/p1;->y(JLj6/c;Landroid/graphics/Bitmap;Z)V",
+          "dex": "classes2.dex",
+          "offset_cu": 106,
+          "dex_byte_offset": "0x250f24",
+          "opcode": "invoke-virtual/range",
+          "argument_registers": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lcom/techor/techorfilter/ImageFilter;->initPhotoStyleLUT()V",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 18172,
+      "callers": [
+        {
+          "caller": "LD1/A;->c()V",
+          "dex": "classes.dex",
+          "offset_cu": 446,
+          "dex_byte_offset": "0x19dc00",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            0
+          ]
+        },
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/p1;->P(II)V",
+          "dex": "classes2.dex",
+          "offset_cu": 310,
+          "dex_byte_offset": "0x25263c",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            12
+          ]
+        },
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/p1;->P(II)V",
+          "dex": "classes2.dex",
+          "offset_cu": 322,
+          "dex_byte_offset": "0x252654",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lcom/techor/techorfilter/ImageFilter;->initRGBArray(I[BIIIZ)V",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 18173,
+      "callers": [
+        {
+          "caller": "LY5/c;->run()V",
+          "dex": "classes2.dex",
+          "offset_cu": 557,
+          "dex_byte_offset": "0x1b2586",
+          "opcode": "invoke-virtual/range",
+          "argument_registers": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/p1;->y(JLj6/c;Landroid/graphics/Bitmap;Z)V",
+          "dex": "classes2.dex",
+          "offset_cu": 139,
+          "dex_byte_offset": "0x250f66",
+          "opcode": "invoke-virtual/range",
+          "argument_registers": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lcom/techor/techorfilter/ImageFilter;->initYUVArray(I[B[BIIIZ)V",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 18174,
+      "callers": [
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/videoEdit/YUVVideoPackage/f;->call()Ljava/lang/Object;",
+          "dex": "classes2.dex",
+          "offset_cu": 102,
+          "dex_byte_offset": "0x258110",
+          "opcode": "invoke-virtual/range",
+          "argument_registers": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/videoEdit/YUVVideoPackage/g;->call()Ljava/lang/Object;",
+          "dex": "classes2.dex",
+          "offset_cu": 39,
+          "dex_byte_offset": "0x2585e2",
+          "opcode": "invoke-virtual/range",
+          "argument_registers": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/videoEdit/YUVVideoPackage/h;->u(III[B[B)Landroid/graphics/Bitmap;",
+          "dex": "classes2.dex",
+          "offset_cu": 99,
+          "dex_byte_offset": "0x2589aa",
+          "opcode": "invoke-virtual/range",
+          "argument_registers": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lcom/techor/techorfilter/ImageFilter;->setHSLorSPLTone([FI)V",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 18180,
+      "callers": [
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/W0;->accept(Ljava/lang/Object;Ljava/lang/Object;)V",
+          "dex": "classes2.dex",
+          "offset_cu": 28,
+          "dex_byte_offset": "0x24ba60",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            1,
+            3,
+            2
+          ]
+        },
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/W0;->accept(Ljava/lang/Object;Ljava/lang/Object;)V",
+          "dex": "classes2.dex",
+          "offset_cu": 46,
+          "dex_byte_offset": "0x24ba84",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            1,
+            3,
+            2
+          ]
+        },
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/W0;->accept(Ljava/lang/Object;Ljava/lang/Object;)V",
+          "dex": "classes2.dex",
+          "offset_cu": 64,
+          "dex_byte_offset": "0x24baa8",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            1,
+            3,
+            2
+          ]
+        },
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/W0;->accept(Ljava/lang/Object;Ljava/lang/Object;)V",
+          "dex": "classes2.dex",
+          "offset_cu": 82,
+          "dex_byte_offset": "0x24bacc",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            1,
+            3,
+            2
+          ]
+        },
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/p1;->I()V",
+          "dex": "classes2.dex",
+          "offset_cu": 34,
+          "dex_byte_offset": "0x2522a8",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            4,
+            0,
+            1
+          ]
+        },
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/p1;->N(I[Ljava/lang/Float;Ljava/util/HashMap;I)Landroid/graphics/Bitmap;",
+          "dex": "classes2.dex",
+          "offset_cu": 74,
+          "dex_byte_offset": "0x24e4ac",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            0,
+            5,
+            4
+          ]
+        },
+        {
+          "caller": "Lh5/z;->x0()V",
+          "dex": "classes2.dex",
+          "offset_cu": 397,
+          "dex_byte_offset": "0x30b03a",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            6,
+            10,
+            7
+          ]
+        },
+        {
+          "caller": "Lh5/z;->x0()V",
+          "dex": "classes2.dex",
+          "offset_cu": 429,
+          "dex_byte_offset": "0x30b07a",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            4,
+            8,
+            5
+          ]
+        },
+        {
+          "caller": "Lh5/z;->x0()V",
+          "dex": "classes2.dex",
+          "offset_cu": 462,
+          "dex_byte_offset": "0x30b0bc",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            4,
+            7,
+            5
+          ]
+        },
+        {
+          "caller": "Lh5/z;->x0()V",
+          "dex": "classes2.dex",
+          "offset_cu": 495,
+          "dex_byte_offset": "0x30b0fe",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "caller": "Li5/b;->run()V",
+          "dex": "classes2.dex",
+          "offset_cu": 374,
+          "dex_byte_offset": "0x3155a0",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            8,
+            7,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lcom/techor/techorfilter/ImageFilter;->setPhotoStyleLUT(II[FI[FI[F)V",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 18181,
+      "callers": [
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/p1;->P(II)V",
+          "dex": "classes2.dex",
+          "offset_cu": 184,
+          "dex_byte_offset": "0x252540",
+          "opcode": "invoke-virtual/range",
+          "argument_registers": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lio/github/crow_misia/libyuv/Yuv;->allocNativeBuffer(I)Ljava/nio/ByteBuffer;",
+      "dex": "classes2.dex",
+      "access_flags": 273,
+      "method_index": 22741,
+      "callers": [
+        {
+          "caller": "LU7/J;->k(Ljava/util/List;)[Ljava/nio/ByteBuffer;",
+          "dex": "classes2.dex",
+          "offset_cu": 37,
+          "dex_byte_offset": "0x19c75e",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            0,
+            4
+          ]
+        },
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/videoEdit/YUVVideoPackage/q;->a([Lcom/panasonic/jp/lumixlab/util/videoEdit/YUVVideoPackage/x;II)[[B",
+          "dex": "classes2.dex",
+          "offset_cu": 697,
+          "dex_byte_offset": "0x25bbea",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            13,
+            1
+          ]
+        },
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/videoEdit/YUVVideoPackage/q;->a([Lcom/panasonic/jp/lumixlab/util/videoEdit/YUVVideoPackage/x;II)[[B",
+          "dex": "classes2.dex",
+          "offset_cu": 702,
+          "dex_byte_offset": "0x25bbf4",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            13,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lio/github/crow_misia/libyuv/Yuv;->convertI420ToNV12(Ljava/nio/ByteBuffer;IILjava/nio/ByteBuffer;IILjava/nio/ByteBuffer;IILjava/nio/ByteBuffer;IILjava/nio/ByteBuffer;IIII)V",
+      "dex": "classes2.dex",
+      "access_flags": 273,
+      "method_index": 22742,
+      "callers": [
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/videoEdit/YUVVideoPackage/q;->a([Lcom/panasonic/jp/lumixlab/util/videoEdit/YUVVideoPackage/x;II)[[B",
+          "dex": "classes2.dex",
+          "offset_cu": 631,
+          "dex_byte_offset": "0x25bb66",
+          "opcode": "invoke-virtual/range",
+          "argument_registers": [
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lio/github/crow_misia/libyuv/Yuv;->freeNativeBuffer(Ljava/nio/ByteBuffer;)V",
+      "dex": "classes2.dex",
+      "access_flags": 273,
+      "method_index": 22743,
+      "callers": [
+        {
+          "caller": "LO6/f;->run()V",
+          "dex": "classes2.dex",
+          "offset_cu": 14,
+          "dex_byte_offset": "0x186b80",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            0,
+            1
+          ]
+        },
+        {
+          "caller": "LO6/f;->run()V",
+          "dex": "classes2.dex",
+          "offset_cu": 27,
+          "dex_byte_offset": "0x186b9a",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            0,
+            1
+          ]
+        },
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/videoEdit/YUVVideoPackage/q;->a([Lcom/panasonic/jp/lumixlab/util/videoEdit/YUVVideoPackage/x;II)[[B",
+          "dex": "classes2.dex",
+          "offset_cu": 781,
+          "dex_byte_offset": "0x25bc92",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            4,
+            1
+          ]
+        },
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/videoEdit/YUVVideoPackage/q;->a([Lcom/panasonic/jp/lumixlab/util/videoEdit/YUVVideoPackage/x;II)[[B",
+          "dex": "classes2.dex",
+          "offset_cu": 784,
+          "dex_byte_offset": "0x25bc98",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            4,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lio/github/crow_misia/libyuv/Yuv;->rotateAndroid420ToI420Rotate(Ljava/nio/ByteBuffer;IILjava/nio/ByteBuffer;IILjava/nio/ByteBuffer;IIILjava/nio/ByteBuffer;IILjava/nio/ByteBuffer;IILjava/nio/ByteBuffer;IIIII)V",
+      "dex": "classes2.dex",
+      "access_flags": 273,
+      "method_index": 22744,
+      "callers": [
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/videoEdit/YUVVideoPackage/q;->a([Lcom/panasonic/jp/lumixlab/util/videoEdit/YUVVideoPackage/x;II)[[B",
+          "dex": "classes2.dex",
+          "offset_cu": 184,
+          "dex_byte_offset": "0x25b7e8",
+          "opcode": "invoke-virtual/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lio/github/crow_misia/libyuv/Yuv;->scaleI420Scale(Ljava/nio/ByteBuffer;IILjava/nio/ByteBuffer;IILjava/nio/ByteBuffer;IIIILjava/nio/ByteBuffer;IILjava/nio/ByteBuffer;IILjava/nio/ByteBuffer;IIIII)V",
+      "dex": "classes2.dex",
+      "access_flags": 273,
+      "method_index": 22745,
+      "callers": [
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/videoEdit/YUVVideoPackage/q;->a([Lcom/panasonic/jp/lumixlab/util/videoEdit/YUVVideoPackage/x;II)[[B",
+          "dex": "classes2.dex",
+          "offset_cu": 330,
+          "dex_byte_offset": "0x25b90c",
+          "opcode": "invoke-virtual/range",
+          "argument_registers": [
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lio/github/crow_misia/libyuv/Yuv;->scaleNV12Scale(Ljava/nio/ByteBuffer;IILjava/nio/ByteBuffer;IIIILjava/nio/ByteBuffer;IILjava/nio/ByteBuffer;IIIII)V",
+      "dex": "classes2.dex",
+      "access_flags": 273,
+      "method_index": 22746,
+      "callers": [
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/videoEdit/YUVVideoPackage/q;->a([Lcom/panasonic/jp/lumixlab/util/videoEdit/YUVVideoPackage/x;II)[[B",
+          "dex": "classes2.dex",
+          "offset_cu": 748,
+          "dex_byte_offset": "0x25bc50",
+          "opcode": "invoke-virtual/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Ljp/co/cyberagent/android/gpuimage/GPUImageNativeLibrary;->YUVtoRBGA([BII[I)V",
+      "dex": "classes2.dex",
+      "access_flags": 265,
+      "method_index": 25034,
+      "callers": [
+        {
+          "caller": "Lu7/c;->run()V",
+          "dex": "classes2.dex",
+          "offset_cu": 16,
+          "dex_byte_offset": "0x37d130",
+          "opcode": "invoke-static",
+          "argument_registers": [
+            3,
+            4,
+            5,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Ljp/co/cyberagent/android/gpuimage/GPUImageNativeLibrary;->adjustBitmap(Landroid/graphics/Bitmap;)V",
+      "dex": "classes2.dex",
+      "access_flags": 265,
+      "method_index": 25035,
+      "callers": [
+        {
+          "caller": "Lu7/b;->a(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;",
+          "dex": "classes2.dex",
+          "offset_cu": 146,
+          "dex_byte_offset": "0x37d9d8",
+          "opcode": "invoke-static",
+          "argument_registers": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lwseemann/media/FFmpegMediaMetadataRetriever;->_getFrameAtTime(JI)[B",
+      "dex": "classes2.dex",
+      "access_flags": 258,
+      "method_index": 28638,
+      "callers": [
+        {
+          "caller": "Lwseemann/media/FFmpegMediaMetadataRetriever;->getFrameAtTime(J)Landroid/graphics/Bitmap;",
+          "dex": "classes2.dex",
+          "offset_cu": 1,
+          "dex_byte_offset": "0x387106",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "caller": "Lwseemann/media/FFmpegMediaMetadataRetriever;->getFrameAtTime(JI)Landroid/graphics/Bitmap;",
+          "dex": "classes2.dex",
+          "offset_cu": 5,
+          "dex_byte_offset": "0x387132",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lwseemann/media/FFmpegMediaMetadataRetriever;->_getScaledFrameAtTime(JIII)[B",
+      "dex": "classes2.dex",
+      "access_flags": 258,
+      "method_index": 28639,
+      "callers": [
+        {
+          "caller": "Lwseemann/media/FFmpegMediaMetadataRetriever;->getScaledFrameAtTime(JII)Landroid/graphics/Bitmap;",
+          "dex": "classes2.dex",
+          "offset_cu": 5,
+          "dex_byte_offset": "0x387176",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "caller": "Lwseemann/media/FFmpegMediaMetadataRetriever;->getScaledFrameAtTime(JIII)Landroid/graphics/Bitmap;",
+          "dex": "classes2.dex",
+          "offset_cu": 5,
+          "dex_byte_offset": "0x3871a2",
+          "opcode": "invoke-direct/range",
+          "argument_registers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lwseemann/media/FFmpegMediaMetadataRetriever;->_setDataSource(Landroid/media/MediaDataSource;)V",
+      "dex": "classes2.dex",
+      "access_flags": 258,
+      "method_index": 28640,
+      "callers": [
+        {
+          "caller": "Lwseemann/media/FFmpegMediaMetadataRetriever;->setDataSource(Landroid/media/MediaDataSource;)V",
+          "dex": "classes2.dex",
+          "offset_cu": 0,
+          "dex_byte_offset": "0x387454",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lwseemann/media/FFmpegMediaMetadataRetriever;->_setDataSource(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V",
+      "dex": "classes2.dex",
+      "access_flags": 258,
+      "method_index": 28641,
+      "callers": [
+        {
+          "caller": "Lwseemann/media/FFmpegMediaMetadataRetriever;->setDataSource(Ljava/lang/String;Ljava/util/Map;)V",
+          "dex": "classes2.dex",
+          "offset_cu": 52,
+          "dex_byte_offset": "0x387500",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            5,
+            6,
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lwseemann/media/FFmpegMediaMetadataRetriever;->native_finalize()V",
+      "dex": "classes2.dex",
+      "access_flags": 274,
+      "method_index": 28653,
+      "callers": [
+        {
+          "caller": "Lwseemann/media/FFmpegMediaMetadataRetriever;->finalize()V",
+          "dex": "classes2.dex",
+          "offset_cu": 0,
+          "dex_byte_offset": "0x387284",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lwseemann/media/FFmpegMediaMetadataRetriever;->native_getMetadata(ZZLjava/util/HashMap;)Ljava/util/HashMap;",
+      "dex": "classes2.dex",
+      "access_flags": 274,
+      "method_index": 28654,
+      "callers": [
+        {
+          "caller": "Lwseemann/media/FFmpegMediaMetadataRetriever;->getMetadata()Lta/a;",
+          "dex": "classes2.dex",
+          "offset_cu": 7,
+          "dex_byte_offset": "0x3871ea",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            3,
+            1,
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lwseemann/media/FFmpegMediaMetadataRetriever;->native_init()V",
+      "dex": "classes2.dex",
+      "access_flags": 266,
+      "method_index": 28655,
+      "callers": [
+        {
+          "caller": "Lwseemann/media/FFmpegMediaMetadataRetriever;-><clinit>()V",
+          "dex": "classes2.dex",
+          "offset_cu": 32,
+          "dex_byte_offset": "0x38724c",
+          "opcode": "invoke-static",
+          "argument_registers": []
+        }
+      ]
+    },
+    {
+      "method": "Lwseemann/media/FFmpegMediaMetadataRetriever;->native_setup()V",
+      "dex": "classes2.dex",
+      "access_flags": 258,
+      "method_index": 28656,
+      "callers": [
+        {
+          "caller": "Lwseemann/media/FFmpegMediaMetadataRetriever;-><init>()V",
+          "dex": "classes2.dex",
+          "offset_cu": 3,
+          "dex_byte_offset": "0x38726a",
+          "opcode": "invoke-direct",
+          "argument_registers": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lwseemann/media/FFmpegMediaMetadataRetriever;->extractMetadata(Ljava/lang/String;)Ljava/lang/String;",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 28643,
+      "callers": [
+        {
+          "caller": "Lwseemann/media/FFmpegMediaMetadataRetriever;->createBitmap([B)Landroid/graphics/Bitmap;",
+          "dex": "classes2.dex",
+          "offset_cu": 6,
+          "dex_byte_offset": "0x38704c",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            10,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lwseemann/media/FFmpegMediaMetadataRetriever;->extractMetadataFromChapter(Ljava/lang/String;I)Ljava/lang/String;",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 28644,
+      "callers": []
+    },
+    {
+      "method": "Lwseemann/media/FFmpegMediaMetadataRetriever;->getEmbeddedPicture()[B",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 28646,
+      "callers": []
+    },
+    {
+      "method": "Lwseemann/media/FFmpegMediaMetadataRetriever;->release()V",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 28657,
+      "callers": [
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/b0;->B(Ljava/lang/String;J)Landroid/graphics/Bitmap;",
+          "dex": "classes2.dex",
+          "offset_cu": 12,
+          "dex_byte_offset": "0x23a88c",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lwseemann/media/FFmpegMediaMetadataRetriever;->setDataSource(Ljava/io/FileDescriptor;JJ)V",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 28661,
+      "callers": [
+        {
+          "caller": "Lwseemann/media/FFmpegMediaMetadataRetriever;->setDataSource(Landroid/content/Context;Landroid/net/Uri;)V",
+          "dex": "classes2.dex",
+          "offset_cu": 72,
+          "dex_byte_offset": "0x387348",
+          "opcode": "invoke-virtual/range",
+          "argument_registers": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "caller": "Lwseemann/media/FFmpegMediaMetadataRetriever;->setDataSource(Ljava/io/FileDescriptor;)V",
+          "dex": "classes2.dex",
+          "offset_cu": 9,
+          "dex_byte_offset": "0x38747e",
+          "opcode": "invoke-virtual/range",
+          "argument_registers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lwseemann/media/FFmpegMediaMetadataRetriever;->setDataSource(Ljava/lang/String;)V",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 28662,
+      "callers": [
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/b0;->B(Ljava/lang/String;J)Landroid/graphics/Bitmap;",
+          "dex": "classes2.dex",
+          "offset_cu": 5,
+          "dex_byte_offset": "0x23a87e",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            0,
+            1
+          ]
+        },
+        {
+          "caller": "Lwseemann/media/FFmpegMediaMetadataRetriever;->setDataSource(Landroid/content/Context;Landroid/net/Uri;)V",
+          "dex": "classes2.dex",
+          "offset_cu": 121,
+          "dex_byte_offset": "0x3873aa",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            9,
+            10
+          ]
+        },
+        {
+          "caller": "Lwseemann/media/FFmpegMediaMetadataRetriever;->setDataSource(Landroid/content/Context;Landroid/net/Uri;)V",
+          "dex": "classes2.dex",
+          "offset_cu": 140,
+          "dex_byte_offset": "0x3873d0",
+          "opcode": "invoke-virtual",
+          "argument_registers": [
+            9,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "method": "Lwseemann/media/FFmpegMediaMetadataRetriever;->setSurface(Ljava/lang/Object;)V",
+      "dex": "classes2.dex",
+      "access_flags": 257,
+      "method_index": 28664,
+      "callers": []
+    }
+  ]
+}

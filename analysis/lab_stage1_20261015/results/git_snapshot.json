@@ -1,0 +1,9 @@
+{
+  "branch": "codex/lumix-lab-stage1-20261015",
+  "starting_environment_commit": "4c83e428ee586aa8166e4da350a0441b2b27fd26",
+  "fork_main": "8f625cfabb31e8a71177b86e2b63a69c686de5e8",
+  "upstream_main": "8f625cfabb31e8a71177b86e2b63a69c686de5e8",
+  "main_divergence": "0\t0",
+  "original_work_preserved": true,
+  "untracked_downloads_and_attachments_not_staged": true
+}

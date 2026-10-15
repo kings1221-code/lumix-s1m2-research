@@ -1,0 +1,93 @@
+[
+  {
+    "method": "Lh6/a;->A(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lg8/A0;)Loa/h;",
+    "annotation": {
+      "type": "Lsa/o;",
+      "values": {
+        "value": "firmware/send"
+      }
+    },
+    "callers": [
+      {
+        "caller": "LR5/h;->b(Ljava/lang/String;Ljava/lang/String;Lg8/y0;ILcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;)V",
+        "dex": "classes2.dex",
+        "offset_cu": 58,
+        "dex_byte_offset": "0x18c3a0",
+        "opcode": "invoke-interface",
+        "argument_registers": [
+          0,
+          1,
+          5,
+          6,
+          7
+        ]
+      }
+    ]
+  },
+  {
+    "method": "Lh6/a;->B(Ljava/lang/String;Ljava/lang/String;)Loa/h;",
+    "annotation": {
+      "type": "Lsa/o;",
+      "values": {
+        "value": "firmware/send-prepare"
+      }
+    },
+    "callers": [
+      {
+        "caller": "LY5/h;->run()V",
+        "dex": "classes2.dex",
+        "offset_cu": 269,
+        "dex_byte_offset": "0x1b314a",
+        "opcode": "invoke-interface",
+        "argument_registers": [
+          1,
+          7,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "method": "Lh6/a;->g(Ljava/lang/String;)Loa/h;",
+    "annotation": {
+      "type": "Lsa/o;",
+      "values": {
+        "value": "firmware/abort-send"
+      }
+    },
+    "callers": [
+      {
+        "caller": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->w0()V",
+        "dex": "classes2.dex",
+        "offset_cu": 66,
+        "dex_byte_offset": "0x215d4c",
+        "opcode": "invoke-interface",
+        "argument_registers": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "method": "Lh6/a;->i()LY6/l;",
+    "annotation": {
+      "type": "Lsa/f;",
+      "values": {
+        "value": "firmware_list.json"
+      }
+    },
+    "callers": [
+      {
+        "caller": "LF5/f;->d(Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateListFragment;)V",
+        "dex": "classes2.dex",
+        "offset_cu": 17,
+        "dex_byte_offset": "0x15072a",
+        "opcode": "invoke-interface",
+        "argument_registers": [
+          0
+        ]
+      }
+    ]
+  }
+]
