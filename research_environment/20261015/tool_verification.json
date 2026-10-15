@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "jadx_version": "1.5.6",
+  "jadx_fixture": {
+    "archive": "jadx-1.5.6-all.jar",
+    "member": "jadx/core/Consts.class",
+    "sha256": "040984a947c80098f0156aa1ba1d02d2dcc99a621e16bd745e2e07518d72df4a"
+  },
+  "aarch64_synthetic_elf": "PASS",
+  "target_code_executed": false,
+  "vendor_apk_dex_native_test": "NOT RUN: original files absent"
+}

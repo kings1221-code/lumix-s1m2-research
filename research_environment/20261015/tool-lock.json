@@ -1,0 +1,38 @@
+{
+  "platform": "Debian 13 Linux x86_64",
+  "provided_prerequisites": {
+    "python": "3.12.14",
+    "openjdk": "21.0.12.1",
+    "binutils-common": "2.44-3"
+  },
+  "tools": [
+    {
+      "name": "jadx",
+      "version": "1.5.6",
+      "url": "https://github.com/skylot/jadx/releases/download/v1.5.6/jadx-1.5.6.zip",
+      "sha256": "545ea2be9c242511bc145755cf4bda2485ade42966e096f8b4d3da2a230e8974",
+      "digest_source": "https://github.com/skylot/jadx/releases/expanded_assets/v1.5.6"
+    },
+    {
+      "name": "binutils-aarch64-linux-gnu",
+      "version": "2.44-3",
+      "url": "https://deb.debian.org/debian/pool/main/b/binutils/binutils-aarch64-linux-gnu_2.44-3_amd64.deb",
+      "sha256": "6e5a9be38121213dda42189a525db01aad4dc52194b577d7d73d659a5843ce6c",
+      "digest_source": "Debian trixie/main amd64 Packages, authenticated by signed InRelease",
+      "inrelease": "https://deb.debian.org/debian/dists/trixie/InRelease",
+      "keyring": "/usr/share/keyrings/debian-archive-keyring.gpg",
+      "keyring_sha256": "506b815cbb32d9b6066b4a2aa524071e071761e7e7f68c3ac74f3061ba852017"
+    }
+  ],
+  "installation_root": "/workspace/research-tools",
+  "package_cache": "/workspace/tool-downloads",
+  "not_needed_for_selected_workflow": [
+    "Android emulator",
+    "adb",
+    "APK rebuild/patch tools",
+    "QEMU",
+    "GPU runtime",
+    "cryptography/PyCryptodome",
+    "MN10300 toolchain"
+  ]
+}

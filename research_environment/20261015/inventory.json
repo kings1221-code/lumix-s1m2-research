@@ -1,0 +1,1620 @@
+{
+  "scope": "offline inventory and static preparation; no vendor execution or device access",
+  "search_roots": [
+    "/workspace/lumix-s1m2-research",
+    "/workspace/library-files",
+    "/workspace/shared",
+    "/workspace/scratch"
+  ],
+  "upstream_commit": "8f625cfabb31e8a71177b86e2b63a69c686de5e8",
+  "fork_main_commit": "8f625cfabb31e8a71177b86e2b63a69c686de5e8",
+  "fork_branches": [
+    {
+      "ref": "origin/contrib/s5-integration-gap-audit-20261014",
+      "commit": "b599d1b99a6f8e0b0cb866f243eb05c67ffdfeae",
+      "fork_only_commits": 1,
+      "upstream_only_commits": 1
+    },
+    {
+      "ref": "origin/contrib/s5-s5m2-research-handoff",
+      "commit": "22dd24c9603736c8b5756740df8fa4b53aea1d22",
+      "fork_only_commits": 0,
+      "upstream_only_commits": 15
+    },
+    {
+      "ref": "origin/contrib/s5m2-baseline-crypto-20261014",
+      "commit": "c388d5d4d6c344b26f707b3fa66f84aa1b43e629",
+      "fork_only_commits": 1,
+      "upstream_only_commits": 1
+    },
+    {
+      "ref": "origin/contrib/s5m2-boot-consumer-audit-20261014",
+      "commit": "3362325de9e36e067f1826575f0fffde24ed98fd",
+      "fork_only_commits": 1,
+      "upstream_only_commits": 1
+    },
+    {
+      "ref": "origin/contrib/s5m2-corpus-handoff-20261014",
+      "commit": "0e9e45c54a6cadf9095a612fe03d34839ef638ff",
+      "fork_only_commits": 1,
+      "upstream_only_commits": 1
+    },
+    {
+      "ref": "origin/main",
+      "commit": "8f625cfabb31e8a71177b86e2b63a69c686de5e8",
+      "fork_only_commits": 0,
+      "upstream_only_commits": 0
+    }
+  ],
+  "public_lab_artifacts": [
+    {
+      "path": "analysis/LUMIX_Lab更新路径_Codex核验_20261008.md",
+      "bytes": 3733,
+      "sha256": "30a747ad9af135da22fd01430c22cd8bfe1489aa3ad5e363976302deaef8fdf4",
+      "expected_public_sha256": "30a747ad9af135da22fd01430c22cd8bfe1489aa3ad5e363976302deaef8fdf4",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/LUMIX_Lab读取入口_Codex核验_20261008.md",
+      "bytes": 2498,
+      "sha256": "e5d8d4bd263646e69bde7a7af5fd9ec629374ddd0ff67b61c28d2d1f2c8ed93a",
+      "expected_public_sha256": "e5d8d4bd263646e69bde7a7af5fd9ec629374ddd0ff67b61c28d2d1f2c8ed93a",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/agy_takeover_20261012/06_lab_control/report.md",
+      "bytes": 7822,
+      "sha256": "55a55c9b1a972b9be1df2894413ba5ce4260ab1f920089e8f371f0eabb1be610",
+      "expected_public_sha256": "55a55c9b1a972b9be1df2894413ba5ce4260ab1f920089e8f371f0eabb1be610",
+      "status": "verified_public_sha256",
+      "publication_status": "sanitized"
+    },
+    {
+      "path": "analysis/agy_takeover_20261012/06_lab_control/results.json",
+      "bytes": 54702,
+      "sha256": "7f99377727da36f20d68d16484bcdd849d0f04fbb20b5bb3388d4af451e6ef99",
+      "expected_public_sha256": "7f99377727da36f20d68d16484bcdd849d0f04fbb20b5bb3388d4af451e6ef99",
+      "status": "verified_public_sha256",
+      "publication_status": "sanitized"
+    },
+    {
+      "path": "analysis/agy_takeover_20261012/06_lab_control/verify_lab_control_codec.py",
+      "bytes": 16568,
+      "sha256": "c8fa0e6305eac0464ed805918fa11230a5691046b059b8699fe3d175aa17ad4d",
+      "expected_public_sha256": "c8fa0e6305eac0464ed805918fa11230a5691046b059b8699fe3d175aa17ad4d",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/agy_takeover_20261012/07_lab_bluetooth/dex_verification.json",
+      "bytes": 71935,
+      "sha256": "e9b3d189f34ab4d48222cbe3e2a94b038d203720ed78c82dd8d5ff9963b3221f",
+      "expected_public_sha256": "e9b3d189f34ab4d48222cbe3e2a94b038d203720ed78c82dd8d5ff9963b3221f",
+      "status": "verified_public_sha256",
+      "publication_status": "sanitized"
+    },
+    {
+      "path": "analysis/agy_takeover_20261012/07_lab_bluetooth/report.md",
+      "bytes": 37128,
+      "sha256": "a38b58bebf7c8727a008460c5aa0882d71dc395a6872dfee667efec4f3b73528",
+      "expected_public_sha256": "a38b58bebf7c8727a008460c5aa0882d71dc395a6872dfee667efec4f3b73528",
+      "status": "verified_public_sha256",
+      "publication_status": "sanitized"
+    },
+    {
+      "path": "analysis/agy_takeover_20261012/07_lab_bluetooth/results.json",
+      "bytes": 17620,
+      "sha256": "55c69eb65e630cd938466b88fbe50759185ccff5247024cd08c586640e5ecf79",
+      "expected_public_sha256": "55c69eb65e630cd938466b88fbe50759185ccff5247024cd08c586640e5ecf79",
+      "status": "verified_public_sha256",
+      "publication_status": "sanitized"
+    },
+    {
+      "path": "analysis/agy_takeover_20261012/07_lab_bluetooth/verify_dex.py",
+      "bytes": 13724,
+      "sha256": "dbc5d62e2d786ca8e18c55946a6098ba057f540e22a01e93979ef41e430dd5dd",
+      "expected_public_sha256": "dbc5d62e2d786ca8e18c55946a6098ba057f540e22a01e93979ef41e430dd5dd",
+      "status": "verified_public_sha256",
+      "publication_status": "sanitized"
+    },
+    {
+      "path": "analysis/agy_takeover_20261012/08_lab_preview/report.md",
+      "bytes": 63790,
+      "sha256": "e8fb746eccff62c5271e2fea7d599d0e68291f59cd604376030c9a59ed48e246",
+      "expected_public_sha256": "e8fb746eccff62c5271e2fea7d599d0e68291f59cd604376030c9a59ed48e246",
+      "status": "verified_public_sha256",
+      "publication_status": "sanitized"
+    },
+    {
+      "path": "analysis/agy_takeover_20261012/08_lab_preview/results.json",
+      "bytes": 23945,
+      "sha256": "3a82148476b969890ea6eed36d89f63c010ca20706cf5ad5caa45fa28755b123",
+      "expected_public_sha256": "3a82148476b969890ea6eed36d89f63c010ca20706cf5ad5caa45fa28755b123",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/agy_takeover_20261012/08_lab_preview/verify_lab_preview.py",
+      "bytes": 3449,
+      "sha256": "ba88adeb0f6067628aedb49d8669f40009f18b4a0e41a65dd380603892009a2b",
+      "expected_public_sha256": "ba88adeb0f6067628aedb49d8669f40009f18b4a0e41a65dd380603892009a2b",
+      "status": "verified_public_sha256",
+      "publication_status": "sanitized"
+    },
+    {
+      "path": "analysis/antigravity_lumix_lab_acquisition_20261008.json",
+      "bytes": 9455,
+      "sha256": "5525e191952115606c6812eff707c592803af5bf064a45f59e3b030de619abca",
+      "expected_public_sha256": "5525e191952115606c6812eff707c592803af5bf064a45f59e3b030de619abca",
+      "status": "verified_public_sha256",
+      "publication_status": "sanitized"
+    },
+    {
+      "path": "analysis/antigravity_lumix_lab_ptp_audit_20261008.json",
+      "bytes": 8496,
+      "sha256": "3c5b606b80082fbe862426573be12fb9c38280fbb517f26f51442aea14825338",
+      "expected_public_sha256": "3c5b606b80082fbe862426573be12fb9c38280fbb517f26f51442aea14825338",
+      "status": "verified_public_sha256",
+      "publication_status": "sanitized"
+    },
+    {
+      "path": "analysis/external_lab_reports_20261012/originals/LUMIX_Lab_WiFi_API_安全审计报告(1).md",
+      "bytes": 6317,
+      "sha256": "ffec9e608d8906011ad3e7ef41541beaeb257aed743643552702304c96c66114",
+      "expected_public_sha256": "ffec9e608d8906011ad3e7ef41541beaeb257aed743643552702304c96c66114",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_connection_20261012/H5_a.java.txt",
+      "bytes": 846,
+      "sha256": "090354ad49cc4eb6d83db39c4598abad77c7c3104641a9518f76e5c99de1c3ee",
+      "expected_public_sha256": "090354ad49cc4eb6d83db39c4598abad77c7c3104641a9518f76e5c99de1c3ee",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_connection_20261012/H5_d.java.txt",
+      "bytes": 4039,
+      "sha256": "f9bf9c8bc82500da373c873385ea5b373dec1935457dc48a0e94f92a29275e4f",
+      "expected_public_sha256": "f9bf9c8bc82500da373c873385ea5b373dec1935457dc48a0e94f92a29275e4f",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_connection_20261012/I5_c.java.txt",
+      "bytes": 2452,
+      "sha256": "6d8deef1dc5649bef8b5352c35e8ad5e3870c3d301d542c3431171ee97dee365",
+      "expected_public_sha256": "6d8deef1dc5649bef8b5352c35e8ad5e3870c3d301d542c3431171ee97dee365",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_connection_20261012/com_panasonic_jp_lumixlab_controller_fragment_CameraWifiConnectFragment.java.txt",
+      "bytes": 2109,
+      "sha256": "583fea08029c8694e51b8285a4a3139040beed010f8a00c65c320e69686ce7ae",
+      "expected_public_sha256": "583fea08029c8694e51b8285a4a3139040beed010f8a00c65c320e69686ce7ae",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_connection_20261012/evidence.json",
+      "bytes": 2595,
+      "sha256": "3a28138e8e899fd4d4f2b4df6c85c84e315a21bb844d84a2371b29dd1b7c8ee6",
+      "expected_public_sha256": "3a28138e8e899fd4d4f2b4df6c85c84e315a21bb844d84a2371b29dd1b7c8ee6",
+      "status": "verified_public_sha256",
+      "publication_status": "sanitized"
+    },
+    {
+      "path": "analysis/lab_connection_20261012/p062f5_Q2.java.txt",
+      "bytes": 2261,
+      "sha256": "42aaed417fd65656d0320c83f6151ef7680f73b09f5ec227c5dd10c3d9d09f9b",
+      "expected_public_sha256": "42aaed417fd65656d0320c83f6151ef7680f73b09f5ec227c5dd10c3d9d09f9b",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_connection_20261012/p062f5_RunnableC1743t1.java.txt",
+      "bytes": 1656,
+      "sha256": "15a7cbc0c8de582abea3b9ea9691d447e982a1f71510a5e0159d725aa50b4525",
+      "expected_public_sha256": "15a7cbc0c8de582abea3b9ea9691d447e982a1f71510a5e0159d725aa50b4525",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_connection_20261012/连接链分析.md",
+      "bytes": 2795,
+      "sha256": "97c96efde17a401df102e9559ba27bd9b10e1543aa5760f446ea6340a9a06ee8",
+      "expected_public_sha256": "97c96efde17a401df102e9559ba27bd9b10e1543aa5760f446ea6340a9a06ee8",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_crypto_callsite_audit_20261010/audit_native.py",
+      "bytes": 2075,
+      "sha256": "b92775bf270196285469b6c77e59e9c8ae777da8482483749ac37964734210e7",
+      "expected_public_sha256": "b92775bf270196285469b6c77e59e9c8ae777da8482483749ac37964734210e7",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_crypto_callsite_audit_20261010/findings.md",
+      "bytes": 2045,
+      "sha256": "97012a337d5d41aba92172313c9b535cf95b75ba9bcf4373602c398e445feee4",
+      "expected_public_sha256": "97012a337d5d41aba92172313c9b535cf95b75ba9bcf4373602c398e445feee4",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_crypto_callsite_audit_20261010/java_crypto_inventory.json",
+      "bytes": 8963,
+      "sha256": "62646671c02296135a9d8d860fa142e3bdc26c61e0915bfd154cc0329227c0a9",
+      "expected_public_sha256": "62646671c02296135a9d8d860fa142e3bdc26c61e0915bfd154cc0329227c0a9",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_crypto_callsite_audit_20261010/native_symbols.json",
+      "bytes": 4539976,
+      "sha256": "b0ea750b8eb6f80b98078c8b2fa3741cc2f25d53b6e1952e6d0b5349423dfd39",
+      "expected_public_sha256": "b0ea750b8eb6f80b98078c8b2fa3741cc2f25d53b6e1952e6d0b5349423dfd39",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/backup.py",
+      "bytes": 1853,
+      "sha256": "813d8c95669db564c125622f5812902b42d84fe23c1d4f9bf0e21765d421b402",
+      "expected_public_sha256": "813d8c95669db564c125622f5812902b42d84fe23c1d4f9bf0e21765d421b402",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/list_after_backup.json",
+      "bytes": 6938,
+      "sha256": "3a15e86e835592606473c1fabbcfe204daa5246d11bdd4f6efef2ecc4e5702a9",
+      "expected_public_sha256": "3a15e86e835592606473c1fabbcfe204daa5246d11bdd4f6efef2ecc4e5702a9",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/manifest.json",
+      "bytes": 13913,
+      "sha256": "38b1a36c3d24f9c5182ef99e508425dcc65837b864ee8a0623a320416b28904c",
+      "expected_public_sha256": "38b1a36c3d24f9c5182ef99e508425dcc65837b864ee8a0623a320416b28904c",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/slot_02.cube",
+      "bytes": 956987,
+      "sha256": "8d381f947eefee42312656057e8d4c181495ac0845f15cbae548f4588b47655c",
+      "expected_public_sha256": "8d381f947eefee42312656057e8d4c181495ac0845f15cbae548f4588b47655c",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/slot_03.cube",
+      "bytes": 957326,
+      "sha256": "f241832de87aa2c17610e9ef4639ec43e0d0ce27169330605657d1c3388d3a3f",
+      "expected_public_sha256": "f241832de87aa2c17610e9ef4639ec43e0d0ce27169330605657d1c3388d3a3f",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/slot_04.cube",
+      "bytes": 1062712,
+      "sha256": "e803ab32ac716b0ccb0c26c222923005fd79eaf2060a93b272c00ebe71ad7ad2",
+      "expected_public_sha256": "e803ab32ac716b0ccb0c26c222923005fd79eaf2060a93b272c00ebe71ad7ad2",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/slot_05.cube",
+      "bytes": 1015959,
+      "sha256": "6644f91a85c77465401c291bc4dcf4d8bac0533ef6c36e30d8efe5dfeb702568",
+      "expected_public_sha256": "6644f91a85c77465401c291bc4dcf4d8bac0533ef6c36e30d8efe5dfeb702568",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/slot_06.cube",
+      "bytes": 956658,
+      "sha256": "441b6b7645513cff55991846bc2c9dd79a68e62dcc9b8fb05189332490801d0c",
+      "expected_public_sha256": "441b6b7645513cff55991846bc2c9dd79a68e62dcc9b8fb05189332490801d0c",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/slot_07.cube",
+      "bytes": 489869,
+      "sha256": "268aeb42b6f03d6d425dffd0b21a3dcfa9aaeb2c08c16a8be6bf0971a72f3237",
+      "expected_public_sha256": "268aeb42b6f03d6d425dffd0b21a3dcfa9aaeb2c08c16a8be6bf0971a72f3237",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/slot_08.cube",
+      "bytes": 1023269,
+      "sha256": "112bf99c72613e16c45165477fae8f5d7d0bf09f401413febac3bdeaa71cd2ce",
+      "expected_public_sha256": "112bf99c72613e16c45165477fae8f5d7d0bf09f401413febac3bdeaa71cd2ce",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/slot_09.cube",
+      "bytes": 1013212,
+      "sha256": "80887ec7be29f55874b553608d48b710cb8e3e4e95e100dd498e0c6b850030ef",
+      "expected_public_sha256": "80887ec7be29f55874b553608d48b710cb8e3e4e95e100dd498e0c6b850030ef",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/slot_10.cube",
+      "bytes": 1033903,
+      "sha256": "a8f3b825bd182b3ef789fb4105699df4af776ec4fa5878e5f54c92cf092b8e02",
+      "expected_public_sha256": "a8f3b825bd182b3ef789fb4105699df4af776ec4fa5878e5f54c92cf092b8e02",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/slot_11.cube",
+      "bytes": 1061963,
+      "sha256": "f06e0b1196d65092e63f474df17ab7edeb8a2d2028d7597a4c9dd4c3af7eb2ca",
+      "expected_public_sha256": "f06e0b1196d65092e63f474df17ab7edeb8a2d2028d7597a4c9dd4c3af7eb2ca",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/slot_12.cube",
+      "bytes": 1066013,
+      "sha256": "93e45344cce281f37f8c235b53856d80897af7c33f5bfd27148147d35005566d",
+      "expected_public_sha256": "93e45344cce281f37f8c235b53856d80897af7c33f5bfd27148147d35005566d",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/slot_13.cube",
+      "bytes": 719350,
+      "sha256": "7eb13ab4cb2f732811d594281fc6394190e266f86e9942354f4b0c9f86434345",
+      "expected_public_sha256": "7eb13ab4cb2f732811d594281fc6394190e266f86e9942354f4b0c9f86434345",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/slot_14.cube",
+      "bytes": 837861,
+      "sha256": "1b882eb0a089baa718a0f2eb30d6f11d479b839913803a7263eb50943c93e7cc",
+      "expected_public_sha256": "1b882eb0a089baa718a0f2eb30d6f11d479b839913803a7263eb50943c93e7cc",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/slot_15.cube",
+      "bytes": 1033654,
+      "sha256": "66ce3238cc82090f723d95ce891d10b7d2a6ddc356376b00694c69fab4f1725e",
+      "expected_public_sha256": "66ce3238cc82090f723d95ce891d10b7d2a6ddc356376b00694c69fab4f1725e",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/slot_16.cube",
+      "bytes": 1066103,
+      "sha256": "7b4e60ad5ced526286605bdbf564411c11854e156c4c5a9beac77b9426b3c4f0",
+      "expected_public_sha256": "7b4e60ad5ced526286605bdbf564411c11854e156c4c5a9beac77b9426b3c4f0",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/slot_17.cube",
+      "bytes": 1065104,
+      "sha256": "8254935f1b4116114b01ae9a571ffd76c14fca59c3d97498de8ef9a9c6ce254a",
+      "expected_public_sha256": "8254935f1b4116114b01ae9a571ffd76c14fca59c3d97498de8ef9a9c6ce254a",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/slot_18.cube",
+      "bytes": 1035468,
+      "sha256": "38fcaad7c7556ccb29f21b3017c1f34e0862848616248799f58dc0f412169548",
+      "expected_public_sha256": "38fcaad7c7556ccb29f21b3017c1f34e0862848616248799f58dc0f412169548",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/slot_19.cube",
+      "bytes": 1066027,
+      "sha256": "94a0f7d97fed28ffa2ff4c41cf37867c6303869043270ac31fdbc3e193570af6",
+      "expected_public_sha256": "94a0f7d97fed28ffa2ff4c41cf37867c6303869043270ac31fdbc3e193570af6",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/slot_20.cube",
+      "bytes": 867966,
+      "sha256": "685111fe592c26121f67077e824c2f3f9f3842ad802b52f2e36986796025e8c3",
+      "expected_public_sha256": "685111fe592c26121f67077e824c2f3f9f3842ad802b52f2e36986796025e8c3",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/slot_21.cube",
+      "bytes": 875581,
+      "sha256": "1a03d8b2526056a22f6918c2c070b1e92d9b3d397cbe651cb2af93ce59a49b47",
+      "expected_public_sha256": "1a03d8b2526056a22f6918c2c070b1e92d9b3d397cbe651cb2af93ce59a49b47",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/slot_22.cube",
+      "bytes": 1021213,
+      "sha256": "081f6fdd3f2c6e5d744de2b46e159449c8b4c30206214d75c134d5a1a8322bf0",
+      "expected_public_sha256": "081f6fdd3f2c6e5d744de2b46e159449c8b4c30206214d75c134d5a1a8322bf0",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/slot_23.cube",
+      "bytes": 1066109,
+      "sha256": "aa620a0151fb499fdd0221517340c11c9f98dee8b884068c1f482ccca2de147a",
+      "expected_public_sha256": "aa620a0151fb499fdd0221517340c11c9f98dee8b884068c1f482ccca2de147a",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/slot_24.cube",
+      "bytes": 782122,
+      "sha256": "d1b06e31179acb3a86c8be028efafbe4f9caee485ee7c68761f0eaf1e1a61e69",
+      "expected_public_sha256": "d1b06e31179acb3a86c8be028efafbe4f9caee485ee7c68761f0eaf1e1a61e69",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/slot_25.cube",
+      "bytes": 960569,
+      "sha256": "262ad4c6a681f05f93a4bef1073987981c1639851816d062fe6e13bacd5b7ff1",
+      "expected_public_sha256": "262ad4c6a681f05f93a4bef1073987981c1639851816d062fe6e13bacd5b7ff1",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/slot_26.cube",
+      "bytes": 578326,
+      "sha256": "81b38bf56dfae7b5332e82fbbdbfc8d9375f3ce315a9385f3dcc289eb2726095",
+      "expected_public_sha256": "81b38bf56dfae7b5332e82fbbdbfc8d9375f3ce315a9385f3dcc289eb2726095",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/slot_28.cube",
+      "bytes": 811155,
+      "sha256": "cdbc0260370416bd9f18097e838d127b4305dd1b9b82a9141f0ce364f89b00cd",
+      "expected_public_sha256": "cdbc0260370416bd9f18097e838d127b4305dd1b9b82a9141f0ce364f89b00cd",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/slot_29.cube",
+      "bytes": 1065793,
+      "sha256": "824e461b1d0a0a1725e6a2121457d73bccf9e9dec65844cb7fbdeaccfd3c7d05",
+      "expected_public_sha256": "824e461b1d0a0a1725e6a2121457d73bccf9e9dec65844cb7fbdeaccfd3c7d05",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/slot_30.cube",
+      "bytes": 888641,
+      "sha256": "9255f2bad5cd9a974a4883ad29ad418d779d7712ab142b50754f2b44f2b2f3a8",
+      "expected_public_sha256": "9255f2bad5cd9a974a4883ad29ad418d779d7712ab142b50754f2b44f2b2f3a8",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/slot_31.cube",
+      "bytes": 553033,
+      "sha256": "ebe636d697ff5b87f4a123ef81dff09886b9d3c4f0d1ae2980b85e4f206914d2",
+      "expected_public_sha256": "ebe636d697ff5b87f4a123ef81dff09886b9d3c4f0d1ae2980b85e4f206914d2",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/slot_32.cube",
+      "bytes": 987418,
+      "sha256": "1fb2cea6fe652517e10bba09b606b32e0576863f8aaf8e2e8b690ae98ffa4a59",
+      "expected_public_sha256": "1fb2cea6fe652517e10bba09b606b32e0576863f8aaf8e2e8b690ae98ffa4a59",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/slot_33.cube",
+      "bytes": 891135,
+      "sha256": "db61ef3cea548c980e9baa4481ed8c12c0f066d07da7746953d845359f47c88d",
+      "expected_public_sha256": "db61ef3cea548c980e9baa4481ed8c12c0f066d07da7746953d845359f47c88d",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/slot_34.cube",
+      "bytes": 898498,
+      "sha256": "9f52df0013c28c7e6335c6b21d20f590e4c164e71e176b7b70d4d1c175fc9d0a",
+      "expected_public_sha256": "9f52df0013c28c7e6335c6b21d20f590e4c164e71e176b7b70d4d1c175fc9d0a",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/slot_35.cube",
+      "bytes": 1066151,
+      "sha256": "7d5051e72d67f54d60f0cda412bba9fa7d0807229d6bd9adc3f7c5ef02fab390",
+      "expected_public_sha256": "7d5051e72d67f54d60f0cda412bba9fa7d0807229d6bd9adc3f7c5ef02fab390",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/slot_36.cube",
+      "bytes": 1066147,
+      "sha256": "5301be377f5540a876d62bc712ce12c8725ae17dec2b9938ffb30a53d4205d03",
+      "expected_public_sha256": "5301be377f5540a876d62bc712ce12c8725ae17dec2b9938ffb30a53d4205d03",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/slot_37.cube",
+      "bytes": 1066517,
+      "sha256": "64c1b0720b21b8b5b45f818aa60dfb3a72c65d2cb0cb9c14bcf0d44308fc0cfa",
+      "expected_public_sha256": "64c1b0720b21b8b5b45f818aa60dfb3a72c65d2cb0cb9c14bcf0d44308fc0cfa",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/slot_38.cube",
+      "bytes": 1064655,
+      "sha256": "89d6afe3b05c063b8f3be064067f03abdafb6cd478ed555f01a66614d0d70885",
+      "expected_public_sha256": "89d6afe3b05c063b8f3be064067f03abdafb6cd478ed555f01a66614d0d70885",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/slot_39.cube",
+      "bytes": 1066335,
+      "sha256": "c66c6e6923821dcf8983716161d6b2c8ff799b39d99822af655630a0a1b691a7",
+      "expected_public_sha256": "c66c6e6923821dcf8983716161d6b2c8ff799b39d99822af655630a0a1b691a7",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/slot_40.cube",
+      "bytes": 1027468,
+      "sha256": "4bdf0cf87d658ab9766c197981c70cf328f64afefeedcbb3ec5289372ee4b879",
+      "expected_public_sha256": "4bdf0cf87d658ab9766c197981c70cf328f64afefeedcbb3ec5289372ee4b879",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_backup_20261012/summary.json",
+      "bytes": 165,
+      "sha256": "4dc8017dd975379343e7287587340bce1804af9a8f4c5f048cb35cd564b3a4b4",
+      "expected_public_sha256": "4dc8017dd975379343e7287587340bce1804af9a8f4c5f048cb35cd564b3a4b4",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_protocol_20261010/cube_interpolation_disassembly.txt",
+      "bytes": 35873,
+      "sha256": "082eaf3b563d8547437fd5745323814845591950cea93bf53e50b66dfc37fa93",
+      "expected_public_sha256": "082eaf3b563d8547437fd5745323814845591950cea93bf53e50b66dfc37fa93",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_protocol_20261010/cube_merge_disassembly.txt",
+      "bytes": 15053,
+      "sha256": "1bf6a6d6f918e5502d8faaa245a0be764bdc14b80b9e6a64c9f0ccc112769eeb",
+      "expected_public_sha256": "1bf6a6d6f918e5502d8faaa245a0be764bdc14b80b9e6a64c9f0ccc112769eeb",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_protocol_20261010/cube_parser_disassembly.txt",
+      "bytes": 12803,
+      "sha256": "ee5eddbf01049e0210e313118f3c826b00a4a1c2c7abae61794bfca739ca8d3c",
+      "expected_public_sha256": "ee5eddbf01049e0210e313118f3c826b00a4a1c2c7abae61794bfca739ca8d3c",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_protocol_20261010/evidence.json",
+      "bytes": 3878,
+      "sha256": "3f0634fbf5333c6b09555362923159e75827dd0a2ca4d7f0a577e21fc04034c3",
+      "expected_public_sha256": "3f0634fbf5333c6b09555362923159e75827dd0a2ca4d7f0a577e21fc04034c3",
+      "status": "verified_public_sha256",
+      "publication_status": "sanitized"
+    },
+    {
+      "path": "analysis/lab_lut_protocol_20261010/generation_chain_evidence.json",
+      "bytes": 1995,
+      "sha256": "9143c6340cbdc06664d5272669583a3f42a5c43a4fe6900e17d07177d2e3e529",
+      "expected_public_sha256": "9143c6340cbdc06664d5272669583a3f42a5c43a4fe6900e17d07177d2e3e529",
+      "status": "verified_public_sha256",
+      "publication_status": "sanitized"
+    },
+    {
+      "path": "analysis/lab_lut_protocol_20261010/inspect_lut_file.py",
+      "bytes": 1654,
+      "sha256": "144856ed59d394d76de07a5fa815bbe789aafb2cbe3bb84cdc984cb8a491c24d",
+      "expected_public_sha256": "144856ed59d394d76de07a5fa815bbe789aafb2cbe3bb84cdc984cb8a491c24d",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_protocol_20261010/native_merge_evidence.json",
+      "bytes": 1068,
+      "sha256": "8f815582ca77365be1b0a2755ad50547149035c10930142abf657d2603dbc96a",
+      "expected_public_sha256": "8f815582ca77365be1b0a2755ad50547149035c10930142abf657d2603dbc96a",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_protocol_20261010/parse_lut_info.py",
+      "bytes": 1884,
+      "sha256": "6a956ea4b6fec018ce669d0fa513937134fd18513e1cbb291322cdfe378be245",
+      "expected_public_sha256": "6a956ea4b6fec018ce669d0fa513937134fd18513e1cbb291322cdfe378be245",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_protocol_20261010/session_evidence.json",
+      "bytes": 955,
+      "sha256": "c26968197ef7dcf10449ec4dd9ce5ff4080bf6fa3f8accb0cca4333e28192aef",
+      "expected_public_sha256": "c26968197ef7dcf10449ec4dd9ce5ff4080bf6fa3f8accb0cca4333e28192aef",
+      "status": "verified_public_sha256",
+      "publication_status": "sanitized"
+    },
+    {
+      "path": "analysis/lab_lut_protocol_20261010/test_lut_file.py",
+      "bytes": 916,
+      "sha256": "e9e448bb35728c958923d98851f9cf7809b8e3210b6d655cfa3e17c3c5927f06",
+      "expected_public_sha256": "e9e448bb35728c958923d98851f9cf7809b8e3210b6d655cfa3e17c3c5927f06",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_protocol_20261010/test_lut_info.py",
+      "bytes": 1245,
+      "sha256": "ec7891a3582e96ede46e17aa14b6c2d6cff344b54eb264629c5b049881cef12e",
+      "expected_public_sha256": "ec7891a3582e96ede46e17aa14b6c2d6cff344b54eb264629c5b049881cef12e",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_protocol_20261010/upload_chain_evidence.json",
+      "bytes": 2508,
+      "sha256": "2bc9a100ce52c8e7c9ea1fe15a7c1ff1db24b923eda7f50df3331280c88432cc",
+      "expected_public_sha256": "2bc9a100ce52c8e7c9ea1fe15a7c1ff1db24b923eda7f50df3331280c88432cc",
+      "status": "verified_public_sha256",
+      "publication_status": "sanitized"
+    },
+    {
+      "path": "analysis/lab_lut_protocol_20261010/wire_evidence.json",
+      "bytes": 2333,
+      "sha256": "c05c2657cd36a61377ae67208b504425735f2473661c2c2e5c7635bf4aee2fa4",
+      "expected_public_sha256": "c05c2657cd36a61377ae67208b504425735f2473661c2c2e5c7635bf4aee2fa4",
+      "status": "verified_public_sha256",
+      "publication_status": "sanitized"
+    },
+    {
+      "path": "analysis/lab_lut_protocol_20261010/wire_preview.py",
+      "bytes": 1019,
+      "sha256": "ae8a356310463aaa0ad2c0ff81800a8e85a5f4925ebd670fc61ae455effbab51",
+      "expected_public_sha256": "ae8a356310463aaa0ad2c0ff81800a8e85a5f4925ebd670fc61ae455effbab51",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_lut_protocol_20261010/结论.md",
+      "bytes": 14079,
+      "sha256": "a86738c4489edbf4c3aae24bbd3d88c22294a6205f8211e3620bfe1f0ec07919",
+      "expected_public_sha256": "a86738c4489edbf4c3aae24bbd3d88c22294a6205f8211e3620bfe1f0ec07919",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_read_baseline_20261012/Himalayas-V_slot2.cube",
+      "bytes": 956987,
+      "sha256": "8d381f947eefee42312656057e8d4c181495ac0845f15cbae548f4588b47655c",
+      "expected_public_sha256": "8d381f947eefee42312656057e8d4c181495ac0845f15cbae548f4588b47655c",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_read_baseline_20261012/cube_validation.json",
+      "bytes": 167,
+      "sha256": "3c4f68c3d0569d661aeb0a169f3a79d70365185c1c8de791a2d67f31017b63e8",
+      "expected_public_sha256": "3c4f68c3d0569d661aeb0a169f3a79d70365185c1c8de791a2d67f31017b63e8",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_read_baseline_20261012/lut_slot2.bin",
+      "bytes": 956987,
+      "sha256": "8d381f947eefee42312656057e8d4c181495ac0845f15cbae548f4588b47655c",
+      "expected_public_sha256": "8d381f947eefee42312656057e8d4c181495ac0845f15cbae548f4588b47655c",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_read_baseline_20261012/photostyle_display.bin",
+      "bytes": 353,
+      "sha256": "6bf1fbbd81b80bbf43a51ef0765d83acb7acfc6c3f55eed368b3b4951637d973",
+      "expected_public_sha256": "6bf1fbbd81b80bbf43a51ef0765d83acb7acfc6c3f55eed368b3b4951637d973",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_read_baseline_20261012/photostyle_display_retry.bin",
+      "bytes": 341,
+      "sha256": "664f2b1654c363a6348b688d5d475ed9ec0e7ef3c72f6f315f37fe97a2fe63eb",
+      "expected_public_sha256": "664f2b1654c363a6348b688d5d475ed9ec0e7ef3c72f6f315f37fe97a2fe63eb",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_read_baseline_20261012/reads.json",
+      "bytes": 889,
+      "sha256": "dbcbce06e3f4fdcee1ccebd42d788658b4648a04bd4ac6711fe053f1c0044e54",
+      "expected_public_sha256": "dbcbce06e3f4fdcee1ccebd42d788658b4648a04bd4ac6711fe053f1c0044e54",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_read_baseline_20261012/remote_state.bin",
+      "bytes": 353,
+      "sha256": "6bf1fbbd81b80bbf43a51ef0765d83acb7acfc6c3f55eed368b3b4951637d973",
+      "expected_public_sha256": "6bf1fbbd81b80bbf43a51ef0765d83acb7acfc6c3f55eed368b3b4951637d973",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_read_baseline_20261012/remote_state_retry.bin",
+      "bytes": 663,
+      "sha256": "2ff1c050036dd3f00feeeb4f60ed16d3a61fb23737a19d1cb679b39ea4574b86",
+      "expected_public_sha256": "2ff1c050036dd3f00feeeb4f60ed16d3a61fb23737a19d1cb679b39ea4574b86",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_read_baseline_20261012/remote_state_retry.json",
+      "bytes": 575,
+      "sha256": "3da1a79b4dfdee69a1a14b8cb4525c5d999e55297adedd79a72b769ad3e92991",
+      "expected_public_sha256": "3da1a79b4dfdee69a1a14b8cb4525c5d999e55297adedd79a72b769ad3e92991",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_read_baseline_20261012/retry_summary.json",
+      "bytes": 196,
+      "sha256": "488d377ea3040d230d4dd9d39f081e362607872b8c08142f15c8caacb1093ffa",
+      "expected_public_sha256": "488d377ea3040d230d4dd9d39f081e362607872b8c08142f15c8caacb1093ffa",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_read_baseline_20261012/读取成果.md",
+      "bytes": 1618,
+      "sha256": "7438b16b582ae77509c85526ca8b754576cc61db66c148f2f60326d3840021d9",
+      "expected_public_sha256": "7438b16b582ae77509c85526ca8b754576cc61db66c148f2f60326d3840021d9",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_roundtrip_preparation_20261012/Himalayas-V_roundtrip.cube",
+      "bytes": 956987,
+      "sha256": "8d381f947eefee42312656057e8d4c181495ac0845f15cbae548f4588b47655c",
+      "expected_public_sha256": "8d381f947eefee42312656057e8d4c181495ac0845f15cbae548f4588b47655c",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_roundtrip_preparation_20261012/LUT_IDENTITY_33.cube",
+      "bytes": 1185983,
+      "sha256": "bfe3997adc54a16c9e2b973d16f6157a9c9f12e310e8347d2fac5da2c1b1702c",
+      "expected_public_sha256": "bfe3997adc54a16c9e2b973d16f6157a9c9f12e310e8347d2fac5da2c1b1702c",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_roundtrip_preparation_20261012/identity_source.json",
+      "bytes": 278,
+      "sha256": "9900d39bd69c7287cd526359162071d8379855a316a93058a846f6ee925e9862",
+      "expected_public_sha256": "9900d39bd69c7287cd526359162071d8379855a316a93058a846f6ee925e9862",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_roundtrip_preparation_20261012/source.json",
+      "bytes": 231,
+      "sha256": "83c51befb6e8330645022ff4315a8de5ab6a8c116ecb91ae1c17d24ad500467b",
+      "expected_public_sha256": "83c51befb6e8330645022ff4315a8de5ab6a8c116ecb91ae1c17d24ad500467b",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_roundtrip_preparation_20261012/进度与下一步.md",
+      "bytes": 2200,
+      "sha256": "4fdd1ff93344345e26ce75b8abcb79e4c0cf7bb8044c19e703e8ec39c6f4ec5e",
+      "expected_public_sha256": "4fdd1ff93344345e26ce75b8abcb79e4c0cf7bb8044c19e703e8ec39c6f4ec5e",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_session_chain_20261012/endpoint_inventory.json",
+      "bytes": 10591,
+      "sha256": "aea2b206db9f5d161fd5c49b6495796ba96d811bcf6bc5592449c1c249ff1a3c",
+      "expected_public_sha256": "aea2b206db9f5d161fd5c49b6495796ba96d811bcf6bc5592449c1c249ff1a3c",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lab_session_chain_20261012/inputs.json",
+      "bytes": 2813,
+      "sha256": "654c0050474274584c1a3f36f822ab7e8802f63fe4beabbd5997779cade293f8",
+      "expected_public_sha256": "654c0050474274584c1a3f36f822ab7e8802f63fe4beabbd5997779cade293f8",
+      "status": "verified_public_sha256",
+      "publication_status": "sanitized"
+    },
+    {
+      "path": "analysis/lab_session_chain_20261012/正常会话链核验.md",
+      "bytes": 3317,
+      "sha256": "3a48a339c12bd1bab8a421489b37816ccf3e809bb1123102cbd9e0a1cde2de96",
+      "expected_public_sha256": "3a48a339c12bd1bab8a421489b37816ccf3e809bb1123102cbd9e0a1cde2de96",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lumix_lab_acquisition_gemini_20261008.json",
+      "bytes": 4051,
+      "sha256": "ce2c6efa5f0e523b84e85ae4dcbb6b5f45ec7f6b3e0720078e78c18c168b35a0",
+      "expected_public_sha256": "ce2c6efa5f0e523b84e85ae4dcbb6b5f45ec7f6b3e0720078e78c18c168b35a0",
+      "status": "verified_public_sha256",
+      "publication_status": "sanitized"
+    },
+    {
+      "path": "analysis/lumix_lab_acquisition_gemini_20261008.md",
+      "bytes": 4133,
+      "sha256": "0deb3155235a3ffdf9e206ae0a7e6093d3c4e521e38db1ebf02195427d9901df",
+      "expected_public_sha256": "0deb3155235a3ffdf9e206ae0a7e6093d3c4e521e38db1ebf02195427d9901df",
+      "status": "verified_public_sha256",
+      "publication_status": "sanitized"
+    },
+    {
+      "path": "analysis/lumix_lab_code_strings_codex_20261008.json",
+      "bytes": 9637,
+      "sha256": "15bd3db1ec136928f6057c3b9a4819a4244152847c25e3863e63e58c7e60d050",
+      "expected_public_sha256": "15bd3db1ec136928f6057c3b9a4819a4244152847c25e3863e63e58c7e60d050",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lumix_lab_fallback_20261008.log",
+      "bytes": 242,
+      "sha256": "379f454cdc722c3f165350146495825066a1fe663d3fc36540e4f3035bbb84d1",
+      "expected_public_sha256": "379f454cdc722c3f165350146495825066a1fe663d3fc36540e4f3035bbb84d1",
+      "status": "verified_public_sha256",
+      "publication_status": "sanitized"
+    },
+    {
+      "path": "analysis/lumix_lab_jadx_20261008.log",
+      "bytes": 1989,
+      "sha256": "061a8236050627894da8b9525abe3e912717f94fe095039084657541747a8031",
+      "expected_public_sha256": "061a8236050627894da8b9525abe3e912717f94fe095039084657541747a8031",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lumix_lab_native_llc_symbols_20261008.json",
+      "bytes": 25308,
+      "sha256": "7d967498fce1634f44c7d2d038d14a90fb2a29342ad35a47e20f730e8fbbfe6c",
+      "expected_public_sha256": "7d967498fce1634f44c7d2d038d14a90fb2a29342ad35a47e20f730e8fbbfe6c",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lumix_lab_ptp_read_audit_gemini_20261008.json",
+      "bytes": 12137,
+      "sha256": "b436a8cf8f9c54260f2cc0bda07f7cab602a2b1e59a1d7c2172a74ee5191caff",
+      "expected_public_sha256": "b436a8cf8f9c54260f2cc0bda07f7cab602a2b1e59a1d7c2172a74ee5191caff",
+      "status": "verified_public_sha256",
+      "publication_status": "sanitized"
+    },
+    {
+      "path": "analysis/lumix_lab_ptp_read_audit_gemini_20261008.md",
+      "bytes": 4184,
+      "sha256": "d6e7329bc1a2635c1b53eaf0a36715dac4b97cc11c02a9042f08ed887b419baf",
+      "expected_public_sha256": "d6e7329bc1a2635c1b53eaf0a36715dac4b97cc11c02a9042f08ed887b419baf",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/lumix_lab_update_evidence_manifest_20261008.json",
+      "bytes": 2917,
+      "sha256": "b070732454d6a51ee15857c933fc58172007e0c1621ac4c3534e34ebf9857a49",
+      "expected_public_sha256": "b070732454d6a51ee15857c933fc58172007e0c1621ac4c3534e34ebf9857a49",
+      "status": "verified_public_sha256",
+      "publication_status": "sanitized"
+    },
+    {
+      "path": "analysis/project_corrections_20261014/source_reports/lab_client_verification_final.json",
+      "bytes": 54702,
+      "sha256": "7f99377727da36f20d68d16484bcdd849d0f04fbb20b5bb3388d4af451e6ef99",
+      "expected_public_sha256": "7f99377727da36f20d68d16484bcdd849d0f04fbb20b5bb3388d4af451e6ef99",
+      "status": "verified_public_sha256",
+      "publication_status": "sanitized"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_android/manifest.json",
+      "bytes": 1612,
+      "sha256": "6bb02dd40d9a530493aca8f7ba50e212cd9944e997fd3c8cde23bfcf51789438",
+      "expected_public_sha256": "6bb02dd40d9a530493aca8f7ba50e212cd9944e997fd3c8cde23bfcf51789438",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/FirmwareUpdateDetailFragment_fallback.java",
+      "bytes": 66650,
+      "sha256": "f6cf100d10b6871bfd4f191ca79d7338bc8dabddd43137d6951fa2fa57160380",
+      "expected_public_sha256": "f6cf100d10b6871bfd4f191ca79d7338bc8dabddd43137d6951fa2fa57160380",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/official_firmware_list.json",
+      "bytes": 58,
+      "sha256": "c61c148665b8e67af838eec1ab33a1973fd4602fe701b73b3a2172cd6d6ede4a",
+      "expected_public_sha256": "c61c148665b8e67af838eec1ab33a1973fd4602fe701b73b3a2172cd6d6ede4a",
+      "status": "verified_public_sha256",
+      "publication_status": "published"
+    },
+    {
+      "path": "docs/LUMIX_LAB_S5M2_APK_ANALYSIS.md",
+      "bytes": 6093,
+      "sha256": "6603f29f5a3b537319bd75a6969fb19dab3b67c16526690c3a6e061fb6c8a31a",
+      "expected_public_sha256": "6603f29f5a3b537319bd75a6969fb19dab3b67c16526690c3a6e061fb6c8a31a",
+      "status": "verified_public_sha256",
+      "publication_status": "publication-or-existing-archive"
+    }
+  ],
+  "raw_lab_inputs": [
+    {
+      "name": "Panasonic_LUMIX_Lab_3.1.0_APKPure.xapk",
+      "kind": "xapk",
+      "expected_bytes": 235867498,
+      "expected_sha256": "06e00657ee592870f1de106de0762637a05ee6a7cf91c916b7273305381ae477",
+      "reference": "analysis/lumix_lab_acquisition_gemini_20261008.json",
+      "candidates": [],
+      "status": "missing_historical_input"
+    },
+    {
+      "name": "com.panasonic.jp.lumixlab.apk",
+      "kind": "base_apk",
+      "expected_bytes": 189845077,
+      "expected_sha256": "6ba873110d201675a905f7dac39bcda3291674e7440a484d6d5bd1a78447115f",
+      "reference": "analysis/lumix_lab_acquisition_gemini_20261008.json",
+      "candidates": [],
+      "status": "missing_historical_input"
+    },
+    {
+      "name": "config.arm64_v8a.apk",
+      "kind": "split_apk_native_lib",
+      "expected_bytes": 42944168,
+      "expected_sha256": "4e1a4fcbb9321bacfce69b6719146b5f8b249d5d9dded72044d23b99903fcdb4",
+      "reference": "analysis/lumix_lab_acquisition_gemini_20261008.json",
+      "candidates": [],
+      "status": "missing_historical_input"
+    },
+    {
+      "name": "config.en.apk",
+      "kind": "split_apk_locale",
+      "expected_bytes": 78233,
+      "expected_sha256": "6288e4ea41dce76389814d191eb39afed7a5171d8f80116612c0f23fe98e6ca5",
+      "reference": "analysis/lumix_lab_acquisition_gemini_20261008.json",
+      "candidates": [],
+      "status": "missing_historical_input"
+    },
+    {
+      "name": "config.mdpi.apk",
+      "kind": "split_apk_density",
+      "expected_bytes": 2997638,
+      "expected_sha256": "c9ef5805000fb77ef3a97e9f5bc3ce730fc77f7db7fe19cb56c9dc1b8fccefbe",
+      "reference": "analysis/lumix_lab_acquisition_gemini_20261008.json",
+      "candidates": [],
+      "status": "missing_historical_input"
+    },
+    {
+      "name": "classes.dex",
+      "kind": "dex",
+      "parent_apk": "com.panasonic.jp.lumixlab.apk",
+      "expected_bytes": 7341852,
+      "expected_sha256": null,
+      "reference": "analysis/lumix_lab_code_strings_codex_20261008.json (size only)",
+      "candidates": [],
+      "status": "missing_historical_input"
+    },
+    {
+      "name": "classes2.dex",
+      "kind": "dex",
+      "parent_apk": "com.panasonic.jp.lumixlab.apk",
+      "expected_bytes": 5047724,
+      "expected_sha256": "4147c194d9814bac0f83e2120705b6e03524a3425d2492eafdbf547898736552",
+      "reference": "analysis/agy_takeover_20261012/07_lab_bluetooth/dex_verification.json",
+      "candidates": [],
+      "status": "missing_historical_input"
+    },
+    {
+      "name": "lib/arm64-v8a/libavcodec.so",
+      "kind": "arm64_library",
+      "parent_apk": "config.arm64_v8a.apk",
+      "expected_bytes": 7377464,
+      "expected_sha256": "4bcd087282fe141181be4cb770218d94f1f924f2a99a6770ce36a91d22d1e9aa",
+      "reference": "analysis/lab_crypto_callsite_audit_20261010/native_symbols.json",
+      "candidates": [],
+      "status": "missing_historical_input"
+    },
+    {
+      "name": "lib/arm64-v8a/libavformat.so",
+      "kind": "arm64_library",
+      "parent_apk": "config.arm64_v8a.apk",
+      "expected_bytes": 1461856,
+      "expected_sha256": "4d364b5e2855c8e828eb02474c3cec47b8801f88a59c8625dc64a260604eaa79",
+      "reference": "analysis/lab_crypto_callsite_audit_20261010/native_symbols.json",
+      "candidates": [],
+      "status": "missing_historical_input"
+    },
+    {
+      "name": "lib/arm64-v8a/libavutil.so",
+      "kind": "arm64_library",
+      "parent_apk": "config.arm64_v8a.apk",
+      "expected_bytes": 491368,
+      "expected_sha256": "3676eb0ed26d540287ab8470c8abe618153afc45258451298b5d4ffd18ff010b",
+      "reference": "analysis/lab_crypto_callsite_audit_20261010/native_symbols.json",
+      "candidates": [],
+      "status": "missing_historical_input"
+    },
+    {
+      "name": "lib/arm64-v8a/libc++_shared.so",
+      "kind": "arm64_library",
+      "parent_apk": "config.arm64_v8a.apk",
+      "expected_bytes": 1374336,
+      "expected_sha256": "c4c2fe5cbcb1fba0003a31fc7ab29a9bb12df6cc187ec45a806462540e83d93b",
+      "reference": "analysis/lab_crypto_callsite_audit_20261010/native_symbols.json",
+      "candidates": [],
+      "status": "missing_historical_input"
+    },
+    {
+      "name": "lib/arm64-v8a/libcrypto.so",
+      "kind": "arm64_library",
+      "parent_apk": "config.arm64_v8a.apk",
+      "expected_bytes": 2676640,
+      "expected_sha256": "49db5bf9fdee2c87209085717497ac604b8768d589df32a85d8124c3f7604b4a",
+      "reference": "analysis/lab_crypto_callsite_audit_20261010/native_symbols.json",
+      "candidates": [],
+      "status": "missing_historical_input"
+    },
+    {
+      "name": "lib/arm64-v8a/libcube_merge.so",
+      "kind": "arm64_library",
+      "parent_apk": "config.arm64_v8a.apk",
+      "expected_bytes": 11976,
+      "expected_sha256": "91c35f56413f0e6fd8108000104a4270b6beee64121bfd954ada56e510c03d2f",
+      "reference": "analysis/lab_crypto_callsite_audit_20261010/native_symbols.json",
+      "candidates": [],
+      "status": "missing_historical_input"
+    },
+    {
+      "name": "lib/arm64-v8a/libde265.so",
+      "kind": "arm64_library",
+      "parent_apk": "config.arm64_v8a.apk",
+      "expected_bytes": 1329336,
+      "expected_sha256": "546563ccbc766ed8015a980d163e85af52af54f2eb193e1bb2e7471f04970d58",
+      "reference": "analysis/lab_crypto_callsite_audit_20261010/native_symbols.json",
+      "candidates": [],
+      "status": "missing_historical_input"
+    },
+    {
+      "name": "lib/arm64-v8a/libffmpeg_mediametadataretriever_jni.so",
+      "kind": "arm64_library",
+      "parent_apk": "config.arm64_v8a.apk",
+      "expected_bytes": 58720,
+      "expected_sha256": "dfd412e3103b203ed96adbbf30e2c70053afdeaf172c1a5cc9a8b849ff9ee471",
+      "reference": "analysis/lab_crypto_callsite_audit_20261010/native_symbols.json",
+      "candidates": [],
+      "status": "missing_historical_input"
+    },
+    {
+      "name": "lib/arm64-v8a/libheif.so",
+      "kind": "arm64_library",
+      "parent_apk": "config.arm64_v8a.apk",
+      "expected_bytes": 994704,
+      "expected_sha256": "e229d1a052a48ceb6defe47570ee6a448bf3c461205132580e4a52c961df8e83",
+      "reference": "analysis/lab_crypto_callsite_audit_20261010/native_symbols.json",
+      "candidates": [],
+      "status": "missing_historical_input"
+    },
+    {
+      "name": "lib/arm64-v8a/libllc.so",
+      "kind": "arm64_library",
+      "parent_apk": "config.arm64_v8a.apk",
+      "expected_bytes": 104008,
+      "expected_sha256": "7433d705215bb92e7a87b9005277127e5851c7a4638ca8f6a3db17d2a00927df",
+      "reference": "analysis/lab_crypto_callsite_audit_20261010/native_symbols.json",
+      "candidates": [],
+      "status": "missing_historical_input"
+    },
+    {
+      "name": "lib/arm64-v8a/libonnxruntime.so",
+      "kind": "arm64_library",
+      "parent_apk": "config.arm64_v8a.apk",
+      "expected_bytes": 18214224,
+      "expected_sha256": "3fc3e79539f06f67360a810e60eb5c513db5febc16f7bc71e5d9e8ce39e3d775",
+      "reference": "analysis/lab_crypto_callsite_audit_20261010/native_symbols.json",
+      "candidates": [],
+      "status": "missing_historical_input"
+    },
+    {
+      "name": "lib/arm64-v8a/libonnxruntime4j_jni.so",
+      "kind": "arm64_library",
+      "parent_apk": "config.arm64_v8a.apk",
+      "expected_bytes": 75720,
+      "expected_sha256": "adcaf5e11ff65ad7b54725b2869118568b14ce2f3596d1b6f082ed0c774f2539",
+      "reference": "analysis/lab_crypto_callsite_audit_20261010/native_symbols.json",
+      "candidates": [],
+      "status": "missing_historical_input"
+    },
+    {
+      "name": "lib/arm64-v8a/libssl.so",
+      "kind": "arm64_library",
+      "parent_apk": "config.arm64_v8a.apk",
+      "expected_bytes": 590168,
+      "expected_sha256": "f8be5421e9186804504bd4f74e76fe23b71af401d311b559479500f227fd24ec",
+      "reference": "analysis/lab_crypto_callsite_audit_20261010/native_symbols.json",
+      "candidates": [],
+      "status": "missing_historical_input"
+    },
+    {
+      "name": "lib/arm64-v8a/libswscale.so",
+      "kind": "arm64_library",
+      "parent_apk": "config.arm64_v8a.apk",
+      "expected_bytes": 350224,
+      "expected_sha256": "f381b19a9947ac25acb95e91c539ff31c634fca2ca70939b4bb8afb36c85b581",
+      "reference": "analysis/lab_crypto_callsite_audit_20261010/native_symbols.json",
+      "candidates": [],
+      "status": "missing_historical_input"
+    },
+    {
+      "name": "lib/arm64-v8a/libtechorfilter.so",
+      "kind": "arm64_library",
+      "parent_apk": "config.arm64_v8a.apk",
+      "expected_bytes": 6340624,
+      "expected_sha256": "03e1c4e11e86012e03faf025fd566be79df3fc75ee28d38433d676a959b3d25f",
+      "reference": "analysis/lab_crypto_callsite_audit_20261010/native_symbols.json",
+      "candidates": [],
+      "status": "missing_historical_input"
+    },
+    {
+      "name": "lib/arm64-v8a/libyuv-decoder.so",
+      "kind": "arm64_library",
+      "parent_apk": "config.arm64_v8a.apk",
+      "expected_bytes": 6216,
+      "expected_sha256": "ed3709f2b4b425746befbc6c6aab2235446ecbb37a33647b030828d8c6688dcf",
+      "reference": "analysis/lab_crypto_callsite_audit_20261010/native_symbols.json",
+      "candidates": [],
+      "status": "missing_historical_input"
+    },
+    {
+      "name": "lib/arm64-v8a/libyuv.so",
+      "kind": "arm64_library",
+      "parent_apk": "config.arm64_v8a.apk",
+      "expected_bytes": 403888,
+      "expected_sha256": "987926e77bddb9880e16dfb11201d6fb0429c4ff462a74e0bd0965b3de4d85c3",
+      "reference": "analysis/lab_crypto_callsite_audit_20261010/native_symbols.json",
+      "candidates": [],
+      "status": "missing_historical_input"
+    },
+    {
+      "name": "lib/arm64-v8a/libyuv_android.so",
+      "kind": "arm64_library",
+      "parent_apk": "config.arm64_v8a.apk",
+      "expected_bytes": 899360,
+      "expected_sha256": "dab061cb65b5b86318c5a01b2c47ac6da7da064421a5c9ef71b71123b0df5809",
+      "reference": "analysis/lab_crypto_callsite_audit_20261010/native_symbols.json",
+      "candidates": [],
+      "status": "missing_historical_input"
+    }
+  ],
+  "full_decompiled_sources_for_corrected_report": [
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/H5/d.java",
+      "expected_sha256": "84c644f0b4d20a4e452cc8dcfdb743f976b43fbd5aabb727e87f2f635c142725",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/H5/j.java",
+      "expected_sha256": "6402356521e7f5b9afdf12bc0ae37889d00ad6de6e53141b03bba6ca31905257",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/I5/c.java",
+      "expected_sha256": "f31e474820e771cb0d9ddbfc21e37260cd9da2db26c92be1d7110bffdc8e1ccc",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/I5/d.java",
+      "expected_sha256": "914d4b3527d94c30446ff9caff9fede1192860ccf96c0eca36ab86e1a3b95095",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/I5/e.java",
+      "expected_sha256": "fbba8f0acc70b165d879e1c947a1c6e02a40c49ca97b58aa8c2aaed2d0ba0cfd",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/K5/C0643o.java",
+      "expected_sha256": "31f6bad476f540bb5047661e56fb2c7d2b4b0619686432183ad9dbc46e74fde5",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/K5/B.java",
+      "expected_sha256": "6a1e3c8a0d620de4703f8c0fc28e5ddeca619fa9c0ff05c15b5bf9e0c3d79f08",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/K5/C0664z.java",
+      "expected_sha256": "6597fb60ca0dfcc2ce9f0f9298e0fd846cdc47bd9b97d92ae63f56c9452498e7",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/K5/W0.java",
+      "expected_sha256": "3b5828b3c59ef5b2333c30f9f399c8ff270f5b5f4ea8e9736157fda4c8160ea0",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/K5/U0.java",
+      "expected_sha256": "933205e7a3dba102b82820c27bb9f53b82647a03f265e56673b514dccbc07630",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/K5/V0.java",
+      "expected_sha256": "e0d27222beea7001159cdaaa3a9623e4c8ca906a5fbf1108e3cc40571bf6b583",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/R5/h.java",
+      "expected_sha256": "4de3a1fdcb844b355712248b46ad4069d89850fa790d6696b4f777d86626c258",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/Y5/h.java",
+      "expected_sha256": "9d819718613ccb0a9106aa4288b94ffc92dbae583b5c1df757f8298ea6e387be",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/p041d6/c.java",
+      "expected_sha256": "08369940da4460ab49aca20986a6ce49fe56f68a2799c9e349351dbde7b6f0ea",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/p052e6/c.java",
+      "expected_sha256": "de5bbf531a4f384f90c74750ffac1b0b8d30c42ea3bdde59030913a31b567825",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/p062f5/P2.java",
+      "expected_sha256": "01eab5cc6be73a9a8907e6a8bef667b53857ff9730b72d883c5c9a3caa746d03",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/p062f5/Q2.java",
+      "expected_sha256": "acac27dec95920455308b96275fa2067c0e29e21515ee33610c68d1895a47f98",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/p062f5/RunnableC1743t1.java",
+      "expected_sha256": "18f63927ea85db985eca84bc21e4f94033acf320daeb4bf168550b43d93907af",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/p084h6/a.java",
+      "expected_sha256": "53f9f8ec61d95915512a03a3cd5fcabe5ab5a75dd7ac6a19987f15576e3a5104",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/p084h6/b.java",
+      "expected_sha256": "52595c54395386024e58adc18e8647a759b0a2dadfc69890f884c8fc01751b59",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/p084h6/c.java",
+      "expected_sha256": "954d45711f09a4dde494e81debd6bd9a4c2d8749226073a3fca472f75060ff0b",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/p084h6/d.java",
+      "expected_sha256": "69e2d3bc60794c98b768c263d0648917dbfb8a644f924acade8127867cee575c",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/p084h6/e.java",
+      "expected_sha256": "a6c8fa6360646836234af6a25a209faeebddace4532cc9775e2961793587fdd6",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/p084h6/f.java",
+      "expected_sha256": "f373363c5c7b966e4f6dd888227026c419832dcbdfac2bf0b54c26da28b50990",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/p084h6/g.java",
+      "expected_sha256": "1d65b6389507a9b41e6101abafff7d06a8396f68d2504daa4d34937659792ccd",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/p084h6/h.java",
+      "expected_sha256": "92d17709c45e8527392cba991c1801f525c9426a11c30b39adfd43fa45be30d9",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/p281z5/C2438a2.java",
+      "expected_sha256": "afbfb288da98bcb640d933ab54ef576bffaa3d95f6af1194372cc674672f628c",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/p281z5/C2458c2.java",
+      "expected_sha256": "223eb91992599a4689495f237790078b8b153c9efb0a46e542a0996917aa1412",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/p281z5/C2468d2.java",
+      "expected_sha256": "2971e8d1c95e9fe5d6f925aee0cd3d88102016e8fea8d725778d405d5ec9768f",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/p281z5/C2478e2.java",
+      "expected_sha256": "f7757f95c6965b0e953045fb02512d4fe4c31656fd347abbc617aa3d73a905c6",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/p281z5/C2518i2.java",
+      "expected_sha256": "e0e2477890fecbae4df06d2a952fcfaadcf148212d6a9236fe3562d14ee12694",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/p281z5/C2538k2.java",
+      "expected_sha256": "79322ad693be6ec455cd86f7ece85491a36824f6e1acd9fd19778e1b53566dca",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/p281z5/C2607r2.java",
+      "expected_sha256": "6d48e998c70f1548fa7eba4734e3c22089392b7f8258d191ec242752d615c1bf",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/p281z5/C2617s2.java",
+      "expected_sha256": "22e717e1283f107f4ca7ca486b1201e55a24698d09453ee241375bc3aec7ae5f",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/p281z5/C2646v1.java",
+      "expected_sha256": "f7e7274ce0ef96c094f41249f30d061ac83f67f2e3443c68b057d96c9df50e8e",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/p281z5/C2647v2.java",
+      "expected_sha256": "4b42df578eb3ec999e22eea470507e9250fe7af4349aeb0fce4e80c8cff2a8e5",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/p281z5/C2656w1.java",
+      "expected_sha256": "1c949f37b86effa1d77dc5af40bc31c3265192e0e074741e8f5ef83fba29ab4d",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/p281z5/C2657w2.java",
+      "expected_sha256": "5c280d894d550cdb4fc85b7f72493fe549786dc95d9784849a81f6854738777b",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/p281z5/C2666x1.java",
+      "expected_sha256": "4794d055f3adf41bdb75374bc6094d9af3b7f81735c815c7ae4b02159083f166",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/p281z5/M1.java",
+      "expected_sha256": "5dfceec97e14b6d5b1f1eb8bf0d8eefb6301d541b657ce7c55a99e808506244e",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/p281z5/N1.java",
+      "expected_sha256": "e71634ee4a41c4617d4f69d81d607592c8c4e3e298402f2b6e3dd1fd0b244898",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/p281z5/RunnableC2548l2.java",
+      "expected_sha256": "932cd11eb758e50743a92d00f745296bd4fea6647aa70a6b351e326c31600b40",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/p281z5/RunnableC2616s1.java",
+      "expected_sha256": "f2c8f0fe7bfd9175810c91543fea04fe617cfb9b5633570c28415598ba942fb6",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/p281z5/RunnableC2627t2.java",
+      "expected_sha256": "13517aae81b40451753be791b174d479441fa35eb6ae3607566927462a2676a1",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/p281z5/RunnableC2667x2.java",
+      "expected_sha256": "ceabf1164cde4d0483a5637a2a14fde19561be066a653538cebd7503e5fa33e7",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/p281z5/S1.java",
+      "expected_sha256": "a03dc837b9709cc0780bba30cc3a3624392d55e179f674fd7d86d9b444cd315f",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/p281z5/Z1.java",
+      "expected_sha256": "c9be4667e96394f8e305952fe0352011f9fa7c96fc98d57766931c4cfa3ea48d",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/com/panasonic/jp/lumixlab/LlcApplication.java",
+      "expected_sha256": "4ea806f8bda2af3af6a249233936746b1465dc7de94c7f9c950260f493c7f602",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/com/panasonic/jp/lumixlab/bean/AuthRequestBean.java",
+      "expected_sha256": "2304ca5d4c24c93365e5dc303a65027633b697c6551c54d117f72ec459372fb6",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/com/panasonic/jp/lumixlab/bean/AuthResponseBean.java",
+      "expected_sha256": "d08afbb628c300720909903eb7f4c46d88c7eba50e3359692ab6665d641dd496",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/com/panasonic/jp/lumixlab/controller/activity/RemotePhotostyleActivity.java",
+      "expected_sha256": "57b74b524ed65c2d74bbb1230627af8f292aa8ea9150f0227fb328e76339ae8b",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/com/panasonic/jp/lumixlab/controller/activity/RemoteShootingActivity.java",
+      "expected_sha256": "0541decfe287d41f5e03877ce51854db3d8b8bc0acb70dd6570c02c02037af8e",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/com/panasonic/jp/lumixlab/controller/fragment/CameraWifiConnectFragment.java",
+      "expected_sha256": "d31c5a650e61c2fb3a79c214ea50c38690e5783bfedf868e2b7de98425c2058e",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/com/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment.java",
+      "expected_sha256": "58e986bf30262734745e60429aa4d76a9abeb442d9e63a837eeeed2b2d1c53d1",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/com/panasonic/jp/lumixlab/controller/fragment/LutFragment.java",
+      "expected_sha256": "b5fc545f8e58f5b70f3a71578a14e994b93d5a88a81fc3d28158bb308b961cc0",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/com/panasonic/jp/lumixlab/service/LlcService.java",
+      "expected_sha256": "c0a7705e66a8976ba234b2af11f8aa2734ac9613a72ceaf678fd13e97f882fcb",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/com/panasonic/jp/lumixlab/util/C1410v.java",
+      "expected_sha256": "90807752f6f18b973aa486938b177b465e105ef5216ca9f69acb741d49270ea8",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/com/panasonic/jp/lumixlab/util/M.java",
+      "expected_sha256": "782eeebf30ff84da906cbff116a32c6ab05210c5af034f174f028960b89c2278",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/sa/o.java",
+      "expected_sha256": "26a312aed726d58ffed2d3b0f8d27f7f78fb08004886df9fea3936223f768c0e",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/sa/f.java",
+      "expected_sha256": "5c62b31956c0859829d76969181acf6e4ec76e15ed58e3f3ff1a933fc6bd9c93",
+      "sha256": null,
+      "status": "missing_historical_input"
+    },
+    {
+      "path": "analysis/sources/lumix_lab_codex_static/decompiled/sources/oa/w0.java",
+      "expected_sha256": "e4a7bde9bd0bca03cf6dd73851c263b00eb47c13c6e3526630b9efc204cacabc",
+      "sha256": null,
+      "status": "missing_historical_input"
+    }
+  ],
+  "counts": {
+    "public": {
+      "verified_public_sha256": 117
+    },
+    "raw": {
+      "missing_historical_input": 25
+    },
+    "decompiled_sources": {
+      "missing_historical_input": 61
+    }
+  },
+  "limitations": [
+    "Public hashes verify archive bytes, not historical raw APK/DEX/native correctness.",
+    "Historical APKPure distribution identity remains unverified; redacted signer metadata cannot authenticate a publisher.",
+    "classes.dex has a historical size but no independent member SHA-256 in the selected source records.",
+    "Native dynamic symbols and decompiler excerpts cannot replace original binaries or complete DEX control flow.",
+    "No full source regeneration or new large reverse-engineering analysis was performed."
+  ]
+}

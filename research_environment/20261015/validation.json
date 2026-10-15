@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-15",
+  "scope": "offline inventory and static-analysis preparation",
+  "base_upstream_commit": "8f625cfabb31e8a71177b86e2b63a69c686de5e8",
+  "tests": {
+    "public_archive": {
+      "status": "PASS",
+      "files": 9038
+    },
+    "ptp_wire_parser": {
+      "status": "PASS",
+      "tests": 3
+    },
+    "synthetic_dump_parser": {
+      "status": "PASS"
+    },
+    "mock_ptp_sequencer": {
+      "status": "PASS",
+      "tests": 5
+    },
+    "corrected_lab_synthetic_codec": {
+      "status": "PASS",
+      "fixed_frame_vectors": 7
+    },
+    "offline_replay": {
+      "device_access": false,
+      "network_access": false,
+      "stages": {
+        "archive_and_public_tests": "[TEST] Creating synthetic memory dump slice with S1M2 structures...\n[PASS] Dump parser correctly extracted shared memory table and RAW frame markers.\nPASS: 9038 archived files match public SHA-256\nPASS: dump synthetic test, real PTP property samples\nFirmware round-trip requires separately obtained S1m2_V14.bin and extracted components.\nNo device functionality is claimed by these tests.\n...\n----------------------------------------------------------------------\nRan 3 tests in 0.001s\n\nOK\n",
+        "capabilities": {
+          "files": 26,
+          "fully_traversed_subtags": 144
+        },
+        "settings": {
+          "samples": 5,
+          "note": "sample 03 changes fan too; use 04/05 controlled comparison"
+        },
+        "maintenance_comparison": "{\"compared\": 12, \"normalized_equal\": 7}\n",
+        "firmware_toolchain_suites": "NOT RUN: vendor firmware not supplied"
+      }
+    },
+    "static_tools": {
+      "status": "PASS",
+      "jadx_version": "1.5.6",
+      "jadx_fixture": {
+        "archive": "jadx-1.5.6-all.jar",
+        "member": "jadx/core/Consts.class",
+        "sha256": "040984a947c80098f0156aa1ba1d02d2dcc99a621e16bd745e2e07518d72df4a"
+      },
+      "aarch64_synthetic_elf": "PASS",
+      "target_code_executed": false,
+      "vendor_apk_dex_native_test": "NOT RUN: original files absent"
+    },
+    "full_lab_source_regeneration": {
+      "status": "NOT RUN",
+      "reason": "Original APK/DEX and 61 complete decompiled source files absent"
+    },
+    "vendor_firmware_roundtrip": {
+      "status": "NOT RUN",
+      "reason": "Exact S1m2_V14.bin absent"
+    },
+    "fresh_install_and_idempotent_reinstall": {
+      "status": "PASS",
+      "tool_root": "/workspace/research-tools-repro-20261015",
+      "functional_verification": {
+        "status": "PASS",
+        "jadx_version": "1.5.6",
+        "jadx_fixture": {
+          "archive": "jadx-1.5.6-all.jar",
+          "member": "jadx/core/Consts.class",
+          "sha256": "040984a947c80098f0156aa1ba1d02d2dcc99a621e16bd745e2e07518d72df4a"
+        },
+        "aarch64_synthetic_elf": "PASS",
+        "target_code_executed": false,
+        "vendor_apk_dex_native_test": "NOT RUN: original files absent"
+      }
+    }
+  },
+  "resolved_setup_issues": [
+    "JADX config/cache defaults targeted a read-only home directory; wrapper now sets supported JADX_CONFIG_DIR and JADX_CACHE_DIR below the tool root.",
+    "Relocated Debian ARM64 binutils required its bundled ARM64 BFD/opcodes libraries; wrapper sets a process-scoped library search path."
+  ],
+  "preservation": {
+    "original_worktree": "clean",
+    "original_head": "11b6c96602bae41a033b838524bfdb52f3452cd4",
+    "archive": "/workspace/research-preservation/lumix-before-sync-20261015.tar.gz",
+    "archive_sha256": "9bce16efd2f08908359c6b250f40bda41781d898f4a1c343a2c84a97f0889cd4",
+    "archive_entries": 558,
+    "preserved_local_refs": [
+      "preserve/contrib/s5-integration-gap-audit-20261014 b599d1b99a6f8e0b0cb866f243eb05c67ffdfeae",
+      "preserve/contrib/s5-s5m2-research-handoff 22dd24c9603736c8b5756740df8fa4b53aea1d22",
+      "preserve/contrib/s5m2-baseline-crypto-20261014 c388d5d4d6c344b26f707b3fa66f84aa1b43e629",
+      "preserve/contrib/s5m2-boot-consumer-audit-20261014 3362325de9e36e067f1826575f0fffde24ed98fd",
+      "preserve/contrib/s5m2-corpus-handoff-20261014 0e9e45c54a6cadf9095a612fe03d34839ef638ff",
+      "preserve/pre-sync-20261015 11b6c96602bae41a033b838524bfdb52f3452cd4"
+    ]
+  },
+  "network_used_only_for": [
+    "GitHub repository fetch",
+    "official JADX release and release digest",
+    "authenticated Debian package metadata and package download"
+  ],
+  "camera_access": false,
+  "vendor_code_executed": false,
+  "apk_modified": false,
+  "fork_sync": {
+    "initial_fork_main": "11b6c96602bae41a033b838524bfdb52f3452cd4",
+    "initial_fork_only": 0,
+    "initial_upstream_only": 17,
+    "final_fork_main": "8f625cfabb31e8a71177b86e2b63a69c686de5e8",
+    "final_upstream_main": "8f625cfabb31e8a71177b86e2b63a69c686de5e8",
+    "remote_main_written_by_this_task": false,
+    "note": "Remote main advanced independently during preparation; re-queried and fetched, no push required."
+  },
+  "github_write_performed_during_validation": false
+}
