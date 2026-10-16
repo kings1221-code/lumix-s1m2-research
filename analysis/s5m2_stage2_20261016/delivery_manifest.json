@@ -1,0 +1,180 @@
+{
+  "scope": "Only stage2 own scripts/reports/public metadata; no vendor binaries/full decompiled source/private paths",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size": 14,
+      "sha256": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9"
+    },
+    {
+      "path": ".gitignore",
+      "size": 8,
+      "sha256": "04e59f5cc75e578a7492cd2c14ddf16487d1af09e188a7cc01224a61b1b3855f"
+    },
+    {
+      "path": "ANDROID.md",
+      "size": 10488,
+      "sha256": "dcae01648cc96c74033e8651787d57b0b9dbf526d0b0c9b0f7da7c79a56dfcd2"
+    },
+    {
+      "path": "build_catalog.py",
+      "size": 4885,
+      "sha256": "9a088cc8ec69d2bf29d0fe0c9f42aa6d4749e66d79ab4fd44d6de89e7bc13946"
+    },
+    {
+      "path": "common.py",
+      "size": 1161,
+      "sha256": "f85c45f106d69102b60eba5796432dd9f82f5161c6e448c12e63b6c8f877ddae"
+    },
+    {
+      "path": "compare_oss_selected.py",
+      "size": 2525,
+      "sha256": "5b7b38bdfee0918e8a3c49209770503160252192cba93f9f87f8c0bf3081996d"
+    },
+    {
+      "path": "firmware_structure.py",
+      "size": 8110,
+      "sha256": "4b5131582bd698410760afcab9a55db4aa856ed4a03ccad14f45f09610f97386"
+    },
+    {
+      "path": "official_pages.py",
+      "size": 2892,
+      "sha256": "473fe20057e2eefc20d065413e37daad7a0b3d3e4ede4ff6ace6773cc0cf7e9e"
+    },
+    {
+      "path": "oss_boundary.py",
+      "size": 4647,
+      "sha256": "2349bfd4856f16d7ca9c22fa489f9b93b2970929190b77acb084c1dabd08580f"
+    },
+    {
+      "path": "prepare_android_targets.py",
+      "size": 2681,
+      "sha256": "60db815cf8d22368f7971a77384edbdfacd177627d9caf254f6789fadc183674"
+    },
+    {
+      "path": "prepare_inputs.py",
+      "size": 1627,
+      "sha256": "005583e16b01b7503540668607090a7656ddd251a48dd13c72365bf2c0fb44d2"
+    },
+    {
+      "path": "preserve_stage1.py",
+      "size": 4050,
+      "sha256": "9e2bd5b12231a7c9ad437f2066dcce09d8110df09f712fe6e07eaa4b0c9e7988"
+    },
+    {
+      "path": "README.md",
+      "size": 19453,
+      "sha256": "67c8d51fb19071542f2990a4815891ea33ec87b17221ef6a304f60108341263b"
+    },
+    {
+      "path": "REPRODUCE.md",
+      "size": 7378,
+      "sha256": "24383432547171a2cb46eb6d311d2bd4d2b8493c85367dcee64ae32af3a13f54"
+    },
+    {
+      "path": "results/android_instruction_evidence.json",
+      "size": 89028,
+      "sha256": "b69ca83a918e17c13125c280f6aac3b1eae1ab5d04200832475425a2f3b33846"
+    },
+    {
+      "path": "results/android_method_index.json",
+      "size": 648990,
+      "sha256": "f9f68764fc134d26c3cd348f06f2befeabd3a93ddf902fe4fd30a95b3348a919"
+    },
+    {
+      "path": "results/android_verification.json",
+      "size": 798,
+      "sha256": "7e062ae750e0d0b290250a83649189d4de10c3a48148afd4ccc8bc9479932e61"
+    },
+    {
+      "path": "results/environment.json",
+      "size": 571,
+      "sha256": "f42fc3c093f83f752a5f86c3e37c6bb8fcbf11e813d2d0c1c0931cbd422c024a"
+    },
+    {
+      "path": "results/execution.json",
+      "size": 1293,
+      "sha256": "c8c9866bfca73fae2eff60075e0ed04aabad2c3ab89bf6810f51b0ea9469ac44"
+    },
+    {
+      "path": "results/final_checks.log",
+      "size": 445,
+      "sha256": "8e191b7c4b230ecdadbd3a2948f0aeadae64171f0a482d6abc0c196530e135f8"
+    },
+    {
+      "path": "results/final_validation.json",
+      "size": 487,
+      "sha256": "779790464e7fa7f95c28093cb9c29f104c747978d3472aa682beb8000d832d8d"
+    },
+    {
+      "path": "results/firmware_structure.json",
+      "size": 141201,
+      "sha256": "b6654a8ddcbb22b5c5af1e4f7cf4e4b7317de38bc0552b74ff13d301db639e7a"
+    },
+    {
+      "path": "results/inputs.json",
+      "size": 19898,
+      "sha256": "2895d0cb846d96195775dfd1dfdd41fb2a035092987648a760408cd8f723e589"
+    },
+    {
+      "path": "results/official_pages.json",
+      "size": 11424,
+      "sha256": "016d9adc1c94b2d222c2e65e0de7c240080009fd3d396c4878494e0e602a1330"
+    },
+    {
+      "path": "results/oss_boundary.json",
+      "size": 76894,
+      "sha256": "d458acc2deb63dadf3fcd03523637b225b7619d3a98ffc607ea0ebabeb4627d2"
+    },
+    {
+      "path": "results/oss_selected_diff.json",
+      "size": 7342,
+      "sha256": "9f0f87dd5a7bd805280a029e475bb69e4553f4733779170e2ef89762b6efce36"
+    },
+    {
+      "path": "results/stage1_preservation.json",
+      "size": 33916,
+      "sha256": "2fe3536ec60e5c39dd7b13a874cd48a320b9c9fc4326d5b5d04a687dbd995db5"
+    },
+    {
+      "path": "results/synthetic_controls.json",
+      "size": 2629,
+      "sha256": "9924f7c7664ff72cdb70fdd06ab3f6bf6252c5bd4b8bf42132da4dba2d18de99"
+    },
+    {
+      "path": "results/unit_tests.log",
+      "size": 843,
+      "sha256": "68f3d2cc6b205eeaa6a8db923fc6fe3c775357a22b432d861e5f35c5211ce3ee"
+    },
+    {
+      "path": "run_checks.py",
+      "size": 1893,
+      "sha256": "2c840f794173508241a1727ec79b84d855088f8f9cac128b182357d05d87fb01"
+    },
+    {
+      "path": "SyntheticTransportTest.java",
+      "size": 6172,
+      "sha256": "1c0c8f6bae6e4d1544c9b1868e72f263f617ec484411c6d5e8442ace33d23d8d"
+    },
+    {
+      "path": "test_structure.py",
+      "size": 2102,
+      "sha256": "33acb508e02083457f87d6b7169768c64ac42340ff814b907b5d3929515bb621"
+    },
+    {
+      "path": "validate_results.py",
+      "size": 4504,
+      "sha256": "fc87769a33b4857122a494dd6c7d232dc07c77370cddf5b2d72611715288454b"
+    },
+    {
+      "path": "verify_android.py",
+      "size": 6811,
+      "sha256": "2f31aa3df79122e47f83431445ccab8b68cb9c0e973d1a54a3cba5c1233023c7"
+    },
+    {
+      "path": "verify_delivery.py",
+      "size": 647,
+      "sha256": "76cbef445baa9eee06cfc187d73ece039b8d9db6eb9991048617015ee3312a1f"
+    }
+  ]
+}

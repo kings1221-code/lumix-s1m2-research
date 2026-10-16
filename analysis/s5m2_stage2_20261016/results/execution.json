@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "unit_tests",
+      "script": "test_structure.py",
+      "arguments": [],
+      "started_utc": "2026-10-16T13:42:34.222027+00:00",
+      "ended_utc": "2026-10-16T13:42:34.519231+00:00",
+      "exit_code": 0,
+      "log": "unit_tests.log",
+      "size": 843,
+      "sha256": "68f3d2cc6b205eeaa6a8db923fc6fe3c775357a22b432d861e5f35c5211ce3ee",
+      "log_normalization": "CRLF to LF for public Git artifact; raw stdout kept locally",
+      "raw_stdout_sha256": "fda6b6e59ef9f1bbd0692dd09995f2ec22fdbba612f324c1809db7c9ac1addcc"
+    },
+    {
+      "check": "final_checks",
+      "script": "validate_results.py",
+      "arguments": [
+        "--with-inputs"
+      ],
+      "started_utc": "2026-10-16T13:42:34.527371+00:00",
+      "ended_utc": "2026-10-16T13:42:37.033285+00:00",
+      "exit_code": 0,
+      "log": "final_checks.log",
+      "size": 445,
+      "sha256": "8e191b7c4b230ecdadbd3a2948f0aeadae64171f0a482d6abc0c196530e135f8",
+      "log_normalization": "CRLF to LF for public Git artifact; raw stdout kept locally",
+      "raw_stdout_sha256": "7f6982cfd8edf8b0fa524692321bb469c563dfb0eba126653b3018fe47c5ef2f"
+    }
+  ],
+  "boundary": "7 synthetic format tests + saved-result/raw-input/excerpt checks; no broad scan repeated."
+}

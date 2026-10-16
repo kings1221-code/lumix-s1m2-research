@@ -1,0 +1,184 @@
+{
+  "scope": "Only five already-selected renamed board source pairs; no new package search or scan",
+  "pairing_rule": "explicit MC8223 -> MC8223X filename substitution, for byte comparison only",
+  "pairs": [
+    {
+      "left": {
+        "path": "u-boot/arch/arm/dts/pvc04v-MC8223.dts",
+        "bytes": 767,
+        "sha256": "788ba4e4cbd9b05386d6a0e845fd0800211b19d13dd0d3e4324e1540a52c57b7"
+      },
+      "right": {
+        "path": "u-boot/arch/arm/dts/pvc04v-MC8223X.dts",
+        "bytes": 770,
+        "sha256": "a4bd32b2b9fa0d4d803fc4887d8121ba5caccb434f6339f7ece59b4568891996"
+      },
+      "bytes_equal_after_literal_MC8223_to_MC8223X_replacement": true,
+      "replacement_count": 3,
+      "diff_ascii_escaped": [
+        "--- u-boot/arch/arm/dts/pvc04v-MC8223.dts",
+        "+++ u-boot/arch/arm/dts/pvc04v-MC8223X.dts",
+        "@@ -12,7 +12,7 @@",
+        " ",
+        "-#include \"pvc04v-MC8223.dtsi\"",
+        "+#include \"pvc04v-MC8223X.dtsi\"",
+        " ",
+        " / {",
+        "-\tmodel = \"Socionext pvc04v MC8223\";",
+        "-\tcompatible = \"socionext,pvc04v-MC8223-1ST-ref\", \"socionext,milbeaut-sc2006b\";",
+        "+\tmodel = \"Socionext pvc04v MC8223X\";",
+        "+\tcompatible = \"socionext,pvc04v-MC8223X-1ST-ref\", \"socionext,milbeaut-sc2006b\";",
+        " "
+      ]
+    },
+    {
+      "left": {
+        "path": "u-boot/configs/pvc04v_MC8223_defconfig",
+        "bytes": 1128,
+        "sha256": "a8a0f7eb79caf332be043a071e110f89655cd271572e375ef6ed2b20b1e69859"
+      },
+      "right": {
+        "path": "u-boot/configs/pvc04v_MC8223X_defconfig",
+        "bytes": 1130,
+        "sha256": "55abfa40df7f6b8a1273ae4ec31228fc71911f6ceb9b3b3c540baa9450aee27e"
+      },
+      "bytes_equal_after_literal_MC8223_to_MC8223X_replacement": true,
+      "replacement_count": 2,
+      "diff_ascii_escaped": [
+        "--- u-boot/configs/pvc04v_MC8223_defconfig",
+        "+++ u-boot/configs/pvc04v_MC8223X_defconfig",
+        "@@ -11,3 +11,3 @@",
+        " # CONFIG_EFI_LOADER is not set",
+        "-CONFIG_DEFAULT_DEVICE_TREE=\"pvc04v-MC8223\"",
+        "+CONFIG_DEFAULT_DEVICE_TREE=\"pvc04v-MC8223X\"",
+        " CONFIG_NR_DRAM_BANKS=1",
+        "@@ -28,3 +28,3 @@",
+        " ",
+        "-#### for MC8223 autoboot ####",
+        "+#### for MC8223X autoboot ####",
+        " "
+      ]
+    },
+    {
+      "left": {
+        "path": "linux-4.19.124/arch/arm64/boot/dts/socionext/pvc04v-MC8223-rtos.h",
+        "bytes": 1992,
+        "sha256": "cb1494a6917f613ef7bff2fbf9d6ae61427ca8191ab2819052c73f7d0f6ab5ef"
+      },
+      "right": {
+        "path": "linux-4.19.124/arch/arm64/boot/dts/socionext/pvc04v-MC8223X-rtos.h",
+        "bytes": 1994,
+        "sha256": "15709ea7caf606ca5781daaf3e85d5ac6ef8fba33c6d93520ef6c4e199648106"
+      },
+      "bytes_equal_after_literal_MC8223_to_MC8223X_replacement": true,
+      "replacement_count": 2,
+      "diff_ascii_escaped": [
+        "--- linux-4.19.124/arch/arm64/boot/dts/socionext/pvc04v-MC8223-rtos.h",
+        "+++ linux-4.19.124/arch/arm64/boot/dts/socionext/pvc04v-MC8223X-rtos.h",
+        "@@ -2,3 +2,3 @@",
+        " /*",
+        "- * pvc04v-MC8223-rtos.h - rtos for MC8223",
+        "+ * pvc04v-MC8223X-rtos.h - rtos for MC8223X",
+        "  *"
+      ]
+    },
+    {
+      "left": {
+        "path": "linux-4.19.124/arch/arm64/boot/dts/socionext/pvc04v-MC8223.dts",
+        "bytes": 17209,
+        "sha256": "330d93a7a5fe5550f45b144f246bb41a9278e7532ab2dd5d5053699675fa8302"
+      },
+      "right": {
+        "path": "linux-4.19.124/arch/arm64/boot/dts/socionext/pvc04v-MC8223X.dts",
+        "bytes": 17214,
+        "sha256": "6b6bd5c26c4a873b341c760f5db840a3fb68135249316823f9a2e40ef72da2d5"
+      },
+      "bytes_equal_after_literal_MC8223_to_MC8223X_replacement": true,
+      "replacement_count": 5,
+      "diff_ascii_escaped": [
+        "--- linux-4.19.124/arch/arm64/boot/dts/socionext/pvc04v-MC8223.dts",
+        "+++ linux-4.19.124/arch/arm64/boot/dts/socionext/pvc04v-MC8223X.dts",
+        "@@ -15,9 +15,9 @@",
+        " /dts-v1/;",
+        "-#include \"pvc04v-MC8223.dtsi\"",
+        "-#include \"pvc04v-MC8223-rtos.h\"",
+        "-#include \"pvc04v-MC8223-gpio.h\"",
+        "+#include \"pvc04v-MC8223X.dtsi\"",
+        "+#include \"pvc04v-MC8223X-rtos.h\"",
+        "+#include \"pvc04v-MC8223X-gpio.h\"",
+        " ",
+        " / {",
+        "-\tmodel = \"Socionext pvc04v MC8223\";",
+        "-\tcompatible = \"socionext,pvc04v-MC8223-2ND\", \"socionext,sc2006\";",
+        "+\tmodel = \"Socionext pvc04v MC8223X\";",
+        "+\tcompatible = \"socionext,pvc04v-MC8223X-2ND\", \"socionext,sc2006\";",
+        " "
+      ]
+    },
+    {
+      "left": {
+        "path": "linux-4.19.124/arch/arm64/configs/pvc04v_MC8223_defconfig",
+        "bytes": 14228,
+        "sha256": "b4cec304ddaf87dbc0cb61ceaec1746beb9460cb0c2c474416772e64007e3b0b"
+      },
+      "right": {
+        "path": "linux-4.19.124/arch/arm64/configs/pvc04v_MC8223X_defconfig",
+        "bytes": 14230,
+        "sha256": "73955da4cdb369e92e37a8314fbfdad011f65ffebb9bebbecb4a1921ef054726"
+      },
+      "bytes_equal_after_literal_MC8223_to_MC8223X_replacement": true,
+      "replacement_count": 2,
+      "diff_ascii_escaped": [
+        "--- linux-4.19.124/arch/arm64/configs/pvc04v_MC8223_defconfig",
+        "+++ linux-4.19.124/arch/arm64/configs/pvc04v_MC8223X_defconfig",
+        "@@ -1,3 +1,3 @@",
+        " #",
+        "-# pvc04v_MC8223_1ST_defconfig - kernel default config for MC8223_1ST",
+        "+# pvc04v_MC8223X_1ST_defconfig - kernel default config for MC8223X_1ST",
+        " #"
+      ]
+    }
+  ],
+  "other_historical_renamed_pairs_not_content_reviewed": [
+    {
+      "left": {
+        "path": "u-boot/arch/arm/dts/pvc04v-MC8223.dtsi",
+        "bytes": 2692,
+        "sha256": "832af8759dabc87c39ca7bc2c23721d6b0d14502ff5b3d3f3968bf5c979ed918"
+      },
+      "right": {
+        "path": "u-boot/arch/arm/dts/pvc04v-MC8223X.dtsi",
+        "bytes": 2694,
+        "sha256": "b422ce88669e6bcbad16cd7fe497453d313267d1d129eb9f855189f010aadb86"
+      },
+      "status": "historical whole-package inventory hashes only; no new paired content review"
+    },
+    {
+      "left": {
+        "path": "linux-4.19.124/arch/arm64/boot/dts/socionext/pvc04v-MC8223-gpio.h",
+        "bytes": 1237,
+        "sha256": "7a1ab512e6a1e46bf90392440f6f0c453161714768b7d4f8db3200dd290ad5d3"
+      },
+      "right": {
+        "path": "linux-4.19.124/arch/arm64/boot/dts/socionext/pvc04v-MC8223X-gpio.h",
+        "bytes": 1239,
+        "sha256": "c6ccc4fd36ad9dc1d5192511e8bffec99dcc38d02f85efcbe7eff65f9a7e0787"
+      },
+      "status": "historical whole-package inventory hashes only; no new paired content review"
+    },
+    {
+      "left": {
+        "path": "linux-4.19.124/arch/arm64/boot/dts/socionext/pvc04v-MC8223.dtsi",
+        "bytes": 27422,
+        "sha256": "ba35c00f8d62c168203266e133c59520d57776624a68a3b8ee7de7884a4cf159"
+      },
+      "right": {
+        "path": "linux-4.19.124/arch/arm64/boot/dts/socionext/pvc04v-MC8223X.dtsi",
+        "bytes": 27424,
+        "sha256": "573d4fdaec6f7380f1be31a3182aa99be9303fae93444ac3c62a5a79ee5066fa"
+      },
+      "status": "historical whole-package inventory hashes only; no new paired content review"
+    }
+  ],
+  "limitations": "Literal replacement equality is a source-text relation, not model/firmware/deployed configuration equivalence."
+}

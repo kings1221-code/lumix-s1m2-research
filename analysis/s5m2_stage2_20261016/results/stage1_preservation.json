@@ -1,0 +1,881 @@
+{
+  "stage1_commit": "69333e24675fcdbe2f7d00481a3360af78a1ea9e",
+  "stage1_remote_commit": "69333e24675fcdbe2f7d00481a3360af78a1ea9e",
+  "stage1_public_files_checked": [
+    {
+      "path": ".gitattributes",
+      "size": 25,
+      "sha256": "4f1cc3a349adb40d9098c6c27939e254b52e306c28701cd58cb6a4caaae455f3"
+    },
+    {
+      "path": ".gitignore",
+      "size": 8,
+      "sha256": "04e59f5cc75e578a7492cd2c14ddf16487d1af09e188a7cc01224a61b1b3855f"
+    },
+    {
+      "path": "DexIndex.java",
+      "size": 5524,
+      "sha256": "acb49562ba0f09238467aa0d399889b8cc440e15864b3adda9f860349f483c00"
+    },
+    {
+      "path": "ExportStage1.java",
+      "size": 3323,
+      "sha256": "54f591e057d223439a42e80f35687161f7c2889b283fe9bb424279c164a5bb5d"
+    },
+    {
+      "path": "FAILED_METHODS.md",
+      "size": 4037,
+      "sha256": "49c591a5342980e63f97fe6cc6d8a98067adb2b2c2c45f3fa4b371f14cc45fba"
+    },
+    {
+      "path": "README.md",
+      "size": 13820,
+      "sha256": "86657964c75c929646a7334d953b25ccac4dd92971d46ca89a6e0c719f9d108f"
+    },
+    {
+      "path": "REPRODUCE.md",
+      "size": 7649,
+      "sha256": "fdee470a713e1317979e53206351667727dc78b4b1305ed2b4dee9567f123630"
+    },
+    {
+      "path": "derive_indexes.py",
+      "size": 6853,
+      "sha256": "97f8d6b6bb5b485b07a0875a580745ef25e9a0426395d34e9c77fae8a43eb03e"
+    },
+    {
+      "path": "dex_offsets.py",
+      "size": 1438,
+      "sha256": "ef0fe78291b7ab6bdd91769c4880b7906a804d7994e645ee001d24b62bdc697b"
+    },
+    {
+      "path": "native_inventory.py",
+      "size": 3302,
+      "sha256": "aae7aefbf109409f0c4126fd717b3c1c6987aa1bd77c4a46892bca97466f71db"
+    },
+    {
+      "path": "prepare_tools.py",
+      "size": 1677,
+      "sha256": "e142a338be1787ec6fc2c2c8da861604ab04c3be9297ef3d152f673a376ceeb4"
+    },
+    {
+      "path": "publish_report_data.py",
+      "size": 8313,
+      "sha256": "b1246cbf414b4649da4f5e6fdf1b3ba17e3cb6e0005459cdf8a8a1d4af7b8d90"
+    },
+    {
+      "path": "results/critical_dex_evidence.json",
+      "size": 7771,
+      "sha256": "d4aa174edb27b5b10646eed55aaa43fbfb69a3753870febe59d396c3ccecdb94"
+    },
+    {
+      "path": "results/dex_native_methods.json",
+      "size": 154325,
+      "sha256": "140ecc2ead12140e6992176486e94f4d202038b70db7aea450fbaf63f20d6023"
+    },
+    {
+      "path": "results/failed_method_cfg.json.gz",
+      "size": 43376,
+      "sha256": "a019bcf512c888f79d43d7808d9838d0e806d7719f924962c88abbb616fa18e9"
+    },
+    {
+      "path": "results/failed_method_cfg_index.json",
+      "size": 15076,
+      "sha256": "d0a33dd18576734e425ed18fda0ccdd0ef9578a891840d937f8ac7aceb1d3983"
+    },
+    {
+      "path": "results/firmware_api_calls.json",
+      "size": 2152,
+      "sha256": "a1e041ae00be7a952bf7774f477910bd9341ff886632514304b6dfaeb6a6eed5"
+    },
+    {
+      "path": "results/firmware_dataflow.json",
+      "size": 158504,
+      "sha256": "b4b020296c06d4da76fe3dfdb8c1bde662d27f3b0dfea1b1cb1b31d5499d3fc1"
+    },
+    {
+      "path": "results/ghidra_verified_functions.json",
+      "size": 243763,
+      "sha256": "68a94b5e81a6107494c671918f10c40f50f98c1d440e9562f0b9320f298cb019"
+    },
+    {
+      "path": "results/git_snapshot.json",
+      "size": 371,
+      "sha256": "d6c4aadb1bac25146b00fc78bdf16aad77a8c67848facdcfc90ef8254e12e4c9"
+    },
+    {
+      "path": "results/inputs.json",
+      "size": 11247,
+      "sha256": "69b6d5003c245f95d01ef6ac3ac05633a03f34fe41d16174de872cb965ec35e6"
+    },
+    {
+      "path": "results/jadx_error_excerpt.txt",
+      "size": 10085,
+      "sha256": "2177c77a4eb7a7d74c9854e5781b232b7f45f5320e4dff0d8a635e18bb97b679"
+    },
+    {
+      "path": "results/jadx_failures.json",
+      "size": 71629,
+      "sha256": "843a7adf6f11b7c0709ce78ebf88b58d8d2bdd41bb7820b486f9dc0eee9c0b01"
+    },
+    {
+      "path": "results/jni_mapping.json",
+      "size": 155130,
+      "sha256": "9e6f3a5cae578d655c5b102227291f63b241896c7601c1fe69e9d29717dbc538"
+    },
+    {
+      "path": "results/jni_mapping_verified.json",
+      "size": 159508,
+      "sha256": "8fce7c20c573c97fd50effd5c7d4fb9237ec97985bc5f956c83646a29be2c9b1"
+    },
+    {
+      "path": "results/library_load_sites.json",
+      "size": 9160,
+      "sha256": "c553f4f8bfb814f85be14aecec5b003ecdc0e1af1c6e4a130a6015b255096472"
+    },
+    {
+      "path": "results/library_load_sites_verified.json",
+      "size": 9838,
+      "sha256": "6f7f9cb77eb0dfd03cf946716cf689c4a8c4435c983d18e3b631af6e08ce42ea"
+    },
+    {
+      "path": "results/scope_verification.json",
+      "size": 776,
+      "sha256": "0b6c01038068733573e2816b05fb5bbd7a9241b3833049c87de26917f779c639"
+    },
+    {
+      "path": "results/selected_method_locations.json",
+      "size": 32509,
+      "sha256": "7264c7b0650a690712037b3d69e45867d217cea59946777afda607edc6dc0ddd"
+    },
+    {
+      "path": "results/tools.json",
+      "size": 1042,
+      "sha256": "cfd4c4910e2f2a39b9187b8e64fdc4eaecfa5343c682aa5636f6b12d135db829"
+    },
+    {
+      "path": "run_ghidra.py",
+      "size": 2321,
+      "sha256": "95ba09eced9e18fd16e8da231075dc8ea1ed4c3d8946bffd4f757c0c438a895d"
+    },
+    {
+      "path": "verify_delivery.py",
+      "size": 640,
+      "sha256": "59c2c64f35ae04d5e1bf4d787f94e4b6684b24b3b3ea47b9deca21074eb4bb8d"
+    },
+    {
+      "path": "verify_evidence.py",
+      "size": 9326,
+      "sha256": "0aed7a34ed04a80e3574f4e7ca87bb08e77aade1283faf7e8806a52fc20d11b5"
+    }
+  ],
+  "input_files_rechecked": [
+    {
+      "kind": "APK",
+      "path_token": "<SOURCE_ROOT>/apk/com.panasonic.jp.lumixlab-22.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 189845077,
+      "sha256": "6ba873110d201675a905f7dac39bcda3291674e7440a484d6d5bd1a78447115f",
+      "provenance": "existing Google Play delivery record; no fresh publisher/signature attestation",
+      "status": "verified_sha256_reference",
+      "github_binary_present": false
+    },
+    {
+      "kind": "APK",
+      "path_token": "<SOURCE_ROOT>/apk/com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 42944168,
+      "sha256": "4e1a4fcbb9321bacfce69b6719146b5f8b249d5d9dded72044d23b99903fcdb4",
+      "provenance": "existing Google Play delivery record; no fresh publisher/signature attestation",
+      "status": "verified_sha256_reference",
+      "github_binary_present": false
+    },
+    {
+      "kind": "APK",
+      "path_token": "<SOURCE_ROOT>/apk/com.panasonic.jp.lumixlab-22-config.en.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 78233,
+      "sha256": "6288e4ea41dce76389814d191eb39afed7a5171d8f80116612c0f23fe98e6ca5",
+      "provenance": "existing Google Play delivery record; no fresh publisher/signature attestation",
+      "status": "verified_sha256_reference",
+      "github_binary_present": false
+    },
+    {
+      "kind": "APK",
+      "path_token": "<SOURCE_ROOT>/apk/com.panasonic.jp.lumixlab-22-config.xxhdpi.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 9983302,
+      "sha256": "6b62ec477edfa3673b87c7f361721fb4707a3c2d313d45c70ada1c8774515b39",
+      "provenance": "existing Google Play delivery record; no fresh publisher/signature attestation",
+      "status": "verified_sha256_reference",
+      "github_binary_present": false
+    },
+    {
+      "kind": "APK",
+      "path_token": "<SOURCE_ROOT>/apk/com.panasonic.jp.lumixlab-22-config.zh.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 205209,
+      "sha256": "626fab49109927bba388a81370b80d509717424033a7caedfb7b96e2557ca18f",
+      "provenance": "existing Google Play delivery record; no fresh publisher/signature attestation",
+      "status": "verified_sha256_reference",
+      "github_binary_present": false
+    },
+    {
+      "kind": "DEX",
+      "member": "classes.dex",
+      "container": "com.panasonic.jp.lumixlab-22.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 7341852,
+      "sha256": "02782fe6cf962788d1e5e76f707fc9d5e45669c205eaafee9bb8c50f2f5810ff",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false
+    },
+    {
+      "kind": "DEX",
+      "member": "classes2.dex",
+      "container": "com.panasonic.jp.lumixlab-22.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 5047724,
+      "sha256": "4147c194d9814bac0f83e2120705b6e03524a3425d2492eafdbf547898736552",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libavcodec.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 7377464,
+      "sha256": "4bcd087282fe141181be4cb770218d94f1f924f2a99a6770ce36a91d22d1e9aa",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libavformat.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 1461856,
+      "sha256": "4d364b5e2855c8e828eb02474c3cec47b8801f88a59c8625dc64a260604eaa79",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libavutil.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 491368,
+      "sha256": "3676eb0ed26d540287ab8470c8abe618153afc45258451298b5d4ffd18ff010b",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libc++_shared.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 1374336,
+      "sha256": "c4c2fe5cbcb1fba0003a31fc7ab29a9bb12df6cc187ec45a806462540e83d93b",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libcrypto.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 2676640,
+      "sha256": "49db5bf9fdee2c87209085717497ac604b8768d589df32a85d8124c3f7604b4a",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libcube_merge.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 11976,
+      "sha256": "91c35f56413f0e6fd8108000104a4270b6beee64121bfd954ada56e510c03d2f",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libde265.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 1329336,
+      "sha256": "546563ccbc766ed8015a980d163e85af52af54f2eb193e1bb2e7471f04970d58",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libffmpeg_mediametadataretriever_jni.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 58720,
+      "sha256": "dfd412e3103b203ed96adbbf30e2c70053afdeaf172c1a5cc9a8b849ff9ee471",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libheif.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 994704,
+      "sha256": "e229d1a052a48ceb6defe47570ee6a448bf3c461205132580e4a52c961df8e83",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libllc.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 104008,
+      "sha256": "7433d705215bb92e7a87b9005277127e5851c7a4638ca8f6a3db17d2a00927df",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libonnxruntime.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 18214224,
+      "sha256": "3fc3e79539f06f67360a810e60eb5c513db5febc16f7bc71e5d9e8ce39e3d775",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libonnxruntime4j_jni.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 75720,
+      "sha256": "adcaf5e11ff65ad7b54725b2869118568b14ce2f3596d1b6f082ed0c774f2539",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libssl.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 590168,
+      "sha256": "f8be5421e9186804504bd4f74e76fe23b71af401d311b559479500f227fd24ec",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libswscale.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 350224,
+      "sha256": "f381b19a9947ac25acb95e91c539ff31c634fca2ca70939b4bb8afb36c85b581",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libtechorfilter.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 6340624,
+      "sha256": "03e1c4e11e86012e03faf025fd566be79df3fc75ee28d38433d676a959b3d25f",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libyuv-decoder.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 6216,
+      "sha256": "ed3709f2b4b425746befbc6c6aab2235446ecbb37a33647b030828d8c6688dcf",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libyuv.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 403888,
+      "sha256": "987926e77bddb9880e16dfb11201d6fb0429c4ff462a74e0bd0965b3de4d85c3",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libyuv_android.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 899360,
+      "sha256": "dab061cb65b5b86318c5a01b2c47ac6da7da064421a5c9ef71b71123b0df5809",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false
+    }
+  ],
+  "jadx_log": {
+    "size": 154359,
+    "sha256": "fb73ab25cec5e9945500b491cac18f6372507ad496bccf84da1ccf4260a63258"
+  },
+  "actual_error_events": 42,
+  "distinct_failed_methods": 24,
+  "structural_cfg_uncompressed_sha256": "66f75977c53876ec9278fce30b9b98223ed7f444fcbdf9b03df4439568dc27b2",
+  "cfg_index": {
+    "uncompressed_sha256": "66f75977c53876ec9278fce30b9b98223ed7f444fcbdf9b03df4439568dc27b2",
+    "archive": "failed_method_cfg.json.gz",
+    "methods": [
+      {
+        "method": "LB9/o;->j(LB9/q;)LB9/q;",
+        "dex": "classes2.dex",
+        "location": {
+          "method_index": 1573,
+          "code_item_offset": 955368,
+          "insns_offset": 955384,
+          "code_units": 310,
+          "access_flags": 17
+        },
+        "instruction_count": 169,
+        "instruction_bytes_sha256": "d805c1b4fe028bda5e68628675b5ed9d1937b5c6adfb764c19850e0303dfd33d",
+        "block_count": 32,
+        "encoded_branch_targets_valid": true,
+        "register_indices_valid": true,
+        "status": "structural_control_flow_recovered; semantic_review_is_separate"
+      },
+      {
+        "method": "LB9/x;->a(LB9/y;)LB9/y;",
+        "dex": "classes2.dex",
+        "location": {
+          "method_index": 1680,
+          "code_item_offset": 966272,
+          "insns_offset": 966288,
+          "code_units": 522,
+          "access_flags": 17
+        },
+        "instruction_count": 281,
+        "instruction_bytes_sha256": "0f129d4ba65fc4b2c8e6dc87a90f1d0d5abf4410b06882217f159407ccbb4c50",
+        "block_count": 70,
+        "encoded_branch_targets_valid": true,
+        "register_indices_valid": true,
+        "status": "structural_control_flow_recovered; semantic_review_is_separate"
+      },
+      {
+        "method": "LC0/Q;->w(Landroid/net/Uri;Ljava/lang/String;)I",
+        "dex": "classes.dex",
+        "location": {
+          "method_index": 1094,
+          "code_item_offset": 1606964,
+          "insns_offset": 1606980,
+          "code_units": 320,
+          "access_flags": 9
+        },
+        "instruction_count": 161,
+        "instruction_bytes_sha256": "ad212d646f4a6e77db8300368344a75aeb65541c8097926801db06ce1cc4668a",
+        "block_count": 66,
+        "encoded_branch_targets_valid": true,
+        "register_indices_valid": true,
+        "status": "structural_control_flow_recovered; semantic_review_is_separate"
+      },
+      {
+        "method": "LF0/b0;->m(Lz0/B0;Z)V",
+        "dex": "classes.dex",
+        "location": {
+          "method_index": 3071,
+          "code_item_offset": 1788552,
+          "insns_offset": 1788568,
+          "code_units": 992,
+          "access_flags": 17
+        },
+        "instruction_count": 548,
+        "instruction_bytes_sha256": "edd44b14a791af7550f16ac8e0c59d9aa76f9ea04f32936e6fd581a82124fae8",
+        "block_count": 152,
+        "encoded_branch_targets_valid": true,
+        "register_indices_valid": true,
+        "status": "structural_control_flow_recovered; semantic_review_is_separate"
+      },
+      {
+        "method": "LH0/H;->c()Z",
+        "dex": "classes.dex",
+        "location": {
+          "method_index": 3827,
+          "code_item_offset": 1886124,
+          "insns_offset": 1886140,
+          "code_units": 62,
+          "access_flags": 17
+        },
+        "instruction_count": 34,
+        "instruction_bytes_sha256": "9a1e367b18bc4529cb6711e718ba3a5b3a84dcee2318c90d854f856f7816c4d1",
+        "block_count": 14,
+        "encoded_branch_targets_valid": true,
+        "register_indices_valid": true,
+        "status": "structural_control_flow_recovered; semantic_review_is_separate"
+      },
+      {
+        "method": "LJ0/F;->f(LJ0/z;LJ0/B;)Ljava/util/ArrayList;",
+        "dex": "classes.dex",
+        "location": {
+          "method_index": 4671,
+          "code_item_offset": 1995328,
+          "insns_offset": 1995344,
+          "code_units": 382,
+          "access_flags": 9
+        },
+        "instruction_count": 199,
+        "instruction_bytes_sha256": "c6759686018f64789554c8d115e63845e82fb581b15bd36b6e7138f61ff1ae37",
+        "block_count": 61,
+        "encoded_branch_targets_valid": true,
+        "register_indices_valid": true,
+        "status": "structural_control_flow_recovered; semantic_review_is_separate"
+      },
+      {
+        "method": "LJ2/y;->a(LK2/f;)Ly2/l;",
+        "dex": "classes.dex",
+        "location": {
+          "method_index": 5004,
+          "code_item_offset": 2016412,
+          "insns_offset": 2016428,
+          "code_units": 1022,
+          "access_flags": 9
+        },
+        "instruction_count": 527,
+        "instruction_bytes_sha256": "ea3d1f8a3f695ae2c0e375922bf77f3631eb49f7ef1e861137b61c568c69d8c8",
+        "block_count": 120,
+        "encoded_branch_targets_valid": true,
+        "register_indices_valid": true,
+        "status": "structural_control_flow_recovered; semantic_review_is_separate"
+      },
+      {
+        "method": "LX7/u;->a(LX7/d;LE7/c;)Ljava/lang/Object;",
+        "dex": "classes2.dex",
+        "location": {
+          "method_index": 8897,
+          "code_item_offset": 1766852,
+          "insns_offset": 1766868,
+          "code_units": 288,
+          "access_flags": 17
+        },
+        "instruction_count": 157,
+        "instruction_bytes_sha256": "54785d910e2283708041c36b68983ac137979b4407355881769999cdfa82ef0c",
+        "block_count": 51,
+        "encoded_branch_targets_valid": true,
+        "register_indices_valid": true,
+        "status": "structural_control_flow_recovered; semantic_review_is_separate"
+      },
+      {
+        "method": "La0/q;->r(Ljava/lang/Object;)Ljava/lang/Object;",
+        "dex": "classes.dex",
+        "location": {
+          "method_index": 10922,
+          "code_item_offset": 2487092,
+          "insns_offset": 2487108,
+          "code_units": 452,
+          "access_flags": 17
+        },
+        "instruction_count": 246,
+        "instruction_bytes_sha256": "e3ebc97377181cb4a02db075303f4767546b3ad0c3d2ee45f74f76f20565eaf1",
+        "block_count": 68,
+        "encoded_branch_targets_valid": true,
+        "register_indices_valid": true,
+        "status": "structural_control_flow_recovered; semantic_review_is_separate"
+      },
+      {
+        "method": "Landroidx/coordinatorlayout/widget/CoordinatorLayout;->u()V",
+        "dex": "classes.dex",
+        "location": {
+          "method_index": 17135,
+          "code_item_offset": 2645504,
+          "insns_offset": 2645520,
+          "code_units": 392,
+          "access_flags": 17
+        },
+        "instruction_count": 199,
+        "instruction_bytes_sha256": "1c22d46a29ca6b227a7287a64ebabc3e286cc9168c7d2e78fba9fa13911143b6",
+        "block_count": 70,
+        "encoded_branch_targets_valid": true,
+        "register_indices_valid": true,
+        "status": "structural_control_flow_recovered; semantic_review_is_separate"
+      },
+      {
+        "method": "Lcom/google/android/gms/internal/auth/zzga;->zzb(Ljava/lang/Object;[BIIILcom/google/android/gms/internal/auth/zzdt;)I",
+        "dex": "classes.dex",
+        "location": {
+          "method_index": 30551,
+          "code_item_offset": 3781032,
+          "insns_offset": 3781048,
+          "code_units": 3938,
+          "access_flags": 17
+        },
+        "instruction_count": 2193,
+        "instruction_bytes_sha256": "68a686dda4d6c45e2626e976a837faf46a40493098680d1708e1fa1f2bea1616",
+        "block_count": 443,
+        "encoded_branch_targets_valid": true,
+        "register_indices_valid": true,
+        "status": "structural_control_flow_recovered; semantic_review_is_separate"
+      },
+      {
+        "method": "Lcom/google/common/collect/X;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;",
+        "dex": "classes.dex",
+        "location": {
+          "method_index": 43649,
+          "code_item_offset": 4324852,
+          "insns_offset": 4324868,
+          "code_units": 399,
+          "access_flags": 17
+        },
+        "instruction_count": 213,
+        "instruction_bytes_sha256": "d52418fe20b113985fbdcc4d0399df86f7521220bd8628caf1a4ecc303363c1b",
+        "block_count": 39,
+        "encoded_branch_targets_valid": true,
+        "register_indices_valid": true,
+        "status": "structural_control_flow_recovered; semantic_review_is_separate"
+      },
+      {
+        "method": "Lcom/google/common/collect/b1;-><init>(Lcom/google/common/collect/b1;)V",
+        "dex": "classes.dex",
+        "location": {
+          "method_index": 43701,
+          "code_item_offset": 4343024,
+          "insns_offset": 4343040,
+          "code_units": 49,
+          "access_flags": 65537
+        },
+        "instruction_count": 25,
+        "instruction_bytes_sha256": "f08cc7d23300a4070ae352b44b70d8b12e260f9fc708926f55f8dab8c019a928",
+        "block_count": 7,
+        "encoded_branch_targets_valid": true,
+        "register_indices_valid": true,
+        "status": "structural_control_flow_recovered; semantic_review_is_separate"
+      },
+      {
+        "method": "Lcom/panasonic/jp/lumixlab/controller/activity/MainActivity;->a0(Lcom/panasonic/jp/lumixlab/controller/activity/MainActivity;ZLandroid/net/Uri;)V",
+        "dex": "classes2.dex",
+        "location": {
+          "method_index": 14425,
+          "code_item_offset": 1983616,
+          "insns_offset": 1983632,
+          "code_units": 1377,
+          "access_flags": 9
+        },
+        "instruction_count": 732,
+        "instruction_bytes_sha256": "0471f8c3d1b2019bd5a6a9dd12f76005215652dc946606b40c8a36fd52288c3d",
+        "block_count": 135,
+        "encoded_branch_targets_valid": true,
+        "register_indices_valid": true,
+        "status": "structural_control_flow_recovered; semantic_review_is_separate"
+      },
+      {
+        "method": "Lcom/panasonic/jp/lumixlab/controller/activity/RemoteShootingActivity;->Y0(LK5/Q0;)V",
+        "dex": "classes2.dex",
+        "location": {
+          "method_index": 14597,
+          "code_item_offset": 2039060,
+          "insns_offset": 2039076,
+          "code_units": 9050,
+          "access_flags": 17
+        },
+        "instruction_count": 4573,
+        "instruction_bytes_sha256": "d3108bc001c357d1b5d698b12bebf601ce529e67f08ebf352afa80c12e023351",
+        "block_count": 991,
+        "encoded_branch_targets_valid": true,
+        "register_indices_valid": true,
+        "status": "structural_control_flow_recovered; semantic_review_is_separate"
+      },
+      {
+        "method": "Lcom/panasonic/jp/lumixlab/util/v;->Q(Ljava/io/BufferedReader;Lcom/panasonic/jp/lumixlab/bean/EditLutListBean;)V",
+        "dex": "classes2.dex",
+        "location": {
+          "method_index": 16891,
+          "code_item_offset": 2318264,
+          "insns_offset": 2318280,
+          "code_units": 1012,
+          "access_flags": 9
+        },
+        "instruction_count": 460,
+        "instruction_bytes_sha256": "ed84a23048bb2811ff15ff8c62596f3a8c5105de81023f3f16f778c703bbb67e",
+        "block_count": 140,
+        "encoded_branch_targets_valid": true,
+        "register_indices_valid": true,
+        "status": "structural_control_flow_recovered; semantic_review_is_separate"
+      },
+      {
+        "method": "Lf5/r1;->a()V",
+        "dex": "classes2.dex",
+        "location": {
+          "method_index": 20592,
+          "code_item_offset": 2888416,
+          "insns_offset": 2888432,
+          "code_units": 1046,
+          "access_flags": 18
+        },
+        "instruction_count": 503,
+        "instruction_bytes_sha256": "28804237f6698e876caa9d3d83426d3ac8c27b6c95189a1d53d49c8bc6edfb7b",
+        "block_count": 118,
+        "encoded_branch_targets_valid": true,
+        "register_indices_valid": true,
+        "status": "structural_control_flow_recovered; semantic_review_is_separate"
+      },
+      {
+        "method": "Lj5/C;->a(Lj5/C;JIFLE7/c;)Ljava/lang/Object;",
+        "dex": "classes2.dex",
+        "location": {
+          "method_index": 22760,
+          "code_item_offset": 3319052,
+          "insns_offset": 3319068,
+          "code_units": 538,
+          "access_flags": 25
+        },
+        "instruction_count": 333,
+        "instruction_bytes_sha256": "3f909e03d5a8792e1ec117cb7f994f8ae4a58f515401011e3751dd31e95d7ec4",
+        "block_count": 95,
+        "encoded_branch_targets_valid": true,
+        "register_indices_valid": true,
+        "status": "structural_control_flow_recovered; semantic_review_is_separate"
+      },
+      {
+        "method": "Ll0/h;->D(Ljava/io/BufferedInputStream;Ljava/io/BufferedOutputStream;)V",
+        "dex": "classes.dex",
+        "location": {
+          "method_index": 52034,
+          "code_item_offset": 4835344,
+          "insns_offset": 4835360,
+          "code_units": 199,
+          "access_flags": 17
+        },
+        "instruction_count": 92,
+        "instruction_bytes_sha256": "34064d88340eb7cbcb6b010663907af70c6b4687d52cd888cb8abfc1f83f60df",
+        "block_count": 27,
+        "encoded_branch_targets_valid": true,
+        "register_indices_valid": true,
+        "status": "structural_control_flow_recovered; semantic_review_is_separate"
+      },
+      {
+        "method": "Ll0/h;->e(Ll0/b;II)V",
+        "dex": "classes.dex",
+        "location": {
+          "method_index": 52048,
+          "code_item_offset": 4827296,
+          "insns_offset": 4827312,
+          "code_units": 478,
+          "access_flags": 17
+        },
+        "instruction_count": 219,
+        "instruction_bytes_sha256": "69c02e6a360c1a92715a002a97953a7e4ef2878e7f4125112ec186965a6a8a57",
+        "block_count": 46,
+        "encoded_branch_targets_valid": true,
+        "register_indices_valid": true,
+        "status": "structural_control_flow_recovered; semantic_review_is_separate"
+      },
+      {
+        "method": "Ln1/a;->j([BIZ)Ll1/d;",
+        "dex": "classes.dex",
+        "location": {
+          "method_index": 52621,
+          "code_item_offset": 4889540,
+          "insns_offset": 4889556,
+          "code_units": 1030,
+          "access_flags": 17
+        },
+        "instruction_count": 520,
+        "instruction_bytes_sha256": "fa9a629a4f75dc7d08f19425628d625bba2721dfe029f0a57aa3c9d2a00b961c",
+        "block_count": 91,
+        "encoded_branch_targets_valid": true,
+        "register_indices_valid": true,
+        "status": "structural_control_flow_recovered; semantic_review_is_separate"
+      },
+      {
+        "method": "Lp6/k;->r(Ljava/lang/Object;)Ljava/lang/Object;",
+        "dex": "classes2.dex",
+        "location": {
+          "method_index": 27114,
+          "code_item_offset": 3543564,
+          "insns_offset": 3543580,
+          "code_units": 1226,
+          "access_flags": 17
+        },
+        "instruction_count": 664,
+        "instruction_bytes_sha256": "b49d7032aba1682ed7160a56311726826c3b9c2b91892e50266bd7966ff1f1aa",
+        "block_count": 161,
+        "encoded_branch_targets_valid": true,
+        "register_indices_valid": true,
+        "status": "structural_control_flow_recovered; semantic_review_is_separate"
+      },
+      {
+        "method": "Lr1/f;->p(Lorg/xmlpull/v1/XmlPullParser;Ljava/util/HashMap;Lr1/c;Lr1/e;Ljava/util/HashMap;Ljava/util/HashMap;)V",
+        "dex": "classes.dex",
+        "location": {
+          "method_index": 53581,
+          "code_item_offset": 4977180,
+          "insns_offset": 4977196,
+          "code_units": 638,
+          "access_flags": 9
+        },
+        "instruction_count": 326,
+        "instruction_bytes_sha256": "d5afa2e825745c4a07d27da83167941ee8e61ddb2facce6052649bf2911b7b88",
+        "block_count": 79,
+        "encoded_branch_targets_valid": true,
+        "register_indices_valid": true,
+        "status": "structural_control_flow_recovered; semantic_review_is_separate"
+      },
+      {
+        "method": "Lx/i;->c(Lt/d;Z)V",
+        "dex": "classes.dex",
+        "location": {
+          "method_index": 55212,
+          "code_item_offset": 5160200,
+          "insns_offset": 5160216,
+          "code_units": 2056,
+          "access_flags": 1
+        },
+        "instruction_count": 1090,
+        "instruction_bytes_sha256": "eb4f3afc001222979f3e05273e0d38979de1b3361ce93655635acb112248f025",
+        "block_count": 290,
+        "encoded_branch_targets_valid": true,
+        "register_indices_valid": true,
+        "status": "structural_control_flow_recovered; semantic_review_is_separate"
+      }
+    ]
+  },
+  "jni_saved_scope": {
+    "dex_definitions_independently_offset_checked": 76901,
+    "native_declarations": 214,
+    "jni_status": {
+      "static_symbol_correspondence": 197,
+      "unresolved_in_18_libraries": 1,
+      "implementation_present_Cpp_mangled_binding_unresolved": 1,
+      "verified_dynamic_registration_static_path": 15
+    },
+    "jadx_error_events": 42,
+    "distinct_failed_methods": 24,
+    "structural_cfg_recovered": 24,
+    "ghidra_functions": 52,
+    "ghidra_instruction_bytes_compared": 8154,
+    "negative_scope": "No verified firmware-byte-to-JNI flow in the explicitly traced download/unzip/request-body path; this does not exclude computed/reflection/indirect or platform-supplied paths elsewhere.",
+    "device_io": false,
+    "apk_or_firmware_modified": false,
+    "target_program_executed": false
+  },
+  "jni_counts_recomputed_from_214_rows": {
+    "static_symbol_correspondence": 197,
+    "unresolved_in_18_libraries": 1,
+    "implementation_present_Cpp_mangled_binding_unresolved": 1,
+    "verified_dynamic_registration_static_path": 15
+  },
+  "jni_mapping_sha256": {
+    "size": 159508,
+    "sha256": "8fce7c20c573c97fd50effd5c7d4fb9237ec97985bc5f956c83646a29be2c9b1"
+  },
+  "git_start": {
+    "head": "69333e24675fcdbe2f7d00481a3360af78a1ea9e",
+    "branch": "codex/s5m2-stage2-20261016",
+    "fork_main": "8f625cfabb31e8a71177b86e2b63a69c686de5e8",
+    "upstream_main": "8f625cfabb31e8a71177b86e2b63a69c686de5e8",
+    "status": "?? .codex-remote-attachments/\n?? analysis/s5m2_stage2_20261016/\n?? downloads/\n"
+  },
+  "scope": "Hash checks and actual saved log verification; no decompilation/scanning repeated"
+}

@@ -1,0 +1,17 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "new_dependencies_installed": [],
+  "analysis_tools_used": [
+    "Python standard library",
+    "official Temurin JDK 25.0.4.1+1",
+    "official JADX 1.5.6 bundled dexlib2 and Gson"
+  ],
+  "stage1_tools_reference": {
+    "path": "analysis/lab_stage1_20261015/results/tools.json",
+    "size": 1042,
+    "sha256": "cfd4c4910e2f2a39b9187b8e64fdc4eaecfa5343c682aa5636f6b12d135db829"
+  },
+  "ghidra_reanalysis": false,
+  "target_APK_DEX_SO_firmware_execution": false,
+  "camera_IO": false
+}

@@ -1,0 +1,419 @@
+{
+  "inputs": [
+    {
+      "kind": "APK",
+      "path_token": "<SOURCE_ROOT>/apk/com.panasonic.jp.lumixlab-22.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 189845077,
+      "sha256": "6ba873110d201675a905f7dac39bcda3291674e7440a484d6d5bd1a78447115f",
+      "provenance": "existing Google Play delivery record; no fresh publisher/signature attestation",
+      "status": "verified_sha256_reference",
+      "github_binary_present": false,
+      "stage2_status": "actual_local_file_SHA256_rechecked; stage1 lineage retained"
+    },
+    {
+      "kind": "APK",
+      "path_token": "<SOURCE_ROOT>/apk/com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 42944168,
+      "sha256": "4e1a4fcbb9321bacfce69b6719146b5f8b249d5d9dded72044d23b99903fcdb4",
+      "provenance": "existing Google Play delivery record; no fresh publisher/signature attestation",
+      "status": "verified_sha256_reference",
+      "github_binary_present": false,
+      "stage2_status": "actual_local_file_SHA256_rechecked; stage1 lineage retained"
+    },
+    {
+      "kind": "APK",
+      "path_token": "<SOURCE_ROOT>/apk/com.panasonic.jp.lumixlab-22-config.en.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 78233,
+      "sha256": "6288e4ea41dce76389814d191eb39afed7a5171d8f80116612c0f23fe98e6ca5",
+      "provenance": "existing Google Play delivery record; no fresh publisher/signature attestation",
+      "status": "verified_sha256_reference",
+      "github_binary_present": false,
+      "stage2_status": "actual_local_file_SHA256_rechecked; stage1 lineage retained"
+    },
+    {
+      "kind": "APK",
+      "path_token": "<SOURCE_ROOT>/apk/com.panasonic.jp.lumixlab-22-config.xxhdpi.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 9983302,
+      "sha256": "6b62ec477edfa3673b87c7f361721fb4707a3c2d313d45c70ada1c8774515b39",
+      "provenance": "existing Google Play delivery record; no fresh publisher/signature attestation",
+      "status": "verified_sha256_reference",
+      "github_binary_present": false,
+      "stage2_status": "actual_local_file_SHA256_rechecked; stage1 lineage retained"
+    },
+    {
+      "kind": "APK",
+      "path_token": "<SOURCE_ROOT>/apk/com.panasonic.jp.lumixlab-22-config.zh.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 205209,
+      "sha256": "626fab49109927bba388a81370b80d509717424033a7caedfb7b96e2557ca18f",
+      "provenance": "existing Google Play delivery record; no fresh publisher/signature attestation",
+      "status": "verified_sha256_reference",
+      "github_binary_present": false,
+      "stage2_status": "actual_local_file_SHA256_rechecked; stage1 lineage retained"
+    },
+    {
+      "kind": "DEX",
+      "member": "classes.dex",
+      "container": "com.panasonic.jp.lumixlab-22.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 7341852,
+      "sha256": "02782fe6cf962788d1e5e76f707fc9d5e45669c205eaafee9bb8c50f2f5810ff",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false,
+      "stage2_status": "actual_local_file_SHA256_rechecked; stage1 lineage retained"
+    },
+    {
+      "kind": "DEX",
+      "member": "classes2.dex",
+      "container": "com.panasonic.jp.lumixlab-22.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 5047724,
+      "sha256": "4147c194d9814bac0f83e2120705b6e03524a3425d2492eafdbf547898736552",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false,
+      "stage2_status": "actual_local_file_SHA256_rechecked; stage1 lineage retained"
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libavcodec.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 7377464,
+      "sha256": "4bcd087282fe141181be4cb770218d94f1f924f2a99a6770ce36a91d22d1e9aa",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false,
+      "stage2_status": "actual_local_file_SHA256_rechecked; stage1 lineage retained"
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libavformat.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 1461856,
+      "sha256": "4d364b5e2855c8e828eb02474c3cec47b8801f88a59c8625dc64a260604eaa79",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false,
+      "stage2_status": "actual_local_file_SHA256_rechecked; stage1 lineage retained"
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libavutil.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 491368,
+      "sha256": "3676eb0ed26d540287ab8470c8abe618153afc45258451298b5d4ffd18ff010b",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false,
+      "stage2_status": "actual_local_file_SHA256_rechecked; stage1 lineage retained"
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libc++_shared.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 1374336,
+      "sha256": "c4c2fe5cbcb1fba0003a31fc7ab29a9bb12df6cc187ec45a806462540e83d93b",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false,
+      "stage2_status": "actual_local_file_SHA256_rechecked; stage1 lineage retained"
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libcrypto.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 2676640,
+      "sha256": "49db5bf9fdee2c87209085717497ac604b8768d589df32a85d8124c3f7604b4a",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false,
+      "stage2_status": "actual_local_file_SHA256_rechecked; stage1 lineage retained"
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libcube_merge.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 11976,
+      "sha256": "91c35f56413f0e6fd8108000104a4270b6beee64121bfd954ada56e510c03d2f",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false,
+      "stage2_status": "actual_local_file_SHA256_rechecked; stage1 lineage retained"
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libde265.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 1329336,
+      "sha256": "546563ccbc766ed8015a980d163e85af52af54f2eb193e1bb2e7471f04970d58",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false,
+      "stage2_status": "actual_local_file_SHA256_rechecked; stage1 lineage retained"
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libffmpeg_mediametadataretriever_jni.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 58720,
+      "sha256": "dfd412e3103b203ed96adbbf30e2c70053afdeaf172c1a5cc9a8b849ff9ee471",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false,
+      "stage2_status": "actual_local_file_SHA256_rechecked; stage1 lineage retained"
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libheif.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 994704,
+      "sha256": "e229d1a052a48ceb6defe47570ee6a448bf3c461205132580e4a52c961df8e83",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false,
+      "stage2_status": "actual_local_file_SHA256_rechecked; stage1 lineage retained"
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libllc.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 104008,
+      "sha256": "7433d705215bb92e7a87b9005277127e5851c7a4638ca8f6a3db17d2a00927df",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false,
+      "stage2_status": "actual_local_file_SHA256_rechecked; stage1 lineage retained"
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libonnxruntime.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 18214224,
+      "sha256": "3fc3e79539f06f67360a810e60eb5c513db5febc16f7bc71e5d9e8ce39e3d775",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false,
+      "stage2_status": "actual_local_file_SHA256_rechecked; stage1 lineage retained"
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libonnxruntime4j_jni.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 75720,
+      "sha256": "adcaf5e11ff65ad7b54725b2869118568b14ce2f3596d1b6f082ed0c774f2539",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false,
+      "stage2_status": "actual_local_file_SHA256_rechecked; stage1 lineage retained"
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libssl.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 590168,
+      "sha256": "f8be5421e9186804504bd4f74e76fe23b71af401d311b559479500f227fd24ec",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false,
+      "stage2_status": "actual_local_file_SHA256_rechecked; stage1 lineage retained"
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libswscale.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 350224,
+      "sha256": "f381b19a9947ac25acb95e91c539ff31c634fca2ca70939b4bb8afb36c85b581",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false,
+      "stage2_status": "actual_local_file_SHA256_rechecked; stage1 lineage retained"
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libtechorfilter.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 6340624,
+      "sha256": "03e1c4e11e86012e03faf025fd566be79df3fc75ee28d38433d676a959b3d25f",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false,
+      "stage2_status": "actual_local_file_SHA256_rechecked; stage1 lineage retained"
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libyuv-decoder.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 6216,
+      "sha256": "ed3709f2b4b425746befbc6c6aab2235446ecbb37a33647b030828d8c6688dcf",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false,
+      "stage2_status": "actual_local_file_SHA256_rechecked; stage1 lineage retained"
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libyuv.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 403888,
+      "sha256": "987926e77bddb9880e16dfb11201d6fb0429c4ff462a74e0bd0965b3de4d85c3",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false,
+      "stage2_status": "actual_local_file_SHA256_rechecked; stage1 lineage retained"
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libyuv_android.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 899360,
+      "sha256": "dab061cb65b5b86318c5a01b2c47ac6da7da064421a5c9ef71b71123b0df5809",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false,
+      "stage2_status": "actual_local_file_SHA256_rechecked; stage1 lineage retained"
+    },
+    {
+      "kind": "firmware_ZIP",
+      "label": "S5M2_V31",
+      "size": 186598983,
+      "sha256": "2e3a5ce15e71079a3cba6acf412393fba30270389409bf637f8d285fef7b518a",
+      "source_url": "https://panasonic.jp/support/share/eww/com/software/lumix_sync/dsc/ff/zip/S5m2_V31.zip",
+      "source_status": "historical_official_URL_and_ZIP_hash_record_matched; no fresh download attestation",
+      "local_status": "actual ZIP read-only; all member CRCs passed",
+      "binary_published": false
+    },
+    {
+      "kind": "firmware_BIN_member",
+      "label": "S5M2_V31",
+      "member": "S5m2_V31.bin",
+      "size": 205683712,
+      "sha256": "3ce8a371c2a3c088e573a5716ab92dd6a095a780b1d58420d4d6856ed75afd58",
+      "container_sha256": "2e3a5ce15e71079a3cba6acf412393fba30270389409bf637f8d285fef7b518a",
+      "source_status": "historical_official_URL_and_ZIP_hash_record_matched; no fresh download attestation",
+      "local_status": "decompressed in memory only; complete BIN hash and actual directory checks passed",
+      "binary_published": false
+    },
+    {
+      "kind": "firmware_ZIP",
+      "label": "S5M2_V37",
+      "size": 157761949,
+      "sha256": "5e92c6adc967159369937c0313beefdfd9934ff365663b70ade4b906400f2774",
+      "source_url": "https://av.jpn.support.panasonic.com/support/share2/eww/com/dsc/ff/zip/S5m2_V37.zip",
+      "source_status": "saved_2026-10-15_official_HTTP_download_record_and_current_official_filename_matched",
+      "local_status": "actual ZIP read-only; all member CRCs passed",
+      "binary_published": false
+    },
+    {
+      "kind": "firmware_BIN_member",
+      "label": "S5M2_V37",
+      "member": "S5m2_V37.bin",
+      "size": 179207168,
+      "sha256": "99180a1738d74d0d0062e146dd0f239f65cb5bca6b49a8d2a1a94a8018d93ffa",
+      "container_sha256": "5e92c6adc967159369937c0313beefdfd9934ff365663b70ade4b906400f2774",
+      "source_status": "saved_2026-10-15_official_HTTP_download_record_and_current_official_filename_matched",
+      "local_status": "decompressed in memory only; complete BIN hash and actual directory checks passed",
+      "binary_published": false
+    },
+    {
+      "kind": "official_OSS_archive",
+      "name": "S5M2_Ver1_uboot.tar.gz",
+      "size": 18797603,
+      "sha256": "e7d301fb8b2cc509d7d5d42b53c13a61e6c21d5792804b314927b2f6cd2b40d3",
+      "source_url": "https://ospo.panasonic.com/oss/source/dsc/DC-S5M2/u-boot.tar.gz",
+      "source_status": "current official page link + whole archive hash matches earlier official acquisition audit",
+      "source_model_label": "MC8223",
+      "local_status": "whole archive SHA256 + selected source spans rechecked",
+      "archive_published": false
+    },
+    {
+      "kind": "official_OSS_archive",
+      "name": "S5M2_Ver2_uboot.tar.gz",
+      "size": 18794907,
+      "sha256": "c27cf53af6d8e3a18af0455fe7841c8db955bb58c5943ef94a3a6632439ad692",
+      "source_url": "https://ospo.panasonic.com/oss/source/dsc/DC-S5M2_Ver2/u-boot-v2019.07.tar.gz",
+      "source_status": "current official page link + whole archive hash matches earlier official acquisition audit",
+      "source_model_label": "MC8223X",
+      "local_status": "whole archive SHA256 + selected source spans rechecked",
+      "archive_published": false
+    },
+    {
+      "kind": "official_OSS_archive",
+      "name": "S5M2_Ver1_linux.tar.gz",
+      "size": 165739116,
+      "sha256": "617c2712db38aed13cd5b6e96890d759d1b215ad20768dddd716b8ceaebc7811",
+      "source_url": "https://ospo.panasonic.com/oss/source/dsc/DC-S5M2/linux-4.19.124.tar.gz",
+      "source_status": "current official page link + whole archive hash matches earlier official acquisition audit",
+      "source_model_label": "MC8223",
+      "local_status": "whole archive SHA256 + selected source spans rechecked",
+      "archive_published": false
+    },
+    {
+      "kind": "official_OSS_archive",
+      "name": "S5M2_Ver2_linux.tar.gz",
+      "size": 165783865,
+      "sha256": "2468af4cfb8fa6e22cca5d2660ea270e14e1cceaa1c63359756aab396b791d67",
+      "source_url": "https://ospo.panasonic.com/oss/source/dsc/DC-S5M2_Ver2/linux-4.19.124.tar.gz",
+      "source_status": "current official page link + whole archive hash matches earlier official acquisition audit",
+      "source_model_label": "MC8223X",
+      "local_status": "whole archive SHA256 + selected source spans rechecked",
+      "archive_published": false
+    },
+    {
+      "kind": "official_OSS_archive",
+      "name": "S5M2_Ver1_FreeRTOS.tar.gz",
+      "size": 68566076,
+      "sha256": "2078beb8ec3714b4a0a7e9d51456674eac5d0c7ee1d922f88e59493e28c43f97",
+      "source_url": "https://ospo.panasonic.com/oss/source/dsc/DC-S5M2/FreeRTOS.tar.gz",
+      "source_status": "current official page link + whole archive hash matches earlier official acquisition audit",
+      "source_model_label": null,
+      "local_status": "whole archive SHA256 + selected source spans rechecked",
+      "archive_published": false
+    },
+    {
+      "kind": "official_OSS_archive",
+      "name": "S5M2_Ver2_FreeRTOS.tar.gz",
+      "size": 68566076,
+      "sha256": "2078beb8ec3714b4a0a7e9d51456674eac5d0c7ee1d922f88e59493e28c43f97",
+      "source_url": "https://ospo.panasonic.com/oss/source/dsc/DC-S5M2_Ver2/FreeRTOS.tar.gz",
+      "source_status": "current official page link + whole archive hash matches earlier official acquisition audit",
+      "source_model_label": null,
+      "local_status": "whole archive SHA256 + selected source spans rechecked",
+      "archive_published": false
+    }
+  ],
+  "input_identity_count": 35,
+  "note": "All SHA-256 values are local measurements/research reference values, not manufacturer-signed checksums.",
+  "historical_corpus_other_versions": "8 other identities retained only in pinned corpus/profile history; not reanalyzed or promoted to current verification.",
+  "missing": [
+    {
+      "item": "S5M2 HTTPS firmware endpoint receiver / proprietary update dispatcher",
+      "needed": "lawfully held same-model binary/source with version, hash and deployment context"
+    },
+    {
+      "item": "modern UPD authentication/decode consumer",
+      "needed": "readable code that demonstrably reads actual UPD fields and payload bytes"
+    },
+    {
+      "item": "actual deployed S5M2 DTB, rootfs/init/service configuration and flash/RAM mapping",
+      "needed": "version-linked original files or existing lawful captures; no live acquisition performed"
+    }
+  ],
+  "historical_records": {
+    "v31_reference": {
+      "path": "analysis/sources/lumix_sync_static/official_firmware_list/S5M2_full_inventory.json",
+      "size": 20872,
+      "sha256": "c8cdd2112da5765a8a6900e24ea82cc3f9783220dcead6df54b7f21acaaa6b5b"
+    },
+    "v37_http_record": {
+      "path": "downloads/provenance/objects/s5m2-firmware-current.json",
+      "size": 1675,
+      "sha256": "cdf39d35a9275f52136fc022bae9a86e23e75c9501ccc35c60581edfa187dffa",
+      "started_utc": "2026-10-15T14:24:20.315485+00:00",
+      "completed_utc": "2026-10-15T14:24:30.805157+00:00",
+      "url": "https://av.jpn.support.panasonic.com/support/share2/eww/com/dsc/ff/zip/S5m2_V37.zip"
+    }
+  }
+}

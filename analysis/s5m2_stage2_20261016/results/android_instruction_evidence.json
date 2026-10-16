@@ -1,0 +1,3457 @@
+{
+  "coordinate_rule": "file_offset = code_item_offset + 16 + 2 * CU; CU is 16-bit",
+  "excerpts": [
+    {
+      "method": "LH5/d;->onCharacteristicChanged(Landroid/bluetooth/BluetoothGatt;Landroid/bluetooth/BluetoothGattCharacteristic;)V",
+      "dex": "classes2.dex",
+      "location": {
+        "method_index": 5515,
+        "code_item_offset": 1399060,
+        "insns_offset": 1399076,
+        "code_units": 1702,
+        "access_flags": 17
+      },
+      "requested_range_cu": [
+        0,
+        18
+      ],
+      "instructions": [
+        {
+          "offset_cu": 0,
+          "opcode": "move-object/from16",
+          "registers": [
+            0,
+            17
+          ],
+          "width_cu": 2,
+          "file_offset": 1399076,
+          "raw_hex": "08001100"
+        },
+        {
+          "offset_cu": 2,
+          "opcode": "const/4",
+          "registers": [
+            1
+          ],
+          "width_cu": 1,
+          "literal": 0,
+          "file_offset": 1399080,
+          "raw_hex": "1201"
+        },
+        {
+          "offset_cu": 3,
+          "opcode": "const/4",
+          "registers": [
+            2
+          ],
+          "width_cu": 1,
+          "literal": 1,
+          "file_offset": 1399082,
+          "raw_hex": "1212"
+        },
+        {
+          "offset_cu": 4,
+          "opcode": "invoke-super/range",
+          "registers": [
+            17,
+            18,
+            19
+          ],
+          "width_cu": 3,
+          "reference": "Landroid/bluetooth/BluetoothGattCallback;->onCharacteristicChanged(Landroid/bluetooth/BluetoothGatt;Landroid/bluetooth/BluetoothGattCharacteristic;)V",
+          "file_offset": 1399084,
+          "raw_hex": "750309261100"
+        },
+        {
+          "offset_cu": 7,
+          "opcode": "iget-object",
+          "registers": [
+            3,
+            0
+          ],
+          "width_cu": 2,
+          "reference": "LH5/d;->a:LH5/j;",
+          "file_offset": 1399090,
+          "raw_hex": "5403720e"
+        },
+        {
+          "offset_cu": 9,
+          "opcode": "iget-object",
+          "registers": [
+            4,
+            3
+          ],
+          "width_cu": 2,
+          "reference": "LH5/j;->Y:Lcom/panasonic/jp/lumixlab/controller/activity/MainActivity;",
+          "file_offset": 1399094,
+          "raw_hex": "54349c0e"
+        },
+        {
+          "offset_cu": 11,
+          "opcode": "iget-object",
+          "registers": [
+            4,
+            4
+          ],
+          "width_cu": 2,
+          "reference": "Lcom/panasonic/jp/lumixlab/controller/activity/MainActivity;->E0:Lcom/panasonic/jp/lumixlab/model/blecentral/util/BleLogService;",
+          "file_offset": 1399098,
+          "raw_hex": "5444de20"
+        },
+        {
+          "offset_cu": 13,
+          "opcode": "iget-object",
+          "registers": [
+            3,
+            3
+          ],
+          "width_cu": 2,
+          "reference": "LH5/j;->O:LH5/a;",
+          "file_offset": 1399102,
+          "raw_hex": "5433920e"
+        },
+        {
+          "offset_cu": 15,
+          "opcode": "invoke-virtual/range",
+          "registers": [
+            19
+          ],
+          "width_cu": 3,
+          "reference": "Landroid/bluetooth/BluetoothGattCharacteristic;->getUuid()Ljava/util/UUID;",
+          "file_offset": 1399106,
+          "raw_hex": "740112261300"
+        }
+      ]
+    },
+    {
+      "method": "LH5/d;->onCharacteristicChanged(Landroid/bluetooth/BluetoothGatt;Landroid/bluetooth/BluetoothGattCharacteristic;)V",
+      "dex": "classes2.dex",
+      "location": {
+        "method_index": 5515,
+        "code_item_offset": 1399060,
+        "insns_offset": 1399076,
+        "code_units": 1702,
+        "access_flags": 17
+      },
+      "requested_range_cu": [
+        1222,
+        1291
+      ],
+      "instructions": [
+        {
+          "offset_cu": 1222,
+          "opcode": "invoke-virtual/range",
+          "registers": [
+            19
+          ],
+          "width_cu": 3,
+          "reference": "Landroid/bluetooth/BluetoothGattCharacteristic;->getUuid()Ljava/util/UUID;",
+          "file_offset": 1401520,
+          "raw_hex": "740112261300"
+        },
+        {
+          "offset_cu": 1225,
+          "opcode": "move-result-object",
+          "registers": [
+            3
+          ],
+          "width_cu": 1,
+          "file_offset": 1401526,
+          "raw_hex": "0c03"
+        },
+        {
+          "offset_cu": 1226,
+          "opcode": "invoke-virtual",
+          "registers": [
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/UUID;->toString()Ljava/lang/String;",
+          "file_offset": 1401528,
+          "raw_hex": "6e10d15f0300"
+        },
+        {
+          "offset_cu": 1229,
+          "opcode": "move-result-object",
+          "registers": [
+            3
+          ],
+          "width_cu": 1,
+          "file_offset": 1401534,
+          "raw_hex": "0c03"
+        },
+        {
+          "offset_cu": 1230,
+          "opcode": "const-string",
+          "registers": [
+            4
+          ],
+          "width_cu": 2,
+          "reference": "16726c35-52ef-4d00-868d-099549a90d9b",
+          "file_offset": 1401536,
+          "raw_hex": "1a046d06"
+        },
+        {
+          "offset_cu": 1232,
+          "opcode": "invoke-virtual",
+          "registers": [
+            3,
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/String;->equals(Ljava/lang/Object;)Z",
+          "file_offset": 1401540,
+          "raw_hex": "6e20a15b4300"
+        },
+        {
+          "offset_cu": 1235,
+          "opcode": "move-result",
+          "registers": [
+            3
+          ],
+          "width_cu": 1,
+          "file_offset": 1401546,
+          "raw_hex": "0a03"
+        },
+        {
+          "offset_cu": 1236,
+          "opcode": "if-eqz",
+          "registers": [
+            3
+          ],
+          "width_cu": 2,
+          "target_cu": 1330,
+          "file_offset": 1401548,
+          "raw_hex": "38035e00"
+        },
+        {
+          "offset_cu": 1238,
+          "opcode": "iget-object",
+          "registers": [
+            3,
+            0
+          ],
+          "width_cu": 2,
+          "reference": "LH5/d;->a:LH5/j;",
+          "file_offset": 1401552,
+          "raw_hex": "5403720e"
+        },
+        {
+          "offset_cu": 1240,
+          "opcode": "iget-object",
+          "registers": [
+            3,
+            3
+          ],
+          "width_cu": 2,
+          "reference": "LH5/j;->Z:Lz5/z1;",
+          "file_offset": 1401556,
+          "raw_hex": "54339d0e"
+        },
+        {
+          "offset_cu": 1242,
+          "opcode": "invoke-virtual/range",
+          "registers": [
+            19
+          ],
+          "width_cu": 3,
+          "reference": "Landroid/bluetooth/BluetoothGattCharacteristic;->getValue()[B",
+          "file_offset": 1401560,
+          "raw_hex": "740113261300"
+        },
+        {
+          "offset_cu": 1245,
+          "opcode": "move-result-object",
+          "registers": [
+            4
+          ],
+          "width_cu": 1,
+          "file_offset": 1401566,
+          "raw_hex": "0c04"
+        },
+        {
+          "offset_cu": 1246,
+          "opcode": "invoke-virtual",
+          "registers": [
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/Object;->getClass()Ljava/lang/Class;",
+          "file_offset": 1401568,
+          "raw_hex": "6e10755b0300"
+        },
+        {
+          "offset_cu": 1249,
+          "opcode": "const-class",
+          "registers": [
+            9
+          ],
+          "width_cu": 2,
+          "reference": "Lcom/panasonic/jp/lumixlab/util/G0;",
+          "file_offset": 1401574,
+          "raw_hex": "1c09ca0c"
+        },
+        {
+          "offset_cu": 1251,
+          "opcode": "monitor-enter",
+          "registers": [
+            9
+          ],
+          "width_cu": 1,
+          "file_offset": 1401578,
+          "raw_hex": "1d09"
+        },
+        {
+          "offset_cu": 1252,
+          "opcode": "monitor-exit",
+          "registers": [
+            9
+          ],
+          "width_cu": 1,
+          "file_offset": 1401580,
+          "raw_hex": "1e09"
+        },
+        {
+          "offset_cu": 1253,
+          "opcode": "aget-byte",
+          "registers": [
+            4,
+            4,
+            1
+          ],
+          "width_cu": 2,
+          "file_offset": 1401582,
+          "raw_hex": "48040401"
+        },
+        {
+          "offset_cu": 1255,
+          "opcode": "if-ne",
+          "registers": [
+            4,
+            2
+          ],
+          "width_cu": 2,
+          "target_cu": 1291,
+          "file_offset": 1401586,
+          "raw_hex": "33242400"
+        },
+        {
+          "offset_cu": 1257,
+          "opcode": "invoke-static",
+          "registers": [],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "file_offset": 1401590,
+          "raw_hex": "7100e12d0000"
+        },
+        {
+          "offset_cu": 1260,
+          "opcode": "move-result-object",
+          "registers": [
+            4
+          ],
+          "width_cu": 1,
+          "file_offset": 1401596,
+          "raw_hex": "0c04"
+        },
+        {
+          "offset_cu": 1261,
+          "opcode": "invoke-virtual",
+          "registers": [
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getFirmwareOperationState()I",
+          "file_offset": 1401598,
+          "raw_hex": "6e10ee2d0400"
+        },
+        {
+          "offset_cu": 1264,
+          "opcode": "move-result",
+          "registers": [
+            4
+          ],
+          "width_cu": 1,
+          "file_offset": 1401604,
+          "raw_hex": "0a04"
+        },
+        {
+          "offset_cu": 1265,
+          "opcode": "if-nez",
+          "registers": [
+            4
+          ],
+          "width_cu": 2,
+          "target_cu": 1273,
+          "file_offset": 1401606,
+          "raw_hex": "39040800"
+        },
+        {
+          "offset_cu": 1267,
+          "opcode": "iget-object",
+          "registers": [
+            3,
+            3
+          ],
+          "width_cu": 2,
+          "reference": "Lz5/z1;->a:Lz5/k2;",
+          "file_offset": 1401610,
+          "raw_hex": "54333d4d"
+        },
+        {
+          "offset_cu": 1269,
+          "opcode": "invoke-virtual",
+          "registers": [
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Lz5/k2;->A()V",
+          "file_offset": 1401614,
+          "raw_hex": "6e1070760300"
+        },
+        {
+          "offset_cu": 1272,
+          "opcode": "goto",
+          "registers": [],
+          "width_cu": 1,
+          "target_cu": 1330,
+          "file_offset": 1401620,
+          "raw_hex": "283a"
+        },
+        {
+          "offset_cu": 1273,
+          "opcode": "invoke-static",
+          "registers": [],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "file_offset": 1401622,
+          "raw_hex": "7100e12d0000"
+        },
+        {
+          "offset_cu": 1276,
+          "opcode": "move-result-object",
+          "registers": [
+            3
+          ],
+          "width_cu": 1,
+          "file_offset": 1401628,
+          "raw_hex": "0c03"
+        },
+        {
+          "offset_cu": 1277,
+          "opcode": "invoke-virtual",
+          "registers": [
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getFirmwareOperationState()I",
+          "file_offset": 1401630,
+          "raw_hex": "6e10ee2d0300"
+        },
+        {
+          "offset_cu": 1280,
+          "opcode": "move-result",
+          "registers": [
+            3
+          ],
+          "width_cu": 1,
+          "file_offset": 1401636,
+          "raw_hex": "0a03"
+        },
+        {
+          "offset_cu": 1281,
+          "opcode": "if-ne",
+          "registers": [
+            2,
+            3
+          ],
+          "width_cu": 2,
+          "target_cu": 1330,
+          "file_offset": 1401638,
+          "raw_hex": "33323100"
+        },
+        {
+          "offset_cu": 1283,
+          "opcode": "invoke-static",
+          "registers": [],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "file_offset": 1401642,
+          "raw_hex": "7100e12d0000"
+        },
+        {
+          "offset_cu": 1286,
+          "opcode": "move-result-object",
+          "registers": [
+            3
+          ],
+          "width_cu": 1,
+          "file_offset": 1401648,
+          "raw_hex": "0c03"
+        },
+        {
+          "offset_cu": 1287,
+          "opcode": "invoke-virtual",
+          "registers": [
+            3,
+            7
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/LlcApplication;->setFirmwareOperationState(I)V",
+          "file_offset": 1401650,
+          "raw_hex": "6e208f2e7300"
+        },
+        {
+          "offset_cu": 1290,
+          "opcode": "goto",
+          "registers": [],
+          "width_cu": 1,
+          "target_cu": 1330,
+          "file_offset": 1401656,
+          "raw_hex": "2828"
+        }
+      ]
+    },
+    {
+      "method": "LR5/f;->b(Loa/h;Loa/s0;)V",
+      "dex": "classes2.dex",
+      "location": {
+        "method_index": 7326,
+        "code_item_offset": 1621672,
+        "insns_offset": 1621688,
+        "code_units": 168,
+        "access_flags": 17
+      },
+      "requested_range_cu": [
+        95,
+        136
+      ],
+      "instructions": [
+        {
+          "offset_cu": 95,
+          "opcode": "invoke-virtual",
+          "registers": [
+            6
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/bean/LutDataBean;->getHeader()Lcom/panasonic/jp/lumixlab/bean/LutDataBean$HeaderBean;",
+          "file_offset": 1621878,
+          "raw_hex": "6e1023360600"
+        },
+        {
+          "offset_cu": 98,
+          "opcode": "move-result-object",
+          "registers": [
+            4
+          ],
+          "width_cu": 1,
+          "file_offset": 1621884,
+          "raw_hex": "0c04"
+        },
+        {
+          "offset_cu": 99,
+          "opcode": "if-eqz",
+          "registers": [
+            4
+          ],
+          "width_cu": 2,
+          "target_cu": 150,
+          "file_offset": 1621886,
+          "raw_hex": "38043300"
+        },
+        {
+          "offset_cu": 101,
+          "opcode": "invoke-virtual",
+          "registers": [
+            6
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/bean/LutDataBean;->getHeader()Lcom/panasonic/jp/lumixlab/bean/LutDataBean$HeaderBean;",
+          "file_offset": 1621890,
+          "raw_hex": "6e1023360600"
+        },
+        {
+          "offset_cu": 104,
+          "opcode": "move-result-object",
+          "registers": [
+            4
+          ],
+          "width_cu": 1,
+          "file_offset": 1621896,
+          "raw_hex": "0c04"
+        },
+        {
+          "offset_cu": 105,
+          "opcode": "invoke-virtual",
+          "registers": [
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/bean/LutDataBean$HeaderBean;->getResponseCode()I",
+          "file_offset": 1621898,
+          "raw_hex": "6e101e360400"
+        },
+        {
+          "offset_cu": 108,
+          "opcode": "move-result",
+          "registers": [
+            4
+          ],
+          "width_cu": 1,
+          "file_offset": 1621904,
+          "raw_hex": "0a04"
+        },
+        {
+          "offset_cu": 109,
+          "opcode": "const/16",
+          "registers": [
+            2
+          ],
+          "width_cu": 2,
+          "literal": 200,
+          "file_offset": 1621906,
+          "raw_hex": "1302c800"
+        },
+        {
+          "offset_cu": 111,
+          "opcode": "if-ne",
+          "registers": [
+            2,
+            4
+          ],
+          "width_cu": 2,
+          "target_cu": 136,
+          "file_offset": 1621910,
+          "raw_hex": "33421900"
+        },
+        {
+          "offset_cu": 113,
+          "opcode": "invoke-virtual",
+          "registers": [
+            6
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/bean/LutDataBean;->getData()Lcom/panasonic/jp/lumixlab/bean/LutDataBean$DataBean;",
+          "file_offset": 1621914,
+          "raw_hex": "6e1022360600"
+        },
+        {
+          "offset_cu": 116,
+          "opcode": "move-result-object",
+          "registers": [
+            4
+          ],
+          "width_cu": 1,
+          "file_offset": 1621920,
+          "raw_hex": "0c04"
+        },
+        {
+          "offset_cu": 117,
+          "opcode": "invoke-virtual",
+          "registers": [
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/bean/LutDataBean$DataBean;->getResult()I",
+          "file_offset": 1621922,
+          "raw_hex": "6e1018360400"
+        },
+        {
+          "offset_cu": 120,
+          "opcode": "move-result",
+          "registers": [
+            4
+          ],
+          "width_cu": 1,
+          "file_offset": 1621928,
+          "raw_hex": "0a04"
+        },
+        {
+          "offset_cu": 121,
+          "opcode": "if-nez",
+          "registers": [
+            4
+          ],
+          "width_cu": 2,
+          "target_cu": 130,
+          "file_offset": 1621930,
+          "raw_hex": "39040900"
+        },
+        {
+          "offset_cu": 123,
+          "opcode": "const/4",
+          "registers": [
+            4
+          ],
+          "width_cu": 1,
+          "literal": 0,
+          "file_offset": 1621934,
+          "raw_hex": "1204"
+        },
+        {
+          "offset_cu": 124,
+          "opcode": "check-cast",
+          "registers": [
+            1
+          ],
+          "width_cu": 2,
+          "reference": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;",
+          "file_offset": 1621936,
+          "raw_hex": "1f018d0c"
+        },
+        {
+          "offset_cu": 126,
+          "opcode": "invoke-virtual",
+          "registers": [
+            1,
+            2,
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->r0(ILjava/lang/String;)V",
+          "file_offset": 1621940,
+          "raw_hex": "6e30cc3b2104"
+        },
+        {
+          "offset_cu": 129,
+          "opcode": "goto",
+          "registers": [],
+          "width_cu": 1,
+          "target_cu": 167,
+          "file_offset": 1621946,
+          "raw_hex": "2826"
+        },
+        {
+          "offset_cu": 130,
+          "opcode": "check-cast",
+          "registers": [
+            1
+          ],
+          "width_cu": 2,
+          "reference": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;",
+          "file_offset": 1621948,
+          "raw_hex": "1f018d0c"
+        },
+        {
+          "offset_cu": 132,
+          "opcode": "invoke-virtual",
+          "registers": [
+            1,
+            0,
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->r0(ILjava/lang/String;)V",
+          "file_offset": 1621952,
+          "raw_hex": "6e30cc3b0105"
+        },
+        {
+          "offset_cu": 135,
+          "opcode": "goto",
+          "registers": [],
+          "width_cu": 1,
+          "target_cu": 167,
+          "file_offset": 1621958,
+          "raw_hex": "2820"
+        }
+      ]
+    },
+    {
+      "method": "LR5/g;->b(Loa/h;Loa/s0;)V",
+      "dex": "classes2.dex",
+      "location": {
+        "method_index": 7329,
+        "code_item_offset": 1622084,
+        "insns_offset": 1622100,
+        "code_units": 60,
+        "access_flags": 17
+      },
+      "requested_range_cu": [
+        32,
+        60
+      ],
+      "instructions": [
+        {
+          "offset_cu": 32,
+          "opcode": "invoke-virtual",
+          "registers": [
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/bean/LutDataBean;->getData()Lcom/panasonic/jp/lumixlab/bean/LutDataBean$DataBean;",
+          "file_offset": 1622164,
+          "raw_hex": "6e1022360200"
+        },
+        {
+          "offset_cu": 35,
+          "opcode": "move-result-object",
+          "registers": [
+            2
+          ],
+          "width_cu": 1,
+          "file_offset": 1622170,
+          "raw_hex": "0c02"
+        },
+        {
+          "offset_cu": 36,
+          "opcode": "invoke-virtual",
+          "registers": [
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/bean/LutDataBean$DataBean;->getResult()I",
+          "file_offset": 1622172,
+          "raw_hex": "6e1018360200"
+        },
+        {
+          "offset_cu": 39,
+          "opcode": "move-result",
+          "registers": [
+            2
+          ],
+          "width_cu": 1,
+          "file_offset": 1622178,
+          "raw_hex": "0a02"
+        },
+        {
+          "offset_cu": 40,
+          "opcode": "if-nez",
+          "registers": [
+            2
+          ],
+          "width_cu": 2,
+          "target_cu": 48,
+          "file_offset": 1622180,
+          "raw_hex": "39020800"
+        },
+        {
+          "offset_cu": 42,
+          "opcode": "check-cast",
+          "registers": [
+            1
+          ],
+          "width_cu": 2,
+          "reference": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;",
+          "file_offset": 1622184,
+          "raw_hex": "1f018d0c"
+        },
+        {
+          "offset_cu": 44,
+          "opcode": "invoke-virtual",
+          "registers": [
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->q0()V",
+          "file_offset": 1622188,
+          "raw_hex": "6e10cb3b0100"
+        },
+        {
+          "offset_cu": 47,
+          "opcode": "goto",
+          "registers": [],
+          "width_cu": 1,
+          "target_cu": 59,
+          "file_offset": 1622194,
+          "raw_hex": "280c"
+        },
+        {
+          "offset_cu": 48,
+          "opcode": "check-cast",
+          "registers": [
+            1
+          ],
+          "width_cu": 2,
+          "reference": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;",
+          "file_offset": 1622196,
+          "raw_hex": "1f018d0c"
+        },
+        {
+          "offset_cu": 50,
+          "opcode": "invoke-virtual",
+          "registers": [
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->q0()V",
+          "file_offset": 1622200,
+          "raw_hex": "6e10cb3b0100"
+        },
+        {
+          "offset_cu": 53,
+          "opcode": "goto",
+          "registers": [],
+          "width_cu": 1,
+          "target_cu": 59,
+          "file_offset": 1622206,
+          "raw_hex": "2806"
+        },
+        {
+          "offset_cu": 54,
+          "opcode": "check-cast",
+          "registers": [
+            1
+          ],
+          "width_cu": 2,
+          "reference": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;",
+          "file_offset": 1622208,
+          "raw_hex": "1f018d0c"
+        },
+        {
+          "offset_cu": 56,
+          "opcode": "invoke-virtual",
+          "registers": [
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->q0()V",
+          "file_offset": 1622212,
+          "raw_hex": "6e10cb3b0100"
+        },
+        {
+          "offset_cu": 59,
+          "opcode": "return-void",
+          "registers": [],
+          "width_cu": 1,
+          "file_offset": 1622218,
+          "raw_hex": "0e00"
+        }
+      ]
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->v0()Z",
+      "dex": "classes2.dex",
+      "location": {
+        "method_index": 15312,
+        "code_item_offset": 2183052,
+        "insns_offset": 2183068,
+        "code_units": 27,
+        "access_flags": 9
+      },
+      "requested_range_cu": [
+        0,
+        27
+      ],
+      "instructions": [
+        {
+          "offset_cu": 0,
+          "opcode": "invoke-static",
+          "registers": [],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "file_offset": 2183068,
+          "raw_hex": "7100e12d0000"
+        },
+        {
+          "offset_cu": 3,
+          "opcode": "move-result-object",
+          "registers": [
+            0
+          ],
+          "width_cu": 1,
+          "file_offset": 2183074,
+          "raw_hex": "0c00"
+        },
+        {
+          "offset_cu": 4,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getFirmwareOperationState()I",
+          "file_offset": 2183076,
+          "raw_hex": "6e10ee2d0000"
+        },
+        {
+          "offset_cu": 7,
+          "opcode": "move-result",
+          "registers": [
+            0
+          ],
+          "width_cu": 1,
+          "file_offset": 2183082,
+          "raw_hex": "0a00"
+        },
+        {
+          "offset_cu": 8,
+          "opcode": "const/4",
+          "registers": [
+            1
+          ],
+          "width_cu": 1,
+          "literal": 3,
+          "file_offset": 2183084,
+          "raw_hex": "1231"
+        },
+        {
+          "offset_cu": 9,
+          "opcode": "if-eq",
+          "registers": [
+            1,
+            0
+          ],
+          "width_cu": 2,
+          "target_cu": 25,
+          "file_offset": 2183086,
+          "raw_hex": "32011000"
+        },
+        {
+          "offset_cu": 11,
+          "opcode": "invoke-static",
+          "registers": [],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "file_offset": 2183090,
+          "raw_hex": "7100e12d0000"
+        },
+        {
+          "offset_cu": 14,
+          "opcode": "move-result-object",
+          "registers": [
+            0
+          ],
+          "width_cu": 1,
+          "file_offset": 2183096,
+          "raw_hex": "0c00"
+        },
+        {
+          "offset_cu": 15,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getFirmwareOperationState()I",
+          "file_offset": 2183098,
+          "raw_hex": "6e10ee2d0000"
+        },
+        {
+          "offset_cu": 18,
+          "opcode": "move-result",
+          "registers": [
+            0
+          ],
+          "width_cu": 1,
+          "file_offset": 2183104,
+          "raw_hex": "0a00"
+        },
+        {
+          "offset_cu": 19,
+          "opcode": "const/4",
+          "registers": [
+            1
+          ],
+          "width_cu": 1,
+          "literal": 4,
+          "file_offset": 2183106,
+          "raw_hex": "1241"
+        },
+        {
+          "offset_cu": 20,
+          "opcode": "if-ne",
+          "registers": [
+            1,
+            0
+          ],
+          "width_cu": 2,
+          "target_cu": 23,
+          "file_offset": 2183108,
+          "raw_hex": "33010300"
+        },
+        {
+          "offset_cu": 22,
+          "opcode": "goto",
+          "registers": [],
+          "width_cu": 1,
+          "target_cu": 25,
+          "file_offset": 2183112,
+          "raw_hex": "2803"
+        },
+        {
+          "offset_cu": 23,
+          "opcode": "const/4",
+          "registers": [
+            0
+          ],
+          "width_cu": 1,
+          "literal": 0,
+          "file_offset": 2183114,
+          "raw_hex": "1200"
+        },
+        {
+          "offset_cu": 24,
+          "opcode": "goto",
+          "registers": [],
+          "width_cu": 1,
+          "target_cu": 26,
+          "file_offset": 2183116,
+          "raw_hex": "2802"
+        },
+        {
+          "offset_cu": 25,
+          "opcode": "const/4",
+          "registers": [
+            0
+          ],
+          "width_cu": 1,
+          "literal": 1,
+          "file_offset": 2183118,
+          "raw_hex": "1210"
+        },
+        {
+          "offset_cu": 26,
+          "opcode": "return",
+          "registers": [
+            0
+          ],
+          "width_cu": 1,
+          "file_offset": 2183120,
+          "raw_hex": "0f00"
+        }
+      ]
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->q0()V",
+      "dex": "classes2.dex",
+      "location": {
+        "method_index": 15307,
+        "code_item_offset": 2183668,
+        "insns_offset": 2183684,
+        "code_units": 57,
+        "access_flags": 17
+      },
+      "requested_range_cu": [
+        0,
+        57
+      ],
+      "instructions": [
+        {
+          "offset_cu": 0,
+          "opcode": "iget-object",
+          "registers": [
+            0,
+            3
+          ],
+          "width_cu": 2,
+          "reference": "Lz5/D;->x:LR1/a;",
+          "file_offset": 2183684,
+          "raw_hex": "5430a548"
+        },
+        {
+          "offset_cu": 2,
+          "opcode": "if-eqz",
+          "registers": [
+            0
+          ],
+          "width_cu": 2,
+          "target_cu": 56,
+          "file_offset": 2183688,
+          "raw_hex": "38003600"
+        },
+        {
+          "offset_cu": 4,
+          "opcode": "const/4",
+          "registers": [
+            0
+          ],
+          "width_cu": 1,
+          "literal": 0,
+          "file_offset": 2183692,
+          "raw_hex": "1200"
+        },
+        {
+          "offset_cu": 5,
+          "opcode": "iput",
+          "registers": [
+            0,
+            3
+          ],
+          "width_cu": 2,
+          "reference": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->x0:I",
+          "file_offset": 2183694,
+          "raw_hex": "59306324"
+        },
+        {
+          "offset_cu": 7,
+          "opcode": "iput-boolean",
+          "registers": [
+            0,
+            3
+          ],
+          "width_cu": 2,
+          "reference": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->q0:Z",
+          "file_offset": 2183698,
+          "raw_hex": "5c305c24"
+        },
+        {
+          "offset_cu": 9,
+          "opcode": "iget-boolean",
+          "registers": [
+            1,
+            3
+          ],
+          "width_cu": 2,
+          "reference": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->G0:Z",
+          "file_offset": 2183702,
+          "raw_hex": "55315224"
+        },
+        {
+          "offset_cu": 11,
+          "opcode": "if-eqz",
+          "registers": [
+            1
+          ],
+          "width_cu": 2,
+          "target_cu": 16,
+          "file_offset": 2183706,
+          "raw_hex": "38010500"
+        },
+        {
+          "offset_cu": 13,
+          "opcode": "iput-boolean",
+          "registers": [
+            0,
+            3
+          ],
+          "width_cu": 2,
+          "reference": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->G0:Z",
+          "file_offset": 2183710,
+          "raw_hex": "5c305224"
+        },
+        {
+          "offset_cu": 15,
+          "opcode": "goto",
+          "registers": [],
+          "width_cu": 1,
+          "target_cu": 26,
+          "file_offset": 2183714,
+          "raw_hex": "280b"
+        },
+        {
+          "offset_cu": 16,
+          "opcode": "const",
+          "registers": [
+            1
+          ],
+          "width_cu": 3,
+          "literal": 2132017631,
+          "file_offset": 2183716,
+          "raw_hex": "1401df01147f"
+        },
+        {
+          "offset_cu": 19,
+          "opcode": "invoke-virtual",
+          "registers": [
+            3,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Landroidx/fragment/app/N;->getString(I)Ljava/lang/String;",
+          "file_offset": 2183722,
+          "raw_hex": "6e200c2b1300"
+        },
+        {
+          "offset_cu": 22,
+          "opcode": "move-result-object",
+          "registers": [
+            1
+          ],
+          "width_cu": 1,
+          "file_offset": 2183728,
+          "raw_hex": "0c01"
+        },
+        {
+          "offset_cu": 23,
+          "opcode": "invoke-virtual",
+          "registers": [
+            3,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->p0(Ljava/lang/String;)V",
+          "file_offset": 2183730,
+          "raw_hex": "6e20ca3b1300"
+        },
+        {
+          "offset_cu": 26,
+          "opcode": "invoke-static",
+          "registers": [],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "file_offset": 2183736,
+          "raw_hex": "7100e12d0000"
+        },
+        {
+          "offset_cu": 29,
+          "opcode": "move-result-object",
+          "registers": [
+            1
+          ],
+          "width_cu": 1,
+          "file_offset": 2183742,
+          "raw_hex": "0c01"
+        },
+        {
+          "offset_cu": 30,
+          "opcode": "invoke-virtual",
+          "registers": [
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getFirmwareOperationState()I",
+          "file_offset": 2183744,
+          "raw_hex": "6e10ee2d0100"
+        },
+        {
+          "offset_cu": 33,
+          "opcode": "move-result",
+          "registers": [
+            1
+          ],
+          "width_cu": 1,
+          "file_offset": 2183750,
+          "raw_hex": "0a01"
+        },
+        {
+          "offset_cu": 34,
+          "opcode": "const/4",
+          "registers": [
+            2
+          ],
+          "width_cu": 1,
+          "literal": 3,
+          "file_offset": 2183752,
+          "raw_hex": "1232"
+        },
+        {
+          "offset_cu": 35,
+          "opcode": "if-ne",
+          "registers": [
+            2,
+            1
+          ],
+          "width_cu": 2,
+          "target_cu": 49,
+          "file_offset": 2183754,
+          "raw_hex": "33120e00"
+        },
+        {
+          "offset_cu": 37,
+          "opcode": "sget-object",
+          "registers": [
+            0
+          ],
+          "width_cu": 2,
+          "reference": "Lcom/panasonic/jp/lumixlab/LlcApplication;->executor:Ljava/util/concurrent/ExecutorService;",
+          "file_offset": 2183758,
+          "raw_hex": "6200ac1b"
+        },
+        {
+          "offset_cu": 39,
+          "opcode": "new-instance",
+          "registers": [
+            1
+          ],
+          "width_cu": 2,
+          "reference": "Lz5/g4;",
+          "file_offset": 2183762,
+          "raw_hex": "2201e81a"
+        },
+        {
+          "offset_cu": 41,
+          "opcode": "const/4",
+          "registers": [
+            2
+          ],
+          "width_cu": 1,
+          "literal": 5,
+          "file_offset": 2183766,
+          "raw_hex": "1252"
+        },
+        {
+          "offset_cu": 42,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            3,
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Lz5/g4;-><init>(Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;I)V",
+          "file_offset": 2183768,
+          "raw_hex": "7030be753102"
+        },
+        {
+          "offset_cu": 45,
+          "opcode": "invoke-interface",
+          "registers": [
+            0,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V",
+          "file_offset": 2183774,
+          "raw_hex": "722008601000"
+        },
+        {
+          "offset_cu": 48,
+          "opcode": "goto",
+          "registers": [],
+          "width_cu": 1,
+          "target_cu": 56,
+          "file_offset": 2183780,
+          "raw_hex": "2808"
+        },
+        {
+          "offset_cu": 49,
+          "opcode": "invoke-static",
+          "registers": [],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "file_offset": 2183782,
+          "raw_hex": "7100e12d0000"
+        },
+        {
+          "offset_cu": 52,
+          "opcode": "move-result-object",
+          "registers": [
+            3
+          ],
+          "width_cu": 1,
+          "file_offset": 2183788,
+          "raw_hex": "0c03"
+        },
+        {
+          "offset_cu": 53,
+          "opcode": "invoke-virtual",
+          "registers": [
+            3,
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/LlcApplication;->setFirmwareOperationState(I)V",
+          "file_offset": 2183790,
+          "raw_hex": "6e208f2e0300"
+        },
+        {
+          "offset_cu": 56,
+          "opcode": "return-void",
+          "registers": [],
+          "width_cu": 1,
+          "file_offset": 2183796,
+          "raw_hex": "0e00"
+        }
+      ]
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->r0(ILjava/lang/String;)V",
+      "dex": "classes2.dex",
+      "location": {
+        "method_index": 15308,
+        "code_item_offset": 2183800,
+        "insns_offset": 2183816,
+        "code_units": 101,
+        "access_flags": 17
+      },
+      "requested_range_cu": [
+        13,
+        56
+      ],
+      "instructions": [
+        {
+          "offset_cu": 13,
+          "opcode": "iget",
+          "registers": [
+            4,
+            3
+          ],
+          "width_cu": 2,
+          "reference": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->x0:I",
+          "file_offset": 2183842,
+          "raw_hex": "52346324"
+        },
+        {
+          "offset_cu": 15,
+          "opcode": "add-int/lit8",
+          "registers": [
+            4,
+            4
+          ],
+          "width_cu": 2,
+          "literal": 1,
+          "file_offset": 2183846,
+          "raw_hex": "d8040401"
+        },
+        {
+          "offset_cu": 17,
+          "opcode": "iput",
+          "registers": [
+            4,
+            3
+          ],
+          "width_cu": 2,
+          "reference": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->x0:I",
+          "file_offset": 2183850,
+          "raw_hex": "59346324"
+        },
+        {
+          "offset_cu": 19,
+          "opcode": "iget",
+          "registers": [
+            5,
+            3
+          ],
+          "width_cu": 2,
+          "reference": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->w0:I",
+          "file_offset": 2183854,
+          "raw_hex": "52356224"
+        },
+        {
+          "offset_cu": 21,
+          "opcode": "if-ge",
+          "registers": [
+            4,
+            5
+          ],
+          "width_cu": 2,
+          "target_cu": 31,
+          "file_offset": 2183858,
+          "raw_hex": "35540a00"
+        },
+        {
+          "offset_cu": 23,
+          "opcode": "iget-boolean",
+          "registers": [
+            0,
+            3
+          ],
+          "width_cu": 2,
+          "reference": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->q0:Z",
+          "file_offset": 2183862,
+          "raw_hex": "55305c24"
+        },
+        {
+          "offset_cu": 25,
+          "opcode": "if-eqz",
+          "registers": [
+            0
+          ],
+          "width_cu": 2,
+          "target_cu": 31,
+          "file_offset": 2183866,
+          "raw_hex": "38000600"
+        },
+        {
+          "offset_cu": 27,
+          "opcode": "invoke-virtual",
+          "registers": [
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->x0()V",
+          "file_offset": 2183870,
+          "raw_hex": "6e10d23b0300"
+        },
+        {
+          "offset_cu": 30,
+          "opcode": "goto",
+          "registers": [],
+          "width_cu": 1,
+          "target_cu": 100,
+          "file_offset": 2183876,
+          "raw_hex": "2846"
+        },
+        {
+          "offset_cu": 31,
+          "opcode": "if-ne",
+          "registers": [
+            4,
+            5
+          ],
+          "width_cu": 2,
+          "target_cu": 100,
+          "file_offset": 2183878,
+          "raw_hex": "33544500"
+        },
+        {
+          "offset_cu": 33,
+          "opcode": "invoke-static",
+          "registers": [],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "file_offset": 2183882,
+          "raw_hex": "7100e12d0000"
+        },
+        {
+          "offset_cu": 36,
+          "opcode": "move-result-object",
+          "registers": [
+            4
+          ],
+          "width_cu": 1,
+          "file_offset": 2183888,
+          "raw_hex": "0c04"
+        },
+        {
+          "offset_cu": 37,
+          "opcode": "invoke-virtual",
+          "registers": [
+            4,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/LlcApplication;->setFirmwareOperationState(I)V",
+          "file_offset": 2183890,
+          "raw_hex": "6e208f2e1400"
+        },
+        {
+          "offset_cu": 40,
+          "opcode": "const-string",
+          "registers": [
+            4
+          ],
+          "width_cu": 2,
+          "reference": "DETAIL_TRANSFERRED",
+          "file_offset": 2183896,
+          "raw_hex": "1a04db0c"
+        },
+        {
+          "offset_cu": 42,
+          "opcode": "invoke-virtual",
+          "registers": [
+            3,
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->z0(Ljava/lang/String;)V",
+          "file_offset": 2183900,
+          "raw_hex": "6e20d43b4300"
+        },
+        {
+          "offset_cu": 45,
+          "opcode": "goto",
+          "registers": [],
+          "width_cu": 1,
+          "target_cu": 100,
+          "file_offset": 2183906,
+          "raw_hex": "2837"
+        },
+        {
+          "offset_cu": 46,
+          "opcode": "invoke-static",
+          "registers": [],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->v0()Z",
+          "file_offset": 2183908,
+          "raw_hex": "7100d03b0000"
+        },
+        {
+          "offset_cu": 49,
+          "opcode": "move-result",
+          "registers": [
+            4
+          ],
+          "width_cu": 1,
+          "file_offset": 2183914,
+          "raw_hex": "0a04"
+        },
+        {
+          "offset_cu": 50,
+          "opcode": "if-eqz",
+          "registers": [
+            4
+          ],
+          "width_cu": 2,
+          "target_cu": 56,
+          "file_offset": 2183916,
+          "raw_hex": "38040600"
+        },
+        {
+          "offset_cu": 52,
+          "opcode": "invoke-virtual",
+          "registers": [
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->w0()V",
+          "file_offset": 2183920,
+          "raw_hex": "6e10d13b0300"
+        },
+        {
+          "offset_cu": 55,
+          "opcode": "goto",
+          "registers": [],
+          "width_cu": 1,
+          "target_cu": 100,
+          "file_offset": 2183926,
+          "raw_hex": "282d"
+        }
+      ]
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->r0(ILjava/lang/String;)V",
+      "dex": "classes2.dex",
+      "location": {
+        "method_index": 15308,
+        "code_item_offset": 2183800,
+        "insns_offset": 2183816,
+        "code_units": 101,
+        "access_flags": 17
+      },
+      "requested_range_cu": [
+        82,
+        101
+      ],
+      "instructions": [
+        {
+          "offset_cu": 82,
+          "opcode": "invoke-static",
+          "registers": [],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "file_offset": 2183980,
+          "raw_hex": "7100e12d0000"
+        },
+        {
+          "offset_cu": 85,
+          "opcode": "move-result-object",
+          "registers": [
+            4
+          ],
+          "width_cu": 1,
+          "file_offset": 2183986,
+          "raw_hex": "0c04"
+        },
+        {
+          "offset_cu": 86,
+          "opcode": "invoke-virtual",
+          "registers": [
+            4,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/LlcApplication;->setFirmwareOperationState(I)V",
+          "file_offset": 2183988,
+          "raw_hex": "6e208f2e1400"
+        },
+        {
+          "offset_cu": 89,
+          "opcode": "const-class",
+          "registers": [
+            4
+          ],
+          "width_cu": 2,
+          "reference": "Lcom/panasonic/jp/lumixlab/util/G0;",
+          "file_offset": 2183994,
+          "raw_hex": "1c04ca0c"
+        },
+        {
+          "offset_cu": 91,
+          "opcode": "monitor-enter",
+          "registers": [
+            4
+          ],
+          "width_cu": 1,
+          "file_offset": 2183998,
+          "raw_hex": "1d04"
+        },
+        {
+          "offset_cu": 92,
+          "opcode": "monitor-exit",
+          "registers": [
+            4
+          ],
+          "width_cu": 1,
+          "file_offset": 2184000,
+          "raw_hex": "1e04"
+        },
+        {
+          "offset_cu": 93,
+          "opcode": "iput",
+          "registers": [
+            1,
+            3
+          ],
+          "width_cu": 2,
+          "reference": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->x0:I",
+          "file_offset": 2184002,
+          "raw_hex": "59316324"
+        },
+        {
+          "offset_cu": 95,
+          "opcode": "iput-boolean",
+          "registers": [
+            1,
+            3
+          ],
+          "width_cu": 2,
+          "reference": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->q0:Z",
+          "file_offset": 2184006,
+          "raw_hex": "5c315c24"
+        },
+        {
+          "offset_cu": 97,
+          "opcode": "invoke-virtual",
+          "registers": [
+            3,
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->p0(Ljava/lang/String;)V",
+          "file_offset": 2184010,
+          "raw_hex": "6e20ca3b5300"
+        },
+        {
+          "offset_cu": 100,
+          "opcode": "return-void",
+          "registers": [],
+          "width_cu": 1,
+          "file_offset": 2184016,
+          "raw_hex": "0e00"
+        }
+      ]
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->x0()V",
+      "dex": "classes2.dex",
+      "location": {
+        "method_index": 15314,
+        "code_item_offset": 2186624,
+        "insns_offset": 2186640,
+        "code_units": 181,
+        "access_flags": 17
+      },
+      "requested_range_cu": [
+        65,
+        155
+      ],
+      "instructions": [
+        {
+          "offset_cu": 65,
+          "opcode": "iget",
+          "registers": [
+            0,
+            10
+          ],
+          "width_cu": 2,
+          "reference": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->x0:I",
+          "file_offset": 2186770,
+          "raw_hex": "52a06324"
+        },
+        {
+          "offset_cu": 67,
+          "opcode": "iget",
+          "registers": [
+            1,
+            10
+          ],
+          "width_cu": 2,
+          "reference": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->t0:I",
+          "file_offset": 2186774,
+          "raw_hex": "52a15f24"
+        },
+        {
+          "offset_cu": 69,
+          "opcode": "mul-int",
+          "registers": [
+            2,
+            0,
+            1
+          ],
+          "width_cu": 2,
+          "file_offset": 2186778,
+          "raw_hex": "92020001"
+        },
+        {
+          "offset_cu": 71,
+          "opcode": "iget-wide",
+          "registers": [
+            3,
+            10
+          ],
+          "width_cu": 2,
+          "reference": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->v0:J",
+          "file_offset": 2186782,
+          "raw_hex": "53a36124"
+        },
+        {
+          "offset_cu": 73,
+          "opcode": "add-int/lit8",
+          "registers": [
+            0,
+            0
+          ],
+          "width_cu": 2,
+          "literal": 1,
+          "file_offset": 2186786,
+          "raw_hex": "d8000001"
+        },
+        {
+          "offset_cu": 75,
+          "opcode": "int-to-long",
+          "registers": [
+            5,
+            0
+          ],
+          "width_cu": 1,
+          "file_offset": 2186790,
+          "raw_hex": "8105"
+        },
+        {
+          "offset_cu": 76,
+          "opcode": "int-to-long",
+          "registers": [
+            0,
+            1
+          ],
+          "width_cu": 1,
+          "file_offset": 2186792,
+          "raw_hex": "8110"
+        },
+        {
+          "offset_cu": 77,
+          "opcode": "mul-long/2addr",
+          "registers": [
+            5,
+            0
+          ],
+          "width_cu": 1,
+          "file_offset": 2186794,
+          "raw_hex": "bd05"
+        },
+        {
+          "offset_cu": 78,
+          "opcode": "invoke-static",
+          "registers": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/Math;->min(JJ)J",
+          "file_offset": 2186796,
+          "raw_hex": "71405e5b4365"
+        },
+        {
+          "offset_cu": 81,
+          "opcode": "move-result-wide",
+          "registers": [
+            0
+          ],
+          "width_cu": 1,
+          "file_offset": 2186802,
+          "raw_hex": "0b00"
+        },
+        {
+          "offset_cu": 82,
+          "opcode": "long-to-int",
+          "registers": [
+            0,
+            0
+          ],
+          "width_cu": 1,
+          "file_offset": 2186804,
+          "raw_hex": "8400"
+        },
+        {
+          "offset_cu": 83,
+          "opcode": "sub-int/2addr",
+          "registers": [
+            0,
+            2
+          ],
+          "width_cu": 1,
+          "file_offset": 2186806,
+          "raw_hex": "b120"
+        },
+        {
+          "offset_cu": 84,
+          "opcode": "new-array",
+          "registers": [
+            1,
+            0
+          ],
+          "width_cu": 2,
+          "reference": "[B",
+          "file_offset": 2186808,
+          "raw_hex": "2301011c"
+        },
+        {
+          "offset_cu": 86,
+          "opcode": "new-instance",
+          "registers": [
+            3
+          ],
+          "width_cu": 2,
+          "reference": "Ljava/io/FileInputStream;",
+          "file_offset": 2186812,
+          "raw_hex": "22037213"
+        },
+        {
+          "offset_cu": 88,
+          "opcode": "iget-object",
+          "registers": [
+            4,
+            10
+          ],
+          "width_cu": 2,
+          "reference": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->u0:Ljava/io/File;",
+          "file_offset": 2186816,
+          "raw_hex": "54a46024"
+        },
+        {
+          "offset_cu": 90,
+          "opcode": "invoke-direct",
+          "registers": [
+            3,
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V",
+          "file_offset": 2186820,
+          "raw_hex": "7020755a4300"
+        },
+        {
+          "offset_cu": 93,
+          "opcode": "int-to-long",
+          "registers": [
+            4,
+            2
+          ],
+          "width_cu": 1,
+          "file_offset": 2186826,
+          "raw_hex": "8124"
+        },
+        {
+          "offset_cu": 94,
+          "opcode": "invoke-virtual",
+          "registers": [
+            3,
+            4,
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/FileInputStream;->skip(J)J",
+          "file_offset": 2186828,
+          "raw_hex": "6e307b5a4305"
+        },
+        {
+          "offset_cu": 97,
+          "opcode": "invoke-virtual",
+          "registers": [
+            3,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/FileInputStream;->read([B)I",
+          "file_offset": 2186834,
+          "raw_hex": "6e207a5a1300"
+        },
+        {
+          "offset_cu": 100,
+          "opcode": "invoke-virtual",
+          "registers": [
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/FileInputStream;->close()V",
+          "file_offset": 2186840,
+          "raw_hex": "6e10785a0300"
+        },
+        {
+          "offset_cu": 103,
+          "opcode": "invoke-static",
+          "registers": [],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->v0()Z",
+          "file_offset": 2186846,
+          "raw_hex": "7100d03b0000"
+        },
+        {
+          "offset_cu": 106,
+          "opcode": "move-result",
+          "registers": [
+            2
+          ],
+          "width_cu": 1,
+          "file_offset": 2186852,
+          "raw_hex": "0a02"
+        },
+        {
+          "offset_cu": 107,
+          "opcode": "if-eqz",
+          "registers": [
+            2
+          ],
+          "width_cu": 2,
+          "target_cu": 113,
+          "file_offset": 2186854,
+          "raw_hex": "38020600"
+        },
+        {
+          "offset_cu": 109,
+          "opcode": "invoke-virtual",
+          "registers": [
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->w0()V",
+          "file_offset": 2186858,
+          "raw_hex": "6e10d13b0a00"
+        },
+        {
+          "offset_cu": 112,
+          "opcode": "goto",
+          "registers": [],
+          "width_cu": 1,
+          "target_cu": 180,
+          "file_offset": 2186864,
+          "raw_hex": "2844"
+        },
+        {
+          "offset_cu": 113,
+          "opcode": "sget-object",
+          "registers": [
+            2
+          ],
+          "width_cu": 2,
+          "reference": "Lg8/A0;->a:Lg8/z0;",
+          "file_offset": 2186866,
+          "raw_hex": "62023c35"
+        },
+        {
+          "offset_cu": 115,
+          "opcode": "invoke-virtual",
+          "registers": [
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/Object;->getClass()Ljava/lang/Class;",
+          "file_offset": 2186870,
+          "raw_hex": "6e10755b0200"
+        },
+        {
+          "offset_cu": 118,
+          "opcode": "const/4",
+          "registers": [
+            2
+          ],
+          "width_cu": 1,
+          "literal": 0,
+          "file_offset": 2186876,
+          "raw_hex": "1202"
+        },
+        {
+          "offset_cu": 119,
+          "opcode": "const/4",
+          "registers": [
+            3
+          ],
+          "width_cu": 1,
+          "literal": 0,
+          "file_offset": 2186878,
+          "raw_hex": "1203"
+        },
+        {
+          "offset_cu": 120,
+          "opcode": "invoke-static",
+          "registers": [
+            2,
+            3,
+            1,
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Lg8/z0;->a(Lg8/k0;I[BI)Lg8/y0;",
+          "file_offset": 2186880,
+          "raw_hex": "71404a543201"
+        },
+        {
+          "offset_cu": 123,
+          "opcode": "move-result-object",
+          "registers": [
+            7
+          ],
+          "width_cu": 1,
+          "file_offset": 2186886,
+          "raw_hex": "0c07"
+        },
+        {
+          "offset_cu": 124,
+          "opcode": "iget-object",
+          "registers": [
+            4,
+            10
+          ],
+          "width_cu": 2,
+          "reference": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->l0:LR5/h;",
+          "file_offset": 2186888,
+          "raw_hex": "54a45724"
+        },
+        {
+          "offset_cu": 126,
+          "opcode": "invoke-static",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/String;->valueOf(I)Ljava/lang/String;",
+          "file_offset": 2186892,
+          "raw_hex": "7110c85b0000"
+        },
+        {
+          "offset_cu": 129,
+          "opcode": "move-result-object",
+          "registers": [
+            5
+          ],
+          "width_cu": 1,
+          "file_offset": 2186898,
+          "raw_hex": "0c05"
+        },
+        {
+          "offset_cu": 130,
+          "opcode": "iget",
+          "registers": [
+            0,
+            10
+          ],
+          "width_cu": 2,
+          "reference": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->x0:I",
+          "file_offset": 2186900,
+          "raw_hex": "52a06324"
+        },
+        {
+          "offset_cu": 132,
+          "opcode": "invoke-static",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/String;->valueOf(I)Ljava/lang/String;",
+          "file_offset": 2186904,
+          "raw_hex": "7110c85b0000"
+        },
+        {
+          "offset_cu": 135,
+          "opcode": "move-result-object",
+          "registers": [
+            6
+          ],
+          "width_cu": 1,
+          "file_offset": 2186910,
+          "raw_hex": "0c06"
+        },
+        {
+          "offset_cu": 136,
+          "opcode": "iget-object",
+          "registers": [
+            0,
+            10
+          ],
+          "width_cu": 2,
+          "reference": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->m0:Ljava/util/List;",
+          "file_offset": 2186912,
+          "raw_hex": "54a05824"
+        },
+        {
+          "offset_cu": 138,
+          "opcode": "iget",
+          "registers": [
+            1,
+            10
+          ],
+          "width_cu": 2,
+          "reference": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->n0:I",
+          "file_offset": 2186916,
+          "raw_hex": "52a15924"
+        },
+        {
+          "offset_cu": 140,
+          "opcode": "invoke-interface",
+          "registers": [
+            0,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/List;->get(I)Ljava/lang/Object;",
+          "file_offset": 2186920,
+          "raw_hex": "72204b5f1000"
+        },
+        {
+          "offset_cu": 143,
+          "opcode": "move-result-object",
+          "registers": [
+            0
+          ],
+          "width_cu": 1,
+          "file_offset": 2186926,
+          "raw_hex": "0c00"
+        },
+        {
+          "offset_cu": 144,
+          "opcode": "check-cast",
+          "registers": [
+            0
+          ],
+          "width_cu": 2,
+          "reference": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;",
+          "file_offset": 2186928,
+          "raw_hex": "1f00b20c"
+        },
+        {
+          "offset_cu": 146,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->getUpdateDeviceType()I",
+          "file_offset": 2186932,
+          "raw_hex": "6e10253f0000"
+        },
+        {
+          "offset_cu": 149,
+          "opcode": "move-result",
+          "registers": [
+            8
+          ],
+          "width_cu": 1,
+          "file_offset": 2186938,
+          "raw_hex": "0a08"
+        },
+        {
+          "offset_cu": 150,
+          "opcode": "move-object",
+          "registers": [
+            9,
+            10
+          ],
+          "width_cu": 1,
+          "file_offset": 2186940,
+          "raw_hex": "07a9"
+        },
+        {
+          "offset_cu": 151,
+          "opcode": "invoke-virtual/range",
+          "registers": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "width_cu": 3,
+          "reference": "LR5/h;->b(Ljava/lang/String;Ljava/lang/String;Lg8/y0;ILcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;)V",
+          "file_offset": 2186942,
+          "raw_hex": "7406a41c0400"
+        },
+        {
+          "offset_cu": 154,
+          "opcode": "goto",
+          "registers": [],
+          "width_cu": 1,
+          "target_cu": 180,
+          "file_offset": 2186948,
+          "raw_hex": "281a"
+        }
+      ]
+    },
+    {
+      "method": "Lu8/j;->h0([BII)V",
+      "dex": "classes2.dex",
+      "location": {
+        "method_index": 28359,
+        "code_item_offset": 3669388,
+        "insns_offset": 3669404,
+        "code_units": 53,
+        "access_flags": 17
+      },
+      "requested_range_cu": [
+        21,
+        47
+      ],
+      "instructions": [
+        {
+          "offset_cu": 21,
+          "opcode": "sub-int",
+          "registers": [
+            1,
+            12,
+            11
+          ],
+          "width_cu": 2,
+          "file_offset": 3669446,
+          "raw_hex": "91010c0b"
+        },
+        {
+          "offset_cu": 23,
+          "opcode": "iget",
+          "registers": [
+            2,
+            0
+          ],
+          "width_cu": 2,
+          "reference": "Lu8/D;->c:I",
+          "file_offset": 3669450,
+          "raw_hex": "5202e346"
+        },
+        {
+          "offset_cu": 25,
+          "opcode": "rsub-int",
+          "registers": [
+            2,
+            2
+          ],
+          "width_cu": 2,
+          "literal": 8192,
+          "file_offset": 3669454,
+          "raw_hex": "d1220020"
+        },
+        {
+          "offset_cu": 27,
+          "opcode": "invoke-static",
+          "registers": [
+            1,
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/Math;->min(II)I",
+          "file_offset": 3669458,
+          "raw_hex": "71205d5b2100"
+        },
+        {
+          "offset_cu": 30,
+          "opcode": "move-result",
+          "registers": [
+            1
+          ],
+          "width_cu": 1,
+          "file_offset": 3669464,
+          "raw_hex": "0a01"
+        },
+        {
+          "offset_cu": 31,
+          "opcode": "iget",
+          "registers": [
+            2,
+            0
+          ],
+          "width_cu": 2,
+          "reference": "Lu8/D;->c:I",
+          "file_offset": 3669466,
+          "raw_hex": "5202e346"
+        },
+        {
+          "offset_cu": 33,
+          "opcode": "add-int",
+          "registers": [
+            3,
+            11,
+            1
+          ],
+          "width_cu": 2,
+          "file_offset": 3669470,
+          "raw_hex": "90030b01"
+        },
+        {
+          "offset_cu": 35,
+          "opcode": "iget-object",
+          "registers": [
+            4,
+            0
+          ],
+          "width_cu": 2,
+          "reference": "Lu8/D;->a:[B",
+          "file_offset": 3669474,
+          "raw_hex": "5404e146"
+        },
+        {
+          "offset_cu": 37,
+          "opcode": "invoke-static",
+          "registers": [
+            2,
+            11,
+            3,
+            10,
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Lz7/q;->c(III[B[B)V",
+          "file_offset": 3669478,
+          "raw_hex": "7154257ab2a3"
+        },
+        {
+          "offset_cu": 40,
+          "opcode": "iget",
+          "registers": [
+            11,
+            0
+          ],
+          "width_cu": 2,
+          "reference": "Lu8/D;->c:I",
+          "file_offset": 3669484,
+          "raw_hex": "520be346"
+        },
+        {
+          "offset_cu": 42,
+          "opcode": "add-int/2addr",
+          "registers": [
+            11,
+            1
+          ],
+          "width_cu": 1,
+          "file_offset": 3669488,
+          "raw_hex": "b01b"
+        },
+        {
+          "offset_cu": 43,
+          "opcode": "iput",
+          "registers": [
+            11,
+            0
+          ],
+          "width_cu": 2,
+          "reference": "Lu8/D;->c:I",
+          "file_offset": 3669490,
+          "raw_hex": "590be346"
+        },
+        {
+          "offset_cu": 45,
+          "opcode": "move",
+          "registers": [
+            11,
+            3
+          ],
+          "width_cu": 1,
+          "file_offset": 3669494,
+          "raw_hex": "013b"
+        },
+        {
+          "offset_cu": 46,
+          "opcode": "goto",
+          "registers": [],
+          "width_cu": 1,
+          "target_cu": 14,
+          "file_offset": 3669496,
+          "raw_hex": "28e0"
+        }
+      ]
+    },
+    {
+      "method": "Lz5/i4;->onClick(Landroid/view/View;)V",
+      "dex": "classes2.dex",
+      "location": {
+        "method_index": 30265,
+        "code_item_offset": 3845700,
+        "insns_offset": 3845716,
+        "code_units": 434,
+        "access_flags": 17
+      },
+      "requested_range_cu": [
+        95,
+        125
+      ],
+      "instructions": [
+        {
+          "offset_cu": 95,
+          "opcode": "if-ne",
+          "registers": [
+            4,
+            1
+          ],
+          "width_cu": 2,
+          "target_cu": 124,
+          "file_offset": 3845906,
+          "raw_hex": "33141d00"
+        },
+        {
+          "offset_cu": 97,
+          "opcode": "invoke-static",
+          "registers": [],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "file_offset": 3845910,
+          "raw_hex": "7100e12d0000"
+        },
+        {
+          "offset_cu": 100,
+          "opcode": "move-result-object",
+          "registers": [
+            4
+          ],
+          "width_cu": 1,
+          "file_offset": 3845916,
+          "raw_hex": "0c04"
+        },
+        {
+          "offset_cu": 101,
+          "opcode": "invoke-virtual",
+          "registers": [
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getFirmwareOperationState()I",
+          "file_offset": 3845918,
+          "raw_hex": "6e10ee2d0400"
+        },
+        {
+          "offset_cu": 104,
+          "opcode": "move-result",
+          "registers": [
+            4
+          ],
+          "width_cu": 1,
+          "file_offset": 3845924,
+          "raw_hex": "0a04"
+        },
+        {
+          "offset_cu": 105,
+          "opcode": "if-ne",
+          "registers": [
+            5,
+            4
+          ],
+          "width_cu": 2,
+          "target_cu": 116,
+          "file_offset": 3845926,
+          "raw_hex": "33450b00"
+        },
+        {
+          "offset_cu": 107,
+          "opcode": "invoke-static",
+          "registers": [],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "file_offset": 3845930,
+          "raw_hex": "7100e12d0000"
+        },
+        {
+          "offset_cu": 110,
+          "opcode": "move-result-object",
+          "registers": [
+            4
+          ],
+          "width_cu": 1,
+          "file_offset": 3845936,
+          "raw_hex": "0c04"
+        },
+        {
+          "offset_cu": 111,
+          "opcode": "const/4",
+          "registers": [
+            5
+          ],
+          "width_cu": 1,
+          "literal": 3,
+          "file_offset": 3845938,
+          "raw_hex": "1235"
+        },
+        {
+          "offset_cu": 112,
+          "opcode": "invoke-virtual",
+          "registers": [
+            4,
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/LlcApplication;->setFirmwareOperationState(I)V",
+          "file_offset": 3845940,
+          "raw_hex": "6e208f2e5400"
+        },
+        {
+          "offset_cu": 115,
+          "opcode": "goto",
+          "registers": [],
+          "width_cu": 1,
+          "target_cu": 124,
+          "file_offset": 3845946,
+          "raw_hex": "2809"
+        },
+        {
+          "offset_cu": 116,
+          "opcode": "invoke-static",
+          "registers": [],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "file_offset": 3845948,
+          "raw_hex": "7100e12d0000"
+        },
+        {
+          "offset_cu": 119,
+          "opcode": "move-result-object",
+          "registers": [
+            4
+          ],
+          "width_cu": 1,
+          "file_offset": 3845954,
+          "raw_hex": "0c04"
+        },
+        {
+          "offset_cu": 120,
+          "opcode": "const/4",
+          "registers": [
+            5
+          ],
+          "width_cu": 1,
+          "literal": 4,
+          "file_offset": 3845956,
+          "raw_hex": "1245"
+        },
+        {
+          "offset_cu": 121,
+          "opcode": "invoke-virtual",
+          "registers": [
+            4,
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/LlcApplication;->setFirmwareOperationState(I)V",
+          "file_offset": 3845958,
+          "raw_hex": "6e208f2e5400"
+        },
+        {
+          "offset_cu": 124,
+          "opcode": "return-void",
+          "registers": [],
+          "width_cu": 1,
+          "file_offset": 3845964,
+          "raw_hex": "0e00"
+        }
+      ]
+    },
+    {
+      "method": "Lz5/j4;->c(Lcom/panasonic/jp/lumixlab/bean/CommunityDownloadInfoBean;)V",
+      "dex": "classes2.dex",
+      "location": {
+        "method_index": 30293,
+        "code_item_offset": 3846756,
+        "insns_offset": 3846772,
+        "code_units": 231,
+        "access_flags": 17
+      },
+      "requested_range_cu": [
+        98,
+        160
+      ],
+      "instructions": [
+        {
+          "offset_cu": 98,
+          "opcode": "invoke-virtual",
+          "registers": [
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/ArrayList;->isEmpty()Z",
+          "file_offset": 3846968,
+          "raw_hex": "6e10875e0100"
+        },
+        {
+          "offset_cu": 101,
+          "opcode": "move-result",
+          "registers": [
+            4
+          ],
+          "width_cu": 1,
+          "file_offset": 3846974,
+          "raw_hex": "0a04"
+        },
+        {
+          "offset_cu": 102,
+          "opcode": "if-nez",
+          "registers": [
+            4
+          ],
+          "width_cu": 2,
+          "target_cu": 159,
+          "file_offset": 3846976,
+          "raw_hex": "39043900"
+        },
+        {
+          "offset_cu": 104,
+          "opcode": "invoke-virtual",
+          "registers": [
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;",
+          "file_offset": 3846980,
+          "raw_hex": "6e10885e0100"
+        },
+        {
+          "offset_cu": 107,
+          "opcode": "move-result-object",
+          "registers": [
+            1
+          ],
+          "width_cu": 1,
+          "file_offset": 3846986,
+          "raw_hex": "0c01"
+        },
+        {
+          "offset_cu": 108,
+          "opcode": "invoke-interface",
+          "registers": [
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/Iterator;->hasNext()Z",
+          "file_offset": 3846988,
+          "raw_hex": "72102b5f0100"
+        },
+        {
+          "offset_cu": 111,
+          "opcode": "move-result",
+          "registers": [
+            4
+          ],
+          "width_cu": 1,
+          "file_offset": 3846994,
+          "raw_hex": "0a04"
+        },
+        {
+          "offset_cu": 112,
+          "opcode": "if-eqz",
+          "registers": [
+            4
+          ],
+          "width_cu": 2,
+          "target_cu": 159,
+          "file_offset": 3846996,
+          "raw_hex": "38042f00"
+        },
+        {
+          "offset_cu": 114,
+          "opcode": "invoke-interface",
+          "registers": [
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/Iterator;->next()Ljava/lang/Object;",
+          "file_offset": 3847000,
+          "raw_hex": "72102c5f0100"
+        },
+        {
+          "offset_cu": 117,
+          "opcode": "move-result-object",
+          "registers": [
+            4
+          ],
+          "width_cu": 1,
+          "file_offset": 3847006,
+          "raw_hex": "0c04"
+        },
+        {
+          "offset_cu": 118,
+          "opcode": "check-cast",
+          "registers": [
+            4
+          ],
+          "width_cu": 2,
+          "reference": "Ljava/io/File;",
+          "file_offset": 3847008,
+          "raw_hex": "1f047013"
+        },
+        {
+          "offset_cu": 120,
+          "opcode": "if-eqz",
+          "registers": [
+            4
+          ],
+          "width_cu": 2,
+          "target_cu": 108,
+          "file_offset": 3847012,
+          "raw_hex": "3804f4ff"
+        },
+        {
+          "offset_cu": 122,
+          "opcode": "invoke-virtual",
+          "registers": [
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/File;->isFile()Z",
+          "file_offset": 3847016,
+          "raw_hex": "6e106c5a0400"
+        },
+        {
+          "offset_cu": 125,
+          "opcode": "move-result",
+          "registers": [
+            6
+          ],
+          "width_cu": 1,
+          "file_offset": 3847022,
+          "raw_hex": "0a06"
+        },
+        {
+          "offset_cu": 126,
+          "opcode": "if-eqz",
+          "registers": [
+            6
+          ],
+          "width_cu": 2,
+          "target_cu": 108,
+          "file_offset": 3847024,
+          "raw_hex": "3806eeff"
+        },
+        {
+          "offset_cu": 128,
+          "opcode": "invoke-virtual",
+          "registers": [
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/File;->getName()Ljava/lang/String;",
+          "file_offset": 3847028,
+          "raw_hex": "6e10685a0400"
+        },
+        {
+          "offset_cu": 131,
+          "opcode": "move-result-object",
+          "registers": [
+            4
+          ],
+          "width_cu": 1,
+          "file_offset": 3847034,
+          "raw_hex": "0c04"
+        },
+        {
+          "offset_cu": 132,
+          "opcode": "invoke-static",
+          "registers": [
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z",
+          "file_offset": 3847036,
+          "raw_hex": "711026290300"
+        },
+        {
+          "offset_cu": 135,
+          "opcode": "move-result",
+          "registers": [
+            6
+          ],
+          "width_cu": 1,
+          "file_offset": 3847042,
+          "raw_hex": "0a06"
+        },
+        {
+          "offset_cu": 136,
+          "opcode": "if-nez",
+          "registers": [
+            6
+          ],
+          "width_cu": 2,
+          "target_cu": 108,
+          "file_offset": 3847044,
+          "raw_hex": "3906e4ff"
+        },
+        {
+          "offset_cu": 138,
+          "opcode": "invoke-static",
+          "registers": [
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z",
+          "file_offset": 3847048,
+          "raw_hex": "711026290400"
+        },
+        {
+          "offset_cu": 141,
+          "opcode": "move-result",
+          "registers": [
+            6
+          ],
+          "width_cu": 1,
+          "file_offset": 3847054,
+          "raw_hex": "0a06"
+        },
+        {
+          "offset_cu": 142,
+          "opcode": "if-nez",
+          "registers": [
+            6
+          ],
+          "width_cu": 2,
+          "target_cu": 108,
+          "file_offset": 3847056,
+          "raw_hex": "3906deff"
+        },
+        {
+          "offset_cu": 144,
+          "opcode": "new-array",
+          "registers": [
+            1,
+            2
+          ],
+          "width_cu": 2,
+          "reference": "[Ljava/lang/String;",
+          "file_offset": 3847060,
+          "raw_hex": "2321bc1c"
+        },
+        {
+          "offset_cu": 146,
+          "opcode": "invoke-static",
+          "registers": [
+            3,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/nio/file/Paths;->get(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;",
+          "file_offset": 3847064,
+          "raw_hex": "71205b5d1300"
+        },
+        {
+          "offset_cu": 149,
+          "opcode": "move-result-object",
+          "registers": [
+            1
+          ],
+          "width_cu": 1,
+          "file_offset": 3847070,
+          "raw_hex": "0c01"
+        },
+        {
+          "offset_cu": 150,
+          "opcode": "invoke-interface",
+          "registers": [
+            1,
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/nio/file/Path;->resolve(Ljava/lang/String;)Ljava/nio/file/Path;",
+          "file_offset": 3847072,
+          "raw_hex": "7220575d4100"
+        },
+        {
+          "offset_cu": 153,
+          "opcode": "move-result-object",
+          "registers": [
+            1
+          ],
+          "width_cu": 1,
+          "file_offset": 3847078,
+          "raw_hex": "0c01"
+        },
+        {
+          "offset_cu": 154,
+          "opcode": "invoke-interface",
+          "registers": [
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/nio/file/Path;->toString()Ljava/lang/String;",
+          "file_offset": 3847080,
+          "raw_hex": "72105a5d0100"
+        },
+        {
+          "offset_cu": 157,
+          "opcode": "move-result-object",
+          "registers": [
+            3
+          ],
+          "width_cu": 1,
+          "file_offset": 3847086,
+          "raw_hex": "0c03"
+        },
+        {
+          "offset_cu": 158,
+          "opcode": "goto",
+          "registers": [],
+          "width_cu": 1,
+          "target_cu": 160,
+          "file_offset": 3847088,
+          "raw_hex": "2802"
+        },
+        {
+          "offset_cu": 159,
+          "opcode": "move",
+          "registers": [
+            0,
+            2
+          ],
+          "width_cu": 1,
+          "file_offset": 3847090,
+          "raw_hex": "0120"
+        }
+      ]
+    },
+    {
+      "method": "Lz5/j4;->c(Lcom/panasonic/jp/lumixlab/bean/CommunityDownloadInfoBean;)V",
+      "dex": "classes2.dex",
+      "location": {
+        "method_index": 30293,
+        "code_item_offset": 3846756,
+        "insns_offset": 3846772,
+        "code_units": 231,
+        "access_flags": 17
+      },
+      "requested_range_cu": [
+        195,
+        200
+      ],
+      "instructions": [
+        {
+          "offset_cu": 195,
+          "opcode": "check-cast",
+          "registers": [
+            1
+          ],
+          "width_cu": 2,
+          "reference": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;",
+          "file_offset": 3847162,
+          "raw_hex": "1f01b20c"
+        },
+        {
+          "offset_cu": 197,
+          "opcode": "invoke-virtual",
+          "registers": [
+            1,
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/database/entity/UpdateInfoEntity;->setUpdateDownloadPath(Ljava/lang/String;)V",
+          "file_offset": 3847166,
+          "raw_hex": "6e204f3f3100"
+        }
+      ]
+    },
+    {
+      "method": "Lz5/n4;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+      "dex": "classes2.dex",
+      "location": {
+        "method_index": 30458,
+        "code_item_offset": 3847608,
+        "insns_offset": 3847624,
+        "code_units": 63,
+        "access_flags": 17
+      },
+      "requested_range_cu": [
+        26,
+        63
+      ],
+      "instructions": [
+        {
+          "offset_cu": 26,
+          "opcode": "const/4",
+          "registers": [
+            3
+          ],
+          "width_cu": 1,
+          "literal": 1,
+          "file_offset": 3847676,
+          "raw_hex": "1213"
+        },
+        {
+          "offset_cu": 27,
+          "opcode": "if-eq",
+          "registers": [
+            3,
+            2
+          ],
+          "width_cu": 2,
+          "target_cu": 32,
+          "file_offset": 3847678,
+          "raw_hex": "32230500"
+        },
+        {
+          "offset_cu": 29,
+          "opcode": "const/4",
+          "registers": [
+            0
+          ],
+          "width_cu": 1,
+          "literal": 3,
+          "file_offset": 3847682,
+          "raw_hex": "1230"
+        },
+        {
+          "offset_cu": 30,
+          "opcode": "if-ne",
+          "registers": [
+            0,
+            2
+          ],
+          "width_cu": 2,
+          "target_cu": 62,
+          "file_offset": 3847684,
+          "raw_hex": "33202000"
+        },
+        {
+          "offset_cu": 32,
+          "opcode": "const-string",
+          "registers": [
+            2
+          ],
+          "width_cu": 2,
+          "reference": "DETAIL_TRANSFERRING",
+          "file_offset": 3847688,
+          "raw_hex": "1a02dd0c"
+        },
+        {
+          "offset_cu": 34,
+          "opcode": "iget-object",
+          "registers": [
+            0,
+            1
+          ],
+          "width_cu": 2,
+          "reference": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->F0:Ljava/lang/String;",
+          "file_offset": 3847692,
+          "raw_hex": "54105124"
+        },
+        {
+          "offset_cu": 36,
+          "opcode": "invoke-virtual",
+          "registers": [
+            2,
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/String;->equals(Ljava/lang/Object;)Z",
+          "file_offset": 3847696,
+          "raw_hex": "6e20a15b0200"
+        },
+        {
+          "offset_cu": 39,
+          "opcode": "move-result",
+          "registers": [
+            2
+          ],
+          "width_cu": 1,
+          "file_offset": 3847702,
+          "raw_hex": "0a02"
+        },
+        {
+          "offset_cu": 40,
+          "opcode": "if-eqz",
+          "registers": [
+            2
+          ],
+          "width_cu": 2,
+          "target_cu": 62,
+          "file_offset": 3847704,
+          "raw_hex": "38021600"
+        },
+        {
+          "offset_cu": 42,
+          "opcode": "iput-boolean",
+          "registers": [
+            3,
+            1
+          ],
+          "width_cu": 2,
+          "reference": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->G0:Z",
+          "file_offset": 3847708,
+          "raw_hex": "5c135224"
+        },
+        {
+          "offset_cu": 44,
+          "opcode": "invoke-static",
+          "registers": [],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;",
+          "file_offset": 3847712,
+          "raw_hex": "7100e12d0000"
+        },
+        {
+          "offset_cu": 47,
+          "opcode": "move-result-object",
+          "registers": [
+            2
+          ],
+          "width_cu": 1,
+          "file_offset": 3847718,
+          "raw_hex": "0c02"
+        },
+        {
+          "offset_cu": 48,
+          "opcode": "const/4",
+          "registers": [
+            3
+          ],
+          "width_cu": 1,
+          "literal": 4,
+          "file_offset": 3847720,
+          "raw_hex": "1243"
+        },
+        {
+          "offset_cu": 49,
+          "opcode": "invoke-virtual",
+          "registers": [
+            2,
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/LlcApplication;->setFirmwareOperationState(I)V",
+          "file_offset": 3847722,
+          "raw_hex": "6e208f2e3200"
+        },
+        {
+          "offset_cu": 52,
+          "opcode": "const",
+          "registers": [
+            2
+          ],
+          "width_cu": 3,
+          "literal": 2132017640,
+          "file_offset": 3847728,
+          "raw_hex": "1402e801147f"
+        },
+        {
+          "offset_cu": 55,
+          "opcode": "invoke-virtual",
+          "registers": [
+            1,
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Landroidx/fragment/app/N;->getString(I)Ljava/lang/String;",
+          "file_offset": 3847734,
+          "raw_hex": "6e200c2b2100"
+        },
+        {
+          "offset_cu": 58,
+          "opcode": "move-result-object",
+          "registers": [
+            2
+          ],
+          "width_cu": 1,
+          "file_offset": 3847740,
+          "raw_hex": "0c02"
+        },
+        {
+          "offset_cu": 59,
+          "opcode": "invoke-virtual",
+          "registers": [
+            1,
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/controller/fragment/FirmwareUpdateDetailFragment;->p0(Ljava/lang/String;)V",
+          "file_offset": 3847742,
+          "raw_hex": "6e20ca3b2100"
+        },
+        {
+          "offset_cu": 62,
+          "opcode": "return-void",
+          "registers": [],
+          "width_cu": 1,
+          "file_offset": 3847748,
+          "raw_hex": "0e00"
+        }
+      ]
+    },
+    {
+      "method": "Lz7/q;->c(III[B[B)V",
+      "dex": "classes2.dex",
+      "location": {
+        "method_index": 31269,
+        "code_item_offset": 4004244,
+        "insns_offset": 4004260,
+        "code_units": 15,
+        "access_flags": 9
+      },
+      "requested_range_cu": [
+        0,
+        15
+      ],
+      "instructions": [
+        {
+          "offset_cu": 0,
+          "opcode": "const-string",
+          "registers": [
+            0
+          ],
+          "width_cu": 2,
+          "reference": "<this>",
+          "file_offset": 4004260,
+          "raw_hex": "1a006f08"
+        },
+        {
+          "offset_cu": 2,
+          "opcode": "invoke-static",
+          "registers": [
+            4,
+            0
+          ],
+          "width_cu": 3,
+          "reference": "LM7/l;->f(Ljava/lang/Object;Ljava/lang/String;)V",
+          "file_offset": 4004264,
+          "raw_hex": "71201e1a0400"
+        },
+        {
+          "offset_cu": 5,
+          "opcode": "const-string",
+          "registers": [
+            0
+          ],
+          "width_cu": 2,
+          "reference": "destination",
+          "file_offset": 4004270,
+          "raw_hex": "1a005b40"
+        },
+        {
+          "offset_cu": 7,
+          "opcode": "invoke-static",
+          "registers": [
+            5,
+            0
+          ],
+          "width_cu": 3,
+          "reference": "LM7/l;->f(Ljava/lang/Object;Ljava/lang/String;)V",
+          "file_offset": 4004274,
+          "raw_hex": "71201e1a0500"
+        },
+        {
+          "offset_cu": 10,
+          "opcode": "sub-int/2addr",
+          "registers": [
+            3,
+            2
+          ],
+          "width_cu": 1,
+          "file_offset": 4004280,
+          "raw_hex": "b123"
+        },
+        {
+          "offset_cu": 11,
+          "opcode": "invoke-static",
+          "registers": [
+            4,
+            2,
+            5,
+            1,
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V",
+          "file_offset": 4004282,
+          "raw_hex": "7153ef5b2415"
+        },
+        {
+          "offset_cu": 14,
+          "opcode": "return-void",
+          "registers": [],
+          "width_cu": 1,
+          "file_offset": 4004288,
+          "raw_hex": "0e00"
+        }
+      ]
+    }
+  ],
+  "checked_rules": [
+    "single skip/read return values ignored",
+    "same byte[] is passed to request body factory",
+    "success increments index, checks count, then next chunk or DETAIL_TRANSFERRED",
+    "selector discards parent and uses basename under extraction root"
+  ],
+  "direct_calls_to_214_app_native_declarations_in_selected_methods": [],
+  "negative_scope": "Only explicit invoke references in these selected methods. Indirect/reflection/platform implementations and unreviewed paths are not excluded."
+}

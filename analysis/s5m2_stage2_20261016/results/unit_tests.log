@@ -1,0 +1,12 @@
+test_complete_payload_hash_changes (__main__.StructureTests.test_complete_payload_hash_changes) ... ok
+test_crc_corruption_rejected (__main__.StructureTests.test_crc_corruption_rejected) ... ok
+test_missing_inner_magic_rejected (__main__.StructureTests.test_missing_inner_magic_rejected) ... ok
+test_overlapping_payload_rejected (__main__.StructureTests.test_overlapping_payload_rejected) ... ok
+test_unassigned_tail_rejected_for_this_profile (__main__.StructureTests.test_unassigned_tail_rejected_for_this_profile) ... ok
+test_uses_relative_offset_not_destination (__main__.StructureTests.test_uses_relative_offset_not_destination) ... ok
+test_wrong_declared_length_rejected (__main__.StructureTests.test_wrong_declared_length_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+OK

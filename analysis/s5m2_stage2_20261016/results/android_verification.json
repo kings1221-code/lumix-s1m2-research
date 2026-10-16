@@ -1,0 +1,24 @@
+{
+  "selected_methods": 81,
+  "input_dex": [
+    {
+      "file": "classes.dex",
+      "size": 7341852,
+      "sha256": "02782fe6cf962788d1e5e76f707fc9d5e45669c205eaafee9bb8c50f2f5810ff"
+    },
+    {
+      "file": "classes2.dex",
+      "size": 5047724,
+      "sha256": "4147c194d9814bac0f83e2120705b6e03524a3425d2492eafdbf547898736552"
+    }
+  ],
+  "method_offsets_lengths_registers_and_encoded_branch_targets_checked": true,
+  "raw_instruction_excerpts": 15,
+  "synthetic_result_id": {
+    "size": 1966,
+    "sha256": "da35523108b87800f309edf6764b6d67439e6957ef0cd3ad96a52796002a6d49"
+  },
+  "vendor_program_executed": false,
+  "device_io": false,
+  "limits": "Synthetic own reconstruction runs on host JDK25; DEX assertions establish only listed local facts, not a complete App semantic proof."
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "public_metadata_cross_checks": true,
+  "input_identities_rechecked": 35,
+  "raw_excerpt_instructions_byte_compared": 293,
+  "two_version_comparison_changed_field_counts": {
+    "size_same": 4,
+    "flags_same": 0,
+    "destination_field_same": 48,
+    "directory_digest_same": 17,
+    "tail_candidate_16_same": 40,
+    "raw_sha256_same": 40
+  },
+  "scope": "Cross-check only. No new scan/decompilation, target execution, device request or input modification."
+}

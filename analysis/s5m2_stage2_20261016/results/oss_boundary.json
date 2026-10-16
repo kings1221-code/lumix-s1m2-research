@@ -1,0 +1,2348 @@
+{
+  "historical_commit": "3362325de9e36e067f1826575f0fffde24ed98fd",
+  "historical_source_audit_id": {
+    "size": 239682,
+    "sha256": "d8c161e6f880627053ebac7359d9fea19c1300edc76f5b4cfbf9108652f23963"
+  },
+  "archives": {
+    "S5M2_Ver1_uboot.tar.gz": {
+      "archive": {
+        "size": 18797603,
+        "sha256": "e7d301fb8b2cc509d7d5d42b53c13a61e6c21d5792804b314927b2f6cd2b40d3"
+      },
+      "official_url": "https://ospo.panasonic.com/oss/source/dsc/DC-S5M2/u-boot.tar.gz",
+      "source_model_label": "MC8223",
+      "current_method": "whole archive SHA-256 plus selected exact source/function span checks; no full scan rerun",
+      "selected_sources": [
+        {
+          "path": "u-boot/cmd/booti.c",
+          "size": 2912,
+          "sha256": "0e58a05a9b4bdb80520452fcff74dd3a71af6e26646a25af547bafc37547568a",
+          "functions": [
+            {
+              "name": "booti_start",
+              "byte_start": 329,
+              "byte_end_exclusive": 1432,
+              "line_start": 19,
+              "line_end": 61,
+              "span_sha256": "846d9230753a6b57867eaef39910e6a6935ce21048be742cca94226a5a1ce1b7",
+              "lexical_call_tokens": [
+                "booti_setup",
+                "bootm_find_images",
+                "debug",
+                "do_bootm_states",
+                "le32_to_cpu",
+                "lmb_reserve",
+                "memmove",
+                "simple_strtoul"
+              ]
+            },
+            {
+              "name": "do_booti",
+              "byte_start": 1434,
+              "byte_end_exclusive": 2152,
+              "line_start": 63,
+              "line_end": 94,
+              "span_sha256": "5beae211010b71000eab2085a738a607d8929149912f8f523fe59d452da12be2",
+              "lexical_call_tokens": [
+                "booti_start",
+                "bootm_disable_interrupts",
+                "do_bootm_states"
+              ]
+            }
+          ],
+          "anchor_lines": []
+        },
+        {
+          "path": "u-boot/cmd/unzip.c",
+          "size": 2147,
+          "sha256": "5cb720b1b7c3bef78290d11537080e54b5ad138afe81a5daec961fff4bb6b749",
+          "functions": [
+            {
+              "name": "do_unzip",
+              "byte_start": 166,
+              "byte_end_exclusive": 754,
+              "line_start": 10,
+              "line_end": 34,
+              "span_sha256": "b5ec7724cabee2283a2495f107e9f391e2de0be50f789f985b00b756879ab7b0",
+              "lexical_call_tokens": [
+                "env_set_hex",
+                "gunzip",
+                "printf",
+                "simple_strtoul"
+              ]
+            }
+          ],
+          "anchor_lines": [
+            {
+              "line": 27,
+              "text": "if (gunzip((void *) dst, dst_len, (void *) src, &src_len) != 0)"
+            }
+          ]
+        },
+        {
+          "path": "u-boot/board/socionext/sc2006a-evb/sc2006a-evb.c",
+          "size": 167,
+          "sha256": "3c13a2ee7d7d9af468c98d28bdf7d515885edd273bf5a0640cf1fb6bfb41acbb",
+          "functions": [
+            {
+              "name": "board_init",
+              "byte_start": 82,
+              "byte_end_exclusive": 166,
+              "line_start": 6,
+              "line_end": 13,
+              "span_sha256": "f5d0cbc99670335d5402fc3e2667de3b06f6789e21300af1dc85bcc083a36769",
+              "lexical_call_tokens": []
+            }
+          ],
+          "anchor_lines": []
+        },
+        {
+          "path": "u-boot/arch/arm/mach-milbeaut/milbeaut.c",
+          "size": 1920,
+          "sha256": "95fb026bc447b59e53d699247f810738d3c58eb2a8d31d07d33d0d3bdb9f1d37",
+          "functions": [
+            {
+              "name": "dram_init",
+              "byte_start": 1073,
+              "byte_end_exclusive": 1396,
+              "line_start": 65,
+              "line_end": 77,
+              "span_sha256": "013ae1593c902672a9b06fa8eda38f74383a84213811532cec454c5b09d9baff",
+              "lexical_call_tokens": [
+                "fdtdec_setup_mem_size_base",
+                "printf"
+              ]
+            }
+          ],
+          "anchor_lines": []
+        },
+        {
+          "path": "u-boot/arch/arm/dts/pvc04v-MC8223.dts",
+          "size": 767,
+          "sha256": "788ba4e4cbd9b05386d6a0e845fd0800211b19d13dd0d3e4324e1540a52c57b7",
+          "functions": [],
+          "anchor_lines": [
+            {
+              "line": 16,
+              "text": "model = \"Socionext pvc04v MC8223\";"
+            },
+            {
+              "line": 17,
+              "text": "compatible = \"socionext,pvc04v-MC8223-1ST-ref\", \"socionext,milbeaut-sc2006b\";"
+            }
+          ]
+        },
+        {
+          "path": "u-boot/configs/pvc04v_MC8223_defconfig",
+          "size": 1128,
+          "sha256": "a8a0f7eb79caf332be043a071e110f89655cd271572e375ef6ed2b20b1e69859",
+          "functions": [],
+          "anchor_lines": [
+            {
+              "line": 12,
+              "text": "CONFIG_DEFAULT_DEVICE_TREE=\"pvc04v-MC8223\""
+            },
+            {
+              "line": 32,
+              "text": "CONFIG_SYS_TEXT_BASE=0x400180000"
+            },
+            {
+              "line": 35,
+              "text": "CONFIG_BOOTDELAY=-2"
+            },
+            {
+              "line": 43,
+              "text": "CONFIG_BOOTCOMMAND=\"unzip 0x400200000 0x403700000; booti 0x403700000 - 0x401290000\\0\""
+            }
+          ]
+        },
+        {
+          "path": "u-boot/lib/gunzip.c",
+          "size": 6709,
+          "sha256": "b82deca7490fea550d03a51d4350e0ed9388e0c8305b4befc0fc8bda13bd8491",
+          "functions": [
+            {
+              "name": "gzip_parse_header",
+              "byte_start": 779,
+              "byte_end_exclusive": 1344,
+              "line_start": 44,
+              "line_end": 70,
+              "span_sha256": "4a152df49efae769fbc35ffd6bfe6ba14ad98b0b422666da18b5cf55c969b2ec",
+              "lexical_call_tokens": [
+                "puts"
+              ]
+            },
+            {
+              "name": "gunzip",
+              "byte_start": 1346,
+              "byte_end_exclusive": 1556,
+              "line_start": 72,
+              "line_end": 80,
+              "span_sha256": "662cf0331ae9958efc7c67f455a71abacfa3c45c06d7512c5dee535c71c30b7a",
+              "lexical_call_tokens": [
+                "gzip_parse_header",
+                "zunzip"
+              ]
+            },
+            {
+              "name": "zunzip",
+              "byte_start": 5973,
+              "byte_end_exclusive": 6708,
+              "line_start": 275,
+              "line_end": 307,
+              "span_sha256": "a00ef77736e9c05b03d4ca1284021e8fcadc463f9a5d0aca233ed803cb1f6747",
+              "lexical_call_tokens": [
+                "inflate",
+                "inflateEnd",
+                "inflateInit2",
+                "printf"
+              ]
+            }
+          ],
+          "anchor_lines": [
+            {
+              "line": 72,
+              "text": "int gunzip(void *dst, int dstlen, unsigned char *src, unsigned long *lenp)"
+            },
+            {
+              "line": 79,
+              "text": "return zunzip(dst, dstlen, src, lenp, 1, offset);"
+            },
+            {
+              "line": 175,
+              "text": "memcpy(&expected_crc, src + len - 8, sizeof(expected_crc));"
+            },
+            {
+              "line": 178,
+              "text": "memcpy(&szuncompressed, src + len - 4, sizeof(szuncompressed));"
+            },
+            {
+              "line": 215,
+              "text": "/* run inflate() on input until output buffer not full */"
+            },
+            {
+              "line": 223,
+              "text": "r = inflate(&s, Z_SYNC_FLUSH);"
+            },
+            {
+              "line": 226,
+              "text": "printf(\"Error: inflate() returned %d\\n\", r);"
+            },
+            {
+              "line": 253,
+              "text": "/* done when inflate() says it's done */"
+            },
+            {
+              "line": 275,
+              "text": "int zunzip(void *dst, int dstlen, unsigned char *src, unsigned long *lenp,"
+            },
+            {
+              "line": 295,
+              "text": "r = inflate(&s, Z_FINISH);"
+            },
+            {
+              "line": 298,
+              "text": "printf(\"Error: inflate() returned %d\\n\", r);"
+            }
+          ]
+        }
+      ],
+      "historical_scan_reused": {
+        "regular_files": 15224,
+        "regular_bytes": 83214904,
+        "nonregular_members_not_scanned": 1660,
+        "patterns": {
+          "upd_literal_or_hex": "\\bUPD\\b|UPD\\\\(?:0|x00)|55504400",
+          "modern_field_names": "\\b(?:crypt_selector|header_revision|candidate_digest)\\b",
+          "component_tokens": "\\b(?:loader1|eep_act_a|postboot1_r|compress_pr)\\b",
+          "ram_anchors": "0x0*(?:400180000|400200000|403700000|401290000|4012a0000|4016a0000)\\b"
+        },
+        "hit_counts": {
+          "upd_literal_or_hex": 65,
+          "modern_field_names": 0,
+          "component_tokens": 5,
+          "ram_anchors": 9
+        }
+      },
+      "historical_scan_method": "All regular tar member bytes; no nested archive/CHM decompression; lexical patterns only"
+    },
+    "S5M2_Ver2_uboot.tar.gz": {
+      "archive": {
+        "size": 18794907,
+        "sha256": "c27cf53af6d8e3a18af0455fe7841c8db955bb58c5943ef94a3a6632439ad692"
+      },
+      "official_url": "https://ospo.panasonic.com/oss/source/dsc/DC-S5M2_Ver2/u-boot-v2019.07.tar.gz",
+      "source_model_label": "MC8223X",
+      "current_method": "whole archive SHA-256 plus selected exact source/function span checks; no full scan rerun",
+      "selected_sources": [
+        {
+          "path": "u-boot/cmd/unzip.c",
+          "size": 2147,
+          "sha256": "5cb720b1b7c3bef78290d11537080e54b5ad138afe81a5daec961fff4bb6b749",
+          "functions": [
+            {
+              "name": "do_unzip",
+              "byte_start": 166,
+              "byte_end_exclusive": 754,
+              "line_start": 10,
+              "line_end": 34,
+              "span_sha256": "b5ec7724cabee2283a2495f107e9f391e2de0be50f789f985b00b756879ab7b0",
+              "lexical_call_tokens": [
+                "env_set_hex",
+                "gunzip",
+                "printf",
+                "simple_strtoul"
+              ]
+            }
+          ],
+          "anchor_lines": [
+            {
+              "line": 27,
+              "text": "if (gunzip((void *) dst, dst_len, (void *) src, &src_len) != 0)"
+            }
+          ]
+        },
+        {
+          "path": "u-boot/cmd/booti.c",
+          "size": 2912,
+          "sha256": "0e58a05a9b4bdb80520452fcff74dd3a71af6e26646a25af547bafc37547568a",
+          "functions": [
+            {
+              "name": "booti_start",
+              "byte_start": 329,
+              "byte_end_exclusive": 1432,
+              "line_start": 19,
+              "line_end": 61,
+              "span_sha256": "846d9230753a6b57867eaef39910e6a6935ce21048be742cca94226a5a1ce1b7",
+              "lexical_call_tokens": [
+                "booti_setup",
+                "bootm_find_images",
+                "debug",
+                "do_bootm_states",
+                "le32_to_cpu",
+                "lmb_reserve",
+                "memmove",
+                "simple_strtoul"
+              ]
+            },
+            {
+              "name": "do_booti",
+              "byte_start": 1434,
+              "byte_end_exclusive": 2152,
+              "line_start": 63,
+              "line_end": 94,
+              "span_sha256": "5beae211010b71000eab2085a738a607d8929149912f8f523fe59d452da12be2",
+              "lexical_call_tokens": [
+                "booti_start",
+                "bootm_disable_interrupts",
+                "do_bootm_states"
+              ]
+            }
+          ],
+          "anchor_lines": []
+        },
+        {
+          "path": "u-boot/arch/arm/mach-milbeaut/milbeaut.c",
+          "size": 1920,
+          "sha256": "95fb026bc447b59e53d699247f810738d3c58eb2a8d31d07d33d0d3bdb9f1d37",
+          "functions": [
+            {
+              "name": "dram_init",
+              "byte_start": 1073,
+              "byte_end_exclusive": 1396,
+              "line_start": 65,
+              "line_end": 77,
+              "span_sha256": "013ae1593c902672a9b06fa8eda38f74383a84213811532cec454c5b09d9baff",
+              "lexical_call_tokens": [
+                "fdtdec_setup_mem_size_base",
+                "printf"
+              ]
+            }
+          ],
+          "anchor_lines": []
+        },
+        {
+          "path": "u-boot/arch/arm/dts/pvc04v-MC8223X.dts",
+          "size": 770,
+          "sha256": "a4bd32b2b9fa0d4d803fc4887d8121ba5caccb434f6339f7ece59b4568891996",
+          "functions": [],
+          "anchor_lines": [
+            {
+              "line": 16,
+              "text": "model = \"Socionext pvc04v MC8223X\";"
+            },
+            {
+              "line": 17,
+              "text": "compatible = \"socionext,pvc04v-MC8223X-1ST-ref\", \"socionext,milbeaut-sc2006b\";"
+            }
+          ]
+        },
+        {
+          "path": "u-boot/configs/pvc04v_MC8223X_defconfig",
+          "size": 1130,
+          "sha256": "55abfa40df7f6b8a1273ae4ec31228fc71911f6ceb9b3b3c540baa9450aee27e",
+          "functions": [],
+          "anchor_lines": [
+            {
+              "line": 12,
+              "text": "CONFIG_DEFAULT_DEVICE_TREE=\"pvc04v-MC8223X\""
+            },
+            {
+              "line": 32,
+              "text": "CONFIG_SYS_TEXT_BASE=0x400180000"
+            },
+            {
+              "line": 35,
+              "text": "CONFIG_BOOTDELAY=-2"
+            },
+            {
+              "line": 43,
+              "text": "CONFIG_BOOTCOMMAND=\"unzip 0x400200000 0x403700000; booti 0x403700000 - 0x401290000\\0\""
+            }
+          ]
+        },
+        {
+          "path": "u-boot/lib/gunzip.c",
+          "size": 6709,
+          "sha256": "b82deca7490fea550d03a51d4350e0ed9388e0c8305b4befc0fc8bda13bd8491",
+          "functions": [
+            {
+              "name": "gzip_parse_header",
+              "byte_start": 779,
+              "byte_end_exclusive": 1344,
+              "line_start": 44,
+              "line_end": 70,
+              "span_sha256": "4a152df49efae769fbc35ffd6bfe6ba14ad98b0b422666da18b5cf55c969b2ec",
+              "lexical_call_tokens": [
+                "puts"
+              ]
+            },
+            {
+              "name": "gunzip",
+              "byte_start": 1346,
+              "byte_end_exclusive": 1556,
+              "line_start": 72,
+              "line_end": 80,
+              "span_sha256": "662cf0331ae9958efc7c67f455a71abacfa3c45c06d7512c5dee535c71c30b7a",
+              "lexical_call_tokens": [
+                "gzip_parse_header",
+                "zunzip"
+              ]
+            },
+            {
+              "name": "zunzip",
+              "byte_start": 5973,
+              "byte_end_exclusive": 6708,
+              "line_start": 275,
+              "line_end": 307,
+              "span_sha256": "a00ef77736e9c05b03d4ca1284021e8fcadc463f9a5d0aca233ed803cb1f6747",
+              "lexical_call_tokens": [
+                "inflate",
+                "inflateEnd",
+                "inflateInit2",
+                "printf"
+              ]
+            }
+          ],
+          "anchor_lines": [
+            {
+              "line": 72,
+              "text": "int gunzip(void *dst, int dstlen, unsigned char *src, unsigned long *lenp)"
+            },
+            {
+              "line": 79,
+              "text": "return zunzip(dst, dstlen, src, lenp, 1, offset);"
+            },
+            {
+              "line": 175,
+              "text": "memcpy(&expected_crc, src + len - 8, sizeof(expected_crc));"
+            },
+            {
+              "line": 178,
+              "text": "memcpy(&szuncompressed, src + len - 4, sizeof(szuncompressed));"
+            },
+            {
+              "line": 215,
+              "text": "/* run inflate() on input until output buffer not full */"
+            },
+            {
+              "line": 223,
+              "text": "r = inflate(&s, Z_SYNC_FLUSH);"
+            },
+            {
+              "line": 226,
+              "text": "printf(\"Error: inflate() returned %d\\n\", r);"
+            },
+            {
+              "line": 253,
+              "text": "/* done when inflate() says it's done */"
+            },
+            {
+              "line": 275,
+              "text": "int zunzip(void *dst, int dstlen, unsigned char *src, unsigned long *lenp,"
+            },
+            {
+              "line": 295,
+              "text": "r = inflate(&s, Z_FINISH);"
+            },
+            {
+              "line": 298,
+              "text": "printf(\"Error: inflate() returned %d\\n\", r);"
+            }
+          ]
+        },
+        {
+          "path": "u-boot/board/socionext/sc2006a-evb/sc2006a-evb.c",
+          "size": 167,
+          "sha256": "3c13a2ee7d7d9af468c98d28bdf7d515885edd273bf5a0640cf1fb6bfb41acbb",
+          "functions": [
+            {
+              "name": "board_init",
+              "byte_start": 82,
+              "byte_end_exclusive": 166,
+              "line_start": 6,
+              "line_end": 13,
+              "span_sha256": "f5d0cbc99670335d5402fc3e2667de3b06f6789e21300af1dc85bcc083a36769",
+              "lexical_call_tokens": []
+            }
+          ],
+          "anchor_lines": []
+        }
+      ],
+      "historical_scan_reused": {
+        "regular_files": 15224,
+        "regular_bytes": 83214911,
+        "nonregular_members_not_scanned": 1660,
+        "patterns": {
+          "upd_literal_or_hex": "\\bUPD\\b|UPD\\\\(?:0|x00)|55504400",
+          "modern_field_names": "\\b(?:crypt_selector|header_revision|candidate_digest)\\b",
+          "component_tokens": "\\b(?:loader1|eep_act_a|postboot1_r|compress_pr)\\b",
+          "ram_anchors": "0x0*(?:400180000|400200000|403700000|401290000|4012a0000|4016a0000)\\b"
+        },
+        "hit_counts": {
+          "upd_literal_or_hex": 65,
+          "modern_field_names": 0,
+          "component_tokens": 5,
+          "ram_anchors": 9
+        }
+      },
+      "historical_scan_method": "All regular tar member bytes; no nested archive/CHM decompression; lexical patterns only"
+    },
+    "S5M2_Ver1_linux.tar.gz": {
+      "archive": {
+        "size": 165739116,
+        "sha256": "617c2712db38aed13cd5b6e96890d759d1b215ad20768dddd716b8ceaebc7811"
+      },
+      "official_url": "https://ospo.panasonic.com/oss/source/dsc/DC-S5M2/linux-4.19.124.tar.gz",
+      "source_model_label": "MC8223",
+      "current_method": "whole archive SHA-256 plus selected exact source/function span checks; no full scan rerun",
+      "selected_sources": [
+        {
+          "path": "linux-4.19.124/fs/ipcufs.c",
+          "size": 56540,
+          "sha256": "d026653716aa62a87dee10c05fdc6c94e68c7ea0046813f3e4399725639b79eb",
+          "functions": [
+            {
+              "name": "ipcufs_readpage",
+              "byte_start": 23685,
+              "byte_end_exclusive": 25672,
+              "line_start": 1084,
+              "line_end": 1183,
+              "span_sha256": "21ded6d6f8a0dde514f597c4c741c61571aaddc3ea85afcfde57b328664f994b",
+              "lexical_call_tokens": [
+                "SetPageError",
+                "SetPageUptodate",
+                "dentry_path_raw",
+                "flush_dcache_page",
+                "i_size_read",
+                "ipcufs_close",
+                "ipcufs_file_validate",
+                "ipcufs_transfer",
+                "kfree",
+                "kmap",
+                "kunmap",
+                "kzalloc",
+                "memcpy_fromio",
+                "memset",
+                "mutex_lock",
+                "mutex_unlock",
+                "page_offset",
+                "pr_warn",
+                "trace_ipcufs_readpage_enter",
+                "trace_ipcufs_readpage_exit",
+                "unlock_page"
+              ]
+            },
+            {
+              "name": "ipcufs_transfer",
+              "byte_start": 10421,
+              "byte_end_exclusive": 12005,
+              "line_start": 473,
+              "line_end": 550,
+              "span_sha256": "70e52be7c8920edf32c2788cc503ac5b3c1b3abca94bbb71ee39c73b44891706",
+              "lexical_call_tokens": [
+                "IPCUFS_PRINT_MSG",
+                "flush_workqueue",
+                "memcpy_fromio",
+                "memcpy_toio",
+                "mutex_lock",
+                "mutex_unlock",
+                "pr_err",
+                "queue_work",
+                "rmb",
+                "sni_ipcu_ack_send",
+                "sni_ipcu_send_msg_kernel",
+                "trace_ipcufs_transfer_enter",
+                "trace_ipcufs_transfer_exit",
+                "wmb"
+              ]
+            }
+          ],
+          "anchor_lines": [
+            {
+              "line": 473,
+              "text": "static int ipcufs_transfer(void *p, int len)"
+            },
+            {
+              "line": 507,
+              "text": "ret = sni_ipcu_send_msg_kernel(ipcu_unit,"
+            },
+            {
+              "line": 512,
+              "text": "pr_err(\"%s:%d [ERROR] sni_ipcu_send_msg_kernel(): %d\\n\","
+            },
+            {
+              "line": 576,
+              "text": "if (ipcufs_transfer((void *)it, sizeof(struct ipcufs_info_table))) {"
+            },
+            {
+              "line": 647,
+              "text": "if (ipcufs_transfer((void *)it, sizeof(struct ipcufs_info_table))) {"
+            },
+            {
+              "line": 732,
+              "text": "if (ipcufs_transfer((void *)it, sizeof(struct ipcufs_info_table)))"
+            },
+            {
+              "line": 744,
+              "text": "if (ipcufs_transfer((void *)it, sizeof(struct ipcufs_info_table)))"
+            },
+            {
+              "line": 1141,
+              "text": "it->u.action = IFSA_READPAGE;"
+            },
+            {
+              "line": 1190,
+              "text": "if (ipcufs_transfer((void *)it, sizeof(struct ipcufs_info_table)) ||"
+            },
+            {
+              "line": 1304,
+              "text": "it->u.action = IFSA_READPAGE;"
+            },
+            {
+              "line": 1407,
+              "text": "if (ipcufs_transfer((void *)it, sizeof(struct ipcufs_info_table))) {"
+            },
+            {
+              "line": 1458,
+              "text": "it->u.action = IFSA_READPAGE;"
+            },
+            {
+              "line": 1466,
+              "text": "if (ipcufs_transfer((void *)it, sizeof(struct ipcufs_info_table)))"
+            },
+            {
+              "line": 1517,
+              "text": "if (ipcufs_transfer((void *)it, sizeof(struct ipcufs_info_table)))"
+            },
+            {
+              "line": 1741,
+              "text": "if (ipcufs_transfer((void *)it,"
+            },
+            {
+              "line": 1811,
+              "text": "if (ipcufs_transfer((void *)it, sizeof(struct ipcufs_info_table))) {"
+            },
+            {
+              "line": 1926,
+              "text": "if (ipcufs_transfer((void *)it, sizeof(struct ipcufs_info_table))) {"
+            },
+            {
+              "line": 2052,
+              "text": "if (ipcufs_transfer((void *)it, sizeof(struct ipcufs_info_table)))"
+            },
+            {
+              "line": 2195,
+              "text": "if (ipcufs_transfer((void *)it, sizeof(*it)))"
+            },
+            {
+              "line": 2230,
+              "text": "if (ipcufs_transfer((void *)it, sizeof(*it)))"
+            },
+            {
+              "line": 2573,
+              "text": "{.compatible = \"socionext,ipcufs-rtos\"},"
+            }
+          ]
+        },
+        {
+          "path": "linux-4.19.124/drivers/mtd/devices/slram.c",
+          "size": 8710,
+          "sha256": "462d4b0fe7fa19792efdd6c1cb856f0ea7717eb8f8d3ce109099508e2f584c23",
+          "functions": [
+            {
+              "name": "slram_read",
+              "byte_start": 3015,
+              "byte_end_exclusive": 3219,
+              "line_start": 106,
+              "line_end": 114,
+              "span_sha256": "f8b5ae1aba08afc67de80eb5b7d05c465a364cc5d0eba403b1a42dc721ec4b32",
+              "lexical_call_tokens": [
+                "memcpy"
+              ]
+            },
+            {
+              "name": "register_device",
+              "byte_start": 3504,
+              "byte_end_exclusive": 5559,
+              "line_start": 128,
+              "line_end": 196,
+              "span_sha256": "085635bcae1357c921f041f4e4a2a6fe6287d953037725ff6cb1170456be87b2",
+              "lexical_call_tokens": [
+                "E",
+                "T",
+                "kfree",
+                "kmalloc",
+                "kzalloc",
+                "memremap",
+                "memunmap",
+                "mtd_device_register"
+              ]
+            }
+          ],
+          "anchor_lines": [
+            {
+              "line": 111,
+              "text": "memcpy(buf, priv->start + from, len);"
+            },
+            {
+              "line": 121,
+              "text": "memcpy(priv->start + to, buf, len);"
+            },
+            {
+              "line": 161,
+              "text": "memremap(start, length,"
+            }
+          ]
+        },
+        {
+          "path": "linux-4.19.124/arch/arm64/boot/dts/socionext/pvc04v-MC8223-rtos.h",
+          "size": 1992,
+          "sha256": "cb1494a6917f613ef7bff2fbf9d6ae61427ca8191ab2819052c73f7d0f6ab5ef",
+          "functions": [],
+          "anchor_lines": []
+        },
+        {
+          "path": "linux-4.19.124/arch/arm64/boot/dts/socionext/pvc04v-MC8223.dts",
+          "size": 17209,
+          "sha256": "330d93a7a5fe5550f45b144f246bb41a9278e7532ab2dd5d5053699675fa8302",
+          "functions": [],
+          "anchor_lines": [
+            {
+              "line": 21,
+              "text": "model = \"Socionext pvc04v MC8223\";"
+            },
+            {
+              "line": 22,
+              "text": "compatible = \"socionext,pvc04v-MC8223-2ND\", \"socionext,sc2006\";"
+            },
+            {
+              "line": 30,
+              "text": "bootargs = \"rdinit=/sbin/finit root=/dev/mtdblock0 slram=slram0,0x4012A0000,+0x00400000,slram1,0x4016A0000,+0x02060000 rootwait nr_cpu=1 nokaslr loglevel=0 console=null\";"
+            },
+            {
+              "line": 51,
+              "text": "compatible = \"fixed-clock\";"
+            },
+            {
+              "line": 57,
+              "text": "compatible = \"fixed-factor-clock\";"
+            },
+            {
+              "line": 65,
+              "text": "compatible = \"fixed-clock\";"
+            },
+            {
+              "line": 71,
+              "text": "compatible = \"fixed-clock\";"
+            },
+            {
+              "line": 84,
+              "text": "compatible = \"socionext, shared-commem\";"
+            },
+            {
+              "line": 98,
+              "text": "compatible = \"simple-bus\";"
+            },
+            {
+              "line": 104,
+              "text": "compatible = \"cfi-flash\";"
+            },
+            {
+              "line": 118,
+              "text": "//\t\tcompatible = \"regulator-fixed\";"
+            },
+            {
+              "line": 130,
+              "text": "//\t\tcompatible = \"regulator-fixed\";"
+            },
+            {
+              "line": 143,
+              "text": "//\t\tcompatible = \"regulator-fixed\";"
+            },
+            {
+              "line": 155,
+              "text": "compatible = \"socionext,ipcufs-rtos\";"
+            },
+            {
+              "line": 257,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 272,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 287,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 302,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 317,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 332,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 347,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 362,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 377,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 392,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 407,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 422,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 437,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 452,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 467,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 482,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 497,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 512,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 527,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 542,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 557,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 572,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 587,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 602,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 676,
+              "text": "compatible = \"sni,usbcclogic\";"
+            },
+            {
+              "line": 749,
+              "text": "compatible = \"gpio-leds\";"
+            }
+          ]
+        },
+        {
+          "path": "linux-4.19.124/arch/arm64/configs/pvc04v_MC8223_defconfig",
+          "size": 14228,
+          "sha256": "b4cec304ddaf87dbc0cb61ceaec1746beb9460cb0c2c474416772e64007e3b0b",
+          "functions": [],
+          "anchor_lines": [
+            {
+              "line": 46,
+              "text": "CONFIG_BLK_DEV_INITRD=y"
+            },
+            {
+              "line": 389,
+              "text": "CONFIG_IPCU_FS=y"
+            },
+            {
+              "line": 432,
+              "text": "CONFIG_SNI_IPCU=y"
+            },
+            {
+              "line": 490,
+              "text": "# CONFIG_BLK_DEV_INITRD is not set"
+            }
+          ]
+        },
+        {
+          "path": "linux-4.19.124/init/main.c",
+          "size": 35882,
+          "sha256": "b242c865aa2fa72a0c56cb78b2a1a97e1d0b75120a606167496be9687480e1c2",
+          "functions": [
+            {
+              "name": "kernel_init",
+              "byte_start": 33019,
+              "byte_end_exclusive": 34367,
+              "line_start": 1335,
+              "line_end": 1387,
+              "span_sha256": "448d8e87d618fb553e7f71a3120e8fbbd3c8f47f83e4927f1bdb643f41aa771b",
+              "lexical_call_tokens": [
+                "async_synchronize_full",
+                "free_initmem",
+                "ftrace_free_init_mem",
+                "jump_label_invalidate_initmem",
+                "kernel_init_freeable",
+                "mark_readonly",
+                "numa_default_policy",
+                "panic",
+                "pr_err",
+                "pti_finalize",
+                "rcu_end_inkernel_boot",
+                "run_init_process",
+                "try_to_run_init_process"
+              ]
+            },
+            {
+              "name": "kernel_init_freeable",
+              "byte_start": 34369,
+              "byte_end_exclusive": 35881,
+              "line_start": 1389,
+              "line_end": 1455,
+              "span_sha256": "9e46de85ee3e4fc4b39aa4a7eaadbbd65d66146d8d84ed6adff31fced6a616be",
+              "lexical_call_tokens": [
+                "do_basic_setup",
+                "do_pre_smp_initcalls",
+                "init_mm_internals",
+                "integrity_load_keys",
+                "ksys_access",
+                "ksys_dup",
+                "ksys_open",
+                "load_default_modules",
+                "lockup_detector_init",
+                "page_alloc_init_late",
+                "page_ext_init",
+                "pr_err",
+                "prepare_namespace",
+                "sched_init_smp",
+                "set_mems_allowed",
+                "smp_init",
+                "smp_prepare_cpus",
+                "task_pid",
+                "wait_for_completion",
+                "workqueue_init"
+              ]
+            }
+          ],
+          "anchor_lines": [
+            {
+              "line": 259,
+              "text": "#ifdef CONFIG_BLK_DEV_INITRD"
+            },
+            {
+              "line": 434,
+              "text": "memcpy(copy, data, size);"
+            },
+            {
+              "line": 948,
+              "text": "#ifdef CONFIG_BLK_DEV_INITRD"
+            },
+            {
+              "line": 1278,
+              "text": "static int run_init_process(const char *init_filename)"
+            },
+            {
+              "line": 1287,
+              "text": "static int try_to_run_init_process(const char *init_filename)"
+            },
+            {
+              "line": 1291,
+              "text": "ret = run_init_process(init_filename);"
+            },
+            {
+              "line": 1359,
+              "text": "ret = run_init_process(ramdisk_execute_command);"
+            },
+            {
+              "line": 1373,
+              "text": "ret = run_init_process(execute_command);"
+            },
+            {
+              "line": 1379,
+              "text": "if (!try_to_run_init_process(\"/sbin/init\") ||"
+            },
+            {
+              "line": 1380,
+              "text": "!try_to_run_init_process(\"/etc/init\") ||"
+            },
+            {
+              "line": 1381,
+              "text": "!try_to_run_init_process(\"/bin/init\") ||"
+            },
+            {
+              "line": 1382,
+              "text": "!try_to_run_init_process(\"/bin/sh\"))"
+            },
+            {
+              "line": 1438,
+              "text": "if (ksys_access((const char __user *)"
+            },
+            {
+              "line": 1441,
+              "text": "prepare_namespace();"
+            }
+          ]
+        }
+      ],
+      "historical_scan_reused": {
+        "regular_files": 61995,
+        "regular_bytes": 794233051,
+        "nonregular_members_not_scanned": 4163,
+        "patterns": {
+          "upd_literal_or_hex": "\\bUPD\\b|UPD\\\\(?:0|x00)|55504400",
+          "modern_field_names": "\\b(?:crypt_selector|header_revision|candidate_digest)\\b",
+          "component_tokens": "\\b(?:loader1|eep_act_a|postboot1_r|compress_pr)\\b",
+          "ram_anchors": "0x0*(?:400180000|400200000|403700000|401290000|4012a0000|4016a0000)\\b"
+        },
+        "hit_counts": {
+          "upd_literal_or_hex": 37,
+          "modern_field_names": 0,
+          "component_tokens": 0,
+          "ram_anchors": 2
+        }
+      },
+      "historical_scan_method": "All regular tar member bytes; no nested archive/CHM decompression; lexical patterns only"
+    },
+    "S5M2_Ver2_linux.tar.gz": {
+      "archive": {
+        "size": 165783865,
+        "sha256": "2468af4cfb8fa6e22cca5d2660ea270e14e1cceaa1c63359756aab396b791d67"
+      },
+      "official_url": "https://ospo.panasonic.com/oss/source/dsc/DC-S5M2_Ver2/linux-4.19.124.tar.gz",
+      "source_model_label": "MC8223X",
+      "current_method": "whole archive SHA-256 plus selected exact source/function span checks; no full scan rerun",
+      "selected_sources": [
+        {
+          "path": "linux-4.19.124/drivers/mtd/devices/slram.c",
+          "size": 8710,
+          "sha256": "462d4b0fe7fa19792efdd6c1cb856f0ea7717eb8f8d3ce109099508e2f584c23",
+          "functions": [
+            {
+              "name": "slram_read",
+              "byte_start": 3015,
+              "byte_end_exclusive": 3219,
+              "line_start": 106,
+              "line_end": 114,
+              "span_sha256": "f8b5ae1aba08afc67de80eb5b7d05c465a364cc5d0eba403b1a42dc721ec4b32",
+              "lexical_call_tokens": [
+                "memcpy"
+              ]
+            },
+            {
+              "name": "register_device",
+              "byte_start": 3504,
+              "byte_end_exclusive": 5559,
+              "line_start": 128,
+              "line_end": 196,
+              "span_sha256": "085635bcae1357c921f041f4e4a2a6fe6287d953037725ff6cb1170456be87b2",
+              "lexical_call_tokens": [
+                "E",
+                "T",
+                "kfree",
+                "kmalloc",
+                "kzalloc",
+                "memremap",
+                "memunmap",
+                "mtd_device_register"
+              ]
+            }
+          ],
+          "anchor_lines": [
+            {
+              "line": 111,
+              "text": "memcpy(buf, priv->start + from, len);"
+            },
+            {
+              "line": 121,
+              "text": "memcpy(priv->start + to, buf, len);"
+            },
+            {
+              "line": 161,
+              "text": "memremap(start, length,"
+            }
+          ]
+        },
+        {
+          "path": "linux-4.19.124/arch/arm64/configs/pvc04v_MC8223X_defconfig",
+          "size": 14230,
+          "sha256": "73955da4cdb369e92e37a8314fbfdad011f65ffebb9bebbecb4a1921ef054726",
+          "functions": [],
+          "anchor_lines": [
+            {
+              "line": 46,
+              "text": "CONFIG_BLK_DEV_INITRD=y"
+            },
+            {
+              "line": 389,
+              "text": "CONFIG_IPCU_FS=y"
+            },
+            {
+              "line": 432,
+              "text": "CONFIG_SNI_IPCU=y"
+            },
+            {
+              "line": 490,
+              "text": "# CONFIG_BLK_DEV_INITRD is not set"
+            }
+          ]
+        },
+        {
+          "path": "linux-4.19.124/arch/arm64/boot/dts/socionext/pvc04v-MC8223X.dts",
+          "size": 17214,
+          "sha256": "6b6bd5c26c4a873b341c760f5db840a3fb68135249316823f9a2e40ef72da2d5",
+          "functions": [],
+          "anchor_lines": [
+            {
+              "line": 21,
+              "text": "model = \"Socionext pvc04v MC8223X\";"
+            },
+            {
+              "line": 22,
+              "text": "compatible = \"socionext,pvc04v-MC8223X-2ND\", \"socionext,sc2006\";"
+            },
+            {
+              "line": 30,
+              "text": "bootargs = \"rdinit=/sbin/finit root=/dev/mtdblock0 slram=slram0,0x4012A0000,+0x00400000,slram1,0x4016A0000,+0x02060000 rootwait nr_cpu=1 nokaslr loglevel=0 console=null\";"
+            },
+            {
+              "line": 51,
+              "text": "compatible = \"fixed-clock\";"
+            },
+            {
+              "line": 57,
+              "text": "compatible = \"fixed-factor-clock\";"
+            },
+            {
+              "line": 65,
+              "text": "compatible = \"fixed-clock\";"
+            },
+            {
+              "line": 71,
+              "text": "compatible = \"fixed-clock\";"
+            },
+            {
+              "line": 84,
+              "text": "compatible = \"socionext, shared-commem\";"
+            },
+            {
+              "line": 98,
+              "text": "compatible = \"simple-bus\";"
+            },
+            {
+              "line": 104,
+              "text": "compatible = \"cfi-flash\";"
+            },
+            {
+              "line": 118,
+              "text": "//\t\tcompatible = \"regulator-fixed\";"
+            },
+            {
+              "line": 130,
+              "text": "//\t\tcompatible = \"regulator-fixed\";"
+            },
+            {
+              "line": 143,
+              "text": "//\t\tcompatible = \"regulator-fixed\";"
+            },
+            {
+              "line": 155,
+              "text": "compatible = \"socionext,ipcufs-rtos\";"
+            },
+            {
+              "line": 257,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 272,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 287,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 302,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 317,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 332,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 347,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 362,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 377,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 392,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 407,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 422,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 437,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 452,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 467,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 482,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 497,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 512,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 527,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 542,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 557,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 572,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 587,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 602,
+              "text": "compatible = \"socionext,ipcu-device\";"
+            },
+            {
+              "line": 676,
+              "text": "compatible = \"sni,usbcclogic\";"
+            },
+            {
+              "line": 749,
+              "text": "compatible = \"gpio-leds\";"
+            }
+          ]
+        },
+        {
+          "path": "linux-4.19.124/arch/arm64/boot/dts/socionext/pvc04v-MC8223X-rtos.h",
+          "size": 1994,
+          "sha256": "15709ea7caf606ca5781daaf3e85d5ac6ef8fba33c6d93520ef6c4e199648106",
+          "functions": [],
+          "anchor_lines": []
+        },
+        {
+          "path": "linux-4.19.124/init/main.c",
+          "size": 35882,
+          "sha256": "b242c865aa2fa72a0c56cb78b2a1a97e1d0b75120a606167496be9687480e1c2",
+          "functions": [
+            {
+              "name": "kernel_init",
+              "byte_start": 33019,
+              "byte_end_exclusive": 34367,
+              "line_start": 1335,
+              "line_end": 1387,
+              "span_sha256": "448d8e87d618fb553e7f71a3120e8fbbd3c8f47f83e4927f1bdb643f41aa771b",
+              "lexical_call_tokens": [
+                "async_synchronize_full",
+                "free_initmem",
+                "ftrace_free_init_mem",
+                "jump_label_invalidate_initmem",
+                "kernel_init_freeable",
+                "mark_readonly",
+                "numa_default_policy",
+                "panic",
+                "pr_err",
+                "pti_finalize",
+                "rcu_end_inkernel_boot",
+                "run_init_process",
+                "try_to_run_init_process"
+              ]
+            },
+            {
+              "name": "kernel_init_freeable",
+              "byte_start": 34369,
+              "byte_end_exclusive": 35881,
+              "line_start": 1389,
+              "line_end": 1455,
+              "span_sha256": "9e46de85ee3e4fc4b39aa4a7eaadbbd65d66146d8d84ed6adff31fced6a616be",
+              "lexical_call_tokens": [
+                "do_basic_setup",
+                "do_pre_smp_initcalls",
+                "init_mm_internals",
+                "integrity_load_keys",
+                "ksys_access",
+                "ksys_dup",
+                "ksys_open",
+                "load_default_modules",
+                "lockup_detector_init",
+                "page_alloc_init_late",
+                "page_ext_init",
+                "pr_err",
+                "prepare_namespace",
+                "sched_init_smp",
+                "set_mems_allowed",
+                "smp_init",
+                "smp_prepare_cpus",
+                "task_pid",
+                "wait_for_completion",
+                "workqueue_init"
+              ]
+            }
+          ],
+          "anchor_lines": [
+            {
+              "line": 259,
+              "text": "#ifdef CONFIG_BLK_DEV_INITRD"
+            },
+            {
+              "line": 434,
+              "text": "memcpy(copy, data, size);"
+            },
+            {
+              "line": 948,
+              "text": "#ifdef CONFIG_BLK_DEV_INITRD"
+            },
+            {
+              "line": 1278,
+              "text": "static int run_init_process(const char *init_filename)"
+            },
+            {
+              "line": 1287,
+              "text": "static int try_to_run_init_process(const char *init_filename)"
+            },
+            {
+              "line": 1291,
+              "text": "ret = run_init_process(init_filename);"
+            },
+            {
+              "line": 1359,
+              "text": "ret = run_init_process(ramdisk_execute_command);"
+            },
+            {
+              "line": 1373,
+              "text": "ret = run_init_process(execute_command);"
+            },
+            {
+              "line": 1379,
+              "text": "if (!try_to_run_init_process(\"/sbin/init\") ||"
+            },
+            {
+              "line": 1380,
+              "text": "!try_to_run_init_process(\"/etc/init\") ||"
+            },
+            {
+              "line": 1381,
+              "text": "!try_to_run_init_process(\"/bin/init\") ||"
+            },
+            {
+              "line": 1382,
+              "text": "!try_to_run_init_process(\"/bin/sh\"))"
+            },
+            {
+              "line": 1438,
+              "text": "if (ksys_access((const char __user *)"
+            },
+            {
+              "line": 1441,
+              "text": "prepare_namespace();"
+            }
+          ]
+        },
+        {
+          "path": "linux-4.19.124/fs/ipcufs.c",
+          "size": 56540,
+          "sha256": "d026653716aa62a87dee10c05fdc6c94e68c7ea0046813f3e4399725639b79eb",
+          "functions": [
+            {
+              "name": "ipcufs_readpage",
+              "byte_start": 23685,
+              "byte_end_exclusive": 25672,
+              "line_start": 1084,
+              "line_end": 1183,
+              "span_sha256": "21ded6d6f8a0dde514f597c4c741c61571aaddc3ea85afcfde57b328664f994b",
+              "lexical_call_tokens": [
+                "SetPageError",
+                "SetPageUptodate",
+                "dentry_path_raw",
+                "flush_dcache_page",
+                "i_size_read",
+                "ipcufs_close",
+                "ipcufs_file_validate",
+                "ipcufs_transfer",
+                "kfree",
+                "kmap",
+                "kunmap",
+                "kzalloc",
+                "memcpy_fromio",
+                "memset",
+                "mutex_lock",
+                "mutex_unlock",
+                "page_offset",
+                "pr_warn",
+                "trace_ipcufs_readpage_enter",
+                "trace_ipcufs_readpage_exit",
+                "unlock_page"
+              ]
+            },
+            {
+              "name": "ipcufs_transfer",
+              "byte_start": 10421,
+              "byte_end_exclusive": 12005,
+              "line_start": 473,
+              "line_end": 550,
+              "span_sha256": "70e52be7c8920edf32c2788cc503ac5b3c1b3abca94bbb71ee39c73b44891706",
+              "lexical_call_tokens": [
+                "IPCUFS_PRINT_MSG",
+                "flush_workqueue",
+                "memcpy_fromio",
+                "memcpy_toio",
+                "mutex_lock",
+                "mutex_unlock",
+                "pr_err",
+                "queue_work",
+                "rmb",
+                "sni_ipcu_ack_send",
+                "sni_ipcu_send_msg_kernel",
+                "trace_ipcufs_transfer_enter",
+                "trace_ipcufs_transfer_exit",
+                "wmb"
+              ]
+            }
+          ],
+          "anchor_lines": [
+            {
+              "line": 473,
+              "text": "static int ipcufs_transfer(void *p, int len)"
+            },
+            {
+              "line": 507,
+              "text": "ret = sni_ipcu_send_msg_kernel(ipcu_unit,"
+            },
+            {
+              "line": 512,
+              "text": "pr_err(\"%s:%d [ERROR] sni_ipcu_send_msg_kernel(): %d\\n\","
+            },
+            {
+              "line": 576,
+              "text": "if (ipcufs_transfer((void *)it, sizeof(struct ipcufs_info_table))) {"
+            },
+            {
+              "line": 647,
+              "text": "if (ipcufs_transfer((void *)it, sizeof(struct ipcufs_info_table))) {"
+            },
+            {
+              "line": 732,
+              "text": "if (ipcufs_transfer((void *)it, sizeof(struct ipcufs_info_table)))"
+            },
+            {
+              "line": 744,
+              "text": "if (ipcufs_transfer((void *)it, sizeof(struct ipcufs_info_table)))"
+            },
+            {
+              "line": 1141,
+              "text": "it->u.action = IFSA_READPAGE;"
+            },
+            {
+              "line": 1190,
+              "text": "if (ipcufs_transfer((void *)it, sizeof(struct ipcufs_info_table)) ||"
+            },
+            {
+              "line": 1304,
+              "text": "it->u.action = IFSA_READPAGE;"
+            },
+            {
+              "line": 1407,
+              "text": "if (ipcufs_transfer((void *)it, sizeof(struct ipcufs_info_table))) {"
+            },
+            {
+              "line": 1458,
+              "text": "it->u.action = IFSA_READPAGE;"
+            },
+            {
+              "line": 1466,
+              "text": "if (ipcufs_transfer((void *)it, sizeof(struct ipcufs_info_table)))"
+            },
+            {
+              "line": 1517,
+              "text": "if (ipcufs_transfer((void *)it, sizeof(struct ipcufs_info_table)))"
+            },
+            {
+              "line": 1741,
+              "text": "if (ipcufs_transfer((void *)it,"
+            },
+            {
+              "line": 1811,
+              "text": "if (ipcufs_transfer((void *)it, sizeof(struct ipcufs_info_table))) {"
+            },
+            {
+              "line": 1926,
+              "text": "if (ipcufs_transfer((void *)it, sizeof(struct ipcufs_info_table))) {"
+            },
+            {
+              "line": 2052,
+              "text": "if (ipcufs_transfer((void *)it, sizeof(struct ipcufs_info_table)))"
+            },
+            {
+              "line": 2195,
+              "text": "if (ipcufs_transfer((void *)it, sizeof(*it)))"
+            },
+            {
+              "line": 2230,
+              "text": "if (ipcufs_transfer((void *)it, sizeof(*it)))"
+            },
+            {
+              "line": 2573,
+              "text": "{.compatible = \"socionext,ipcufs-rtos\"},"
+            }
+          ]
+        }
+      ],
+      "historical_scan_reused": {
+        "regular_files": 61995,
+        "regular_bytes": 794233064,
+        "nonregular_members_not_scanned": 4163,
+        "patterns": {
+          "upd_literal_or_hex": "\\bUPD\\b|UPD\\\\(?:0|x00)|55504400",
+          "modern_field_names": "\\b(?:crypt_selector|header_revision|candidate_digest)\\b",
+          "component_tokens": "\\b(?:loader1|eep_act_a|postboot1_r|compress_pr)\\b",
+          "ram_anchors": "0x0*(?:400180000|400200000|403700000|401290000|4012a0000|4016a0000)\\b"
+        },
+        "hit_counts": {
+          "upd_literal_or_hex": 37,
+          "modern_field_names": 0,
+          "component_tokens": 0,
+          "ram_anchors": 2
+        }
+      },
+      "historical_scan_method": "All regular tar member bytes; no nested archive/CHM decompression; lexical patterns only"
+    },
+    "S5M2_Ver1_FreeRTOS.tar.gz": {
+      "archive": {
+        "size": 68566076,
+        "sha256": "2078beb8ec3714b4a0a7e9d51456674eac5d0c7ee1d922f88e59493e28c43f97"
+      },
+      "official_url": "https://ospo.panasonic.com/oss/source/dsc/DC-S5M2/FreeRTOS.tar.gz",
+      "source_model_label": null,
+      "current_method": "whole archive SHA-256 plus selected exact source/function span checks; no full scan rerun",
+      "selected_sources": [],
+      "historical_scan_reused": {
+        "regular_files": 16274,
+        "regular_bytes": 262854751,
+        "nonregular_members_not_scanned": 5342,
+        "patterns": {
+          "upd_literal_or_hex": "\\bUPD\\b|UPD\\\\(?:0|x00)|55504400",
+          "modern_field_names": "\\b(?:crypt_selector|header_revision|candidate_digest)\\b",
+          "component_tokens": "\\b(?:loader1|eep_act_a|postboot1_r|compress_pr)\\b",
+          "ram_anchors": "0x0*(?:400180000|400200000|403700000|401290000|4012a0000|4016a0000)\\b",
+          "vendor_platform": "panasonic|socionext|milbeaut|\\bipcu\\b|pvc04|sc2006|slram|beefcafe|mc8223"
+        },
+        "hit_counts": {
+          "upd_literal_or_hex": 3,
+          "modern_field_names": 0,
+          "component_tokens": 0,
+          "ram_anchors": 0,
+          "vendor_platform": 0
+        }
+      },
+      "historical_scan_method": "All regular tar member bytes; no nested archive/CHM decompression; lexical patterns only"
+    },
+    "S5M2_Ver2_FreeRTOS.tar.gz": {
+      "archive": {
+        "size": 68566076,
+        "sha256": "2078beb8ec3714b4a0a7e9d51456674eac5d0c7ee1d922f88e59493e28c43f97"
+      },
+      "official_url": "https://ospo.panasonic.com/oss/source/dsc/DC-S5M2_Ver2/FreeRTOS.tar.gz",
+      "source_model_label": null,
+      "current_method": "whole archive SHA-256 plus selected exact source/function span checks; no full scan rerun",
+      "selected_sources": [],
+      "historical_scan_reused": {
+        "regular_files": 16274,
+        "regular_bytes": 262854751,
+        "nonregular_members_not_scanned": 5342,
+        "patterns": {
+          "upd_literal_or_hex": "\\bUPD\\b|UPD\\\\(?:0|x00)|55504400",
+          "modern_field_names": "\\b(?:crypt_selector|header_revision|candidate_digest)\\b",
+          "component_tokens": "\\b(?:loader1|eep_act_a|postboot1_r|compress_pr)\\b",
+          "ram_anchors": "0x0*(?:400180000|400200000|403700000|401290000|4012a0000|4016a0000)\\b",
+          "vendor_platform": "panasonic|socionext|milbeaut|\\bipcu\\b|pvc04|sc2006|slram|beefcafe|mc8223"
+        },
+        "hit_counts": {
+          "upd_literal_or_hex": 3,
+          "modern_field_names": 0,
+          "component_tokens": 0,
+          "ram_anchors": 0,
+          "vendor_platform": 0
+        }
+      },
+      "historical_scan_method": "All regular tar member bytes; no nested archive/CHM decompression; lexical patterns only"
+    }
+  },
+  "function_index": [
+    {
+      "archive": "S5M2_Ver1_uboot.tar.gz",
+      "path": "u-boot/cmd/booti.c",
+      "function": "booti_start",
+      "line": 19,
+      "span_sha256": "846d9230753a6b57867eaef39910e6a6935ce21048be742cca94226a5a1ce1b7",
+      "lexical_callees": [
+        "booti_setup",
+        "bootm_find_images",
+        "debug",
+        "do_bootm_states",
+        "le32_to_cpu",
+        "lmb_reserve",
+        "memmove",
+        "simple_strtoul"
+      ],
+      "lexical_callers_in_selected_functions": [
+        {
+          "path": "u-boot/cmd/booti.c",
+          "function": "do_booti",
+          "line": 63
+        }
+      ]
+    },
+    {
+      "archive": "S5M2_Ver1_uboot.tar.gz",
+      "path": "u-boot/cmd/booti.c",
+      "function": "do_booti",
+      "line": 63,
+      "span_sha256": "5beae211010b71000eab2085a738a607d8929149912f8f523fe59d452da12be2",
+      "lexical_callees": [
+        "booti_start",
+        "bootm_disable_interrupts",
+        "do_bootm_states"
+      ],
+      "lexical_callers_in_selected_functions": []
+    },
+    {
+      "archive": "S5M2_Ver1_uboot.tar.gz",
+      "path": "u-boot/cmd/unzip.c",
+      "function": "do_unzip",
+      "line": 10,
+      "span_sha256": "b5ec7724cabee2283a2495f107e9f391e2de0be50f789f985b00b756879ab7b0",
+      "lexical_callees": [
+        "env_set_hex",
+        "gunzip",
+        "printf",
+        "simple_strtoul"
+      ],
+      "lexical_callers_in_selected_functions": []
+    },
+    {
+      "archive": "S5M2_Ver1_uboot.tar.gz",
+      "path": "u-boot/board/socionext/sc2006a-evb/sc2006a-evb.c",
+      "function": "board_init",
+      "line": 6,
+      "span_sha256": "f5d0cbc99670335d5402fc3e2667de3b06f6789e21300af1dc85bcc083a36769",
+      "lexical_callees": [],
+      "lexical_callers_in_selected_functions": []
+    },
+    {
+      "archive": "S5M2_Ver1_uboot.tar.gz",
+      "path": "u-boot/arch/arm/mach-milbeaut/milbeaut.c",
+      "function": "dram_init",
+      "line": 65,
+      "span_sha256": "013ae1593c902672a9b06fa8eda38f74383a84213811532cec454c5b09d9baff",
+      "lexical_callees": [
+        "fdtdec_setup_mem_size_base",
+        "printf"
+      ],
+      "lexical_callers_in_selected_functions": []
+    },
+    {
+      "archive": "S5M2_Ver1_uboot.tar.gz",
+      "path": "u-boot/lib/gunzip.c",
+      "function": "gzip_parse_header",
+      "line": 44,
+      "span_sha256": "4a152df49efae769fbc35ffd6bfe6ba14ad98b0b422666da18b5cf55c969b2ec",
+      "lexical_callees": [
+        "puts"
+      ],
+      "lexical_callers_in_selected_functions": [
+        {
+          "path": "u-boot/lib/gunzip.c",
+          "function": "gunzip",
+          "line": 72
+        }
+      ]
+    },
+    {
+      "archive": "S5M2_Ver1_uboot.tar.gz",
+      "path": "u-boot/lib/gunzip.c",
+      "function": "gunzip",
+      "line": 72,
+      "span_sha256": "662cf0331ae9958efc7c67f455a71abacfa3c45c06d7512c5dee535c71c30b7a",
+      "lexical_callees": [
+        "gzip_parse_header",
+        "zunzip"
+      ],
+      "lexical_callers_in_selected_functions": [
+        {
+          "path": "u-boot/cmd/unzip.c",
+          "function": "do_unzip",
+          "line": 10
+        }
+      ]
+    },
+    {
+      "archive": "S5M2_Ver1_uboot.tar.gz",
+      "path": "u-boot/lib/gunzip.c",
+      "function": "zunzip",
+      "line": 275,
+      "span_sha256": "a00ef77736e9c05b03d4ca1284021e8fcadc463f9a5d0aca233ed803cb1f6747",
+      "lexical_callees": [
+        "inflate",
+        "inflateEnd",
+        "inflateInit2",
+        "printf"
+      ],
+      "lexical_callers_in_selected_functions": [
+        {
+          "path": "u-boot/lib/gunzip.c",
+          "function": "gunzip",
+          "line": 72
+        }
+      ]
+    },
+    {
+      "archive": "S5M2_Ver2_uboot.tar.gz",
+      "path": "u-boot/cmd/unzip.c",
+      "function": "do_unzip",
+      "line": 10,
+      "span_sha256": "b5ec7724cabee2283a2495f107e9f391e2de0be50f789f985b00b756879ab7b0",
+      "lexical_callees": [
+        "env_set_hex",
+        "gunzip",
+        "printf",
+        "simple_strtoul"
+      ],
+      "lexical_callers_in_selected_functions": []
+    },
+    {
+      "archive": "S5M2_Ver2_uboot.tar.gz",
+      "path": "u-boot/cmd/booti.c",
+      "function": "booti_start",
+      "line": 19,
+      "span_sha256": "846d9230753a6b57867eaef39910e6a6935ce21048be742cca94226a5a1ce1b7",
+      "lexical_callees": [
+        "booti_setup",
+        "bootm_find_images",
+        "debug",
+        "do_bootm_states",
+        "le32_to_cpu",
+        "lmb_reserve",
+        "memmove",
+        "simple_strtoul"
+      ],
+      "lexical_callers_in_selected_functions": [
+        {
+          "path": "u-boot/cmd/booti.c",
+          "function": "do_booti",
+          "line": 63
+        }
+      ]
+    },
+    {
+      "archive": "S5M2_Ver2_uboot.tar.gz",
+      "path": "u-boot/cmd/booti.c",
+      "function": "do_booti",
+      "line": 63,
+      "span_sha256": "5beae211010b71000eab2085a738a607d8929149912f8f523fe59d452da12be2",
+      "lexical_callees": [
+        "booti_start",
+        "bootm_disable_interrupts",
+        "do_bootm_states"
+      ],
+      "lexical_callers_in_selected_functions": []
+    },
+    {
+      "archive": "S5M2_Ver2_uboot.tar.gz",
+      "path": "u-boot/arch/arm/mach-milbeaut/milbeaut.c",
+      "function": "dram_init",
+      "line": 65,
+      "span_sha256": "013ae1593c902672a9b06fa8eda38f74383a84213811532cec454c5b09d9baff",
+      "lexical_callees": [
+        "fdtdec_setup_mem_size_base",
+        "printf"
+      ],
+      "lexical_callers_in_selected_functions": []
+    },
+    {
+      "archive": "S5M2_Ver2_uboot.tar.gz",
+      "path": "u-boot/lib/gunzip.c",
+      "function": "gzip_parse_header",
+      "line": 44,
+      "span_sha256": "4a152df49efae769fbc35ffd6bfe6ba14ad98b0b422666da18b5cf55c969b2ec",
+      "lexical_callees": [
+        "puts"
+      ],
+      "lexical_callers_in_selected_functions": [
+        {
+          "path": "u-boot/lib/gunzip.c",
+          "function": "gunzip",
+          "line": 72
+        }
+      ]
+    },
+    {
+      "archive": "S5M2_Ver2_uboot.tar.gz",
+      "path": "u-boot/lib/gunzip.c",
+      "function": "gunzip",
+      "line": 72,
+      "span_sha256": "662cf0331ae9958efc7c67f455a71abacfa3c45c06d7512c5dee535c71c30b7a",
+      "lexical_callees": [
+        "gzip_parse_header",
+        "zunzip"
+      ],
+      "lexical_callers_in_selected_functions": [
+        {
+          "path": "u-boot/cmd/unzip.c",
+          "function": "do_unzip",
+          "line": 10
+        }
+      ]
+    },
+    {
+      "archive": "S5M2_Ver2_uboot.tar.gz",
+      "path": "u-boot/lib/gunzip.c",
+      "function": "zunzip",
+      "line": 275,
+      "span_sha256": "a00ef77736e9c05b03d4ca1284021e8fcadc463f9a5d0aca233ed803cb1f6747",
+      "lexical_callees": [
+        "inflate",
+        "inflateEnd",
+        "inflateInit2",
+        "printf"
+      ],
+      "lexical_callers_in_selected_functions": [
+        {
+          "path": "u-boot/lib/gunzip.c",
+          "function": "gunzip",
+          "line": 72
+        }
+      ]
+    },
+    {
+      "archive": "S5M2_Ver2_uboot.tar.gz",
+      "path": "u-boot/board/socionext/sc2006a-evb/sc2006a-evb.c",
+      "function": "board_init",
+      "line": 6,
+      "span_sha256": "f5d0cbc99670335d5402fc3e2667de3b06f6789e21300af1dc85bcc083a36769",
+      "lexical_callees": [],
+      "lexical_callers_in_selected_functions": []
+    },
+    {
+      "archive": "S5M2_Ver1_linux.tar.gz",
+      "path": "linux-4.19.124/fs/ipcufs.c",
+      "function": "ipcufs_readpage",
+      "line": 1084,
+      "span_sha256": "21ded6d6f8a0dde514f597c4c741c61571aaddc3ea85afcfde57b328664f994b",
+      "lexical_callees": [
+        "SetPageError",
+        "SetPageUptodate",
+        "dentry_path_raw",
+        "flush_dcache_page",
+        "i_size_read",
+        "ipcufs_close",
+        "ipcufs_file_validate",
+        "ipcufs_transfer",
+        "kfree",
+        "kmap",
+        "kunmap",
+        "kzalloc",
+        "memcpy_fromio",
+        "memset",
+        "mutex_lock",
+        "mutex_unlock",
+        "page_offset",
+        "pr_warn",
+        "trace_ipcufs_readpage_enter",
+        "trace_ipcufs_readpage_exit",
+        "unlock_page"
+      ],
+      "lexical_callers_in_selected_functions": []
+    },
+    {
+      "archive": "S5M2_Ver1_linux.tar.gz",
+      "path": "linux-4.19.124/fs/ipcufs.c",
+      "function": "ipcufs_transfer",
+      "line": 473,
+      "span_sha256": "70e52be7c8920edf32c2788cc503ac5b3c1b3abca94bbb71ee39c73b44891706",
+      "lexical_callees": [
+        "IPCUFS_PRINT_MSG",
+        "flush_workqueue",
+        "memcpy_fromio",
+        "memcpy_toio",
+        "mutex_lock",
+        "mutex_unlock",
+        "pr_err",
+        "queue_work",
+        "rmb",
+        "sni_ipcu_ack_send",
+        "sni_ipcu_send_msg_kernel",
+        "trace_ipcufs_transfer_enter",
+        "trace_ipcufs_transfer_exit",
+        "wmb"
+      ],
+      "lexical_callers_in_selected_functions": [
+        {
+          "path": "linux-4.19.124/fs/ipcufs.c",
+          "function": "ipcufs_readpage",
+          "line": 1084
+        }
+      ]
+    },
+    {
+      "archive": "S5M2_Ver1_linux.tar.gz",
+      "path": "linux-4.19.124/drivers/mtd/devices/slram.c",
+      "function": "slram_read",
+      "line": 106,
+      "span_sha256": "f8b5ae1aba08afc67de80eb5b7d05c465a364cc5d0eba403b1a42dc721ec4b32",
+      "lexical_callees": [
+        "memcpy"
+      ],
+      "lexical_callers_in_selected_functions": []
+    },
+    {
+      "archive": "S5M2_Ver1_linux.tar.gz",
+      "path": "linux-4.19.124/drivers/mtd/devices/slram.c",
+      "function": "register_device",
+      "line": 128,
+      "span_sha256": "085635bcae1357c921f041f4e4a2a6fe6287d953037725ff6cb1170456be87b2",
+      "lexical_callees": [
+        "E",
+        "T",
+        "kfree",
+        "kmalloc",
+        "kzalloc",
+        "memremap",
+        "memunmap",
+        "mtd_device_register"
+      ],
+      "lexical_callers_in_selected_functions": []
+    },
+    {
+      "archive": "S5M2_Ver1_linux.tar.gz",
+      "path": "linux-4.19.124/init/main.c",
+      "function": "kernel_init",
+      "line": 1335,
+      "span_sha256": "448d8e87d618fb553e7f71a3120e8fbbd3c8f47f83e4927f1bdb643f41aa771b",
+      "lexical_callees": [
+        "async_synchronize_full",
+        "free_initmem",
+        "ftrace_free_init_mem",
+        "jump_label_invalidate_initmem",
+        "kernel_init_freeable",
+        "mark_readonly",
+        "numa_default_policy",
+        "panic",
+        "pr_err",
+        "pti_finalize",
+        "rcu_end_inkernel_boot",
+        "run_init_process",
+        "try_to_run_init_process"
+      ],
+      "lexical_callers_in_selected_functions": []
+    },
+    {
+      "archive": "S5M2_Ver1_linux.tar.gz",
+      "path": "linux-4.19.124/init/main.c",
+      "function": "kernel_init_freeable",
+      "line": 1389,
+      "span_sha256": "9e46de85ee3e4fc4b39aa4a7eaadbbd65d66146d8d84ed6adff31fced6a616be",
+      "lexical_callees": [
+        "do_basic_setup",
+        "do_pre_smp_initcalls",
+        "init_mm_internals",
+        "integrity_load_keys",
+        "ksys_access",
+        "ksys_dup",
+        "ksys_open",
+        "load_default_modules",
+        "lockup_detector_init",
+        "page_alloc_init_late",
+        "page_ext_init",
+        "pr_err",
+        "prepare_namespace",
+        "sched_init_smp",
+        "set_mems_allowed",
+        "smp_init",
+        "smp_prepare_cpus",
+        "task_pid",
+        "wait_for_completion",
+        "workqueue_init"
+      ],
+      "lexical_callers_in_selected_functions": [
+        {
+          "path": "linux-4.19.124/init/main.c",
+          "function": "kernel_init",
+          "line": 1335
+        }
+      ]
+    },
+    {
+      "archive": "S5M2_Ver2_linux.tar.gz",
+      "path": "linux-4.19.124/drivers/mtd/devices/slram.c",
+      "function": "slram_read",
+      "line": 106,
+      "span_sha256": "f8b5ae1aba08afc67de80eb5b7d05c465a364cc5d0eba403b1a42dc721ec4b32",
+      "lexical_callees": [
+        "memcpy"
+      ],
+      "lexical_callers_in_selected_functions": []
+    },
+    {
+      "archive": "S5M2_Ver2_linux.tar.gz",
+      "path": "linux-4.19.124/drivers/mtd/devices/slram.c",
+      "function": "register_device",
+      "line": 128,
+      "span_sha256": "085635bcae1357c921f041f4e4a2a6fe6287d953037725ff6cb1170456be87b2",
+      "lexical_callees": [
+        "E",
+        "T",
+        "kfree",
+        "kmalloc",
+        "kzalloc",
+        "memremap",
+        "memunmap",
+        "mtd_device_register"
+      ],
+      "lexical_callers_in_selected_functions": []
+    },
+    {
+      "archive": "S5M2_Ver2_linux.tar.gz",
+      "path": "linux-4.19.124/init/main.c",
+      "function": "kernel_init",
+      "line": 1335,
+      "span_sha256": "448d8e87d618fb553e7f71a3120e8fbbd3c8f47f83e4927f1bdb643f41aa771b",
+      "lexical_callees": [
+        "async_synchronize_full",
+        "free_initmem",
+        "ftrace_free_init_mem",
+        "jump_label_invalidate_initmem",
+        "kernel_init_freeable",
+        "mark_readonly",
+        "numa_default_policy",
+        "panic",
+        "pr_err",
+        "pti_finalize",
+        "rcu_end_inkernel_boot",
+        "run_init_process",
+        "try_to_run_init_process"
+      ],
+      "lexical_callers_in_selected_functions": []
+    },
+    {
+      "archive": "S5M2_Ver2_linux.tar.gz",
+      "path": "linux-4.19.124/init/main.c",
+      "function": "kernel_init_freeable",
+      "line": 1389,
+      "span_sha256": "9e46de85ee3e4fc4b39aa4a7eaadbbd65d66146d8d84ed6adff31fced6a616be",
+      "lexical_callees": [
+        "do_basic_setup",
+        "do_pre_smp_initcalls",
+        "init_mm_internals",
+        "integrity_load_keys",
+        "ksys_access",
+        "ksys_dup",
+        "ksys_open",
+        "load_default_modules",
+        "lockup_detector_init",
+        "page_alloc_init_late",
+        "page_ext_init",
+        "pr_err",
+        "prepare_namespace",
+        "sched_init_smp",
+        "set_mems_allowed",
+        "smp_init",
+        "smp_prepare_cpus",
+        "task_pid",
+        "wait_for_completion",
+        "workqueue_init"
+      ],
+      "lexical_callers_in_selected_functions": [
+        {
+          "path": "linux-4.19.124/init/main.c",
+          "function": "kernel_init",
+          "line": 1335
+        }
+      ]
+    },
+    {
+      "archive": "S5M2_Ver2_linux.tar.gz",
+      "path": "linux-4.19.124/fs/ipcufs.c",
+      "function": "ipcufs_readpage",
+      "line": 1084,
+      "span_sha256": "21ded6d6f8a0dde514f597c4c741c61571aaddc3ea85afcfde57b328664f994b",
+      "lexical_callees": [
+        "SetPageError",
+        "SetPageUptodate",
+        "dentry_path_raw",
+        "flush_dcache_page",
+        "i_size_read",
+        "ipcufs_close",
+        "ipcufs_file_validate",
+        "ipcufs_transfer",
+        "kfree",
+        "kmap",
+        "kunmap",
+        "kzalloc",
+        "memcpy_fromio",
+        "memset",
+        "mutex_lock",
+        "mutex_unlock",
+        "page_offset",
+        "pr_warn",
+        "trace_ipcufs_readpage_enter",
+        "trace_ipcufs_readpage_exit",
+        "unlock_page"
+      ],
+      "lexical_callers_in_selected_functions": []
+    },
+    {
+      "archive": "S5M2_Ver2_linux.tar.gz",
+      "path": "linux-4.19.124/fs/ipcufs.c",
+      "function": "ipcufs_transfer",
+      "line": 473,
+      "span_sha256": "70e52be7c8920edf32c2788cc503ac5b3c1b3abca94bbb71ee39c73b44891706",
+      "lexical_callees": [
+        "IPCUFS_PRINT_MSG",
+        "flush_workqueue",
+        "memcpy_fromio",
+        "memcpy_toio",
+        "mutex_lock",
+        "mutex_unlock",
+        "pr_err",
+        "queue_work",
+        "rmb",
+        "sni_ipcu_ack_send",
+        "sni_ipcu_send_msg_kernel",
+        "trace_ipcufs_transfer_enter",
+        "trace_ipcufs_transfer_exit",
+        "wmb"
+      ],
+      "lexical_callers_in_selected_functions": [
+        {
+          "path": "linux-4.19.124/fs/ipcufs.c",
+          "function": "ipcufs_readpage",
+          "line": 1084
+        }
+      ]
+    }
+  ],
+  "verified_boundary": "These functions consume already-present gzip/Image/RAM blocks or IPC filesystem requests. No actual modern UPD receiver/parser has been recovered here.",
+  "limitations": [
+    "Lexical hits/call tokens do not establish compiled or runtime use.",
+    "No instruction/code recovery from opaque firmware payloads.",
+    "No camera communication, firmware execution, flashing or key enumeration.",
+    "Pattern negatives do not exclude other names, encodings or algorithms.",
+    "Archive page Ver1/Ver2 labels are not a verified V3.1 build association.",
+    "No S1M2/MC8243 runtime address or model equivalence inferred."
+  ],
+  "historical_ver1_to_ver2": {
+    "uboot": {
+      "added": [
+        {
+          "path": "u-boot/arch/arm/dts/pvc04v-MC8223X.dts",
+          "bytes": 770,
+          "sha256": "a4bd32b2b9fa0d4d803fc4887d8121ba5caccb434f6339f7ece59b4568891996"
+        },
+        {
+          "path": "u-boot/arch/arm/dts/pvc04v-MC8223X.dtsi",
+          "bytes": 2694,
+          "sha256": "b422ce88669e6bcbad16cd7fe497453d313267d1d129eb9f855189f010aadb86"
+        },
+        {
+          "path": "u-boot/configs/pvc04v_MC8223X_defconfig",
+          "bytes": 1130,
+          "sha256": "55abfa40df7f6b8a1273ae4ec31228fc71911f6ceb9b3b3c540baa9450aee27e"
+        }
+      ],
+      "removed": [
+        {
+          "path": "u-boot/arch/arm/dts/pvc04v-MC8223.dts",
+          "bytes": 767,
+          "sha256": "788ba4e4cbd9b05386d6a0e845fd0800211b19d13dd0d3e4324e1540a52c57b7"
+        },
+        {
+          "path": "u-boot/arch/arm/dts/pvc04v-MC8223.dtsi",
+          "bytes": 2692,
+          "sha256": "832af8759dabc87c39ca7bc2c23721d6b0d14502ff5b3d3f3968bf5c979ed918"
+        },
+        {
+          "path": "u-boot/configs/pvc04v_MC8223_defconfig",
+          "bytes": 1128,
+          "sha256": "a8a0f7eb79caf332be043a071e110f89655cd271572e375ef6ed2b20b1e69859"
+        }
+      ],
+      "changed": [],
+      "unchanged_count": 15221
+    },
+    "linux": {
+      "added": [
+        {
+          "path": "linux-4.19.124/arch/arm64/boot/dts/socionext/pvc04v-MC8223X-gpio.h",
+          "bytes": 1239,
+          "sha256": "c6ccc4fd36ad9dc1d5192511e8bffec99dcc38d02f85efcbe7eff65f9a7e0787"
+        },
+        {
+          "path": "linux-4.19.124/arch/arm64/boot/dts/socionext/pvc04v-MC8223X-rtos.h",
+          "bytes": 1994,
+          "sha256": "15709ea7caf606ca5781daaf3e85d5ac6ef8fba33c6d93520ef6c4e199648106"
+        },
+        {
+          "path": "linux-4.19.124/arch/arm64/boot/dts/socionext/pvc04v-MC8223X.dts",
+          "bytes": 17214,
+          "sha256": "6b6bd5c26c4a873b341c760f5db840a3fb68135249316823f9a2e40ef72da2d5"
+        },
+        {
+          "path": "linux-4.19.124/arch/arm64/boot/dts/socionext/pvc04v-MC8223X.dtsi",
+          "bytes": 27424,
+          "sha256": "573d4fdaec6f7380f1be31a3182aa99be9303fae93444ac3c62a5a79ee5066fa"
+        },
+        {
+          "path": "linux-4.19.124/arch/arm64/configs/pvc04v_MC8223X_defconfig",
+          "bytes": 14230,
+          "sha256": "73955da4cdb369e92e37a8314fbfdad011f65ffebb9bebbecb4a1921ef054726"
+        }
+      ],
+      "removed": [
+        {
+          "path": "linux-4.19.124/arch/arm64/boot/dts/socionext/pvc04v-MC8223-gpio.h",
+          "bytes": 1237,
+          "sha256": "7a1ab512e6a1e46bf90392440f6f0c453161714768b7d4f8db3200dd290ad5d3"
+        },
+        {
+          "path": "linux-4.19.124/arch/arm64/boot/dts/socionext/pvc04v-MC8223-rtos.h",
+          "bytes": 1992,
+          "sha256": "cb1494a6917f613ef7bff2fbf9d6ae61427ca8191ab2819052c73f7d0f6ab5ef"
+        },
+        {
+          "path": "linux-4.19.124/arch/arm64/boot/dts/socionext/pvc04v-MC8223.dts",
+          "bytes": 17209,
+          "sha256": "330d93a7a5fe5550f45b144f246bb41a9278e7532ab2dd5d5053699675fa8302"
+        },
+        {
+          "path": "linux-4.19.124/arch/arm64/boot/dts/socionext/pvc04v-MC8223.dtsi",
+          "bytes": 27422,
+          "sha256": "ba35c00f8d62c168203266e133c59520d57776624a68a3b8ee7de7884a4cf159"
+        },
+        {
+          "path": "linux-4.19.124/arch/arm64/configs/pvc04v_MC8223_defconfig",
+          "bytes": 14228,
+          "sha256": "b4cec304ddaf87dbc0cb61ceaec1746beb9460cb0c2c474416772e64007e3b0b"
+        }
+      ],
+      "changed": [],
+      "unchanged_count": 61990
+    },
+    "FreeRTOS": {
+      "added": [],
+      "removed": [],
+      "changed": [],
+      "unchanged_count": 16274
+    }
+  }
+}
