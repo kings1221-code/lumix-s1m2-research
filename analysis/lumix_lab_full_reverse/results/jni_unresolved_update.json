@@ -1,0 +1,35 @@
+{
+  "entries": [
+    {
+      "java_method": "Lcom/google/android/gms/tasks/NativeOnCompleteListener;->nativeOnComplete(JLjava/lang/Object;ZZLjava/lang/String;)V",
+      "dex": "classes.dex",
+      "static_matches": [],
+      "dynamic_candidates": [],
+      "status": "unresolved_in_18_libraries",
+      "visible_direct_callers": [
+        {
+          "method": "Lcom/google/android/gms/tasks/NativeOnCompleteListener;->onComplete(Lcom/google/android/gms/tasks/Task;)V",
+          "dex": "classes.dex",
+          "offset_cu": 46
+        }
+      ],
+      "binding_status": "still unresolved; additional explicit caller/buffer evidence does not establish runtime binding"
+    },
+    {
+      "java_method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->splitYuvArrayToYAndUv([B[B[BII)V",
+      "dex": "classes2.dex",
+      "static_matches": [],
+      "dynamic_candidates": [],
+      "status": "implementation_present_Cpp_mangled_binding_unresolved",
+      "implementation_candidate": {
+        "library": "libllc.so",
+        "elf_va": "0x16e18",
+        "export": "_Z67Java_com_panasonic_jp_lumixlab_LlcApplication_splitYuvArrayToYAndUvP7_JNIEnvP8_jobjectP11_jbyteArrayS4_S4_ii",
+        "reason": "C++ mangling differs from JNI name lookup; implementation exists but runtime binding not established"
+      },
+      "visible_direct_callers": [],
+      "binding_status": "still unresolved; additional explicit caller/buffer evidence does not establish runtime binding"
+    }
+  ],
+  "negative_scope": "same exact two DEX and 18 ELF; conventional symbol/table/OnLoad evidence retained; computed/external registration not excluded"
+}

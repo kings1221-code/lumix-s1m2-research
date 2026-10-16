@@ -1,0 +1,12 @@
+{
+  "library": "libcube_merge.so",
+  "caller_elf_va": "0x51d0",
+  "callee_elf_va": "0x4e60",
+  "original_generated_c_sha256": "f9a92fadaf4cb22834d7fe23f652cb38d8af34377e87d20d0883580ce40641d2",
+  "fixed_generated_c_sha256": "fe69b3e85d0c0dbf180a40d7aa8ee229e3bdfc71572fc5af220ef4fc22aed87c",
+  "analysis_signature": "void FUN_00104e60(void * input1, void * input2, void * output)",
+  "fixed_call_excerpt": "FUN_00104e60(&local_28,&local_38,&local_48);",
+  "original_bytes_basis": "native_evidence.json ELF 0x5258..0x5274",
+  "project_mode": "-process -noanalysis -readOnly",
+  "scope": "Only analysis type information corrected; input SO/APK unchanged; pointer types do not recover complete original C structs."
+}

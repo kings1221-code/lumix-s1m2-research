@@ -1,0 +1,1176 @@
+{
+  "manifests": [
+    {
+      "split": "com.panasonic.jp.lumixlab-22",
+      "decoded_manifest_id": {
+        "size": 19571,
+        "sha256": "aeaa59ae436d3656da75e9a87ab2d6caa8da8faccaa0240de1e2bc56d6e592a4"
+      },
+      "attributes": {
+        "compileSdkVersion": "35",
+        "compileSdkVersionCodename": "15",
+        "requiredSplitTypes": "base__abi,base__density",
+        "splitTypes": "",
+        "package": "com.panasonic.jp.lumixlab",
+        "platformBuildVersionCode": "35",
+        "platformBuildVersionName": "15"
+      },
+      "application": {
+        "allowBackup": "false",
+        "appComponentFactory": "androidx.core.app.CoreComponentFactory",
+        "dataExtractionRules": "@xml/data_extraction_rules",
+        "enableOnBackInvokedCallback": "true",
+        "extractNativeLibs": "false",
+        "fullBackupContent": "@xml/backup_rules",
+        "icon": "@drawable/ic_launcher",
+        "label": "LUMIX Lab",
+        "largeHeap": "true",
+        "name": "com.panasonic.jp.lumixlab.LlcApplication",
+        "persistent": "true",
+        "requestLegacyExternalStorage": "true",
+        "roundIcon": "@drawable/ic_launcher",
+        "supportsRtl": "false",
+        "theme": "@style/AppTheme",
+        "usesCleartextTraffic": "true"
+      },
+      "permissions": [
+        {
+          "name": "android.permission.INTERNET"
+        },
+        {
+          "name": "android.permission.ACCESS_NETWORK_STATE"
+        },
+        {
+          "name": "android.permission.CHANGE_NETWORK_STATE"
+        },
+        {
+          "name": "android.permission.ACCESS_WIFI_STATE"
+        },
+        {
+          "name": "android.permission.CHANGE_WIFI_STATE"
+        },
+        {
+          "name": "android.permission.NEARBY_WIFI_DEVICES",
+          "usesPermissionFlags": "neverForLocation"
+        },
+        {
+          "maxSdkVersion": "32",
+          "minSdkVersion": "30",
+          "name": "android.permission.READ_EXTERNAL_STORAGE"
+        },
+        {
+          "minSdkVersion": "33",
+          "name": "android.permission.READ_MEDIA_IMAGES"
+        },
+        {
+          "minSdkVersion": "33",
+          "name": "android.permission.READ_MEDIA_VIDEO"
+        },
+        {
+          "maxSdkVersion": "30",
+          "minSdkVersion": "30",
+          "name": "android.permission.BLUETOOTH"
+        },
+        {
+          "maxSdkVersion": "30",
+          "minSdkVersion": "30",
+          "name": "android.permission.BLUETOOTH_ADMIN"
+        },
+        {
+          "minSdkVersion": "31",
+          "name": "android.permission.BLUETOOTH_SCAN",
+          "usesPermissionFlags": "neverForLocation"
+        },
+        {
+          "minSdkVersion": "31",
+          "name": "android.permission.BLUETOOTH_ADVERTISE"
+        },
+        {
+          "minSdkVersion": "31",
+          "name": "android.permission.BLUETOOTH_CONNECT"
+        },
+        {
+          "name": "android.permission.ACCESS_FINE_LOCATION"
+        },
+        {
+          "name": "android.permission.ACCESS_COARSE_LOCATION"
+        },
+        {
+          "name": "android.permission.ACCESS_BACKGROUND_LOCATION"
+        },
+        {
+          "name": "android.permission.FOREGROUND_SERVICE_LOCATION"
+        },
+        {
+          "name": "android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE"
+        },
+        {
+          "name": "android.permission.FOREGROUND_SERVICE"
+        },
+        {
+          "name": "android.permission.SYSTEM_ALERT_WINDOW"
+        },
+        {
+          "name": "android.permission.VIBRATE"
+        },
+        {
+          "name": "android.permission.POST_NOTIFICATIONS"
+        },
+        {
+          "name": "android.permission.WAKE_LOCK"
+        },
+        {
+          "name": "android.permission.USB_PERMISSION"
+        },
+        {
+          "name": "com.google.android.c2dm.permission.RECEIVE"
+        },
+        {
+          "name": "com.panasonic.jp.lumixlab.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "protectionLevel": "signature"
+        },
+        {
+          "name": "com.panasonic.jp.lumixlab.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        }
+      ],
+      "components": [
+        {
+          "type": "provider",
+          "attributes": {
+            "authorities": "com.panasonic.jp.lumixlab.fileProvider",
+            "exported": "false",
+            "grantUriPermissions": "true",
+            "name": "androidx.core.content.FileProvider"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "service",
+          "attributes": {
+            "enabled": "true",
+            "exported": "false",
+            "name": "com.panasonic.jp.lumixlab.service.LlcService",
+            "persistent": "true",
+            "priority": "1000"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "service",
+          "attributes": {
+            "enabled": "true",
+            "exported": "false",
+            "foregroundServiceType": "connectedDevice",
+            "name": "com.panasonic.jp.lumixlab.service.ForegroundService",
+            "persistent": "true",
+            "priority": "1000"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "service",
+          "attributes": {
+            "enabled": "true",
+            "exported": "false",
+            "foregroundServiceType": "location",
+            "name": "com.panasonic.jp.lumixlab.service.LocationForegroundService"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "service",
+          "attributes": {
+            "directBootAware": "true",
+            "exported": "false",
+            "name": "com.panasonic.jp.lumixlab.service.LlcMessagingService"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": [
+            {
+              "actions": [
+                {
+                  "name": "com.google.firebase.MESSAGING_EVENT"
+                }
+              ],
+              "categories": [],
+              "data": []
+            }
+          ]
+        },
+        {
+          "type": "service",
+          "attributes": {
+            "enabled": "true",
+            "exported": "false",
+            "name": "com.panasonic.jp.lumixlab.model.blecentral.util.BleLogService"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "activity",
+          "attributes": {
+            "exported": "true",
+            "name": "com.panasonic.jp.lumixlab.controller.activity.AppLaunchScreenActivity",
+            "screenOrientation": "portrait",
+            "theme": "@style/AppLaunchScreenTheme"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": [
+            {
+              "actions": [
+                {
+                  "name": "android.intent.action.MAIN"
+                }
+              ],
+              "categories": [
+                {
+                  "name": "android.intent.category.LAUNCHER"
+                }
+              ],
+              "data": []
+            }
+          ]
+        },
+        {
+          "type": "activity",
+          "attributes": {
+            "exported": "true",
+            "launchMode": "singleTask",
+            "name": "com.panasonic.jp.lumixlab.controller.activity.DeepLinkRouterActivity",
+            "theme": "@android:style/Theme.Translucent.NoTitleBar"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": [
+            {
+              "actions": [
+                {
+                  "name": "com.panasonic.jp.lumixlab"
+                }
+              ],
+              "categories": [
+                {
+                  "name": "android.intent.category.DEFAULT"
+                }
+              ],
+              "data": []
+            },
+            {
+              "actions": [
+                {
+                  "name": "android.intent.action.VIEW"
+                }
+              ],
+              "categories": [
+                {
+                  "name": "android.intent.category.DEFAULT"
+                },
+                {
+                  "name": "android.intent.category.BROWSABLE"
+                }
+              ],
+              "data": [
+                {
+                  "host": "*",
+                  "scheme": "lumixlab"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "activity",
+          "attributes": {
+            "excludeFromRecents": "true",
+            "exported": "true",
+            "launchMode": "singleTop",
+            "name": "com.panasonic.jp.lumixlab.controller.activity.UsbAttachActivity",
+            "noHistory": "true",
+            "screenOrientation": "portrait",
+            "theme": "@style/Theme.Lumix.NoDisplay"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": [
+            {
+              "actions": [
+                {
+                  "name": "android.hardware.usb.action.USB_DEVICE_ATTACHED"
+                }
+              ],
+              "categories": [],
+              "data": []
+            }
+          ]
+        },
+        {
+          "type": "activity",
+          "attributes": {
+            "exported": "false",
+            "name": "com.panasonic.jp.lumixlab.controller.activity.TemplateAddFrameActivity",
+            "screenOrientation": "portrait"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "activity",
+          "attributes": {
+            "exported": "false",
+            "name": "com.panasonic.jp.lumixlab.controller.activity.TemplateSelectActivity",
+            "screenOrientation": "portrait"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "activity",
+          "attributes": {
+            "launchMode": "singleTask",
+            "name": "com.panasonic.jp.lumixlab.controller.activity.PrivacyTermsActivity",
+            "screenOrientation": "portrait"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "activity",
+          "attributes": {
+            "launchMode": "singleTask",
+            "name": "com.panasonic.jp.lumixlab.controller.activity.PermissionConfirmationActivity",
+            "screenOrientation": "portrait"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "activity",
+          "attributes": {
+            "launchMode": "singleTask",
+            "name": "com.panasonic.jp.lumixlab.controller.activity.UserSegmentsActivity",
+            "screenOrientation": "portrait"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "activity",
+          "attributes": {
+            "configChanges": "keyboardHidden|orientation|screenSize",
+            "exported": "true",
+            "launchMode": "singleTask",
+            "name": "com.panasonic.jp.lumixlab.controller.activity.MainActivity",
+            "screenOrientation": "portrait"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "activity",
+          "attributes": {
+            "launchMode": "singleTask",
+            "name": "com.panasonic.jp.lumixlab.controller.activity.CameraGalleryActivity",
+            "screenOrientation": "portrait"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "activity",
+          "attributes": {
+            "launchMode": "singleTask",
+            "name": "com.panasonic.jp.lumixlab.controller.activity.BurstActivity",
+            "screenOrientation": "portrait"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "activity",
+          "attributes": {
+            "launchMode": "singleTask",
+            "name": "com.panasonic.jp.lumixlab.controller.activity.SettingActivity",
+            "screenOrientation": "portrait"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "activity",
+          "attributes": {
+            "launchMode": "singleTask",
+            "name": "com.panasonic.jp.lumixlab.controller.activity.SettingWebViewActivity",
+            "screenOrientation": "portrait"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "activity",
+          "attributes": {
+            "launchMode": "singleTask",
+            "name": "com.panasonic.jp.lumixlab.controller.activity.CommunityImageActivity",
+            "screenOrientation": "portrait"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "activity",
+          "attributes": {
+            "launchMode": "singleTask",
+            "name": "com.panasonic.jp.lumixlab.controller.activity.ImageTransferSettingsActivity",
+            "screenOrientation": "portrait"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "activity",
+          "attributes": {
+            "launchMode": "singleTask",
+            "name": "com.panasonic.jp.lumixlab.controller.activity.RawJpegImageSaveFormatActivity",
+            "screenOrientation": "portrait"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "activity",
+          "attributes": {
+            "launchMode": "singleTask",
+            "name": "com.panasonic.jp.lumixlab.controller.activity.RawHeifImageSaveFormatActivity",
+            "screenOrientation": "portrait"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "activity",
+          "attributes": {
+            "launchMode": "singleTask",
+            "name": "com.panasonic.jp.lumixlab.controller.activity.StartActivity",
+            "screenOrientation": "portrait"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "activity",
+          "attributes": {
+            "launchMode": "singleTask",
+            "name": "com.panasonic.jp.lumixlab.controller.activity.PushNotificationActivity",
+            "screenOrientation": "portrait"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "activity",
+          "attributes": {
+            "launchMode": "singleTask",
+            "name": "com.panasonic.jp.lumixlab.controller.activity.PushNotificationDetailActivity",
+            "screenOrientation": "portrait"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "activity",
+          "attributes": {
+            "launchMode": "singleTask",
+            "name": "com.panasonic.jp.lumixlab.controller.activity.FirmwareDetailActivity",
+            "screenOrientation": "portrait"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "activity",
+          "attributes": {
+            "exported": "false",
+            "launchMode": "singleTask",
+            "name": "com.panasonic.jp.lumixlab.controller.activity.RemoteShootingActivity",
+            "screenOrientation": "portrait"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "activity",
+          "attributes": {
+            "exported": "false",
+            "launchMode": "singleTask",
+            "name": "com.panasonic.jp.lumixlab.controller.activity.RemotePhotostyleActivity",
+            "screenOrientation": "portrait"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "activity",
+          "attributes": {
+            "launchMode": "singleTask",
+            "name": "com.panasonic.jp.lumixlab.controller.activity.AutoTransferFilesPreviewActivity",
+            "screenOrientation": "portrait"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "activity",
+          "attributes": {
+            "launchMode": "singleTask",
+            "name": "com.panasonic.jp.lumixlab.controller.activity.AutoTransferFilesGalleryActivity",
+            "screenOrientation": "portrait"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "activity",
+          "attributes": {
+            "launchMode": "singleTask",
+            "name": "com.panasonic.jp.lumixlab.controller.activity.ImageCropActivity",
+            "screenOrientation": "portrait"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "activity",
+          "attributes": {
+            "exported": "false",
+            "name": "com.panasonic.jp.lumixlab.controller.activity.Template1SelectColorActivity",
+            "screenOrientation": "portrait"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "activity",
+          "attributes": {
+            "configChanges": "keyboardHidden|orientation",
+            "launchMode": "singleTask",
+            "name": "com.panasonic.jp.lumixlab.controller.activity.edit.EditActivity",
+            "screenOrientation": "portrait",
+            "windowSoftInputMode": "stateHidden|stateVisible|adjustPan"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "activity",
+          "attributes": {
+            "exported": "false",
+            "name": "com.panasonic.jp.lumixlab.controller.activity.TipsActivity",
+            "screenOrientation": "portrait"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "activity",
+          "attributes": {
+            "exported": "false",
+            "name": "com.panasonic.jp.lumixlab.controller.activity.TipsDetailActivity",
+            "screenOrientation": "portrait"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "activity",
+          "attributes": {
+            "launchMode": "singleTask",
+            "name": "com.panasonic.jp.lumixlab.controller.activity.DeviceInfoActivity",
+            "screenOrientation": "portrait"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "receiver",
+          "attributes": {
+            "exported": "true",
+            "name": "com.panasonic.jp.lumixlab.model.blecentral.LLCBleCentral$BtBroadcastReceiver"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": [
+            {
+              "actions": [
+                {
+                  "name": "android.bluetooth.device.action.PAIRING_REQUEST"
+                },
+                {
+                  "name": "android.bluetooth.adapter.action.STATE_CHANGED"
+                },
+                {
+                  "name": "android.bluetooth.adapter.action.CONNECTIONSTATE_CHANGED"
+                }
+              ],
+              "categories": [],
+              "data": []
+            }
+          ]
+        },
+        {
+          "type": "activity",
+          "attributes": {
+            "excludeFromRecents": "true",
+            "exported": "false",
+            "name": "com.google.android.gms.auth.api.signin.internal.SignInHubActivity",
+            "theme": "@android:style/Theme.Translucent.NoTitleBar"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "service",
+          "attributes": {
+            "exported": "true",
+            "name": "com.google.android.gms.auth.api.signin.RevocationBoundService",
+            "permission": "com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION",
+            "visibleToInstantApps": "true"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "receiver",
+          "attributes": {
+            "directBootAware": "true",
+            "exported": "true",
+            "name": "com.google.firebase.messaging.directboot.FirebaseMessagingDirectBootReceiver",
+            "permission": "com.google.android.c2dm.permission.SEND"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": [
+            {
+              "actions": [
+                {
+                  "name": "com.google.firebase.messaging.RECEIVE_DIRECT_BOOT"
+                }
+              ],
+              "categories": [],
+              "data": []
+            }
+          ]
+        },
+        {
+          "type": "receiver",
+          "attributes": {
+            "exported": "true",
+            "name": "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+            "permission": "com.google.android.c2dm.permission.SEND"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": [
+            {
+              "actions": [
+                {
+                  "name": "com.google.android.c2dm.intent.RECEIVE"
+                }
+              ],
+              "categories": [],
+              "data": []
+            }
+          ]
+        },
+        {
+          "type": "service",
+          "attributes": {
+            "directBootAware": "true",
+            "exported": "false",
+            "name": "com.google.firebase.messaging.FirebaseMessagingService"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": [
+            {
+              "actions": [
+                {
+                  "name": "com.google.firebase.MESSAGING_EVENT"
+                }
+              ],
+              "categories": [],
+              "data": []
+            }
+          ]
+        },
+        {
+          "type": "service",
+          "attributes": {
+            "directBootAware": "true",
+            "exported": "false",
+            "name": "com.google.firebase.components.ComponentDiscoveryService"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "activity",
+          "attributes": {
+            "exported": "false",
+            "name": "com.google.android.gms.common.api.GoogleApiActivity",
+            "theme": "@android:style/Theme.Translucent.NoTitleBar"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "provider",
+          "attributes": {
+            "authorities": "com.panasonic.jp.lumixlab.firebaseinitprovider",
+            "directBootAware": "true",
+            "exported": "false",
+            "initOrder": "100",
+            "name": "com.google.firebase.provider.FirebaseInitProvider"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "provider",
+          "attributes": {
+            "authorities": "com.panasonic.jp.lumixlab.androidx-startup",
+            "exported": "false",
+            "name": "androidx.startup.InitializationProvider"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "service",
+          "attributes": {
+            "directBootAware": "true",
+            "exported": "false",
+            "name": "androidx.room.MultiInstanceInvalidationService"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "receiver",
+          "attributes": {
+            "directBootAware": "false",
+            "enabled": "true",
+            "exported": "true",
+            "name": "androidx.profileinstaller.ProfileInstallReceiver",
+            "permission": "android.permission.DUMP"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": [
+            {
+              "actions": [
+                {
+                  "name": "androidx.profileinstaller.action.INSTALL_PROFILE"
+                }
+              ],
+              "categories": [],
+              "data": []
+            },
+            {
+              "actions": [
+                {
+                  "name": "androidx.profileinstaller.action.SKIP_FILE"
+                }
+              ],
+              "categories": [],
+              "data": []
+            },
+            {
+              "actions": [
+                {
+                  "name": "androidx.profileinstaller.action.SAVE_PROFILE"
+                }
+              ],
+              "categories": [],
+              "data": []
+            },
+            {
+              "actions": [
+                {
+                  "name": "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+                }
+              ],
+              "categories": [],
+              "data": []
+            }
+          ]
+        },
+        {
+          "type": "service",
+          "attributes": {
+            "exported": "false",
+            "name": "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "service",
+          "attributes": {
+            "exported": "false",
+            "name": "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+            "permission": "android.permission.BIND_JOB_SERVICE"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "receiver",
+          "attributes": {
+            "exported": "false",
+            "name": "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        },
+        {
+          "type": "activity",
+          "attributes": {
+            "exported": "false",
+            "name": "com.google.android.play.core.common.PlayCoreDialogWrapperActivity",
+            "stateNotNeeded": "true",
+            "theme": "@style/Theme.PlayCore.Transparent"
+          },
+          "class_defined_in_DEX": true,
+          "intent_filters": []
+        }
+      ]
+    },
+    {
+      "split": "com.panasonic.jp.lumixlab-22-config.arm64_v8a",
+      "decoded_manifest_id": {
+        "size": 403,
+        "sha256": "3bf3d5b589c47109dce808aedcabdb80dedd3f5cc3f08780f173db8b93ba1f51"
+      },
+      "attributes": {
+        "splitTypes": "base__abi",
+        "package": "com.panasonic.jp.lumixlab",
+        "split": "config.arm64_v8a"
+      },
+      "application": {
+        "extractNativeLibs": "false",
+        "hasCode": "false"
+      },
+      "permissions": [],
+      "components": []
+    },
+    {
+      "split": "com.panasonic.jp.lumixlab-22-config.en",
+      "decoded_manifest_id": {
+        "size": 387,
+        "sha256": "d80f4e164e057f2c49484b91e02bc36fc299896c223e4248cf6566822728a798"
+      },
+      "attributes": {
+        "splitTypes": "",
+        "package": "com.panasonic.jp.lumixlab",
+        "split": "config.en"
+      },
+      "application": {
+        "extractNativeLibs": "false",
+        "hasCode": "false"
+      },
+      "permissions": [],
+      "components": []
+    },
+    {
+      "split": "com.panasonic.jp.lumixlab-22-config.xxhdpi",
+      "decoded_manifest_id": {
+        "size": 404,
+        "sha256": "d57cdde59ef7e84d72b3832fcf8efd207301a5281469f751867ab1e75f8ab253"
+      },
+      "attributes": {
+        "splitTypes": "base__density",
+        "package": "com.panasonic.jp.lumixlab",
+        "split": "config.xxhdpi"
+      },
+      "application": {
+        "extractNativeLibs": "false",
+        "hasCode": "false"
+      },
+      "permissions": [],
+      "components": []
+    },
+    {
+      "split": "com.panasonic.jp.lumixlab-22-config.zh",
+      "decoded_manifest_id": {
+        "size": 387,
+        "sha256": "2aef1b1ff08473db835e3c4956365096c607b0296276ccefe9ecc20bf5cce73d"
+      },
+      "attributes": {
+        "splitTypes": "",
+        "package": "com.panasonic.jp.lumixlab",
+        "split": "config.zh"
+      },
+      "application": {
+        "extractNativeLibs": "false",
+        "hasCode": "false"
+      },
+      "permissions": [],
+      "components": []
+    }
+  ],
+  "navigation": [
+    {
+      "split": "com.panasonic.jp.lumixlab-22",
+      "file": "res/navigation/nav_firmware.xml",
+      "type": "navigation",
+      "attributes": {
+        "id": "@id/nav_firmware",
+        "{http://schemas.android.com/apk/res-auto}startDestination": "@id/firmware_detail"
+      }
+    },
+    {
+      "split": "com.panasonic.jp.lumixlab-22",
+      "file": "res/navigation/nav_firmware.xml",
+      "type": "fragment",
+      "attributes": {
+        "name": "com.panasonic.jp.lumixlab.controller.fragment.CameraWifiConnectFragment",
+        "id": "@id/camera_wifi_connect"
+      }
+    },
+    {
+      "split": "com.panasonic.jp.lumixlab-22",
+      "file": "res/navigation/nav_firmware.xml",
+      "type": "fragment",
+      "attributes": {
+        "name": "com.panasonic.jp.lumixlab.controller.fragment.FirmwareUpdateDetailFragment",
+        "id": "@id/firmware_detail"
+      }
+    },
+    {
+      "split": "com.panasonic.jp.lumixlab-22",
+      "file": "res/navigation/nav_graph.xml",
+      "type": "navigation",
+      "attributes": {
+        "id": "@id/nav_graph",
+        "{http://schemas.android.com/apk/res-auto}startDestination": "@id/navigation_gallery"
+      }
+    },
+    {
+      "split": "com.panasonic.jp.lumixlab-22",
+      "file": "res/navigation/nav_graph.xml",
+      "type": "fragment",
+      "attributes": {
+        "label": "@string/gallery_lbl_title",
+        "name": "com.panasonic.jp.lumixlab.controller.fragment.GalleryContainerFragment",
+        "id": "@id/navigation_gallery"
+      }
+    },
+    {
+      "split": "com.panasonic.jp.lumixlab-22",
+      "file": "res/navigation/nav_graph.xml",
+      "type": "fragment",
+      "attributes": {
+        "label": "@string/cam_lbl_title",
+        "name": "com.panasonic.jp.lumixlab.controller.fragment.CameraFragment",
+        "id": "@id/navigation_camera"
+      }
+    },
+    {
+      "split": "com.panasonic.jp.lumixlab-22",
+      "file": "res/navigation/nav_graph.xml",
+      "type": "fragment",
+      "attributes": {
+        "name": "com.panasonic.jp.lumixlab.controller.fragment.CommunityDownloadFragment",
+        "id": "@id/navigation_download"
+      }
+    },
+    {
+      "split": "com.panasonic.jp.lumixlab-22",
+      "file": "res/navigation/nav_graph.xml",
+      "type": "fragment",
+      "attributes": {
+        "name": "com.panasonic.jp.lumixlab.controller.fragment.CommunityCreatorMainFragment",
+        "id": "@id/navigation_creator"
+      }
+    },
+    {
+      "split": "com.panasonic.jp.lumixlab-22",
+      "file": "res/navigation/nav_graph.xml",
+      "type": "fragment",
+      "attributes": {
+        "label": "@string/community_seg_lut",
+        "name": "com.panasonic.jp.lumixlab.controller.fragment.LutFragment",
+        "id": "@id/navigation_lut"
+      }
+    },
+    {
+      "split": "com.panasonic.jp.lumixlab-22",
+      "file": "res/navigation/nav_graph.xml",
+      "type": "fragment",
+      "attributes": {
+        "name": "com.panasonic.jp.lumixlab.controller.fragment.CameraAddFragment",
+        "id": "@id/camera_add"
+      }
+    },
+    {
+      "split": "com.panasonic.jp.lumixlab-22",
+      "file": "res/navigation/nav_graph.xml",
+      "type": "fragment",
+      "attributes": {
+        "name": "com.panasonic.jp.lumixlab.controller.fragment.CameraBluetoothConnectionFragment",
+        "id": "@id/camera_bluetooth_connection"
+      }
+    },
+    {
+      "split": "com.panasonic.jp.lumixlab-22",
+      "file": "res/navigation/nav_graph.xml",
+      "type": "fragment",
+      "attributes": {
+        "name": "com.panasonic.jp.lumixlab.controller.fragment.CameraUsbConnectionFragment",
+        "id": "@id/camera_usb_connection"
+      }
+    },
+    {
+      "split": "com.panasonic.jp.lumixlab-22",
+      "file": "res/navigation/nav_graph.xml",
+      "type": "fragment",
+      "attributes": {
+        "name": "com.panasonic.jp.lumixlab.controller.fragment.CameraUsbConnectionNextFragment",
+        "id": "@id/camera_usb_connection_next"
+      }
+    },
+    {
+      "split": "com.panasonic.jp.lumixlab-22",
+      "file": "res/navigation/nav_graph.xml",
+      "type": "fragment",
+      "attributes": {
+        "name": "com.panasonic.jp.lumixlab.controller.fragment.CameraBluetoothScanCompleteFragment",
+        "id": "@id/camera_bluetooth_scan_complete"
+      }
+    },
+    {
+      "split": "com.panasonic.jp.lumixlab-22",
+      "file": "res/navigation/nav_graph.xml",
+      "type": "fragment",
+      "attributes": {
+        "name": "com.panasonic.jp.lumixlab.controller.fragment.CameraBluetoothConnectionPairingInProgressFragment",
+        "id": "@id/camera_bluetooth_connection_pairing_in_progress"
+      }
+    },
+    {
+      "split": "com.panasonic.jp.lumixlab-22",
+      "file": "res/navigation/nav_graph.xml",
+      "type": "fragment",
+      "attributes": {
+        "name": "com.panasonic.jp.lumixlab.controller.fragment.CameraUsbConnectionPairingInProgressFragment",
+        "id": "@id/camera_usb_connection_pairing_in_progress"
+      }
+    },
+    {
+      "split": "com.panasonic.jp.lumixlab-22",
+      "file": "res/navigation/nav_graph.xml",
+      "type": "fragment",
+      "attributes": {
+        "name": "com.panasonic.jp.lumixlab.controller.fragment.CameraPairingWaitingFragment",
+        "id": "@id/camera_pairing_waiting"
+      }
+    },
+    {
+      "split": "com.panasonic.jp.lumixlab-22",
+      "file": "res/navigation/nav_graph.xml",
+      "type": "fragment",
+      "attributes": {
+        "name": "com.panasonic.jp.lumixlab.controller.fragment.CameraConnectingFragment",
+        "id": "@id/camera_connecting"
+      }
+    },
+    {
+      "split": "com.panasonic.jp.lumixlab-22",
+      "file": "res/navigation/nav_graph.xml",
+      "type": "fragment",
+      "attributes": {
+        "name": "com.panasonic.jp.lumixlab.controller.fragment.CameraWifiConnectFragment",
+        "id": "@id/camera_wifi_connect"
+      }
+    },
+    {
+      "split": "com.panasonic.jp.lumixlab-22",
+      "file": "res/navigation/nav_graph.xml",
+      "type": "fragment",
+      "attributes": {
+        "name": "com.panasonic.jp.lumixlab.controller.fragment.CameraPairingFragment",
+        "id": "@id/camera_pairing"
+      }
+    },
+    {
+      "split": "com.panasonic.jp.lumixlab-22",
+      "file": "res/navigation/nav_graph.xml",
+      "type": "fragment",
+      "attributes": {
+        "name": "com.panasonic.jp.lumixlab.controller.fragment.FirmwareUpdateListFragment",
+        "id": "@id/firmware_list"
+      }
+    },
+    {
+      "split": "com.panasonic.jp.lumixlab-22",
+      "file": "res/navigation/nav_graph.xml",
+      "type": "fragment",
+      "attributes": {
+        "name": "com.panasonic.jp.lumixlab.controller.fragment.FirmwareUpdateDetailFragment",
+        "id": "@id/firmware_detail"
+      }
+    },
+    {
+      "split": "com.panasonic.jp.lumixlab-22",
+      "file": "res/navigation/nav_graph.xml",
+      "type": "fragment",
+      "attributes": {
+        "name": "com.panasonic.jp.lumixlab.controller.fragment.ShutterRemoteControlFragment",
+        "id": "@id/camera_shutter_remote_control"
+      }
+    },
+    {
+      "split": "com.panasonic.jp.lumixlab-22",
+      "file": "res/navigation/nav_graph.xml",
+      "type": "fragment",
+      "attributes": {
+        "name": "com.panasonic.jp.lumixlab.controller.fragment.LiveDeliveryFragment",
+        "id": "@id/live_delivery"
+      }
+    },
+    {
+      "split": "com.panasonic.jp.lumixlab-22",
+      "file": "res/navigation/nav_graph.xml",
+      "type": "fragment",
+      "attributes": {
+        "name": "com.panasonic.jp.lumixlab.controller.fragment.LiveDeliverySettingFragment",
+        "id": "@id/live_delivery_setting"
+      }
+    },
+    {
+      "split": "com.panasonic.jp.lumixlab-22",
+      "file": "res/navigation/nav_graph.xml",
+      "type": "fragment",
+      "attributes": {
+        "name": "com.panasonic.jp.lumixlab.controller.fragment.LiveDeliveryWaitingFragment",
+        "id": "@id/live_delivery_waiting"
+      }
+    },
+    {
+      "split": "com.panasonic.jp.lumixlab-22",
+      "file": "res/navigation/nav_graph.xml",
+      "type": "fragment",
+      "attributes": {
+        "name": "com.panasonic.jp.lumixlab.controller.fragment.LiveDeliveryDeliveringFragment",
+        "id": "@id/live_delivery_delivering"
+      }
+    },
+    {
+      "split": "com.panasonic.jp.lumixlab-22",
+      "file": "res/navigation/nav_graph.xml",
+      "type": "fragment",
+      "attributes": {
+        "name": "com.panasonic.jp.lumixlab.controller.fragment.LiveDeliveryListFragment",
+        "id": "@id/live_delivery_list_fragment"
+      }
+    }
+  ],
+  "limits": "Manifest declarations/exported attributes and navigation are not runtime reachability or permission enforcement proofs."
+}

@@ -1,0 +1,6569 @@
+{
+  "methods": [
+    {
+      "method": "Lcom/google/android/gms/tasks/NativeOnCompleteListener;-><init>(J)V",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 31497,
+        "code_item_offset": 3838844,
+        "insns_offset": 3838860,
+        "code_units": 6,
+        "access_flags": 65537
+      },
+      "calls": [
+        {
+          "offset_cu": 0,
+          "opcode": "invoke-direct",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/Object;-><init>()V"
+        }
+      ],
+      "instruction_sha256": "64bc1de186cb94e618f2097390483ad02a1d4fd735c220faf59b39cdf156ce6f",
+      "selected_instructions": []
+    },
+    {
+      "method": "Lcom/google/android/gms/tasks/NativeOnCompleteListener;->createAndAddCallback(Lcom/google/android/gms/tasks/Task;J)V",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 31498,
+        "code_item_offset": 3838872,
+        "insns_offset": 3838888,
+        "code_units": 9,
+        "access_flags": 9
+      },
+      "calls": [
+        {
+          "offset_cu": 2,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            2,
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/google/android/gms/tasks/NativeOnCompleteListener;-><init>(J)V"
+        },
+        {
+          "offset_cu": 5,
+          "opcode": "invoke-virtual",
+          "registers": [
+            1,
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/google/android/gms/tasks/Task;->addOnCompleteListener(Lcom/google/android/gms/tasks/OnCompleteListener;)Lcom/google/android/gms/tasks/Task;"
+        }
+      ],
+      "instruction_sha256": "9a9ba1cce454baaf05b06c3fe2d61945894902b6ce6dcd54fa78ccad1b0ba5ab",
+      "selected_instructions": []
+    },
+    {
+      "method": "Lcom/google/android/gms/tasks/NativeOnCompleteListener;->nativeOnComplete(JLjava/lang/Object;ZZLjava/lang/String;)V",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 31499,
+        "code_item_offset": 0,
+        "insns_offset": null,
+        "code_units": 0,
+        "access_flags": 257
+      },
+      "calls": [],
+      "instruction_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "selected_instructions": []
+    },
+    {
+      "method": "Lcom/google/android/gms/tasks/NativeOnCompleteListener;->onComplete(Lcom/google/android/gms/tasks/Task;)V",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 31500,
+        "code_item_offset": 3838908,
+        "insns_offset": 3838924,
+        "code_units": 50,
+        "access_flags": 1
+      },
+      "calls": [
+        {
+          "offset_cu": 0,
+          "opcode": "invoke-virtual",
+          "registers": [
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/google/android/gms/tasks/Task;->isSuccessful()Z"
+        },
+        {
+          "offset_cu": 7,
+          "opcode": "invoke-virtual",
+          "registers": [
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/google/android/gms/tasks/Task;->getResult()Ljava/lang/Object;"
+        },
+        {
+          "offset_cu": 14,
+          "opcode": "invoke-virtual",
+          "registers": [
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/google/android/gms/tasks/Task;->isCanceled()Z"
+        },
+        {
+          "offset_cu": 20,
+          "opcode": "invoke-virtual",
+          "registers": [
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/google/android/gms/tasks/Task;->getException()Ljava/lang/Exception;"
+        },
+        {
+          "offset_cu": 26,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/Throwable;->getMessage()Ljava/lang/String;"
+        },
+        {
+          "offset_cu": 37,
+          "opcode": "invoke-virtual",
+          "registers": [
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/google/android/gms/tasks/Task;->isSuccessful()Z"
+        },
+        {
+          "offset_cu": 41,
+          "opcode": "invoke-virtual",
+          "registers": [
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/google/android/gms/tasks/Task;->isCanceled()Z"
+        },
+        {
+          "offset_cu": 46,
+          "opcode": "invoke-virtual/range",
+          "registers": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/google/android/gms/tasks/NativeOnCompleteListener;->nativeOnComplete(JLjava/lang/Object;ZZLjava/lang/String;)V"
+        }
+      ],
+      "instruction_sha256": "3f3636085618b18c721b7e173f523f4653fa3e5bcf2e6401f311f1e551db768d",
+      "selected_instructions": [
+        {
+          "offset_cu": 0,
+          "opcode": "invoke-virtual",
+          "registers": [
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/google/android/gms/tasks/Task;->isSuccessful()Z",
+          "file_offset": 3838924,
+          "raw_hex": "6e102b7b0a00"
+        },
+        {
+          "offset_cu": 5,
+          "opcode": "if-eqz",
+          "registers": [
+            0
+          ],
+          "width_cu": 2,
+          "target_cu": 14,
+          "file_offset": 3838934,
+          "raw_hex": "38000900"
+        },
+        {
+          "offset_cu": 7,
+          "opcode": "invoke-virtual",
+          "registers": [
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/google/android/gms/tasks/Task;->getResult()Ljava/lang/Object;",
+          "file_offset": 3838938,
+          "raw_hex": "6e10277b0a00"
+        },
+        {
+          "offset_cu": 13,
+          "opcode": "goto",
+          "registers": [],
+          "width_cu": 1,
+          "target_cu": 35,
+          "file_offset": 3838950,
+          "raw_hex": "2816"
+        },
+        {
+          "offset_cu": 14,
+          "opcode": "invoke-virtual",
+          "registers": [
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/google/android/gms/tasks/Task;->isCanceled()Z",
+          "file_offset": 3838952,
+          "raw_hex": "6e10297b0a00"
+        },
+        {
+          "offset_cu": 18,
+          "opcode": "if-nez",
+          "registers": [
+            0
+          ],
+          "width_cu": 2,
+          "target_cu": 33,
+          "file_offset": 3838960,
+          "raw_hex": "39000f00"
+        },
+        {
+          "offset_cu": 20,
+          "opcode": "invoke-virtual",
+          "registers": [
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/google/android/gms/tasks/Task;->getException()Ljava/lang/Exception;",
+          "file_offset": 3838964,
+          "raw_hex": "6e10267b0a00"
+        },
+        {
+          "offset_cu": 24,
+          "opcode": "if-eqz",
+          "registers": [
+            0
+          ],
+          "width_cu": 2,
+          "target_cu": 33,
+          "file_offset": 3838972,
+          "raw_hex": "38000900"
+        },
+        {
+          "offset_cu": 26,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/Throwable;->getMessage()Ljava/lang/String;",
+          "file_offset": 3838976,
+          "raw_hex": "6e105ac00000"
+        },
+        {
+          "offset_cu": 32,
+          "opcode": "goto",
+          "registers": [],
+          "width_cu": 1,
+          "target_cu": 35,
+          "file_offset": 3838988,
+          "raw_hex": "2803"
+        },
+        {
+          "offset_cu": 37,
+          "opcode": "invoke-virtual",
+          "registers": [
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/google/android/gms/tasks/Task;->isSuccessful()Z",
+          "file_offset": 3838998,
+          "raw_hex": "6e102b7b0a00"
+        },
+        {
+          "offset_cu": 41,
+          "opcode": "invoke-virtual",
+          "registers": [
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/google/android/gms/tasks/Task;->isCanceled()Z",
+          "file_offset": 3839006,
+          "raw_hex": "6e10297b0a00"
+        },
+        {
+          "offset_cu": 46,
+          "opcode": "invoke-virtual/range",
+          "registers": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/google/android/gms/tasks/NativeOnCompleteListener;->nativeOnComplete(JLjava/lang/Object;ZZLjava/lang/String;)V",
+          "file_offset": 3839016,
+          "raw_hex": "74070b7b0200"
+        }
+      ]
+    },
+    {
+      "method": "Ll0/c;->b(I)V",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 51996,
+        "code_item_offset": 4810588,
+        "insns_offset": 4810604,
+        "code_units": 66,
+        "access_flags": 17
+      },
+      "calls": [
+        {
+          "offset_cu": 10,
+          "opcode": "invoke-virtual",
+          "registers": [
+            2,
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/DataOutputStream;->write(I)V"
+        },
+        {
+          "offset_cu": 17,
+          "opcode": "invoke-virtual",
+          "registers": [
+            2,
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/DataOutputStream;->write(I)V"
+        },
+        {
+          "offset_cu": 24,
+          "opcode": "invoke-virtual",
+          "registers": [
+            2,
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/DataOutputStream;->write(I)V"
+        },
+        {
+          "offset_cu": 31,
+          "opcode": "invoke-virtual",
+          "registers": [
+            2,
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/DataOutputStream;->write(I)V"
+        },
+        {
+          "offset_cu": 43,
+          "opcode": "invoke-virtual",
+          "registers": [
+            2,
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/DataOutputStream;->write(I)V"
+        },
+        {
+          "offset_cu": 50,
+          "opcode": "invoke-virtual",
+          "registers": [
+            2,
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/DataOutputStream;->write(I)V"
+        },
+        {
+          "offset_cu": 57,
+          "opcode": "invoke-virtual",
+          "registers": [
+            2,
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/DataOutputStream;->write(I)V"
+        },
+        {
+          "offset_cu": 62,
+          "opcode": "invoke-virtual",
+          "registers": [
+            2,
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/DataOutputStream;->write(I)V"
+        }
+      ],
+      "instruction_sha256": "0c99906e2637313de3e6b55eb749a7958f2aa13f69bff612fcb253d181713477",
+      "selected_instructions": []
+    },
+    {
+      "method": "Ll0/h;-><clinit>()V",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 52025,
+        "code_item_offset": 4819444,
+        "insns_offset": 4819460,
+        "code_units": 3068,
+        "access_flags": 65544
+      },
+      "calls": [
+        {
+          "offset_cu": 1,
+          "opcode": "invoke-static",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;"
+        },
+        {
+          "offset_cu": 7,
+          "opcode": "invoke-static",
+          "registers": [
+            2,
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z"
+        },
+        {
+          "offset_cu": 14,
+          "opcode": "invoke-static",
+          "registers": [
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;"
+        },
+        {
+          "offset_cu": 19,
+          "opcode": "invoke-static",
+          "registers": [
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;"
+        },
+        {
+          "offset_cu": 25,
+          "opcode": "invoke-static",
+          "registers": [
+            6
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;"
+        },
+        {
+          "offset_cu": 33,
+          "opcode": "invoke-static",
+          "registers": [
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;"
+        },
+        {
+          "offset_cu": 40,
+          "opcode": "invoke-static",
+          "registers": [
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;"
+        },
+        {
+          "offset_cu": 45,
+          "opcode": "invoke-static",
+          "registers": [
+            9
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;"
+        },
+        {
+          "offset_cu": 50,
+          "opcode": "invoke-static",
+          "registers": [
+            11
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;"
+        },
+        {
+          "offset_cu": 55,
+          "opcode": "invoke-static",
+          "registers": [
+            13
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;"
+        },
+        {
+          "offset_cu": 63,
+          "opcode": "invoke-static",
+          "registers": [
+            12
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;"
+        },
+        {
+          "offset_cu": 150,
+          "opcode": "invoke-virtual",
+          "registers": [
+            12,
+            15
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B"
+        },
+        {
+          "offset_cu": 186,
+          "opcode": "invoke-static",
+          "registers": [],
+          "width_cu": 3,
+          "reference": "Ljava/nio/charset/Charset;->defaultCharset()Ljava/nio/charset/Charset;"
+        },
+        {
+          "offset_cu": 190,
+          "opcode": "invoke-virtual",
+          "registers": [
+            12,
+            15
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B"
+        },
+        {
+          "offset_cu": 198,
+          "opcode": "invoke-static",
+          "registers": [],
+          "width_cu": 3,
+          "reference": "Ljava/nio/charset/Charset;->defaultCharset()Ljava/nio/charset/Charset;"
+        },
+        {
+          "offset_cu": 202,
+          "opcode": "invoke-virtual",
+          "registers": [
+            12,
+            15
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B"
+        },
+        {
+          "offset_cu": 210,
+          "opcode": "invoke-static",
+          "registers": [],
+          "width_cu": 3,
+          "reference": "Ljava/nio/charset/Charset;->defaultCharset()Ljava/nio/charset/Charset;"
+        },
+        {
+          "offset_cu": 214,
+          "opcode": "invoke-virtual",
+          "registers": [
+            12,
+            15
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B"
+        },
+        {
+          "offset_cu": 222,
+          "opcode": "invoke-static",
+          "registers": [],
+          "width_cu": 3,
+          "reference": "Ljava/nio/charset/Charset;->defaultCharset()Ljava/nio/charset/Charset;"
+        },
+        {
+          "offset_cu": 226,
+          "opcode": "invoke-virtual",
+          "registers": [
+            12,
+            15
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B"
+        },
+        {
+          "offset_cu": 234,
+          "opcode": "invoke-static",
+          "registers": [],
+          "width_cu": 3,
+          "reference": "Ljava/nio/charset/Charset;->defaultCharset()Ljava/nio/charset/Charset;"
+        },
+        {
+          "offset_cu": 238,
+          "opcode": "invoke-virtual",
+          "registers": [
+            12,
+            15
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B"
+        },
+        {
+          "offset_cu": 302,
+          "opcode": "invoke-direct",
+          "registers": [
+            15,
+            12,
+            6,
+            11
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 313,
+          "opcode": "invoke-direct",
+          "registers": [
+            15,
+            6,
+            2,
+            11
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 324,
+          "opcode": "invoke-direct",
+          "registers": [
+            15,
+            2,
+            9,
+            0,
+            11
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;III)V"
+        },
+        {
+          "offset_cu": 335,
+          "opcode": "invoke-direct",
+          "registers": [
+            2,
+            15,
+            9,
+            0,
+            11
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;III)V"
+        },
+        {
+          "offset_cu": 346,
+          "opcode": "invoke-direct",
+          "registers": [
+            2,
+            15,
+            9,
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 357,
+          "opcode": "invoke-direct",
+          "registers": [
+            2,
+            9,
+            4,
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 368,
+          "opcode": "invoke-direct",
+          "registers": [
+            2,
+            4,
+            13,
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 379,
+          "opcode": "invoke-direct",
+          "registers": [
+            2,
+            13,
+            0,
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 390,
+          "opcode": "invoke-direct",
+          "registers": [
+            2,
+            0,
+            11,
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 403,
+          "opcode": "invoke-direct",
+          "registers": [
+            2,
+            11,
+            7,
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 420,
+          "opcode": "invoke-direct",
+          "registers": [
+            2,
+            7,
+            5,
+            10,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;III)V"
+        },
+        {
+          "offset_cu": 431,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            2,
+            5,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 442,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            2,
+            5,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 458,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10,
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;III)V"
+        },
+        {
+          "offset_cu": 469,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10,
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;III)V"
+        },
+        {
+          "offset_cu": 481,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            3,
+            5,
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 492,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            3,
+            5,
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 504,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            3,
+            5,
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 515,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            3,
+            5,
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 526,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            3,
+            5,
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 538,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            3,
+            5,
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 549,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            3,
+            5,
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 560,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            3,
+            5,
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 572,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            3,
+            5,
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 583,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            3,
+            5,
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 595,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            3,
+            5,
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 606,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            10,
+            5,
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 617,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            10,
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 629,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 641,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 652,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 664,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 677,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 690,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 704,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            14,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 713,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            14,
+            10,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 725,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            14,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 735,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            14,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 745,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            14,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 757,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 769,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 781,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 798,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 810,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 823,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 836,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 849,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 862,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 875,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 888,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 900,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 912,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 924,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 936,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 949,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 961,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 973,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 985,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 997,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1009,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1022,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1035,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1049,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1062,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1076,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1088,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1101,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1113,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1126,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1138,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1150,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1163,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1176,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1189,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1201,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1214,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1226,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1238,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1251,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1264,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1279,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14,
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;III)V"
+        },
+        {
+          "offset_cu": 1291,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14,
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;III)V"
+        },
+        {
+          "offset_cu": 1304,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1316,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            8,
+            10,
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1329,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1342,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1354,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1366,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1379,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1391,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1404,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1416,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1429,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1441,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1453,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1466,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1478,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1490,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1503,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1515,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1527,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1539,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1551,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1563,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1575,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1588,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1600,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1613,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1625,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1637,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1650,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1662,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1674,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1687,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1700,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1714,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            14,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;III)V"
+        },
+        {
+          "offset_cu": 1729,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            10,
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1739,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1751,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            10,
+            8,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;III)V"
+        },
+        {
+          "offset_cu": 1761,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1772,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;III)V"
+        },
+        {
+          "offset_cu": 1782,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            10,
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1792,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1802,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1814,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1825,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1836,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1848,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1859,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1870,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1881,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1892,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1903,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1914,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1925,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1936,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1948,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1959,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1970,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1981,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 1992,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2003,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2014,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2026,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2037,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2049,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2061,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2073,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2086,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            5,
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2100,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            12,
+            8,
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2109,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            6,
+            8,
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2121,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            6,
+            10,
+            8,
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;III)V"
+        },
+        {
+          "offset_cu": 2132,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            6,
+            10,
+            8,
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;III)V"
+        },
+        {
+          "offset_cu": 2141,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            15,
+            5,
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2150,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            9,
+            5,
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2159,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            4,
+            5,
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2169,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            13,
+            5,
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2178,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            0,
+            5,
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2187,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            11,
+            1,
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2198,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            7,
+            5,
+            1,
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;III)V"
+        },
+        {
+          "offset_cu": 2209,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            4,
+            5,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2218,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            2,
+            4,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2230,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            2,
+            4,
+            1,
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;III)V"
+        },
+        {
+          "offset_cu": 2241,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            2,
+            4,
+            1,
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;III)V"
+        },
+        {
+          "offset_cu": 2253,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2264,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2276,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2287,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2298,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2310,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2321,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2332,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2344,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2355,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2365,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            3,
+            2,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2376,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            2,
+            4,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2387,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            2,
+            4,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2399,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2411,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2422,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2434,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2447,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2460,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            2,
+            4,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2472,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            4,
+            5,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2485,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            5,
+            6,
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2498,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            5,
+            6,
+            8,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;III)V"
+        },
+        {
+          "offset_cu": 2509,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            7,
+            5,
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2521,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            5,
+            7,
+            6
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2530,
+          "opcode": "invoke-direct",
+          "registers": [
+            5,
+            6,
+            7,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2539,
+          "opcode": "invoke-direct",
+          "registers": [
+            6,
+            7,
+            8,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2552,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            5,
+            6,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2561,
+          "opcode": "invoke-direct",
+          "registers": [
+            5,
+            6,
+            7,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2575,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            1,
+            5,
+            6
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2588,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            1,
+            5,
+            6
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2608,
+          "opcode": "invoke-direct",
+          "registers": [
+            5,
+            3,
+            1,
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2616,
+          "opcode": "invoke-direct",
+          "registers": [
+            6,
+            2,
+            1,
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2624,
+          "opcode": "invoke-direct",
+          "registers": [
+            7,
+            4,
+            1,
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2634,
+          "opcode": "invoke-direct",
+          "registers": [
+            8,
+            1,
+            2,
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2644,
+          "opcode": "invoke-direct",
+          "registers": [
+            9,
+            0,
+            1,
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2653,
+          "opcode": "invoke-direct",
+          "registers": [
+            10,
+            0,
+            1,
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/e;-><init>(Ljava/lang/String;II)V"
+        },
+        {
+          "offset_cu": 2686,
+          "opcode": "invoke-static",
+          "registers": [
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;"
+        },
+        {
+          "offset_cu": 2690,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/HashSet;-><init>(Ljava/util/Collection;)V"
+        },
+        {
+          "offset_cu": 2693,
+          "opcode": "invoke-static",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/Collections;->unmodifiableSet(Ljava/util/Set;)Ljava/util/Set;"
+        },
+        {
+          "offset_cu": 2701,
+          "opcode": "invoke-direct",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/HashMap;-><init>()V"
+        },
+        {
+          "offset_cu": 2708,
+          "opcode": "invoke-static",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/nio/charset/Charset;->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;"
+        },
+        {
+          "offset_cu": 2716,
+          "opcode": "invoke-virtual",
+          "registers": [
+            1,
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B"
+        },
+        {
+          "offset_cu": 2724,
+          "opcode": "invoke-virtual",
+          "registers": [
+            1,
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B"
+        },
+        {
+          "offset_cu": 2736,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            2,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;Ljava/util/Locale;)V"
+        },
+        {
+          "offset_cu": 2741,
+          "opcode": "invoke-static",
+          "registers": [
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/TimeZone;->getTimeZone(Ljava/lang/String;)Ljava/util/TimeZone;"
+        },
+        {
+          "offset_cu": 2745,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0,
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/text/DateFormat;->setTimeZone(Ljava/util/TimeZone;)V"
+        },
+        {
+          "offset_cu": 2752,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            2,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;Ljava/util/Locale;)V"
+        },
+        {
+          "offset_cu": 2757,
+          "opcode": "invoke-static",
+          "registers": [
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/TimeZone;->getTimeZone(Ljava/lang/String;)Ljava/util/TimeZone;"
+        },
+        {
+          "offset_cu": 2761,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/text/DateFormat;->setTimeZone(Ljava/util/TimeZone;)V"
+        },
+        {
+          "offset_cu": 2774,
+          "opcode": "invoke-direct",
+          "registers": [
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/HashMap;-><init>()V"
+        },
+        {
+          "offset_cu": 2783,
+          "opcode": "invoke-direct",
+          "registers": [
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/HashMap;-><init>()V"
+        },
+        {
+          "offset_cu": 2802,
+          "opcode": "invoke-static",
+          "registers": [
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;"
+        },
+        {
+          "offset_cu": 2806,
+          "opcode": "invoke-virtual",
+          "registers": [
+            4,
+            5,
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+        },
+        {
+          "offset_cu": 2815,
+          "opcode": "invoke-virtual",
+          "registers": [
+            4,
+            5,
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+        },
+        {
+          "offset_cu": 2834,
+          "opcode": "invoke-static",
+          "registers": [
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;"
+        },
+        {
+          "offset_cu": 2840,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0,
+            2,
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+        },
+        {
+          "offset_cu": 2847,
+          "opcode": "invoke-static",
+          "registers": [
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;"
+        },
+        {
+          "offset_cu": 2853,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0,
+            2,
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+        },
+        {
+          "offset_cu": 2861,
+          "opcode": "invoke-static",
+          "registers": [
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;"
+        },
+        {
+          "offset_cu": 2867,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0,
+            2,
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+        },
+        {
+          "offset_cu": 2875,
+          "opcode": "invoke-static",
+          "registers": [
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;"
+        },
+        {
+          "offset_cu": 2881,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0,
+            2,
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+        },
+        {
+          "offset_cu": 2889,
+          "opcode": "invoke-static",
+          "registers": [
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;"
+        },
+        {
+          "offset_cu": 2895,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0,
+            2,
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+        },
+        {
+          "offset_cu": 2903,
+          "opcode": "invoke-static",
+          "registers": [
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;"
+        },
+        {
+          "offset_cu": 2909,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0,
+            1,
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+        },
+        {
+          "offset_cu": 2914,
+          "opcode": "invoke-static",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;"
+        },
+        {
+          "offset_cu": 2919,
+          "opcode": "invoke-static",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;"
+        },
+        {
+          "offset_cu": 2927,
+          "opcode": "invoke-static",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;"
+        },
+        {
+          "offset_cu": 2935,
+          "opcode": "invoke-static",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;"
+        }
+      ],
+      "instruction_sha256": "6a9e6dbbfafdae45f09de9131e13cd317d9095cbb229ea8125c28d3083089299",
+      "selected_instructions": []
+    },
+    {
+      "method": "Ll0/h;->D(Ljava/io/BufferedInputStream;Ljava/io/BufferedOutputStream;)V",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 52034,
+        "code_item_offset": 4835344,
+        "insns_offset": 4835360,
+        "code_units": 199,
+        "access_flags": 17
+      },
+      "calls": [
+        {
+          "offset_cu": 8,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V"
+        },
+        {
+          "offset_cu": 11,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0,
+            9
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;"
+        },
+        {
+          "offset_cu": 16,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+        },
+        {
+          "offset_cu": 19,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;"
+        },
+        {
+          "offset_cu": 24,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+        },
+        {
+          "offset_cu": 27,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/StringBuilder;->toString()Ljava/lang/String;"
+        },
+        {
+          "offset_cu": 33,
+          "opcode": "invoke-static",
+          "registers": [
+            1,
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I"
+        },
+        {
+          "offset_cu": 38,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            9
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/b;-><init>(Ljava/io/InputStream;)V"
+        },
+        {
+          "offset_cu": 45,
+          "opcode": "invoke-direct",
+          "registers": [
+            9,
+            10,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/c;-><init>(Ljava/io/OutputStream;Ljava/nio/ByteOrder;)V"
+        },
+        {
+          "offset_cu": 51,
+          "opcode": "invoke-static",
+          "registers": [
+            0,
+            9,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/i;->e(Ll0/b;Ll0/c;I)V"
+        },
+        {
+          "offset_cu": 70,
+          "opcode": "invoke-static",
+          "registers": [
+            0,
+            9
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/i;->d(Ljava/io/InputStream;Ljava/io/OutputStream;)V"
+        },
+        {
+          "offset_cu": 74,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/b;->readInt()I"
+        },
+        {
+          "offset_cu": 78,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/b;->readInt()I"
+        },
+        {
+          "offset_cu": 87,
+          "opcode": "invoke-virtual",
+          "registers": [
+            9,
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/c;->b(I)V"
+        },
+        {
+          "offset_cu": 90,
+          "opcode": "invoke-virtual",
+          "registers": [
+            9,
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/c;->b(I)V"
+        },
+        {
+          "offset_cu": 95,
+          "opcode": "invoke-static",
+          "registers": [
+            0,
+            9,
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/i;->e(Ll0/b;Ll0/c;I)V"
+        },
+        {
+          "offset_cu": 102,
+          "opcode": "invoke-virtual",
+          "registers": [
+            8,
+            9
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/h;->L(Ll0/c;)V"
+        },
+        {
+          "offset_cu": 114,
+          "opcode": "invoke-virtual",
+          "registers": [
+            8,
+            9
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/h;->M(Ll0/c;)V"
+        },
+        {
+          "offset_cu": 126,
+          "opcode": "invoke-virtual",
+          "registers": [
+            8,
+            9
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/h;->L(Ll0/c;)V"
+        },
+        {
+          "offset_cu": 131,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0,
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/b;->a(I)V"
+        },
+        {
+          "offset_cu": 149,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0,
+            7
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/b;->readFully([B)V"
+        },
+        {
+          "offset_cu": 156,
+          "opcode": "invoke-static",
+          "registers": [
+            7,
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/Arrays;->equals([B[B)Z"
+        },
+        {
+          "offset_cu": 166,
+          "opcode": "invoke-virtual",
+          "registers": [
+            8,
+            9
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/h;->M(Ll0/c;)V"
+        },
+        {
+          "offset_cu": 169,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0,
+            6
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/b;->a(I)V"
+        },
+        {
+          "offset_cu": 173,
+          "opcode": "invoke-virtual",
+          "registers": [
+            9,
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/c;->b(I)V"
+        },
+        {
+          "offset_cu": 176,
+          "opcode": "invoke-virtual",
+          "registers": [
+            9,
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/c;->b(I)V"
+        },
+        {
+          "offset_cu": 179,
+          "opcode": "invoke-virtual",
+          "registers": [
+            9,
+            7
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/c;->write([B)V"
+        },
+        {
+          "offset_cu": 182,
+          "opcode": "invoke-static",
+          "registers": [
+            0,
+            9,
+            6
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/i;->e(Ll0/b;Ll0/c;I)V"
+        },
+        {
+          "offset_cu": 186,
+          "opcode": "invoke-virtual",
+          "registers": [
+            9,
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/c;->b(I)V"
+        },
+        {
+          "offset_cu": 189,
+          "opcode": "invoke-virtual",
+          "registers": [
+            9,
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/c;->b(I)V"
+        },
+        {
+          "offset_cu": 194,
+          "opcode": "invoke-static",
+          "registers": [
+            0,
+            9,
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/i;->e(Ll0/b;Ll0/c;I)V"
+        }
+      ],
+      "instruction_sha256": "34064d88340eb7cbcb6b010663907af70c6b4687d52cd888cb8abfc1f83f60df",
+      "selected_instructions": [
+        {
+          "offset_cu": 2,
+          "opcode": "if-eqz",
+          "registers": [
+            0
+          ],
+          "width_cu": 2,
+          "target_cu": 36,
+          "file_offset": 4835364,
+          "raw_hex": "38002200"
+        },
+        {
+          "offset_cu": 8,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V",
+          "file_offset": 4835376,
+          "raw_hex": "70200cc01000"
+        },
+        {
+          "offset_cu": 11,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0,
+            9
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;",
+          "file_offset": 4835382,
+          "raw_hex": "6e2015c09000"
+        },
+        {
+          "offset_cu": 16,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+          "file_offset": 4835392,
+          "raw_hex": "6e2016c01000"
+        },
+        {
+          "offset_cu": 19,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;",
+          "file_offset": 4835398,
+          "raw_hex": "6e2015c0a000"
+        },
+        {
+          "offset_cu": 24,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;",
+          "file_offset": 4835408,
+          "raw_hex": "6e2016c01000"
+        },
+        {
+          "offset_cu": 27,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/StringBuilder;->toString()Ljava/lang/String;",
+          "file_offset": 4835414,
+          "raw_hex": "6e1025c00000"
+        },
+        {
+          "offset_cu": 33,
+          "opcode": "invoke-static",
+          "registers": [
+            1,
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I",
+          "file_offset": 4835426,
+          "raw_hex": "71207d390100"
+        },
+        {
+          "offset_cu": 38,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            9
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/b;-><init>(Ljava/io/InputStream;)V",
+          "file_offset": 4835436,
+          "raw_hex": "702002cb9000"
+        },
+        {
+          "offset_cu": 45,
+          "opcode": "invoke-direct",
+          "registers": [
+            9,
+            10,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/c;-><init>(Ljava/io/OutputStream;Ljava/nio/ByteOrder;)V",
+          "file_offset": 4835450,
+          "raw_hex": "70301acba901"
+        },
+        {
+          "offset_cu": 51,
+          "opcode": "invoke-static",
+          "registers": [
+            0,
+            9,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/i;->e(Ll0/b;Ll0/c;I)V",
+          "file_offset": 4835462,
+          "raw_hex": "71306bcb900a"
+        },
+        {
+          "offset_cu": 58,
+          "opcode": "if-nez",
+          "registers": [
+            10
+          ],
+          "width_cu": 2,
+          "target_cu": 64,
+          "file_offset": 4835476,
+          "raw_hex": "390a0600"
+        },
+        {
+          "offset_cu": 62,
+          "opcode": "if-eqz",
+          "registers": [
+            10
+          ],
+          "width_cu": 2,
+          "target_cu": 117,
+          "file_offset": 4835484,
+          "raw_hex": "380a3700"
+        },
+        {
+          "offset_cu": 65,
+          "opcode": "if-nez",
+          "registers": [
+            1
+          ],
+          "width_cu": 2,
+          "target_cu": 74,
+          "file_offset": 4835490,
+          "raw_hex": "39010900"
+        },
+        {
+          "offset_cu": 67,
+          "opcode": "if-eqz",
+          "registers": [
+            10
+          ],
+          "width_cu": 2,
+          "target_cu": 70,
+          "file_offset": 4835494,
+          "raw_hex": "380a0300"
+        },
+        {
+          "offset_cu": 69,
+          "opcode": "goto",
+          "registers": [],
+          "width_cu": 1,
+          "target_cu": 74,
+          "file_offset": 4835498,
+          "raw_hex": "2805"
+        },
+        {
+          "offset_cu": 70,
+          "opcode": "invoke-static",
+          "registers": [
+            0,
+            9
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/i;->d(Ljava/io/InputStream;Ljava/io/OutputStream;)V",
+          "file_offset": 4835500,
+          "raw_hex": "71206acb9000"
+        },
+        {
+          "offset_cu": 74,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/b;->readInt()I",
+          "file_offset": 4835508,
+          "raw_hex": "6e1011cb0000"
+        },
+        {
+          "offset_cu": 78,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/b;->readInt()I",
+          "file_offset": 4835516,
+          "raw_hex": "6e1011cb0000"
+        },
+        {
+          "offset_cu": 82,
+          "opcode": "const",
+          "registers": [
+            5
+          ],
+          "width_cu": 3,
+          "literal": 1229472850,
+          "file_offset": 4835524,
+          "raw_hex": "140552444849"
+        },
+        {
+          "offset_cu": 85,
+          "opcode": "if-ne",
+          "registers": [
+            4,
+            5
+          ],
+          "width_cu": 2,
+          "target_cu": 119,
+          "file_offset": 4835530,
+          "raw_hex": "33542200"
+        },
+        {
+          "offset_cu": 87,
+          "opcode": "invoke-virtual",
+          "registers": [
+            9,
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/c;->b(I)V",
+          "file_offset": 4835534,
+          "raw_hex": "6e201ccb3900"
+        },
+        {
+          "offset_cu": 90,
+          "opcode": "invoke-virtual",
+          "registers": [
+            9,
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/c;->b(I)V",
+          "file_offset": 4835540,
+          "raw_hex": "6e201ccb4900"
+        },
+        {
+          "offset_cu": 95,
+          "opcode": "invoke-static",
+          "registers": [
+            0,
+            9,
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/i;->e(Ll0/b;Ll0/c;I)V",
+          "file_offset": 4835550,
+          "raw_hex": "71306bcb9003"
+        },
+        {
+          "offset_cu": 100,
+          "opcode": "if-nez",
+          "registers": [
+            3
+          ],
+          "width_cu": 2,
+          "target_cu": 106,
+          "file_offset": 4835560,
+          "raw_hex": "39030600"
+        },
+        {
+          "offset_cu": 102,
+          "opcode": "invoke-virtual",
+          "registers": [
+            8,
+            9
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/h;->L(Ll0/c;)V",
+          "file_offset": 4835564,
+          "raw_hex": "6e204acb9800"
+        },
+        {
+          "offset_cu": 108,
+          "opcode": "if-eqz",
+          "registers": [
+            3
+          ],
+          "width_cu": 2,
+          "target_cu": 65,
+          "file_offset": 4835576,
+          "raw_hex": "3803d5ff"
+        },
+        {
+          "offset_cu": 112,
+          "opcode": "if-nez",
+          "registers": [
+            3
+          ],
+          "width_cu": 2,
+          "target_cu": 65,
+          "file_offset": 4835584,
+          "raw_hex": "3903d1ff"
+        },
+        {
+          "offset_cu": 114,
+          "opcode": "invoke-virtual",
+          "registers": [
+            8,
+            9
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/h;->M(Ll0/c;)V",
+          "file_offset": 4835588,
+          "raw_hex": "6e204bcb9800"
+        },
+        {
+          "offset_cu": 118,
+          "opcode": "goto",
+          "registers": [],
+          "width_cu": 1,
+          "target_cu": 65,
+          "file_offset": 4835596,
+          "raw_hex": "28cb"
+        },
+        {
+          "offset_cu": 119,
+          "opcode": "const",
+          "registers": [
+            5
+          ],
+          "width_cu": 3,
+          "literal": 1700284774,
+          "file_offset": 4835598,
+          "raw_hex": "140566495865"
+        },
+        {
+          "offset_cu": 122,
+          "opcode": "if-ne",
+          "registers": [
+            4,
+            5
+          ],
+          "width_cu": 2,
+          "target_cu": 136,
+          "file_offset": 4835604,
+          "raw_hex": "33540e00"
+        },
+        {
+          "offset_cu": 124,
+          "opcode": "if-eqz",
+          "registers": [
+            1
+          ],
+          "width_cu": 2,
+          "target_cu": 136,
+          "file_offset": 4835608,
+          "raw_hex": "38010c00"
+        },
+        {
+          "offset_cu": 126,
+          "opcode": "invoke-virtual",
+          "registers": [
+            8,
+            9
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/h;->L(Ll0/c;)V",
+          "file_offset": 4835612,
+          "raw_hex": "6e204acb9800"
+        },
+        {
+          "offset_cu": 131,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0,
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/b;->a(I)V",
+          "file_offset": 4835622,
+          "raw_hex": "6e2005cb3000"
+        },
+        {
+          "offset_cu": 135,
+          "opcode": "goto",
+          "registers": [],
+          "width_cu": 1,
+          "target_cu": 65,
+          "file_offset": 4835630,
+          "raw_hex": "28ba"
+        },
+        {
+          "offset_cu": 136,
+          "opcode": "const",
+          "registers": [
+            5
+          ],
+          "width_cu": 3,
+          "literal": 1767135348,
+          "file_offset": 4835632,
+          "raw_hex": "140574585469"
+        },
+        {
+          "offset_cu": 139,
+          "opcode": "if-ne",
+          "registers": [
+            4,
+            5
+          ],
+          "width_cu": 2,
+          "target_cu": 186,
+          "file_offset": 4835638,
+          "raw_hex": "33542f00"
+        },
+        {
+          "offset_cu": 144,
+          "opcode": "if-lt",
+          "registers": [
+            3,
+            6
+          ],
+          "width_cu": 2,
+          "target_cu": 186,
+          "file_offset": 4835648,
+          "raw_hex": "34632a00"
+        },
+        {
+          "offset_cu": 149,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0,
+            7
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/b;->readFully([B)V",
+          "file_offset": 4835658,
+          "raw_hex": "6e200fcb7000"
+        },
+        {
+          "offset_cu": 156,
+          "opcode": "invoke-static",
+          "registers": [
+            7,
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/Arrays;->equals([B[B)Z",
+          "file_offset": 4835672,
+          "raw_hex": "712048c25700"
+        },
+        {
+          "offset_cu": 160,
+          "opcode": "if-eqz",
+          "registers": [
+            5
+          ],
+          "width_cu": 2,
+          "target_cu": 173,
+          "file_offset": 4835680,
+          "raw_hex": "38050d00"
+        },
+        {
+          "offset_cu": 164,
+          "opcode": "if-eqz",
+          "registers": [
+            10
+          ],
+          "width_cu": 2,
+          "target_cu": 169,
+          "file_offset": 4835688,
+          "raw_hex": "380a0500"
+        },
+        {
+          "offset_cu": 166,
+          "opcode": "invoke-virtual",
+          "registers": [
+            8,
+            9
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/h;->M(Ll0/c;)V",
+          "file_offset": 4835692,
+          "raw_hex": "6e204bcb9800"
+        },
+        {
+          "offset_cu": 169,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0,
+            6
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/b;->a(I)V",
+          "file_offset": 4835698,
+          "raw_hex": "6e2005cb6000"
+        },
+        {
+          "offset_cu": 172,
+          "opcode": "goto",
+          "registers": [],
+          "width_cu": 1,
+          "target_cu": 117,
+          "file_offset": 4835704,
+          "raw_hex": "28c9"
+        },
+        {
+          "offset_cu": 173,
+          "opcode": "invoke-virtual",
+          "registers": [
+            9,
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/c;->b(I)V",
+          "file_offset": 4835706,
+          "raw_hex": "6e201ccb3900"
+        },
+        {
+          "offset_cu": 176,
+          "opcode": "invoke-virtual",
+          "registers": [
+            9,
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/c;->b(I)V",
+          "file_offset": 4835712,
+          "raw_hex": "6e201ccb4900"
+        },
+        {
+          "offset_cu": 179,
+          "opcode": "invoke-virtual",
+          "registers": [
+            9,
+            7
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/c;->write([B)V",
+          "file_offset": 4835718,
+          "raw_hex": "6e2020cb7900"
+        },
+        {
+          "offset_cu": 182,
+          "opcode": "invoke-static",
+          "registers": [
+            0,
+            9,
+            6
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/i;->e(Ll0/b;Ll0/c;I)V",
+          "file_offset": 4835724,
+          "raw_hex": "71306bcb9006"
+        },
+        {
+          "offset_cu": 185,
+          "opcode": "goto",
+          "registers": [],
+          "width_cu": 1,
+          "target_cu": 65,
+          "file_offset": 4835730,
+          "raw_hex": "2888"
+        },
+        {
+          "offset_cu": 186,
+          "opcode": "invoke-virtual",
+          "registers": [
+            9,
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/c;->b(I)V",
+          "file_offset": 4835732,
+          "raw_hex": "6e201ccb3900"
+        },
+        {
+          "offset_cu": 189,
+          "opcode": "invoke-virtual",
+          "registers": [
+            9,
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/c;->b(I)V",
+          "file_offset": 4835738,
+          "raw_hex": "6e201ccb4900"
+        },
+        {
+          "offset_cu": 194,
+          "opcode": "invoke-static",
+          "registers": [
+            0,
+            9,
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/i;->e(Ll0/b;Ll0/c;I)V",
+          "file_offset": 4835748,
+          "raw_hex": "71306bcb9003"
+        },
+        {
+          "offset_cu": 197,
+          "opcode": "goto/16",
+          "registers": [],
+          "width_cu": 2,
+          "target_cu": 65,
+          "file_offset": 4835754,
+          "raw_hex": "29007cff"
+        }
+      ]
+    },
+    {
+      "method": "Ll0/h;->L(Ll0/c;)V",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 52042,
+        "code_item_offset": 4841676,
+        "insns_offset": 4841692,
+        "code_units": 52,
+        "access_flags": 17
+      },
+      "calls": [
+        {
+          "offset_cu": 2,
+          "opcode": "invoke-direct",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/ByteArrayOutputStream;-><init>()V"
+        },
+        {
+          "offset_cu": 9,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            0,
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/c;-><init>(Ljava/io/OutputStream;Ljava/nio/ByteOrder;)V"
+        },
+        {
+          "offset_cu": 12,
+          "opcode": "invoke-virtual",
+          "registers": [
+            3,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/h;->K(Ll0/c;)I"
+        },
+        {
+          "offset_cu": 18,
+          "opcode": "invoke-virtual",
+          "registers": [
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/DataOutputStream;->size()I"
+        },
+        {
+          "offset_cu": 25,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/ByteArrayOutputStream;->toByteArray()[B"
+        },
+        {
+          "offset_cu": 29,
+          "opcode": "invoke-virtual",
+          "registers": [
+            4,
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/c;->write([B)V"
+        },
+        {
+          "offset_cu": 34,
+          "opcode": "invoke-direct",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/zip/CRC32;-><init>()V"
+        },
+        {
+          "offset_cu": 40,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0,
+            3,
+            2,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/zip/CRC32;->update([BII)V"
+        },
+        {
+          "offset_cu": 43,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/zip/CRC32;->getValue()J"
+        },
+        {
+          "offset_cu": 48,
+          "opcode": "invoke-virtual",
+          "registers": [
+            4,
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/c;->b(I)V"
+        }
+      ],
+      "instruction_sha256": "c2f1f7cabeb1c93c1e6cd3d3f7d6644a790cdf736659fa98c43d504dafc53951",
+      "selected_instructions": [
+        {
+          "offset_cu": 2,
+          "opcode": "invoke-direct",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/ByteArrayOutputStream;-><init>()V",
+          "file_offset": 4841696,
+          "raw_hex": "7010e2bd0000"
+        },
+        {
+          "offset_cu": 9,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            0,
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/c;-><init>(Ljava/io/OutputStream;Ljava/nio/ByteOrder;)V",
+          "file_offset": 4841710,
+          "raw_hex": "70301acb0102"
+        },
+        {
+          "offset_cu": 12,
+          "opcode": "invoke-virtual",
+          "registers": [
+            3,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/h;->K(Ll0/c;)I",
+          "file_offset": 4841716,
+          "raw_hex": "6e2049cb1300"
+        },
+        {
+          "offset_cu": 18,
+          "opcode": "invoke-virtual",
+          "registers": [
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/DataOutputStream;->size()I",
+          "file_offset": 4841728,
+          "raw_hex": "6e10fbbd0200"
+        },
+        {
+          "offset_cu": 25,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/ByteArrayOutputStream;->toByteArray()[B",
+          "file_offset": 4841742,
+          "raw_hex": "6e10e7bd0000"
+        },
+        {
+          "offset_cu": 29,
+          "opcode": "invoke-virtual",
+          "registers": [
+            4,
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/c;->write([B)V",
+          "file_offset": 4841750,
+          "raw_hex": "6e2020cb3400"
+        },
+        {
+          "offset_cu": 34,
+          "opcode": "invoke-direct",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/zip/CRC32;-><init>()V",
+          "file_offset": 4841760,
+          "raw_hex": "7010ccc40000"
+        },
+        {
+          "offset_cu": 40,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0,
+            3,
+            2,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/zip/CRC32;->update([BII)V",
+          "file_offset": 4841772,
+          "raw_hex": "6e40d0c43012"
+        },
+        {
+          "offset_cu": 43,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/zip/CRC32;->getValue()J",
+          "file_offset": 4841778,
+          "raw_hex": "6e10cdc40000"
+        },
+        {
+          "offset_cu": 48,
+          "opcode": "invoke-virtual",
+          "registers": [
+            4,
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/c;->b(I)V",
+          "file_offset": 4841788,
+          "raw_hex": "6e201ccb3400"
+        }
+      ]
+    },
+    {
+      "method": "Ll0/h;->M(Ll0/c;)V",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 52043,
+        "code_item_offset": 4841796,
+        "insns_offset": 4841812,
+        "code_units": 74,
+        "access_flags": 17
+      },
+      "calls": [
+        {
+          "offset_cu": 7,
+          "opcode": "invoke-virtual",
+          "registers": [
+            4,
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/c;->b(I)V"
+        },
+        {
+          "offset_cu": 12,
+          "opcode": "invoke-direct",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/zip/CRC32;-><init>()V"
+        },
+        {
+          "offset_cu": 18,
+          "opcode": "invoke-virtual",
+          "registers": [
+            4,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/c;->b(I)V"
+        },
+        {
+          "offset_cu": 23,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0,
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/zip/CRC32;->update(I)V"
+        },
+        {
+          "offset_cu": 28,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0,
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/zip/CRC32;->update(I)V"
+        },
+        {
+          "offset_cu": 34,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0,
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/zip/CRC32;->update(I)V"
+        },
+        {
+          "offset_cu": 37,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/zip/CRC32;->update(I)V"
+        },
+        {
+          "offset_cu": 42,
+          "opcode": "invoke-virtual",
+          "registers": [
+            4,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/c;->write([B)V"
+        },
+        {
+          "offset_cu": 45,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/zip/CRC32;->update([B)V"
+        },
+        {
+          "offset_cu": 52,
+          "opcode": "invoke-virtual",
+          "registers": [
+            4,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/c;->write([B)V"
+        },
+        {
+          "offset_cu": 59,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/zip/CRC32;->update([B)V"
+        },
+        {
+          "offset_cu": 62,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/zip/CRC32;->getValue()J"
+        },
+        {
+          "offset_cu": 67,
+          "opcode": "invoke-virtual",
+          "registers": [
+            4,
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/c;->b(I)V"
+        }
+      ],
+      "instruction_sha256": "bde08b4cdf6259e19e2d58c061305268c72a68a43b0f69e7f9104138d4f09d3d",
+      "selected_instructions": [
+        {
+          "offset_cu": 7,
+          "opcode": "invoke-virtual",
+          "registers": [
+            4,
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/c;->b(I)V",
+          "file_offset": 4841826,
+          "raw_hex": "6e201ccb0400"
+        },
+        {
+          "offset_cu": 12,
+          "opcode": "invoke-direct",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/zip/CRC32;-><init>()V",
+          "file_offset": 4841836,
+          "raw_hex": "7010ccc40000"
+        },
+        {
+          "offset_cu": 15,
+          "opcode": "const",
+          "registers": [
+            1
+          ],
+          "width_cu": 3,
+          "literal": 1767135348,
+          "file_offset": 4841842,
+          "raw_hex": "140174585469"
+        },
+        {
+          "offset_cu": 18,
+          "opcode": "invoke-virtual",
+          "registers": [
+            4,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/c;->b(I)V",
+          "file_offset": 4841848,
+          "raw_hex": "6e201ccb1400"
+        },
+        {
+          "offset_cu": 23,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0,
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/zip/CRC32;->update(I)V",
+          "file_offset": 4841858,
+          "raw_hex": "6e20cec42000"
+        },
+        {
+          "offset_cu": 28,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0,
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/zip/CRC32;->update(I)V",
+          "file_offset": 4841868,
+          "raw_hex": "6e20cec42000"
+        },
+        {
+          "offset_cu": 34,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0,
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/zip/CRC32;->update(I)V",
+          "file_offset": 4841880,
+          "raw_hex": "6e20cec42000"
+        },
+        {
+          "offset_cu": 37,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/zip/CRC32;->update(I)V",
+          "file_offset": 4841886,
+          "raw_hex": "6e20cec41000"
+        },
+        {
+          "offset_cu": 42,
+          "opcode": "invoke-virtual",
+          "registers": [
+            4,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/c;->write([B)V",
+          "file_offset": 4841896,
+          "raw_hex": "6e2020cb1400"
+        },
+        {
+          "offset_cu": 45,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/zip/CRC32;->update([B)V",
+          "file_offset": 4841902,
+          "raw_hex": "6e20cfc41000"
+        },
+        {
+          "offset_cu": 52,
+          "opcode": "invoke-virtual",
+          "registers": [
+            4,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/c;->write([B)V",
+          "file_offset": 4841916,
+          "raw_hex": "6e2020cb1400"
+        },
+        {
+          "offset_cu": 59,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/zip/CRC32;->update([B)V",
+          "file_offset": 4841930,
+          "raw_hex": "6e20cfc41000"
+        },
+        {
+          "offset_cu": 62,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/zip/CRC32;->getValue()J",
+          "file_offset": 4841936,
+          "raw_hex": "6e10cdc40000"
+        },
+        {
+          "offset_cu": 67,
+          "opcode": "invoke-virtual",
+          "registers": [
+            4,
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/c;->b(I)V",
+          "file_offset": 4841946,
+          "raw_hex": "6e201ccb0400"
+        }
+      ]
+    },
+    {
+      "method": "Ll0/i;->d(Ljava/io/InputStream;Ljava/io/OutputStream;)V",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 52074,
+        "code_item_offset": 4814484,
+        "insns_offset": 4814500,
+        "code_units": 17,
+        "access_flags": 9
+      },
+      "calls": [
+        {
+          "offset_cu": 4,
+          "opcode": "invoke-virtual",
+          "registers": [
+            3,
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/InputStream;->read([B)I"
+        },
+        {
+          "offset_cu": 12,
+          "opcode": "invoke-virtual",
+          "registers": [
+            4,
+            0,
+            2,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/OutputStream;->write([BII)V"
+        }
+      ],
+      "instruction_sha256": "b871fcbae2fe971187e2d6c00ec9dcd370784814c1fb2891a562b6491632f57e",
+      "selected_instructions": []
+    },
+    {
+      "method": "Ll0/i;->e(Ll0/b;Ll0/c;I)V",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 52075,
+        "code_item_offset": 4814536,
+        "insns_offset": 4814552,
+        "code_units": 31,
+        "access_flags": 9
+      },
+      "calls": [
+        {
+          "offset_cu": 6,
+          "opcode": "invoke-static",
+          "registers": [
+            7,
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/Math;->min(II)I"
+        },
+        {
+          "offset_cu": 11,
+          "opcode": "invoke-virtual",
+          "registers": [
+            5,
+            1,
+            3,
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/b;->read([BII)I"
+        },
+        {
+          "offset_cu": 18,
+          "opcode": "invoke-virtual",
+          "registers": [
+            6,
+            1,
+            3,
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Ll0/c;->write([BII)V"
+        },
+        {
+          "offset_cu": 26,
+          "opcode": "invoke-direct",
+          "registers": [
+            5,
+            6
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/IOException;-><init>(Ljava/lang/String;)V"
+        }
+      ],
+      "instruction_sha256": "ae65fefd9f700319344a8d5fd31e1cc28bb8171d2408c1a6d4af08fee26f1822",
+      "selected_instructions": []
+    },
+    {
+      "method": "Lg5/k;->call()Ljava/lang/Object;",
+      "dex": "classes2.dex",
+      "location": {
+        "method_index": 21069,
+        "code_item_offset": 3081544,
+        "insns_offset": 3081560,
+        "code_units": 1150,
+        "access_flags": 17
+      },
+      "calls": [
+        {
+          "offset_cu": 16,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/Object;->getClass()Ljava/lang/Class;"
+        },
+        {
+          "offset_cu": 21,
+          "opcode": "invoke-direct",
+          "registers": [
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/ArrayList;-><init>()V"
+        },
+        {
+          "offset_cu": 26,
+          "opcode": "invoke-direct",
+          "registers": [
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/ArrayList;-><init>()V"
+        },
+        {
+          "offset_cu": 31,
+          "opcode": "invoke-direct",
+          "registers": [
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/ArrayList;-><init>()V"
+        },
+        {
+          "offset_cu": 34,
+          "opcode": "invoke-interface",
+          "registers": [
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/List;->iterator()Ljava/util/Iterator;"
+        },
+        {
+          "offset_cu": 38,
+          "opcode": "invoke-interface",
+          "registers": [
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/Iterator;->hasNext()Z"
+        },
+        {
+          "offset_cu": 44,
+          "opcode": "invoke-interface",
+          "registers": [
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/Iterator;->next()Ljava/lang/Object;"
+        },
+        {
+          "offset_cu": 53,
+          "opcode": "invoke-virtual",
+          "registers": [
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/database/entity/GalleryInfoEntity;->isExistDb()Z"
+        },
+        {
+          "offset_cu": 59,
+          "opcode": "invoke-virtual",
+          "registers": [
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/database/entity/GalleryInfoEntity;->getEditStatus()I"
+        },
+        {
+          "offset_cu": 65,
+          "opcode": "invoke-virtual",
+          "registers": [
+            1,
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z"
+        },
+        {
+          "offset_cu": 69,
+          "opcode": "invoke-virtual",
+          "registers": [
+            2,
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z"
+        },
+        {
+          "offset_cu": 72,
+          "opcode": "invoke-static",
+          "registers": [],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/util/Q0;->h()Lcom/panasonic/jp/lumixlab/util/Q0;"
+        },
+        {
+          "offset_cu": 76,
+          "opcode": "invoke-virtual",
+          "registers": [
+            6
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/Object;->getClass()Ljava/lang/Class;"
+        },
+        {
+          "offset_cu": 79,
+          "opcode": "invoke-static",
+          "registers": [
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/util/Q0;->d(Lcom/panasonic/jp/lumixlab/database/entity/GalleryInfoEntity;)Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;"
+        },
+        {
+          "offset_cu": 83,
+          "opcode": "invoke-virtual",
+          "registers": [
+            3,
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z"
+        },
+        {
+          "offset_cu": 87,
+          "opcode": "invoke-virtual",
+          "registers": [
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/ArrayList;->isEmpty()Z"
+        },
+        {
+          "offset_cu": 99,
+          "opcode": "invoke-virtual",
+          "registers": [
+            5
+          ],
+          "width_cu": 3,
+          "reference": "LD1/Z;->b()V"
+        },
+        {
+          "offset_cu": 102,
+          "opcode": "invoke-virtual",
+          "registers": [
+            5
+          ],
+          "width_cu": 3,
+          "reference": "LD1/Z;->c()V"
+        },
+        {
+          "offset_cu": 107,
+          "opcode": "invoke-virtual",
+          "registers": [
+            4,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "LD1/q;->f(Ljava/lang/Iterable;)V"
+        },
+        {
+          "offset_cu": 110,
+          "opcode": "invoke-virtual",
+          "registers": [
+            5
+          ],
+          "width_cu": 3,
+          "reference": "LD1/Z;->n()V"
+        },
+        {
+          "offset_cu": 113,
+          "opcode": "invoke-virtual",
+          "registers": [
+            5
+          ],
+          "width_cu": 3,
+          "reference": "LD1/Z;->f()V"
+        },
+        {
+          "offset_cu": 118,
+          "opcode": "invoke-virtual",
+          "registers": [
+            5
+          ],
+          "width_cu": 3,
+          "reference": "LD1/Z;->f()V"
+        },
+        {
+          "offset_cu": 126,
+          "opcode": "invoke-virtual",
+          "registers": [
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/ArrayList;->isEmpty()Z"
+        },
+        {
+          "offset_cu": 132,
+          "opcode": "invoke-virtual",
+          "registers": [
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/ArrayList;->isEmpty()Z"
+        },
+        {
+          "offset_cu": 140,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0,
+            3,
+            2,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/util/q0;->a(Ljava/util/ArrayList;Ljava/util/ArrayList;Ljava/util/ArrayList;)V"
+        },
+        {
+          "offset_cu": 149,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            1,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V"
+        },
+        {
+          "offset_cu": 166,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Landroid/view/View;->getContext()Landroid/content/Context;"
+        },
+        {
+          "offset_cu": 176,
+          "opcode": "invoke-direct",
+          "registers": [
+            1,
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V"
+        },
+        {
+          "offset_cu": 179,
+          "opcode": "invoke-virtual",
+          "registers": [
+            1,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+        },
+        {
+          "offset_cu": 182,
+          "opcode": "invoke-virtual",
+          "registers": [
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/StringBuilder;->toString()Ljava/lang/String;"
+        },
+        {
+          "offset_cu": 186,
+          "opcode": "invoke-static",
+          "registers": [
+            0,
+            14,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ly2/p;->b(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Ly2/E;"
+        },
+        {
+          "offset_cu": 191,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Landroid/view/View;->getContext()Landroid/content/Context;"
+        },
+        {
+          "offset_cu": 195,
+          "opcode": "invoke-static",
+          "registers": [
+            0,
+            14,
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Ly2/p;->b(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Ly2/E;"
+        },
+        {
+          "offset_cu": 204,
+          "opcode": "invoke-static",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z"
+        },
+        {
+          "offset_cu": 210,
+          "opcode": "invoke-static",
+          "registers": [],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;"
+        },
+        {
+          "offset_cu": 218,
+          "opcode": "invoke-virtual",
+          "registers": [
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/database/entity/GalleryInfoEntity;->getFileRating()I"
+        },
+        {
+          "offset_cu": 222,
+          "opcode": "invoke-virtual",
+          "registers": [
+            1,
+            0,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/LlcApplication;->writeVideoRatingJni(Ljava/lang/String;I)I"
+        },
+        {
+          "offset_cu": 226,
+          "opcode": "invoke-static",
+          "registers": [
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;"
+        },
+        {
+          "offset_cu": 243,
+          "opcode": "invoke-direct",
+          "registers": [
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/util/x;-><init>()V"
+        },
+        {
+          "offset_cu": 258,
+          "opcode": "invoke-static",
+          "registers": [],
+          "width_cu": 3,
+          "reference": "Ljava/lang/System;->nanoTime()J"
+        },
+        {
+          "offset_cu": 263,
+          "opcode": "invoke-virtual",
+          "registers": [
+            5,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/String;->equals(Ljava/lang/Object;)Z"
+        },
+        {
+          "offset_cu": 267,
+          "opcode": "invoke-static",
+          "registers": [
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/util/x;->a(Landroid/graphics/Bitmap;)Ljava/nio/FloatBuffer;"
+        },
+        {
+          "offset_cu": 271,
+          "opcode": "invoke-static",
+          "registers": [],
+          "width_cu": 3,
+          "reference": "Lai/onnxruntime/OrtEnvironment;->getEnvironment()Lai/onnxruntime/OrtEnvironment;"
+        },
+        {
+          "offset_cu": 279,
+          "opcode": "invoke-static",
+          "registers": [],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;"
+        },
+        {
+          "offset_cu": 283,
+          "opcode": "invoke-virtual",
+          "registers": [
+            7
+          ],
+          "width_cu": 3,
+          "reference": "Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;"
+        },
+        {
+          "offset_cu": 289,
+          "opcode": "invoke-virtual",
+          "registers": [
+            7,
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Landroid/content/res/AssetManager;->open(Ljava/lang/String;)Ljava/io/InputStream;"
+        },
+        {
+          "offset_cu": 293,
+          "opcode": "invoke-virtual",
+          "registers": [
+            7
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/InputStream;->available()I"
+        },
+        {
+          "offset_cu": 299,
+          "opcode": "invoke-virtual",
+          "registers": [
+            7,
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/InputStream;->read([B)I"
+        },
+        {
+          "offset_cu": 302,
+          "opcode": "invoke-virtual",
+          "registers": [
+            7
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/InputStream;->close()V"
+        },
+        {
+          "offset_cu": 311,
+          "opcode": "invoke-direct",
+          "registers": [
+            7
+          ],
+          "width_cu": 3,
+          "reference": "Lai/onnxruntime/OrtSession$SessionOptions;-><init>()V"
+        },
+        {
+          "offset_cu": 316,
+          "opcode": "invoke-virtual",
+          "registers": [
+            7,
+            9
+          ],
+          "width_cu": 3,
+          "reference": "Lai/onnxruntime/OrtSession$SessionOptions;->setOptimizationLevel(Lai/onnxruntime/OrtSession$SessionOptions$OptLevel;)V"
+        },
+        {
+          "offset_cu": 321,
+          "opcode": "invoke-virtual",
+          "registers": [
+            7,
+            9
+          ],
+          "width_cu": 3,
+          "reference": "Lai/onnxruntime/OrtSession$SessionOptions;->setExecutionMode(Lai/onnxruntime/OrtSession$SessionOptions$ExecutionMode;)V"
+        },
+        {
+          "offset_cu": 324,
+          "opcode": "invoke-virtual",
+          "registers": [
+            6,
+            8,
+            7
+          ],
+          "width_cu": 3,
+          "reference": "Lai/onnxruntime/OrtEnvironment;->createSession([BLai/onnxruntime/OrtSession$SessionOptions;)Lai/onnxruntime/OrtSession;"
+        },
+        {
+          "offset_cu": 338,
+          "opcode": "invoke-static",
+          "registers": [
+            6,
+            14,
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Lai/onnxruntime/OnnxTensor;->createTensor(Lai/onnxruntime/OrtEnvironment;Ljava/nio/FloatBuffer;[J)Lai/onnxruntime/OnnxTensor;"
+        },
+        {
+          "offset_cu": 348,
+          "opcode": "invoke-static",
+          "registers": [
+            8,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/Collections;->singletonMap(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;"
+        },
+        {
+          "offset_cu": 352,
+          "opcode": "invoke-virtual",
+          "registers": [
+            7,
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Lai/onnxruntime/OrtSession;->run(Ljava/util/Map;)Lai/onnxruntime/OrtSession$Result;"
+        },
+        {
+          "offset_cu": 356,
+          "opcode": "invoke-virtual",
+          "registers": [
+            14,
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Lai/onnxruntime/OrtSession$Result;->get(I)Lai/onnxruntime/OnnxValue;"
+        },
+        {
+          "offset_cu": 360,
+          "opcode": "invoke-interface",
+          "registers": [
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Lai/onnxruntime/OnnxValue;->getValue()Ljava/lang/Object;"
+        },
+        {
+          "offset_cu": 368,
+          "opcode": "invoke-static",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/util/x;->c([[[[F)Ljava/lang/String;"
+        },
+        {
+          "offset_cu": 372,
+          "opcode": "invoke-virtual",
+          "registers": [
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Lai/onnxruntime/OrtSession$Result;->close()V"
+        },
+        {
+          "offset_cu": 375,
+          "opcode": "invoke-virtual",
+          "registers": [
+            7
+          ],
+          "width_cu": 3,
+          "reference": "Lai/onnxruntime/OrtSession;->close()V"
+        },
+        {
+          "offset_cu": 378,
+          "opcode": "invoke-virtual",
+          "registers": [
+            6
+          ],
+          "width_cu": 3,
+          "reference": "Lai/onnxruntime/OrtEnvironment;->close()V"
+        },
+        {
+          "offset_cu": 383,
+          "opcode": "invoke-static",
+          "registers": [],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/util/b0;->H()Lcom/panasonic/jp/lumixlab/util/b0;"
+        },
+        {
+          "offset_cu": 387,
+          "opcode": "invoke-virtual",
+          "registers": [
+            6
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/Object;->getClass()Ljava/lang/Class;"
+        },
+        {
+          "offset_cu": 390,
+          "opcode": "invoke-static",
+          "registers": [],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/util/b0;->J()Ljava/lang/String;"
+        },
+        {
+          "offset_cu": 394,
+          "opcode": "invoke-direct",
+          "registers": [
+            14,
+            6
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/File;-><init>(Ljava/lang/String;)V"
+        },
+        {
+          "offset_cu": 397,
+          "opcode": "invoke-virtual",
+          "registers": [
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/File;->exists()Z"
+        },
+        {
+          "offset_cu": 403,
+          "opcode": "invoke-virtual",
+          "registers": [
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/File;->mkdirs()Z"
+        },
+        {
+          "offset_cu": 412,
+          "opcode": "invoke-direct",
+          "registers": [
+            6,
+            14,
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V"
+        },
+        {
+          "offset_cu": 415,
+          "opcode": "invoke-virtual",
+          "registers": [
+            6
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/File;->getAbsolutePath()Ljava/lang/String;"
+        },
+        {
+          "offset_cu": 427,
+          "opcode": "invoke-virtual",
+          "registers": [
+            5,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;"
+        },
+        {
+          "offset_cu": 437,
+          "opcode": "invoke-direct",
+          "registers": [
+            7,
+            14,
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V"
+        },
+        {
+          "offset_cu": 440,
+          "opcode": "invoke-virtual",
+          "registers": [
+            7
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/File;->exists()Z"
+        },
+        {
+          "offset_cu": 446,
+          "opcode": "invoke-virtual",
+          "registers": [
+            7
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/File;->delete()Z"
+        },
+        {
+          "offset_cu": 449,
+          "opcode": "invoke-static",
+          "registers": [],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;"
+        },
+        {
+          "offset_cu": 453,
+          "opcode": "invoke-virtual",
+          "registers": [
+            4,
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;"
+        },
+        {
+          "offset_cu": 459,
+          "opcode": "invoke-virtual",
+          "registers": [
+            7
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/File;->exists()Z"
+        },
+        {
+          "offset_cu": 465,
+          "opcode": "invoke-static",
+          "registers": [
+            8,
+            4,
+            7
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/util/v;->q(Lcom/panasonic/jp/lumixlab/LlcApplication;Ljava/lang/String;Ljava/io/File;)V"
+        },
+        {
+          "offset_cu": 473,
+          "opcode": "invoke-virtual",
+          "registers": [
+            7
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/File;->getAbsolutePath()Ljava/lang/String;"
+        },
+        {
+          "offset_cu": 481,
+          "opcode": "invoke-direct",
+          "registers": [
+            5,
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V"
+        },
+        {
+          "offset_cu": 484,
+          "opcode": "invoke-static",
+          "registers": [],
+          "width_cu": 3,
+          "reference": "Ljava/lang/System;->currentTimeMillis()J"
+        },
+        {
+          "offset_cu": 488,
+          "opcode": "invoke-virtual",
+          "registers": [
+            5,
+            7,
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;"
+        },
+        {
+          "offset_cu": 493,
+          "opcode": "invoke-virtual",
+          "registers": [
+            5,
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+        },
+        {
+          "offset_cu": 496,
+          "opcode": "invoke-virtual",
+          "registers": [
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/StringBuilder;->toString()Ljava/lang/String;"
+        },
+        {
+          "offset_cu": 502,
+          "opcode": "invoke-direct",
+          "registers": [
+            5,
+            14,
+            3
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V"
+        },
+        {
+          "offset_cu": 505,
+          "opcode": "invoke-virtual",
+          "registers": [
+            6
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/File;->getAbsolutePath()Ljava/lang/String;"
+        },
+        {
+          "offset_cu": 508,
+          "opcode": "invoke-virtual",
+          "registers": [
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/File;->getAbsolutePath()Ljava/lang/String;"
+        },
+        {
+          "offset_cu": 519,
+          "opcode": "invoke-static",
+          "registers": [],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;"
+        },
+        {
+          "offset_cu": 523,
+          "opcode": "invoke-virtual",
+          "registers": [
+            6
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/File;->getAbsolutePath()Ljava/lang/String;"
+        },
+        {
+          "offset_cu": 527,
+          "opcode": "invoke-virtual",
+          "registers": [
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/File;->getAbsolutePath()Ljava/lang/String;"
+        },
+        {
+          "offset_cu": 531,
+          "opcode": "invoke-virtual",
+          "registers": [
+            14,
+            4,
+            3,
+            6
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/LlcApplication;->mergeCubeFiles(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I"
+        },
+        {
+          "offset_cu": 541,
+          "opcode": "invoke-virtual",
+          "registers": [
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/io/File;->getAbsolutePath()Ljava/lang/String;"
+        },
+        {
+          "offset_cu": 545,
+          "opcode": "invoke-static",
+          "registers": [
+            0,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/util/x;->d(Ljava/lang/String;Ljava/lang/String;)V"
+        },
+        {
+          "offset_cu": 555,
+          "opcode": "invoke-virtual",
+          "registers": [
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/Throwable;->getMessage()Ljava/lang/String;"
+        },
+        {
+          "offset_cu": 566,
+          "opcode": "invoke-virtual",
+          "registers": [
+            14
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/Throwable;->getMessage()Ljava/lang/String;"
+        },
+        {
+          "offset_cu": 584,
+          "opcode": "invoke-virtual",
+          "registers": [
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/Object;->getClass()Ljava/lang/Class;"
+        },
+        {
+          "offset_cu": 593,
+          "opcode": "invoke-virtual",
+          "registers": [
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Lh5/z;->w0()V"
+        },
+        {
+          "offset_cu": 606,
+          "opcode": "invoke-static",
+          "registers": [
+            7,
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/Objects;->equals(Ljava/lang/Object;Ljava/lang/Object;)Z"
+        },
+        {
+          "offset_cu": 614,
+          "opcode": "invoke-static",
+          "registers": [],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/util/p1;->j()Lcom/panasonic/jp/lumixlab/util/p1;"
+        },
+        {
+          "offset_cu": 620,
+          "opcode": "invoke-virtual",
+          "registers": [
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/Object;->hashCode()I"
+        },
+        {
+          "offset_cu": 623,
+          "opcode": "invoke-virtual",
+          "registers": [
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/bean/RawProcessingConfigBean;->getBrightness()F"
+        },
+        {
+          "offset_cu": 632,
+          "opcode": "invoke-static",
+          "registers": [
+            9,
+            6
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/util/N;->a(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;"
+        },
+        {
+          "offset_cu": 651,
+          "opcode": "invoke-virtual",
+          "registers": [
+            8,
+            9
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/bean/RawProcessingConfigBean;->syncToEditInfoEntity(Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;)Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;"
+        },
+        {
+          "offset_cu": 655,
+          "opcode": "invoke-virtual",
+          "registers": [
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/Object;->hashCode()I"
+        },
+        {
+          "offset_cu": 658,
+          "opcode": "invoke-virtual",
+          "registers": [
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/bean/RawProcessingConfigBean;->getBrightness()F"
+        },
+        {
+          "offset_cu": 665,
+          "opcode": "invoke-virtual",
+          "registers": [
+            9
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->getEditWhiteBalanceTint()F"
+        },
+        {
+          "offset_cu": 671,
+          "opcode": "invoke-virtual",
+          "registers": [
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->getEditWhiteBalanceTint()F"
+        },
+        {
+          "offset_cu": 680,
+          "opcode": "invoke-static",
+          "registers": [
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/Math;->abs(F)F"
+        },
+        {
+          "offset_cu": 691,
+          "opcode": "invoke-virtual",
+          "registers": [
+            9,
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->setEditWhiteBalanceTint(F)V"
+        },
+        {
+          "offset_cu": 702,
+          "opcode": "invoke-virtual",
+          "registers": [
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->getEditCutEnd()J"
+        },
+        {
+          "offset_cu": 706,
+          "opcode": "invoke-virtual",
+          "registers": [
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->getEditCutStart()J"
+        },
+        {
+          "offset_cu": 711,
+          "opcode": "invoke-virtual",
+          "registers": [
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->getEditSqTemp()J"
+        },
+        {
+          "offset_cu": 724,
+          "opcode": "invoke-static",
+          "registers": [
+            8,
+            10
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/util/v;->N0(Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;)Z"
+        },
+        {
+          "offset_cu": 733,
+          "opcode": "invoke-virtual",
+          "registers": [
+            6
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->isEditCropChange()Z"
+        },
+        {
+          "offset_cu": 740,
+          "opcode": "invoke-virtual",
+          "registers": [
+            6
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->getEditPhotoStyleRawIndex()I"
+        },
+        {
+          "offset_cu": 752,
+          "opcode": "invoke-virtual",
+          "registers": [
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->getEditId()J"
+        },
+        {
+          "offset_cu": 756,
+          "opcode": "invoke-virtual",
+          "registers": [
+            4,
+            2,
+            6,
+            7
+          ],
+          "width_cu": 3,
+          "reference": "Lh5/z;->B0(Lcom/panasonic/jp/lumixlab/database/entity/FrameEntity;J)V"
+        },
+        {
+          "offset_cu": 773,
+          "opcode": "invoke-virtual",
+          "registers": [
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->getEditId()J"
+        },
+        {
+          "offset_cu": 777,
+          "opcode": "invoke-virtual",
+          "registers": [
+            4,
+            1,
+            6,
+            7
+          ],
+          "width_cu": 3,
+          "reference": "Lh5/z;->B0(Lcom/panasonic/jp/lumixlab/database/entity/FrameEntity;J)V"
+        },
+        {
+          "offset_cu": 791,
+          "opcode": "invoke-static",
+          "registers": [
+            1,
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/Objects;->equals(Ljava/lang/Object;Ljava/lang/Object;)Z"
+        },
+        {
+          "offset_cu": 801,
+          "opcode": "invoke-virtual",
+          "registers": [
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->getEditId()J"
+        },
+        {
+          "offset_cu": 805,
+          "opcode": "invoke-virtual",
+          "registers": [
+            1,
+            6,
+            7
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/database/entity/FrameEntity;->setEditId(J)V"
+        },
+        {
+          "offset_cu": 810,
+          "opcode": "invoke-virtual",
+          "registers": [
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->getEditId()J"
+        },
+        {
+          "offset_cu": 814,
+          "opcode": "invoke-virtual",
+          "registers": [
+            4,
+            1,
+            6,
+            7
+          ],
+          "width_cu": 3,
+          "reference": "Lh5/z;->B0(Lcom/panasonic/jp/lumixlab/database/entity/FrameEntity;J)V"
+        },
+        {
+          "offset_cu": 826,
+          "opcode": "invoke-virtual",
+          "registers": [
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->getEditId()J"
+        },
+        {
+          "offset_cu": 830,
+          "opcode": "invoke-virtual",
+          "registers": [
+            1,
+            6,
+            7
+          ],
+          "width_cu": 3,
+          "reference": "LC5/n;->b(J)Lcom/panasonic/jp/lumixlab/database/entity/ColorPickerEntity;"
+        },
+        {
+          "offset_cu": 836,
+          "opcode": "invoke-direct",
+          "registers": [
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/google/gson/k;-><init>()V"
+        },
+        {
+          "offset_cu": 839,
+          "opcode": "invoke-virtual",
+          "registers": [
+            2,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/google/gson/k;->g(Ljava/lang/Object;)Ljava/lang/String;"
+        },
+        {
+          "offset_cu": 850,
+          "opcode": "invoke-virtual",
+          "registers": [
+            1,
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/database/entity/ColorPickerEntity;->isDefaultColorPicker(Ljava/lang/String;)Z"
+        },
+        {
+          "offset_cu": 870,
+          "opcode": "invoke-virtual",
+          "registers": [
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Lh5/z;->l()Z"
+        },
+        {
+          "offset_cu": 877,
+          "opcode": "invoke-virtual",
+          "registers": [
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Lh5/z;->l()Z"
+        },
+        {
+          "offset_cu": 892,
+          "opcode": "invoke-virtual",
+          "registers": [
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->getEditId()J"
+        },
+        {
+          "offset_cu": 896,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0,
+            6,
+            7
+          ],
+          "width_cu": 3,
+          "reference": "LC5/J;->d(J)Lcom/panasonic/jp/lumixlab/database/entity/FrameEntity;"
+        },
+        {
+          "offset_cu": 906,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->getEditStatus()I"
+        },
+        {
+          "offset_cu": 911,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0,
+            11
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->setEditStatus(I)V"
+        },
+        {
+          "offset_cu": 916,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Landroidx/lifecycle/K;->d()Ljava/lang/Object;"
+        },
+        {
+          "offset_cu": 924,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/Integer;->intValue()I"
+        },
+        {
+          "offset_cu": 928,
+          "opcode": "invoke-virtual",
+          "registers": [
+            4,
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Lh5/z;->A0(I)V"
+        },
+        {
+          "offset_cu": 935,
+          "opcode": "invoke-virtual",
+          "registers": [
+            0,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Landroidx/lifecycle/M;->k(Ljava/lang/Object;)V"
+        },
+        {
+          "offset_cu": 938,
+          "opcode": "invoke-virtual",
+          "registers": [
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->getEditId()J"
+        },
+        {
+          "offset_cu": 942,
+          "opcode": "invoke-virtual",
+          "registers": [
+            4,
+            0,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Lh5/z;->T(J)V"
+        },
+        {
+          "offset_cu": 951,
+          "opcode": "invoke-static",
+          "registers": [
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/Objects;->toString(Ljava/lang/Object;)Ljava/lang/String;"
+        },
+        {
+          "offset_cu": 960,
+          "opcode": "invoke-virtual",
+          "registers": [
+            14,
+            0,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Landroid/content/Intent;->putCharSequenceArrayListExtra(Ljava/lang/String;Ljava/util/ArrayList;)Landroid/content/Intent;"
+        },
+        {
+          "offset_cu": 969,
+          "opcode": "invoke-static",
+          "registers": [
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/Objects;->toString(Ljava/lang/Object;)Ljava/lang/String;"
+        },
+        {
+          "offset_cu": 978,
+          "opcode": "invoke-virtual",
+          "registers": [
+            14,
+            0,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Landroid/content/Intent;->putIntegerArrayListExtra(Ljava/lang/String;Ljava/util/ArrayList;)Landroid/content/Intent;"
+        },
+        {
+          "offset_cu": 985,
+          "opcode": "invoke-virtual",
+          "registers": [
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/Object;->getClass()Ljava/lang/Class;"
+        },
+        {
+          "offset_cu": 990,
+          "opcode": "invoke-direct",
+          "registers": [
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/ArrayList;-><init>()V"
+        },
+        {
+          "offset_cu": 995,
+          "opcode": "invoke-virtual",
+          "registers": [
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;"
+        },
+        {
+          "offset_cu": 999,
+          "opcode": "invoke-interface",
+          "registers": [
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/Iterator;->hasNext()Z"
+        },
+        {
+          "offset_cu": 1005,
+          "opcode": "invoke-interface",
+          "registers": [
+            4
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/Iterator;->next()Ljava/lang/Object;"
+        },
+        {
+          "offset_cu": 1011,
+          "opcode": "invoke-interface",
+          "registers": [
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/CharSequence;->toString()Ljava/lang/String;"
+        },
+        {
+          "offset_cu": 1015,
+          "opcode": "invoke-static",
+          "registers": [
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/Long;->parseLong(Ljava/lang/String;)J"
+        },
+        {
+          "offset_cu": 1023,
+          "opcode": "invoke-virtual",
+          "registers": [
+            7
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->getEditId()J"
+        },
+        {
+          "offset_cu": 1033,
+          "opcode": "invoke-virtual",
+          "registers": [
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->getEditStatus()I"
+        },
+        {
+          "offset_cu": 1037,
+          "opcode": "invoke-static",
+          "registers": [
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;"
+        },
+        {
+          "offset_cu": 1041,
+          "opcode": "invoke-virtual",
+          "registers": [
+            2,
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z"
+        },
+        {
+          "offset_cu": 1047,
+          "opcode": "invoke-virtual",
+          "registers": [
+            7
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/HashMap;->values()Ljava/util/Collection;"
+        },
+        {
+          "offset_cu": 1051,
+          "opcode": "invoke-interface",
+          "registers": [
+            7
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/Collection;->iterator()Ljava/util/Iterator;"
+        },
+        {
+          "offset_cu": 1055,
+          "opcode": "invoke-interface",
+          "registers": [
+            7
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/Iterator;->hasNext()Z"
+        },
+        {
+          "offset_cu": 1061,
+          "opcode": "invoke-interface",
+          "registers": [
+            7
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/Iterator;->next()Ljava/lang/Object;"
+        },
+        {
+          "offset_cu": 1067,
+          "opcode": "invoke-virtual",
+          "registers": [
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->getEditId()J"
+        },
+        {
+          "offset_cu": 1075,
+          "opcode": "invoke-virtual",
+          "registers": [
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->getEditStatus()I"
+        },
+        {
+          "offset_cu": 1079,
+          "opcode": "invoke-static",
+          "registers": [
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;"
+        },
+        {
+          "offset_cu": 1083,
+          "opcode": "invoke-virtual",
+          "registers": [
+            2,
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z"
+        },
+        {
+          "offset_cu": 1087,
+          "opcode": "invoke-virtual",
+          "registers": [
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/Object;->toString()Ljava/lang/String;"
+        },
+        {
+          "offset_cu": 1094,
+          "opcode": "invoke-virtual",
+          "registers": [
+            14,
+            0,
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Landroid/content/Intent;->putIntegerArrayListExtra(Ljava/lang/String;Ljava/util/ArrayList;)Landroid/content/Intent;"
+        },
+        {
+          "offset_cu": 1103,
+          "opcode": "invoke-static",
+          "registers": [
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/util/Objects;->toString(Ljava/lang/Object;)Ljava/lang/String;"
+        },
+        {
+          "offset_cu": 1112,
+          "opcode": "invoke-virtual",
+          "registers": [
+            14,
+            0,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Landroid/content/Intent;->putStringArrayListExtra(Ljava/lang/String;Ljava/util/ArrayList;)Landroid/content/Intent;"
+        }
+      ],
+      "instruction_sha256": "bbefc951743541edafa32d03ebc6ad1df077d4518442a68f7eb4e4ecd5af43da",
+      "selected_instructions": []
+    }
+  ],
+  "method_count": 12,
+  "smali_files": [
+    {
+      "path": "l0/h.smali",
+      "size": 303839,
+      "sha256": "a3e27159bf92056458d167312e15b6c66ee00624ecdf72915a2972cb6149a55b"
+    },
+    {
+      "path": "com/google/android/gms/tasks/NativeOnCompleteListener.smali",
+      "size": 3807,
+      "sha256": "1eec79d9da1bf485a376720383844636cddb0c450351dce950c9101d65432eea"
+    }
+  ],
+  "limits": "Selected Baksmali source remains local; not complete high-level Java recovery."
+}

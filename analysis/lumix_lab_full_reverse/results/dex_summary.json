@@ -1,0 +1,26 @@
+{
+  "classes": 14812,
+  "fields": 48914,
+  "method_definitions": 76901,
+  "call_targets": 48522,
+  "invoke_sites": 349415,
+  "strings": 73540,
+  "resource_ids": 13886,
+  "components": {
+    "provider": 3,
+    "service": 11,
+    "activity": 34,
+    "receiver": 5
+  },
+  "navigation_nodes": 28,
+  "dynamic_reflection_load_sites": 243,
+  "selected_async_sites": 680,
+  "namespace_class_counts": {
+    "other_namespace_not_ownership_proof": 14169,
+    "panasonic_namespace": 643
+  },
+  "local_query_database_id": {
+    "size": 74309632,
+    "sha256": "4f4de887babd30395b370a006f168734c0e49b046cd8b242ead0257d702c6ba8"
+  }
+}

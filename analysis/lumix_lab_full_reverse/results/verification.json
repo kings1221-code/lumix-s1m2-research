@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "manifest_node_sequences": 5,
+  "semantic_methods_raw_offsets_checked": 12,
+  "native_instruction_rows_bytes_checked": 1543,
+  "png_itxt_synthetic_control": {
+    "prefix_length": 22,
+    "payload_length": 16,
+    "chunk_crc32": "7d619848",
+    "incremental_equals_joined": true
+  },
+  "target_program_executed": false,
+  "camera_io": false,
+  "scope": "Local structural/byte/CRC controls; no App execution or complete semantic proof."
+}

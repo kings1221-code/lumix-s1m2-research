@@ -1,0 +1,470 @@
+{
+  "libraries": [
+    {
+      "library": "libllc.so",
+      "size": 104008,
+      "sha256": "7433d705215bb92e7a87b9005277127e5851c7a4638ca8f6a3db17d2a00927df",
+      "image_base": 1048576,
+      "identified_project_functions": 417,
+      "selected_functions": [
+        {
+          "name": "Java_com_panasonic_jp_lumixlab_LlcApplication_splitYuvArrayToYAndUv",
+          "elf_va": "0x16e18",
+          "entry": "00116e18",
+          "seed": true,
+          "decompile_completed": true,
+          "error": "",
+          "callers": [],
+          "callees": [
+            {
+              "entry": "0011c4e0",
+              "name": "MergeUVPlane",
+              "external": false,
+              "thunk": true
+            },
+            {
+              "entry": "0011bfa0",
+              "name": "memcpy",
+              "external": false,
+              "thunk": true
+            }
+          ]
+        },
+        {
+          "name": "Java_com_panasonic_jp_lumixlab_LlcApplication_mergeCubeFiles",
+          "elf_va": "0x122ac",
+          "entry": "001122ac",
+          "seed": true,
+          "decompile_completed": true,
+          "error": "",
+          "callers": [],
+          "callees": [
+            {
+              "entry": "0011c3e0",
+              "name": "cube_merge_files",
+              "external": false,
+              "thunk": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "library": "libcube_merge.so",
+      "size": 11976,
+      "sha256": "91c35f56413f0e6fd8108000104a4270b6beee64121bfd954ada56e510c03d2f",
+      "image_base": 1048576,
+      "identified_project_functions": 68,
+      "selected_functions": [
+        {
+          "name": "cube_merge_files",
+          "elf_va": "0x51d0",
+          "entry": "001051d0",
+          "seed": true,
+          "decompile_completed": true,
+          "error": "",
+          "callers": [],
+          "callees": [
+            {
+              "entry": "00105198",
+              "name": "FUN_00105198",
+              "external": false,
+              "thunk": false
+            },
+            {
+              "entry": "00104dac",
+              "name": "FUN_00104dac",
+              "external": false,
+              "thunk": false
+            },
+            {
+              "entry": "001063e0",
+              "name": "__stack_chk_fail",
+              "external": false,
+              "thunk": true
+            },
+            {
+              "entry": "00104e60",
+              "name": "FUN_00104e60",
+              "external": false,
+              "thunk": false
+            },
+            {
+              "entry": "00104fdc",
+              "name": "FUN_00104fdc",
+              "external": false,
+              "thunk": false
+            }
+          ]
+        },
+        {
+          "name": "FUN_001056b0",
+          "elf_va": "0x56b0",
+          "entry": "001056b0",
+          "seed": true,
+          "decompile_completed": true,
+          "error": "",
+          "callers": [
+            {
+              "entry": "001052dc",
+              "name": "FUN_001052dc"
+            },
+            {
+              "entry": "00104e60",
+              "name": "FUN_00104e60"
+            }
+          ],
+          "callees": [
+            {
+              "entry": "001064a0",
+              "name": "calloc",
+              "external": false,
+              "thunk": true
+            }
+          ]
+        },
+        {
+          "name": "FUN_00105714",
+          "elf_va": "0x5714",
+          "entry": "00105714",
+          "seed": true,
+          "decompile_completed": true,
+          "error": "",
+          "callers": [
+            {
+              "entry": "00104e60",
+              "name": "FUN_00104e60"
+            }
+          ],
+          "callees": [
+            {
+              "entry": "001063e0",
+              "name": "__stack_chk_fail",
+              "external": false,
+              "thunk": true
+            }
+          ]
+        },
+        {
+          "name": "FUN_001052dc",
+          "elf_va": "0x52dc",
+          "entry": "001052dc",
+          "seed": true,
+          "decompile_completed": true,
+          "error": "",
+          "callers": [
+            {
+              "entry": "00104dac",
+              "name": "FUN_00104dac"
+            }
+          ],
+          "callees": [
+            {
+              "entry": "00106440",
+              "name": "__fgets_chk",
+              "external": false,
+              "thunk": true
+            },
+            {
+              "entry": "00106470",
+              "name": "strncmp",
+              "external": false,
+              "thunk": true
+            },
+            {
+              "entry": "00106490",
+              "name": "fgetpos",
+              "external": false,
+              "thunk": true
+            },
+            {
+              "entry": "00106460",
+              "name": "sscanf",
+              "external": false,
+              "thunk": true
+            },
+            {
+              "entry": "00106450",
+              "name": "fgets",
+              "external": false,
+              "thunk": true
+            },
+            {
+              "entry": "001056b0",
+              "name": "FUN_001056b0",
+              "external": false,
+              "thunk": false
+            },
+            {
+              "entry": "001063e0",
+              "name": "__stack_chk_fail",
+              "external": false,
+              "thunk": true
+            },
+            {
+              "entry": "00106480",
+              "name": "fseek",
+              "external": false,
+              "thunk": true
+            }
+          ]
+        },
+        {
+          "name": "FUN_001054c8",
+          "elf_va": "0x54c8",
+          "entry": "001054c8",
+          "seed": true,
+          "decompile_completed": true,
+          "error": "",
+          "callers": [
+            {
+              "entry": "00104dac",
+              "name": "FUN_00104dac"
+            }
+          ],
+          "callees": [
+            {
+              "entry": "001063d0",
+              "name": "printf",
+              "external": false,
+              "thunk": true
+            },
+            {
+              "entry": "00106440",
+              "name": "__fgets_chk",
+              "external": false,
+              "thunk": true
+            },
+            {
+              "entry": "00106460",
+              "name": "sscanf",
+              "external": false,
+              "thunk": true
+            },
+            {
+              "entry": "00106450",
+              "name": "fgets",
+              "external": false,
+              "thunk": true
+            },
+            {
+              "entry": "001063e0",
+              "name": "__stack_chk_fail",
+              "external": false,
+              "thunk": true
+            }
+          ]
+        },
+        {
+          "name": "FUN_00105198",
+          "elf_va": "0x5198",
+          "entry": "00105198",
+          "seed": false,
+          "decompile_completed": true,
+          "error": "",
+          "callers": [
+            {
+              "entry": "001051d0",
+              "name": "cube_merge_files"
+            },
+            {
+              "entry": "00104c88",
+              "name": "main"
+            }
+          ],
+          "callees": [
+            {
+              "entry": "00106430",
+              "name": "free",
+              "external": false,
+              "thunk": true
+            }
+          ]
+        },
+        {
+          "name": "FUN_00104dac",
+          "elf_va": "0x4dac",
+          "entry": "00104dac",
+          "seed": false,
+          "decompile_completed": true,
+          "error": "",
+          "callers": [
+            {
+              "entry": "001051d0",
+              "name": "cube_merge_files"
+            },
+            {
+              "entry": "00104c88",
+              "name": "main"
+            }
+          ],
+          "callees": [
+            {
+              "entry": "001063d0",
+              "name": "printf",
+              "external": false,
+              "thunk": true
+            },
+            {
+              "entry": "001063f0",
+              "name": "fopen",
+              "external": false,
+              "thunk": true
+            },
+            {
+              "entry": "001054c8",
+              "name": "FUN_001054c8",
+              "external": false,
+              "thunk": false
+            },
+            {
+              "entry": "001052dc",
+              "name": "FUN_001052dc",
+              "external": false,
+              "thunk": false
+            },
+            {
+              "entry": "00106400",
+              "name": "fclose",
+              "external": false,
+              "thunk": true
+            }
+          ]
+        },
+        {
+          "name": "FUN_00104e60",
+          "elf_va": "0x4e60",
+          "entry": "00104e60",
+          "seed": false,
+          "decompile_completed": true,
+          "error": "",
+          "callers": [
+            {
+              "entry": "001051d0",
+              "name": "cube_merge_files"
+            },
+            {
+              "entry": "00104c88",
+              "name": "main"
+            }
+          ],
+          "callees": [
+            {
+              "entry": "00105714",
+              "name": "FUN_00105714",
+              "external": false,
+              "thunk": false
+            },
+            {
+              "entry": "001056b0",
+              "name": "FUN_001056b0",
+              "external": false,
+              "thunk": false
+            },
+            {
+              "entry": "001063e0",
+              "name": "__stack_chk_fail",
+              "external": false,
+              "thunk": true
+            }
+          ]
+        },
+        {
+          "name": "FUN_00104fdc",
+          "elf_va": "0x4fdc",
+          "entry": "00104fdc",
+          "seed": false,
+          "decompile_completed": true,
+          "error": "",
+          "callers": [
+            {
+              "entry": "001051d0",
+              "name": "cube_merge_files"
+            },
+            {
+              "entry": "00104c88",
+              "name": "main"
+            }
+          ],
+          "callees": [
+            {
+              "entry": "001063d0",
+              "name": "printf",
+              "external": false,
+              "thunk": true
+            },
+            {
+              "entry": "00106420",
+              "name": "remove",
+              "external": false,
+              "thunk": true
+            },
+            {
+              "entry": "001063f0",
+              "name": "fopen",
+              "external": false,
+              "thunk": true
+            },
+            {
+              "entry": "00106410",
+              "name": "fprintf",
+              "external": false,
+              "thunk": true
+            },
+            {
+              "entry": "00106400",
+              "name": "fclose",
+              "external": false,
+              "thunk": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "instruction_rows_original_ELF_checked": 1543,
+  "cube_merge_third_argument_instructions": [
+    {
+      "address": "00105258",
+      "instruction": "sub x0,x29,#0x18",
+      "bytes": "a06300d1"
+    },
+    {
+      "address": "0010525c",
+      "instruction": "sub x1,x29,#0x28",
+      "bytes": "a1a300d1"
+    },
+    {
+      "address": "00105260",
+      "instruction": "add x2,sp,#0x38",
+      "bytes": "e2e30091"
+    },
+    {
+      "address": "00105264",
+      "instruction": "str x2,[sp, #0x10]",
+      "bytes": "e20b00f9"
+    },
+    {
+      "address": "00105268",
+      "instruction": "bl 0x00104e60",
+      "bytes": "fefeff97"
+    },
+    {
+      "address": "0010526c",
+      "instruction": "ldr x1,[sp, #0x10]",
+      "bytes": "e10b40f9"
+    },
+    {
+      "address": "00105270",
+      "instruction": "ldr x0,[sp, #0x20]",
+      "bytes": "e01340f9"
+    },
+    {
+      "address": "00105274",
+      "instruction": "bl 0x00104fdc",
+      "bytes": "5affff97"
+    }
+  ],
+  "correction": "Ghidra caller C omitted the third argument at cube_merge_files -> 0x4e60. Raw ARM64 sets x2=sp+0x38, then passes that output structure to writer.",
+  "limits": "C prototypes remain tentative. Full C/instruction listings stay local; selected caller/callee graph is analysis-derived."
+}

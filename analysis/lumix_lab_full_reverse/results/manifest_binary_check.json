@@ -1,0 +1,1684 @@
+{
+  "manifests": [
+    {
+      "apk": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "raw_manifest_sha256": "2d3bca9c726c2f1001e4319561e599105f2b66608f2a3735798fd7db4c280a5f",
+      "elements": [
+        {
+          "element": "manifest",
+          "chunk_offset": 684,
+          "attribute_count": 4,
+          "selected_attributes": {
+            "versionCode": {
+              "type": 16,
+              "value": 22
+            }
+          }
+        },
+        {
+          "element": "application",
+          "chunk_offset": 800,
+          "attribute_count": 2,
+          "selected_attributes": {}
+        },
+        {
+          "element": "meta-data",
+          "chunk_offset": 876,
+          "attribute_count": 2,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.android.vending.derived.apk.id"
+            }
+          }
+        }
+      ],
+      "node_sequence_matches_apktool_except_uses_sdk_moved_to_yaml": true
+    },
+    {
+      "apk": "com.panasonic.jp.lumixlab-22-config.en.apk",
+      "raw_manifest_sha256": "e0464a52f79948bf93515c61b6c45a179420abadfe882aeb06eac65a39daf8c4",
+      "elements": [
+        {
+          "element": "manifest",
+          "chunk_offset": 652,
+          "attribute_count": 4,
+          "selected_attributes": {
+            "versionCode": {
+              "type": 16,
+              "value": 22
+            }
+          }
+        },
+        {
+          "element": "application",
+          "chunk_offset": 768,
+          "attribute_count": 2,
+          "selected_attributes": {}
+        },
+        {
+          "element": "meta-data",
+          "chunk_offset": 844,
+          "attribute_count": 2,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.android.vending.derived.apk.id"
+            }
+          }
+        }
+      ],
+      "node_sequence_matches_apktool_except_uses_sdk_moved_to_yaml": true
+    },
+    {
+      "apk": "com.panasonic.jp.lumixlab-22-config.xxhdpi.apk",
+      "raw_manifest_sha256": "4af36bd2c0502f5bb2f61bf7b7c26c489ca1c2ec3ac903f6aeff433fcb1a0c3e",
+      "elements": [
+        {
+          "element": "manifest",
+          "chunk_offset": 684,
+          "attribute_count": 4,
+          "selected_attributes": {
+            "versionCode": {
+              "type": 16,
+              "value": 22
+            }
+          }
+        },
+        {
+          "element": "application",
+          "chunk_offset": 800,
+          "attribute_count": 2,
+          "selected_attributes": {}
+        },
+        {
+          "element": "meta-data",
+          "chunk_offset": 876,
+          "attribute_count": 2,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.android.vending.derived.apk.id"
+            }
+          }
+        }
+      ],
+      "node_sequence_matches_apktool_except_uses_sdk_moved_to_yaml": true
+    },
+    {
+      "apk": "com.panasonic.jp.lumixlab-22-config.zh.apk",
+      "raw_manifest_sha256": "1f0b87e768d76d7f5d3b6b9855c10b010017843dd58e59bd075456d6287e9328",
+      "elements": [
+        {
+          "element": "manifest",
+          "chunk_offset": 652,
+          "attribute_count": 4,
+          "selected_attributes": {
+            "versionCode": {
+              "type": 16,
+              "value": 22
+            }
+          }
+        },
+        {
+          "element": "application",
+          "chunk_offset": 768,
+          "attribute_count": 2,
+          "selected_attributes": {}
+        },
+        {
+          "element": "meta-data",
+          "chunk_offset": 844,
+          "attribute_count": 2,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.android.vending.derived.apk.id"
+            }
+          }
+        }
+      ],
+      "node_sequence_matches_apktool_except_uses_sdk_moved_to_yaml": true
+    },
+    {
+      "apk": "com.panasonic.jp.lumixlab-22.apk",
+      "raw_manifest_sha256": "142282dd9591b890b43819a72f8433d50b7f1684dfb04724740aed170f596757",
+      "elements": [
+        {
+          "element": "manifest",
+          "chunk_offset": 17708,
+          "attribute_count": 9,
+          "selected_attributes": {
+            "versionCode": {
+              "type": 16,
+              "value": 22
+            },
+            "versionName": {
+              "type": 3,
+              "value": "3.1.0"
+            }
+          }
+        },
+        {
+          "element": "uses-sdk",
+          "chunk_offset": 17924,
+          "attribute_count": 2,
+          "selected_attributes": {
+            "minSdkVersion": {
+              "type": 16,
+              "value": 30
+            },
+            "targetSdkVersion": {
+              "type": 16,
+              "value": 35
+            }
+          }
+        },
+        {
+          "element": "uses-permission",
+          "chunk_offset": 18024,
+          "attribute_count": 1,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "android.permission.INTERNET"
+            }
+          }
+        },
+        {
+          "element": "uses-permission",
+          "chunk_offset": 18104,
+          "attribute_count": 1,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "android.permission.ACCESS_NETWORK_STATE"
+            }
+          }
+        },
+        {
+          "element": "uses-permission",
+          "chunk_offset": 18184,
+          "attribute_count": 1,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "android.permission.CHANGE_NETWORK_STATE"
+            }
+          }
+        },
+        {
+          "element": "uses-permission",
+          "chunk_offset": 18264,
+          "attribute_count": 1,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "android.permission.ACCESS_WIFI_STATE"
+            }
+          }
+        },
+        {
+          "element": "uses-permission",
+          "chunk_offset": 18344,
+          "attribute_count": 1,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "android.permission.CHANGE_WIFI_STATE"
+            }
+          }
+        },
+        {
+          "element": "uses-permission",
+          "chunk_offset": 18424,
+          "attribute_count": 2,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "android.permission.NEARBY_WIFI_DEVICES"
+            }
+          }
+        },
+        {
+          "element": "uses-permission",
+          "chunk_offset": 18524,
+          "attribute_count": 3,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "android.permission.READ_EXTERNAL_STORAGE"
+            },
+            "minSdkVersion": {
+              "type": 16,
+              "value": 30
+            }
+          }
+        },
+        {
+          "element": "uses-permission",
+          "chunk_offset": 18644,
+          "attribute_count": 2,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "android.permission.READ_MEDIA_IMAGES"
+            },
+            "minSdkVersion": {
+              "type": 16,
+              "value": 33
+            }
+          }
+        },
+        {
+          "element": "uses-permission",
+          "chunk_offset": 18744,
+          "attribute_count": 2,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "android.permission.READ_MEDIA_VIDEO"
+            },
+            "minSdkVersion": {
+              "type": 16,
+              "value": 33
+            }
+          }
+        },
+        {
+          "element": "uses-permission",
+          "chunk_offset": 18844,
+          "attribute_count": 3,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "android.permission.BLUETOOTH"
+            },
+            "minSdkVersion": {
+              "type": 16,
+              "value": 30
+            }
+          }
+        },
+        {
+          "element": "uses-permission",
+          "chunk_offset": 18964,
+          "attribute_count": 3,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "android.permission.BLUETOOTH_ADMIN"
+            },
+            "minSdkVersion": {
+              "type": 16,
+              "value": 30
+            }
+          }
+        },
+        {
+          "element": "uses-permission",
+          "chunk_offset": 19084,
+          "attribute_count": 3,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "android.permission.BLUETOOTH_SCAN"
+            },
+            "minSdkVersion": {
+              "type": 16,
+              "value": 31
+            }
+          }
+        },
+        {
+          "element": "uses-permission",
+          "chunk_offset": 19204,
+          "attribute_count": 2,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "android.permission.BLUETOOTH_ADVERTISE"
+            },
+            "minSdkVersion": {
+              "type": 16,
+              "value": 31
+            }
+          }
+        },
+        {
+          "element": "uses-permission",
+          "chunk_offset": 19304,
+          "attribute_count": 2,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "android.permission.BLUETOOTH_CONNECT"
+            },
+            "minSdkVersion": {
+              "type": 16,
+              "value": 31
+            }
+          }
+        },
+        {
+          "element": "uses-permission",
+          "chunk_offset": 19404,
+          "attribute_count": 1,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "android.permission.ACCESS_FINE_LOCATION"
+            }
+          }
+        },
+        {
+          "element": "uses-permission",
+          "chunk_offset": 19484,
+          "attribute_count": 1,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "android.permission.ACCESS_COARSE_LOCATION"
+            }
+          }
+        },
+        {
+          "element": "uses-permission",
+          "chunk_offset": 19564,
+          "attribute_count": 1,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "android.permission.ACCESS_BACKGROUND_LOCATION"
+            }
+          }
+        },
+        {
+          "element": "uses-permission",
+          "chunk_offset": 19644,
+          "attribute_count": 1,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "android.permission.FOREGROUND_SERVICE_LOCATION"
+            }
+          }
+        },
+        {
+          "element": "uses-permission",
+          "chunk_offset": 19724,
+          "attribute_count": 1,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE"
+            }
+          }
+        },
+        {
+          "element": "uses-permission",
+          "chunk_offset": 19804,
+          "attribute_count": 1,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "android.permission.FOREGROUND_SERVICE"
+            }
+          }
+        },
+        {
+          "element": "uses-permission",
+          "chunk_offset": 19884,
+          "attribute_count": 1,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "android.permission.SYSTEM_ALERT_WINDOW"
+            }
+          }
+        },
+        {
+          "element": "uses-permission",
+          "chunk_offset": 19964,
+          "attribute_count": 1,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "android.permission.VIBRATE"
+            }
+          }
+        },
+        {
+          "element": "uses-permission",
+          "chunk_offset": 20044,
+          "attribute_count": 1,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "android.permission.POST_NOTIFICATIONS"
+            }
+          }
+        },
+        {
+          "element": "uses-permission",
+          "chunk_offset": 20124,
+          "attribute_count": 1,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "android.permission.WAKE_LOCK"
+            }
+          }
+        },
+        {
+          "element": "uses-permission",
+          "chunk_offset": 20204,
+          "attribute_count": 1,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "android.permission.USB_PERMISSION"
+            }
+          }
+        },
+        {
+          "element": "uses-feature",
+          "chunk_offset": 20284,
+          "attribute_count": 2,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "android.hardware.usb.host"
+            }
+          }
+        },
+        {
+          "element": "uses-permission",
+          "chunk_offset": 20384,
+          "attribute_count": 1,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.google.android.c2dm.permission.RECEIVE"
+            }
+          }
+        },
+        {
+          "element": "permission",
+          "chunk_offset": 20464,
+          "attribute_count": 2,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+            }
+          }
+        },
+        {
+          "element": "uses-permission",
+          "chunk_offset": 20564,
+          "attribute_count": 1,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+            }
+          }
+        },
+        {
+          "element": "application",
+          "chunk_offset": 20644,
+          "attribute_count": 16,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab.LlcApplication"
+            }
+          }
+        },
+        {
+          "element": "meta-data",
+          "chunk_offset": 21000,
+          "attribute_count": 2,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.google.firebase.messaging.default_notification_icon"
+            }
+          }
+        },
+        {
+          "element": "meta-data",
+          "chunk_offset": 21100,
+          "attribute_count": 2,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.google.firebase.messaging.default_notification_channel_id"
+            }
+          }
+        },
+        {
+          "element": "provider",
+          "chunk_offset": 21200,
+          "attribute_count": 4,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "androidx.core.content.FileProvider"
+            }
+          }
+        },
+        {
+          "element": "meta-data",
+          "chunk_offset": 21316,
+          "attribute_count": 2,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "android.support.FILE_PROVIDER_PATHS"
+            }
+          }
+        },
+        {
+          "element": "service",
+          "chunk_offset": 21440,
+          "attribute_count": 5,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab.service.LlcService"
+            }
+          }
+        },
+        {
+          "element": "service",
+          "chunk_offset": 21600,
+          "attribute_count": 6,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab.service.ForegroundService"
+            }
+          }
+        },
+        {
+          "element": "service",
+          "chunk_offset": 21780,
+          "attribute_count": 4,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab.service.LocationForegroundService"
+            }
+          }
+        },
+        {
+          "element": "service",
+          "chunk_offset": 21920,
+          "attribute_count": 3,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab.service.LlcMessagingService"
+            }
+          }
+        },
+        {
+          "element": "intent-filter",
+          "chunk_offset": 22016,
+          "attribute_count": 0,
+          "selected_attributes": {}
+        },
+        {
+          "element": "action",
+          "chunk_offset": 22052,
+          "attribute_count": 1,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.google.firebase.MESSAGING_EVENT"
+            }
+          }
+        },
+        {
+          "element": "service",
+          "chunk_offset": 22180,
+          "attribute_count": 3,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab.model.blecentral.util.BleLogService"
+            }
+          }
+        },
+        {
+          "element": "activity",
+          "chunk_offset": 22300,
+          "attribute_count": 4,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab.controller.activity.AppLaunchScreenActivity"
+            }
+          }
+        },
+        {
+          "element": "intent-filter",
+          "chunk_offset": 22416,
+          "attribute_count": 0,
+          "selected_attributes": {}
+        },
+        {
+          "element": "action",
+          "chunk_offset": 22452,
+          "attribute_count": 1,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "android.intent.action.MAIN"
+            }
+          }
+        },
+        {
+          "element": "category",
+          "chunk_offset": 22532,
+          "attribute_count": 1,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "android.intent.category.LAUNCHER"
+            }
+          }
+        },
+        {
+          "element": "activity",
+          "chunk_offset": 22660,
+          "attribute_count": 4,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab.controller.activity.DeepLinkRouterActivity"
+            }
+          }
+        },
+        {
+          "element": "intent-filter",
+          "chunk_offset": 22776,
+          "attribute_count": 0,
+          "selected_attributes": {}
+        },
+        {
+          "element": "action",
+          "chunk_offset": 22812,
+          "attribute_count": 1,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab"
+            }
+          }
+        },
+        {
+          "element": "category",
+          "chunk_offset": 22892,
+          "attribute_count": 1,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "android.intent.category.DEFAULT"
+            }
+          }
+        },
+        {
+          "element": "intent-filter",
+          "chunk_offset": 22996,
+          "attribute_count": 0,
+          "selected_attributes": {}
+        },
+        {
+          "element": "action",
+          "chunk_offset": 23032,
+          "attribute_count": 1,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "android.intent.action.VIEW"
+            }
+          }
+        },
+        {
+          "element": "category",
+          "chunk_offset": 23112,
+          "attribute_count": 1,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "android.intent.category.DEFAULT"
+            }
+          }
+        },
+        {
+          "element": "category",
+          "chunk_offset": 23192,
+          "attribute_count": 1,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "android.intent.category.BROWSABLE"
+            }
+          }
+        },
+        {
+          "element": "data",
+          "chunk_offset": 23272,
+          "attribute_count": 2,
+          "selected_attributes": {}
+        },
+        {
+          "element": "activity",
+          "chunk_offset": 23420,
+          "attribute_count": 7,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab.controller.activity.UsbAttachActivity"
+            }
+          }
+        },
+        {
+          "element": "intent-filter",
+          "chunk_offset": 23596,
+          "attribute_count": 0,
+          "selected_attributes": {}
+        },
+        {
+          "element": "action",
+          "chunk_offset": 23632,
+          "attribute_count": 1,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "android.hardware.usb.action.USB_DEVICE_ATTACHED"
+            }
+          }
+        },
+        {
+          "element": "meta-data",
+          "chunk_offset": 23736,
+          "attribute_count": 2,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "android.hardware.usb.action.USB_DEVICE_ATTACHED"
+            }
+          }
+        },
+        {
+          "element": "activity",
+          "chunk_offset": 23860,
+          "attribute_count": 3,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab.controller.activity.TemplateAddFrameActivity"
+            }
+          }
+        },
+        {
+          "element": "activity",
+          "chunk_offset": 23980,
+          "attribute_count": 3,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab.controller.activity.TemplateSelectActivity"
+            }
+          }
+        },
+        {
+          "element": "activity",
+          "chunk_offset": 24100,
+          "attribute_count": 3,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab.controller.activity.PrivacyTermsActivity"
+            }
+          }
+        },
+        {
+          "element": "activity",
+          "chunk_offset": 24220,
+          "attribute_count": 3,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab.controller.activity.PermissionConfirmationActivity"
+            }
+          }
+        },
+        {
+          "element": "activity",
+          "chunk_offset": 24340,
+          "attribute_count": 3,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab.controller.activity.UserSegmentsActivity"
+            }
+          }
+        },
+        {
+          "element": "activity",
+          "chunk_offset": 24460,
+          "attribute_count": 5,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab.controller.activity.MainActivity"
+            }
+          }
+        },
+        {
+          "element": "activity",
+          "chunk_offset": 24620,
+          "attribute_count": 3,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab.controller.activity.CameraGalleryActivity"
+            }
+          }
+        },
+        {
+          "element": "activity",
+          "chunk_offset": 24740,
+          "attribute_count": 3,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab.controller.activity.BurstActivity"
+            }
+          }
+        },
+        {
+          "element": "activity",
+          "chunk_offset": 24860,
+          "attribute_count": 3,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab.controller.activity.SettingActivity"
+            }
+          }
+        },
+        {
+          "element": "activity",
+          "chunk_offset": 24980,
+          "attribute_count": 3,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab.controller.activity.SettingWebViewActivity"
+            }
+          }
+        },
+        {
+          "element": "activity",
+          "chunk_offset": 25100,
+          "attribute_count": 3,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab.controller.activity.CommunityImageActivity"
+            }
+          }
+        },
+        {
+          "element": "activity",
+          "chunk_offset": 25220,
+          "attribute_count": 3,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab.controller.activity.ImageTransferSettingsActivity"
+            }
+          }
+        },
+        {
+          "element": "activity",
+          "chunk_offset": 25340,
+          "attribute_count": 3,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab.controller.activity.RawJpegImageSaveFormatActivity"
+            }
+          }
+        },
+        {
+          "element": "activity",
+          "chunk_offset": 25460,
+          "attribute_count": 3,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab.controller.activity.RawHeifImageSaveFormatActivity"
+            }
+          }
+        },
+        {
+          "element": "activity",
+          "chunk_offset": 25580,
+          "attribute_count": 3,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab.controller.activity.StartActivity"
+            }
+          }
+        },
+        {
+          "element": "activity",
+          "chunk_offset": 25700,
+          "attribute_count": 3,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab.controller.activity.PushNotificationActivity"
+            }
+          }
+        },
+        {
+          "element": "activity",
+          "chunk_offset": 25820,
+          "attribute_count": 3,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab.controller.activity.PushNotificationDetailActivity"
+            }
+          }
+        },
+        {
+          "element": "activity",
+          "chunk_offset": 25940,
+          "attribute_count": 3,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab.controller.activity.FirmwareDetailActivity"
+            }
+          }
+        },
+        {
+          "element": "activity",
+          "chunk_offset": 26060,
+          "attribute_count": 4,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab.controller.activity.RemoteShootingActivity"
+            }
+          }
+        },
+        {
+          "element": "activity",
+          "chunk_offset": 26200,
+          "attribute_count": 4,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab.controller.activity.RemotePhotostyleActivity"
+            }
+          }
+        },
+        {
+          "element": "activity",
+          "chunk_offset": 26340,
+          "attribute_count": 3,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab.controller.activity.AutoTransferFilesPreviewActivity"
+            }
+          }
+        },
+        {
+          "element": "activity",
+          "chunk_offset": 26460,
+          "attribute_count": 3,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab.controller.activity.AutoTransferFilesGalleryActivity"
+            }
+          }
+        },
+        {
+          "element": "activity",
+          "chunk_offset": 26580,
+          "attribute_count": 3,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab.controller.activity.ImageCropActivity"
+            }
+          }
+        },
+        {
+          "element": "activity",
+          "chunk_offset": 26700,
+          "attribute_count": 3,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab.controller.activity.Template1SelectColorActivity"
+            }
+          }
+        },
+        {
+          "element": "activity",
+          "chunk_offset": 26820,
+          "attribute_count": 5,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab.controller.activity.edit.EditActivity"
+            }
+          }
+        },
+        {
+          "element": "activity",
+          "chunk_offset": 26980,
+          "attribute_count": 3,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab.controller.activity.TipsActivity"
+            }
+          }
+        },
+        {
+          "element": "activity",
+          "chunk_offset": 27100,
+          "attribute_count": 3,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab.controller.activity.TipsDetailActivity"
+            }
+          }
+        },
+        {
+          "element": "activity",
+          "chunk_offset": 27220,
+          "attribute_count": 3,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab.controller.activity.DeviceInfoActivity"
+            }
+          }
+        },
+        {
+          "element": "receiver",
+          "chunk_offset": 27340,
+          "attribute_count": 2,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.panasonic.jp.lumixlab.model.blecentral.LLCBleCentral$BtBroadcastReceiver"
+            }
+          }
+        },
+        {
+          "element": "intent-filter",
+          "chunk_offset": 27416,
+          "attribute_count": 0,
+          "selected_attributes": {}
+        },
+        {
+          "element": "action",
+          "chunk_offset": 27452,
+          "attribute_count": 1,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "android.bluetooth.device.action.PAIRING_REQUEST"
+            }
+          }
+        },
+        {
+          "element": "action",
+          "chunk_offset": 27532,
+          "attribute_count": 1,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "android.bluetooth.adapter.action.STATE_CHANGED"
+            }
+          }
+        },
+        {
+          "element": "action",
+          "chunk_offset": 27612,
+          "attribute_count": 1,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "android.bluetooth.adapter.action.CONNECTIONSTATE_CHANGED"
+            }
+          }
+        },
+        {
+          "element": "activity",
+          "chunk_offset": 27740,
+          "attribute_count": 4,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            }
+          }
+        },
+        {
+          "element": "service",
+          "chunk_offset": 27880,
+          "attribute_count": 4,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.google.android.gms.auth.api.signin.RevocationBoundService"
+            }
+          }
+        },
+        {
+          "element": "receiver",
+          "chunk_offset": 28020,
+          "attribute_count": 4,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.google.firebase.messaging.directboot.FirebaseMessagingDirectBootReceiver"
+            }
+          }
+        },
+        {
+          "element": "intent-filter",
+          "chunk_offset": 28136,
+          "attribute_count": 0,
+          "selected_attributes": {}
+        },
+        {
+          "element": "action",
+          "chunk_offset": 28172,
+          "attribute_count": 1,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.google.firebase.messaging.RECEIVE_DIRECT_BOOT"
+            }
+          }
+        },
+        {
+          "element": "receiver",
+          "chunk_offset": 28300,
+          "attribute_count": 3,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            }
+          }
+        },
+        {
+          "element": "intent-filter",
+          "chunk_offset": 28396,
+          "attribute_count": 0,
+          "selected_attributes": {}
+        },
+        {
+          "element": "action",
+          "chunk_offset": 28432,
+          "attribute_count": 1,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.google.android.c2dm.intent.RECEIVE"
+            }
+          }
+        },
+        {
+          "element": "meta-data",
+          "chunk_offset": 28536,
+          "attribute_count": 2,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+            }
+          }
+        },
+        {
+          "element": "service",
+          "chunk_offset": 28660,
+          "attribute_count": 3,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.google.firebase.messaging.FirebaseMessagingService"
+            }
+          }
+        },
+        {
+          "element": "intent-filter",
+          "chunk_offset": 28756,
+          "attribute_count": 1,
+          "selected_attributes": {}
+        },
+        {
+          "element": "action",
+          "chunk_offset": 28812,
+          "attribute_count": 1,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.google.firebase.MESSAGING_EVENT"
+            }
+          }
+        },
+        {
+          "element": "service",
+          "chunk_offset": 28940,
+          "attribute_count": 3,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.google.firebase.components.ComponentDiscoveryService"
+            }
+          }
+        },
+        {
+          "element": "meta-data",
+          "chunk_offset": 29036,
+          "attribute_count": 2,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+            }
+          }
+        },
+        {
+          "element": "meta-data",
+          "chunk_offset": 29136,
+          "attribute_count": 2,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+            }
+          }
+        },
+        {
+          "element": "meta-data",
+          "chunk_offset": 29236,
+          "attribute_count": 2,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+            }
+          }
+        },
+        {
+          "element": "meta-data",
+          "chunk_offset": 29336,
+          "attribute_count": 2,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+            }
+          }
+        },
+        {
+          "element": "meta-data",
+          "chunk_offset": 29436,
+          "attribute_count": 2,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+            }
+          }
+        },
+        {
+          "element": "meta-data",
+          "chunk_offset": 29536,
+          "attribute_count": 2,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+            }
+          }
+        },
+        {
+          "element": "meta-data",
+          "chunk_offset": 29636,
+          "attribute_count": 2,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+            }
+          }
+        },
+        {
+          "element": "activity",
+          "chunk_offset": 29760,
+          "attribute_count": 3,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.google.android.gms.common.api.GoogleApiActivity"
+            }
+          }
+        },
+        {
+          "element": "provider",
+          "chunk_offset": 29880,
+          "attribute_count": 5,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.google.firebase.provider.FirebaseInitProvider"
+            }
+          }
+        },
+        {
+          "element": "provider",
+          "chunk_offset": 30040,
+          "attribute_count": 3,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "androidx.startup.InitializationProvider"
+            }
+          }
+        },
+        {
+          "element": "meta-data",
+          "chunk_offset": 30136,
+          "attribute_count": 2,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "androidx.emoji2.text.EmojiCompatInitializer"
+            }
+          }
+        },
+        {
+          "element": "meta-data",
+          "chunk_offset": 30236,
+          "attribute_count": 2,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "androidx.lifecycle.ProcessLifecycleInitializer"
+            }
+          }
+        },
+        {
+          "element": "meta-data",
+          "chunk_offset": 30336,
+          "attribute_count": 2,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "androidx.profileinstaller.ProfileInstallerInitializer"
+            }
+          }
+        },
+        {
+          "element": "uses-library",
+          "chunk_offset": 30460,
+          "attribute_count": 2,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "androidx.window.extensions"
+            }
+          }
+        },
+        {
+          "element": "uses-library",
+          "chunk_offset": 30560,
+          "attribute_count": 2,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "androidx.window.sidecar"
+            }
+          }
+        },
+        {
+          "element": "meta-data",
+          "chunk_offset": 30660,
+          "attribute_count": 2,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.google.android.gms.version"
+            }
+          }
+        },
+        {
+          "element": "service",
+          "chunk_offset": 30760,
+          "attribute_count": 3,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "androidx.room.MultiInstanceInvalidationService"
+            }
+          }
+        },
+        {
+          "element": "receiver",
+          "chunk_offset": 30880,
+          "attribute_count": 5,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "androidx.profileinstaller.ProfileInstallReceiver"
+            }
+          }
+        },
+        {
+          "element": "intent-filter",
+          "chunk_offset": 31016,
+          "attribute_count": 0,
+          "selected_attributes": {}
+        },
+        {
+          "element": "action",
+          "chunk_offset": 31052,
+          "attribute_count": 1,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "androidx.profileinstaller.action.INSTALL_PROFILE"
+            }
+          }
+        },
+        {
+          "element": "intent-filter",
+          "chunk_offset": 31156,
+          "attribute_count": 0,
+          "selected_attributes": {}
+        },
+        {
+          "element": "action",
+          "chunk_offset": 31192,
+          "attribute_count": 1,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "androidx.profileinstaller.action.SKIP_FILE"
+            }
+          }
+        },
+        {
+          "element": "intent-filter",
+          "chunk_offset": 31296,
+          "attribute_count": 0,
+          "selected_attributes": {}
+        },
+        {
+          "element": "action",
+          "chunk_offset": 31332,
+          "attribute_count": 1,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "androidx.profileinstaller.action.SAVE_PROFILE"
+            }
+          }
+        },
+        {
+          "element": "intent-filter",
+          "chunk_offset": 31436,
+          "attribute_count": 0,
+          "selected_attributes": {}
+        },
+        {
+          "element": "action",
+          "chunk_offset": 31472,
+          "attribute_count": 1,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+            }
+          }
+        },
+        {
+          "element": "service",
+          "chunk_offset": 31600,
+          "attribute_count": 2,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+            }
+          }
+        },
+        {
+          "element": "meta-data",
+          "chunk_offset": 31676,
+          "attribute_count": 2,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "backend:com.google.android.datatransport.cct.CctBackendFactory"
+            }
+          }
+        },
+        {
+          "element": "service",
+          "chunk_offset": 31800,
+          "attribute_count": 3,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+            }
+          }
+        },
+        {
+          "element": "receiver",
+          "chunk_offset": 31920,
+          "attribute_count": 2,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+            }
+          }
+        },
+        {
+          "element": "activity",
+          "chunk_offset": 32020,
+          "attribute_count": 4,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+            }
+          }
+        },
+        {
+          "element": "meta-data",
+          "chunk_offset": 32160,
+          "attribute_count": 2,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.android.vending.splits.required"
+            }
+          }
+        },
+        {
+          "element": "meta-data",
+          "chunk_offset": 32260,
+          "attribute_count": 2,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.android.stamp.source"
+            }
+          }
+        },
+        {
+          "element": "meta-data",
+          "chunk_offset": 32360,
+          "attribute_count": 2,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.android.stamp.type"
+            }
+          }
+        },
+        {
+          "element": "meta-data",
+          "chunk_offset": 32460,
+          "attribute_count": 2,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.android.vending.splits"
+            }
+          }
+        },
+        {
+          "element": "meta-data",
+          "chunk_offset": 32560,
+          "attribute_count": 2,
+          "selected_attributes": {
+            "name": {
+              "type": 3,
+              "value": "com.android.vending.derived.apk.id"
+            }
+          }
+        }
+      ],
+      "node_sequence_matches_apktool_except_uses_sdk_moved_to_yaml": true
+    }
+  ],
+  "limits": "Independent string-pool/chunk/node-sequence and raw SDK/version attribute check. Apktool removes uses-sdk into YAML. Not full resource-reference/attribute semantic validation."
+}

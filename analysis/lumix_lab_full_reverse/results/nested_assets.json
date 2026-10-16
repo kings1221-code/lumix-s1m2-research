@@ -1,0 +1,105 @@
+{
+  "objects": [
+    {
+      "apk_member": "assets/zip/rules-broadcast.zip",
+      "sha256": "627ff10c8cf46515c5ff1eeec0a99d2deb36a3cb488ee3b9497781e6da6d2862",
+      "nested_members": [
+        {
+          "path": "rules.json",
+          "size": 504,
+          "sha256": "5dc5aa91f6acf28789ce3d362aee8814bcf0e2b492f0bd97b034c681430e6bd3",
+          "crc32": "baee7dbe",
+          "json_root_keys_or_type": [
+            "version",
+            "rules"
+          ]
+        },
+        {
+          "path": "assets/7991172.html",
+          "size": 7337,
+          "sha256": "c4f186de726b0e97447c71475f48c02db4783c408cf72f5874c66d4590ede054",
+          "crc32": "c2177da7",
+          "json_root_keys_or_type": null
+        }
+      ],
+      "all_member_CRC_pass": true
+    },
+    {
+      "apk_member": "assets/zip/rules-localNotification.zip",
+      "sha256": "fed54b06df5e59783a244f41b80ccd50ae6a6ee9c4da67cb421a6245b0ee4e25",
+      "nested_members": [
+        {
+          "path": "rules.json",
+          "size": 2821,
+          "sha256": "ba1518f972ceac038ef07f09c0e58cc952a393907bfdcc4ed0d927fcffefeb37",
+          "crc32": "1d574aa7",
+          "json_root_keys_or_type": [
+            "version",
+            "rules"
+          ]
+        },
+        {
+          "path": "__MACOSX/._rules.json",
+          "size": 276,
+          "sha256": "3563fd9cd5f473a057e3140675bcfe29e4a95d745f5e37913074271ae4ee5381",
+          "crc32": "1718722b",
+          "json_root_keys_or_type": null
+        }
+      ],
+      "all_member_CRC_pass": true
+    },
+    {
+      "apk_member": "assets/zip/rules-personalized.zip",
+      "sha256": "ce7f30fd2359d41ddf2292070a00cccb2b15de80fed4dd57ccb5df80b3010588",
+      "nested_members": [
+        {
+          "path": "rules.json",
+          "size": 989,
+          "sha256": "77b5c8ba9652a91eba0e3a5fa2a12da5f452c0e856308c04ee4b0e0f201b8e47",
+          "crc32": "12e65030",
+          "json_root_keys_or_type": [
+            "version",
+            "rules"
+          ]
+        },
+        {
+          "path": "assets/8013105.html",
+          "size": 8001,
+          "sha256": "b9337aba81abbffe860e8cb7af6f504b10ca0bae8e84d9688d232c44125f5216",
+          "crc32": "6db90abb",
+          "json_root_keys_or_type": null
+        },
+        {
+          "path": "assets/7991172.html",
+          "size": 7337,
+          "sha256": "c4f186de726b0e97447c71475f48c02db4783c408cf72f5874c66d4590ede054",
+          "crc32": "c2177da7",
+          "json_root_keys_or_type": null
+        }
+      ],
+      "all_member_CRC_pass": true
+    },
+    {
+      "apk_member": "okhttp3/internal/publicsuffix/publicsuffixes.gz",
+      "compressed_sha256": "a1ef3d0e4ec2cbce14c1884ab0f3a4fef46e258de83530dc562ebb805bdb12fd",
+      "decoded_size": 104170,
+      "decoded_sha256": "431223ad7c331d1bbfc0e8d5096aa49831408383ccc064b6c8e35e2d4322acf5",
+      "observed_format": "two big-endian u32 length-prefixed UTF-8 byte sections; entire decoded range consumed",
+      "sections": [
+        {
+          "index": 0,
+          "size": 104043,
+          "sha256": "ce79066fa98763e7821480250721716a104bd023fcd845645af9452e95ddd6d8",
+          "newline_count": 8845
+        },
+        {
+          "index": 1,
+          "size": 119,
+          "sha256": "b487ad0540e4e35b08306183d9ea4bc63c1789d0611d6e010de336b6a141e85a",
+          "newline_count": 8
+        }
+      ]
+    }
+  ],
+  "scope": "Only four observed magic positives; no JavaScript/rule evaluation, no nested executable run, no entropy-based encryption claims."
+}

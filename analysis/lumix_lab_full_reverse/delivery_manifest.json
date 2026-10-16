@@ -1,0 +1,325 @@
+{
+  "scope": "public artifacts only; excludes this manifest and ignored local outputs",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size": 25,
+      "sha256": "4f1cc3a349adb40d9098c6c27939e254b52e306c28701cd58cb6a4caaae455f3"
+    },
+    {
+      "path": ".gitignore",
+      "size": 21,
+      "sha256": "7fe900632e902dce612cbd13a9bc389da711fdf2f341d9edc6fff158b76e8486"
+    },
+    {
+      "path": "APK_STRUCTURE.md",
+      "size": 3328,
+      "sha256": "e26e4bdf7620d5e5add72840d6639b766776a77a017b10acd3abf7012baaf380"
+    },
+    {
+      "path": "ARM64_ANALYSIS.md",
+      "size": 4553,
+      "sha256": "b9c9ccde0522c26641b73db37ec8bd4beb414f6a6fb0266ae93f35e75e8d87e9"
+    },
+    {
+      "path": "COMMUNICATION_MAP.md",
+      "size": 1368,
+      "sha256": "ce4c8e668f0f50ad90ff2e25504a7f103a5fe1fc7a9b2a310d6552f697c66018"
+    },
+    {
+      "path": "COVERAGE.md",
+      "size": 3162,
+      "sha256": "faa55c763bb6df392648a55d74aa77f73a996f816bfbc9951ea1701dcfd683f1"
+    },
+    {
+      "path": "CRYPTO_AND_ENCODING_MAP.md",
+      "size": 1592,
+      "sha256": "5d027fecc76c4754c8d1c5f7a5f59fd6c07ad6e138036a152a9d6856f1eae915"
+    },
+    {
+      "path": "DEX_ANALYSIS.md",
+      "size": 4096,
+      "sha256": "c085421d0e93d97e6b81d658ab199be5fb26a00f2897ae89c9aecd2b3bbdb075"
+    },
+    {
+      "path": "FIRMWARE_UPDATE_MAP.md",
+      "size": 1227,
+      "sha256": "9894b631a4edf0c90d9ee75e50140cd6a7ab27a1683efacae80658ffe6aaf785"
+    },
+    {
+      "path": "FUNCTION_MODULE_MAP.md",
+      "size": 2989,
+      "sha256": "3d6551b7b4fc8cc54eda56c833114b3bf83764ee017295d40350b1a97fcb6355"
+    },
+    {
+      "path": "INPUT_MANIFEST.md",
+      "size": 3770,
+      "sha256": "a7c7d5bce2a8c6e84382d3dd6fb5c154e25c3c29e62becb9d79de9cc44f04e64"
+    },
+    {
+      "path": "JNI_NATIVE_MAP.md",
+      "size": 2837,
+      "sha256": "1a6e1234cdeb644fc886bcec5481cec00aaf345fbb0fc9df03989081d2f29346"
+    },
+    {
+      "path": "PROGRESS.md",
+      "size": 2582,
+      "sha256": "29b8d356403dac6dc6f05f3906e39ce7255e5e4421eb0f801ca29fa0d045a188"
+    },
+    {
+      "path": "README.md",
+      "size": 7311,
+      "sha256": "0f6f1c50c9499092993a8a2ca26777f6a0f377f9bec53bf773484e1836c71018"
+    },
+    {
+      "path": "REPRODUCE.md",
+      "size": 7636,
+      "sha256": "387e4162f68940365222b4bd1acb217ac9218b1a4f3bb6974f67acdec4ede396"
+    },
+    {
+      "path": "results/android_components.json",
+      "size": 37350,
+      "sha256": "46969d4c9769a46b6f2189152e7f894e79f86741c9adb4551597dc98c9279132"
+    },
+    {
+      "path": "results/apk_members.json.gz",
+      "size": 279628,
+      "sha256": "534e203e4660935e6b46685f0218a480d2759e03559e08854f7da455fcd71fbe"
+    },
+    {
+      "path": "results/apk_summary.json",
+      "size": 11522,
+      "sha256": "ec871656b68673fec1950e82d638ffced410ec3011f7ea81ff2f4008280ba1fd"
+    },
+    {
+      "path": "results/apktool_execution.json",
+      "size": 2308,
+      "sha256": "c4a1c527482caf7593afca3f9c36fb58efe189b2f10a6821955f2656b004c261"
+    },
+    {
+      "path": "results/callable_case_evidence.json",
+      "size": 7268,
+      "sha256": "4a6c724be962cae218ba18002ff4a45712f0d35c871495493c09872956cb8a8f"
+    },
+    {
+      "path": "results/coverage.json",
+      "size": 8707,
+      "sha256": "81300ee6ac112d1941b1c369d9868b45e94655565923959ac2288fe5dec3b4a8"
+    },
+    {
+      "path": "results/dex_strings.json.gz",
+      "size": 3602585,
+      "sha256": "aa41265e1cd8a2830d4243293fda95c2c4cf004b26844bd397ebba78c299d295"
+    },
+    {
+      "path": "results/dex_structure.json.gz",
+      "size": 3474837,
+      "sha256": "8586771d8dbd7b0b50e5f3e4cf83972787eae6206d51ac3125307c71e9b1d974"
+    },
+    {
+      "path": "results/dex_summary.json",
+      "size": 620,
+      "sha256": "066bddf4e1e36b966a20849a359e97642d3cbeacd75fddb8a967479a90b11cc3"
+    },
+    {
+      "path": "results/dispatch_sites.json.gz",
+      "size": 12789,
+      "sha256": "13c3bf34f88551eedb018325cabeed2f04ace82116bc344b7308f16c00b7b1ca"
+    },
+    {
+      "path": "results/elf_structure.json.gz",
+      "size": 536348,
+      "sha256": "4611333aad86bbbdc9f66f92c98f9247aaf87cdd43a5f639295927a09f7f79e9"
+    },
+    {
+      "path": "results/failed_method_progress.json",
+      "size": 9069,
+      "sha256": "a19ae4b84d696f5f4a8f9a6f0ba4e7e78bb956e499d022b59704cc2a63605f53"
+    },
+    {
+      "path": "results/final_validation.json",
+      "size": 1171,
+      "sha256": "4cdc438f5317ba053746719244b25be13e6369bd8c1e0892fc44395f5de66564"
+    },
+    {
+      "path": "results/input_manifest.json",
+      "size": 10824,
+      "sha256": "d691fde4d926ac287698fac65ff6bdfb8b42619e7b2c9b883bf5c343f315bf87"
+    },
+    {
+      "path": "results/jni_unresolved_update.json",
+      "size": 1626,
+      "sha256": "3ba7fcb92ad5727e07ca672d8065041ef8644e5cb2cabfd989b9f98a53438fdc"
+    },
+    {
+      "path": "results/manifest_binary_check.json",
+      "size": 46792,
+      "sha256": "8e0022f21defdf850856d3c204e2532463ba3f81a4c66a746c5aa30f8738c7f3"
+    },
+    {
+      "path": "results/module_entries.json.gz",
+      "size": 11452,
+      "sha256": "566ed2572bd0b5564d4e7628f2d171d4d7facf9b7a7e8b035cbd6835f039bdc9"
+    },
+    {
+      "path": "results/native_evidence.json",
+      "size": 12121,
+      "sha256": "0e7bcdd6ff38baaa0fff9a524e0cf1fb92f3aba3599d48b65220f405c28fda77"
+    },
+    {
+      "path": "results/nested_assets.json",
+      "size": 3497,
+      "sha256": "fe80f9440126b58279a91784dec2dff5e9c91b616ad60735ee627cd2a105933a"
+    },
+    {
+      "path": "results/package_graph.json.gz",
+      "size": 65085,
+      "sha256": "7fd239c0208c11520f066174b653b966595f647cc41a8c2e124895e35ecff926"
+    },
+    {
+      "path": "results/prototype_correction.json",
+      "size": 714,
+      "sha256": "8dacf56bf2026f45b4d7f64b03aa060a19a9a2400e128d6f013f068ff5649f29"
+    },
+    {
+      "path": "results/resource_decode_gaps.json",
+      "size": 11156,
+      "sha256": "3d9c5405151b3e80c87467885f32926f35e7f6cafb5748954ed406560f0e62ea"
+    },
+    {
+      "path": "results/resource_ids.json.gz",
+      "size": 115472,
+      "sha256": "c23fab80f168c07ab60a9f9b379915671e37da1a4431c1e8cab0dcb088b40b64"
+    },
+    {
+      "path": "results/semantic_aliases.json",
+      "size": 1023,
+      "sha256": "6b0c690b78d63d8c45aec6cb58244624056752744d716eaf02278595ad3c7fc4"
+    },
+    {
+      "path": "results/semantic_dex_evidence.json",
+      "size": 164093,
+      "sha256": "385111c122b8ee49ef048a64e94b18ccd75105699d0bd8b984db9a6d6e566432"
+    },
+    {
+      "path": "results/smali_crosscheck.json",
+      "size": 821,
+      "sha256": "d539e42a0304e8d886e3b4eec37d7c349e9f35ce2ca264ad678ea0d89984c038"
+    },
+    {
+      "path": "results/verification.json",
+      "size": 462,
+      "sha256": "c6321712fa1b9d5192c59d7311002df74b9d87a4c055db74694e7aaea36e293a"
+    },
+    {
+      "path": "scripts/apk_inventory.py",
+      "size": 3017,
+      "sha256": "6df62cfa0a540edc74815149bba4f06b6b0000bc5597bf3f1d5bfbc053b01aba"
+    },
+    {
+      "path": "scripts/build_knowledge.py",
+      "size": 7301,
+      "sha256": "f65d398282928c1d91cd51c042f4baa476b9d0dd1c6c85474751b7df43a18047"
+    },
+    {
+      "path": "scripts/build_modules.py",
+      "size": 5441,
+      "sha256": "2321369ffd9f9e3fd18f4471f7976ca39816e111e06748087b92dd02fd04ddff"
+    },
+    {
+      "path": "scripts/common.py",
+      "size": 1287,
+      "sha256": "189c9477efae9f18b0074836470f8aaa149991f098644bd0d7fcf1a980c62d30"
+    },
+    {
+      "path": "scripts/decode_apks.py",
+      "size": 1785,
+      "sha256": "be496d821441e54470a827b9afdcafa537add6d6216f8edd9358976d2d02034f"
+    },
+    {
+      "path": "scripts/DexStructure.java",
+      "size": 1567,
+      "sha256": "761ee8235747d2f56576eead60029c3d191597451dd0d9d33fae53dc86efba18"
+    },
+    {
+      "path": "scripts/dispatch_case.py",
+      "size": 2992,
+      "sha256": "c0def974807fb90b86cd7488a2ca38fe140f86433feab55f5bea94eea5e83807"
+    },
+    {
+      "path": "scripts/elf_structure.py",
+      "size": 2906,
+      "sha256": "5a504e9d1c04e75ba24b2790cafb413d99da59459bb179032f3690821e3b7af0"
+    },
+    {
+      "path": "scripts/ExportNative.java",
+      "size": 2713,
+      "sha256": "93384e75273ffb52dbabf319f2046a8af79efccc5ccb9f798b25f8aaf6c2b80f"
+    },
+    {
+      "path": "scripts/final_metadata.py",
+      "size": 5531,
+      "sha256": "7662944ac2116aa4fa230d93b91320787c20604aa548359285a087caff46e03c"
+    },
+    {
+      "path": "scripts/FixNativePrototype.java",
+      "size": 1772,
+      "sha256": "40c17e436c7b8f78e8bbd39e4b5126bbd0c5a94011f30b5250b14b8b4793677f"
+    },
+    {
+      "path": "scripts/nested_inventory.py",
+      "size": 2143,
+      "sha256": "d58d7cd94157f0f5319576ae56fd747c116ee2becec2957010c2ff5f33e7b409"
+    },
+    {
+      "path": "scripts/prepare_dispatch.py",
+      "size": 467,
+      "sha256": "63a26c6e467b2057811d9d040f107e6554e4aaa20526ca914dc600918064ba4b"
+    },
+    {
+      "path": "scripts/prepare_semantics.py",
+      "size": 681,
+      "sha256": "9a9008b82f2494b019249857b1e0406c924178fd50efd660ba4ec073f073b73b"
+    },
+    {
+      "path": "scripts/query.py",
+      "size": 873,
+      "sha256": "f6631679750c24999b649fddf86ca38664a0e816fdb528b0100e14d04a679665"
+    },
+    {
+      "path": "scripts/run_native.py",
+      "size": 2647,
+      "sha256": "f1588fc3c03705e9077b1fb3f2eca7c9e3a6b8b6adcb20e7aae6d6801b48c233"
+    },
+    {
+      "path": "scripts/SelectedSmali.java",
+      "size": 1272,
+      "sha256": "1e03a0884db4c9207740d8095ce9a2de7144e0ade6ff3241cc20c1920354fff3"
+    },
+    {
+      "path": "scripts/verify_checkpoint.py",
+      "size": 7201,
+      "sha256": "114c98e427aab6ec747aec69667b67d6c3fcba4d715dc3ead58c28acc0969322"
+    },
+    {
+      "path": "scripts/verify_findings.py",
+      "size": 7998,
+      "sha256": "249ee5c43b0a0a85d16551ced1bcfdee476b7afa06b90c23c5b9e82253f85308"
+    },
+    {
+      "path": "scripts/write_reference_pages.py",
+      "size": 4536,
+      "sha256": "f1db532c872f4c086947739368140d61e38df2bdf994b3e9fab55f5b17d7ee26"
+    },
+    {
+      "path": "UNRESOLVED.md",
+      "size": 2453,
+      "sha256": "3d463f715df36193e7b4252a244280a409ec35839893dfbbbce11ff9bdfc3163"
+    },
+    {
+      "path": "verify_delivery.py",
+      "size": 776,
+      "sha256": "3dd497fe45de8af99a6e359436ec104c8dff67fbfad2c3f91308ee19d52f687b"
+    }
+  ]
+}

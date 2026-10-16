@@ -1,0 +1,79 @@
+{
+  "tool": {
+    "name": "Apktool",
+    "version": "3.0.3",
+    "size": 15478013,
+    "sha256": "dbf930b076c6b9be08d57c449cacefc3bdd6b71ebd59b3066fc0e1f5b14f9423",
+    "official_source": "https://github.com/iBotPeaches/Apktool/releases/tag/v3.0.3",
+    "checksum_basis": "existing verified official release metadata; local jar matched before decode"
+  },
+  "options": [
+    "decode",
+    "--no-src",
+    "new output",
+    "local framework cache"
+  ],
+  "apks": [
+    {
+      "apk": "com.panasonic.jp.lumixlab-22.apk",
+      "exit_code": 0,
+      "log_id": {
+        "size": 90486,
+        "sha256": "4bef7d0fcc78a2c6267dc9eafb76a7edf555cb3f25f1f6ed70d671705a459bb7"
+      },
+      "manifest": {
+        "size": 19571,
+        "sha256": "aeaa59ae436d3656da75e9a87ab2d6caa8da8faccaa0240de1e2bc56d6e592a4"
+      }
+    },
+    {
+      "apk": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "exit_code": 0,
+      "log_id": {
+        "size": 369,
+        "sha256": "7d3a6af826aa0aa5a020e9d5e970b3172ff9b921ba10b9cf7d0c1b84e7ae04af"
+      },
+      "manifest": {
+        "size": 403,
+        "sha256": "3bf3d5b589c47109dce808aedcabdb80dedd3f5cc3f08780f173db8b93ba1f51"
+      }
+    },
+    {
+      "apk": "com.panasonic.jp.lumixlab-22-config.en.apk",
+      "exit_code": 0,
+      "log_id": {
+        "size": 451,
+        "sha256": "cb72d37b2b7b6af1fdc92259434e9c88d062f9c79ccaea10b893dbf2c9c43963"
+      },
+      "manifest": {
+        "size": 387,
+        "sha256": "d80f4e164e057f2c49484b91e02bc36fc299896c223e4248cf6566822728a798"
+      }
+    },
+    {
+      "apk": "com.panasonic.jp.lumixlab-22-config.xxhdpi.apk",
+      "exit_code": 0,
+      "log_id": {
+        "size": 455,
+        "sha256": "5e1380fa7e1e0bf5241501209614ff2ace00bf3cf02a602dc371b9c4c7682737"
+      },
+      "manifest": {
+        "size": 404,
+        "sha256": "d57cdde59ef7e84d72b3832fcf8efd207301a5281469f751867ab1e75f8ab253"
+      }
+    },
+    {
+      "apk": "com.panasonic.jp.lumixlab-22-config.zh.apk",
+      "exit_code": 0,
+      "log_id": {
+        "size": 451,
+        "sha256": "9b343c0e1cba7e82360d71ac8e026397bc1e6a3c7ed4692e1e20a273fb061e19"
+      },
+      "manifest": {
+        "size": 387,
+        "sha256": "2aef1b1ff08473db835e3c4956365096c607b0296276ccefe9ecc20bf5cce73d"
+      }
+    }
+  ],
+  "target_execution": false
+}

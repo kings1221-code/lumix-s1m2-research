@@ -1,0 +1,23 @@
+{
+  "methods": [
+    {
+      "method": "Ll0/h;->D(Ljava/io/BufferedInputStream;Ljava/io/BufferedOutputStream;)V",
+      "opcode_sequence_match": true,
+      "instruction_count": 92,
+      "smali_id": {
+        "size": 303839,
+        "sha256": "a3e27159bf92056458d167312e15b6c66ee00624ecdf72915a2972cb6149a55b"
+      }
+    },
+    {
+      "method": "Lcom/google/android/gms/tasks/NativeOnCompleteListener;->onComplete(Lcom/google/android/gms/tasks/Task;)V",
+      "opcode_sequence_match": true,
+      "instruction_count": 30,
+      "smali_id": {
+        "size": 3807,
+        "sha256": "1eec79d9da1bf485a376720383844636cddb0c450351dce950c9101d65432eea"
+      }
+    }
+  ],
+  "basis": "Apktool 3.0.3 Baksmali selected-class output versus JADX 1.5.6 dexlib2 raw instruction sequence; operands/offsets separately retained."
+}

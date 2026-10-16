@@ -1,0 +1,263 @@
+{
+  "APK_inputs": 5,
+  "APK_members_fully_hashed": 4867,
+  "DEX_classes": 14812,
+  "DEX_fields": 48914,
+  "DEX_methods": 76901,
+  "explicit_invoke_sites": 349415,
+  "DEX_strings_ID_hash_only": 73540,
+  "resource_ids": 13886,
+  "selected_async_sites": 680,
+  "reflection_load_candidate_sites": 243,
+  "new_raw_method_dumps": 18,
+  "new_semantically_expanded_failed_methods": 1,
+  "failed_method_full_semantics_completed": 0,
+  "native_libraries": [
+    {
+      "library": "libavcodec.so",
+      "sha256": "4bcd087282fe141181be4cb770218d94f1f924f2a99a6770ce36a91d22d1e9aa",
+      "dynsym_defined_STT_FUNC": 167,
+      "selected_ghidra_functions_including_prior": 0,
+      "init_dynamic_tags": [
+        {
+          "tag": "DT_INIT_ARRAY",
+          "value": 7395392
+        },
+        {
+          "tag": "DT_INIT_ARRAYSZ",
+          "value": 16
+        }
+      ],
+      "semantic_status": "ELF/symbol/dependency inventory only; function semantics pending"
+    },
+    {
+      "library": "libavformat.so",
+      "sha256": "4d364b5e2855c8e828eb02474c3cec47b8801f88a59c8625dc64a260604eaa79",
+      "dynsym_defined_STT_FUNC": 157,
+      "selected_ghidra_functions_including_prior": 0,
+      "init_dynamic_tags": [],
+      "semantic_status": "ELF/symbol/dependency inventory only; function semantics pending"
+    },
+    {
+      "library": "libavutil.so",
+      "sha256": "3676eb0ed26d540287ab8470c8abe618153afc45258451298b5d4ffd18ff010b",
+      "dynsym_defined_STT_FUNC": 587,
+      "selected_ghidra_functions_including_prior": 0,
+      "init_dynamic_tags": [
+        {
+          "tag": "DT_INIT_ARRAY",
+          "value": 520272
+        },
+        {
+          "tag": "DT_INIT_ARRAYSZ",
+          "value": 16
+        }
+      ],
+      "semantic_status": "ELF/symbol/dependency inventory only; function semantics pending"
+    },
+    {
+      "library": "libc++_shared.so",
+      "sha256": "c4c2fe5cbcb1fba0003a31fc7ab29a9bb12df6cc187ec45a806462540e83d93b",
+      "dynsym_defined_STT_FUNC": 1583,
+      "selected_ghidra_functions_including_prior": 0,
+      "init_dynamic_tags": [
+        {
+          "tag": "DT_INIT_ARRAY",
+          "value": 1382040
+        },
+        {
+          "tag": "DT_INIT_ARRAYSZ",
+          "value": 24
+        }
+      ],
+      "semantic_status": "ELF/symbol/dependency inventory only; function semantics pending"
+    },
+    {
+      "library": "libcrypto.so",
+      "sha256": "49db5bf9fdee2c87209085717497ac604b8768d589df32a85d8124c3f7604b4a",
+      "dynsym_defined_STT_FUNC": 4249,
+      "selected_ghidra_functions_including_prior": 0,
+      "init_dynamic_tags": [
+        {
+          "tag": "DT_INIT_ARRAY",
+          "value": 2696840
+        },
+        {
+          "tag": "DT_INIT_ARRAYSZ",
+          "value": 24
+        }
+      ],
+      "semantic_status": "ELF/symbol/dependency inventory only; function semantics pending"
+    },
+    {
+      "library": "libcube_merge.so",
+      "sha256": "91c35f56413f0e6fd8108000104a4270b6beee64121bfd954ada56e510c03d2f",
+      "dynsym_defined_STT_FUNC": 2,
+      "selected_ghidra_functions_including_prior": 9,
+      "init_dynamic_tags": [],
+      "semantic_status": "partial selected consumers only"
+    },
+    {
+      "library": "libde265.so",
+      "sha256": "546563ccbc766ed8015a980d163e85af52af54f2eb193e1bb2e7471f04970d58",
+      "dynsym_defined_STT_FUNC": 2029,
+      "selected_ghidra_functions_including_prior": 0,
+      "init_dynamic_tags": [
+        {
+          "tag": "DT_INIT_ARRAY",
+          "value": 1350696
+        },
+        {
+          "tag": "DT_INIT_ARRAYSZ",
+          "value": 24
+        }
+      ],
+      "semantic_status": "ELF/symbol/dependency inventory only; function semantics pending"
+    },
+    {
+      "library": "libffmpeg_mediametadataretriever_jni.so",
+      "sha256": "dfd412e3103b203ed96adbbf30e2c70053afdeaf172c1a5cc9a8b849ff9ee471",
+      "dynsym_defined_STT_FUNC": 94,
+      "selected_ghidra_functions_including_prior": 19,
+      "init_dynamic_tags": [],
+      "semantic_status": "partial selected consumers only"
+    },
+    {
+      "library": "libheif.so",
+      "sha256": "e229d1a052a48ceb6defe47570ee6a448bf3c461205132580e4a52c961df8e83",
+      "dynsym_defined_STT_FUNC": 271,
+      "selected_ghidra_functions_including_prior": 0,
+      "init_dynamic_tags": [
+        {
+          "tag": "DT_INIT_ARRAY",
+          "value": 1022056
+        },
+        {
+          "tag": "DT_INIT_ARRAYSZ",
+          "value": 48
+        }
+      ],
+      "semantic_status": "ELF/symbol/dependency inventory only; function semantics pending"
+    },
+    {
+      "library": "libllc.so",
+      "sha256": "7433d705215bb92e7a87b9005277127e5851c7a4638ca8f6a3db17d2a00927df",
+      "dynsym_defined_STT_FUNC": 70,
+      "selected_ghidra_functions_including_prior": 31,
+      "init_dynamic_tags": [],
+      "semantic_status": "partial selected consumers only"
+    },
+    {
+      "library": "libonnxruntime.so",
+      "sha256": "3fc3e79539f06f67360a810e60eb5c513db5febc16f7bc71e5d9e8ce39e3d775",
+      "dynsym_defined_STT_FUNC": 3,
+      "selected_ghidra_functions_including_prior": 0,
+      "init_dynamic_tags": [
+        {
+          "tag": "DT_INIT_ARRAY",
+          "value": 18208392
+        },
+        {
+          "tag": "DT_INIT_ARRAYSZ",
+          "value": 224
+        }
+      ],
+      "semantic_status": "ELF/symbol/dependency inventory only; function semantics pending"
+    },
+    {
+      "library": "libonnxruntime4j_jni.so",
+      "sha256": "adcaf5e11ff65ad7b54725b2869118568b14ce2f3596d1b6f082ed0c774f2539",
+      "dynsym_defined_STT_FUNC": 181,
+      "selected_ghidra_functions_including_prior": 1,
+      "init_dynamic_tags": [],
+      "semantic_status": "partial selected consumers only"
+    },
+    {
+      "library": "libssl.so",
+      "sha256": "f8be5421e9186804504bd4f74e76fe23b71af401d311b559479500f227fd24ec",
+      "dynsym_defined_STT_FUNC": 495,
+      "selected_ghidra_functions_including_prior": 0,
+      "init_dynamic_tags": [
+        {
+          "tag": "DT_INIT_ARRAY",
+          "value": 601968
+        },
+        {
+          "tag": "DT_INIT_ARRAYSZ",
+          "value": 16
+        }
+      ],
+      "semantic_status": "ELF/symbol/dependency inventory only; function semantics pending"
+    },
+    {
+      "library": "libswscale.so",
+      "sha256": "f381b19a9947ac25acb95e91c539ff31c634fca2ca70939b4bb8afb36c85b581",
+      "dynsym_defined_STT_FUNC": 31,
+      "selected_ghidra_functions_including_prior": 0,
+      "init_dynamic_tags": [
+        {
+          "tag": "DT_INIT_ARRAY",
+          "value": 379656
+        },
+        {
+          "tag": "DT_INIT_ARRAYSZ",
+          "value": 16
+        }
+      ],
+      "semantic_status": "ELF/symbol/dependency inventory only; function semantics pending"
+    },
+    {
+      "library": "libtechorfilter.so",
+      "sha256": "03e1c4e11e86012e03faf025fd566be79df3fc75ee28d38433d676a959b3d25f",
+      "dynsym_defined_STT_FUNC": 9152,
+      "selected_ghidra_functions_including_prior": 0,
+      "init_dynamic_tags": [
+        {
+          "tag": "DT_INIT_ARRAY",
+          "value": 6177360
+        },
+        {
+          "tag": "DT_INIT_ARRAYSZ",
+          "value": 192
+        }
+      ],
+      "semantic_status": "ELF/symbol/dependency inventory only; function semantics pending"
+    },
+    {
+      "library": "libyuv-decoder.so",
+      "sha256": "ed3709f2b4b425746befbc6c6aab2235446ecbb37a33647b030828d8c6688dcf",
+      "dynsym_defined_STT_FUNC": 3,
+      "selected_ghidra_functions_including_prior": 0,
+      "init_dynamic_tags": [],
+      "semantic_status": "ELF/symbol/dependency inventory only; function semantics pending"
+    },
+    {
+      "library": "libyuv.so",
+      "sha256": "987926e77bddb9880e16dfb11201d6fb0429c4ff462a74e0bd0965b3de4d85c3",
+      "dynsym_defined_STT_FUNC": 711,
+      "selected_ghidra_functions_including_prior": 0,
+      "init_dynamic_tags": [],
+      "semantic_status": "ELF/symbol/dependency inventory only; function semantics pending"
+    },
+    {
+      "library": "libyuv_android.so",
+      "sha256": "dab061cb65b5b86318c5a01b2c47ac6da7da064421a5c9ef71b71123b0df5809",
+      "dynsym_defined_STT_FUNC": 298,
+      "selected_ghidra_functions_including_prior": 1,
+      "init_dynamic_tags": [
+        {
+          "tag": "DT_INIT_ARRAY",
+          "value": 908752
+        },
+        {
+          "tag": "DT_INIT_ARRAYSZ",
+          "value": 16
+        }
+      ],
+      "semantic_status": "partial selected consumers only"
+    }
+  ],
+  "selected_native_functions_unique_including_prior": 61,
+  "native_cumulative_semantics_limit": "Function output/byte checking is not complete semantics; dynsym and Ghidra function denominators are different.",
+  "D_E_F_G_status": "not expanded; prior evidence preserved, user review gate after ABC interim report"
+}

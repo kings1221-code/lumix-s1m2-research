@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "prior_deliveries": [
+    {
+      "stage": "lab_stage1_20261015",
+      "artifact_count": 33,
+      "status": "PASS"
+    },
+    {
+      "stage": "s5m2_stage2_20261016",
+      "artifact_count": 35,
+      "status": "PASS"
+    }
+  ],
+  "original_inputs_sha256_rechecked": 25,
+  "APK_member_metadata_count": 4867,
+  "DEX_structure_consistency": true,
+  "JNI_counts": [
+    197,
+    15,
+    2
+  ],
+  "new_selected_native_functions": 11,
+  "cumulative_distinct_selected_native_functions": 61,
+  "unresolved_resource_ids": 427,
+  "unresolved_JNI_bindings": 2,
+  "failed_methods_full_semantics_completed": 0,
+  "saved_raw_controls_rechecked": [
+    "6 dispatcher methods",
+    "12 semantic methods",
+    "1543 ELF instruction rows",
+    "2 Baksmali opcode sequences",
+    "PNG CRC control"
+  ],
+  "publication_guard": "UTF-8 text/decoded JSON-gzip checked for user paths/private-key/Bearer/GitHub-token/Set-Cookie patterns; original executable extensions excluded",
+  "limits": "Publication guard is bounded; checks establish input/evidence consistency, not whole-App semantics. No target program or camera I/O.",
+  "D_E_F_G": "waiting for user review"
+}

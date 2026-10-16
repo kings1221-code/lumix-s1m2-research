@@ -1,0 +1,28 @@
+{
+  "policy": "Descriptive aliases only; original descriptors/addresses retained, no APK mutation",
+  "aliases": [
+    {
+      "original": "Ll0/h;->D(Ljava/io/BufferedInputStream;Ljava/io/BufferedOutputStream;)V",
+      "alias": "PNG_metadata_chunk_rewrite_partial",
+      "basis": "typed chunk reads/writes + actual L/M consumers"
+    },
+    {
+      "library": "libcube_merge.so",
+      "elf_va": "0x4dac",
+      "alias": "cube_input_file_reader_candidate",
+      "basis": "fopen -> header/body readers -> fclose"
+    },
+    {
+      "library": "libcube_merge.so",
+      "elf_va": "0x4e60",
+      "alias": "cube_composition_grid_writer",
+      "basis": "three-dimensional traversal, evaluator on second cube, writes output triplets"
+    },
+    {
+      "library": "libcube_merge.so",
+      "elf_va": "0x5714",
+      "alias": "cube_piecewise_interpolation_candidate",
+      "basis": "grid cell selection, six ordered coordinate regions, weighted corner data; mathematical reconstruction not independently tested"
+    }
+  ]
+}

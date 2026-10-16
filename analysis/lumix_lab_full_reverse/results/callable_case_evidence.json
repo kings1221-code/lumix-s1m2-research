@@ -1,0 +1,281 @@
+{
+  "methods": [
+    {
+      "method": "Lcom/airbnb/lottie/LottieAnimationView;->setAnimation(Ljava/lang/String;)V",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 21219,
+        "code_item_offset": 3091800,
+        "insns_offset": 3091816,
+        "code_units": 80,
+        "access_flags": 1
+      },
+      "instructions": [],
+      "call_sites_to_shared_constructor": [
+        {
+          "offset_cu": 17,
+          "opcode": "invoke-direct",
+          "registers": [
+            2,
+            3,
+            5,
+            6
+          ],
+          "width_cu": 3,
+          "reference": "Lg5/k;-><init>(ILjava/lang/Object;Ljava/lang/Object;)V"
+        }
+      ]
+    },
+    {
+      "method": "Lz3/l;->apply(Ljava/lang/Object;)Ljava/lang/Object;",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 56718,
+        "code_item_offset": 5331284,
+        "insns_offset": 5331300,
+        "code_units": 418,
+        "access_flags": 1
+      },
+      "instructions": [],
+      "call_sites_to_shared_constructor": [
+        {
+          "offset_cu": 260,
+          "opcode": "invoke-direct",
+          "registers": [
+            7,
+            8,
+            3,
+            2
+          ],
+          "width_cu": 3,
+          "reference": "Lg5/k;-><init>(ILjava/lang/Object;Ljava/lang/Object;)V"
+        }
+      ]
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/controller/activity/edit/EditActivity;->E0(Landroid/net/Uri;)V",
+      "dex": "classes2.dex",
+      "location": {
+        "method_index": 14776,
+        "code_item_offset": 2108560,
+        "insns_offset": 2108576,
+        "code_units": 510,
+        "access_flags": 17
+      },
+      "instructions": [
+        {
+          "offset_cu": 2,
+          "opcode": "const/4",
+          "registers": [
+            2
+          ],
+          "width_cu": 1,
+          "literal": 1,
+          "file_offset": 2108580,
+          "raw_hex": "1212"
+        },
+        {
+          "offset_cu": 423,
+          "opcode": "invoke-virtual",
+          "registers": [
+            8
+          ],
+          "width_cu": 3,
+          "reference": "Landroidx/activity/s;->getLifecycle()Landroidx/lifecycle/v;",
+          "file_offset": 2109422,
+          "raw_hex": "6e10d82a0800"
+        },
+        {
+          "offset_cu": 426,
+          "opcode": "move-result-object",
+          "registers": [
+            9
+          ],
+          "width_cu": 1,
+          "file_offset": 2109428,
+          "raw_hex": "0c09"
+        },
+        {
+          "offset_cu": 427,
+          "opcode": "new-instance",
+          "registers": [
+            0
+          ],
+          "width_cu": 2,
+          "reference": "Lg5/k;",
+          "file_offset": 2109430,
+          "raw_hex": "22007811"
+        },
+        {
+          "offset_cu": 429,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            2,
+            3,
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Lg5/k;-><init>(ILjava/lang/Object;Ljava/lang/Object;)V",
+          "file_offset": 2109434,
+          "raw_hex": "70404c522053"
+        },
+        {
+          "offset_cu": 432,
+          "opcode": "new-instance",
+          "registers": [
+            2
+          ],
+          "width_cu": 2,
+          "reference": "LO0/e;",
+          "file_offset": 2109440,
+          "raw_hex": "2202f205"
+        }
+      ],
+      "call_sites_to_shared_constructor": [
+        {
+          "offset_cu": 429,
+          "opcode": "invoke-direct",
+          "registers": [
+            0,
+            2,
+            3,
+            5
+          ],
+          "width_cu": 3,
+          "reference": "Lg5/k;-><init>(ILjava/lang/Object;Ljava/lang/Object;)V"
+        }
+      ]
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/controller/activity/edit/EditActivity;->O0()V",
+      "dex": "classes2.dex",
+      "location": {
+        "method_index": 14786,
+        "code_item_offset": 2111124,
+        "insns_offset": 2111140,
+        "code_units": 71,
+        "access_flags": 17
+      },
+      "instructions": [],
+      "call_sites_to_shared_constructor": [
+        {
+          "offset_cu": 57,
+          "opcode": "invoke-direct",
+          "registers": [
+            2,
+            3,
+            5,
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Lg5/k;-><init>(ILjava/lang/Object;Ljava/lang/Object;)V"
+        }
+      ]
+    },
+    {
+      "method": "Lg5/k;-><init>(ILjava/lang/Object;Ljava/lang/Object;)V",
+      "dex": "classes2.dex",
+      "location": {
+        "method_index": 21068,
+        "code_item_offset": 3083976,
+        "insns_offset": 3083992,
+        "code_units": 10,
+        "access_flags": 69633
+      },
+      "instructions": [
+        {
+          "offset_cu": 0,
+          "opcode": "iput",
+          "registers": [
+            1,
+            0
+          ],
+          "width_cu": 2,
+          "reference": "Lg5/k;->q:I",
+          "file_offset": 3083992,
+          "raw_hex": "5901ca34"
+        },
+        {
+          "offset_cu": 2,
+          "opcode": "iput-object",
+          "registers": [
+            2,
+            0
+          ],
+          "width_cu": 2,
+          "reference": "Lg5/k;->s:Ljava/lang/Object;",
+          "file_offset": 3083996,
+          "raw_hex": "5b02cb34"
+        },
+        {
+          "offset_cu": 4,
+          "opcode": "iput-object",
+          "registers": [
+            3,
+            0
+          ],
+          "width_cu": 2,
+          "reference": "Lg5/k;->x:Ljava/lang/Object;",
+          "file_offset": 3084000,
+          "raw_hex": "5b03cc34"
+        },
+        {
+          "offset_cu": 6,
+          "opcode": "invoke-direct",
+          "registers": [
+            0
+          ],
+          "width_cu": 3,
+          "reference": "Ljava/lang/Object;-><init>()V",
+          "file_offset": 3084004,
+          "raw_hex": "7010715b0000"
+        },
+        {
+          "offset_cu": 9,
+          "opcode": "return-void",
+          "registers": [],
+          "width_cu": 1,
+          "file_offset": 3084010,
+          "raw_hex": "0e00"
+        }
+      ],
+      "call_sites_to_shared_constructor": []
+    },
+    {
+      "method": "Lh5/l;->b()V",
+      "dex": "classes2.dex",
+      "location": {
+        "method_index": 21692,
+        "code_item_offset": 3156588,
+        "insns_offset": 3156604,
+        "code_units": 128,
+        "access_flags": 17
+      },
+      "instructions": [],
+      "call_sites_to_shared_constructor": [
+        {
+          "offset_cu": 63,
+          "opcode": "invoke-direct",
+          "registers": [
+            3,
+            4,
+            2,
+            1
+          ],
+          "width_cu": 3,
+          "reference": "Lg5/k;-><init>(ILjava/lang/Object;Ljava/lang/Object;)V"
+        }
+      ]
+    }
+  ],
+  "dispatch": {
+    "method": "Lg5/k;->call()Ljava/lang/Object;",
+    "switch_cu": 5,
+    "payload_cu": 1118,
+    "selector_1_entry_cu": 231,
+    "merge_call_cu": 531
+  },
+  "verified_relation": "EditActivity.E0 constructs g5/k with selector=1; its matching Callable case contains the native merge call. This is conditional execution, not every E0 invocation.",
+  "limits": "The same merged class also serves Lottie/other cases. Class-wide callee lists cannot be applied to all constructor callers."
+}
