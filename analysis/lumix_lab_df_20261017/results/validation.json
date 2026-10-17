@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "inherited_deliveries": [
+    {
+      "stage": "lab_stage1_20261015",
+      "artifacts": 33
+    },
+    {
+      "stage": "s5m2_stage2_20261016",
+      "artifacts": 35
+    },
+    {
+      "stage": "lumix_lab_full_reverse",
+      "artifacts": 64
+    }
+  ],
+  "original_inputs_SHA256": 25,
+  "independent_Dex_bodies": 2231,
+  "independent_invoke_operands": 11280,
+  "API_sites_covered": 5375,
+  "dynamic_sites": 243,
+  "exact_literal_targets": 95,
+  "verified_finite_set_additional_sites": 1,
+  "CFG_synthetic_controls": 4,
+  "resource_reference_multiset_matches_original_692_warnings": true,
+  "resource_IDs_resolved": 427,
+  "Capstone_BL_crosschecks": 2428,
+  "Capstone_PLT_GOT_crosschecks": 357,
+  "Ghidra_function_instruction_rows": 1752,
+  "LUT_model_cases": 1044,
+  "JNI_unresolved": 2,
+  "limits": "Input/publication/operand/model consistency only; no target App/SO execution, no camera/service I/O; full semantic completeness not asserted."
+}

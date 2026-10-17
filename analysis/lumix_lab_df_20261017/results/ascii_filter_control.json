@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "input_hex": "2021417e7fff0042",
+  "output": "!A~",
+  "original_method": "LI5/d;->a([B)Ljava/lang/String;",
+  "limit": "Self-written loop/model control plus DEX branch/constant checks. No embedded credential bytes decoded or used; no target method execution."
+}

@@ -1,0 +1,17 @@
+{
+  "android_keystore_direct_type_sites": [],
+  "AndroidKeyStore_literal_consumers": [],
+  "Panasonic_namespace_direct_crypto_digest_signature_sites": [
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/bean/RawProcessingConfigBean;->hashFileNameToUint32(Ljava/lang/String;)I",
+      "target": "Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;",
+      "cu": 3
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/bean/RawProcessingConfigBean;->hashFileNameToUint32(Ljava/lang/String;)I",
+      "target": "Ljava/security/MessageDigest;->digest([B)[B",
+      "cu": 11
+    }
+  ],
+  "scope": "All saved 76901 methods and their 349415 invokes/string operands from exact two DEX. No absence claim for reflected providers, obfuscated first-party packages, pure implementations, external modules or runtime code."
+}

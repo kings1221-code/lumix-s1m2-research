@@ -1,0 +1,2797 @@
+{
+  "string_ID_denominator": 73540,
+  "label_allowlist": [
+    "AES",
+    "AES/CBC/NoPadding",
+    "AES/CBC/PKCS5Padding",
+    "AES/CCM/NoPadding",
+    "AES/GCM/NoPadding",
+    "AndroidKeyStore",
+    "DH",
+    "EC",
+    "ECDH",
+    "HmacMD5",
+    "HmacSHA1",
+    "HmacSHA224",
+    "HmacSHA256",
+    "HmacSHA384",
+    "HmacSHA512",
+    "HmacSM3",
+    "JKS",
+    "MD5",
+    "PKCS12",
+    "RSA",
+    "RSA/ECB/PKCS1Padding",
+    "RSA/NONE/PKCS1Padding",
+    "SHA-1",
+    "SHA-224",
+    "SHA-256",
+    "SHA-384",
+    "SHA-512",
+    "SHA1",
+    "SHA1withECDSA",
+    "SHA1withRSA",
+    "SHA224",
+    "SHA224withECDSA",
+    "SHA224withRSA",
+    "SHA256",
+    "SHA256withECDSA",
+    "SHA256withRSA",
+    "SHA3",
+    "SHA384",
+    "SHA384withECDSA",
+    "SHA384withRSA",
+    "SHA512",
+    "SHA512withECDSA",
+    "SHA512withRSA",
+    "TLS",
+    "TLSv1.2",
+    "TLSv1.3",
+    "X.509",
+    "hmac_md5",
+    "hmac_sha1",
+    "hmac_sha256",
+    "hmac_sha384",
+    "hmac_sha512",
+    "jks",
+    "md5",
+    "pkcs12",
+    "rsa",
+    "sha1",
+    "sha224",
+    "sha256",
+    "sha384",
+    "sha512"
+  ],
+  "matched_IDs": [
+    {
+      "dex": "classes.dex",
+      "string_id": 7039,
+      "data_offset": 5636167,
+      "utf16_length": 2,
+      "raw_mutf8_sha256": "1b2fc8498d96e7b58559e39567d46787bdae06cf5898b8deb820bb519ce5b5bf",
+      "allowlisted_label": "EC",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LP0/l;->a(Ljava/lang/String;)[I",
+          "cu": 2503
+        },
+        {
+          "method": "Lcom/google/api/client/auth/openidconnect/IdTokenVerifier$PublicKeyLoader;->buildEs256PublicKey(Lcom/google/api/client/auth/openidconnect/IdTokenVerifier$PublicKeyLoader$JsonWebKey;)Ljava/security/PublicKey;",
+          "cu": 2
+        }
+      ]
+    },
+    {
+      "dex": "classes.dex",
+      "string_id": 9086,
+      "data_offset": 5690035,
+      "utf16_length": 8,
+      "raw_mutf8_sha256": "6b410b1d3d2077010a068deb342e161fa2c821c84b1591885859a3e1b1a586b1",
+      "allowlisted_label": "HmacSHA1",
+      "explicit_method_constant_sites": [
+        {
+          "method": "Lcom/google/api/client/auth/oauth/OAuthHmacSigner;->computeSignature(Ljava/lang/String;)Ljava/lang/String;",
+          "cu": 42
+        }
+      ]
+    },
+    {
+      "dex": "classes.dex",
+      "string_id": 9087,
+      "data_offset": 5690045,
+      "utf16_length": 10,
+      "raw_mutf8_sha256": "a35b37ae3c582fd38650a183b726b0679614f846aef36d92e3f6eb522a3d874f",
+      "allowlisted_label": "HmacSHA256",
+      "explicit_method_constant_sites": [
+        {
+          "method": "Lcom/google/api/client/auth/oauth/OAuthHmacSha256Signer;->computeSignature(Ljava/lang/String;)Ljava/lang/String;",
+          "cu": 42
+        }
+      ]
+    },
+    {
+      "dex": "classes.dex",
+      "string_id": 10046,
+      "data_offset": 5712633,
+      "utf16_length": 3,
+      "raw_mutf8_sha256": "7bb591b49d9762b644be7267db23c89e869020ccf71e77867011652a6efe7730",
+      "allowlisted_label": "JKS",
+      "explicit_method_constant_sites": [
+        {
+          "method": "Lcom/google/api/client/util/SecurityUtils;->createMtlsKeyStore(Ljava/io/InputStream;)Ljava/security/KeyStore;",
+          "cu": 0
+        },
+        {
+          "method": "Lcom/google/api/client/util/SecurityUtils;->getJavaKeyStore()Ljava/security/KeyStore;",
+          "cu": 0
+        }
+      ]
+    },
+    {
+      "dex": "classes.dex",
+      "string_id": 22030,
+      "data_offset": 6039363,
+      "utf16_length": 3,
+      "raw_mutf8_sha256": "642710e2ddb5779e02bf31c75fc2ad8a719075fede9ac7123ab97d1b6109fb2a",
+      "allowlisted_label": "MD5",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LI2/f;->a(Ljava/lang/String;LI2/c;Z)Ljava/lang/String;",
+          "cu": 30
+        }
+      ]
+    },
+    {
+      "dex": "classes.dex",
+      "string_id": 23655,
+      "data_offset": 6079273,
+      "utf16_length": 6,
+      "raw_mutf8_sha256": "c2bd420334b31eb35c148027938c99b05523bcde100d18ff0a8b29db6167a690",
+      "allowlisted_label": "PKCS12",
+      "explicit_method_constant_sites": [
+        {
+          "method": "Lcom/google/api/client/util/SecurityUtils;->getPkcs12KeyStore()Ljava/security/KeyStore;",
+          "cu": 0
+        }
+      ]
+    },
+    {
+      "dex": "classes.dex",
+      "string_id": 24411,
+      "data_offset": 6096486,
+      "utf16_length": 3,
+      "raw_mutf8_sha256": "87a10fd1d9e3a3053e470d38f1f4074c2fe39e5c0e24a5f3ec590cec50ffc317",
+      "allowlisted_label": "RSA",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LR4/d;->a()Ljava/lang/String;",
+          "cu": 24
+        },
+        {
+          "method": "Lcom/google/api/client/auth/openidconnect/IdTokenVerifier$PublicKeyLoader;->buildRs256PublicKey(Lcom/google/api/client/auth/openidconnect/IdTokenVerifier$PublicKeyLoader$JsonWebKey;)Ljava/security/PublicKey;",
+          "cu": 2
+        },
+        {
+          "method": "Lcom/google/api/client/util/SecurityUtils;->getRsaKeyFactory()Ljava/security/KeyFactory;",
+          "cu": 0
+        },
+        {
+          "method": "Lcom/google/api/client/util/SecurityUtils;->verify(Ljava/security/Signature;Ljavax/net/ssl/X509TrustManager;Ljava/util/List;[B[B)Ljava/security/cert/X509Certificate;",
+          "cu": 56
+        }
+      ]
+    },
+    {
+      "dex": "classes.dex",
+      "string_id": 24992,
+      "data_offset": 6110913,
+      "utf16_length": 5,
+      "raw_mutf8_sha256": "4690219b0143db1f74123496b6587a2c53869e2aa367649994254302cae32faa",
+      "allowlisted_label": "SHA-1",
+      "explicit_method_constant_sites": [
+        {
+          "method": "Lcom/google/firebase/messaging/GmsRpc;->getHashedFirebaseAppName()Ljava/lang/String;",
+          "cu": 7
+        }
+      ]
+    },
+    {
+      "dex": "classes.dex",
+      "string_id": 24993,
+      "data_offset": 6110920,
+      "utf16_length": 7,
+      "raw_mutf8_sha256": "bbd07c4fc02c99b97124febf42c7b63b5011c0df28d409fbb486b5a9d2e615ea",
+      "allowlisted_label": "SHA-256",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LT2/s;->create()Ljava/lang/Object;",
+          "cu": 2
+        },
+        {
+          "method": "Lcom/adobe/marketing/mobile/internal/util/i;->a(Ljava/lang/String;)Ljava/lang/String;",
+          "cu": 11
+        },
+        {
+          "method": "Lcom/google/android/gms/common/zzn;->zzd(ZLjava/lang/String;Lcom/google/android/gms/common/zzj;)Ljava/lang/String;",
+          "cu": 17
+        },
+        {
+          "method": "Lcom/google/api/client/auth/oauth2/AuthorizationCodeFlow$PKCE;->generateChallenge(Ljava/lang/String;)V",
+          "cu": 4
+        },
+        {
+          "method": "Lq4/k;-><init>(Landroid/content/Context;)V",
+          "cu": 70
+        }
+      ]
+    },
+    {
+      "dex": "classes.dex",
+      "string_id": 24994,
+      "data_offset": 6110929,
+      "utf16_length": 4,
+      "raw_mutf8_sha256": "390b38786d14af89238542fd85e5200231cf0e7bfea126d999f2997fc8109eac",
+      "allowlisted_label": "SHA1",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LR4/d;->a()Ljava/lang/String;",
+          "cu": 69
+        },
+        {
+          "method": "Lcom/google/android/gms/common/util/AndroidUtilsLight;->getPackageCertificateHashBytes(Landroid/content/Context;Ljava/lang/String;)[B",
+          "cu": 18
+        }
+      ]
+    },
+    {
+      "dex": "classes.dex",
+      "string_id": 24995,
+      "data_offset": 6110935,
+      "utf16_length": 11,
+      "raw_mutf8_sha256": "cd23307796cca632054c5e0fa8ea11529a92f5efec769ce4d172ea60bbe700a0",
+      "allowlisted_label": "SHA1withRSA",
+      "explicit_method_constant_sites": [
+        {
+          "method": "Lcom/google/api/client/util/SecurityUtils;->getSha1WithRsaSignatureAlgorithm()Ljava/security/Signature;",
+          "cu": 0
+        }
+      ]
+    },
+    {
+      "dex": "classes.dex",
+      "string_id": 24996,
+      "data_offset": 6110948,
+      "utf16_length": 15,
+      "raw_mutf8_sha256": "2488994af5bc29b24f51170559c378e8ca646ad9f6bbc650a12cfac795728e2e",
+      "allowlisted_label": "SHA256withECDSA",
+      "explicit_method_constant_sites": [
+        {
+          "method": "Lcom/google/api/client/util/SecurityUtils;->getEs256SignatureAlgorithm()Ljava/security/Signature;",
+          "cu": 0
+        }
+      ]
+    },
+    {
+      "dex": "classes.dex",
+      "string_id": 24997,
+      "data_offset": 6110965,
+      "utf16_length": 13,
+      "raw_mutf8_sha256": "5ad64beeb450782a0237780335c52aa8b5fc144a89a44c83856a9b5befcf374b",
+      "allowlisted_label": "SHA256withRSA",
+      "explicit_method_constant_sites": [
+        {
+          "method": "Lcom/google/api/client/util/SecurityUtils;->getSha256WithRsaSignatureAlgorithm()Ljava/security/Signature;",
+          "cu": 0
+        }
+      ]
+    },
+    {
+      "dex": "classes.dex",
+      "string_id": 27596,
+      "data_offset": 6164758,
+      "utf16_length": 3,
+      "raw_mutf8_sha256": "d1c18ec0b109268324269c2da5f0c0dfafbe1058ea4af5653284d714064904a1",
+      "allowlisted_label": "TLS",
+      "explicit_method_constant_sites": [
+        {
+          "method": "Lcom/google/api/client/util/SslUtils;->getTlsSslContext()Ljavax/net/ssl/SSLContext;",
+          "cu": 0
+        }
+      ]
+    },
+    {
+      "dex": "classes.dex",
+      "string_id": 30455,
+      "data_offset": 6230283,
+      "utf16_length": 5,
+      "raw_mutf8_sha256": "4f05468a5e90ab96db32c397f5f6b322748b5b0ebb8355a8ff1c91582033648a",
+      "allowlisted_label": "X.509",
+      "explicit_method_constant_sites": [
+        {
+          "method": "Lcom/google/api/client/auth/openidconnect/IdTokenVerifier$PublicKeyLoader;->buildPublicKey(Ljava/lang/String;)Ljava/security/PublicKey;",
+          "cu": 0
+        },
+        {
+          "method": "Lcom/google/api/client/util/SecurityUtils;->createMtlsKeyStore(Ljava/io/InputStream;)Ljava/security/KeyStore;",
+          "cu": 35
+        },
+        {
+          "method": "Lcom/google/api/client/util/SecurityUtils;->getX509CertificateFactory()Ljava/security/cert/CertificateFactory;",
+          "cu": 0
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 2283,
+      "data_offset": 4174977,
+      "utf16_length": 3,
+      "raw_mutf8_sha256": "7299453b621d99c8276fe0e83fa140072a0ab85e1a2be10331ff8f668db65b0c",
+      "allowlisted_label": "AES",
+      "explicit_method_constant_sites": [
+        {
+          "method": "Lia/i;->h(Lfa/j;II)Lfa/g;",
+          "cu": 17
+        },
+        {
+          "method": "Lia/i;->w(Lfa/j;II)Lga/d;",
+          "cu": 4
+        },
+        {
+          "method": "Lx9/b;-><clinit>()V",
+          "cu": 52
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 2285,
+      "data_offset": 4175010,
+      "utf16_length": 17,
+      "raw_mutf8_sha256": "ccb208962d15c5075e9e2e4d5955552f3dacbe20df69fc45ce3b1847ce9fb06b",
+      "allowlisted_label": "AES/CBC/NoPadding",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LA9/n;->b(ILjava/lang/String;)LA9/n;",
+          "cu": 196
+        },
+        {
+          "method": "Lia/i;->a(I)Z",
+          "cu": 27
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 2286,
+      "data_offset": 4175029,
+      "utf16_length": 17,
+      "raw_mutf8_sha256": "f22cf047d455b6bf6de2e2e5fab7b598661d6fd83b614afea142973e81e27724",
+      "allowlisted_label": "AES/CCM/NoPadding",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LA9/n;->b(ILjava/lang/String;)LA9/n;",
+          "cu": 187
+        },
+        {
+          "method": "Lia/i;->a(I)Z",
+          "cu": 33
+        },
+        {
+          "method": "Lia/i;->w(Lfa/j;II)Lga/d;",
+          "cu": 2
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 2287,
+      "data_offset": 4175048,
+      "utf16_length": 17,
+      "raw_mutf8_sha256": "854c549325bffa969b6b7f53e022102c5daf1f49334d468f0cbcdd8c001a618e",
+      "allowlisted_label": "AES/GCM/NoPadding",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LA9/n;->b(ILjava/lang/String;)LA9/n;",
+          "cu": 193
+        },
+        {
+          "method": "Lia/i;->a(I)Z",
+          "cu": 29
+        },
+        {
+          "method": "Lia/i;->h(Lfa/j;II)Lfa/g;",
+          "cu": 7
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 3302,
+      "data_offset": 4216591,
+      "utf16_length": 2,
+      "raw_mutf8_sha256": "65d35a1535f0ffd8bbcfd0d69b73519d18f3c6a763c00fb57194b7527ef93294",
+      "allowlisted_label": "DH",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LA9/n;->b(ILjava/lang/String;)LA9/n;",
+          "cu": 108
+        },
+        {
+          "method": "LA9/n;->b(ILjava/lang/String;)LA9/n;",
+          "cu": 128
+        },
+        {
+          "method": "LA9/w;->f(Ljava/lang/String;)Ljava/lang/String;",
+          "cu": 8
+        },
+        {
+          "method": "Lx9/b;-><clinit>()V",
+          "cu": 148
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 3453,
+      "data_offset": 4220408,
+      "utf16_length": 2,
+      "raw_mutf8_sha256": "1b2fc8498d96e7b58559e39567d46787bdae06cf5898b8deb820bb519ce5b5bf",
+      "allowlisted_label": "EC",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LA9/C1;-><clinit>()V",
+          "cu": 41
+        },
+        {
+          "method": "LA9/C1;-><clinit>()V",
+          "cu": 60
+        },
+        {
+          "method": "LA9/C1;-><clinit>()V",
+          "cu": 80
+        },
+        {
+          "method": "LA9/C1;-><clinit>()V",
+          "cu": 98
+        },
+        {
+          "method": "LA9/C1;-><clinit>()V",
+          "cu": 118
+        },
+        {
+          "method": "LA9/C1;-><clinit>()V",
+          "cu": 138
+        },
+        {
+          "method": "LA9/C1;-><clinit>()V",
+          "cu": 351
+        },
+        {
+          "method": "LA9/C1;-><clinit>()V",
+          "cu": 395
+        },
+        {
+          "method": "LA9/C1;-><clinit>()V",
+          "cu": 462
+        },
+        {
+          "method": "LA9/S0;->a(Lea/n;)Lea/M0;",
+          "cu": 555
+        },
+        {
+          "method": "Lea/s1;->i0(Lea/l;)V",
+          "cu": 131
+        },
+        {
+          "method": "LA9/b0;-><clinit>()V",
+          "cu": 7
+        },
+        {
+          "method": "LA9/d1;->a(Ljava/security/PublicKey;[ZLA9/k0;)Z",
+          "cu": 4
+        },
+        {
+          "method": "LA9/h1;-><clinit>()V",
+          "cu": 89
+        },
+        {
+          "method": "LA9/h1;->f(Ljava/util/HashMap;I)V",
+          "cu": 20
+        },
+        {
+          "method": "LA9/k1;->a(Ljava/security/PublicKey;[ZLA9/k0;)Z",
+          "cu": 4
+        },
+        {
+          "method": "LA9/o1;-><clinit>()V",
+          "cu": 80
+        },
+        {
+          "method": "LA9/o1;->f(Ljava/util/HashMap;I)V",
+          "cu": 20
+        },
+        {
+          "method": "LA9/v;->a(Ljava/security/AlgorithmParameters;)Z",
+          "cu": 4
+        },
+        {
+          "method": "Lia/T;->a()[B",
+          "cu": 6
+        },
+        {
+          "method": "Lia/T;->c([B)V",
+          "cu": 51
+        },
+        {
+          "method": "Lia/b;->a(Lia/i;Ljava/security/spec/ECGenParameterSpec;)Ljava/security/spec/ECParameterSpec;",
+          "cu": 0
+        },
+        {
+          "method": "Lia/c;-><init>(Lfa/j;Lia/i;Ljava/security/PrivateKey;Lea/l;Lea/C0;)V",
+          "cu": 43
+        },
+        {
+          "method": "Lia/i;->F(I)Ljava/security/AlgorithmParameters;",
+          "cu": 36
+        },
+        {
+          "method": "Lx9/b;-><clinit>()V",
+          "cu": 150
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 3454,
+      "data_offset": 4220412,
+      "utf16_length": 4,
+      "raw_mutf8_sha256": "e910f2263983bfcd85fc13c3d8ff490e08d4b52b0dfdee8e695bbe3025951526",
+      "allowlisted_label": "ECDH",
+      "explicit_method_constant_sites": [
+        {
+          "method": "Lia/T;->b()Lfa/z;",
+          "cu": 12
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 4183,
+      "data_offset": 4247839,
+      "utf16_length": 7,
+      "raw_mutf8_sha256": "6f9496b25da7c7d2f77ec81285806a627ef43cc2026e246af4f521dbf6429ffa",
+      "allowlisted_label": "HmacMD5",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LA9/n;->b(ILjava/lang/String;)LA9/n;",
+          "cu": 395
+        },
+        {
+          "method": "Lia/V;-><clinit>()V",
+          "cu": 13
+        },
+        {
+          "method": "Lia/i;->E(I)Ljava/lang/String;",
+          "cu": 33
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 4184,
+      "data_offset": 4247848,
+      "utf16_length": 8,
+      "raw_mutf8_sha256": "6b410b1d3d2077010a068deb342e161fa2c821c84b1591885859a3e1b1a586b1",
+      "allowlisted_label": "HmacSHA1",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LA9/n;->b(ILjava/lang/String;)LA9/n;",
+          "cu": 383
+        },
+        {
+          "method": "Lia/V;-><clinit>()V",
+          "cu": 22
+        },
+        {
+          "method": "Lia/i;->E(I)Ljava/lang/String;",
+          "cu": 30
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 4185,
+      "data_offset": 4247858,
+      "utf16_length": 10,
+      "raw_mutf8_sha256": "2fc2c329d1ea6bd97a66b1e1fb455499f58af7c1291aa1f60a2451b8ea2017b9",
+      "allowlisted_label": "HmacSHA224",
+      "explicit_method_constant_sites": [
+        {
+          "method": "Lia/i;->E(I)Ljava/lang/String;",
+          "cu": 27
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 4186,
+      "data_offset": 4247870,
+      "utf16_length": 10,
+      "raw_mutf8_sha256": "a35b37ae3c582fd38650a183b726b0679614f846aef36d92e3f6eb522a3d874f",
+      "allowlisted_label": "HmacSHA256",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LA9/n;->b(ILjava/lang/String;)LA9/n;",
+          "cu": 295
+        },
+        {
+          "method": "Lia/V;-><clinit>()V",
+          "cu": 31
+        },
+        {
+          "method": "Lia/i;->E(I)Ljava/lang/String;",
+          "cu": 24
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 4187,
+      "data_offset": 4247882,
+      "utf16_length": 10,
+      "raw_mutf8_sha256": "2fbc9c3a44f46e81b8e1409e2f55c51b2736df3681c4b8f8e4f24f4bbb622398",
+      "allowlisted_label": "HmacSHA384",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LA9/n;->b(ILjava/lang/String;)LA9/n;",
+          "cu": 301
+        },
+        {
+          "method": "Lia/V;-><clinit>()V",
+          "cu": 42
+        },
+        {
+          "method": "Lia/i;->E(I)Ljava/lang/String;",
+          "cu": 21
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 4188,
+      "data_offset": 4247894,
+      "utf16_length": 10,
+      "raw_mutf8_sha256": "d43ba429f41dfc23733371f743b792ee41bcbdd8671fb963587f711ec43f1a2f",
+      "allowlisted_label": "HmacSHA512",
+      "explicit_method_constant_sites": [
+        {
+          "method": "Lia/V;-><clinit>()V",
+          "cu": 51
+        },
+        {
+          "method": "Lia/i;->E(I)Ljava/lang/String;",
+          "cu": 18
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 4189,
+      "data_offset": 4247906,
+      "utf16_length": 7,
+      "raw_mutf8_sha256": "c8d8ab919dfec02f6fa77ad778f9ae8700cc86164462e9c4993f9fee5cbe80d6",
+      "allowlisted_label": "HmacSM3",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LA9/n;->b(ILjava/lang/String;)LA9/n;",
+          "cu": 313
+        },
+        {
+          "method": "Lia/i;->E(I)Ljava/lang/String;",
+          "cu": 15
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 12221,
+      "data_offset": 4397406,
+      "utf16_length": 3,
+      "raw_mutf8_sha256": "642710e2ddb5779e02bf31c75fc2ad8a719075fede9ac7123ab97d1b6109fb2a",
+      "allowlisted_label": "MD5",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LA9/n;->b(ILjava/lang/String;)LA9/n;",
+          "cu": 393
+        },
+        {
+          "method": "Lc9/d;->e()Ljava/lang/String;",
+          "cu": 0
+        },
+        {
+          "method": "Lg8/g;->a(Lg8/h0;)Ljava/lang/String;",
+          "cu": 16
+        },
+        {
+          "method": "Li9/b;-><clinit>()V",
+          "cu": 44
+        },
+        {
+          "method": "Lia/W;->k(Ljava/lang/String;[BII)[B",
+          "cu": 8
+        },
+        {
+          "method": "Lia/W;->k(Ljava/lang/String;[BII)[B",
+          "cu": 109
+        },
+        {
+          "method": "Lia/i;->D(I)Ljava/lang/String;",
+          "cu": 33
+        },
+        {
+          "method": "Lorg/apache/commons/compress/archivers/zip/o;-><clinit>()V",
+          "cu": 26
+        },
+        {
+          "method": "Lp9/o;-><clinit>()V",
+          "cu": 119
+        },
+        {
+          "method": "Lq9/m;-><clinit>()V",
+          "cu": 15
+        },
+        {
+          "method": "Lx9/b;-><clinit>()V",
+          "cu": 180
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 12612,
+      "data_offset": 4405966,
+      "utf16_length": 6,
+      "raw_mutf8_sha256": "c2bd420334b31eb35c148027938c99b05523bcde100d18ff0a8b29db6167a690",
+      "allowlisted_label": "PKCS12",
+      "explicit_method_constant_sites": [
+        {
+          "method": "Lx9/b;-><clinit>()V",
+          "cu": 220
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 12886,
+      "data_offset": 4410924,
+      "utf16_length": 3,
+      "raw_mutf8_sha256": "87a10fd1d9e3a3053e470d38f1f4074c2fe39e5c0e24a5f3ec590cec50ffc317",
+      "allowlisted_label": "RSA",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LA9/C1;-><clinit>()V",
+          "cu": 219
+        },
+        {
+          "method": "LA9/C1;-><clinit>()V",
+          "cu": 240
+        },
+        {
+          "method": "LA9/C1;-><clinit>()V",
+          "cu": 261
+        },
+        {
+          "method": "LA9/C1;-><clinit>()V",
+          "cu": 280
+        },
+        {
+          "method": "LA9/C1;-><clinit>()V",
+          "cu": 303
+        },
+        {
+          "method": "LA9/C1;-><clinit>()V",
+          "cu": 326
+        },
+        {
+          "method": "LA9/C1;-><clinit>()V",
+          "cu": 418
+        },
+        {
+          "method": "LA9/C1;-><clinit>()V",
+          "cu": 485
+        },
+        {
+          "method": "LA9/C1;-><clinit>()V",
+          "cu": 533
+        },
+        {
+          "method": "LA9/N;->n(Ljava/security/PrivateKey;)Ljava/lang/String;",
+          "cu": 4
+        },
+        {
+          "method": "LA9/N;->p(Ljava/security/PublicKey;)Ljava/lang/String;",
+          "cu": 4
+        },
+        {
+          "method": "LA9/S0;->a(Lea/n;)Lea/M0;",
+          "cu": 570
+        },
+        {
+          "method": "Lea/s1;->i0(Lea/l;)V",
+          "cu": 108
+        },
+        {
+          "method": "LA9/h1;-><clinit>()V",
+          "cu": 66
+        },
+        {
+          "method": "LA9/h1;->p(ILjava/security/KeyStore;Ljava/lang/String;Ljava/util/List;ILjava/util/Set;LA9/k0;ZLjava/util/Date;Ljava/lang/String;)LA9/f1;",
+          "cu": 201
+        },
+        {
+          "method": "LA9/j0;-><clinit>()V",
+          "cu": 108
+        },
+        {
+          "method": "LA9/n;->b(ILjava/lang/String;)LA9/n;",
+          "cu": 58
+        },
+        {
+          "method": "LA9/o1;-><clinit>()V",
+          "cu": 57
+        },
+        {
+          "method": "LA9/o1;->o(LA9/i1;Ljava/util/List;ILjava/util/Set;LA9/k0;ZLjava/util/Date;Ljava/lang/String;)LA9/m1;",
+          "cu": 191
+        },
+        {
+          "method": "Lia/P;-><init>(Lia/i;Lea/l;Ljava/security/PrivateKey;)V",
+          "cu": 19
+        },
+        {
+          "method": "Lia/c;-><init>(Lfa/j;Lia/i;Ljava/security/PrivateKey;Lea/l;Lea/C0;)V",
+          "cu": 8
+        },
+        {
+          "method": "Lr8/d;->a(Ljava/lang/String;Ljava/util/List;)Ljava/util/List;",
+          "cu": 23
+        },
+        {
+          "method": "Lx9/b;-><clinit>()V",
+          "cu": 152
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 12893,
+      "data_offset": 4411134,
+      "utf16_length": 20,
+      "raw_mutf8_sha256": "a1eff80f1e4af31897d12516c3ff872162a0e87590bd0d71c682de8406c46de7",
+      "allowlisted_label": "RSA/ECB/PKCS1Padding",
+      "explicit_method_constant_sites": [
+        {
+          "method": "Lia/i;->A()Ljavax/crypto/Cipher;",
+          "cu": 9
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 12894,
+      "data_offset": 4411156,
+      "utf16_length": 21,
+      "raw_mutf8_sha256": "1444661fd9c342b99e189391d943a905df7ea48e500b33fd8f0e76129b55affa",
+      "allowlisted_label": "RSA/NONE/PKCS1Padding",
+      "explicit_method_constant_sites": [
+        {
+          "method": "Lia/i;->A()Ljavax/crypto/Cipher;",
+          "cu": 2
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 13043,
+      "data_offset": 4415672,
+      "utf16_length": 5,
+      "raw_mutf8_sha256": "4690219b0143db1f74123496b6587a2c53869e2aa367649994254302cae32faa",
+      "allowlisted_label": "SHA-1",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LA9/J;->a(Ljava/lang/String;)Ljava/util/Set;",
+          "cu": 66
+        },
+        {
+          "method": "LA9/n;->b(ILjava/lang/String;)LA9/n;",
+          "cu": 381
+        },
+        {
+          "method": "LT9/n;->a(Ljava/lang/String;)LX8/a;",
+          "cu": 0
+        },
+        {
+          "method": "LT9/n;->c(LC8/K;)Ljava/lang/String;",
+          "cu": 8
+        },
+        {
+          "method": "LW9/g;->a(Ljava/lang/String;)LX8/a;",
+          "cu": 0
+        },
+        {
+          "method": "Lc9/h;->e()Ljava/lang/String;",
+          "cu": 0
+        },
+        {
+          "method": "Lg8/w;->a(Ljava/lang/String;LL7/a;)V",
+          "cu": 289
+        },
+        {
+          "method": "Li9/b;-><clinit>()V",
+          "cu": 71
+        },
+        {
+          "method": "Lia/W;->k(Ljava/lang/String;[BII)[B",
+          "cu": 14
+        },
+        {
+          "method": "Lia/i;->D(I)Ljava/lang/String;",
+          "cu": 30
+        },
+        {
+          "method": "Lo9/a;-><clinit>()V",
+          "cu": 21
+        },
+        {
+          "method": "Lo9/b;-><clinit>()V",
+          "cu": 13
+        },
+        {
+          "method": "Lp9/o;-><clinit>()V",
+          "cu": 28
+        },
+        {
+          "method": "Lq9/m;-><clinit>()V",
+          "cu": 30
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 13044,
+      "data_offset": 4415679,
+      "utf16_length": 7,
+      "raw_mutf8_sha256": "ced3c561f346f66f04d8732be1cf2ca2f599acbb9f1742471e14d3b5cd6ef186",
+      "allowlisted_label": "SHA-224",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LA9/J;->a(Ljava/lang/String;)Ljava/util/Set;",
+          "cu": 73
+        },
+        {
+          "method": "LT9/n;->a(Ljava/lang/String;)LX8/a;",
+          "cu": 18
+        },
+        {
+          "method": "LT9/n;->c(LC8/K;)Ljava/lang/String;",
+          "cu": 19
+        },
+        {
+          "method": "LW9/g;->a(Ljava/lang/String;)LX8/a;",
+          "cu": 18
+        },
+        {
+          "method": "Lc9/i;->e()Ljava/lang/String;",
+          "cu": 0
+        },
+        {
+          "method": "Li9/b;-><clinit>()V",
+          "cu": 80
+        },
+        {
+          "method": "Lia/i;->D(I)Ljava/lang/String;",
+          "cu": 27
+        },
+        {
+          "method": "Lo9/a;-><clinit>()V",
+          "cu": 30
+        },
+        {
+          "method": "Lo9/b;-><clinit>()V",
+          "cu": 24
+        },
+        {
+          "method": "Lp9/o;-><clinit>()V",
+          "cu": 35
+        },
+        {
+          "method": "Lq9/m;-><clinit>()V",
+          "cu": 45
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 13045,
+      "data_offset": 4415688,
+      "utf16_length": 7,
+      "raw_mutf8_sha256": "bbd07c4fc02c99b97124febf42c7b63b5011c0df28d409fbb486b5a9d2e615ea",
+      "allowlisted_label": "SHA-256",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LA9/J;->a(Ljava/lang/String;)Ljava/util/Set;",
+          "cu": 80
+        },
+        {
+          "method": "LA9/n;->b(ILjava/lang/String;)LA9/n;",
+          "cu": 297
+        },
+        {
+          "method": "LM9/b;-><clinit>()V",
+          "cu": 12
+        },
+        {
+          "method": "LT9/n;->a(Ljava/lang/String;)LX8/a;",
+          "cu": 34
+        },
+        {
+          "method": "LT9/n;->c(LC8/K;)Ljava/lang/String;",
+          "cu": 30
+        },
+        {
+          "method": "LT9/n;->g(Ljava/lang/String;)LX8/a;",
+          "cu": 0
+        },
+        {
+          "method": "LU9/d;-><clinit>()V",
+          "cu": 8
+        },
+        {
+          "method": "LU9/d;-><clinit>()V",
+          "cu": 34
+        },
+        {
+          "method": "LU9/d;-><clinit>()V",
+          "cu": 60
+        },
+        {
+          "method": "LU9/d;-><clinit>()V",
+          "cu": 77
+        },
+        {
+          "method": "LU9/d;-><clinit>()V",
+          "cu": 95
+        },
+        {
+          "method": "LU9/d;-><clinit>()V",
+          "cu": 116
+        },
+        {
+          "method": "LU9/d;-><clinit>()V",
+          "cu": 134
+        },
+        {
+          "method": "LU9/d;-><clinit>()V",
+          "cu": 153
+        },
+        {
+          "method": "LU9/e;-><clinit>()V",
+          "cu": 5
+        },
+        {
+          "method": "LU9/f;-><clinit>()V",
+          "cu": 16
+        },
+        {
+          "method": "LU9/r;-><clinit>()V",
+          "cu": 5
+        },
+        {
+          "method": "LW9/g;->a(Ljava/lang/String;)LX8/a;",
+          "cu": 34
+        },
+        {
+          "method": "Lba/e;->a(Ljava/lang/String;)LC8/K;",
+          "cu": 0
+        },
+        {
+          "method": "Lc9/j;->e()Ljava/lang/String;",
+          "cu": 0
+        },
+        {
+          "method": "Lcom/panasonic/jp/lumixlab/bean/RawProcessingConfigBean;->hashFileNameToUint32(Ljava/lang/String;)I",
+          "cu": 1
+        },
+        {
+          "method": "Lg8/t;->b(Ljava/security/cert/X509Certificate;)Lu8/n;",
+          "cu": 24
+        },
+        {
+          "method": "Lh6/d;->verify(Ljava/lang/String;Ljavax/net/ssl/SSLSession;)Z",
+          "cu": 5
+        },
+        {
+          "method": "Lh6/d;->verify(Ljava/lang/String;Ljavax/net/ssl/SSLSession;)Z",
+          "cu": 49
+        },
+        {
+          "method": "Li9/b;-><clinit>()V",
+          "cu": 89
+        },
+        {
+          "method": "Lia/i;->D(I)Ljava/lang/String;",
+          "cu": 24
+        },
+        {
+          "method": "Lo9/a;-><clinit>()V",
+          "cu": 39
+        },
+        {
+          "method": "Lo9/b;-><clinit>()V",
+          "cu": 35
+        },
+        {
+          "method": "Lp9/o;-><clinit>()V",
+          "cu": 42
+        },
+        {
+          "method": "Lq9/m;-><clinit>()V",
+          "cu": 60
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 13046,
+      "data_offset": 4415697,
+      "utf16_length": 7,
+      "raw_mutf8_sha256": "6326b325b4a8ba4b24aa9c32398bc24401ed35da27eaf0e987d119ef83a3aceb",
+      "allowlisted_label": "SHA-384",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LA9/J;->a(Ljava/lang/String;)Ljava/util/Set;",
+          "cu": 87
+        },
+        {
+          "method": "LA9/n;->b(ILjava/lang/String;)LA9/n;",
+          "cu": 303
+        },
+        {
+          "method": "LT9/n;->a(Ljava/lang/String;)LX8/a;",
+          "cu": 50
+        },
+        {
+          "method": "LT9/n;->c(LC8/K;)Ljava/lang/String;",
+          "cu": 41
+        },
+        {
+          "method": "LW9/g;->a(Ljava/lang/String;)LX8/a;",
+          "cu": 50
+        },
+        {
+          "method": "Lc9/k;->e()Ljava/lang/String;",
+          "cu": 0
+        },
+        {
+          "method": "Li9/b;-><clinit>()V",
+          "cu": 100
+        },
+        {
+          "method": "Lia/i;->D(I)Ljava/lang/String;",
+          "cu": 21
+        },
+        {
+          "method": "Lo9/a;-><clinit>()V",
+          "cu": 68
+        },
+        {
+          "method": "Lo9/b;-><clinit>()V",
+          "cu": 44
+        },
+        {
+          "method": "Lp9/o;-><clinit>()V",
+          "cu": 49
+        },
+        {
+          "method": "Lq9/m;-><clinit>()V",
+          "cu": 75
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 13047,
+      "data_offset": 4415706,
+      "utf16_length": 7,
+      "raw_mutf8_sha256": "c0a7d000ea534bb04676af89439da61a3f06e624f47f79166570af0f2db6dd50",
+      "allowlisted_label": "SHA-512",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LA9/J;->a(Ljava/lang/String;)Ljava/util/Set;",
+          "cu": 94
+        },
+        {
+          "method": "LM9/b;-><clinit>()V",
+          "cu": 19
+        },
+        {
+          "method": "LT9/n;->a(Ljava/lang/String;)LX8/a;",
+          "cu": 66
+        },
+        {
+          "method": "LT9/n;->c(LC8/K;)Ljava/lang/String;",
+          "cu": 52
+        },
+        {
+          "method": "LT9/n;->g(Ljava/lang/String;)LX8/a;",
+          "cu": 11
+        },
+        {
+          "method": "LU9/d;-><clinit>()V",
+          "cu": 174
+        },
+        {
+          "method": "LU9/d;-><clinit>()V",
+          "cu": 197
+        },
+        {
+          "method": "LU9/d;-><clinit>()V",
+          "cu": 218
+        },
+        {
+          "method": "LU9/d;-><clinit>()V",
+          "cu": 237
+        },
+        {
+          "method": "LU9/d;-><clinit>()V",
+          "cu": 257
+        },
+        {
+          "method": "LU9/d;-><clinit>()V",
+          "cu": 278
+        },
+        {
+          "method": "LU9/d;-><clinit>()V",
+          "cu": 297
+        },
+        {
+          "method": "LU9/d;-><clinit>()V",
+          "cu": 317
+        },
+        {
+          "method": "LU9/e;-><clinit>()V",
+          "cu": 62
+        },
+        {
+          "method": "LU9/f;-><clinit>()V",
+          "cu": 23
+        },
+        {
+          "method": "LU9/r;-><clinit>()V",
+          "cu": 28
+        },
+        {
+          "method": "LW9/g;->a(Ljava/lang/String;)LX8/a;",
+          "cu": 66
+        },
+        {
+          "method": "Lba/e;->a(Ljava/lang/String;)LC8/K;",
+          "cu": 11
+        },
+        {
+          "method": "Lc9/m;->e()Ljava/lang/String;",
+          "cu": 0
+        },
+        {
+          "method": "Li9/b;-><clinit>()V",
+          "cu": 109
+        },
+        {
+          "method": "Lia/i;->D(I)Ljava/lang/String;",
+          "cu": 18
+        },
+        {
+          "method": "Lia/k;-><init>(Lw9/b;Ljava/security/SecureRandom;)V",
+          "cu": 2
+        },
+        {
+          "method": "Lia/l;->a(Ljava/security/SecureRandom;)Lia/i;",
+          "cu": 17
+        },
+        {
+          "method": "Lo9/a;-><clinit>()V",
+          "cu": 77
+        },
+        {
+          "method": "Lo9/b;-><clinit>()V",
+          "cu": 53
+        },
+        {
+          "method": "Lp9/o;-><clinit>()V",
+          "cu": 56
+        },
+        {
+          "method": "Lq9/m;-><clinit>()V",
+          "cu": 90
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 13050,
+      "data_offset": 4415741,
+      "utf16_length": 4,
+      "raw_mutf8_sha256": "390b38786d14af89238542fd85e5200231cf0e7bfea126d999f2997fc8109eac",
+      "allowlisted_label": "SHA1",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LA9/J;->a(Ljava/lang/String;)Ljava/util/Set;",
+          "cu": 64
+        },
+        {
+          "method": "LA9/n;->b(ILjava/lang/String;)LA9/n;",
+          "cu": 379
+        },
+        {
+          "method": "Lia/W;->k(Ljava/lang/String;[BII)[B",
+          "cu": 126
+        },
+        {
+          "method": "Lorg/apache/commons/compress/archivers/zip/o;-><clinit>()V",
+          "cu": 39
+        },
+        {
+          "method": "Lx9/b;-><clinit>()V",
+          "cu": 182
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 13052,
+      "data_offset": 4415760,
+      "utf16_length": 13,
+      "raw_mutf8_sha256": "d4ba7612bd6fa327e97eb247183d01a338e589f54a05affe3f888ab4b4fad2c4",
+      "allowlisted_label": "SHA1withECDSA",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LA9/C1;-><clinit>()V",
+          "cu": 472
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 13053,
+      "data_offset": 4415775,
+      "utf16_length": 11,
+      "raw_mutf8_sha256": "cd23307796cca632054c5e0fa8ea11529a92f5efec769ce4d172ea60bbe700a0",
+      "allowlisted_label": "SHA1withRSA",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LA9/C1;-><clinit>()V",
+          "cu": 495
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 13054,
+      "data_offset": 4415788,
+      "utf16_length": 6,
+      "raw_mutf8_sha256": "98e37469b5df8eb93acf40751842a51245fe7fac5c44e3c3c7b13b77a109a056",
+      "allowlisted_label": "SHA224",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LA9/J;->a(Ljava/lang/String;)Ljava/util/Set;",
+          "cu": 71
+        },
+        {
+          "method": "Lx9/b;-><clinit>()V",
+          "cu": 192
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 13056,
+      "data_offset": 4415811,
+      "utf16_length": 15,
+      "raw_mutf8_sha256": "b5b5b3cc09c2e5f390c4bacb029bbf5b73080e8e8af64ed998230596ef9e6ccc",
+      "allowlisted_label": "SHA224withECDSA",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LA9/C1;-><clinit>()V",
+          "cu": 393
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 13057,
+      "data_offset": 4415828,
+      "utf16_length": 13,
+      "raw_mutf8_sha256": "2d562105c1c756d616559b924898c739d8e8b8847eb54ba3a6615b3b2a5e038b",
+      "allowlisted_label": "SHA224withRSA",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LA9/C1;-><clinit>()V",
+          "cu": 416
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 13058,
+      "data_offset": 4415843,
+      "utf16_length": 6,
+      "raw_mutf8_sha256": "b3abe5d8c69b38733ad57ea75e83bcae42bbbbac75e3a5445862ed2f8a2cd677",
+      "allowlisted_label": "SHA256",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LA9/J;->a(Ljava/lang/String;)Ljava/util/Set;",
+          "cu": 78
+        },
+        {
+          "method": "LA9/n;->b(ILjava/lang/String;)LA9/n;",
+          "cu": 293
+        },
+        {
+          "method": "Lorg/apache/commons/compress/archivers/zip/o;-><clinit>()V",
+          "cu": 65
+        },
+        {
+          "method": "Lx9/b;-><clinit>()V",
+          "cu": 194
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 13060,
+      "data_offset": 4415866,
+      "utf16_length": 15,
+      "raw_mutf8_sha256": "2488994af5bc29b24f51170559c378e8ca646ad9f6bbc650a12cfac795728e2e",
+      "allowlisted_label": "SHA256withECDSA",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LA9/C1;-><clinit>()V",
+          "cu": 39
+        },
+        {
+          "method": "LA9/C1;-><clinit>()V",
+          "cu": 96
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 13061,
+      "data_offset": 4415883,
+      "utf16_length": 13,
+      "raw_mutf8_sha256": "5ad64beeb450782a0237780335c52aa8b5fc144a89a44c83856a9b5befcf374b",
+      "allowlisted_label": "SHA256withRSA",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LA9/C1;-><clinit>()V",
+          "cu": 290
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 13063,
+      "data_offset": 4415920,
+      "utf16_length": 4,
+      "raw_mutf8_sha256": "ca06c9531040f3ffc1b2a739102ffbf9603e8b5645564ec26f501f074fd2b410",
+      "allowlisted_label": "SHA3",
+      "explicit_method_constant_sites": [
+        {
+          "method": "Lia/b0;->a(Ljava/lang/String;)Ljava/lang/String;",
+          "cu": 8
+        },
+        {
+          "method": "Ln9/i;->getAlgorithm()Ljava/lang/String;",
+          "cu": 25
+        },
+        {
+          "method": "Lx9/b;-><clinit>()V",
+          "cu": 200
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 13069,
+      "data_offset": 4415973,
+      "utf16_length": 6,
+      "raw_mutf8_sha256": "e78cbe7369ae2a2e9f768bc2c480a5667a1561cf57bfdf6b206c85b770090197",
+      "allowlisted_label": "SHA384",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LA9/J;->a(Ljava/lang/String;)Ljava/util/Set;",
+          "cu": 85
+        },
+        {
+          "method": "LA9/n;->b(ILjava/lang/String;)LA9/n;",
+          "cu": 299
+        },
+        {
+          "method": "Lorg/apache/commons/compress/archivers/zip/o;-><clinit>()V",
+          "cu": 78
+        },
+        {
+          "method": "Lx9/b;-><clinit>()V",
+          "cu": 196
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 13070,
+      "data_offset": 4415981,
+      "utf16_length": 15,
+      "raw_mutf8_sha256": "33ea8fe3ce95a87c3b87699b7ad31a8dbf2a51a643391512a9f916d0543cfa96",
+      "allowlisted_label": "SHA384withECDSA",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LA9/C1;-><clinit>()V",
+          "cu": 58
+        },
+        {
+          "method": "LA9/C1;-><clinit>()V",
+          "cu": 116
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 13071,
+      "data_offset": 4415998,
+      "utf16_length": 13,
+      "raw_mutf8_sha256": "5745f571981feff7c334bcf57cc45cdd83b248d03d03baadb01a504bdb04bdc7",
+      "allowlisted_label": "SHA384withRSA",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LA9/C1;-><clinit>()V",
+          "cu": 313
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 13073,
+      "data_offset": 4416035,
+      "utf16_length": 6,
+      "raw_mutf8_sha256": "88501fcc5efc4437813994e8550b6be70689e0a59430c31e1281ac73ecef9c74",
+      "allowlisted_label": "SHA512",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LA9/J;->a(Ljava/lang/String;)Ljava/util/Set;",
+          "cu": 92
+        },
+        {
+          "method": "Lorg/apache/commons/compress/archivers/zip/o;-><clinit>()V",
+          "cu": 91
+        },
+        {
+          "method": "Lx9/b;-><clinit>()V",
+          "cu": 198
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 13074,
+      "data_offset": 4416043,
+      "utf16_length": 15,
+      "raw_mutf8_sha256": "a04e05853ae3b9532404c03b5975051add219aaa19f9d125b013adf5ca47a85d",
+      "allowlisted_label": "SHA512withECDSA",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LA9/C1;-><clinit>()V",
+          "cu": 78
+        },
+        {
+          "method": "LA9/C1;-><clinit>()V",
+          "cu": 136
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 13075,
+      "data_offset": 4416060,
+      "utf16_length": 13,
+      "raw_mutf8_sha256": "29bc94d1c1f47ab1bab8b81cb69dd84f41adec5695254931e8d95ca8bba2884f",
+      "allowlisted_label": "SHA512withRSA",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LA9/C1;-><clinit>()V",
+          "cu": 336
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 13462,
+      "data_offset": 4424482,
+      "utf16_length": 3,
+      "raw_mutf8_sha256": "d1c18ec0b109268324269c2da5f0c0dfafbe1058ea4af5653284d714064904a1",
+      "allowlisted_label": "TLS",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LA9/m;->d(ZLia/l;)V",
+          "cu": 122
+        },
+        {
+          "method": "Lea/k0;->d(II)Lea/k0;",
+          "cu": 47
+        },
+        {
+          "method": "Lh6/g;->a(Lh6/g;)V",
+          "cu": 8
+        },
+        {
+          "method": "Lia/B;->a(I[B)[B",
+          "cu": 19
+        },
+        {
+          "method": "Lq8/s;->k()Ljavax/net/ssl/SSLContext;",
+          "cu": 0
+        },
+        {
+          "method": "Lq8/g;->k()Ljavax/net/ssl/SSLContext;",
+          "cu": 2
+        },
+        {
+          "method": "Lq8/j;->k()Ljavax/net/ssl/SSLContext;",
+          "cu": 0
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 13636,
+      "data_offset": 4430314,
+      "utf16_length": 7,
+      "raw_mutf8_sha256": "9ba51fafa79696331b1d48485cd6041070682b0ee815ff3065668603df4ec6df",
+      "allowlisted_label": "TLSv1.2",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LA9/C;-><clinit>()V",
+          "cu": 205
+        },
+        {
+          "method": "LA9/h;->a()Ljava/lang/Object;",
+          "cu": 4
+        },
+        {
+          "method": "LA9/i;->a()Ljava/lang/Object;",
+          "cu": 4
+        },
+        {
+          "method": "LA9/q0;-><clinit>()V",
+          "cu": 910
+        },
+        {
+          "method": "Lg8/I0;->a(Ljava/lang/String;)Lg8/J0;",
+          "cu": 34
+        },
+        {
+          "method": "Lg8/J0;-><clinit>()V",
+          "cu": 15
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 13637,
+      "data_offset": 4430323,
+      "utf16_length": 7,
+      "raw_mutf8_sha256": "b47d03f5a6200657d6c8b90c430b58ae53da1635017e6595850f6bac9ae0a922",
+      "allowlisted_label": "TLSv1.3",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LA9/C;-><clinit>()V",
+          "cu": 210
+        },
+        {
+          "method": "LA9/i;->a()Ljava/lang/Object;",
+          "cu": 2
+        },
+        {
+          "method": "LA9/q0;-><clinit>()V",
+          "cu": 899
+        },
+        {
+          "method": "Lg8/I0;->a(Ljava/lang/String;)Lg8/J0;",
+          "cu": 23
+        },
+        {
+          "method": "Lg8/J0;-><clinit>()V",
+          "cu": 3
+        },
+        {
+          "method": "Lq8/q;->k()Ljavax/net/ssl/SSLContext;",
+          "cu": 0
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 14713,
+      "data_offset": 4453749,
+      "utf16_length": 5,
+      "raw_mutf8_sha256": "4f05468a5e90ab96db32c397f5f6b322748b5b0ebb8355a8ff1c91582033648a",
+      "allowlisted_label": "X.509",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LA9/m;->d(ZLia/l;)V",
+          "cu": 14
+        },
+        {
+          "method": "LV9/b;->getFormat()Ljava/lang/String;",
+          "cu": 0
+        },
+        {
+          "method": "LW9/b;->getFormat()Ljava/lang/String;",
+          "cu": 0
+        },
+        {
+          "method": "LW9/d;->getFormat()Ljava/lang/String;",
+          "cu": 0
+        },
+        {
+          "method": "LX9/b;->getFormat()Ljava/lang/String;",
+          "cu": 0
+        },
+        {
+          "method": "LY9/b;->getFormat()Ljava/lang/String;",
+          "cu": 0
+        },
+        {
+          "method": "LZ9/b;->getFormat()Ljava/lang/String;",
+          "cu": 0
+        },
+        {
+          "method": "Laa/b;->getFormat()Ljava/lang/String;",
+          "cu": 0
+        },
+        {
+          "method": "Lba/b;->getFormat()Ljava/lang/String;",
+          "cu": 0
+        },
+        {
+          "method": "Lba/d;->getFormat()Ljava/lang/String;",
+          "cu": 0
+        },
+        {
+          "method": "Lg8/i;->a(Lu8/B;)Ljava/util/List;",
+          "cu": 15
+        },
+        {
+          "method": "Lia/c0;->b(Ljava/security/PublicKey;)[B",
+          "cu": 4
+        },
+        {
+          "method": "Lw9/a;->c()Ljava/security/cert/CertificateFactory;",
+          "cu": 0
+        },
+        {
+          "method": "Lw9/c;->c()Ljava/security/cert/CertificateFactory;",
+          "cu": 0
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 18991,
+      "data_offset": 4541966,
+      "utf16_length": 8,
+      "raw_mutf8_sha256": "6a17e54c8dc8fdd0583bf68d03f3d784ed0a1d3922bda3527c1fa4c7b6b15692",
+      "allowlisted_label": "hmac_md5",
+      "explicit_method_constant_sites": [
+        {
+          "method": "Lfa/k;->b(I)I",
+          "cu": 56
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 18992,
+      "data_offset": 4541976,
+      "utf16_length": 9,
+      "raw_mutf8_sha256": "fc8f329795051df9fe4f341fc44674b898bb399b8bb8b2ab143302d826355ac6",
+      "allowlisted_label": "hmac_sha1",
+      "explicit_method_constant_sites": [
+        {
+          "method": "Lfa/k;->b(I)I",
+          "cu": 53
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 18993,
+      "data_offset": 4541987,
+      "utf16_length": 11,
+      "raw_mutf8_sha256": "62eff2e10a849f82288c5613aa051947363bba82c2f0c97febbf5446ac8d0ecf",
+      "allowlisted_label": "hmac_sha256",
+      "explicit_method_constant_sites": [
+        {
+          "method": "Lfa/k;->b(I)I",
+          "cu": 50
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 18994,
+      "data_offset": 4542000,
+      "utf16_length": 11,
+      "raw_mutf8_sha256": "838a4de5661a37909a5c11b9bb65abde7dffc4d80131c740ae26c0a16e60625b",
+      "allowlisted_label": "hmac_sha384",
+      "explicit_method_constant_sites": [
+        {
+          "method": "Lfa/k;->b(I)I",
+          "cu": 47
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 18995,
+      "data_offset": 4542013,
+      "utf16_length": 11,
+      "raw_mutf8_sha256": "33c9d9480945468551ec288972d7e030c416b5448d7823b0f4c8ea33b2d987f0",
+      "allowlisted_label": "hmac_sha512",
+      "explicit_method_constant_sites": [
+        {
+          "method": "Lfa/k;->b(I)I",
+          "cu": 44
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 19574,
+      "data_offset": 4553197,
+      "utf16_length": 3,
+      "raw_mutf8_sha256": "c3642d618835dcd44fe0122ffec90461bb168bdf2b5efa20f8d775ad3115e5fa",
+      "allowlisted_label": "jks",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LA9/Z0;->a()Ljava/security/KeyStore;",
+          "cu": 89
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 20068,
+      "data_offset": 4562008,
+      "utf16_length": 3,
+      "raw_mutf8_sha256": "3ebff31b62c0637c54d4ffa990d5c100ea359994b35f4b342ff49797542148cd",
+      "allowlisted_label": "md5",
+      "explicit_method_constant_sites": [
+        {
+          "method": "Lea/W;->a(S)Ljava/lang/String;",
+          "cu": 29
+        },
+        {
+          "method": "Lia/I;->a(Lea/C0;)Ljava/lang/String;",
+          "cu": 31
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 20851,
+      "data_offset": 4581888,
+      "utf16_length": 6,
+      "raw_mutf8_sha256": "3a0c7796de6399f5c0c3ab54ec47424b8046edd66660f82d75332954abfaa29b",
+      "allowlisted_label": "pkcs12",
+      "explicit_method_constant_sites": [
+        {
+          "method": "LA9/Z0;->a()Ljava/security/KeyStore;",
+          "cu": 10
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 21438,
+      "data_offset": 4632811,
+      "utf16_length": 3,
+      "raw_mutf8_sha256": "f5f69168bba3cfa1e2a80dff839b48db36df36fa876c1cd9d7d508f3ab308744",
+      "allowlisted_label": "rsa",
+      "explicit_method_constant_sites": [
+        {
+          "method": "Lea/B0;->a(S)Ljava/lang/String;",
+          "cu": 56
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 23029,
+      "data_offset": 4661822,
+      "utf16_length": 4,
+      "raw_mutf8_sha256": "b1565820a5cdac40e0520d23f9d0b1497f240ddc51d72eac6423d97d952d444f",
+      "allowlisted_label": "sha1",
+      "explicit_method_constant_sites": [
+        {
+          "method": "Lea/W;->a(S)Ljava/lang/String;",
+          "cu": 26
+        },
+        {
+          "method": "Lg8/u;-><init>(Ljava/lang/String;Ljava/lang/String;)V",
+          "cu": 75
+        },
+        {
+          "method": "Lg8/w;->a(Ljava/lang/String;LL7/a;)V",
+          "cu": 252
+        },
+        {
+          "method": "Lia/I;->a(Lea/C0;)Ljava/lang/String;",
+          "cu": 28
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 23031,
+      "data_offset": 4661835,
+      "utf16_length": 6,
+      "raw_mutf8_sha256": "f247861f5d4475b7cbfce542e1344f8029b9623db6fab40719a7c365838ab87c",
+      "allowlisted_label": "sha224",
+      "explicit_method_constant_sites": [
+        {
+          "method": "Lea/W;->a(S)Ljava/lang/String;",
+          "cu": 23
+        },
+        {
+          "method": "Lia/I;->a(Lea/C0;)Ljava/lang/String;",
+          "cu": 25
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 23032,
+      "data_offset": 4661843,
+      "utf16_length": 6,
+      "raw_mutf8_sha256": "5d5b09f6dcb2d53a5fffc60c4ac0d55fabdf556069d6631545f42aa6e3500f2e",
+      "allowlisted_label": "sha256",
+      "explicit_method_constant_sites": [
+        {
+          "method": "Lea/W;->a(S)Ljava/lang/String;",
+          "cu": 20
+        },
+        {
+          "method": "Lg8/u;-><init>(Ljava/lang/String;Ljava/lang/String;)V",
+          "cu": 119
+        },
+        {
+          "method": "Lg8/w;->a(Ljava/lang/String;LL7/a;)V",
+          "cu": 226
+        },
+        {
+          "method": "Lia/I;->a(Lea/C0;)Ljava/lang/String;",
+          "cu": 22
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 23034,
+      "data_offset": 4661860,
+      "utf16_length": 6,
+      "raw_mutf8_sha256": "b4dd0ec61e87e239312382b136d22f9049cb0fa5862b5f8f911a1ce6a5a3a807",
+      "allowlisted_label": "sha384",
+      "explicit_method_constant_sites": [
+        {
+          "method": "Lea/W;->a(S)Ljava/lang/String;",
+          "cu": 17
+        },
+        {
+          "method": "Lia/I;->a(Lea/C0;)Ljava/lang/String;",
+          "cu": 19
+        }
+      ]
+    },
+    {
+      "dex": "classes2.dex",
+      "string_id": 23035,
+      "data_offset": 4661868,
+      "utf16_length": 6,
+      "raw_mutf8_sha256": "a396244643b56de4a1642b5acae5947024650bb00b9785d9671046c247e71404",
+      "allowlisted_label": "sha512",
+      "explicit_method_constant_sites": [
+        {
+          "method": "Lea/W;->a(S)Ljava/lang/String;",
+          "cu": 14
+        },
+        {
+          "method": "Lia/I;->a(Lea/C0;)Ljava/lang/String;",
+          "cu": 16
+        }
+      ]
+    }
+  ],
+  "supplemental_encoding_references": [
+    {
+      "method": "Lcom/google/api/client/auth/oauth/OAuthHmacSha256Signer;->computeSignature(Ljava/lang/String;)Ljava/lang/String;",
+      "dex": "classes.dex",
+      "cu": 64,
+      "target": "Lw4/h;->c([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lcom/google/api/client/util/Base64;->decodeBase64(Ljava/lang/String;)[B",
+      "dex": "classes.dex",
+      "cu": 6,
+      "target": "Lw4/h;->a(Ljava/lang/String;)[B"
+    },
+    {
+      "method": "Lcom/google/api/client/util/Base64;->decodeBase64(Ljava/lang/String;)[B",
+      "dex": "classes.dex",
+      "cu": 26,
+      "target": "Lw4/h;->a(Ljava/lang/String;)[B"
+    },
+    {
+      "method": "Lcom/google/api/client/util/Base64;->encodeBase64String([B)Ljava/lang/String;",
+      "dex": "classes.dex",
+      "cu": 6,
+      "target": "Lw4/h;->c([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lcom/google/api/client/util/Base64;->encodeBase64URLSafeString([B)Ljava/lang/String;",
+      "dex": "classes.dex",
+      "cu": 17,
+      "target": "Lw4/h;->c([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lw4/h;->a(Ljava/lang/String;)[B",
+      "dex": "classes.dex",
+      "cu": 0,
+      "target": "Lw4/h;->g(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;"
+    },
+    {
+      "method": "Lw4/h;->a(Ljava/lang/String;)[B",
+      "dex": "classes.dex",
+      "cu": 8,
+      "target": "Lw4/h;->e(I)I"
+    },
+    {
+      "method": "Lw4/h;->a(Ljava/lang/String;)[B",
+      "dex": "classes.dex",
+      "cu": 14,
+      "target": "Lw4/h;->b([BLjava/lang/CharSequence;)I"
+    },
+    {
+      "method": "Lw4/h;->c([B)Ljava/lang/String;",
+      "dex": "classes.dex",
+      "cu": 8,
+      "target": "Lw4/h;->f(I)I"
+    },
+    {
+      "method": "Lw4/h;->c([B)Ljava/lang/String;",
+      "dex": "classes.dex",
+      "cu": 15,
+      "target": "Lw4/h;->d(Ljava/lang/Appendable;[BI)V"
+    },
+    {
+      "method": "Lw4/g;-><init>(Lw4/b;Ljava/lang/Character;)V",
+      "dex": "classes.dex",
+      "cu": 0,
+      "target": "Lw4/h;-><init>()V"
+    },
+    {
+      "method": "Lw4/f;-><init>(Lw4/h;Ljava/lang/String;I)V",
+      "dex": "classes.dex",
+      "cu": 0,
+      "target": "Lw4/h;-><init>()V"
+    },
+    {
+      "method": "Lw4/f;->b([BLjava/lang/CharSequence;)I",
+      "dex": "classes.dex",
+      "cu": 36,
+      "target": "Lw4/h;->b([BLjava/lang/CharSequence;)I"
+    },
+    {
+      "method": "Lw4/f;->d(Ljava/lang/Appendable;[BI)V",
+      "dex": "classes.dex",
+      "cu": 22,
+      "target": "Lw4/h;->d(Ljava/lang/Appendable;[BI)V"
+    },
+    {
+      "method": "Lw4/f;->e(I)I",
+      "dex": "classes.dex",
+      "cu": 2,
+      "target": "Lw4/h;->e(I)I"
+    },
+    {
+      "method": "Lw4/f;->f(I)I",
+      "dex": "classes.dex",
+      "cu": 2,
+      "target": "Lw4/h;->f(I)I"
+    },
+    {
+      "method": "Lw4/f;->g(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;",
+      "dex": "classes.dex",
+      "cu": 2,
+      "target": "Lw4/h;->g(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;"
+    },
+    {
+      "method": "LA6/r;->n0(Ljava/lang/String;)LA6/a;",
+      "dex": "classes2.dex",
+      "cu": 0,
+      "target": "LI5/d;->d(Ljava/lang/String;)[B"
+    },
+    {
+      "method": "LH5/d;->onCharacteristicChanged(Landroid/bluetooth/BluetoothGatt;Landroid/bluetooth/BluetoothGattCharacteristic;)V",
+      "dex": "classes2.dex",
+      "cu": 33,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "LH5/d;->onCharacteristicChanged(Landroid/bluetooth/BluetoothGatt;Landroid/bluetooth/BluetoothGattCharacteristic;)V",
+      "dex": "classes2.dex",
+      "cu": 61,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "LH5/d;->onCharacteristicChanged(Landroid/bluetooth/BluetoothGatt;Landroid/bluetooth/BluetoothGattCharacteristic;)V",
+      "dex": "classes2.dex",
+      "cu": 73,
+      "target": "LI5/d;->c(I[B)V"
+    },
+    {
+      "method": "LH5/d;->onCharacteristicChanged(Landroid/bluetooth/BluetoothGatt;Landroid/bluetooth/BluetoothGattCharacteristic;)V",
+      "dex": "classes2.dex",
+      "cu": 129,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "LH5/d;->onCharacteristicChanged(Landroid/bluetooth/BluetoothGatt;Landroid/bluetooth/BluetoothGattCharacteristic;)V",
+      "dex": "classes2.dex",
+      "cu": 250,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "LH5/d;->onCharacteristicChanged(Landroid/bluetooth/BluetoothGatt;Landroid/bluetooth/BluetoothGattCharacteristic;)V",
+      "dex": "classes2.dex",
+      "cu": 368,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "LH5/d;->onCharacteristicChanged(Landroid/bluetooth/BluetoothGatt;Landroid/bluetooth/BluetoothGattCharacteristic;)V",
+      "dex": "classes2.dex",
+      "cu": 1694,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "LH5/d;->onCharacteristicRead(Landroid/bluetooth/BluetoothGatt;Landroid/bluetooth/BluetoothGattCharacteristic;I)V",
+      "dex": "classes2.dex",
+      "cu": 63,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "LH5/d;->onCharacteristicRead(Landroid/bluetooth/BluetoothGatt;Landroid/bluetooth/BluetoothGattCharacteristic;I)V",
+      "dex": "classes2.dex",
+      "cu": 75,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "LH5/d;->onCharacteristicRead(Landroid/bluetooth/BluetoothGatt;Landroid/bluetooth/BluetoothGattCharacteristic;I)V",
+      "dex": "classes2.dex",
+      "cu": 104,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "LH5/d;->onCharacteristicRead(Landroid/bluetooth/BluetoothGatt;Landroid/bluetooth/BluetoothGattCharacteristic;I)V",
+      "dex": "classes2.dex",
+      "cu": 195,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "LH5/d;->onCharacteristicRead(Landroid/bluetooth/BluetoothGatt;Landroid/bluetooth/BluetoothGattCharacteristic;I)V",
+      "dex": "classes2.dex",
+      "cu": 564,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "LH5/d;->onCharacteristicRead(Landroid/bluetooth/BluetoothGatt;Landroid/bluetooth/BluetoothGattCharacteristic;I)V",
+      "dex": "classes2.dex",
+      "cu": 604,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "LH5/d;->onCharacteristicRead(Landroid/bluetooth/BluetoothGatt;Landroid/bluetooth/BluetoothGattCharacteristic;I)V",
+      "dex": "classes2.dex",
+      "cu": 644,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "LH5/d;->onCharacteristicRead(Landroid/bluetooth/BluetoothGatt;Landroid/bluetooth/BluetoothGattCharacteristic;I)V",
+      "dex": "classes2.dex",
+      "cu": 684,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "LH5/d;->onCharacteristicRead(Landroid/bluetooth/BluetoothGatt;Landroid/bluetooth/BluetoothGattCharacteristic;I)V",
+      "dex": "classes2.dex",
+      "cu": 724,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "LH5/d;->onCharacteristicRead(Landroid/bluetooth/BluetoothGatt;Landroid/bluetooth/BluetoothGattCharacteristic;I)V",
+      "dex": "classes2.dex",
+      "cu": 764,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "LH5/d;->onCharacteristicRead(Landroid/bluetooth/BluetoothGatt;Landroid/bluetooth/BluetoothGattCharacteristic;I)V",
+      "dex": "classes2.dex",
+      "cu": 804,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "LH5/d;->onCharacteristicRead(Landroid/bluetooth/BluetoothGatt;Landroid/bluetooth/BluetoothGattCharacteristic;I)V",
+      "dex": "classes2.dex",
+      "cu": 891,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "LH5/d;->onCharacteristicWrite(Landroid/bluetooth/BluetoothGatt;Landroid/bluetooth/BluetoothGattCharacteristic;I)V",
+      "dex": "classes2.dex",
+      "cu": 29,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "LH5/d;->onCharacteristicWrite(Landroid/bluetooth/BluetoothGatt;Landroid/bluetooth/BluetoothGattCharacteristic;I)V",
+      "dex": "classes2.dex",
+      "cu": 55,
+      "target": "LI5/d;->c(I[B)V"
+    },
+    {
+      "method": "LH5/g;->onScanResult(ILandroid/bluetooth/le/ScanResult;)V",
+      "dex": "classes2.dex",
+      "cu": 286,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "LH5/g;->onScanResult(ILandroid/bluetooth/le/ScanResult;)V",
+      "dex": "classes2.dex",
+      "cu": 309,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "LH5/g;->onScanResult(ILandroid/bluetooth/le/ScanResult;)V",
+      "dex": "classes2.dex",
+      "cu": 323,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "LH5/g;->onScanResult(ILandroid/bluetooth/le/ScanResult;)V",
+      "dex": "classes2.dex",
+      "cu": 486,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "LH5/j;->b()V",
+      "dex": "classes2.dex",
+      "cu": 34,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "LH5/j;->l([BLz5/M1;)V",
+      "dex": "classes2.dex",
+      "cu": 0,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "LH5/j;->m([B)V",
+      "dex": "classes2.dex",
+      "cu": 0,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "LH5/j;->n([B)V",
+      "dex": "classes2.dex",
+      "cu": 0,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "LH5/j;->o([B)V",
+      "dex": "classes2.dex",
+      "cu": 0,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "LH5/j;->p([BLz5/M1;)V",
+      "dex": "classes2.dex",
+      "cu": 0,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "LH5/j;->q([BLz5/M1;)V",
+      "dex": "classes2.dex",
+      "cu": 0,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "LH5/j;->r([B)V",
+      "dex": "classes2.dex",
+      "cu": 0,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "LH5/j;->s([BLz5/M1;)V",
+      "dex": "classes2.dex",
+      "cu": 0,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "LH5/j;->t([B)V",
+      "dex": "classes2.dex",
+      "cu": 0,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "LH5/j;->u([BLz5/M1;)V",
+      "dex": "classes2.dex",
+      "cu": 0,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "LH5/j;->v([B)V",
+      "dex": "classes2.dex",
+      "cu": 0,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "LJ5/c;->accept(Ljava/lang/Object;)V",
+      "dex": "classes2.dex",
+      "cu": 368,
+      "target": "LI5/d;->e(Ljava/lang/String;)[B"
+    },
+    {
+      "method": "LY5/i;->run()V",
+      "dex": "classes2.dex",
+      "cu": 35,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lf5/C;->X()V",
+      "dex": "classes2.dex",
+      "cu": 64,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lf5/C;->X()V",
+      "dex": "classes2.dex",
+      "cu": 70,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/controller/activity/MainActivity;->A(J)V",
+      "dex": "classes2.dex",
+      "cu": 49,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/controller/activity/MainActivity;->A(J)V",
+      "dex": "classes2.dex",
+      "cu": 61,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/controller/fragment/CameraFragment;->w0(Z)V",
+      "dex": "classes2.dex",
+      "cu": 68,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/controller/fragment/CameraFragment;->w0(Z)V",
+      "dex": "classes2.dex",
+      "cu": 74,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/controller/fragment/CameraWifiConnectFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V",
+      "dex": "classes2.dex",
+      "cu": 285,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/util/t0;->b(Ljava/lang/String;)LV2/I;",
+      "dex": "classes2.dex",
+      "cu": 7,
+      "target": "LI5/d;->a([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/util/t0;->b(Ljava/lang/String;)LV2/I;",
+      "dex": "classes2.dex",
+      "cu": 17,
+      "target": "LI5/d;->a([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lf5/Z3;->b()V",
+      "dex": "classes2.dex",
+      "cu": 37,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lf5/Z3;->b()V",
+      "dex": "classes2.dex",
+      "cu": 113,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lf5/e1;->handleMessage(Landroid/os/Message;)V",
+      "dex": "classes2.dex",
+      "cu": 207,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lf5/e1;->handleMessage(Landroid/os/Message;)V",
+      "dex": "classes2.dex",
+      "cu": 219,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lf5/l1;->c([B)V",
+      "dex": "classes2.dex",
+      "cu": 53,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lf5/l1;->c([B)V",
+      "dex": "classes2.dex",
+      "cu": 108,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lf5/l1;->c([B)V",
+      "dex": "classes2.dex",
+      "cu": 167,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lf5/l1;->c([B)V",
+      "dex": "classes2.dex",
+      "cu": 222,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lf5/l1;->c([B)V",
+      "dex": "classes2.dex",
+      "cu": 299,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lh6/h;->j()Lg8/s0;",
+      "dex": "classes2.dex",
+      "cu": 19,
+      "target": "LI5/d;->a([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lh6/h;->j()Lg8/s0;",
+      "dex": "classes2.dex",
+      "cu": 29,
+      "target": "LI5/d;->a([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lp6/f;->a(Lq6/f;JJJ)V",
+      "dex": "classes2.dex",
+      "cu": 169,
+      "target": "LI5/d;->e(Ljava/lang/String;)[B"
+    },
+    {
+      "method": "Lz5/M1;->c([B)V",
+      "dex": "classes2.dex",
+      "cu": 18,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lz5/M1;->c([B)V",
+      "dex": "classes2.dex",
+      "cu": 73,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lz5/M1;->c([B)V",
+      "dex": "classes2.dex",
+      "cu": 165,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lz5/M1;->c([B)V",
+      "dex": "classes2.dex",
+      "cu": 179,
+      "target": "LI5/d;->a([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lz5/M1;->c([B)V",
+      "dex": "classes2.dex",
+      "cu": 196,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lz5/M1;->c([B)V",
+      "dex": "classes2.dex",
+      "cu": 312,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lz5/M1;->c([B)V",
+      "dex": "classes2.dex",
+      "cu": 453,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lz5/M1;->c([B)V",
+      "dex": "classes2.dex",
+      "cu": 531,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lz5/M1;->c([B)V",
+      "dex": "classes2.dex",
+      "cu": 586,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lz5/M1;->c([B)V",
+      "dex": "classes2.dex",
+      "cu": 830,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lz5/M1;->c([B)V",
+      "dex": "classes2.dex",
+      "cu": 871,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lz5/M1;->c([B)V",
+      "dex": "classes2.dex",
+      "cu": 978,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lz5/M1;->c([B)V",
+      "dex": "classes2.dex",
+      "cu": 1037,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lz5/M1;->c([B)V",
+      "dex": "classes2.dex",
+      "cu": 1092,
+      "target": "LI5/d;->a([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lz5/M1;->c([B)V",
+      "dex": "classes2.dex",
+      "cu": 1128,
+      "target": "LI5/d;->a([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lz5/M1;->c([B)V",
+      "dex": "classes2.dex",
+      "cu": 1140,
+      "target": "LI5/d;->e(Ljava/lang/String;)[B"
+    },
+    {
+      "method": "Lz5/M1;->c([B)V",
+      "dex": "classes2.dex",
+      "cu": 1150,
+      "target": "LI5/d;->a([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lz5/M1;->c([B)V",
+      "dex": "classes2.dex",
+      "cu": 1162,
+      "target": "LI5/d;->e(Ljava/lang/String;)[B"
+    },
+    {
+      "method": "Lz5/O0;->onClick(Landroid/view/View;)V",
+      "dex": "classes2.dex",
+      "cu": 71,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lz5/V;->run()V",
+      "dex": "classes2.dex",
+      "cu": 41,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lz5/V;->run()V",
+      "dex": "classes2.dex",
+      "cu": 117,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lz5/a0;->onClick(Landroid/view/View;)V",
+      "dex": "classes2.dex",
+      "cu": 56,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lz5/c0;->run()V",
+      "dex": "classes2.dex",
+      "cu": 41,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lz5/c0;->run()V",
+      "dex": "classes2.dex",
+      "cu": 117,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lz5/c2;->run()V",
+      "dex": "classes2.dex",
+      "cu": 69,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lz5/d2;->run()V",
+      "dex": "classes2.dex",
+      "cu": 49,
+      "target": "LI5/d;->d(Ljava/lang/String;)[B"
+    },
+    {
+      "method": "Lz5/d2;->run()V",
+      "dex": "classes2.dex",
+      "cu": 102,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lz5/e2;->run()V",
+      "dex": "classes2.dex",
+      "cu": 130,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lz5/k1;->a(ZZ[BLandroid/bluetooth/BluetoothDevice;Ljava/lang/String;Ljava/lang/String;)V",
+      "dex": "classes2.dex",
+      "cu": 0,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lz5/k2;->e(Lz5/k2;[B[B)[B",
+      "dex": "classes2.dex",
+      "cu": 10,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lz5/k2;->e(Lz5/k2;[B[B)[B",
+      "dex": "classes2.dex",
+      "cu": 17,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lz5/k2;->e(Lz5/k2;[B[B)[B",
+      "dex": "classes2.dex",
+      "cu": 81,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lz5/k2;->l()[B",
+      "dex": "classes2.dex",
+      "cu": 79,
+      "target": "LI5/d;->f(I)[B"
+    },
+    {
+      "method": "Lz5/k2;->l()[B",
+      "dex": "classes2.dex",
+      "cu": 96,
+      "target": "LI5/d;->f(I)[B"
+    },
+    {
+      "method": "Lz5/k2;->l()[B",
+      "dex": "classes2.dex",
+      "cu": 114,
+      "target": "LI5/d;->f(I)[B"
+    },
+    {
+      "method": "Lz5/k2;->l()[B",
+      "dex": "classes2.dex",
+      "cu": 132,
+      "target": "LI5/d;->f(I)[B"
+    },
+    {
+      "method": "Lz5/k2;->l()[B",
+      "dex": "classes2.dex",
+      "cu": 150,
+      "target": "LI5/d;->f(I)[B"
+    },
+    {
+      "method": "Lz5/k2;->l()[B",
+      "dex": "classes2.dex",
+      "cu": 239,
+      "target": "LI5/d;->f(I)[B"
+    },
+    {
+      "method": "Lz5/k2;->s(Landroid/location/Location;)[B",
+      "dex": "classes2.dex",
+      "cu": 235,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lz5/k2;->C(IZ)V",
+      "dex": "classes2.dex",
+      "cu": 96,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lz5/k2;->L(BLandroid/location/Location;Ljava/lang/String;Z)V",
+      "dex": "classes2.dex",
+      "cu": 221,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lz5/k2;->L(BLandroid/location/Location;Ljava/lang/String;Z)V",
+      "dex": "classes2.dex",
+      "cu": 235,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lz5/k2;->q([B)Ljava/lang/Boolean;",
+      "dex": "classes2.dex",
+      "cu": 0,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lz5/k2;->q([B)Ljava/lang/Boolean;",
+      "dex": "classes2.dex",
+      "cu": 25,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lz5/k2;->t()V",
+      "dex": "classes2.dex",
+      "cu": 8,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lz5/k2;->v(LB6/b;ZZLs6/s;)V",
+      "dex": "classes2.dex",
+      "cu": 282,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lz5/k2;->v(LB6/b;ZZLs6/s;)V",
+      "dex": "classes2.dex",
+      "cu": 343,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lz5/l0;->a(Ljava/lang/Object;)V",
+      "dex": "classes2.dex",
+      "cu": 716,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lz5/l0;->a(Ljava/lang/Object;)V",
+      "dex": "classes2.dex",
+      "cu": 722,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    },
+    {
+      "method": "Lz5/l2;->run()V",
+      "dex": "classes2.dex",
+      "cu": 57,
+      "target": "LI5/d;->b([B)Ljava/lang/String;"
+    }
+  ],
+  "scope": "Hash lookup on prior full string-ID table and targeted original MUTF8 byte verification; labels are candidates, never proof of input/algorithm/runtime use. Supplement covers known byte/ASCII/hex and SDK BaseEncoding helpers; arbitrary custom encoders remain outside API-prefix completeness."
+}

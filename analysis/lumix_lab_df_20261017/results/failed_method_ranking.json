@@ -1,0 +1,380 @@
+{
+  "criteria": "file6/security7/network5/reflection4/JNI8/Panasonic5/main-or-remote3/BufferedReader4; exact direct references; CU is review cost",
+  "methods": [
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/util/v;->Q(Ljava/io/BufferedReader;Lcom/panasonic/jp/lumixlab/bean/EditLutListBean;)V",
+      "dex": "classes2.dex",
+      "location": {
+        "method_index": 16891,
+        "code_item_offset": 2318264,
+        "insns_offset": 2318280,
+        "code_units": 1012,
+        "access_flags": 9
+      },
+      "status": "Structural CFG retained; high-level semantics still pending. Score is triage, not a security severity or restored-code count.",
+      "review_priority_score": 15,
+      "direct_evidence_categories": [
+        {
+          "category": "file_IO",
+          "references": [
+            "Ljava/io/BufferedReader;->close()V",
+            "Ljava/io/BufferedReader;->readLine()Ljava/lang/String;"
+          ]
+        }
+      ],
+      "cost_code_units": 1012
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/controller/activity/MainActivity;->a0(Lcom/panasonic/jp/lumixlab/controller/activity/MainActivity;ZLandroid/net/Uri;)V",
+      "dex": "classes2.dex",
+      "location": {
+        "method_index": 14425,
+        "code_item_offset": 1983616,
+        "insns_offset": 1983632,
+        "code_units": 1377,
+        "access_flags": 9
+      },
+      "status": "Structural CFG retained; high-level semantics still pending. Score is triage, not a security severity or restored-code count.",
+      "review_priority_score": 14,
+      "direct_evidence_categories": [
+        {
+          "category": "file_IO",
+          "references": [
+            "Landroid/content/ContentResolver;->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;"
+          ]
+        }
+      ],
+      "cost_code_units": 1377
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/controller/activity/RemoteShootingActivity;->Y0(LK5/Q0;)V",
+      "dex": "classes2.dex",
+      "location": {
+        "method_index": 14597,
+        "code_item_offset": 2039060,
+        "insns_offset": 2039076,
+        "code_units": 9050,
+        "access_flags": 17
+      },
+      "status": "Structural CFG retained; high-level semantics still pending. Score is triage, not a security severity or restored-code count.",
+      "review_priority_score": 8,
+      "direct_evidence_categories": [],
+      "cost_code_units": 9050
+    },
+    {
+      "method": "Ll0/h;->e(Ll0/b;II)V",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 52048,
+        "code_item_offset": 4827296,
+        "insns_offset": 4827312,
+        "code_units": 478,
+        "access_flags": 17
+      },
+      "status": "Structural CFG retained; high-level semantics still pending. Score is triage, not a security severity or restored-code count.",
+      "review_priority_score": 6,
+      "direct_evidence_categories": [
+        {
+          "category": "file_IO",
+          "references": [
+            "Ljava/io/IOException;-><init>(Ljava/lang/String;)V"
+          ]
+        }
+      ],
+      "cost_code_units": 478
+    },
+    {
+      "method": "Lp6/k;->r(Ljava/lang/Object;)Ljava/lang/Object;",
+      "dex": "classes2.dex",
+      "location": {
+        "method_index": 27114,
+        "code_item_offset": 3543564,
+        "insns_offset": 3543580,
+        "code_units": 1226,
+        "access_flags": 17
+      },
+      "status": "Structural CFG retained; high-level semantics still pending. Score is triage, not a security severity or restored-code count.",
+      "review_priority_score": 6,
+      "direct_evidence_categories": [
+        {
+          "category": "file_IO",
+          "references": [
+            "Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V",
+            "Ljava/io/FileOutputStream;->write([BII)V"
+          ]
+        }
+      ],
+      "cost_code_units": 1226
+    },
+    {
+      "method": "Lcom/google/common/collect/b1;-><init>(Lcom/google/common/collect/b1;)V",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 43701,
+        "code_item_offset": 4343024,
+        "insns_offset": 4343040,
+        "code_units": 49,
+        "access_flags": 65537
+      },
+      "status": "Structural CFG retained; high-level semantics still pending. Score is triage, not a security severity or restored-code count.",
+      "review_priority_score": 0,
+      "direct_evidence_categories": [],
+      "cost_code_units": 49
+    },
+    {
+      "method": "LH0/H;->c()Z",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 3827,
+        "code_item_offset": 1886124,
+        "insns_offset": 1886140,
+        "code_units": 62,
+        "access_flags": 17
+      },
+      "status": "Structural CFG retained; high-level semantics still pending. Score is triage, not a security severity or restored-code count.",
+      "review_priority_score": 0,
+      "direct_evidence_categories": [],
+      "cost_code_units": 62
+    },
+    {
+      "method": "LX7/u;->a(LX7/d;LE7/c;)Ljava/lang/Object;",
+      "dex": "classes2.dex",
+      "location": {
+        "method_index": 8897,
+        "code_item_offset": 1766852,
+        "insns_offset": 1766868,
+        "code_units": 288,
+        "access_flags": 17
+      },
+      "status": "Structural CFG retained; high-level semantics still pending. Score is triage, not a security severity or restored-code count.",
+      "review_priority_score": 0,
+      "direct_evidence_categories": [],
+      "cost_code_units": 288
+    },
+    {
+      "method": "LB9/o;->j(LB9/q;)LB9/q;",
+      "dex": "classes2.dex",
+      "location": {
+        "method_index": 1573,
+        "code_item_offset": 955368,
+        "insns_offset": 955384,
+        "code_units": 310,
+        "access_flags": 17
+      },
+      "status": "Structural CFG retained; high-level semantics still pending. Score is triage, not a security severity or restored-code count.",
+      "review_priority_score": 0,
+      "direct_evidence_categories": [],
+      "cost_code_units": 310
+    },
+    {
+      "method": "LC0/Q;->w(Landroid/net/Uri;Ljava/lang/String;)I",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 1094,
+        "code_item_offset": 1606964,
+        "insns_offset": 1606980,
+        "code_units": 320,
+        "access_flags": 9
+      },
+      "status": "Structural CFG retained; high-level semantics still pending. Score is triage, not a security severity or restored-code count.",
+      "review_priority_score": 0,
+      "direct_evidence_categories": [],
+      "cost_code_units": 320
+    },
+    {
+      "method": "LJ0/F;->f(LJ0/z;LJ0/B;)Ljava/util/ArrayList;",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 4671,
+        "code_item_offset": 1995328,
+        "insns_offset": 1995344,
+        "code_units": 382,
+        "access_flags": 9
+      },
+      "status": "Structural CFG retained; high-level semantics still pending. Score is triage, not a security severity or restored-code count.",
+      "review_priority_score": 0,
+      "direct_evidence_categories": [],
+      "cost_code_units": 382
+    },
+    {
+      "method": "Landroidx/coordinatorlayout/widget/CoordinatorLayout;->u()V",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 17135,
+        "code_item_offset": 2645504,
+        "insns_offset": 2645520,
+        "code_units": 392,
+        "access_flags": 17
+      },
+      "status": "Structural CFG retained; high-level semantics still pending. Score is triage, not a security severity or restored-code count.",
+      "review_priority_score": 0,
+      "direct_evidence_categories": [],
+      "cost_code_units": 392
+    },
+    {
+      "method": "Lcom/google/common/collect/X;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 43649,
+        "code_item_offset": 4324852,
+        "insns_offset": 4324868,
+        "code_units": 399,
+        "access_flags": 17
+      },
+      "status": "Structural CFG retained; high-level semantics still pending. Score is triage, not a security severity or restored-code count.",
+      "review_priority_score": 0,
+      "direct_evidence_categories": [],
+      "cost_code_units": 399
+    },
+    {
+      "method": "La0/q;->r(Ljava/lang/Object;)Ljava/lang/Object;",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 10922,
+        "code_item_offset": 2487092,
+        "insns_offset": 2487108,
+        "code_units": 452,
+        "access_flags": 17
+      },
+      "status": "Structural CFG retained; high-level semantics still pending. Score is triage, not a security severity or restored-code count.",
+      "review_priority_score": 0,
+      "direct_evidence_categories": [],
+      "cost_code_units": 452
+    },
+    {
+      "method": "LB9/x;->a(LB9/y;)LB9/y;",
+      "dex": "classes2.dex",
+      "location": {
+        "method_index": 1680,
+        "code_item_offset": 966272,
+        "insns_offset": 966288,
+        "code_units": 522,
+        "access_flags": 17
+      },
+      "status": "Structural CFG retained; high-level semantics still pending. Score is triage, not a security severity or restored-code count.",
+      "review_priority_score": 0,
+      "direct_evidence_categories": [],
+      "cost_code_units": 522
+    },
+    {
+      "method": "Lj5/C;->a(Lj5/C;JIFLE7/c;)Ljava/lang/Object;",
+      "dex": "classes2.dex",
+      "location": {
+        "method_index": 22760,
+        "code_item_offset": 3319052,
+        "insns_offset": 3319068,
+        "code_units": 538,
+        "access_flags": 25
+      },
+      "status": "Structural CFG retained; high-level semantics still pending. Score is triage, not a security severity or restored-code count.",
+      "review_priority_score": 0,
+      "direct_evidence_categories": [],
+      "cost_code_units": 538
+    },
+    {
+      "method": "Lr1/f;->p(Lorg/xmlpull/v1/XmlPullParser;Ljava/util/HashMap;Lr1/c;Lr1/e;Ljava/util/HashMap;Ljava/util/HashMap;)V",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 53581,
+        "code_item_offset": 4977180,
+        "insns_offset": 4977196,
+        "code_units": 638,
+        "access_flags": 9
+      },
+      "status": "Structural CFG retained; high-level semantics still pending. Score is triage, not a security severity or restored-code count.",
+      "review_priority_score": 0,
+      "direct_evidence_categories": [],
+      "cost_code_units": 638
+    },
+    {
+      "method": "LF0/b0;->m(Lz0/B0;Z)V",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 3071,
+        "code_item_offset": 1788552,
+        "insns_offset": 1788568,
+        "code_units": 992,
+        "access_flags": 17
+      },
+      "status": "Structural CFG retained; high-level semantics still pending. Score is triage, not a security severity or restored-code count.",
+      "review_priority_score": 0,
+      "direct_evidence_categories": [],
+      "cost_code_units": 992
+    },
+    {
+      "method": "LJ2/y;->a(LK2/f;)Ly2/l;",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 5004,
+        "code_item_offset": 2016412,
+        "insns_offset": 2016428,
+        "code_units": 1022,
+        "access_flags": 9
+      },
+      "status": "Structural CFG retained; high-level semantics still pending. Score is triage, not a security severity or restored-code count.",
+      "review_priority_score": 0,
+      "direct_evidence_categories": [],
+      "cost_code_units": 1022
+    },
+    {
+      "method": "Ln1/a;->j([BIZ)Ll1/d;",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 52621,
+        "code_item_offset": 4889540,
+        "insns_offset": 4889556,
+        "code_units": 1030,
+        "access_flags": 17
+      },
+      "status": "Structural CFG retained; high-level semantics still pending. Score is triage, not a security severity or restored-code count.",
+      "review_priority_score": 0,
+      "direct_evidence_categories": [],
+      "cost_code_units": 1030
+    },
+    {
+      "method": "Lf5/r1;->a()V",
+      "dex": "classes2.dex",
+      "location": {
+        "method_index": 20592,
+        "code_item_offset": 2888416,
+        "insns_offset": 2888432,
+        "code_units": 1046,
+        "access_flags": 18
+      },
+      "status": "Structural CFG retained; high-level semantics still pending. Score is triage, not a security severity or restored-code count.",
+      "review_priority_score": 0,
+      "direct_evidence_categories": [],
+      "cost_code_units": 1046
+    },
+    {
+      "method": "Lx/i;->c(Lt/d;Z)V",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 55212,
+        "code_item_offset": 5160200,
+        "insns_offset": 5160216,
+        "code_units": 2056,
+        "access_flags": 1
+      },
+      "status": "Structural CFG retained; high-level semantics still pending. Score is triage, not a security severity or restored-code count.",
+      "review_priority_score": 0,
+      "direct_evidence_categories": [],
+      "cost_code_units": 2056
+    },
+    {
+      "method": "Lcom/google/android/gms/internal/auth/zzga;->zzb(Ljava/lang/Object;[BIIILcom/google/android/gms/internal/auth/zzdt;)I",
+      "dex": "classes.dex",
+      "location": {
+        "method_index": 30551,
+        "code_item_offset": 3781032,
+        "insns_offset": 3781048,
+        "code_units": 3938,
+        "access_flags": 17
+      },
+      "status": "Structural CFG retained; high-level semantics still pending. Score is triage, not a security severity or restored-code count.",
+      "review_priority_score": 0,
+      "direct_evidence_categories": [],
+      "cost_code_units": 3938
+    }
+  ]
+}

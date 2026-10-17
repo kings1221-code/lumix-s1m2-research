@@ -1,0 +1,734 @@
+{
+  "class": "Lg5/k;",
+  "caller_cases": [
+    {
+      "caller": "Lcom/airbnb/lottie/LottieAnimationView;->setAnimation(Ljava/lang/String;)V",
+      "constructor_cu": 17,
+      "selector": 3,
+      "case_entry_cu": 154,
+      "reachable_case_calls": [
+        {
+          "cu": 166,
+          "target": "Landroid/view/View;->getContext()Landroid/content/Context;"
+        },
+        {
+          "cu": 176,
+          "target": "Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V"
+        },
+        {
+          "cu": 179,
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+        },
+        {
+          "cu": 182,
+          "target": "Ljava/lang/StringBuilder;->toString()Ljava/lang/String;"
+        },
+        {
+          "cu": 186,
+          "target": "Ly2/p;->b(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Ly2/E;"
+        },
+        {
+          "cu": 191,
+          "target": "Landroid/view/View;->getContext()Landroid/content/Context;"
+        },
+        {
+          "cu": 195,
+          "target": "Ly2/p;->b(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Ly2/E;"
+        }
+      ],
+      "native_targets": []
+    },
+    {
+      "caller": "Lz3/l;->apply(Ljava/lang/Object;)Ljava/lang/Object;",
+      "constructor_cu": 260,
+      "selector": 4,
+      "case_entry_cu": 8,
+      "reachable_case_calls": [
+        {
+          "cu": 16,
+          "target": "Ljava/lang/Object;->getClass()Ljava/lang/Class;"
+        },
+        {
+          "cu": 21,
+          "target": "Ljava/util/ArrayList;-><init>()V"
+        },
+        {
+          "cu": 26,
+          "target": "Ljava/util/ArrayList;-><init>()V"
+        },
+        {
+          "cu": 31,
+          "target": "Ljava/util/ArrayList;-><init>()V"
+        },
+        {
+          "cu": 34,
+          "target": "Ljava/util/List;->iterator()Ljava/util/Iterator;"
+        },
+        {
+          "cu": 38,
+          "target": "Ljava/util/Iterator;->hasNext()Z"
+        },
+        {
+          "cu": 44,
+          "target": "Ljava/util/Iterator;->next()Ljava/lang/Object;"
+        },
+        {
+          "cu": 53,
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/GalleryInfoEntity;->isExistDb()Z"
+        },
+        {
+          "cu": 59,
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/GalleryInfoEntity;->getEditStatus()I"
+        },
+        {
+          "cu": 65,
+          "target": "Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z"
+        },
+        {
+          "cu": 69,
+          "target": "Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z"
+        },
+        {
+          "cu": 72,
+          "target": "Lcom/panasonic/jp/lumixlab/util/Q0;->h()Lcom/panasonic/jp/lumixlab/util/Q0;"
+        },
+        {
+          "cu": 76,
+          "target": "Ljava/lang/Object;->getClass()Ljava/lang/Class;"
+        },
+        {
+          "cu": 79,
+          "target": "Lcom/panasonic/jp/lumixlab/util/Q0;->d(Lcom/panasonic/jp/lumixlab/database/entity/GalleryInfoEntity;)Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;"
+        },
+        {
+          "cu": 83,
+          "target": "Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z"
+        },
+        {
+          "cu": 87,
+          "target": "Ljava/util/ArrayList;->isEmpty()Z"
+        },
+        {
+          "cu": 99,
+          "target": "LD1/Z;->b()V"
+        },
+        {
+          "cu": 102,
+          "target": "LD1/Z;->c()V"
+        },
+        {
+          "cu": 107,
+          "target": "LD1/q;->f(Ljava/lang/Iterable;)V"
+        },
+        {
+          "cu": 110,
+          "target": "LD1/Z;->n()V"
+        },
+        {
+          "cu": 113,
+          "target": "LD1/Z;->f()V"
+        },
+        {
+          "cu": 118,
+          "target": "LD1/Z;->f()V"
+        },
+        {
+          "cu": 126,
+          "target": "Ljava/util/ArrayList;->isEmpty()Z"
+        },
+        {
+          "cu": 132,
+          "target": "Ljava/util/ArrayList;->isEmpty()Z"
+        },
+        {
+          "cu": 140,
+          "target": "Lcom/panasonic/jp/lumixlab/util/q0;->a(Ljava/util/ArrayList;Ljava/util/ArrayList;Ljava/util/ArrayList;)V"
+        },
+        {
+          "cu": 149,
+          "target": "Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V"
+        }
+      ],
+      "native_targets": []
+    },
+    {
+      "caller": "Lcom/panasonic/jp/lumixlab/controller/activity/edit/EditActivity;->E0(Landroid/net/Uri;)V",
+      "constructor_cu": 429,
+      "selector": 1,
+      "case_entry_cu": 231,
+      "reachable_case_calls": [
+        {
+          "cu": 243,
+          "target": "Lcom/panasonic/jp/lumixlab/util/x;-><init>()V"
+        },
+        {
+          "cu": 258,
+          "target": "Ljava/lang/System;->nanoTime()J"
+        },
+        {
+          "cu": 263,
+          "target": "Ljava/lang/String;->equals(Ljava/lang/Object;)Z"
+        },
+        {
+          "cu": 267,
+          "target": "Lcom/panasonic/jp/lumixlab/util/x;->a(Landroid/graphics/Bitmap;)Ljava/nio/FloatBuffer;"
+        },
+        {
+          "cu": 271,
+          "target": "Lai/onnxruntime/OrtEnvironment;->getEnvironment()Lai/onnxruntime/OrtEnvironment;"
+        },
+        {
+          "cu": 279,
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;"
+        },
+        {
+          "cu": 283,
+          "target": "Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;"
+        },
+        {
+          "cu": 289,
+          "target": "Landroid/content/res/AssetManager;->open(Ljava/lang/String;)Ljava/io/InputStream;"
+        },
+        {
+          "cu": 293,
+          "target": "Ljava/io/InputStream;->available()I"
+        },
+        {
+          "cu": 299,
+          "target": "Ljava/io/InputStream;->read([B)I"
+        },
+        {
+          "cu": 302,
+          "target": "Ljava/io/InputStream;->close()V"
+        },
+        {
+          "cu": 311,
+          "target": "Lai/onnxruntime/OrtSession$SessionOptions;-><init>()V"
+        },
+        {
+          "cu": 316,
+          "target": "Lai/onnxruntime/OrtSession$SessionOptions;->setOptimizationLevel(Lai/onnxruntime/OrtSession$SessionOptions$OptLevel;)V"
+        },
+        {
+          "cu": 321,
+          "target": "Lai/onnxruntime/OrtSession$SessionOptions;->setExecutionMode(Lai/onnxruntime/OrtSession$SessionOptions$ExecutionMode;)V"
+        },
+        {
+          "cu": 324,
+          "target": "Lai/onnxruntime/OrtEnvironment;->createSession([BLai/onnxruntime/OrtSession$SessionOptions;)Lai/onnxruntime/OrtSession;"
+        },
+        {
+          "cu": 338,
+          "target": "Lai/onnxruntime/OnnxTensor;->createTensor(Lai/onnxruntime/OrtEnvironment;Ljava/nio/FloatBuffer;[J)Lai/onnxruntime/OnnxTensor;"
+        },
+        {
+          "cu": 348,
+          "target": "Ljava/util/Collections;->singletonMap(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;"
+        },
+        {
+          "cu": 352,
+          "target": "Lai/onnxruntime/OrtSession;->run(Ljava/util/Map;)Lai/onnxruntime/OrtSession$Result;"
+        },
+        {
+          "cu": 356,
+          "target": "Lai/onnxruntime/OrtSession$Result;->get(I)Lai/onnxruntime/OnnxValue;"
+        },
+        {
+          "cu": 360,
+          "target": "Lai/onnxruntime/OnnxValue;->getValue()Ljava/lang/Object;"
+        },
+        {
+          "cu": 368,
+          "target": "Lcom/panasonic/jp/lumixlab/util/x;->c([[[[F)Ljava/lang/String;"
+        },
+        {
+          "cu": 372,
+          "target": "Lai/onnxruntime/OrtSession$Result;->close()V"
+        },
+        {
+          "cu": 375,
+          "target": "Lai/onnxruntime/OrtSession;->close()V"
+        },
+        {
+          "cu": 378,
+          "target": "Lai/onnxruntime/OrtEnvironment;->close()V"
+        },
+        {
+          "cu": 383,
+          "target": "Lcom/panasonic/jp/lumixlab/util/b0;->H()Lcom/panasonic/jp/lumixlab/util/b0;"
+        },
+        {
+          "cu": 387,
+          "target": "Ljava/lang/Object;->getClass()Ljava/lang/Class;"
+        },
+        {
+          "cu": 390,
+          "target": "Lcom/panasonic/jp/lumixlab/util/b0;->J()Ljava/lang/String;"
+        },
+        {
+          "cu": 394,
+          "target": "Ljava/io/File;-><init>(Ljava/lang/String;)V"
+        },
+        {
+          "cu": 397,
+          "target": "Ljava/io/File;->exists()Z"
+        },
+        {
+          "cu": 403,
+          "target": "Ljava/io/File;->mkdirs()Z"
+        },
+        {
+          "cu": 412,
+          "target": "Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V"
+        },
+        {
+          "cu": 415,
+          "target": "Ljava/io/File;->getAbsolutePath()Ljava/lang/String;"
+        },
+        {
+          "cu": 427,
+          "target": "Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;"
+        },
+        {
+          "cu": 437,
+          "target": "Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V"
+        },
+        {
+          "cu": 440,
+          "target": "Ljava/io/File;->exists()Z"
+        },
+        {
+          "cu": 446,
+          "target": "Ljava/io/File;->delete()Z"
+        },
+        {
+          "cu": 449,
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;"
+        },
+        {
+          "cu": 453,
+          "target": "Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;"
+        },
+        {
+          "cu": 459,
+          "target": "Ljava/io/File;->exists()Z"
+        },
+        {
+          "cu": 465,
+          "target": "Lcom/panasonic/jp/lumixlab/util/v;->q(Lcom/panasonic/jp/lumixlab/LlcApplication;Ljava/lang/String;Ljava/io/File;)V"
+        },
+        {
+          "cu": 473,
+          "target": "Ljava/io/File;->getAbsolutePath()Ljava/lang/String;"
+        },
+        {
+          "cu": 481,
+          "target": "Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V"
+        },
+        {
+          "cu": 484,
+          "target": "Ljava/lang/System;->currentTimeMillis()J"
+        },
+        {
+          "cu": 488,
+          "target": "Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;"
+        },
+        {
+          "cu": 493,
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+        },
+        {
+          "cu": 496,
+          "target": "Ljava/lang/StringBuilder;->toString()Ljava/lang/String;"
+        },
+        {
+          "cu": 502,
+          "target": "Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V"
+        },
+        {
+          "cu": 505,
+          "target": "Ljava/io/File;->getAbsolutePath()Ljava/lang/String;"
+        },
+        {
+          "cu": 508,
+          "target": "Ljava/io/File;->getAbsolutePath()Ljava/lang/String;"
+        },
+        {
+          "cu": 519,
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;"
+        },
+        {
+          "cu": 523,
+          "target": "Ljava/io/File;->getAbsolutePath()Ljava/lang/String;"
+        },
+        {
+          "cu": 527,
+          "target": "Ljava/io/File;->getAbsolutePath()Ljava/lang/String;"
+        },
+        {
+          "cu": 531,
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->mergeCubeFiles(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I"
+        },
+        {
+          "cu": 541,
+          "target": "Ljava/io/File;->getAbsolutePath()Ljava/lang/String;"
+        },
+        {
+          "cu": 545,
+          "target": "Lcom/panasonic/jp/lumixlab/util/x;->d(Ljava/lang/String;Ljava/lang/String;)V"
+        },
+        {
+          "cu": 555,
+          "target": "Ljava/lang/Throwable;->getMessage()Ljava/lang/String;"
+        },
+        {
+          "cu": 566,
+          "target": "Ljava/lang/Throwable;->getMessage()Ljava/lang/String;"
+        }
+      ],
+      "native_targets": [
+        "Lcom/panasonic/jp/lumixlab/LlcApplication;->mergeCubeFiles(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I"
+      ]
+    },
+    {
+      "caller": "Lcom/panasonic/jp/lumixlab/controller/activity/edit/EditActivity;->O0()V",
+      "constructor_cu": 57,
+      "selector": 0,
+      "case_entry_cu": 574,
+      "reachable_case_calls": [
+        {
+          "cu": 584,
+          "target": "Ljava/lang/Object;->getClass()Ljava/lang/Class;"
+        },
+        {
+          "cu": 593,
+          "target": "Lh5/z;->w0()V"
+        },
+        {
+          "cu": 606,
+          "target": "Ljava/util/Objects;->equals(Ljava/lang/Object;Ljava/lang/Object;)Z"
+        },
+        {
+          "cu": 614,
+          "target": "Lcom/panasonic/jp/lumixlab/util/p1;->j()Lcom/panasonic/jp/lumixlab/util/p1;"
+        },
+        {
+          "cu": 620,
+          "target": "Ljava/lang/Object;->hashCode()I"
+        },
+        {
+          "cu": 623,
+          "target": "Lcom/panasonic/jp/lumixlab/bean/RawProcessingConfigBean;->getBrightness()F"
+        },
+        {
+          "cu": 632,
+          "target": "Lcom/panasonic/jp/lumixlab/util/N;->a(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;"
+        },
+        {
+          "cu": 651,
+          "target": "Lcom/panasonic/jp/lumixlab/bean/RawProcessingConfigBean;->syncToEditInfoEntity(Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;)Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;"
+        },
+        {
+          "cu": 655,
+          "target": "Ljava/lang/Object;->hashCode()I"
+        },
+        {
+          "cu": 658,
+          "target": "Lcom/panasonic/jp/lumixlab/bean/RawProcessingConfigBean;->getBrightness()F"
+        },
+        {
+          "cu": 665,
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->getEditWhiteBalanceTint()F"
+        },
+        {
+          "cu": 671,
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->getEditWhiteBalanceTint()F"
+        },
+        {
+          "cu": 680,
+          "target": "Ljava/lang/Math;->abs(F)F"
+        },
+        {
+          "cu": 691,
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->setEditWhiteBalanceTint(F)V"
+        },
+        {
+          "cu": 702,
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->getEditCutEnd()J"
+        },
+        {
+          "cu": 706,
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->getEditCutStart()J"
+        },
+        {
+          "cu": 711,
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->getEditSqTemp()J"
+        },
+        {
+          "cu": 724,
+          "target": "Lcom/panasonic/jp/lumixlab/util/v;->N0(Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;)Z"
+        },
+        {
+          "cu": 733,
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->isEditCropChange()Z"
+        },
+        {
+          "cu": 740,
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->getEditPhotoStyleRawIndex()I"
+        },
+        {
+          "cu": 752,
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->getEditId()J"
+        },
+        {
+          "cu": 756,
+          "target": "Lh5/z;->B0(Lcom/panasonic/jp/lumixlab/database/entity/FrameEntity;J)V"
+        },
+        {
+          "cu": 773,
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->getEditId()J"
+        },
+        {
+          "cu": 777,
+          "target": "Lh5/z;->B0(Lcom/panasonic/jp/lumixlab/database/entity/FrameEntity;J)V"
+        },
+        {
+          "cu": 791,
+          "target": "Ljava/util/Objects;->equals(Ljava/lang/Object;Ljava/lang/Object;)Z"
+        },
+        {
+          "cu": 801,
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->getEditId()J"
+        },
+        {
+          "cu": 805,
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/FrameEntity;->setEditId(J)V"
+        },
+        {
+          "cu": 810,
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->getEditId()J"
+        },
+        {
+          "cu": 814,
+          "target": "Lh5/z;->B0(Lcom/panasonic/jp/lumixlab/database/entity/FrameEntity;J)V"
+        },
+        {
+          "cu": 826,
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->getEditId()J"
+        },
+        {
+          "cu": 830,
+          "target": "LC5/n;->b(J)Lcom/panasonic/jp/lumixlab/database/entity/ColorPickerEntity;"
+        },
+        {
+          "cu": 836,
+          "target": "Lcom/google/gson/k;-><init>()V"
+        },
+        {
+          "cu": 839,
+          "target": "Lcom/google/gson/k;->g(Ljava/lang/Object;)Ljava/lang/String;"
+        },
+        {
+          "cu": 850,
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/ColorPickerEntity;->isDefaultColorPicker(Ljava/lang/String;)Z"
+        },
+        {
+          "cu": 870,
+          "target": "Lh5/z;->l()Z"
+        },
+        {
+          "cu": 877,
+          "target": "Lh5/z;->l()Z"
+        },
+        {
+          "cu": 892,
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->getEditId()J"
+        },
+        {
+          "cu": 896,
+          "target": "LC5/J;->d(J)Lcom/panasonic/jp/lumixlab/database/entity/FrameEntity;"
+        },
+        {
+          "cu": 906,
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->getEditStatus()I"
+        },
+        {
+          "cu": 911,
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->setEditStatus(I)V"
+        },
+        {
+          "cu": 916,
+          "target": "Landroidx/lifecycle/K;->d()Ljava/lang/Object;"
+        },
+        {
+          "cu": 924,
+          "target": "Ljava/lang/Integer;->intValue()I"
+        },
+        {
+          "cu": 928,
+          "target": "Lh5/z;->A0(I)V"
+        },
+        {
+          "cu": 935,
+          "target": "Landroidx/lifecycle/M;->k(Ljava/lang/Object;)V"
+        },
+        {
+          "cu": 938,
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->getEditId()J"
+        },
+        {
+          "cu": 942,
+          "target": "Lh5/z;->T(J)V"
+        },
+        {
+          "cu": 951,
+          "target": "Ljava/util/Objects;->toString(Ljava/lang/Object;)Ljava/lang/String;"
+        },
+        {
+          "cu": 960,
+          "target": "Landroid/content/Intent;->putCharSequenceArrayListExtra(Ljava/lang/String;Ljava/util/ArrayList;)Landroid/content/Intent;"
+        },
+        {
+          "cu": 969,
+          "target": "Ljava/util/Objects;->toString(Ljava/lang/Object;)Ljava/lang/String;"
+        },
+        {
+          "cu": 978,
+          "target": "Landroid/content/Intent;->putIntegerArrayListExtra(Ljava/lang/String;Ljava/util/ArrayList;)Landroid/content/Intent;"
+        },
+        {
+          "cu": 985,
+          "target": "Ljava/lang/Object;->getClass()Ljava/lang/Class;"
+        },
+        {
+          "cu": 990,
+          "target": "Ljava/util/ArrayList;-><init>()V"
+        },
+        {
+          "cu": 995,
+          "target": "Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;"
+        },
+        {
+          "cu": 999,
+          "target": "Ljava/util/Iterator;->hasNext()Z"
+        },
+        {
+          "cu": 1005,
+          "target": "Ljava/util/Iterator;->next()Ljava/lang/Object;"
+        },
+        {
+          "cu": 1011,
+          "target": "Ljava/lang/CharSequence;->toString()Ljava/lang/String;"
+        },
+        {
+          "cu": 1015,
+          "target": "Ljava/lang/Long;->parseLong(Ljava/lang/String;)J"
+        },
+        {
+          "cu": 1023,
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->getEditId()J"
+        },
+        {
+          "cu": 1033,
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->getEditStatus()I"
+        },
+        {
+          "cu": 1037,
+          "target": "Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;"
+        },
+        {
+          "cu": 1041,
+          "target": "Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z"
+        },
+        {
+          "cu": 1047,
+          "target": "Ljava/util/HashMap;->values()Ljava/util/Collection;"
+        },
+        {
+          "cu": 1051,
+          "target": "Ljava/util/Collection;->iterator()Ljava/util/Iterator;"
+        },
+        {
+          "cu": 1055,
+          "target": "Ljava/util/Iterator;->hasNext()Z"
+        },
+        {
+          "cu": 1061,
+          "target": "Ljava/util/Iterator;->next()Ljava/lang/Object;"
+        },
+        {
+          "cu": 1067,
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->getEditId()J"
+        },
+        {
+          "cu": 1075,
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/EditInfoEntity;->getEditStatus()I"
+        },
+        {
+          "cu": 1079,
+          "target": "Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;"
+        },
+        {
+          "cu": 1083,
+          "target": "Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z"
+        },
+        {
+          "cu": 1087,
+          "target": "Ljava/lang/Object;->toString()Ljava/lang/String;"
+        },
+        {
+          "cu": 1094,
+          "target": "Landroid/content/Intent;->putIntegerArrayListExtra(Ljava/lang/String;Ljava/util/ArrayList;)Landroid/content/Intent;"
+        },
+        {
+          "cu": 1103,
+          "target": "Ljava/util/Objects;->toString(Ljava/lang/Object;)Ljava/lang/String;"
+        },
+        {
+          "cu": 1112,
+          "target": "Landroid/content/Intent;->putStringArrayListExtra(Ljava/lang/String;Ljava/util/ArrayList;)Landroid/content/Intent;"
+        }
+      ],
+      "native_targets": []
+    },
+    {
+      "caller": "Lh5/l;->b()V",
+      "constructor_cu": 63,
+      "selector": 2,
+      "case_entry_cu": 200,
+      "reachable_case_calls": [
+        {
+          "cu": 204,
+          "target": "Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z"
+        },
+        {
+          "cu": 210,
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;"
+        },
+        {
+          "cu": 218,
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/GalleryInfoEntity;->getFileRating()I"
+        },
+        {
+          "cu": 222,
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->writeVideoRatingJni(Ljava/lang/String;I)I"
+        },
+        {
+          "cu": 226,
+          "target": "Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;"
+        }
+      ],
+      "native_targets": [
+        "Lcom/panasonic/jp/lumixlab/LlcApplication;->writeVideoRatingJni(Ljava/lang/String;I)I"
+      ]
+    }
+  ],
+  "switch_entries": {
+    "0": 574,
+    "1": 231,
+    "2": 200,
+    "3": 154
+  },
+  "default_entry": 8,
+  "limits": "Five observed constructor sites; selector from conservative original-Dex CFG propagation. Case CFG includes conditional/exception alternatives; not proof every invocation executes every call. Never apply class-wide callees to all selectors."
+}

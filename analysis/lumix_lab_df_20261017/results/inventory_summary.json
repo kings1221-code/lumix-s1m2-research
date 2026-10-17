@@ -1,0 +1,22 @@
+{
+  "methods": 76901,
+  "invokes": 349415,
+  "api_sites": 5375,
+  "api_methods": 1630,
+  "category_counts": {
+    "bytebuffer_conversion": 1126,
+    "compression_crc": 263,
+    "base64": 55,
+    "json": 606,
+    "parcel_serialization": 2216,
+    "url_encoding": 10,
+    "java_security": 742,
+    "java_crypto": 100,
+    "tls": 243,
+    "object_serialization": 14
+  },
+  "algorithm_label_methods": 111,
+  "dynamic_candidates": 243,
+  "selected_method_dumps": 2187,
+  "ownership_rule": "Namespace is declaration evidence only. Obfuscated SDK attribution requires consumers/source metadata."
+}

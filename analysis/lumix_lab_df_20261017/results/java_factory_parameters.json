@@ -1,0 +1,1110 @@
+{
+  "sites": [
+    {
+      "method": "LI2/f;->a(Ljava/lang/String;LI2/c;Z)Ljava/lang/String;",
+      "dex": "classes.dex",
+      "cu": 32,
+      "target": "Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "MD5"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "LR4/d;->a()Ljava/lang/String;",
+      "dex": "classes.dex",
+      "cu": 26,
+      "target": "Ljava/security/KeyFactory;->getInstance(Ljava/lang/String;)Ljava/security/KeyFactory;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "RSA"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "LR4/d;->a()Ljava/lang/String;",
+      "dex": "classes.dex",
+      "cu": 71,
+      "target": "Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "SHA1"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "LT2/s;->create()Ljava/lang/Object;",
+      "dex": "classes.dex",
+      "cu": 4,
+      "target": "Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "SHA-256"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "Lcom/adobe/marketing/mobile/internal/util/i;->a(Ljava/lang/String;)Ljava/lang/String;",
+      "dex": "classes.dex",
+      "cu": 13,
+      "target": "Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "SHA-256"
+        }
+      ],
+      "namespace": "declared third-party namespace: Lcom/adobe/"
+    },
+    {
+      "method": "Lcom/google/android/gms/common/util/AndroidUtilsLight;->zza(Ljava/lang/String;)Ljava/security/MessageDigest;",
+      "dex": "classes.dex",
+      "cu": 4,
+      "target": "Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;",
+      "arguments": [
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "declared third-party namespace: Lcom/google/"
+    },
+    {
+      "method": "Lcom/google/api/client/auth/oauth/OAuthHmacSha256Signer;->computeSignature(Ljava/lang/String;)Ljava/lang/String;",
+      "dex": "classes.dex",
+      "cu": 47,
+      "target": "Ljavax/crypto/Mac;->getInstance(Ljava/lang/String;)Ljavax/crypto/Mac;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "HmacSHA256"
+        }
+      ],
+      "namespace": "declared third-party namespace: Lcom/google/"
+    },
+    {
+      "method": "Lcom/google/api/client/auth/oauth/OAuthHmacSigner;->computeSignature(Ljava/lang/String;)Ljava/lang/String;",
+      "dex": "classes.dex",
+      "cu": 47,
+      "target": "Ljavax/crypto/Mac;->getInstance(Ljava/lang/String;)Ljavax/crypto/Mac;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "HmacSHA1"
+        }
+      ],
+      "namespace": "declared third-party namespace: Lcom/google/"
+    },
+    {
+      "method": "Lcom/google/api/client/auth/oauth2/AuthorizationCodeFlow$PKCE;->generateChallenge(Ljava/lang/String;)V",
+      "dex": "classes.dex",
+      "cu": 6,
+      "target": "Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "SHA-256"
+        }
+      ],
+      "namespace": "declared third-party namespace: Lcom/google/"
+    },
+    {
+      "method": "Lcom/google/api/client/json/webtoken/JsonWebSignature;->getDefaultX509TrustManager()Ljavax/net/ssl/X509TrustManager;",
+      "dex": "classes.dex",
+      "cu": 5,
+      "target": "Ljavax/net/ssl/TrustManagerFactory;->getInstance(Ljava/lang/String;)Ljavax/net/ssl/TrustManagerFactory;",
+      "arguments": [
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "declared third-party namespace: Lcom/google/"
+    },
+    {
+      "method": "Lcom/google/api/client/auth/openidconnect/IdTokenVerifier$PublicKeyLoader;->buildEs256PublicKey(Lcom/google/api/client/auth/openidconnect/IdTokenVerifier$PublicKeyLoader$JsonWebKey;)Ljava/security/PublicKey;",
+      "dex": "classes.dex",
+      "cu": 50,
+      "target": "Ljava/security/AlgorithmParameters;->getInstance(Ljava/lang/String;)Ljava/security/AlgorithmParameters;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "EC"
+        }
+      ],
+      "namespace": "declared third-party namespace: Lcom/google/"
+    },
+    {
+      "method": "Lcom/google/api/client/auth/openidconnect/IdTokenVerifier$PublicKeyLoader;->buildEs256PublicKey(Lcom/google/api/client/auth/openidconnect/IdTokenVerifier$PublicKeyLoader$JsonWebKey;)Ljava/security/PublicKey;",
+      "dex": "classes.dex",
+      "cu": 77,
+      "target": "Ljava/security/KeyFactory;->getInstance(Ljava/lang/String;)Ljava/security/KeyFactory;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "EC"
+        }
+      ],
+      "namespace": "declared third-party namespace: Lcom/google/"
+    },
+    {
+      "method": "Lcom/google/api/client/auth/openidconnect/IdTokenVerifier$PublicKeyLoader;->buildPublicKey(Ljava/lang/String;)Ljava/security/PublicKey;",
+      "dex": "classes.dex",
+      "cu": 2,
+      "target": "Ljava/security/cert/CertificateFactory;->getInstance(Ljava/lang/String;)Ljava/security/cert/CertificateFactory;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "X.509"
+        }
+      ],
+      "namespace": "declared third-party namespace: Lcom/google/"
+    },
+    {
+      "method": "Lcom/google/api/client/auth/openidconnect/IdTokenVerifier$PublicKeyLoader;->buildRs256PublicKey(Lcom/google/api/client/auth/openidconnect/IdTokenVerifier$PublicKeyLoader$JsonWebKey;)Ljava/security/PublicKey;",
+      "dex": "classes.dex",
+      "cu": 49,
+      "target": "Ljava/security/KeyFactory;->getInstance(Ljava/lang/String;)Ljava/security/KeyFactory;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "RSA"
+        }
+      ],
+      "namespace": "declared third-party namespace: Lcom/google/"
+    },
+    {
+      "method": "Lcom/google/api/client/testing/json/webtoken/TestCertificates$CertData;->getTrustManager()Ljavax/net/ssl/X509TrustManager;",
+      "dex": "classes.dex",
+      "cu": 4,
+      "target": "Ljava/security/KeyStore;->getInstance(Ljava/lang/String;)Ljava/security/KeyStore;",
+      "arguments": [
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "declared third-party namespace: Lcom/google/"
+    },
+    {
+      "method": "Lcom/google/api/client/testing/json/webtoken/TestCertificates$CertData;->getTrustManager()Ljavax/net/ssl/X509TrustManager;",
+      "dex": "classes.dex",
+      "cu": 25,
+      "target": "Ljavax/net/ssl/TrustManagerFactory;->getInstance(Ljava/lang/String;)Ljavax/net/ssl/TrustManagerFactory;",
+      "arguments": [
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "declared third-party namespace: Lcom/google/"
+    },
+    {
+      "method": "Lcom/google/api/client/util/SecurityUtils;->createMtlsKeyStore(Ljava/io/InputStream;)Ljava/security/KeyStore;",
+      "dex": "classes.dex",
+      "cu": 2,
+      "target": "Ljava/security/KeyStore;->getInstance(Ljava/lang/String;)Ljava/security/KeyStore;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "JKS"
+        }
+      ],
+      "namespace": "declared third-party namespace: Lcom/google/"
+    },
+    {
+      "method": "Lcom/google/api/client/util/SecurityUtils;->createMtlsKeyStore(Ljava/io/InputStream;)Ljava/security/KeyStore;",
+      "dex": "classes.dex",
+      "cu": 37,
+      "target": "Ljava/security/cert/CertificateFactory;->getInstance(Ljava/lang/String;)Ljava/security/cert/CertificateFactory;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "X.509"
+        }
+      ],
+      "namespace": "declared third-party namespace: Lcom/google/"
+    },
+    {
+      "method": "Lcom/google/api/client/util/SecurityUtils;->createMtlsKeyStore(Ljava/io/InputStream;)Ljava/security/KeyStore;",
+      "dex": "classes.dex",
+      "cu": 73,
+      "target": "Ljava/security/KeyFactory;->getInstance(Ljava/lang/String;)Ljava/security/KeyFactory;",
+      "arguments": [
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "declared third-party namespace: Lcom/google/"
+    },
+    {
+      "method": "Lcom/google/api/client/util/SecurityUtils;->getDefaultKeyStore()Ljava/security/KeyStore;",
+      "dex": "classes.dex",
+      "cu": 4,
+      "target": "Ljava/security/KeyStore;->getInstance(Ljava/lang/String;)Ljava/security/KeyStore;",
+      "arguments": [
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "declared third-party namespace: Lcom/google/"
+    },
+    {
+      "method": "Lcom/google/api/client/util/SecurityUtils;->getEs256SignatureAlgorithm()Ljava/security/Signature;",
+      "dex": "classes.dex",
+      "cu": 2,
+      "target": "Ljava/security/Signature;->getInstance(Ljava/lang/String;)Ljava/security/Signature;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "SHA256withECDSA"
+        }
+      ],
+      "namespace": "declared third-party namespace: Lcom/google/"
+    },
+    {
+      "method": "Lcom/google/api/client/util/SecurityUtils;->getJavaKeyStore()Ljava/security/KeyStore;",
+      "dex": "classes.dex",
+      "cu": 2,
+      "target": "Ljava/security/KeyStore;->getInstance(Ljava/lang/String;)Ljava/security/KeyStore;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "JKS"
+        }
+      ],
+      "namespace": "declared third-party namespace: Lcom/google/"
+    },
+    {
+      "method": "Lcom/google/api/client/util/SecurityUtils;->getPkcs12KeyStore()Ljava/security/KeyStore;",
+      "dex": "classes.dex",
+      "cu": 2,
+      "target": "Ljava/security/KeyStore;->getInstance(Ljava/lang/String;)Ljava/security/KeyStore;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "PKCS12"
+        }
+      ],
+      "namespace": "declared third-party namespace: Lcom/google/"
+    },
+    {
+      "method": "Lcom/google/api/client/util/SecurityUtils;->getRsaKeyFactory()Ljava/security/KeyFactory;",
+      "dex": "classes.dex",
+      "cu": 2,
+      "target": "Ljava/security/KeyFactory;->getInstance(Ljava/lang/String;)Ljava/security/KeyFactory;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "RSA"
+        }
+      ],
+      "namespace": "declared third-party namespace: Lcom/google/"
+    },
+    {
+      "method": "Lcom/google/api/client/util/SecurityUtils;->getSha1WithRsaSignatureAlgorithm()Ljava/security/Signature;",
+      "dex": "classes.dex",
+      "cu": 2,
+      "target": "Ljava/security/Signature;->getInstance(Ljava/lang/String;)Ljava/security/Signature;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "SHA1withRSA"
+        }
+      ],
+      "namespace": "declared third-party namespace: Lcom/google/"
+    },
+    {
+      "method": "Lcom/google/api/client/util/SecurityUtils;->getSha256WithRsaSignatureAlgorithm()Ljava/security/Signature;",
+      "dex": "classes.dex",
+      "cu": 2,
+      "target": "Ljava/security/Signature;->getInstance(Ljava/lang/String;)Ljava/security/Signature;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "SHA256withRSA"
+        }
+      ],
+      "namespace": "declared third-party namespace: Lcom/google/"
+    },
+    {
+      "method": "Lcom/google/api/client/util/SecurityUtils;->getX509CertificateFactory()Ljava/security/cert/CertificateFactory;",
+      "dex": "classes.dex",
+      "cu": 2,
+      "target": "Ljava/security/cert/CertificateFactory;->getInstance(Ljava/lang/String;)Ljava/security/cert/CertificateFactory;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "X.509"
+        }
+      ],
+      "namespace": "declared third-party namespace: Lcom/google/"
+    },
+    {
+      "method": "Lcom/google/api/client/util/SslUtils;->getDefaultKeyManagerFactory()Ljavax/net/ssl/KeyManagerFactory;",
+      "dex": "classes.dex",
+      "cu": 4,
+      "target": "Ljavax/net/ssl/KeyManagerFactory;->getInstance(Ljava/lang/String;)Ljavax/net/ssl/KeyManagerFactory;",
+      "arguments": [
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "declared third-party namespace: Lcom/google/"
+    },
+    {
+      "method": "Lcom/google/api/client/util/SslUtils;->getDefaultTrustManagerFactory()Ljavax/net/ssl/TrustManagerFactory;",
+      "dex": "classes.dex",
+      "cu": 4,
+      "target": "Ljavax/net/ssl/TrustManagerFactory;->getInstance(Ljava/lang/String;)Ljavax/net/ssl/TrustManagerFactory;",
+      "arguments": [
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "declared third-party namespace: Lcom/google/"
+    },
+    {
+      "method": "Lcom/google/api/client/util/SslUtils;->getPkixKeyManagerFactory()Ljavax/net/ssl/KeyManagerFactory;",
+      "dex": "classes.dex",
+      "cu": 2,
+      "target": "Ljavax/net/ssl/KeyManagerFactory;->getInstance(Ljava/lang/String;)Ljavax/net/ssl/KeyManagerFactory;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "<non-allowlisted constant redacted>"
+        }
+      ],
+      "namespace": "declared third-party namespace: Lcom/google/"
+    },
+    {
+      "method": "Lcom/google/api/client/util/SslUtils;->getPkixTrustManagerFactory()Ljavax/net/ssl/TrustManagerFactory;",
+      "dex": "classes.dex",
+      "cu": 2,
+      "target": "Ljavax/net/ssl/TrustManagerFactory;->getInstance(Ljava/lang/String;)Ljavax/net/ssl/TrustManagerFactory;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "<non-allowlisted constant redacted>"
+        }
+      ],
+      "namespace": "declared third-party namespace: Lcom/google/"
+    },
+    {
+      "method": "Lcom/google/api/client/util/SslUtils;->getSslContext()Ljavax/net/ssl/SSLContext;",
+      "dex": "classes.dex",
+      "cu": 2,
+      "target": "Ljavax/net/ssl/SSLContext;->getInstance(Ljava/lang/String;)Ljavax/net/ssl/SSLContext;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "<non-allowlisted constant redacted>"
+        }
+      ],
+      "namespace": "declared third-party namespace: Lcom/google/"
+    },
+    {
+      "method": "Lcom/google/api/client/util/SslUtils;->getTlsSslContext()Ljavax/net/ssl/SSLContext;",
+      "dex": "classes.dex",
+      "cu": 2,
+      "target": "Ljavax/net/ssl/SSLContext;->getInstance(Ljava/lang/String;)Ljavax/net/ssl/SSLContext;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "TLS"
+        }
+      ],
+      "namespace": "declared third-party namespace: Lcom/google/"
+    },
+    {
+      "method": "Lcom/google/firebase/messaging/GmsRpc;->getHashedFirebaseAppName()Ljava/lang/String;",
+      "dex": "classes.dex",
+      "cu": 9,
+      "target": "Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "SHA-1"
+        }
+      ],
+      "namespace": "declared third-party namespace: Lcom/google/"
+    },
+    {
+      "method": "Lq4/k;-><init>(Landroid/content/Context;)V",
+      "dex": "classes.dex",
+      "cu": 72,
+      "target": "Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "SHA-256"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "LA9/Z0;->a()Ljava/security/KeyStore;",
+      "dex": "classes2.dex",
+      "cu": 153,
+      "target": "Ljava/security/KeyStore;->getInstance(Ljava/lang/String;)Ljava/security/KeyStore;",
+      "arguments": [
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "LA9/Z0;->a()Ljava/security/KeyStore;",
+      "dex": "classes2.dex",
+      "cu": 158,
+      "target": "Ljava/security/KeyStore;->getInstance(Ljava/lang/String;Ljava/lang/String;)Ljava/security/KeyStore;",
+      "arguments": [
+        {
+          "kind": "unresolved or runtime/provider value"
+        },
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "LA9/Z0;->a()Ljava/security/KeyStore;",
+      "dex": "classes2.dex",
+      "cu": 224,
+      "target": "Ljava/security/KeyStore;->getInstance(Ljava/lang/String;)Ljava/security/KeyStore;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "<non-allowlisted constant redacted>"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "LA9/p;-><clinit>()V",
+      "dex": "classes2.dex",
+      "cu": 11,
+      "target": "Ljavax/net/ssl/TrustManagerFactory;->getInstance(Ljava/lang/String;)Ljavax/net/ssl/TrustManagerFactory;",
+      "arguments": [
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "LA9/q0;->h()[Ljavax/net/ssl/KeyManager;",
+      "dex": "classes2.dex",
+      "cu": 61,
+      "target": "Ljava/security/KeyStore;->getInstance(Ljava/lang/String;)Ljava/security/KeyStore;",
+      "arguments": [
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "LA9/q0;->h()[Ljavax/net/ssl/KeyManager;",
+      "dex": "classes2.dex",
+      "cu": 66,
+      "target": "Ljava/security/KeyStore;->getInstance(Ljava/lang/String;Ljava/lang/String;)Ljava/security/KeyStore;",
+      "arguments": [
+        {
+          "kind": "unresolved or runtime/provider value"
+        },
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "LA9/q0;->h()[Ljavax/net/ssl/KeyManager;",
+      "dex": "classes2.dex",
+      "cu": 124,
+      "target": "Ljava/security/KeyStore;->getInstance(Ljava/lang/String;)Ljava/security/KeyStore;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "<non-allowlisted constant redacted>"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "LA9/q0;->h()[Ljavax/net/ssl/KeyManager;",
+      "dex": "classes2.dex",
+      "cu": 145,
+      "target": "Ljavax/net/ssl/KeyManagerFactory;->getInstance(Ljava/lang/String;)Ljavax/net/ssl/KeyManagerFactory;",
+      "arguments": [
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "LA9/q0;->l(Lw9/b;[Ljavax/net/ssl/TrustManager;)Ly9/j;",
+      "dex": "classes2.dex",
+      "cu": 6,
+      "target": "Ljavax/net/ssl/TrustManagerFactory;->getInstance(Ljava/lang/String;)Ljavax/net/ssl/TrustManagerFactory;",
+      "arguments": [
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "LA9/q1;->f([Ljava/security/cert/X509Certificate;LA9/k0;Ljava/util/List;)[Ljava/security/cert/X509Certificate;",
+      "dex": "classes2.dex",
+      "cu": 68,
+      "target": "Ljava/security/cert/CertStore;->getInstance(Ljava/lang/String;Ljava/security/cert/CertStoreParameters;Ljava/security/Provider;)Ljava/security/cert/CertStore;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "<non-allowlisted constant redacted>"
+        },
+        {
+          "kind": "unresolved or runtime/provider value"
+        },
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "LA9/q1;->f([Ljava/security/cert/X509Certificate;LA9/k0;Ljava/util/List;)[Ljava/security/cert/X509Certificate;",
+      "dex": "classes2.dex",
+      "cu": 73,
+      "target": "Ljava/security/cert/CertStore;->getInstance(Ljava/lang/String;Ljava/security/cert/CertStoreParameters;)Ljava/security/cert/CertStore;",
+      "arguments": [
+        {
+          "kind": "unresolved or runtime/provider value"
+        },
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "LA9/q1;->f([Ljava/security/cert/X509Certificate;LA9/k0;Ljava/util/List;)[Ljava/security/cert/X509Certificate;",
+      "dex": "classes2.dex",
+      "cu": 77,
+      "target": "Ljava/security/cert/CertPathBuilder;->getInstance(Ljava/lang/String;Ljava/security/Provider;)Ljava/security/cert/CertPathBuilder;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "<non-allowlisted constant redacted>"
+        },
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "LA9/q1;->f([Ljava/security/cert/X509Certificate;LA9/k0;Ljava/util/List;)[Ljava/security/cert/X509Certificate;",
+      "dex": "classes2.dex",
+      "cu": 82,
+      "target": "Ljava/security/cert/CertPathBuilder;->getInstance(Ljava/lang/String;)Ljava/security/cert/CertPathBuilder;",
+      "arguments": [
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "Lcom/panasonic/jp/lumixlab/bean/RawProcessingConfigBean;->hashFileNameToUint32(Ljava/lang/String;)I",
+      "dex": "classes2.dex",
+      "cu": 3,
+      "target": "Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "SHA-256"
+        }
+      ],
+      "namespace": "Panasonic namespace"
+    },
+    {
+      "method": "Lg8/i;->a(Lu8/B;)Ljava/util/List;",
+      "dex": "classes2.dex",
+      "cu": 17,
+      "target": "Ljava/security/cert/CertificateFactory;->getInstance(Ljava/lang/String;)Ljava/security/cert/CertificateFactory;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "X.509"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "Lh6/d;->verify(Ljava/lang/String;Ljavax/net/ssl/SSLSession;)Z",
+      "dex": "classes2.dex",
+      "cu": 7,
+      "target": "Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "SHA-256"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "Lh6/d;->verify(Ljava/lang/String;Ljavax/net/ssl/SSLSession;)Z",
+      "dex": "classes2.dex",
+      "cu": 51,
+      "target": "Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "SHA-256"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "Lh6/g;->a(Lh6/g;)V",
+      "dex": "classes2.dex",
+      "cu": 10,
+      "target": "Ljavax/net/ssl/SSLContext;->getInstance(Ljava/lang/String;)Ljavax/net/ssl/SSLContext;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "TLS"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "Lia/l;->a(Ljava/security/SecureRandom;)Lia/i;",
+      "dex": "classes2.dex",
+      "cu": 10,
+      "target": "Ljava/security/SecureRandom;->getInstance(Ljava/lang/String;)Ljava/security/SecureRandom;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "<non-allowlisted constant redacted>"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "Lia/l;->a(Ljava/security/SecureRandom;)Lia/i;",
+      "dex": "classes2.dex",
+      "cu": 27,
+      "target": "Ljava/security/SecureRandom;->getInstance(Ljava/lang/String;Ljava/security/Provider;)Ljava/security/SecureRandom;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "<non-allowlisted constant redacted>"
+        },
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "Lq8/s;->k()Ljavax/net/ssl/SSLContext;",
+      "dex": "classes2.dex",
+      "cu": 2,
+      "target": "Ljavax/net/ssl/SSLContext;->getInstance(Ljava/lang/String;)Ljavax/net/ssl/SSLContext;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "TLS"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "Lq8/s;->m()Ljavax/net/ssl/X509TrustManager;",
+      "dex": "classes2.dex",
+      "cu": 4,
+      "target": "Ljavax/net/ssl/TrustManagerFactory;->getInstance(Ljava/lang/String;)Ljavax/net/ssl/TrustManagerFactory;",
+      "arguments": [
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "Lq8/g;->k()Ljavax/net/ssl/SSLContext;",
+      "dex": "classes2.dex",
+      "cu": 4,
+      "target": "Ljavax/net/ssl/SSLContext;->getInstance(Ljava/lang/String;Ljava/security/Provider;)Ljavax/net/ssl/SSLContext;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "TLS"
+        },
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "Lq8/g;->m()Ljavax/net/ssl/X509TrustManager;",
+      "dex": "classes2.dex",
+      "cu": 4,
+      "target": "Ljavax/net/ssl/TrustManagerFactory;->getInstance(Ljava/lang/String;Ljava/lang/String;)Ljavax/net/ssl/TrustManagerFactory;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "<non-allowlisted constant redacted>"
+        },
+        {
+          "kind": "literal",
+          "label": "BCJSSE"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "Lq8/j;->k()Ljavax/net/ssl/SSLContext;",
+      "dex": "classes2.dex",
+      "cu": 4,
+      "target": "Ljavax/net/ssl/SSLContext;->getInstance(Ljava/lang/String;Ljava/security/Provider;)Ljavax/net/ssl/SSLContext;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "TLS"
+        },
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "Lq8/j;->m()Ljavax/net/ssl/X509TrustManager;",
+      "dex": "classes2.dex",
+      "cu": 4,
+      "target": "Ljavax/net/ssl/TrustManagerFactory;->getInstance(Ljava/lang/String;)Ljavax/net/ssl/TrustManagerFactory;",
+      "arguments": [
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "Lq8/q;->k()Ljavax/net/ssl/SSLContext;",
+      "dex": "classes2.dex",
+      "cu": 4,
+      "target": "Ljavax/net/ssl/SSLContext;->getInstance(Ljava/lang/String;Ljava/security/Provider;)Ljavax/net/ssl/SSLContext;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "TLSv1.3"
+        },
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "Lq8/q;->m()Ljavax/net/ssl/X509TrustManager;",
+      "dex": "classes2.dex",
+      "cu": 6,
+      "target": "Ljavax/net/ssl/TrustManagerFactory;->getInstance(Ljava/lang/String;Ljava/security/Provider;)Ljavax/net/ssl/TrustManagerFactory;",
+      "arguments": [
+        {
+          "kind": "unresolved or runtime/provider value"
+        },
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "Lu8/n;->b(Ljava/lang/String;)Lu8/n;",
+      "dex": "classes2.dex",
+      "cu": 0,
+      "target": "Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;",
+      "arguments": [
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "Lu8/F;->b(Ljava/lang/String;)Lu8/n;",
+      "dex": "classes2.dex",
+      "cu": 0,
+      "target": "Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;",
+      "arguments": [
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "Lw9/a;->a(Ljava/lang/String;)Ljava/security/KeyPairGenerator;",
+      "dex": "classes2.dex",
+      "cu": 0,
+      "target": "Ljava/security/KeyPairGenerator;->getInstance(Ljava/lang/String;)Ljava/security/KeyPairGenerator;",
+      "arguments": [
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "Lw9/a;->b(Ljava/lang/String;)Ljavax/crypto/Mac;",
+      "dex": "classes2.dex",
+      "cu": 0,
+      "target": "Ljavax/crypto/Mac;->getInstance(Ljava/lang/String;)Ljavax/crypto/Mac;",
+      "arguments": [
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "Lw9/a;->c()Ljava/security/cert/CertificateFactory;",
+      "dex": "classes2.dex",
+      "cu": 2,
+      "target": "Ljava/security/cert/CertificateFactory;->getInstance(Ljava/lang/String;)Ljava/security/cert/CertificateFactory;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "X.509"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "Lw9/a;->d(Ljava/lang/String;)Ljavax/crypto/Cipher;",
+      "dex": "classes2.dex",
+      "cu": 0,
+      "target": "Ljavax/crypto/Cipher;->getInstance(Ljava/lang/String;)Ljavax/crypto/Cipher;",
+      "arguments": [
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "Lw9/a;->e(Ljava/lang/String;)Ljava/security/AlgorithmParameters;",
+      "dex": "classes2.dex",
+      "cu": 0,
+      "target": "Ljava/security/AlgorithmParameters;->getInstance(Ljava/lang/String;)Ljava/security/AlgorithmParameters;",
+      "arguments": [
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "Lw9/a;->f(Ljava/lang/String;)Ljava/security/Signature;",
+      "dex": "classes2.dex",
+      "cu": 0,
+      "target": "Ljava/security/Signature;->getInstance(Ljava/lang/String;)Ljava/security/Signature;",
+      "arguments": [
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "Lw9/a;->g(Ljava/lang/String;)Ljavax/crypto/KeyAgreement;",
+      "dex": "classes2.dex",
+      "cu": 0,
+      "target": "Ljavax/crypto/KeyAgreement;->getInstance(Ljava/lang/String;)Ljavax/crypto/KeyAgreement;",
+      "arguments": [
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "Lw9/a;->h(Ljava/lang/String;)Ljava/security/MessageDigest;",
+      "dex": "classes2.dex",
+      "cu": 0,
+      "target": "Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;",
+      "arguments": [
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "Lw9/a;->i(Ljava/lang/String;)Ljava/security/KeyFactory;",
+      "dex": "classes2.dex",
+      "cu": 0,
+      "target": "Ljava/security/KeyFactory;->getInstance(Ljava/lang/String;)Ljava/security/KeyFactory;",
+      "arguments": [
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "Lw9/c;->a(Ljava/lang/String;)Ljava/security/KeyPairGenerator;",
+      "dex": "classes2.dex",
+      "cu": 2,
+      "target": "Ljava/security/KeyPairGenerator;->getInstance(Ljava/lang/String;Ljava/security/Provider;)Ljava/security/KeyPairGenerator;",
+      "arguments": [
+        {
+          "kind": "unresolved or runtime/provider value"
+        },
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "Lw9/c;->b(Ljava/lang/String;)Ljavax/crypto/Mac;",
+      "dex": "classes2.dex",
+      "cu": 2,
+      "target": "Ljavax/crypto/Mac;->getInstance(Ljava/lang/String;Ljava/security/Provider;)Ljavax/crypto/Mac;",
+      "arguments": [
+        {
+          "kind": "unresolved or runtime/provider value"
+        },
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "Lw9/c;->c()Ljava/security/cert/CertificateFactory;",
+      "dex": "classes2.dex",
+      "cu": 4,
+      "target": "Ljava/security/cert/CertificateFactory;->getInstance(Ljava/lang/String;Ljava/security/Provider;)Ljava/security/cert/CertificateFactory;",
+      "arguments": [
+        {
+          "kind": "literal",
+          "label": "X.509"
+        },
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "Lw9/c;->d(Ljava/lang/String;)Ljavax/crypto/Cipher;",
+      "dex": "classes2.dex",
+      "cu": 2,
+      "target": "Ljavax/crypto/Cipher;->getInstance(Ljava/lang/String;Ljava/security/Provider;)Ljavax/crypto/Cipher;",
+      "arguments": [
+        {
+          "kind": "unresolved or runtime/provider value"
+        },
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "Lw9/c;->e(Ljava/lang/String;)Ljava/security/AlgorithmParameters;",
+      "dex": "classes2.dex",
+      "cu": 2,
+      "target": "Ljava/security/AlgorithmParameters;->getInstance(Ljava/lang/String;Ljava/security/Provider;)Ljava/security/AlgorithmParameters;",
+      "arguments": [
+        {
+          "kind": "unresolved or runtime/provider value"
+        },
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "Lw9/c;->f(Ljava/lang/String;)Ljava/security/Signature;",
+      "dex": "classes2.dex",
+      "cu": 2,
+      "target": "Ljava/security/Signature;->getInstance(Ljava/lang/String;Ljava/security/Provider;)Ljava/security/Signature;",
+      "arguments": [
+        {
+          "kind": "unresolved or runtime/provider value"
+        },
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "Lw9/c;->g(Ljava/lang/String;)Ljavax/crypto/KeyAgreement;",
+      "dex": "classes2.dex",
+      "cu": 2,
+      "target": "Ljavax/crypto/KeyAgreement;->getInstance(Ljava/lang/String;Ljava/security/Provider;)Ljavax/crypto/KeyAgreement;",
+      "arguments": [
+        {
+          "kind": "unresolved or runtime/provider value"
+        },
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "Lw9/c;->h(Ljava/lang/String;)Ljava/security/MessageDigest;",
+      "dex": "classes2.dex",
+      "cu": 2,
+      "target": "Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;Ljava/security/Provider;)Ljava/security/MessageDigest;",
+      "arguments": [
+        {
+          "kind": "unresolved or runtime/provider value"
+        },
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    },
+    {
+      "method": "Lw9/c;->i(Ljava/lang/String;)Ljava/security/KeyFactory;",
+      "dex": "classes2.dex",
+      "cu": 2,
+      "target": "Ljava/security/KeyFactory;->getInstance(Ljava/lang/String;Ljava/security/Provider;)Ljava/security/KeyFactory;",
+      "arguments": [
+        {
+          "kind": "unresolved or runtime/provider value"
+        },
+        {
+          "kind": "unresolved or runtime/provider value"
+        }
+      ],
+      "namespace": "obfuscated/other; ownership needs code evidence"
+    }
+  ],
+  "limits": "Original CFG local constant facts only. Wrapper/interface/provider parameters not fabricated; algorithm label recovery is not runtime selection proof."
+}

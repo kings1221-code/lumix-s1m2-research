@@ -1,0 +1,48 @@
+{
+  "finite_native_load_set": {
+    "method": "Lwseemann/media/FFmpegMediaMetadataRetriever;-><clinit>()V",
+    "site_cu": 26,
+    "array_cu": 14,
+    "load_order": [
+      "crypto",
+      "ssl",
+      "avutil",
+      "swscale",
+      "avcodec",
+      "avformat",
+      "ffmpeg_mediametadataretriever_jni"
+    ],
+    "loop_test_cu": 22,
+    "native_init_cu": 32,
+    "status": "verified Java finite-set load loop; actual successful native loading not tested"
+  },
+  "room_generated_target": {
+    "method": "Lcom/panasonic/jp/lumixlab/database/AppDatabase;->p(Landroid/content/Context;)Lcom/panasonic/jp/lumixlab/database/AppDatabase;",
+    "site_cu": 410,
+    "class_literal_cu": 24,
+    "builder_field_read_cu": 312,
+    "builder_constructor": "LD1/Q;-><init>(Landroid/content/Context;Ljava/lang/Class;Ljava/lang/String;)V",
+    "builder_store_cu": 15,
+    "candidate": "com.panasonic.jp.lumixlab.database.AppDatabase_Impl",
+    "class_present_in_DEX": true,
+    "status": "reasonable inference for normally initialized builder; interprocedural mutable-field proof not complete, excluded from exact-resolution count"
+  },
+  "retrofit_dispatch": {
+    "factory": "Loa/v0;->b()Ljava/lang/Object;",
+    "factory_proxy_cu": 138,
+    "handler": "Loa/t0;->invoke(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;",
+    "Object_method_reflection_cu": 8,
+    "normal_service_parse_cu": 71,
+    "normal_service_execute_cu": 75,
+    "verified": "Object-declared methods use reflective invoke; default methods use MethodHandle/constructor compatibility route; ordinary service methods go to v0.c(Method) -> w0.a(arguments). Interface annotations/body consumers are inherited evidence, no APK execution.",
+    "limits": "Not full restoration of every converter, adapter, interceptor or dynamic provider."
+  },
+  "resolution_accounting": {
+    "original_denominator": 243,
+    "CFG_exact_literal_targets": 95,
+    "additional_verified_finite_set_sites": 1,
+    "bounded_target_total": 96,
+    "remaining_not_exact_or_finite": 147,
+    "runtime_execution_proofs": 0
+  }
+}

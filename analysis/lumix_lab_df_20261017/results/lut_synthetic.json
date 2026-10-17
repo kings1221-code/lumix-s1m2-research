@@ -1,0 +1,153 @@
+{
+  "status": "PASS",
+  "library": "libcube_merge.so",
+  "size": 11976,
+  "sha256": "91c35f56413f0e6fd8108000104a4270b6beee64121bfd954ada56e510c03d2f",
+  "evaluator_ELF_va": "0x5714",
+  "writer_ELF_va": "0x4fdc",
+  "composition_ELF_va": "0x4e60",
+  "model_cases": 1044,
+  "six_regions": [
+    "BGR",
+    "BRG",
+    "GBR",
+    "GRB",
+    "RBG",
+    "RGB"
+  ],
+  "independent_sorted_tetrahedron_max_abs_difference": 0.0,
+  "identity_grid_max_abs_error_including_float32_spacing": 3.576278584382919e-08,
+  "composition_control": "3^3 A-grid channel permutation -> 2^3 B-grid affine transform",
+  "output_format": {
+    "header": "LUT_3D_SIZE %d\\n\\n",
+    "row": "%.7f %.7f %.7f\\n",
+    "rows": 27,
+    "R_fastest_then_G_then_B": true
+  },
+  "synthetic_files": [
+    {
+      "file": "input_a.cube",
+      "size": 825,
+      "sha256": "50e3194acc36d44fcabcb58e953d24c3f22ffaf0a6e569c70c9b901b00e5d9a9"
+    },
+    {
+      "file": "input_b.cube",
+      "size": 255,
+      "sha256": "9d823ab642d065470c8ea09fe7aaace07d7618a900d09d7db48b0bafc07be9c7"
+    },
+    {
+      "file": "output_model.cube",
+      "size": 825,
+      "sha256": "2d98b7ef1cb2b4b8ddbb7d0a8c12fd113f8897954787b36145c7b1e339d6b281"
+    }
+  ],
+  "original_instruction_controls": [
+    {
+      "address": "0010576c",
+      "instruction": "fdiv s0,s0,s1",
+      "bytes": "0018211e"
+    },
+    {
+      "address": "00105770",
+      "instruction": "fcvt d0,s0",
+      "bytes": "00c0221e"
+    },
+    {
+      "address": "00105788",
+      "instruction": "fcvtms w8,d0",
+      "bytes": "0800701e"
+    },
+    {
+      "address": "001057b4",
+      "instruction": "fcvtms w8,d0",
+      "bytes": "0800701e"
+    },
+    {
+      "address": "001057e4",
+      "instruction": "fcvtms w0,d0",
+      "bytes": "0000701e"
+    },
+    {
+      "address": "00105814",
+      "instruction": "fcvtms w8,d0",
+      "bytes": "0800701e"
+    },
+    {
+      "address": "00105840",
+      "instruction": "fcvtms w8,d0",
+      "bytes": "0800701e"
+    },
+    {
+      "address": "00105870",
+      "instruction": "fcvtms w0,d0",
+      "bytes": "0000701e"
+    },
+    {
+      "address": "001058a0",
+      "instruction": "fcvtms w8,d0",
+      "bytes": "0800701e"
+    },
+    {
+      "address": "001058cc",
+      "instruction": "fcvtms w8,d0",
+      "bytes": "0800701e"
+    },
+    {
+      "address": "001058fc",
+      "instruction": "fcvtms w0,d0",
+      "bytes": "0000701e"
+    },
+    {
+      "address": "00105a30",
+      "instruction": "fcmp d0,d1",
+      "bytes": "0020611e"
+    },
+    {
+      "address": "00105a34",
+      "instruction": "b.le 0x00105ec8",
+      "bytes": "ad240054"
+    },
+    {
+      "address": "00105a44",
+      "instruction": "fcmp d0,d1",
+      "bytes": "0020611e"
+    },
+    {
+      "address": "00105a48",
+      "instruction": "b.le 0x00105bc4",
+      "bytes": "ed0b0054"
+    },
+    {
+      "address": "00105bcc",
+      "instruction": "fcmp d0,d1",
+      "bytes": "0020611e"
+    },
+    {
+      "address": "00105bd0",
+      "instruction": "b.le 0x00105d4c",
+      "bytes": "ed0b0054"
+    },
+    {
+      "address": "00105ed0",
+      "instruction": "fcmp d0,d1",
+      "bytes": "0020611e"
+    },
+    {
+      "address": "00105ed4",
+      "instruction": "b.le 0x00106050",
+      "bytes": "ed0b0054"
+    },
+    {
+      "address": "00106058",
+      "instruction": "fcmp d0,d1",
+      "bytes": "0020611e"
+    },
+    {
+      "address": "0010605c",
+      "instruction": "b.le 0x001061d8",
+      "bytes": "ed0b0054"
+    }
+  ],
+  "correction": "Ghidra C casts obscure ARM64 FCVTMS (floor), and step is float32 division promoted to double. Finite-cell model reflects both. No coordinate clamp to [0,1]; cell indices clamp while fractional coordinates may extrapolate.",
+  "limits": "Self-written model vs independent mathematical formula plus original instruction constraints; target SO NOT executed or emulated. Not native bit-exact verification, malformed-input safety, NaN/Inf, integer overflow, locale or all printf rounding equivalence."
+}

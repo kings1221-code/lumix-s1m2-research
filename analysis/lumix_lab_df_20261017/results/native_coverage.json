@@ -1,0 +1,383 @@
+{
+  "libraries": [
+    {
+      "library": "libavcodec.so",
+      "sha256": "4bcd087282fe141181be4cb770218d94f1f924f2a99a6770ce36a91d22d1e9aa",
+      "symbol_inventory": {
+        "dynsym_entries": 485,
+        "complete_for_section": true
+      },
+      "selected_disassembly_functions": [],
+      "explicit_tool_CFG_exports": [],
+      "bounded_synthetic_semantic_controls": [],
+      "fully_semantically_validated_functions": 0,
+      "limit": "Symbol entries, selected disassembly, tool CFG and bounded semantic models have different denominators; no whole-library percentage."
+    },
+    {
+      "library": "libavformat.so",
+      "sha256": "4d364b5e2855c8e828eb02474c3cec47b8801f88a59c8625dc64a260604eaa79",
+      "symbol_inventory": {
+        "dynsym_entries": 583,
+        "complete_for_section": true
+      },
+      "selected_disassembly_functions": [
+        "0xb8aa4",
+        "0x1354fc",
+        "0x135754",
+        "0x135794"
+      ],
+      "explicit_tool_CFG_exports": [
+        {
+          "elf_va": "0x1354fc",
+          "blocks": 34,
+          "decompile_completed": true
+        },
+        {
+          "elf_va": "0x135754",
+          "blocks": 5,
+          "decompile_completed": true
+        },
+        {
+          "elf_va": "0x135794",
+          "blocks": 5,
+          "decompile_completed": true
+        },
+        {
+          "elf_va": "0xb8aa4",
+          "blocks": 41,
+          "decompile_completed": true
+        }
+      ],
+      "bounded_synthetic_semantic_controls": [],
+      "fully_semantically_validated_functions": 0,
+      "limit": "Symbol entries, selected disassembly, tool CFG and bounded semantic models have different denominators; no whole-library percentage."
+    },
+    {
+      "library": "libavutil.so",
+      "sha256": "3676eb0ed26d540287ab8470c8abe618153afc45258451298b5d4ffd18ff010b",
+      "symbol_inventory": {
+        "dynsym_entries": 690,
+        "complete_for_section": true
+      },
+      "selected_disassembly_functions": [],
+      "explicit_tool_CFG_exports": [],
+      "bounded_synthetic_semantic_controls": [],
+      "fully_semantically_validated_functions": 0,
+      "limit": "Symbol entries, selected disassembly, tool CFG and bounded semantic models have different denominators; no whole-library percentage."
+    },
+    {
+      "library": "libc++_shared.so",
+      "sha256": "c4c2fe5cbcb1fba0003a31fc7ab29a9bb12df6cc187ec45a806462540e83d93b",
+      "symbol_inventory": {
+        "dynsym_entries": 2498,
+        "complete_for_section": true
+      },
+      "selected_disassembly_functions": [],
+      "explicit_tool_CFG_exports": [],
+      "bounded_synthetic_semantic_controls": [],
+      "fully_semantically_validated_functions": 0,
+      "limit": "Symbol entries, selected disassembly, tool CFG and bounded semantic models have different denominators; no whole-library percentage."
+    },
+    {
+      "library": "libcrypto.so",
+      "sha256": "49db5bf9fdee2c87209085717497ac604b8768d589df32a85d8124c3f7604b4a",
+      "symbol_inventory": {
+        "dynsym_entries": 4524,
+        "complete_for_section": true
+      },
+      "selected_disassembly_functions": [],
+      "explicit_tool_CFG_exports": [],
+      "bounded_synthetic_semantic_controls": [],
+      "fully_semantically_validated_functions": 0,
+      "limit": "Symbol entries, selected disassembly, tool CFG and bounded semantic models have different denominators; no whole-library percentage."
+    },
+    {
+      "library": "libcube_merge.so",
+      "sha256": "91c35f56413f0e6fd8108000104a4270b6beee64121bfd954ada56e510c03d2f",
+      "symbol_inventory": {
+        "dynsym_entries": 19,
+        "complete_for_section": true
+      },
+      "selected_disassembly_functions": [
+        "0x4dac",
+        "0x4e60",
+        "0x4fdc",
+        "0x5198",
+        "0x51d0",
+        "0x52dc",
+        "0x54c8",
+        "0x56b0",
+        "0x5714"
+      ],
+      "explicit_tool_CFG_exports": [
+        {
+          "elf_va": "0x51d0",
+          "blocks": 14,
+          "decompile_completed": true
+        },
+        {
+          "elf_va": "0x56b0",
+          "blocks": 1,
+          "decompile_completed": true
+        },
+        {
+          "elf_va": "0x5714",
+          "blocks": 48,
+          "decompile_completed": true
+        },
+        {
+          "elf_va": "0x52dc",
+          "blocks": 36,
+          "decompile_completed": true
+        },
+        {
+          "elf_va": "0x54c8",
+          "blocks": 27,
+          "decompile_completed": true
+        },
+        {
+          "elf_va": "0x5198",
+          "blocks": 1,
+          "decompile_completed": true
+        },
+        {
+          "elf_va": "0x4dac",
+          "blocks": 8,
+          "decompile_completed": true
+        },
+        {
+          "elf_va": "0x4e60",
+          "blocks": 19,
+          "decompile_completed": true
+        },
+        {
+          "elf_va": "0x4fdc",
+          "blocks": 16,
+          "decompile_completed": true
+        }
+      ],
+      "bounded_synthetic_semantic_controls": [
+        "0x5714: finite tetrahedral model",
+        "0x4e60: composition model",
+        "0x4fdc: textual output control"
+      ],
+      "fully_semantically_validated_functions": 0,
+      "limit": "Symbol entries, selected disassembly, tool CFG and bounded semantic models have different denominators; no whole-library percentage."
+    },
+    {
+      "library": "libde265.so",
+      "sha256": "546563ccbc766ed8015a980d163e85af52af54f2eb193e1bb2e7471f04970d58",
+      "symbol_inventory": {
+        "dynsym_entries": 2933,
+        "complete_for_section": true
+      },
+      "selected_disassembly_functions": [],
+      "explicit_tool_CFG_exports": [],
+      "bounded_synthetic_semantic_controls": [],
+      "fully_semantically_validated_functions": 0,
+      "limit": "Symbol entries, selected disassembly, tool CFG and bounded semantic models have different denominators; no whole-library percentage."
+    },
+    {
+      "library": "libffmpeg_mediametadataretriever_jni.so",
+      "sha256": "dfd412e3103b203ed96adbbf30e2c70053afdeaf172c1a5cc9a8b849ff9ee471",
+      "symbol_inventory": {
+        "dynsym_entries": 171,
+        "complete_for_section": true
+      },
+      "selected_disassembly_functions": [
+        "0x669c",
+        "0x7428",
+        "0x748c",
+        "0x7504",
+        "0x766c",
+        "0x76a8",
+        "0x7b98",
+        "0x7d40",
+        "0x7e2c",
+        "0x7fd4",
+        "0x818c",
+        "0x828c",
+        "0x83a8",
+        "0x85c0",
+        "0x8740",
+        "0x87bc",
+        "0x884c",
+        "0x8878",
+        "0x8904"
+      ],
+      "explicit_tool_CFG_exports": [],
+      "bounded_synthetic_semantic_controls": [],
+      "fully_semantically_validated_functions": 0,
+      "limit": "Symbol entries, selected disassembly, tool CFG and bounded semantic models have different denominators; no whole-library percentage."
+    },
+    {
+      "library": "libheif.so",
+      "sha256": "e229d1a052a48ceb6defe47570ee6a448bf3c461205132580e4a52c961df8e83",
+      "symbol_inventory": {
+        "dynsym_entries": 414,
+        "complete_for_section": true
+      },
+      "selected_disassembly_functions": [],
+      "explicit_tool_CFG_exports": [],
+      "bounded_synthetic_semantic_controls": [],
+      "fully_semantically_validated_functions": 0,
+      "limit": "Symbol entries, selected disassembly, tool CFG and bounded semantic models have different denominators; no whole-library percentage."
+    },
+    {
+      "library": "libllc.so",
+      "sha256": "7433d705215bb92e7a87b9005277127e5851c7a4638ca8f6a3db17d2a00927df",
+      "symbol_inventory": {
+        "dynsym_entries": 163,
+        "complete_for_section": true
+      },
+      "selected_disassembly_functions": [
+        "0x11560",
+        "0x11700",
+        "0x11cd0",
+        "0x11e14",
+        "0x122ac",
+        "0x1239c",
+        "0x12474",
+        "0x127ec",
+        "0x12af8",
+        "0x13504",
+        "0x13f58",
+        "0x15194",
+        "0x16024",
+        "0x160c8",
+        "0x16170",
+        "0x16214",
+        "0x1630c",
+        "0x16784",
+        "0x16828",
+        "0x168cc",
+        "0x16970",
+        "0x16b5c",
+        "0x16ce4",
+        "0x16d48",
+        "0x16e18",
+        "0x16f70",
+        "0x1700c",
+        "0x17388",
+        "0x17900",
+        "0x17d50",
+        "0x17fb0"
+      ],
+      "explicit_tool_CFG_exports": [],
+      "bounded_synthetic_semantic_controls": [],
+      "fully_semantically_validated_functions": 0,
+      "limit": "Symbol entries, selected disassembly, tool CFG and bounded semantic models have different denominators; no whole-library percentage."
+    },
+    {
+      "library": "libonnxruntime.so",
+      "sha256": "3fc3e79539f06f67360a810e60eb5c513db5febc16f7bc71e5d9e8ce39e3d775",
+      "symbol_inventory": {
+        "dynsym_entries": 211,
+        "complete_for_section": true
+      },
+      "selected_disassembly_functions": [],
+      "explicit_tool_CFG_exports": [],
+      "bounded_synthetic_semantic_controls": [],
+      "fully_semantically_validated_functions": 0,
+      "limit": "Symbol entries, selected disassembly, tool CFG and bounded semantic models have different denominators; no whole-library percentage."
+    },
+    {
+      "library": "libonnxruntime4j_jni.so",
+      "sha256": "adcaf5e11ff65ad7b54725b2869118568b14ce2f3596d1b6f082ed0c774f2539",
+      "symbol_inventory": {
+        "dynsym_entries": 198,
+        "complete_for_section": true
+      },
+      "selected_disassembly_functions": [
+        "0x7f20"
+      ],
+      "explicit_tool_CFG_exports": [],
+      "bounded_synthetic_semantic_controls": [],
+      "fully_semantically_validated_functions": 0,
+      "limit": "Symbol entries, selected disassembly, tool CFG and bounded semantic models have different denominators; no whole-library percentage."
+    },
+    {
+      "library": "libssl.so",
+      "sha256": "f8be5421e9186804504bd4f74e76fe23b71af401d311b559479500f227fd24ec",
+      "symbol_inventory": {
+        "dynsym_entries": 953,
+        "complete_for_section": true
+      },
+      "selected_disassembly_functions": [],
+      "explicit_tool_CFG_exports": [],
+      "bounded_synthetic_semantic_controls": [],
+      "fully_semantically_validated_functions": 0,
+      "limit": "Symbol entries, selected disassembly, tool CFG and bounded semantic models have different denominators; no whole-library percentage."
+    },
+    {
+      "library": "libswscale.so",
+      "sha256": "f381b19a9947ac25acb95e91c539ff31c634fca2ca70939b4bb8afb36c85b581",
+      "symbol_inventory": {
+        "dynsym_entries": 76,
+        "complete_for_section": true
+      },
+      "selected_disassembly_functions": [],
+      "explicit_tool_CFG_exports": [],
+      "bounded_synthetic_semantic_controls": [],
+      "fully_semantically_validated_functions": 0,
+      "limit": "Symbol entries, selected disassembly, tool CFG and bounded semantic models have different denominators; no whole-library percentage."
+    },
+    {
+      "library": "libtechorfilter.so",
+      "sha256": "03e1c4e11e86012e03faf025fd566be79df3fc75ee28d38433d676a959b3d25f",
+      "symbol_inventory": {
+        "dynsym_entries": 12086,
+        "complete_for_section": true
+      },
+      "selected_disassembly_functions": [],
+      "explicit_tool_CFG_exports": [],
+      "bounded_synthetic_semantic_controls": [],
+      "fully_semantically_validated_functions": 0,
+      "limit": "Symbol entries, selected disassembly, tool CFG and bounded semantic models have different denominators; no whole-library percentage."
+    },
+    {
+      "library": "libyuv-decoder.so",
+      "sha256": "ed3709f2b4b425746befbc6c6aab2235446ecbb37a33647b030828d8c6688dcf",
+      "symbol_inventory": {
+        "dynsym_entries": 11,
+        "complete_for_section": true
+      },
+      "selected_disassembly_functions": [],
+      "explicit_tool_CFG_exports": [],
+      "bounded_synthetic_semantic_controls": [],
+      "fully_semantically_validated_functions": 0,
+      "limit": "Symbol entries, selected disassembly, tool CFG and bounded semantic models have different denominators; no whole-library percentage."
+    },
+    {
+      "library": "libyuv.so",
+      "sha256": "987926e77bddb9880e16dfb11201d6fb0429c4ff462a74e0bd0965b3de4d85c3",
+      "symbol_inventory": {
+        "dynsym_entries": 769,
+        "complete_for_section": true
+      },
+      "selected_disassembly_functions": [],
+      "explicit_tool_CFG_exports": [],
+      "bounded_synthetic_semantic_controls": [],
+      "fully_semantically_validated_functions": 0,
+      "limit": "Symbol entries, selected disassembly, tool CFG and bounded semantic models have different denominators; no whole-library percentage."
+    },
+    {
+      "library": "libyuv_android.so",
+      "sha256": "dab061cb65b5b86318c5a01b2c47ac6da7da064421a5c9ef71b71123b0df5809",
+      "symbol_inventory": {
+        "dynsym_entries": 552,
+        "complete_for_section": true
+      },
+      "selected_disassembly_functions": [
+        "0x6d1d0"
+      ],
+      "explicit_tool_CFG_exports": [],
+      "bounded_synthetic_semantic_controls": [],
+      "fully_semantically_validated_functions": 0,
+      "limit": "Symbol entries, selected disassembly, tool CFG and bounded semantic models have different denominators; no whole-library percentage."
+    }
+  ],
+  "unique_selected_functions": 65,
+  "new_CFG_functions": 13,
+  "full_semantics_claimed": false
+}

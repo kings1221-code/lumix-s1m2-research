@@ -1,0 +1,4020 @@
+{
+  "libraries": [
+    {
+      "library": "libavformat.so",
+      "size": 1461856,
+      "sha256": "4d364b5e2855c8e828eb02474c3cec47b8801f88a59c8625dc64a260604eaa79",
+      "functions": [
+        {
+          "elf_va": "0x1354fc",
+          "name": "FUN_002354fc",
+          "instruction_rows_checked": 150,
+          "concatenated_instruction_bytes_sha256": "7e243c7a29c7c683cbf5d49233e62ba889b827595b2b961a5bf6eeb1eb638ca6",
+          "tool_CFG_blocks": [
+            {
+              "start": "002354fc",
+              "edges": [
+                {
+                  "destination": "002351cc",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "00235718",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "00235520",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "00235520",
+              "edges": [
+                {
+                  "destination": "00235530",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "00235528",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "00235528",
+              "edges": [
+                {
+                  "destination": "002491b0",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "00235534",
+                  "type": "UNCONDITIONAL_JUMP"
+                }
+              ]
+            },
+            {
+              "start": "00235530",
+              "edges": [
+                {
+                  "destination": "002491c0",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "00235534",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "00235534",
+              "edges": [
+                {
+                  "destination": "002491d0",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "00235674",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "00235540",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "00235540",
+              "edges": [
+                {
+                  "destination": "002491e0",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "00235578",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "00235550",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "00235550",
+              "edges": [
+                {
+                  "destination": "002491f0",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "00235578",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "00235560",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "00235560",
+              "edges": [
+                {
+                  "destination": "00249200",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "00235ab4",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "00235abc",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "00235578",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "00235578",
+              "edges": [
+                {
+                  "destination": "0023558c",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "00235580",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "00235580",
+              "edges": [
+                {
+                  "destination": "00249210",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "00235690",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "0023558c",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "0023558c",
+              "edges": [
+                {
+                  "destination": "002355a4",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "00235594",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "00235594",
+              "edges": [
+                {
+                  "destination": "00249220",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "002356ac",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "002355a4",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "002355a4",
+              "edges": [
+                {
+                  "destination": "002355bc",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "002355ac",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "002355ac",
+              "edges": [
+                {
+                  "destination": "00249230",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "002355bc",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "002355bc",
+              "edges": [
+                {
+                  "destination": "00249240",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "00235674",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "002355cc",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "002355cc",
+              "edges": [
+                {
+                  "destination": "00249250",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "00249260",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "00249270",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "00249280",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "00249290",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "002492a0",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "002492b0",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "002492c0",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "002492d0",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "002492e0",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "002356d8",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "00235668",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "00235668",
+              "edges": [
+                {
+                  "destination": "002492f0",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "002356e8",
+                  "type": "UNCONDITIONAL_JUMP"
+                }
+              ]
+            },
+            {
+              "start": "00235674",
+              "edges": [
+                {
+                  "destination": "00249200",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "00235ab4",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "00235abc",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "00235708",
+                  "type": "UNCONDITIONAL_JUMP"
+                }
+              ]
+            },
+            {
+              "start": "00235690",
+              "edges": [
+                {
+                  "destination": "00249200",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "00235ab4",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "002356c4",
+                  "type": "UNCONDITIONAL_JUMP"
+                }
+              ]
+            },
+            {
+              "start": "002356ac",
+              "edges": [
+                {
+                  "destination": "00249200",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "00235ab4",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "002356c4",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "002356c4",
+              "edges": [
+                {
+                  "destination": "002479c0",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "00235708",
+                  "type": "UNCONDITIONAL_JUMP"
+                }
+              ]
+            },
+            {
+              "start": "002356d8",
+              "edges": [
+                {
+                  "destination": "00235734",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "002356e0",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "002356e0",
+              "edges": [
+                {
+                  "destination": "00249300",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "002356e8",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "002356e8",
+              "edges": [
+                {
+                  "destination": "002356fc",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "002356f0",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "002356f0",
+              "edges": [
+                {
+                  "destination": "00235710",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "002356f4",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "002356f4",
+              "edges": [
+                {
+                  "destination": "00235724",
+                  "type": "UNCONDITIONAL_JUMP"
+                }
+              ]
+            },
+            {
+              "start": "002356fc",
+              "edges": [
+                {
+                  "destination": "00235af4",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "00235708",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "00235708",
+              "edges": [
+                {
+                  "destination": "0023571c",
+                  "type": "UNCONDITIONAL_JUMP"
+                }
+              ]
+            },
+            {
+              "start": "00235710",
+              "edges": [
+                {
+                  "destination": "002359ac",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "00235718",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "00235718",
+              "edges": [
+                {
+                  "destination": "0023571c",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "0023571c",
+              "edges": [
+                {
+                  "destination": "002357d4",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "00235724",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "00235724",
+              "edges": []
+            },
+            {
+              "start": "00235734",
+              "edges": [
+                {
+                  "destination": "00249310",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "00235668",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "00235750",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "00235750",
+              "edges": [
+                {
+                  "destination": "002356e0",
+                  "type": "UNCONDITIONAL_JUMP"
+                }
+              ]
+            }
+          ],
+          "decompile_completed": true,
+          "generated_C_sha256": "8817866cd22fb7e50b0b6662552314451722dc970dacdbc3feb0cfd7ea968698",
+          "callers": [],
+          "callees": [
+            {
+              "name": "BIO_meth_set_write",
+              "external": false,
+              "thunk": true,
+              "entry": "00249260"
+            },
+            {
+              "name": "av_log",
+              "external": false,
+              "thunk": true,
+              "entry": "002479c0"
+            },
+            {
+              "name": "BIO_meth_set_ctrl",
+              "external": false,
+              "thunk": true,
+              "entry": "00249290"
+            },
+            {
+              "name": "FUN_00235af4",
+              "external": false,
+              "thunk": false,
+              "entry": "00235af4"
+            },
+            {
+              "name": "SSL_set_bio",
+              "external": false,
+              "thunk": true,
+              "entry": "002492e0"
+            },
+            {
+              "name": "BIO_set_data",
+              "external": false,
+              "thunk": true,
+              "entry": "002492d0"
+            },
+            {
+              "name": "SSL_CTX_set_verify",
+              "external": false,
+              "thunk": true,
+              "entry": "00249230"
+            },
+            {
+              "name": "BIO_new",
+              "external": false,
+              "thunk": true,
+              "entry": "002492c0"
+            },
+            {
+              "name": "FUN_00235abc",
+              "external": false,
+              "thunk": false,
+              "entry": "00235abc"
+            },
+            {
+              "name": "BIO_meth_new",
+              "external": false,
+              "thunk": true,
+              "entry": "00249250"
+            },
+            {
+              "name": "BIO_meth_set_create",
+              "external": false,
+              "thunk": true,
+              "entry": "002492a0"
+            },
+            {
+              "name": "SSL_accept",
+              "external": false,
+              "thunk": true,
+              "entry": "002492f0"
+            },
+            {
+              "name": "SSL_CTX_use_PrivateKey_file",
+              "external": false,
+              "thunk": true,
+              "entry": "00249220"
+            },
+            {
+              "name": "SSL_ctrl",
+              "external": false,
+              "thunk": true,
+              "entry": "00249310"
+            },
+            {
+              "name": "FUN_002357d4",
+              "external": false,
+              "thunk": false,
+              "entry": "002357d4"
+            },
+            {
+              "name": "SSL_connect",
+              "external": false,
+              "thunk": true,
+              "entry": "00249300"
+            },
+            {
+              "name": "FUN_002359ac",
+              "external": false,
+              "thunk": false,
+              "entry": "002359ac"
+            },
+            {
+              "name": "SSL_CTX_set_options",
+              "external": false,
+              "thunk": true,
+              "entry": "002491e0"
+            },
+            {
+              "name": "BIO_meth_set_read",
+              "external": false,
+              "thunk": true,
+              "entry": "00249270"
+            },
+            {
+              "name": "FUN_00235ab4",
+              "external": false,
+              "thunk": false,
+              "entry": "00235ab4"
+            },
+            {
+              "name": "SSL_new",
+              "external": false,
+              "thunk": true,
+              "entry": "00249240"
+            },
+            {
+              "name": "BIO_meth_set_destroy",
+              "external": false,
+              "thunk": true,
+              "entry": "002492b0"
+            },
+            {
+              "name": "TLS_server_method",
+              "external": false,
+              "thunk": true,
+              "entry": "002491b0"
+            },
+            {
+              "name": "SSL_CTX_use_certificate_chain_file",
+              "external": false,
+              "thunk": true,
+              "entry": "00249210"
+            },
+            {
+              "name": "SSL_CTX_load_verify_locations",
+              "external": false,
+              "thunk": true,
+              "entry": "002491f0"
+            },
+            {
+              "name": "BIO_meth_set_puts",
+              "external": false,
+              "thunk": true,
+              "entry": "00249280"
+            },
+            {
+              "name": "FUN_002351cc",
+              "external": false,
+              "thunk": false,
+              "entry": "002351cc"
+            },
+            {
+              "name": "TLS_client_method",
+              "external": false,
+              "thunk": true,
+              "entry": "002491c0"
+            },
+            {
+              "name": "ERR_get_error",
+              "external": false,
+              "thunk": true,
+              "entry": "00249200"
+            },
+            {
+              "name": "SSL_CTX_new",
+              "external": false,
+              "thunk": true,
+              "entry": "002491d0"
+            }
+          ],
+          "verified_selected_import_calls": [
+            {
+              "elf_va": "0x135528",
+              "file_offset": 1250600,
+              "raw_hex": "224f0094",
+              "target_PLT_va": "0x1491b0",
+              "symbol": "TLS_server_method",
+              "containing_dynsym_functions": []
+            },
+            {
+              "elf_va": "0x135530",
+              "file_offset": 1250608,
+              "raw_hex": "244f0094",
+              "target_PLT_va": "0x1491c0",
+              "symbol": "TLS_client_method",
+              "containing_dynsym_functions": []
+            },
+            {
+              "elf_va": "0x135534",
+              "file_offset": 1250612,
+              "raw_hex": "274f0094",
+              "target_PLT_va": "0x1491d0",
+              "symbol": "SSL_CTX_new",
+              "containing_dynsym_functions": []
+            },
+            {
+              "elf_va": "0x135544",
+              "file_offset": 1250628,
+              "raw_hex": "274f0094",
+              "target_PLT_va": "0x1491e0",
+              "symbol": "SSL_CTX_set_options",
+              "containing_dynsym_functions": []
+            },
+            {
+              "elf_va": "0x135558",
+              "file_offset": 1250648,
+              "raw_hex": "264f0094",
+              "target_PLT_va": "0x1491f0",
+              "symbol": "SSL_CTX_load_verify_locations",
+              "containing_dynsym_functions": []
+            },
+            {
+              "elf_va": "0x135584",
+              "file_offset": 1250692,
+              "raw_hex": "234f0094",
+              "target_PLT_va": "0x149210",
+              "symbol": "SSL_CTX_use_certificate_chain_file",
+              "containing_dynsym_functions": []
+            },
+            {
+              "elf_va": "0x13559c",
+              "file_offset": 1250716,
+              "raw_hex": "214f0094",
+              "target_PLT_va": "0x149220",
+              "symbol": "SSL_CTX_use_PrivateKey_file",
+              "containing_dynsym_functions": []
+            },
+            {
+              "elf_va": "0x1355b8",
+              "file_offset": 1250744,
+              "raw_hex": "1e4f0094",
+              "target_PLT_va": "0x149230",
+              "symbol": "SSL_CTX_set_verify",
+              "containing_dynsym_functions": []
+            },
+            {
+              "elf_va": "0x1355c0",
+              "file_offset": 1250752,
+              "raw_hex": "204f0094",
+              "target_PLT_va": "0x149240",
+              "symbol": "SSL_new",
+              "containing_dynsym_functions": []
+            },
+            {
+              "elf_va": "0x1355d8",
+              "file_offset": 1250776,
+              "raw_hex": "1e4f0094",
+              "target_PLT_va": "0x149250",
+              "symbol": "BIO_meth_new",
+              "containing_dynsym_functions": []
+            },
+            {
+              "elf_va": "0x1355e8",
+              "file_offset": 1250792,
+              "raw_hex": "1e4f0094",
+              "target_PLT_va": "0x149260",
+              "symbol": "BIO_meth_set_write",
+              "containing_dynsym_functions": []
+            },
+            {
+              "elf_va": "0x1355f8",
+              "file_offset": 1250808,
+              "raw_hex": "1e4f0094",
+              "target_PLT_va": "0x149270",
+              "symbol": "BIO_meth_set_read",
+              "containing_dynsym_functions": []
+            },
+            {
+              "elf_va": "0x135608",
+              "file_offset": 1250824,
+              "raw_hex": "1e4f0094",
+              "target_PLT_va": "0x149280",
+              "symbol": "BIO_meth_set_puts",
+              "containing_dynsym_functions": []
+            },
+            {
+              "elf_va": "0x135618",
+              "file_offset": 1250840,
+              "raw_hex": "1e4f0094",
+              "target_PLT_va": "0x149290",
+              "symbol": "BIO_meth_set_ctrl",
+              "containing_dynsym_functions": []
+            },
+            {
+              "elf_va": "0x135628",
+              "file_offset": 1250856,
+              "raw_hex": "1e4f0094",
+              "target_PLT_va": "0x1492a0",
+              "symbol": "BIO_meth_set_create",
+              "containing_dynsym_functions": []
+            },
+            {
+              "elf_va": "0x135638",
+              "file_offset": 1250872,
+              "raw_hex": "1e4f0094",
+              "target_PLT_va": "0x1492b0",
+              "symbol": "BIO_meth_set_destroy",
+              "containing_dynsym_functions": []
+            },
+            {
+              "elf_va": "0x135640",
+              "file_offset": 1250880,
+              "raw_hex": "204f0094",
+              "target_PLT_va": "0x1492c0",
+              "symbol": "BIO_new",
+              "containing_dynsym_functions": []
+            },
+            {
+              "elf_va": "0x13564c",
+              "file_offset": 1250892,
+              "raw_hex": "214f0094",
+              "target_PLT_va": "0x1492d0",
+              "symbol": "BIO_set_data",
+              "containing_dynsym_functions": []
+            },
+            {
+              "elf_va": "0x13565c",
+              "file_offset": 1250908,
+              "raw_hex": "214f0094",
+              "target_PLT_va": "0x1492e0",
+              "symbol": "SSL_set_bio",
+              "containing_dynsym_functions": []
+            },
+            {
+              "elf_va": "0x13566c",
+              "file_offset": 1250924,
+              "raw_hex": "214f0094",
+              "target_PLT_va": "0x1492f0",
+              "symbol": "SSL_accept",
+              "containing_dynsym_functions": []
+            },
+            {
+              "elf_va": "0x1356e4",
+              "file_offset": 1251044,
+              "raw_hex": "074f0094",
+              "target_PLT_va": "0x149300",
+              "symbol": "SSL_connect",
+              "containing_dynsym_functions": []
+            },
+            {
+              "elf_va": "0x135744",
+              "file_offset": 1251140,
+              "raw_hex": "f34e0094",
+              "target_PLT_va": "0x149310",
+              "symbol": "SSL_ctrl",
+              "containing_dynsym_functions": []
+            }
+          ]
+        },
+        {
+          "elf_va": "0x135754",
+          "name": "FUN_00235754",
+          "instruction_rows_checked": 16,
+          "concatenated_instruction_bytes_sha256": "63025905fd042fd5a0f8bfba9efc3c2c3c06d11e354109f6c7cc9ccc5274b85b",
+          "tool_CFG_blocks": [
+            {
+              "start": "00235754",
+              "edges": [
+                {
+                  "destination": "00235a84",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "00249320",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "00235778",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "0023576c",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "0023576c",
+              "edges": []
+            },
+            {
+              "start": "00235778",
+              "edges": [
+                {
+                  "destination": "00235788",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "0023577c",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "0023577c",
+              "edges": [
+                {
+                  "destination": "002359ac",
+                  "type": "UNCONDITIONAL_CALL"
+                }
+              ]
+            },
+            {
+              "start": "00235788",
+              "edges": [
+                {
+                  "destination": "0023576c",
+                  "type": "UNCONDITIONAL_JUMP"
+                }
+              ]
+            }
+          ],
+          "decompile_completed": true,
+          "generated_C_sha256": "9afe217b0d58b9354a51c950f48b1194fc37f1eddfd5e07f53991a22242411db",
+          "callers": [],
+          "callees": [
+            {
+              "name": "FUN_002359ac",
+              "external": false,
+              "thunk": false,
+              "entry": "002359ac"
+            },
+            {
+              "name": "SSL_read",
+              "external": false,
+              "thunk": true,
+              "entry": "00249320"
+            },
+            {
+              "name": "FUN_00235a84",
+              "external": false,
+              "thunk": false,
+              "entry": "00235a84"
+            }
+          ],
+          "verified_selected_import_calls": [
+            {
+              "elf_va": "0x13575c",
+              "file_offset": 1251164,
+              "raw_hex": "f14e0094",
+              "target_PLT_va": "0x149320",
+              "symbol": "SSL_read",
+              "containing_dynsym_functions": []
+            }
+          ]
+        },
+        {
+          "elf_va": "0x135794",
+          "name": "FUN_00235794",
+          "instruction_rows_checked": 16,
+          "concatenated_instruction_bytes_sha256": "afe3b054e29a87fa78542ebb1e294db86b902667f8896448e9f43c856c8b9e1f",
+          "tool_CFG_blocks": [
+            {
+              "start": "00235794",
+              "edges": [
+                {
+                  "destination": "00235a84",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "00249330",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "002357b8",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "002357ac",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "002357ac",
+              "edges": []
+            },
+            {
+              "start": "002357b8",
+              "edges": [
+                {
+                  "destination": "002357c8",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "002357bc",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "002357bc",
+              "edges": [
+                {
+                  "destination": "002359ac",
+                  "type": "UNCONDITIONAL_CALL"
+                }
+              ]
+            },
+            {
+              "start": "002357c8",
+              "edges": [
+                {
+                  "destination": "002357ac",
+                  "type": "UNCONDITIONAL_JUMP"
+                }
+              ]
+            }
+          ],
+          "decompile_completed": true,
+          "generated_C_sha256": "40248c1e75d98ac9e04a6c12dd82b9b9037a1493a156a1e10fdd1ca415bbbb50",
+          "callers": [],
+          "callees": [
+            {
+              "name": "SSL_write",
+              "external": false,
+              "thunk": true,
+              "entry": "00249330"
+            },
+            {
+              "name": "FUN_002359ac",
+              "external": false,
+              "thunk": false,
+              "entry": "002359ac"
+            },
+            {
+              "name": "FUN_00235a84",
+              "external": false,
+              "thunk": false,
+              "entry": "00235a84"
+            }
+          ],
+          "verified_selected_import_calls": [
+            {
+              "elf_va": "0x13579c",
+              "file_offset": 1251228,
+              "raw_hex": "e54e0094",
+              "target_PLT_va": "0x149330",
+              "symbol": "SSL_write",
+              "containing_dynsym_functions": []
+            }
+          ]
+        },
+        {
+          "elf_va": "0xb8aa4",
+          "name": "FUN_001b8aa4",
+          "instruction_rows_checked": 173,
+          "concatenated_instruction_bytes_sha256": "81b07d74d253634050564003d6e091e97320512215ebeec15ca4b73864232c5a",
+          "tool_CFG_blocks": [
+            {
+              "start": "001b8aa4",
+              "edges": [
+                {
+                  "destination": "001b8b98",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "001b8ad4",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "001b8ad4",
+              "edges": [
+                {
+                  "destination": "001b8afc",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "001b8ae8",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "001b8ae8",
+              "edges": [
+                {
+                  "destination": "001b8afc",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "001b8af0",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "001b8af0",
+              "edges": [
+                {
+                  "destination": "001b7930",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "001b8d18",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "001b8afc",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "001b8afc",
+              "edges": [
+                {
+                  "destination": "001b8bc4",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "001b8b04",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "001b8b04",
+              "edges": [
+                {
+                  "destination": "001b8b24",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "001b8b10",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "001b8b10",
+              "edges": [
+                {
+                  "destination": "002479e0",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "001b8d28",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "001b8b24",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "001b8b24",
+              "edges": [
+                {
+                  "destination": "001b8b50",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "001b8b2c",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "001b8b2c",
+              "edges": [
+                {
+                  "destination": "001b8da4",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "001b8ba0",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "001b8b44",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "001b8b44",
+              "edges": [
+                {
+                  "destination": "001b8b50",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "001b8b50",
+              "edges": [
+                {
+                  "destination": "00248960",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "001b8b8c",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "001b8b70",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "001b8b70",
+              "edges": [
+                {
+                  "destination": "002479c0",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "001b8b8c",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "001b8b8c",
+              "edges": [
+                {
+                  "destination": "001b8ba0",
+                  "type": "UNCONDITIONAL_JUMP"
+                }
+              ]
+            },
+            {
+              "start": "001b8b98",
+              "edges": [
+                {
+                  "destination": "001b8ba0",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "001b8ba0",
+              "edges": []
+            },
+            {
+              "start": "001b8bc4",
+              "edges": [
+                {
+                  "destination": "001b8da4",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "001b8ba0",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "001b8be8",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "001b8be8",
+              "edges": [
+                {
+                  "destination": "001b8c10",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "001b8bf0",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "001b8bf0",
+              "edges": [
+                {
+                  "destination": "001b8d30",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "001b8c00",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "001b8c00",
+              "edges": [
+                {
+                  "destination": "001b8ba0",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "001b8c08",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "001b8c08",
+              "edges": [
+                {
+                  "destination": "001b8c24",
+                  "type": "UNCONDITIONAL_JUMP"
+                }
+              ]
+            },
+            {
+              "start": "001b8c10",
+              "edges": [
+                {
+                  "destination": "001b8d30",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "001b8c20",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "001b8c20",
+              "edges": [
+                {
+                  "destination": "001b8c24",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "001b8c24",
+              "edges": [
+                {
+                  "destination": "001b8c40",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "001b8c2c",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "001b8c2c",
+              "edges": [
+                {
+                  "destination": "001b8c40",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "001b8c34",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "001b8c34",
+              "edges": [
+                {
+                  "destination": "001b8c50",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "001b8c40",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "001b8c40",
+              "edges": [
+                {
+                  "destination": "001b8ba0",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "001b8c48",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "001b8c48",
+              "edges": [
+                {
+                  "destination": "001b8ba0",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "001b8c50",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "001b8c50",
+              "edges": [
+                {
+                  "destination": "001b8d20",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "001b8c5c",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "001b8c5c",
+              "edges": [
+                {
+                  "destination": "001b8c6c",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "001b8c64",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "001b8c64",
+              "edges": [
+                {
+                  "destination": "001b8d20",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "001b8c6c",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "001b8c6c",
+              "edges": [
+                {
+                  "destination": "001b8d20",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "001b8c78",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "001b8c78",
+              "edges": [
+                {
+                  "destination": "001b9224",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "002479c0",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "001faea8",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "001b8d18",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "001b8cc8",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "001b8cc8",
+              "edges": [
+                {
+                  "destination": "001b8fdc",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "001b8ce8",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "001b8ce0",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "001b8ce0",
+              "edges": [
+                {
+                  "destination": "001b8d3c",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "001b8ce8",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "001b8ce8",
+              "edges": [
+                {
+                  "destination": "001b8da4",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "001b8be8",
+                  "type": "CONDITIONAL_JUMP"
+                },
+                {
+                  "destination": "001b8d14",
+                  "type": "FALL_THROUGH"
+                }
+              ]
+            },
+            {
+              "start": "001b8d14",
+              "edges": [
+                {
+                  "destination": "001b8ba0",
+                  "type": "UNCONDITIONAL_JUMP"
+                }
+              ]
+            },
+            {
+              "start": "001b8d18",
+              "edges": [
+                {
+                  "destination": "001b8ba0",
+                  "type": "UNCONDITIONAL_JUMP"
+                }
+              ]
+            },
+            {
+              "start": "001b8d20",
+              "edges": [
+                {
+                  "destination": "001b8ba0",
+                  "type": "UNCONDITIONAL_JUMP"
+                }
+              ]
+            },
+            {
+              "start": "001b8d28",
+              "edges": [
+                {
+                  "destination": "001b8ba0",
+                  "type": "UNCONDITIONAL_JUMP"
+                }
+              ]
+            },
+            {
+              "start": "001b8d30",
+              "edges": [
+                {
+                  "destination": "001b8ba0",
+                  "type": "UNCONDITIONAL_JUMP"
+                }
+              ]
+            },
+            {
+              "start": "001b8d3c",
+              "edges": [
+                {
+                  "destination": "002479c0",
+                  "type": "UNCONDITIONAL_CALL"
+                },
+                {
+                  "destination": "001b8ba0",
+                  "type": "UNCONDITIONAL_JUMP"
+                }
+              ]
+            }
+          ],
+          "decompile_completed": true,
+          "generated_C_sha256": "f9775ba59e3bb87d00a31d19acc038eb95a275af438e1f5b476e74136dac9805",
+          "callers": [
+            {
+              "entry": "001b8d58",
+              "name": "FUN_001b8d58"
+            },
+            {
+              "entry": "001b75c4",
+              "name": "FUN_001b75c4"
+            }
+          ],
+          "callees": [
+            {
+              "name": "av_log",
+              "external": false,
+              "thunk": true,
+              "entry": "002479c0"
+            },
+            {
+              "name": "FUN_001b8da4",
+              "external": false,
+              "thunk": false,
+              "entry": "001b8da4"
+            },
+            {
+              "name": "FUN_001faea8",
+              "external": false,
+              "thunk": false,
+              "entry": "001faea8"
+            },
+            {
+              "name": "FUN_001b9224",
+              "external": false,
+              "thunk": false,
+              "entry": "001b9224"
+            },
+            {
+              "name": "FUN_001b7930",
+              "external": false,
+              "thunk": false,
+              "entry": "001b7930"
+            },
+            {
+              "name": "av_malloc",
+              "external": false,
+              "thunk": true,
+              "entry": "002479e0"
+            },
+            {
+              "name": "FUN_001b8fdc",
+              "external": false,
+              "thunk": false,
+              "entry": "001b8fdc"
+            },
+            {
+              "name": "inflate",
+              "external": false,
+              "thunk": true,
+              "entry": "00248960"
+            }
+          ],
+          "verified_selected_import_calls": [
+            {
+              "elf_va": "0xb8b64",
+              "file_offset": 740196,
+              "raw_hex": "7f3f0294",
+              "target_PLT_va": "0x148960",
+              "symbol": "inflate",
+              "containing_dynsym_functions": []
+            }
+          ]
+        }
+      ],
+      "missing_function_targets": []
+    },
+    {
+      "library": "libcube_merge.so",
+      "size": 11976,
+      "sha256": "91c35f56413f0e6fd8108000104a4270b6beee64121bfd954ada56e510c03d2f",
+      "functions": [
+        {
+          "elf_va": "0x51d0",
+          "name": "cube_merge_files",
+          "instruction_rows_checked": 67,
+          "concatenated_instruction_bytes_sha256": "fdb90992605d3ffa82f7dd466c20697875e138718a001247d3633b48c857421e",
+          "tool_CFG_blocks": [
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "00104dac"
+                },
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "00105238"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "00105228"
+                }
+              ],
+              "start": "001051d0"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "0010522c"
+                }
+              ],
+              "start": "00105228"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105290"
+                }
+              ],
+              "start": "0010522c"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "00104dac"
+                },
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "00105258"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "00105248"
+                }
+              ],
+              "start": "00105238"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "0010524c"
+                }
+              ],
+              "start": "00105248"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105290"
+                }
+              ],
+              "start": "0010524c"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "00104e60"
+                },
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "00104fdc"
+                },
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "0010528c"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "0010527c"
+                }
+              ],
+              "start": "00105258"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105280"
+                }
+              ],
+              "start": "0010527c"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "0010528c"
+                }
+              ],
+              "start": "00105280"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105290"
+                }
+              ],
+              "start": "0010528c"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "00105198"
+                },
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "00105198"
+                },
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "00105198"
+                },
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "001052d8"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "001052c4"
+                }
+              ],
+              "start": "00105290"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "001052c8"
+                }
+              ],
+              "start": "001052c4"
+            },
+            {
+              "edges": [],
+              "start": "001052c8"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "001063e0"
+                }
+              ],
+              "start": "001052d8"
+            }
+          ],
+          "decompile_completed": true,
+          "generated_C_sha256": "f9a92fadaf4cb22834d7fe23f652cb38d8af34377e87d20d0883580ce40641d2",
+          "callers": [],
+          "callees": [
+            {
+              "thunk": false,
+              "entry": "00104e60",
+              "name": "FUN_00104e60",
+              "external": false
+            },
+            {
+              "thunk": true,
+              "entry": "001063e0",
+              "name": "__stack_chk_fail",
+              "external": false
+            },
+            {
+              "thunk": false,
+              "entry": "00104dac",
+              "name": "FUN_00104dac",
+              "external": false
+            },
+            {
+              "thunk": false,
+              "entry": "00105198",
+              "name": "FUN_00105198",
+              "external": false
+            },
+            {
+              "thunk": false,
+              "entry": "00104fdc",
+              "name": "FUN_00104fdc",
+              "external": false
+            }
+          ],
+          "verified_selected_import_calls": []
+        },
+        {
+          "elf_va": "0x56b0",
+          "name": "FUN_001056b0",
+          "instruction_rows_checked": 25,
+          "concatenated_instruction_bytes_sha256": "8c5b188d65219020390135bc7d7f14fbe2fa110cec19f795ab6ffd094a96ebb5",
+          "tool_CFG_blocks": [
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "001064a0"
+                }
+              ],
+              "start": "001056b0"
+            }
+          ],
+          "decompile_completed": true,
+          "generated_C_sha256": "39fd1030c2fba215742398fc1593bc873e10e982b745c8722448ae0f26ceb3fb",
+          "callers": [
+            {
+              "name": "FUN_00104e60",
+              "entry": "00104e60"
+            },
+            {
+              "name": "FUN_001052dc",
+              "entry": "001052dc"
+            }
+          ],
+          "callees": [
+            {
+              "thunk": true,
+              "entry": "001064a0",
+              "name": "calloc",
+              "external": false
+            }
+          ],
+          "verified_selected_import_calls": []
+        },
+        {
+          "elf_va": "0x5714",
+          "name": "FUN_00105714",
+          "instruction_rows_checked": 795,
+          "concatenated_instruction_bytes_sha256": "8d90b6bf40d0f0f939512bc2f78d128cec91a838973ae40a1a010616ca76e169",
+          "tool_CFG_blocks": [
+            {
+              "edges": [
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "001057a4"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "00105794"
+                }
+              ],
+              "start": "00105714"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105798"
+                }
+              ],
+              "start": "00105794"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "001057fc"
+                }
+              ],
+              "start": "00105798"
+            },
+            {
+              "edges": [
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "001057d4"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "001057c4"
+                }
+              ],
+              "start": "001057a4"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "001057c8"
+                }
+              ],
+              "start": "001057c4"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "001057f0"
+                }
+              ],
+              "start": "001057c8"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "001057f0"
+                }
+              ],
+              "start": "001057d4"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "001057fc"
+                }
+              ],
+              "start": "001057f0"
+            },
+            {
+              "edges": [
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "00105830"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "00105820"
+                }
+              ],
+              "start": "001057fc"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105824"
+                }
+              ],
+              "start": "00105820"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105888"
+                }
+              ],
+              "start": "00105824"
+            },
+            {
+              "edges": [
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "00105860"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "00105850"
+                }
+              ],
+              "start": "00105830"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105854"
+                }
+              ],
+              "start": "00105850"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "0010587c"
+                }
+              ],
+              "start": "00105854"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "0010587c"
+                }
+              ],
+              "start": "00105860"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105888"
+                }
+              ],
+              "start": "0010587c"
+            },
+            {
+              "edges": [
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "001058bc"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "001058ac"
+                }
+              ],
+              "start": "00105888"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "001058b0"
+                }
+              ],
+              "start": "001058ac"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105914"
+                }
+              ],
+              "start": "001058b0"
+            },
+            {
+              "edges": [
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "001058ec"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "001058dc"
+                }
+              ],
+              "start": "001058bc"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "001058e0"
+                }
+              ],
+              "start": "001058dc"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105908"
+                }
+              ],
+              "start": "001058e0"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105908"
+                }
+              ],
+              "start": "001058ec"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105914"
+                }
+              ],
+              "start": "00105908"
+            },
+            {
+              "edges": [
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "00105ec8"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "00105a38"
+                }
+              ],
+              "start": "00105914"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105a3c"
+                }
+              ],
+              "start": "00105a38"
+            },
+            {
+              "edges": [
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "00105bc4"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "00105a4c"
+                }
+              ],
+              "start": "00105a3c"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105a50"
+                }
+              ],
+              "start": "00105a4c"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105ec4"
+                }
+              ],
+              "start": "00105a50"
+            },
+            {
+              "edges": [
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "00105d4c"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "00105bd4"
+                }
+              ],
+              "start": "00105bc4"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105bd8"
+                }
+              ],
+              "start": "00105bd4"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105ec0"
+                }
+              ],
+              "start": "00105bd8"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105ec0"
+                }
+              ],
+              "start": "00105d4c"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105ec4"
+                }
+              ],
+              "start": "00105ec0"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00106354"
+                }
+              ],
+              "start": "00105ec4"
+            },
+            {
+              "edges": [
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "00106050"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "00105ed8"
+                }
+              ],
+              "start": "00105ec8"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105edc"
+                }
+              ],
+              "start": "00105ed8"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00106350"
+                }
+              ],
+              "start": "00105edc"
+            },
+            {
+              "edges": [
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "001061d8"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "00106060"
+                }
+              ],
+              "start": "00106050"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00106064"
+                }
+              ],
+              "start": "00106060"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "0010634c"
+                }
+              ],
+              "start": "00106064"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "0010634c"
+                }
+              ],
+              "start": "001061d8"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00106350"
+                }
+              ],
+              "start": "0010634c"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00106354"
+                }
+              ],
+              "start": "00106350"
+            },
+            {
+              "edges": [
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "0010637c"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "00106368"
+                }
+              ],
+              "start": "00106354"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "0010636c"
+                }
+              ],
+              "start": "00106368"
+            },
+            {
+              "edges": [],
+              "start": "0010636c"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "001063e0"
+                }
+              ],
+              "start": "0010637c"
+            }
+          ],
+          "decompile_completed": true,
+          "generated_C_sha256": "4700246cac94daf3e72763551d509fc24ccbbfb8674049ac7163da57fb976654",
+          "callers": [
+            {
+              "name": "FUN_00104e60",
+              "entry": "00104e60"
+            }
+          ],
+          "callees": [
+            {
+              "thunk": true,
+              "entry": "001063e0",
+              "name": "__stack_chk_fail",
+              "external": false
+            }
+          ],
+          "verified_selected_import_calls": []
+        },
+        {
+          "elf_va": "0x52dc",
+          "name": "FUN_001052dc",
+          "instruction_rows_checked": 123,
+          "concatenated_instruction_bytes_sha256": "b2287a2b6dedc1fa05056a21cde399736d265725930f7e93d2c55d2b821e761e",
+          "tool_CFG_blocks": [
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105314"
+                }
+              ],
+              "start": "001052dc"
+            },
+            {
+              "edges": [
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "0010536c"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "00105348"
+                }
+              ],
+              "start": "00105314"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "0010534c"
+                }
+              ],
+              "start": "00105348"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105350"
+                }
+              ],
+              "start": "0010534c"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "00106440"
+                },
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105384"
+                }
+              ],
+              "start": "00105350"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "00106450"
+                },
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105384"
+                }
+              ],
+              "start": "0010536c"
+            },
+            {
+              "edges": [
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "0010549c"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "0010538c"
+                }
+              ],
+              "start": "00105384"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105390"
+                }
+              ],
+              "start": "0010538c"
+            },
+            {
+              "edges": [
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "001053ac"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "0010539c"
+                }
+              ],
+              "start": "00105390"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "001053a0"
+                }
+              ],
+              "start": "0010539c"
+            },
+            {
+              "edges": [
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "001053b0"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "001053a8"
+                }
+              ],
+              "start": "001053a0"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "001053ac"
+                }
+              ],
+              "start": "001053a8"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105458"
+                }
+              ],
+              "start": "001053ac"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "00106460"
+                },
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "00105454"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "001053d4"
+                }
+              ],
+              "start": "001053b0"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "001053d8"
+                }
+              ],
+              "start": "001053d4"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "00106470"
+                },
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "0010544c"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "001053f4"
+                }
+              ],
+              "start": "001053d8"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "001053f8"
+                }
+              ],
+              "start": "001053f4"
+            },
+            {
+              "edges": [
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "0010544c"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "00105400"
+                }
+              ],
+              "start": "001053f8"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105404"
+                }
+              ],
+              "start": "00105400"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "00106460"
+                },
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "001056b0"
+                },
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "00105448"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "00105434"
+                }
+              ],
+              "start": "00105404"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105438"
+                }
+              ],
+              "start": "00105434"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105448"
+                }
+              ],
+              "start": "00105438"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105450"
+                }
+              ],
+              "start": "00105448"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105450"
+                }
+              ],
+              "start": "0010544c"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105454"
+                }
+              ],
+              "start": "00105450"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105458"
+                }
+              ],
+              "start": "00105454"
+            },
+            {
+              "edges": [
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "0010548c"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "00105464"
+                }
+              ],
+              "start": "00105458"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105468"
+                }
+              ],
+              "start": "00105464"
+            },
+            {
+              "edges": [
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "0010548c"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "00105474"
+                }
+              ],
+              "start": "00105468"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105478"
+                }
+              ],
+              "start": "00105474"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "00106480"
+                },
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "0010549c"
+                }
+              ],
+              "start": "00105478"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "00106490"
+                },
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105314"
+                }
+              ],
+              "start": "0010548c"
+            },
+            {
+              "edges": [
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "001054c4"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "001054b0"
+                }
+              ],
+              "start": "0010549c"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "001054b4"
+                }
+              ],
+              "start": "001054b0"
+            },
+            {
+              "edges": [],
+              "start": "001054b4"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "001063e0"
+                }
+              ],
+              "start": "001054c4"
+            }
+          ],
+          "decompile_completed": true,
+          "generated_C_sha256": "9158755c9d19abfb596a31294820323385890341d097de131a51dbb8c8907ff4",
+          "callers": [
+            {
+              "name": "FUN_00104dac",
+              "entry": "00104dac"
+            }
+          ],
+          "callees": [
+            {
+              "thunk": true,
+              "entry": "00106460",
+              "name": "sscanf",
+              "external": false
+            },
+            {
+              "thunk": true,
+              "entry": "001063e0",
+              "name": "__stack_chk_fail",
+              "external": false
+            },
+            {
+              "thunk": true,
+              "entry": "00106440",
+              "name": "__fgets_chk",
+              "external": false
+            },
+            {
+              "thunk": true,
+              "entry": "00106490",
+              "name": "fgetpos",
+              "external": false
+            },
+            {
+              "thunk": true,
+              "entry": "00106480",
+              "name": "fseek",
+              "external": false
+            },
+            {
+              "thunk": true,
+              "entry": "00106470",
+              "name": "strncmp",
+              "external": false
+            },
+            {
+              "thunk": true,
+              "entry": "00106450",
+              "name": "fgets",
+              "external": false
+            },
+            {
+              "thunk": false,
+              "entry": "001056b0",
+              "name": "FUN_001056b0",
+              "external": false
+            }
+          ],
+          "verified_selected_import_calls": []
+        },
+        {
+          "elf_va": "0x54c8",
+          "name": "FUN_001054c8",
+          "instruction_rows_checked": 122,
+          "concatenated_instruction_bytes_sha256": "48fc5d00fbd74b1b9af0528ebaa9c23afcadead1cc94cb711a7299f909980d00",
+          "tool_CFG_blocks": [
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "0010550c"
+                }
+              ],
+              "start": "001054c8"
+            },
+            {
+              "edges": [
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "00105564"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "00105540"
+                }
+              ],
+              "start": "0010550c"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105544"
+                }
+              ],
+              "start": "00105540"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105548"
+                }
+              ],
+              "start": "00105544"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "00106440"
+                },
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "0010557c"
+                }
+              ],
+              "start": "00105548"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "00106450"
+                },
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "0010557c"
+                }
+              ],
+              "start": "00105564"
+            },
+            {
+              "edges": [
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "0010562c"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "00105584"
+                }
+              ],
+              "start": "0010557c"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105588"
+                }
+              ],
+              "start": "00105584"
+            },
+            {
+              "edges": [
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "001055a4"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "00105594"
+                }
+              ],
+              "start": "00105588"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105598"
+                }
+              ],
+              "start": "00105594"
+            },
+            {
+              "edges": [
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "001055a8"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "001055a0"
+                }
+              ],
+              "start": "00105598"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "001055a4"
+                }
+              ],
+              "start": "001055a0"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105628"
+                }
+              ],
+              "start": "001055a4"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "00106460"
+                },
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "00105608"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "001055f4"
+                }
+              ],
+              "start": "001055a8"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "001055f8"
+                }
+              ],
+              "start": "001055f4"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105624"
+                }
+              ],
+              "start": "001055f8"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "001063d0"
+                },
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105678"
+                }
+              ],
+              "start": "00105608"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105628"
+                }
+              ],
+              "start": "00105624"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "0010550c"
+                }
+              ],
+              "start": "00105628"
+            },
+            {
+              "edges": [
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "0010566c"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "0010563c"
+                }
+              ],
+              "start": "0010562c"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105640"
+                }
+              ],
+              "start": "0010563c"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "001063d0"
+                },
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105678"
+                }
+              ],
+              "start": "00105640"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105678"
+                }
+              ],
+              "start": "0010566c"
+            },
+            {
+              "edges": [
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "001056ac"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "00105694"
+                }
+              ],
+              "start": "00105678"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105698"
+                }
+              ],
+              "start": "00105694"
+            },
+            {
+              "edges": [],
+              "start": "00105698"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "001063e0"
+                }
+              ],
+              "start": "001056ac"
+            }
+          ],
+          "decompile_completed": true,
+          "generated_C_sha256": "078ca6af0fcc4e89b2b84d9511f4e640f53151d39deb76bbd742300f0bb138e7",
+          "callers": [
+            {
+              "name": "FUN_00104dac",
+              "entry": "00104dac"
+            }
+          ],
+          "callees": [
+            {
+              "thunk": true,
+              "entry": "00106460",
+              "name": "sscanf",
+              "external": false
+            },
+            {
+              "thunk": true,
+              "entry": "001063e0",
+              "name": "__stack_chk_fail",
+              "external": false
+            },
+            {
+              "thunk": true,
+              "entry": "00106440",
+              "name": "__fgets_chk",
+              "external": false
+            },
+            {
+              "thunk": true,
+              "entry": "001063d0",
+              "name": "printf",
+              "external": false
+            },
+            {
+              "thunk": true,
+              "entry": "00106450",
+              "name": "fgets",
+              "external": false
+            }
+          ],
+          "verified_selected_import_calls": []
+        },
+        {
+          "elf_va": "0x5198",
+          "name": "FUN_00105198",
+          "instruction_rows_checked": 14,
+          "concatenated_instruction_bytes_sha256": "721026d092f2e141baaf067b4ac80ec7388faaf06602784f039683c80a71b9b8",
+          "tool_CFG_blocks": [
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "00106430"
+                }
+              ],
+              "start": "00105198"
+            }
+          ],
+          "decompile_completed": true,
+          "generated_C_sha256": "a06fb5aa9d0b64019d289cf874b9255589b52d9ba5b72211d4fcac5c5684cb68",
+          "callers": [
+            {
+              "name": "cube_merge_files",
+              "entry": "001051d0"
+            },
+            {
+              "name": "main",
+              "entry": "00104c88"
+            }
+          ],
+          "callees": [
+            {
+              "thunk": true,
+              "entry": "00106430",
+              "name": "free",
+              "external": false
+            }
+          ],
+          "verified_selected_import_calls": []
+        },
+        {
+          "elf_va": "0x4dac",
+          "name": "FUN_00104dac",
+          "instruction_rows_checked": 45,
+          "concatenated_instruction_bytes_sha256": "441d80bd1e6c25a3e143469dc21aa5214017d4ab4e63fd3ac8ff151833e7c224",
+          "tool_CFG_blocks": [
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "001063f0"
+                },
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "00104dfc"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "00104ddc"
+                }
+              ],
+              "start": "00104dac"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00104de0"
+                }
+              ],
+              "start": "00104ddc"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "001063d0"
+                },
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00104e50"
+                }
+              ],
+              "start": "00104de0"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "001052dc"
+                },
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "00104e2c"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "00104e14"
+                }
+              ],
+              "start": "00104dfc"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00104e18"
+                }
+              ],
+              "start": "00104e14"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "00106400"
+                },
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00104e50"
+                }
+              ],
+              "start": "00104e18"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "001054c8"
+                },
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "00106400"
+                },
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00104e50"
+                }
+              ],
+              "start": "00104e2c"
+            },
+            {
+              "edges": [],
+              "start": "00104e50"
+            }
+          ],
+          "decompile_completed": true,
+          "generated_C_sha256": "bfad08a10a60b1e14c04d7bc29d13ae33fe826ef2e4c699549cd9862fe7a1897",
+          "callers": [
+            {
+              "name": "cube_merge_files",
+              "entry": "001051d0"
+            },
+            {
+              "name": "main",
+              "entry": "00104c88"
+            }
+          ],
+          "callees": [
+            {
+              "thunk": true,
+              "entry": "001063d0",
+              "name": "printf",
+              "external": false
+            },
+            {
+              "thunk": true,
+              "entry": "001063f0",
+              "name": "fopen",
+              "external": false
+            },
+            {
+              "thunk": true,
+              "entry": "00106400",
+              "name": "fclose",
+              "external": false
+            },
+            {
+              "thunk": false,
+              "entry": "001052dc",
+              "name": "FUN_001052dc",
+              "external": false
+            },
+            {
+              "thunk": false,
+              "entry": "001054c8",
+              "name": "FUN_001054c8",
+              "external": false
+            }
+          ],
+          "verified_selected_import_calls": []
+        },
+        {
+          "elf_va": "0x4e60",
+          "name": "FUN_00104e60",
+          "instruction_rows_checked": 95,
+          "concatenated_instruction_bytes_sha256": "467282319a17c133eb2246f087a0f86b7a6ae5ac7288f0f36726eec4c4974d68",
+          "tool_CFG_blocks": [
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "001056b0"
+                },
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00104ea4"
+                }
+              ],
+              "start": "00104e60"
+            },
+            {
+              "edges": [
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "00104fb4"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "00104eb8"
+                }
+              ],
+              "start": "00104ea4"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00104ebc"
+                }
+              ],
+              "start": "00104eb8"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00104ec8"
+                }
+              ],
+              "start": "00104ebc"
+            },
+            {
+              "edges": [
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "00104fa0"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "00104edc"
+                }
+              ],
+              "start": "00104ec8"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00104ee0"
+                }
+              ],
+              "start": "00104edc"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00104eec"
+                }
+              ],
+              "start": "00104ee0"
+            },
+            {
+              "edges": [
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "00104f8c"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "00104f00"
+                }
+              ],
+              "start": "00104eec"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00104f04"
+                }
+              ],
+              "start": "00104f00"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "00105714"
+                },
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00104f7c"
+                }
+              ],
+              "start": "00104f04"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00104eec"
+                }
+              ],
+              "start": "00104f7c"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00104f90"
+                }
+              ],
+              "start": "00104f8c"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00104ec8"
+                }
+              ],
+              "start": "00104f90"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00104fa4"
+                }
+              ],
+              "start": "00104fa0"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00104ea4"
+                }
+              ],
+              "start": "00104fa4"
+            },
+            {
+              "edges": [
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "00104fd8"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "00104fc8"
+                }
+              ],
+              "start": "00104fb4"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00104fcc"
+                }
+              ],
+              "start": "00104fc8"
+            },
+            {
+              "edges": [],
+              "start": "00104fcc"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "001063e0"
+                }
+              ],
+              "start": "00104fd8"
+            }
+          ],
+          "decompile_completed": true,
+          "generated_C_sha256": "8b667ef8fa9b8c6eca455f516539a20be4acccfc177f0b87a1d6f16ea1613f35",
+          "callers": [
+            {
+              "name": "cube_merge_files",
+              "entry": "001051d0"
+            },
+            {
+              "name": "main",
+              "entry": "00104c88"
+            }
+          ],
+          "callees": [
+            {
+              "thunk": true,
+              "entry": "001063e0",
+              "name": "__stack_chk_fail",
+              "external": false
+            },
+            {
+              "thunk": false,
+              "entry": "00105714",
+              "name": "FUN_00105714",
+              "external": false
+            },
+            {
+              "thunk": false,
+              "entry": "001056b0",
+              "name": "FUN_001056b0",
+              "external": false
+            }
+          ],
+          "verified_selected_import_calls": []
+        },
+        {
+          "elf_va": "0x4fdc",
+          "name": "FUN_00104fdc",
+          "instruction_rows_checked": 111,
+          "concatenated_instruction_bytes_sha256": "0a7d9582dd293d5208ccccd85d3a4b5c480a4599551a9b03b9d344bdcdfb387a",
+          "tool_CFG_blocks": [
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "001063f0"
+                },
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "0010502c"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "0010500c"
+                }
+              ],
+              "start": "00104fdc"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105010"
+                }
+              ],
+              "start": "0010500c"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "001063d0"
+                },
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105188"
+                }
+              ],
+              "start": "00105010"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "00106410"
+                },
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "001063d0"
+                },
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "0010508c"
+                }
+              ],
+              "start": "0010502c"
+            },
+            {
+              "edges": [
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "00105128"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "0010509c"
+                }
+              ],
+              "start": "0010508c"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "001050a0"
+                }
+              ],
+              "start": "0010509c"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "00106410"
+                },
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "00105114"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "00105100"
+                }
+              ],
+              "start": "001050a0"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105104"
+                }
+              ],
+              "start": "00105100"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105114"
+                }
+              ],
+              "start": "00105104"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105118"
+                }
+              ],
+              "start": "00105114"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "0010508c"
+                }
+              ],
+              "start": "00105118"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "00106400"
+                },
+                {
+                  "type": "CONDITIONAL_JUMP",
+                  "destination": "0010516c"
+                },
+                {
+                  "type": "FALL_THROUGH",
+                  "destination": "00105140"
+                }
+              ],
+              "start": "00105128"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105144"
+                }
+              ],
+              "start": "00105140"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "001063d0"
+                },
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "00106420"
+                },
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105188"
+                }
+              ],
+              "start": "00105144"
+            },
+            {
+              "edges": [
+                {
+                  "type": "UNCONDITIONAL_CALL",
+                  "destination": "001063d0"
+                },
+                {
+                  "type": "UNCONDITIONAL_JUMP",
+                  "destination": "00105188"
+                }
+              ],
+              "start": "0010516c"
+            },
+            {
+              "edges": [],
+              "start": "00105188"
+            }
+          ],
+          "decompile_completed": true,
+          "generated_C_sha256": "ff718e9743b1fc2adf9f988384b4906d8e2dc63fee71b339064c47294d8b5c2a",
+          "callers": [
+            {
+              "name": "main",
+              "entry": "00104c88"
+            },
+            {
+              "name": "cube_merge_files",
+              "entry": "001051d0"
+            }
+          ],
+          "callees": [
+            {
+              "thunk": true,
+              "entry": "001063d0",
+              "name": "printf",
+              "external": false
+            },
+            {
+              "thunk": true,
+              "entry": "001063f0",
+              "name": "fopen",
+              "external": false
+            },
+            {
+              "thunk": true,
+              "entry": "00106410",
+              "name": "fprintf",
+              "external": false
+            },
+            {
+              "thunk": true,
+              "entry": "00106400",
+              "name": "fclose",
+              "external": false
+            },
+            {
+              "thunk": true,
+              "entry": "00106420",
+              "name": "remove",
+              "external": false
+            }
+          ],
+          "verified_selected_import_calls": []
+        }
+      ],
+      "missing_function_targets": []
+    }
+  ],
+  "total_instruction_rows_original_ELF_checked": 1752,
+  "SSL_object_getter_original_instructions": [
+    {
+      "elf_va": "0x135a84",
+      "file_offset": 1251972,
+      "raw_hex": "080840f9",
+      "instruction": "ldr x8, [x0, #0x10]"
+    },
+    {
+      "elf_va": "0x135a88",
+      "file_offset": 1251976,
+      "raw_hex": "f30300aa",
+      "instruction": "mov x19, x0"
+    },
+    {
+      "elf_va": "0x135a8c",
+      "file_offset": 1251980,
+      "raw_hex": "098940f9",
+      "instruction": "ldr x9, [x8, #0x110]"
+    },
+    {
+      "elf_va": "0x135a90",
+      "file_offset": 1251984,
+      "raw_hex": "2a2140b9",
+      "instruction": "ldr w10, [x9, #0x20]"
+    },
+    {
+      "elf_va": "0x135a94",
+      "file_offset": 1251988,
+      "raw_hex": "4a791c12",
+      "instruction": "and w10, w10, #0xfffffff7"
+    },
+    {
+      "elf_va": "0x135a98",
+      "file_offset": 1251992,
+      "raw_hex": "2a2100b9",
+      "instruction": "str w10, [x9, #0x20]"
+    },
+    {
+      "elf_va": "0x135a9c",
+      "file_offset": 1251996,
+      "raw_hex": "0b2040b9",
+      "instruction": "ldr w11, [x0, #0x20]"
+    },
+    {
+      "elf_va": "0x135aa0",
+      "file_offset": 1252000,
+      "raw_hex": "009140f9",
+      "instruction": "ldr x0, [x8, #0x120]"
+    },
+    {
+      "elf_va": "0x135aa4",
+      "file_offset": 1252004,
+      "raw_hex": "6b011d12",
+      "instruction": "and w11, w11, #8"
+    },
+    {
+      "elf_va": "0x135aa8",
+      "file_offset": 1252008,
+      "raw_hex": "6a010a2a",
+      "instruction": "orr w10, w11, w10"
+    },
+    {
+      "elf_va": "0x135aac",
+      "file_offset": 1252012,
+      "raw_hex": "2a2100b9",
+      "instruction": "str w10, [x9, #0x20]"
+    },
+    {
+      "elf_va": "0x135ab0",
+      "file_offset": 1252016,
+      "raw_hex": "c0035fd6",
+      "instruction": "ret "
+    }
+  ],
+  "helper_side_effect": "0x135a84 also copies bit 0x8 from parent context flags +0x20 into underlying context(+0x110)->flags+0x20; it is not a pure getter.",
+  "buffer_findings": [
+    {
+      "library": "libavformat.so",
+      "elf_va": "0x1354fc",
+      "status": "verified bounded static flow",
+      "input": "context private pointer at context+0x10, stream/options setup helper 0x1351cc",
+      "actions": "TLS client/server method by flag +0x28; SSL_CTX_new stored +0x118; conditional CA/certificate/key file options; BIO callbacks; SSL_new stored +0x120; SSL_connect or SSL_accept",
+      "output": "0 or error with cleanup helper 0x1357d4",
+      "limits": "No runtime key/cert files accessed. Actual URL options, negotiated cipher/key/IV and Android-side selection unknown."
+    },
+    {
+      "library": "libavformat.so",
+      "elf_va": [
+        "0x135754",
+        "0x135794"
+      ],
+      "status": "verified bounded static flow",
+      "input": "caller context, buffer pointer and length; helper 0x135a84 changes x0 to private SSL object and preserves buffer registers",
+      "actions": "helper aligns underlying I/O flag bit0x8, then SSL_read/SSL_write, branch on result; error translator 0x1359ac",
+      "output": "byte/result count or error",
+      "limits": "TLS stream consumer, not a proven firmware-buffer consumer."
+    },
+    {
+      "library": "libavformat.so",
+      "elf_va": "0xb8aa4",
+      "status": "verified bounded static data transformation",
+      "input": "caller output pointer/length; input read helper, lazily allocated 0x40000 buffer",
+      "actions": "compression-state flag +0x27c8; z_stream-like next_in/avail_in +0x27d0/+0x27d8, next_out/avail_out +0x27e8/+0x27f0; inflate(stream,2)",
+      "output": "requested length minus remaining output space, or read/error/reconnect branch",
+      "limits": "Compressed stream bytes are demonstrated; no firmware input origin or entire protocol/state-machine proof."
+    }
+  ],
+  "scope": "4 new libavformat functions plus 9 inherited cube functions now have explicit tool CFGs and original byte checks. Full C/assembly stays private. Linear import BL inventory is a separate evidence level."
+}

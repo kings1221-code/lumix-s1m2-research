@@ -1,0 +1,229 @@
+{
+  "still_unresolved": [
+    {
+      "java_method": "Lcom/google/android/gms/tasks/NativeOnCompleteListener;->nativeOnComplete(JLjava/lang/Object;ZZLjava/lang/String;)V",
+      "dex": "classes.dex",
+      "static_matches": [],
+      "dynamic_candidates": [],
+      "status": "unresolved_in_18_libraries",
+      "visible_direct_callers": [
+        {
+          "method": "Lcom/google/android/gms/tasks/NativeOnCompleteListener;->onComplete(Lcom/google/android/gms/tasks/Task;)V",
+          "dex": "classes.dex",
+          "offset_cu": 46
+        }
+      ],
+      "binding_status": "still unresolved; additional explicit caller/buffer evidence does not establish runtime binding"
+    },
+    {
+      "java_method": "Lcom/panasonic/jp/lumixlab/LlcApplication;->splitYuvArrayToYAndUv([B[B[BII)V",
+      "dex": "classes2.dex",
+      "static_matches": [],
+      "dynamic_candidates": [],
+      "status": "implementation_present_Cpp_mangled_binding_unresolved",
+      "implementation_candidate": {
+        "library": "libllc.so",
+        "elf_va": "0x16e18",
+        "export": "_Z67Java_com_panasonic_jp_lumixlab_LlcApplication_splitYuvArrayToYAndUvP7_JNIEnvP8_jobjectP11_jbyteArrayS4_S4_ii",
+        "reason": "C++ mangling differs from JNI name lookup; implementation exists but runtime binding not established"
+      },
+      "visible_direct_callers": [],
+      "binding_status": "still unresolved; additional explicit caller/buffer evidence does not establish runtime binding"
+    }
+  ],
+  "exact_direct_callers": {
+    "Lcom/google/android/gms/tasks/NativeOnCompleteListener;->nativeOnComplete(JLjava/lang/Object;ZZLjava/lang/String;)V": [
+      {
+        "caller": "Lcom/google/android/gms/tasks/NativeOnCompleteListener;->onComplete(Lcom/google/android/gms/tasks/Task;)V",
+        "dex": "classes.dex",
+        "cu": 46
+      }
+    ],
+    "Lcom/panasonic/jp/lumixlab/LlcApplication;->splitYuvArrayToYAndUv([B[B[BII)V": [],
+    "Lcom/google/android/gms/tasks/NativeOnCompleteListener;->createAndAddCallback(Lcom/google/android/gms/tasks/Task;J)V": []
+  },
+  "ELF_symbol_relocation_checks": [
+    {
+      "library": "libavcodec.so",
+      "sha256": "4bcd087282fe141181be4cb770218d94f1f924f2a99a6770ce36a91d22d1e9aa",
+      "related_dynsym": [],
+      "related_symbol_relocations": []
+    },
+    {
+      "library": "libavformat.so",
+      "sha256": "4d364b5e2855c8e828eb02474c3cec47b8801f88a59c8625dc64a260604eaa79",
+      "related_dynsym": [],
+      "related_symbol_relocations": []
+    },
+    {
+      "library": "libavutil.so",
+      "sha256": "3676eb0ed26d540287ab8470c8abe618153afc45258451298b5d4ffd18ff010b",
+      "related_dynsym": [],
+      "related_symbol_relocations": []
+    },
+    {
+      "library": "libc++_shared.so",
+      "sha256": "c4c2fe5cbcb1fba0003a31fc7ab29a9bb12df6cc187ec45a806462540e83d93b",
+      "related_dynsym": [],
+      "related_symbol_relocations": []
+    },
+    {
+      "library": "libcrypto.so",
+      "sha256": "49db5bf9fdee2c87209085717497ac604b8768d589df32a85d8124c3f7604b4a",
+      "related_dynsym": [],
+      "related_symbol_relocations": []
+    },
+    {
+      "library": "libcube_merge.so",
+      "sha256": "91c35f56413f0e6fd8108000104a4270b6beee64121bfd954ada56e510c03d2f",
+      "related_dynsym": [],
+      "related_symbol_relocations": []
+    },
+    {
+      "library": "libde265.so",
+      "sha256": "546563ccbc766ed8015a980d163e85af52af54f2eb193e1bb2e7471f04970d58",
+      "related_dynsym": [],
+      "related_symbol_relocations": []
+    },
+    {
+      "library": "libffmpeg_mediametadataretriever_jni.so",
+      "sha256": "dfd412e3103b203ed96adbbf30e2c70053afdeaf172c1a5cc9a8b849ff9ee471",
+      "related_dynsym": [],
+      "related_symbol_relocations": []
+    },
+    {
+      "library": "libheif.so",
+      "sha256": "e229d1a052a48ceb6defe47570ee6a448bf3c461205132580e4a52c961df8e83",
+      "related_dynsym": [],
+      "related_symbol_relocations": []
+    },
+    {
+      "library": "libllc.so",
+      "sha256": "7433d705215bb92e7a87b9005277127e5851c7a4638ca8f6a3db17d2a00927df",
+      "related_dynsym": [
+        {
+          "name": "_Z67Java_com_panasonic_jp_lumixlab_LlcApplication_splitYuvArrayToYAndUvP7_JNIEnvP8_jobjectP11_jbyteArrayS4_S4_ii",
+          "va": "0x16e18",
+          "size": 344,
+          "defined": true,
+          "type": "STT_FUNC"
+        }
+      ],
+      "related_symbol_relocations": []
+    },
+    {
+      "library": "libonnxruntime.so",
+      "sha256": "3fc3e79539f06f67360a810e60eb5c513db5febc16f7bc71e5d9e8ce39e3d775",
+      "related_dynsym": [],
+      "related_symbol_relocations": []
+    },
+    {
+      "library": "libonnxruntime4j_jni.so",
+      "sha256": "adcaf5e11ff65ad7b54725b2869118568b14ce2f3596d1b6f082ed0c774f2539",
+      "related_dynsym": [],
+      "related_symbol_relocations": []
+    },
+    {
+      "library": "libssl.so",
+      "sha256": "f8be5421e9186804504bd4f74e76fe23b71af401d311b559479500f227fd24ec",
+      "related_dynsym": [],
+      "related_symbol_relocations": []
+    },
+    {
+      "library": "libswscale.so",
+      "sha256": "f381b19a9947ac25acb95e91c539ff31c634fca2ca70939b4bb8afb36c85b581",
+      "related_dynsym": [],
+      "related_symbol_relocations": []
+    },
+    {
+      "library": "libtechorfilter.so",
+      "sha256": "03e1c4e11e86012e03faf025fd566be79df3fc75ee28d38433d676a959b3d25f",
+      "related_dynsym": [],
+      "related_symbol_relocations": []
+    },
+    {
+      "library": "libyuv-decoder.so",
+      "sha256": "ed3709f2b4b425746befbc6c6aab2235446ecbb37a33647b030828d8c6688dcf",
+      "related_dynsym": [],
+      "related_symbol_relocations": []
+    },
+    {
+      "library": "libyuv.so",
+      "sha256": "987926e77bddb9880e16dfb11201d6fb0429c4ff462a74e0bd0965b3de4d85c3",
+      "related_dynsym": [],
+      "related_symbol_relocations": []
+    },
+    {
+      "library": "libyuv_android.so",
+      "sha256": "dab061cb65b5b86318c5a01b2c47ac6da7da064421a5c9ef71b71123b0df5809",
+      "related_dynsym": [],
+      "related_symbol_relocations": []
+    }
+  ],
+  "SONAME_by_file": {
+    "libavcodec.so": [
+      "libavcodec.so"
+    ],
+    "libavformat.so": [
+      "libavformat.so"
+    ],
+    "libavutil.so": [
+      "libavutil.so"
+    ],
+    "libc++_shared.so": [
+      "libc++_shared.so"
+    ],
+    "libcrypto.so": [
+      "libcrypto.so.1.1"
+    ],
+    "libcube_merge.so": [
+      "libcube_merge.so"
+    ],
+    "libde265.so": [
+      "libde265.so"
+    ],
+    "libffmpeg_mediametadataretriever_jni.so": [
+      "libffmpeg_mediametadataretriever_jni.so"
+    ],
+    "libheif.so": [
+      "libheif.so"
+    ],
+    "libllc.so": [
+      "libllc.so"
+    ],
+    "libonnxruntime.so": [
+      "libonnxruntime.so"
+    ],
+    "libonnxruntime4j_jni.so": [],
+    "libssl.so": [
+      "libssl.so.1.1"
+    ],
+    "libswscale.so": [
+      "libswscale.so"
+    ],
+    "libtechorfilter.so": [
+      "libtechorfilter.so"
+    ],
+    "libyuv-decoder.so": [
+      "libyuv-decoder.so"
+    ],
+    "libyuv.so": [
+      "libyuv.so"
+    ],
+    "libyuv_android.so": [
+      "libyuv_android.so"
+    ]
+  },
+  "new_case_specific_chain": {
+    "caller": "Lh5/l;->b()V",
+    "shared_callable": "Lg5/k;->call()Ljava/lang/Object;",
+    "selector": 2,
+    "java_native": "Lcom/panasonic/jp/lumixlab/LlcApplication;->writeVideoRatingJni(Ljava/lang/String;I)I",
+    "library": "libllc.so",
+    "ELF_va": "0x160c8",
+    "native_consumer": "writeVideoRating(path_utf8, rating_int)",
+    "buffer_boundary": "JNIEnv +0x548 GetStringUTFChars; +0x550 ReleaseStringUTFChars; integer return preserved",
+    "basis": "r8_callable_cases.json plus inherited exact-input Ghidra wrapper and original instructions; downstream writer semantics not newly recovered"
+  },
+  "negative_scope": "All 18 exact-input dynsym and their symbol-based relocations, original 214 JNI map, all 76901 DEX methods explicit invokes, and recovered literal targets in the 243 dynamic sites. Absence here excludes neither computed/external registration nor remote Google native modules. No runtime binding test."
+}

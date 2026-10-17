@@ -1,0 +1,1457 @@
+{
+  "flows": [
+    {
+      "id": "camera_peer_fingerprint",
+      "method": "Lh6/d;->verify(Ljava/lang/String;Ljavax/net/ssl/SSLSession;)Z",
+      "evidence": {
+        "method": "Lh6/d;->verify(Ljava/lang/String;Ljavax/net/ssl/SSLSession;)Z",
+        "dex": "classes2.dex",
+        "location": {
+          "method_index": 21876,
+          "code_item_offset": 3196664,
+          "insns_offset": 3196680,
+          "code_units": 100,
+          "access_flags": 17
+        },
+        "instruction_sha256": "d85a982a3461e19a8914146a7fb306245600a3251160f9f070466a1b1f185dac"
+      },
+      "explicit_callers": [],
+      "input": "SSLSession peer certificate encoded bytes; expected digest from app connection state",
+      "parameters": "SHA-256, certificate[0]; two selector branches",
+      "output_consumer": "boolean equality result consumed by HostnameVerifier",
+      "interpretation": "Camera HTTPS certificate fingerprint, inherited and reinforced; NOT firmware-file verification",
+      "supporting_calls": [
+        {
+          "cu": 7,
+          "target": "Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;"
+        },
+        {
+          "cu": 11,
+          "target": "Ljavax/net/ssl/SSLSession;->getPeerCertificates()[Ljava/security/cert/Certificate;"
+        },
+        {
+          "cu": 18,
+          "target": "Ljava/security/cert/Certificate;->getEncoded()[B"
+        },
+        {
+          "cu": 22,
+          "target": "Ljava/security/MessageDigest;->update([B)V"
+        },
+        {
+          "cu": 25,
+          "target": "Ljava/security/MessageDigest;->digest()[B"
+        },
+        {
+          "cu": 29,
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;"
+        },
+        {
+          "cu": 33,
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getCerFingerPrint()[B"
+        },
+        {
+          "cu": 37,
+          "target": "Ljava/security/MessageDigest;->isEqual([B[B)Z"
+        },
+        {
+          "cu": 45,
+          "target": "Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V"
+        },
+        {
+          "cu": 51,
+          "target": "Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;"
+        },
+        {
+          "cu": 55,
+          "target": "Ljavax/net/ssl/SSLSession;->getPeerCertificates()[Ljava/security/cert/Certificate;"
+        },
+        {
+          "cu": 62,
+          "target": "Ljava/security/cert/Certificate;->getEncoded()[B"
+        },
+        {
+          "cu": 66,
+          "target": "Ljava/security/MessageDigest;->update([B)V"
+        },
+        {
+          "cu": 69,
+          "target": "Ljava/security/MessageDigest;->digest()[B"
+        },
+        {
+          "cu": 73,
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getContext()Lcom/panasonic/jp/lumixlab/LlcApplication;"
+        },
+        {
+          "cu": 77,
+          "target": "Lcom/panasonic/jp/lumixlab/LlcApplication;->getCerFingerPrint()[B"
+        },
+        {
+          "cu": 81,
+          "target": "Ljava/security/MessageDigest;->isEqual([B[B)Z"
+        },
+        {
+          "cu": 89,
+          "target": "Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V"
+        }
+      ],
+      "status": "verified bounded static consumer; runtime execution not tested"
+    },
+    {
+      "id": "filename_uint32",
+      "method": "Lcom/panasonic/jp/lumixlab/bean/RawProcessingConfigBean;->hashFileNameToUint32(Ljava/lang/String;)I",
+      "evidence": {
+        "method": "Lcom/panasonic/jp/lumixlab/bean/RawProcessingConfigBean;->hashFileNameToUint32(Ljava/lang/String;)I",
+        "dex": "classes2.dex",
+        "location": {
+          "method_index": 14056,
+          "code_item_offset": 1944344,
+          "insns_offset": 1944360,
+          "code_units": 41,
+          "access_flags": 2
+        },
+        "instruction_sha256": "45e995e90d0356ee56a5ecdf8ab806c22d6c68bff767c3080560160b368b42e6"
+      },
+      "explicit_callers": [],
+      "input": "String method parameter, default charset",
+      "parameters": "SHA-256 first min(4,digest.length) bytes, big-endian integer fold",
+      "output_consumer": "returns int; no explicit DEX caller in this input",
+      "interpretation": "Implementation present; actual App use unconfirmed",
+      "supporting_calls": [
+        {
+          "cu": 3,
+          "target": "Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;"
+        },
+        {
+          "cu": 7,
+          "target": "Ljava/lang/String;->getBytes()[B"
+        },
+        {
+          "cu": 11,
+          "target": "Ljava/security/MessageDigest;->digest([B)[B"
+        },
+        {
+          "cu": 19,
+          "target": "Ljava/lang/Math;->min(II)I"
+        }
+      ],
+      "status": "verified bounded static consumer; runtime execution not tested"
+    },
+    {
+      "id": "lottie_cache_filename",
+      "method": "LI2/f;->a(Ljava/lang/String;LI2/c;Z)Ljava/lang/String;",
+      "evidence": {
+        "method": "LI2/f;->a(Ljava/lang/String;LI2/c;Z)Ljava/lang/String;",
+        "dex": "classes.dex",
+        "location": {
+          "method_index": 4499,
+          "code_item_offset": 1960664,
+          "insns_offset": 1960680,
+          "code_units": 90,
+          "access_flags": 9
+        },
+        "instruction_sha256": "51bae81e9bd6b7fab98ac1354451442c470a2deab7241d1073fae5ee21dddbf8"
+      },
+      "explicit_callers": [
+        {
+          "caller": "LI2/f;->b(Ljava/lang/String;)Ljava/io/File;",
+          "dex": "classes.dex",
+          "cu": 9
+        },
+        {
+          "caller": "LI2/f;->b(Ljava/lang/String;)Ljava/io/File;",
+          "dex": "classes.dex",
+          "cu": 31
+        },
+        {
+          "caller": "LI2/f;->b(Ljava/lang/String;)Ljava/io/File;",
+          "dex": "classes.dex",
+          "cu": 53
+        },
+        {
+          "caller": "LI2/f;->d(Ljava/lang/String;Ljava/io/InputStream;LI2/c;)Ljava/io/File;",
+          "dex": "classes.dex",
+          "cu": 1
+        },
+        {
+          "caller": "LI2/h;->a(Landroid/content/Context;Ljava/lang/String;Ljava/io/InputStream;Ljava/lang/String;Ljava/lang/String;)Ly2/E;",
+          "dex": "classes.dex",
+          "cu": 202
+        }
+      ],
+      "input": "cache-key string and extension/temp flag",
+      "parameters": "Only over-length normalized name uses MD5; hexadecimal formatting",
+      "output_consumer": "lottie_cache_ filename; I2/f cache lookup/write helpers",
+      "interpretation": "Lottie cache naming, not payload authentication",
+      "supporting_calls": [
+        {
+          "cu": 2,
+          "target": "LI2/c;->tempExtension()Ljava/lang/String;"
+        },
+        {
+          "cu": 13,
+          "target": "Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"
+        },
+        {
+          "cu": 17,
+          "target": "Ljava/lang/String;->length()I"
+        },
+        {
+          "cu": 23,
+          "target": "Ljava/lang/String;->length()I"
+        },
+        {
+          "cu": 32,
+          "target": "Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;"
+        },
+        {
+          "cu": 36,
+          "target": "Ljava/lang/String;->getBytes()[B"
+        },
+        {
+          "cu": 40,
+          "target": "Ljava/security/MessageDigest;->digest([B)[B"
+        },
+        {
+          "cu": 46,
+          "target": "Ljava/lang/StringBuilder;-><init>()V"
+        },
+        {
+          "cu": 54,
+          "target": "Ljava/lang/Byte;->valueOf(B)Ljava/lang/Byte;"
+        },
+        {
+          "cu": 64,
+          "target": "Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;"
+        },
+        {
+          "cu": 68,
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+        },
+        {
+          "cu": 74,
+          "target": "Ljava/lang/StringBuilder;->toString()Ljava/lang/String;"
+        },
+        {
+          "cu": 79,
+          "target": "Ljava/lang/String;->substring(II)Ljava/lang/String;"
+        },
+        {
+          "cu": 85,
+          "target": "LB9/t;->o(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"
+        }
+      ],
+      "status": "verified bounded static consumer; runtime execution not tested"
+    },
+    {
+      "id": "image_disk_cache_key",
+      "method": "LT2/u;->a(LP2/q;)Ljava/lang/String;",
+      "evidence": {
+        "method": "LT2/u;->a(LP2/q;)Ljava/lang/String;",
+        "dex": "classes.dex",
+        "location": {
+          "method_index": 9003,
+          "code_item_offset": 2367744,
+          "insns_offset": 2367760,
+          "code_units": 103,
+          "access_flags": 17
+        },
+        "instruction_sha256": "6482e9c955cb0ab538e680d139c2461de71763c2dc166c749b87db04f217d546"
+      },
+      "explicit_callers": [
+        {
+          "caller": "LT2/k;->a(LP2/q;LR2/i;)V",
+          "dex": "classes.dex",
+          "cu": 6
+        },
+        {
+          "caller": "LT2/k;->b(LP2/q;)Ljava/io/File;",
+          "dex": "classes.dex",
+          "cu": 2
+        }
+      ],
+      "input": "P2/q cache-key update interface; digest object from pool",
+      "parameters": "Digest consumer; SHA-256 factory is LT2/s.create",
+      "output_consumer": "hexadecimal safe cache key string stored in lookup cache",
+      "interpretation": "Glide-associated cache chain; interface target details remain polymorphic",
+      "supporting_calls": [
+        {
+          "cu": 5,
+          "target": "Ll3/n;->a(Ljava/lang/Object;)Ljava/lang/Object;"
+        },
+        {
+          "cu": 16,
+          "target": "Lm3/e;->a()Ljava/lang/Object;"
+        },
+        {
+          "cu": 24,
+          "target": "LP2/q;->b(Ljava/security/MessageDigest;)V"
+        },
+        {
+          "cu": 29,
+          "target": "Ljava/security/MessageDigest;->digest()[B"
+        },
+        {
+          "cu": 67,
+          "target": "Ljava/lang/String;-><init>([C)V"
+        },
+        {
+          "cu": 73,
+          "target": "Lm3/e;->b(Ljava/lang/Object;)Z"
+        },
+        {
+          "cu": 83,
+          "target": "Lm3/e;->b(Ljava/lang/Object;)Z"
+        },
+        {
+          "cu": 92,
+          "target": "Ll3/n;->d(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+        }
+      ],
+      "status": "verified bounded static consumer; runtime execution not tested"
+    },
+    {
+      "id": "firebase_legacy_installation_id",
+      "method": "LR4/d;->a()Ljava/lang/String;",
+      "evidence": {
+        "method": "LR4/d;->a()Ljava/lang/String;",
+        "dex": "classes.dex",
+        "location": {
+          "method_index": 8482,
+          "code_item_offset": 2325100,
+          "insns_offset": 2325116,
+          "code_units": 109,
+          "access_flags": 17
+        },
+        "instruction_sha256": "10253b32bed0be5f10df9eb2c2811e88f83f5033ca7139fcef7295c7f77c92ea"
+      },
+      "explicit_callers": [
+        {
+          "caller": "LQ4/h;->f(LR4/h;)Ljava/lang/String;",
+          "dex": "classes.dex",
+          "cu": 68
+        }
+      ],
+      "input": "SDK SharedPreferences public-key representation (not read at runtime)",
+      "parameters": "Base64 decode -> RSA X509 public-key parse -> SHA1(encoded key), modified first byte, first 8 bytes Base64 flags11",
+      "output_consumer": "returns legacy installation identifier to SDK callers",
+      "interpretation": "Public-key decoding/hashing, NOT RSA encryption or firmware signature validation",
+      "supporting_calls": [
+        {
+          "cu": 8,
+          "target": "Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"
+        },
+        {
+          "cu": 20,
+          "target": "Landroid/util/Base64;->decode(Ljava/lang/String;I)[B"
+        },
+        {
+          "cu": 26,
+          "target": "Ljava/security/KeyFactory;->getInstance(Ljava/lang/String;)Ljava/security/KeyFactory;"
+        },
+        {
+          "cu": 32,
+          "target": "Ljava/security/spec/X509EncodedKeySpec;-><init>([B)V"
+        },
+        {
+          "cu": 35,
+          "target": "Ljava/security/KeyFactory;->generatePublic(Ljava/security/spec/KeySpec;)Ljava/security/PublicKey;"
+        },
+        {
+          "cu": 45,
+          "target": "Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V"
+        },
+        {
+          "cu": 48,
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;"
+        },
+        {
+          "cu": 51,
+          "target": "Ljava/lang/StringBuilder;->toString()Ljava/lang/String;"
+        },
+        {
+          "cu": 57,
+          "target": "Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I"
+        },
+        {
+          "cu": 65,
+          "target": "Ljava/security/Key;->getEncoded()[B"
+        },
+        {
+          "cu": 71,
+          "target": "Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;"
+        },
+        {
+          "cu": 75,
+          "target": "Ljava/security/MessageDigest;->digest([B)[B"
+        },
+        {
+          "cu": 93,
+          "target": "Landroid/util/Base64;->encodeToString([BIII)Ljava/lang/String;"
+        },
+        {
+          "cu": 102,
+          "target": "Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I"
+        }
+      ],
+      "status": "verified bounded static consumer; runtime execution not tested"
+    },
+    {
+      "id": "play_review_store_identity",
+      "method": "Lq4/k;-><init>(Landroid/content/Context;)V",
+      "evidence": {
+        "method": "Lq4/k;-><init>(Landroid/content/Context;)V",
+        "dex": "classes.dex",
+        "location": {
+          "method_index": 53347,
+          "code_item_offset": 4954556,
+          "insns_offset": 4954572,
+          "code_units": 237,
+          "access_flags": 65537
+        },
+        "instruction_sha256": "3c434bc97183bd59c3afcfc006459d7b42a624aa865030d3e671c798f57067e6"
+      },
+      "explicit_callers": [
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/u1;->m()V",
+          "dex": "classes2.dex",
+          "cu": 32
+        }
+      ],
+      "input": "com.android.vending package signatures obtained from PackageManager",
+      "parameters": "SHA-256 -> Base64 flags11 -> equality checks; stored comparison constants redacted",
+      "output_consumer": "conditional construction of Play in-app-review binding client",
+      "interpretation": "SDK store identity check, not camera/firmware verification",
+      "supporting_calls": [
+        {
+          "cu": 2,
+          "target": "Ljava/lang/Object;-><init>()V"
+        },
+        {
+          "cu": 5,
+          "target": "Landroid/content/Context;->getPackageName()Ljava/lang/String;"
+        },
+        {
+          "cu": 16,
+          "target": "Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;"
+        },
+        {
+          "cu": 20,
+          "target": "Landroid/content/pm/PackageManager;->getApplicationInfo(Ljava/lang/String;I)Landroid/content/pm/ApplicationInfo;"
+        },
+        {
+          "cu": 32,
+          "target": "Lr4/i;->b(Ljava/lang/String;[Ljava/lang/Object;)V"
+        },
+        {
+          "cu": 37,
+          "target": "Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;"
+        },
+        {
+          "cu": 43,
+          "target": "Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;"
+        },
+        {
+          "cu": 58,
+          "target": "Ljava/util/ArrayList;-><init>()V"
+        },
+        {
+          "cu": 66,
+          "target": "Landroid/content/pm/Signature;->toByteArray()[B"
+        },
+        {
+          "cu": 72,
+          "target": "Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;"
+        },
+        {
+          "cu": 76,
+          "target": "Ljava/security/MessageDigest;->update([B)V"
+        },
+        {
+          "cu": 79,
+          "target": "Ljava/security/MessageDigest;->digest()[B"
+        },
+        {
+          "cu": 85,
+          "target": "Landroid/util/Base64;->encodeToString([BI)Ljava/lang/String;"
+        },
+        {
+          "cu": 92,
+          "target": "Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z"
+        },
+        {
+          "cu": 97,
+          "target": "Ljava/lang/String;->equals(Ljava/lang/Object;)Z"
+        },
+        {
+          "cu": 107,
+          "target": "Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z"
+        },
+        {
+          "cu": 115,
+          "target": "Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z"
+        },
+        {
+          "cu": 123,
+          "target": "Ljava/lang/String;->equals(Ljava/lang/Object;)Z"
+        },
+        {
+          "cu": 136,
+          "target": "Landroid/content/Intent;-><init>(Ljava/lang/String;)V"
+        },
+        {
+          "cu": 139,
+          "target": "Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;"
+        },
+        {
+          "cu": 147,
+          "target": "Lq4/g;-><init>()V"
+        },
+        {
+          "cu": 157,
+          "target": "Lr4/t;-><init>(Landroid/content/Context;Lr4/i;Ljava/lang/String;Landroid/content/Intent;Lq4/g;Lr4/o;)V"
+        },
+        {
+          "cu": 165,
+          "target": "Ljava/lang/StringBuilder;-><init>()V"
+        },
+        {
+          "cu": 168,
+          "target": "Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;"
+        },
+        {
+          "cu": 172,
+          "target": "Ljava/util/Iterator;->hasNext()Z"
+        },
+        {
+          "cu": 178,
+          "target": "Ljava/util/Iterator;->next()Ljava/lang/Object;"
+        },
+        {
+          "cu": 184,
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;"
+        },
+        {
+          "cu": 187,
+          "target": "Ljava/util/Iterator;->hasNext()Z"
+        },
+        {
+          "cu": 195,
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;"
+        },
+        {
+          "cu": 199,
+          "target": "Ljava/lang/StringBuilder;->toString()Ljava/lang/String;"
+        },
+        {
+          "cu": 207,
+          "target": "LB9/t;->o(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"
+        },
+        {
+          "cu": 213,
+          "target": "Lr4/i;->b(Ljava/lang/String;[Ljava/lang/Object;)V"
+        },
+        {
+          "cu": 221,
+          "target": "Lr4/i;->b(Ljava/lang/String;[Ljava/lang/Object;)V"
+        },
+        {
+          "cu": 227,
+          "target": "Lr4/i;->b(Ljava/lang/String;[Ljava/lang/Object;)V"
+        },
+        {
+          "cu": 233,
+          "target": "Lr4/i;->b(Ljava/lang/String;[Ljava/lang/Object;)V"
+        }
+      ],
+      "status": "verified bounded static consumer; runtime execution not tested"
+    },
+    {
+      "id": "firebase_app_name_hash",
+      "method": "Lcom/google/firebase/messaging/GmsRpc;->getHashedFirebaseAppName()Ljava/lang/String;",
+      "evidence": {
+        "method": "Lcom/google/firebase/messaging/GmsRpc;->getHashedFirebaseAppName()Ljava/lang/String;",
+        "dex": "classes.dex",
+        "location": {
+          "method_index": 44524,
+          "code_item_offset": 4375788,
+          "insns_offset": 4375804,
+          "code_units": 29,
+          "access_flags": 2
+        },
+        "instruction_sha256": "f910beca0f322c51f10115ed383ae6d97b43249e91515c0b30181282133567e4"
+      },
+      "explicit_callers": [
+        {
+          "caller": "Lcom/google/firebase/messaging/GmsRpc;->setDefaultAttributesToBundle(Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;)V",
+          "dex": "classes.dex",
+          "cu": 79
+        }
+      ],
+      "input": "Firebase app name string",
+      "parameters": "SHA-1 digest and Base64 encoding",
+      "output_consumer": "SDK registration/request metadata string",
+      "interpretation": "SDK identifier derivation; no firmware byte input",
+      "supporting_calls": [
+        {
+          "cu": 2,
+          "target": "LB4/h;->a()V"
+        },
+        {
+          "cu": 9,
+          "target": "Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;"
+        },
+        {
+          "cu": 13,
+          "target": "Ljava/lang/String;->getBytes()[B"
+        },
+        {
+          "cu": 17,
+          "target": "Ljava/security/MessageDigest;->digest([B)[B"
+        },
+        {
+          "cu": 21,
+          "target": "Lcom/google/firebase/messaging/GmsRpc;->base64UrlSafe([B)Ljava/lang/String;"
+        }
+      ],
+      "status": "verified bounded static consumer; runtime execution not tested"
+    },
+    {
+      "id": "adobe_string_hash",
+      "method": "Lcom/adobe/marketing/mobile/internal/util/i;->a(Ljava/lang/String;)Ljava/lang/String;",
+      "evidence": {
+        "method": "Lcom/adobe/marketing/mobile/internal/util/i;->a(Ljava/lang/String;)Ljava/lang/String;",
+        "dex": "classes.dex",
+        "location": {
+          "method_index": 21159,
+          "code_item_offset": 3082932,
+          "insns_offset": 3082948,
+          "code_units": 102,
+          "access_flags": 9
+        },
+        "instruction_sha256": "1625425393aa3ab5a875930a612fda66d77e3b28b6a42bcefc586da1652a27ec"
+      },
+      "explicit_callers": [
+        {
+          "caller": "Lcom/adobe/marketing/mobile/campaign/CampaignRulesDownloader;->getTemporaryDirectory(Ljava/lang/String;)Ljava/io/File;",
+          "dex": "classes.dex",
+          "cu": 0
+        },
+        {
+          "caller": "Lcom/adobe/marketing/mobile/campaign/Utils;->clearCachedAssetsNotInList(Ljava/io/File;Ljava/util/List;)V",
+          "dex": "classes.dex",
+          "cu": 42
+        },
+        {
+          "caller": "Ll2/d;->a(Ljava/lang/String;)Ljava/io/File;",
+          "dex": "classes.dex",
+          "cu": 0
+        },
+        {
+          "caller": "Lr2/a;->b(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;",
+          "dex": "classes.dex",
+          "cu": 8
+        }
+      ],
+      "input": "String method parameter, encoding selected in original code",
+      "parameters": "SHA-256 -> hexadecimal string construction",
+      "output_consumer": "returns to Adobe SDK callers",
+      "interpretation": "Hash helper dataflow verified; real runtime data/identity meaning not asserted",
+      "supporting_calls": [
+        {
+          "cu": 3,
+          "target": "Ljava/lang/String;->isEmpty()Z"
+        },
+        {
+          "cu": 13,
+          "target": "Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;"
+        },
+        {
+          "cu": 19,
+          "target": "Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B"
+        },
+        {
+          "cu": 23,
+          "target": "Ljava/security/MessageDigest;->update([B)V"
+        },
+        {
+          "cu": 26,
+          "target": "Ljava/security/MessageDigest;->digest()[B"
+        },
+        {
+          "cu": 32,
+          "target": "Ljava/lang/StringBuilder;-><init>()V"
+        },
+        {
+          "cu": 45,
+          "target": "Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;"
+        },
+        {
+          "cu": 49,
+          "target": "Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V"
+        },
+        {
+          "cu": 52,
+          "target": "Ljava/lang/StringBuilder;->length()I"
+        },
+        {
+          "cu": 61,
+          "target": "Ljava/lang/StringBuilder;->insert(ILjava/lang/String;)Ljava/lang/StringBuilder;"
+        },
+        {
+          "cu": 67,
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;"
+        },
+        {
+          "cu": 73,
+          "target": "Ljava/lang/StringBuilder;->toString()Ljava/lang/String;"
+        },
+        {
+          "cu": 82,
+          "target": "Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V"
+        },
+        {
+          "cu": 85,
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;"
+        },
+        {
+          "cu": 88,
+          "target": "Ljava/lang/StringBuilder;->toString()Ljava/lang/String;"
+        },
+        {
+          "cu": 98,
+          "target": "Lp2/u;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V"
+        }
+      ],
+      "status": "verified bounded static consumer; runtime execution not tested"
+    },
+    {
+      "id": "oauth_hmac_sha256",
+      "method": "Lcom/google/api/client/auth/oauth/OAuthHmacSha256Signer;->computeSignature(Ljava/lang/String;)Ljava/lang/String;",
+      "evidence": {
+        "method": "Lcom/google/api/client/auth/oauth/OAuthHmacSha256Signer;->computeSignature(Ljava/lang/String;)Ljava/lang/String;",
+        "dex": "classes.dex",
+        "location": {
+          "method_index": 32766,
+          "code_item_offset": 3937868,
+          "insns_offset": 3937884,
+          "code_units": 69,
+          "access_flags": 1
+        },
+        "instruction_sha256": "3d1e2e32ea5adab33b34f3cd3588d0c43d5d22b30f18f5c33ba36783ac0f27a8"
+      },
+      "explicit_callers": [],
+      "input": "signature-base string parameter and secret fields supplied by caller",
+      "parameters": "HmacSHA256; key composed from URL-encoded secret inputs; runtime secrets not obtained",
+      "output_consumer": "SDK BaseEncoding wrapper consumer; encoder alphabet not independently restored here",
+      "interpretation": "SDK implementation present; selected App authorization flow not established",
+      "supporting_calls": [
+        {
+          "cu": 2,
+          "target": "Ljava/lang/StringBuilder;-><init>()V"
+        },
+        {
+          "cu": 9,
+          "target": "Lcom/google/api/client/auth/oauth/OAuthParameters;->escape(Ljava/lang/String;)Ljava/lang/String;"
+        },
+        {
+          "cu": 13,
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+        },
+        {
+          "cu": 18,
+          "target": "Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;"
+        },
+        {
+          "cu": 25,
+          "target": "Lcom/google/api/client/auth/oauth/OAuthParameters;->escape(Ljava/lang/String;)Ljava/lang/String;"
+        },
+        {
+          "cu": 29,
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+        },
+        {
+          "cu": 32,
+          "target": "Ljava/lang/StringBuilder;->toString()Ljava/lang/String;"
+        },
+        {
+          "cu": 38,
+          "target": "Lcom/google/api/client/util/StringUtils;->getBytesUtf8(Ljava/lang/String;)[B"
+        },
+        {
+          "cu": 44,
+          "target": "Ljavax/crypto/spec/SecretKeySpec;-><init>([BLjava/lang/String;)V"
+        },
+        {
+          "cu": 47,
+          "target": "Ljavax/crypto/Mac;->getInstance(Ljava/lang/String;)Ljavax/crypto/Mac;"
+        },
+        {
+          "cu": 51,
+          "target": "Ljavax/crypto/Mac;->init(Ljava/security/Key;)V"
+        },
+        {
+          "cu": 56,
+          "target": "Lcom/google/api/client/util/StringUtils;->getBytesUtf8(Ljava/lang/String;)[B"
+        },
+        {
+          "cu": 60,
+          "target": "Ljavax/crypto/Mac;->doFinal([B)[B"
+        },
+        {
+          "cu": 64,
+          "target": "Lw4/h;->c([B)Ljava/lang/String;"
+        }
+      ],
+      "status": "verified bounded static consumer; runtime execution not tested"
+    },
+    {
+      "id": "oauth_hmac_sha1",
+      "method": "Lcom/google/api/client/auth/oauth/OAuthHmacSigner;->computeSignature(Ljava/lang/String;)Ljava/lang/String;",
+      "evidence": {
+        "method": "Lcom/google/api/client/auth/oauth/OAuthHmacSigner;->computeSignature(Ljava/lang/String;)Ljava/lang/String;",
+        "dex": "classes.dex",
+        "location": {
+          "method_index": 32770,
+          "code_item_offset": 3938100,
+          "insns_offset": 3938116,
+          "code_units": 67,
+          "access_flags": 1
+        },
+        "instruction_sha256": "8d08360cb799a4d34a7c4d28bf9b94870e6417018fdf41b579180405a91b9f94"
+      },
+      "explicit_callers": [],
+      "input": "signature-base string parameter and secret fields supplied by caller",
+      "parameters": "HmacSHA1; runtime key material not obtained",
+      "output_consumer": "SDK Base64 wrapper consumer; encoder internals not independently restored here",
+      "interpretation": "SDK implementation present; not an App firmware algorithm",
+      "supporting_calls": [
+        {
+          "cu": 2,
+          "target": "Ljava/lang/StringBuilder;-><init>()V"
+        },
+        {
+          "cu": 9,
+          "target": "Lcom/google/api/client/auth/oauth/OAuthParameters;->escape(Ljava/lang/String;)Ljava/lang/String;"
+        },
+        {
+          "cu": 13,
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+        },
+        {
+          "cu": 18,
+          "target": "Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;"
+        },
+        {
+          "cu": 25,
+          "target": "Lcom/google/api/client/auth/oauth/OAuthParameters;->escape(Ljava/lang/String;)Ljava/lang/String;"
+        },
+        {
+          "cu": 29,
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+        },
+        {
+          "cu": 32,
+          "target": "Ljava/lang/StringBuilder;->toString()Ljava/lang/String;"
+        },
+        {
+          "cu": 38,
+          "target": "Lcom/google/api/client/util/StringUtils;->getBytesUtf8(Ljava/lang/String;)[B"
+        },
+        {
+          "cu": 44,
+          "target": "Ljavax/crypto/spec/SecretKeySpec;-><init>([BLjava/lang/String;)V"
+        },
+        {
+          "cu": 47,
+          "target": "Ljavax/crypto/Mac;->getInstance(Ljava/lang/String;)Ljavax/crypto/Mac;"
+        },
+        {
+          "cu": 51,
+          "target": "Ljavax/crypto/Mac;->init(Ljava/security/Key;)V"
+        },
+        {
+          "cu": 54,
+          "target": "Lcom/google/api/client/util/StringUtils;->getBytesUtf8(Ljava/lang/String;)[B"
+        },
+        {
+          "cu": 58,
+          "target": "Ljavax/crypto/Mac;->doFinal([B)[B"
+        },
+        {
+          "cu": 62,
+          "target": "Lcom/google/api/client/util/Base64;->encodeBase64String([B)Ljava/lang/String;"
+        }
+      ],
+      "status": "verified bounded static consumer; runtime execution not tested"
+    },
+    {
+      "id": "pkce_challenge",
+      "method": "Lcom/google/api/client/auth/oauth2/AuthorizationCodeFlow$PKCE;->generateChallenge(Ljava/lang/String;)V",
+      "evidence": {
+        "method": "Lcom/google/api/client/auth/oauth2/AuthorizationCodeFlow$PKCE;->generateChallenge(Ljava/lang/String;)V",
+        "dex": "classes.dex",
+        "location": {
+          "method_index": 32831,
+          "code_item_offset": 3941356,
+          "insns_offset": 3941372,
+          "code_units": 37,
+          "access_flags": 2
+        },
+        "instruction_sha256": "6ec773a12b9a32897fe33f18fdd1909f5a28726af0fca42d295e2331f4d7e0e2"
+      },
+      "explicit_callers": [
+        {
+          "caller": "Lcom/google/api/client/auth/oauth2/AuthorizationCodeFlow$PKCE;-><init>()V",
+          "dex": "classes.dex",
+          "cu": 9
+        }
+      ],
+      "input": "code-verifier String parameter",
+      "parameters": "SHA-256 -> Base64 URL-safe",
+      "output_consumer": "challenge field set by OAuth SDK",
+      "interpretation": "Static transformation verified; App selection of this SDK option unconfirmed",
+      "supporting_calls": [
+        {
+          "cu": 0,
+          "target": "Ljava/lang/String;->getBytes()[B"
+        },
+        {
+          "cu": 6,
+          "target": "Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;"
+        },
+        {
+          "cu": 12,
+          "target": "Ljava/security/MessageDigest;->update([BII)V"
+        },
+        {
+          "cu": 15,
+          "target": "Ljava/security/MessageDigest;->digest()[B"
+        },
+        {
+          "cu": 19,
+          "target": "Lcom/google/api/client/util/Base64;->encodeBase64URLSafeString([B)Ljava/lang/String;"
+        }
+      ],
+      "status": "verified bounded static consumer; runtime execution not tested"
+    },
+    {
+      "id": "community_zip",
+      "method": "Lcom/panasonic/jp/lumixlab/controller/fragment/CommunityDownloadFragment;->o0(Lcom/panasonic/jp/lumixlab/controller/fragment/CommunityDownloadFragment;Ljava/lang/String;Ljava/io/File;Ljava/lang/String;)V",
+      "evidence": {
+        "method": "Lcom/panasonic/jp/lumixlab/controller/fragment/CommunityDownloadFragment;->o0(Lcom/panasonic/jp/lumixlab/controller/fragment/CommunityDownloadFragment;Ljava/lang/String;Ljava/io/File;Ljava/lang/String;)V",
+        "dex": "classes2.dex",
+        "location": {
+          "method_index": 15271,
+          "code_item_offset": 2173600,
+          "insns_offset": 2173616,
+          "code_units": 421,
+          "access_flags": 9
+        },
+        "instruction_sha256": "7f75587adc415571db4d31186ad4d2e1e28e4191a68829e8d71e1ada4132acf9"
+      },
+      "explicit_callers": [
+        {
+          "caller": "Lz5/a3;->a(Ljava/lang/String;)V",
+          "dex": "classes2.dex",
+          "cu": 29
+        },
+        {
+          "caller": "Lz5/b3;->a(IIZ)V",
+          "dex": "classes2.dex",
+          "cu": 34
+        }
+      ],
+      "input": "downloaded/local file passed to community callback",
+      "parameters": "ZIP entry selection and file handling; no crypto API in this method",
+      "output_consumer": "community download/extraction consumers",
+      "interpretation": "ZIP use exists outside firmware; full malformed/path-safety behavior not restored",
+      "supporting_calls": [
+        {
+          "cu": 6,
+          "target": "Ljava/lang/Object;->getClass()Ljava/lang/Class;"
+        },
+        {
+          "cu": 13,
+          "target": "Ljava/io/File;-><init>(Ljava/lang/String;)V"
+        },
+        {
+          "cu": 16,
+          "target": "Ljava/io/File;->exists()Z"
+        },
+        {
+          "cu": 22,
+          "target": "Ljava/io/File;->mkdirs()Z"
+        },
+        {
+          "cu": 34,
+          "target": "Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V"
+        },
+        {
+          "cu": 37,
+          "target": "Ljava/util/zip/ZipInputStream;-><init>(Ljava/io/InputStream;)V"
+        },
+        {
+          "cu": 40,
+          "target": "Ljava/util/zip/ZipInputStream;->getNextEntry()Ljava/util/zip/ZipEntry;"
+        },
+        {
+          "cu": 46,
+          "target": "Ljava/util/zip/ZipEntry;->getName()Ljava/lang/String;"
+        },
+        {
+          "cu": 52,
+          "target": "Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z"
+        },
+        {
+          "cu": 60,
+          "target": "Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;"
+        },
+        {
+          "cu": 67,
+          "target": "Ljava/util/Locale;->getDefault()Ljava/util/Locale;"
+        },
+        {
+          "cu": 71,
+          "target": "Ljava/lang/String;->toLowerCase(Ljava/util/Locale;)Ljava/lang/String;"
+        },
+        {
+          "cu": 77,
+          "target": "Ljava/lang/String;->endsWith(Ljava/lang/String;)Z"
+        },
+        {
+          "cu": 85,
+          "target": "Lcom/panasonic/jp/lumixlab/bean/CommunityDownloadBean;->getTitle()Ljava/lang/String;"
+        },
+        {
+          "cu": 91,
+          "target": "Lcom/panasonic/jp/lumixlab/bean/CommunityDownloadBean;->getTitle()Ljava/lang/String;"
+        },
+        {
+          "cu": 95,
+          "target": "Ljava/lang/String;->length()I"
+        },
+        {
+          "cu": 101,
+          "target": "Ljava/lang/Math;->min(II)I"
+        },
+        {
+          "cu": 106,
+          "target": "Ljava/lang/String;->substring(II)Ljava/lang/String;"
+        },
+        {
+          "cu": 112,
+          "target": "Ljava/lang/String;->equals(Ljava/lang/Object;)Z"
+        },
+        {
+          "cu": 120,
+          "target": "Ljava/lang/StringBuilder;-><init>()V"
+        },
+        {
+          "cu": 123,
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+        },
+        {
+          "cu": 128,
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+        },
+        {
+          "cu": 131,
+          "target": "Ljava/lang/System;->currentTimeMillis()J"
+        },
+        {
+          "cu": 135,
+          "target": "Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;"
+        },
+        {
+          "cu": 140,
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+        },
+        {
+          "cu": 143,
+          "target": "Ljava/lang/StringBuilder;->toString()Ljava/lang/String;"
+        },
+        {
+          "cu": 151,
+          "target": "Ljava/lang/StringBuilder;-><init>()V"
+        },
+        {
+          "cu": 156,
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+        },
+        {
+          "cu": 161,
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+        },
+        {
+          "cu": 164,
+          "target": "Ljava/lang/StringBuilder;->toString()Ljava/lang/String;"
+        },
+        {
+          "cu": 171,
+          "target": "Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V"
+        },
+        {
+          "cu": 174,
+          "target": "Ljava/util/zip/ZipEntry;->isDirectory()Z"
+        },
+        {
+          "cu": 180,
+          "target": "Ljava/io/File;->exists()Z"
+        },
+        {
+          "cu": 186,
+          "target": "Ljava/io/File;->mkdirs()Z"
+        },
+        {
+          "cu": 202,
+          "target": "Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V"
+        },
+        {
+          "cu": 209,
+          "target": "Ljava/io/InputStream;->read([B)I"
+        },
+        {
+          "cu": 215,
+          "target": "Ljava/io/FileOutputStream;->write([BII)V"
+        },
+        {
+          "cu": 219,
+          "target": "Ljava/io/FileOutputStream;->close()V"
+        },
+        {
+          "cu": 226,
+          "target": "Ljava/util/Objects;->toString(Ljava/lang/Object;)Ljava/lang/String;"
+        },
+        {
+          "cu": 235,
+          "target": "Ljava/lang/String;->equals(Ljava/lang/Object;)Z"
+        },
+        {
+          "cu": 243,
+          "target": "Lcom/panasonic/jp/lumixlab/database/entity/LutInfoEntity;-><init>()V"
+        },
+        {
+          "cu": 246,
+          "target": "Landroidx/fragment/app/N;->getLifecycle()Landroidx/lifecycle/v;"
+        },
+        {
+          "cu": 260,
+          "target": "Lg5/m;-><init>(Ljava/lang/Object;Landroid/os/Parcelable;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;I)V"
+        },
+        {
+          "cu": 266,
+          "target": "Lz5/W2;-><init>(Lcom/panasonic/jp/lumixlab/controller/fragment/CommunityDownloadFragment;I)V"
+        },
+        {
+          "cu": 269,
+          "target": "Lcom/panasonic/jp/lumixlab/util/v;->n1(Landroidx/lifecycle/v;Ljava/util/concurrent/Callable;Lb7/d;)V"
+        },
+        {
+          "cu": 272,
+          "target": "Lcom/panasonic/jp/lumixlab/util/b;->g()Z"
+        },
+        {
+          "cu": 280,
+          "target": "Ljava/util/HashMap;-><init>()V"
+        },
+        {
+          "cu": 287,
+          "target": "Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+        },
+        {
+          "cu": 292,
+          "target": "Lcom/panasonic/jp/lumixlab/bean/CommunityDownloadBean;->getPhoto_style()Ljava/lang/String;"
+        },
+        {
+          "cu": 296,
+          "target": "Lcom/panasonic/jp/lumixlab/util/v;->n0(Ljava/lang/String;)I"
+        },
+        {
+          "cu": 305,
+          "target": "Ljava/lang/String;->toUpperCase()Ljava/lang/String;"
+        },
+        {
+          "cu": 309,
+          "target": "Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+        },
+        {
+          "cu": 314,
+          "target": "Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+        },
+        {
+          "cu": 321,
+          "target": "Lcom/panasonic/jp/lumixlab/bean/CommunityDownloadBean;->getCreator()Lcom/panasonic/jp/lumixlab/bean/CommunityDownloadBean$CreatorBean;"
+        },
+        {
+          "cu": 325,
+          "target": "Lcom/panasonic/jp/lumixlab/bean/CommunityDownloadBean$CreatorBean;->getName()Ljava/lang/String;"
+        },
+        {
+          "cu": 329,
+          "target": "Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+        },
+        {
+          "cu": 334,
+          "target": "Lcom/panasonic/jp/lumixlab/util/b;->i(Ljava/lang/String;Ljava/util/HashMap;)V"
+        },
+        {
+          "cu": 340,
+          "target": "Ljava/lang/StringBuilder;-><init>()V"
+        },
+        {
+          "cu": 343,
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;"
+        },
+        {
+          "cu": 348,
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+        },
+        {
+          "cu": 351,
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+        },
+        {
+          "cu": 354,
+          "target": "Ljava/lang/StringBuilder;->toString()Ljava/lang/String;"
+        },
+        {
+          "cu": 360,
+          "target": "Lcom/panasonic/jp/lumixlab/controller/fragment/CommunityDownloadFragment;->z0(Ljava/lang/String;)V"
+        },
+        {
+          "cu": 365,
+          "target": "Lcom/panasonic/jp/lumixlab/controller/fragment/CommunityDownloadFragment;->B0(Ljava/lang/String;)V"
+        },
+        {
+          "cu": 371,
+          "target": "Ljava/util/zip/ZipInputStream;->close()V"
+        },
+        {
+          "cu": 374,
+          "target": "Lcom/panasonic/jp/lumixlab/util/b0;->H()Lcom/panasonic/jp/lumixlab/util/b0;"
+        },
+        {
+          "cu": 378,
+          "target": "Ljava/lang/Object;->getClass()Ljava/lang/Class;"
+        },
+        {
+          "cu": 381,
+          "target": "Lcom/panasonic/jp/lumixlab/util/b0;->f(Ljava/io/File;)Z"
+        },
+        {
+          "cu": 385,
+          "target": "Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z"
+        },
+        {
+          "cu": 391,
+          "target": "Lcom/panasonic/jp/lumixlab/util/b0;->H()Lcom/panasonic/jp/lumixlab/util/b0;"
+        },
+        {
+          "cu": 397,
+          "target": "Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V"
+        },
+        {
+          "cu": 400,
+          "target": "Ljava/lang/Object;->getClass()Ljava/lang/Class;"
+        },
+        {
+          "cu": 403,
+          "target": "Lcom/panasonic/jp/lumixlab/util/b0;->f(Ljava/io/File;)Z"
+        },
+        {
+          "cu": 410,
+          "target": "Lcom/panasonic/jp/lumixlab/util/b0;->H()Lcom/panasonic/jp/lumixlab/util/b0;"
+        },
+        {
+          "cu": 414,
+          "target": "Ljava/lang/Object;->getClass()Ljava/lang/Class;"
+        },
+        {
+          "cu": 417,
+          "target": "Lcom/panasonic/jp/lumixlab/util/b0;->f(Ljava/io/File;)Z"
+        }
+      ],
+      "status": "verified bounded static consumer; runtime execution not tested"
+    },
+    {
+      "id": "http_basic_encoding",
+      "method": "Lh6/h;->j()Lg8/s0;",
+      "evidence": {
+        "method": "Lh6/h;->j()Lg8/s0;",
+        "dex": "classes2.dex",
+        "location": {
+          "method_index": 21895,
+          "code_item_offset": 3198388,
+          "insns_offset": 3198404,
+          "code_units": 101,
+          "access_flags": 9
+        },
+        "instruction_sha256": "e2b9c6a9182dc246d2cadf77e5cf390fe28b2338a835638f98c7d31f34027aa1"
+      },
+      "explicit_callers": [
+        {
+          "caller": "Lh6/h;->k()Loa/v0;",
+          "dex": "classes2.dex",
+          "cu": 19
+        }
+      ],
+      "input": "embedded encoded strings (values not decoded/exported) -> byte/character helper -> colon concatenation",
+      "parameters": "Base64 decoding and encoding, flags0/2; not encryption",
+      "output_consumer": "h6/c interceptor -> HTTP Authorization header",
+      "interpretation": "Static header construction only; no service contacted or authentication tested",
+      "supporting_calls": [
+        {
+          "cu": 9,
+          "target": "Lg8/q0;-><init>()V"
+        },
+        {
+          "cu": 15,
+          "target": "Landroid/util/Base64;->decode(Ljava/lang/String;I)[B"
+        },
+        {
+          "cu": 19,
+          "target": "LI5/d;->a([B)Ljava/lang/String;"
+        },
+        {
+          "cu": 25,
+          "target": "Landroid/util/Base64;->decode(Ljava/lang/String;I)[B"
+        },
+        {
+          "cu": 29,
+          "target": "LI5/d;->a([B)Ljava/lang/String;"
+        },
+        {
+          "cu": 35,
+          "target": "Ljava/lang/StringBuilder;-><init>()V"
+        },
+        {
+          "cu": 38,
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+        },
+        {
+          "cu": 43,
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+        },
+        {
+          "cu": 46,
+          "target": "Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+        },
+        {
+          "cu": 49,
+          "target": "Ljava/lang/StringBuilder;->toString()Ljava/lang/String;"
+        },
+        {
+          "cu": 53,
+          "target": "Ljava/lang/String;->getBytes()[B"
+        },
+        {
+          "cu": 58,
+          "target": "Landroid/util/Base64;->encodeToString([BI)Ljava/lang/String;"
+        },
+        {
+          "cu": 66,
+          "target": "Lg8/q0;->a(JLjava/util/concurrent/TimeUnit;)V"
+        },
+        {
+          "cu": 72,
+          "target": "Lh6/c;-><init>(Ljava/lang/String;I)V"
+        },
+        {
+          "cu": 77,
+          "target": "Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z"
+        },
+        {
+          "cu": 80,
+          "target": "Lg8/q0;->b(JLjava/util/concurrent/TimeUnit;)V"
+        },
+        {
+          "cu": 83,
+          "target": "Lg8/q0;->d(JLjava/util/concurrent/TimeUnit;)V"
+        },
+        {
+          "cu": 88,
+          "target": "Lg8/s0;-><init>(Lg8/q0;)V"
+        }
+      ],
+      "status": "verified bounded static consumer; runtime execution not tested"
+    },
+    {
+      "id": "printable_ascii_filter",
+      "method": "LI5/d;->a([B)Ljava/lang/String;",
+      "evidence": {
+        "method": "LI5/d;->a([B)Ljava/lang/String;",
+        "dex": "classes2.dex",
+        "location": {
+          "method_index": 5627,
+          "code_item_offset": 1427792,
+          "insns_offset": 1427808,
+          "code_units": 35,
+          "access_flags": 9
+        },
+        "instruction_sha256": "b9c591d8cd3daf43994f7ea7b720d22d9a4674d07748a5968e230831cc281fa9"
+      },
+      "explicit_callers": [
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/t0;->b(Ljava/lang/String;)LV2/I;",
+          "dex": "classes2.dex",
+          "cu": 7
+        },
+        {
+          "caller": "Lcom/panasonic/jp/lumixlab/util/t0;->b(Ljava/lang/String;)LV2/I;",
+          "dex": "classes2.dex",
+          "cu": 17
+        },
+        {
+          "caller": "Lh6/h;->j()Lg8/s0;",
+          "dex": "classes2.dex",
+          "cu": 19
+        },
+        {
+          "caller": "Lh6/h;->j()Lg8/s0;",
+          "dex": "classes2.dex",
+          "cu": 29
+        },
+        {
+          "caller": "Lz5/M1;->c([B)V",
+          "dex": "classes2.dex",
+          "cu": 179
+        },
+        {
+          "caller": "Lz5/M1;->c([B)V",
+          "dex": "classes2.dex",
+          "cu": 1092
+        },
+        {
+          "caller": "Lz5/M1;->c([B)V",
+          "dex": "classes2.dex",
+          "cu": 1128
+        },
+        {
+          "caller": "Lz5/M1;->c([B)V",
+          "dex": "classes2.dex",
+          "cu": 1150
+        }
+      ],
+      "input": "byte[] method parameter",
+      "parameters": "Stop on first NUL; retain only signed-byte values 33..126, append as char",
+      "output_consumer": "String return used by h6/h.j and util/t0.b before header encoding",
+      "interpretation": "Filtering conversion, not a general UTF-8 decoder or cryptographic transform",
+      "supporting_calls": [
+        {
+          "cu": 2,
+          "target": "Ljava/lang/StringBuilder;-><init>()V"
+        },
+        {
+          "cu": 24,
+          "target": "Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;"
+        },
+        {
+          "cu": 30,
+          "target": "Ljava/lang/StringBuilder;->toString()Ljava/lang/String;"
+        }
+      ],
+      "status": "verified bounded static consumer; runtime execution not tested"
+    }
+  ],
+  "validation": "Each reviewed flow links original method SHA/code_item, independent invoke target/register checks, exact callees and upstream caller references. Input semantics reviewed against selected raw DEX; no original application execution or secret-value extraction."
+}

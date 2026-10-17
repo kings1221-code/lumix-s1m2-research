@@ -1,0 +1,24 @@
+{
+  "baseline": "0de47d702ef058cea3b39dabf521a7754f0003a1",
+  "private_metadata_inputs": [
+    {
+      "token": ".research-local/stage1/dex_index_v2.jsonl",
+      "size": 76342957,
+      "sha256": "e419e71f1a98068951311cf36a3effeab7eabd6e9ef35682051a117090e498e1"
+    },
+    {
+      "token": ".research-local/stage1/elf_inventory.json",
+      "size": 5219458,
+      "sha256": "f9135a1e6eed6ba3750d511b6be3d25e1d1eb0d6546d09c530a1eec73e03910e"
+    }
+  ],
+  "tools": {
+    "JADX": "1.5.6 (dexlib2)",
+    "Java": "25.0.4.1",
+    "Ghidra": "12.1.4",
+    "Python": "3.12.14",
+    "pyelftools": "0.33",
+    "Capstone": "5.0.9"
+  },
+  "limits": "Private metadata identities only; contents/binaries not published. Source sample identities separately rechecked; original publisher trust not newly revalidated."
+}

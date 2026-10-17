@@ -1,0 +1,257 @@
+{
+  "version": "3.1.0 versionCode 22",
+  "inputs": [
+    {
+      "kind": "APK",
+      "path_token": "<SOURCE_ROOT>/apk/com.panasonic.jp.lumixlab-22.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 189845077,
+      "sha256": "6ba873110d201675a905f7dac39bcda3291674e7440a484d6d5bd1a78447115f",
+      "provenance": "existing Google Play delivery record; no fresh publisher/signature attestation",
+      "status": "verified_sha256_reference",
+      "github_binary_present": false
+    },
+    {
+      "kind": "APK",
+      "path_token": "<SOURCE_ROOT>/apk/com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 42944168,
+      "sha256": "4e1a4fcbb9321bacfce69b6719146b5f8b249d5d9dded72044d23b99903fcdb4",
+      "provenance": "existing Google Play delivery record; no fresh publisher/signature attestation",
+      "status": "verified_sha256_reference",
+      "github_binary_present": false
+    },
+    {
+      "kind": "APK",
+      "path_token": "<SOURCE_ROOT>/apk/com.panasonic.jp.lumixlab-22-config.en.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 78233,
+      "sha256": "6288e4ea41dce76389814d191eb39afed7a5171d8f80116612c0f23fe98e6ca5",
+      "provenance": "existing Google Play delivery record; no fresh publisher/signature attestation",
+      "status": "verified_sha256_reference",
+      "github_binary_present": false
+    },
+    {
+      "kind": "APK",
+      "path_token": "<SOURCE_ROOT>/apk/com.panasonic.jp.lumixlab-22-config.xxhdpi.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 9983302,
+      "sha256": "6b62ec477edfa3673b87c7f361721fb4707a3c2d313d45c70ada1c8774515b39",
+      "provenance": "existing Google Play delivery record; no fresh publisher/signature attestation",
+      "status": "verified_sha256_reference",
+      "github_binary_present": false
+    },
+    {
+      "kind": "APK",
+      "path_token": "<SOURCE_ROOT>/apk/com.panasonic.jp.lumixlab-22-config.zh.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 205209,
+      "sha256": "626fab49109927bba388a81370b80d509717424033a7caedfb7b96e2557ca18f",
+      "provenance": "existing Google Play delivery record; no fresh publisher/signature attestation",
+      "status": "verified_sha256_reference",
+      "github_binary_present": false
+    },
+    {
+      "kind": "DEX",
+      "member": "classes.dex",
+      "container": "com.panasonic.jp.lumixlab-22.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 7341852,
+      "sha256": "02782fe6cf962788d1e5e76f707fc9d5e45669c205eaafee9bb8c50f2f5810ff",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false
+    },
+    {
+      "kind": "DEX",
+      "member": "classes2.dex",
+      "container": "com.panasonic.jp.lumixlab-22.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 5047724,
+      "sha256": "4147c194d9814bac0f83e2120705b6e03524a3425d2492eafdbf547898736552",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libavcodec.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 7377464,
+      "sha256": "4bcd087282fe141181be4cb770218d94f1f924f2a99a6770ce36a91d22d1e9aa",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libavformat.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 1461856,
+      "sha256": "4d364b5e2855c8e828eb02474c3cec47b8801f88a59c8625dc64a260604eaa79",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libavutil.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 491368,
+      "sha256": "3676eb0ed26d540287ab8470c8abe618153afc45258451298b5d4ffd18ff010b",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libc++_shared.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 1374336,
+      "sha256": "c4c2fe5cbcb1fba0003a31fc7ab29a9bb12df6cc187ec45a806462540e83d93b",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libcrypto.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 2676640,
+      "sha256": "49db5bf9fdee2c87209085717497ac604b8768d589df32a85d8124c3f7604b4a",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libcube_merge.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 11976,
+      "sha256": "91c35f56413f0e6fd8108000104a4270b6beee64121bfd954ada56e510c03d2f",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libde265.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 1329336,
+      "sha256": "546563ccbc766ed8015a980d163e85af52af54f2eb193e1bb2e7471f04970d58",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libffmpeg_mediametadataretriever_jni.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 58720,
+      "sha256": "dfd412e3103b203ed96adbbf30e2c70053afdeaf172c1a5cc9a8b849ff9ee471",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libheif.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 994704,
+      "sha256": "e229d1a052a48ceb6defe47570ee6a448bf3c461205132580e4a52c961df8e83",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libllc.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 104008,
+      "sha256": "7433d705215bb92e7a87b9005277127e5851c7a4638ca8f6a3db17d2a00927df",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libonnxruntime.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 18214224,
+      "sha256": "3fc3e79539f06f67360a810e60eb5c513db5febc16f7bc71e5d9e8ce39e3d775",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libonnxruntime4j_jni.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 75720,
+      "sha256": "adcaf5e11ff65ad7b54725b2869118568b14ce2f3596d1b6f082ed0c774f2539",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libssl.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 590168,
+      "sha256": "f8be5421e9186804504bd4f74e76fe23b71af401d311b559479500f227fd24ec",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libswscale.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 350224,
+      "sha256": "f381b19a9947ac25acb95e91c539ff31c634fca2ca70939b4bb8afb36c85b581",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libtechorfilter.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 6340624,
+      "sha256": "03e1c4e11e86012e03faf025fd566be79df3fc75ee28d38433d676a959b3d25f",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libyuv-decoder.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 6216,
+      "sha256": "ed3709f2b4b425746befbc6c6aab2235446ecbb37a33647b030828d8c6688dcf",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libyuv.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 403888,
+      "sha256": "987926e77bddb9880e16dfb11201d6fb0429c4ff462a74e0bd0965b3de4d85c3",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false
+    },
+    {
+      "kind": "ELF_ARM64",
+      "member": "lib/arm64-v8a/libyuv_android.so",
+      "container": "com.panasonic.jp.lumixlab-22-config.arm64_v8a.apk",
+      "version": "3.1.0 versionCode 22",
+      "size": 899360,
+      "sha256": "dab061cb65b5b86318c5a01b2c47ac6da7da064421a5c9ef71b71123b0df5809",
+      "status": "verified_again_after_analysis; matches verified APK member",
+      "github_binary_present": false
+    }
+  ],
+  "all_25_rechecked": true,
+  "boundary": "Existing delivery lineage retained; no new publisher signature trust validation."
+}

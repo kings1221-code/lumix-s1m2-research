@@ -1,0 +1,4888 @@
+{
+  "candidates": [
+    {
+      "caller": "LA/o;->g(Landroid/view/View;Ljava/lang/String;)V",
+      "dex": "classes.dex",
+      "offset_cu": 137,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LA/o;->g(Landroid/view/View;Ljava/lang/String;)V",
+      "dex": "classes.dex",
+      "offset_cu": 170,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LA/o;->g(Landroid/view/View;Ljava/lang/String;)V",
+      "dex": "classes.dex",
+      "offset_cu": 199,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LA/o;->g(Landroid/view/View;Ljava/lang/String;)V",
+      "dex": "classes.dex",
+      "offset_cu": 224,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LA/o;->g(Landroid/view/View;Ljava/lang/String;)V",
+      "dex": "classes.dex",
+      "offset_cu": 245,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LA/o;->g(Landroid/view/View;Ljava/lang/String;)V",
+      "dex": "classes.dex",
+      "offset_cu": 270,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LA/o;->g(Landroid/view/View;Ljava/lang/String;)V",
+      "dex": "classes.dex",
+      "offset_cu": 295,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LA/o;->g(Landroid/view/View;Ljava/lang/String;)V",
+      "dex": "classes.dex",
+      "offset_cu": 498,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LB/c;->e(Landroid/view/View;Ljava/util/HashMap;)V",
+      "dex": "classes.dex",
+      "offset_cu": 82,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LB/c;->e(Landroid/view/View;Ljava/util/HashMap;)V",
+      "dex": "classes.dex",
+      "offset_cu": 115,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LB/c;->e(Landroid/view/View;Ljava/util/HashMap;)V",
+      "dex": "classes.dex",
+      "offset_cu": 139,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LB/c;->e(Landroid/view/View;Ljava/util/HashMap;)V",
+      "dex": "classes.dex",
+      "offset_cu": 167,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LB/c;->e(Landroid/view/View;Ljava/util/HashMap;)V",
+      "dex": "classes.dex",
+      "offset_cu": 192,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LB/c;->e(Landroid/view/View;Ljava/util/HashMap;)V",
+      "dex": "classes.dex",
+      "offset_cu": 213,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LB/c;->e(Landroid/view/View;Ljava/util/HashMap;)V",
+      "dex": "classes.dex",
+      "offset_cu": 238,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LB/c;->e(Landroid/view/View;Ljava/util/HashMap;)V",
+      "dex": "classes.dex",
+      "offset_cu": 263,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LB/r;->e(Landroidx/constraintlayout/widget/ConstraintLayout;)V",
+      "dex": "classes.dex",
+      "offset_cu": 181,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LC0/Q;->u(Ljava/lang/String;)Ljava/lang/String;",
+      "dex": "classes.dex",
+      "offset_cu": 2,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "android.os.SystemProperties"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "android.os.SystemProperties"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LC0/Q;->u(Ljava/lang/String;)Ljava/lang/String;",
+      "dex": "classes.dex",
+      "offset_cu": 22,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "method",
+        "Landroid/os/SystemProperties;",
+        "get"
+      ],
+      "argument_facts": [
+        [
+          "method",
+          "Landroid/os/SystemProperties;",
+          "get"
+        ],
+        [
+          "class",
+          "Landroid/os/SystemProperties;"
+        ],
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LD/f;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V",
+      "dex": "classes.dex",
+      "offset_cu": 193,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        [
+          "int",
+          0
+        ],
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LD0/o;->j(LD0/m;)J",
+      "dex": "classes.dex",
+      "offset_cu": 114,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "androidx.media3.datasource.rtmp.RtmpDataSource"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "androidx.media3.datasource.rtmp.RtmpDataSource"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LD0/t;->t(Ljava/net/HttpURLConnection;J)V",
+      "dex": "classes.dex",
+      "offset_cu": 84,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LE4/f;->get()Ljava/lang/Object;",
+      "dex": "classes.dex",
+      "offset_cu": 33,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LF/c;->b(Landroid/app/Activity;Ljava/lang/String;)Z",
+      "dex": "classes.dex",
+      "offset_cu": 26,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "method",
+        "Landroid/content/pm/PackageManager;",
+        "shouldShowRequestPermissionRationale"
+      ],
+      "argument_facts": [
+        [
+          "method",
+          "Landroid/content/pm/PackageManager;",
+          "shouldShowRequestPermissionRationale"
+        ],
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lz0/m0;-><init>(Landroid/os/Bundle;)V",
+      "dex": "classes.dex",
+      "offset_cu": 32,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        [
+          "int",
+          1
+        ],
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LG0/g;->c()Ljava/lang/reflect/Constructor;",
+      "dex": "classes.dex",
+      "offset_cu": 10,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "androidx.media3.decoder.midi.MidiExtractor"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "androidx.media3.decoder.midi.MidiExtractor"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LG0/g;->c()Ljava/lang/reflect/Constructor;",
+      "dex": "classes.dex",
+      "offset_cu": 27,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "androidx.media3.decoder.flac.FlacLibrary"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "androidx.media3.decoder.flac.FlacLibrary"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LG0/g;->c()Ljava/lang/reflect/Constructor;",
+      "dex": "classes.dex",
+      "offset_cu": 37,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "method",
+        "Landroidx/media3/decoder/flac/FlacLibrary;",
+        "isAvailable"
+      ],
+      "argument_facts": [
+        [
+          "method",
+          "Landroidx/media3/decoder/flac/FlacLibrary;",
+          "isAvailable"
+        ],
+        [
+          "int",
+          0
+        ],
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LG0/g;->c()Ljava/lang/reflect/Constructor;",
+      "dex": "classes.dex",
+      "offset_cu": 49,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "androidx.media3.decoder.flac.FlacExtractor"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "androidx.media3.decoder.flac.FlacExtractor"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LH0/O;->t0()V",
+      "dex": "classes.dex",
+      "offset_cu": 538,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LH1/c;->a(Landroidx/lifecycle/A;Landroidx/lifecycle/t;)V",
+      "dex": "classes.dex",
+      "offset_cu": 59,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        [
+          "int",
+          0
+        ],
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LJ/l;->isProjected()Z",
+      "dex": "classes.dex",
+      "offset_cu": 9,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LL0/q;->a(I)Lv4/P;",
+      "dex": "classes.dex",
+      "offset_cu": 55,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "androidx.media3.exoplayer.rtsp.RtspMediaSource$Factory"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "androidx.media3.exoplayer.rtsp.RtspMediaSource$Factory"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LL0/q;->a(I)Lv4/P;",
+      "dex": "classes.dex",
+      "offset_cu": 72,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "androidx.media3.exoplayer.hls.HlsMediaSource$Factory"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "androidx.media3.exoplayer.hls.HlsMediaSource$Factory"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LL0/q;->a(I)Lv4/P;",
+      "dex": "classes.dex",
+      "offset_cu": 89,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "androidx.media3.exoplayer.smoothstreaming.SsMediaSource$Factory"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "androidx.media3.exoplayer.smoothstreaming.SsMediaSource$Factory"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LL0/q;->a(I)Lv4/P;",
+      "dex": "classes.dex",
+      "offset_cu": 105,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "androidx.media3.exoplayer.dash.DashMediaSource$Factory"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "androidx.media3.exoplayer.dash.DashMediaSource$Factory"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LM1/a;->a(Landroid/os/Bundle;)V",
+      "dex": "classes.dex",
+      "offset_cu": 49,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LN1/a;->a()Z",
+      "dex": "classes.dex",
+      "offset_cu": 57,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        [
+          "int",
+          0
+        ],
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LQ/D0;-><clinit>()V",
+      "dex": "classes.dex",
+      "offset_cu": 16,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "android.view.View$AttachInfo"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "android.view.View$AttachInfo"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LQ1/c;->b(Ljava/lang/Class;)Ljava/lang/Class;",
+      "dex": "classes.dex",
+      "offset_cu": 57,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        [
+          "int",
+          0
+        ],
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LQ1/c;->c(Ljava/lang/String;)Ljava/lang/reflect/Method;",
+      "dex": "classes.dex",
+      "offset_cu": 21,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        [
+          "int",
+          1
+        ],
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LQ1/c;->m()LQ1/e;",
+      "dex": "classes.dex",
+      "offset_cu": 20,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        [
+          "int",
+          0
+        ],
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LQ1/c;->v(LQ1/e;)V",
+      "dex": "classes.dex",
+      "offset_cu": 38,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        [
+          "int",
+          0
+        ],
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Landroidx/recyclerview/widget/RecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V",
+      "dex": "classes.dex",
+      "offset_cu": 584,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "declared third-party namespace: Landroidx/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        [
+          "int",
+          0
+        ],
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LW/u;->onPrepareActionMode(Landroid/view/ActionMode;Landroid/view/Menu;)Z",
+      "dex": "classes.dex",
+      "offset_cu": 22,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "com.android.internal.view.menu.MenuBuilder"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "com.android.internal.view.menu.MenuBuilder"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LW/u;->onPrepareActionMode(Landroid/view/ActionMode;Landroid/view/Menu;)Z",
+      "dex": "classes.dex",
+      "offset_cu": 120,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "La5/d;->b(Ljava/lang/Class;)Ljava/lang/reflect/Constructor;",
+      "dex": "classes.dex",
+      "offset_cu": 3,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "La5/d;->b(Ljava/lang/Class;)Ljava/lang/reflect/Constructor;",
+      "dex": "classes.dex",
+      "offset_cu": 20,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "La5/d;->c(Ljava/lang/Class;)[Ljava/lang/String;",
+      "dex": "classes.dex",
+      "offset_cu": 3,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "La5/d;->c(Ljava/lang/Class;)[Ljava/lang/String;",
+      "dex": "classes.dex",
+      "offset_cu": 20,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "La5/d;->d(Ljava/lang/Class;)Z",
+      "dex": "classes.dex",
+      "offset_cu": 3,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lai/onnxruntime/OnnxRuntime;->load(Ljava/lang/String;)V",
+      "dex": "classes.dex",
+      "offset_cu": 6,
+      "target": "Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V",
+      "category": "ONNX native loader",
+      "namespace": "declared third-party namespace: Lai/onnxruntime/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lai/onnxruntime/OnnxRuntime;->load(Ljava/lang/String;)V",
+      "dex": "classes.dex",
+      "offset_cu": 136,
+      "target": "Ljava/lang/System;->load(Ljava/lang/String;)V",
+      "category": "ONNX native loader",
+      "namespace": "declared third-party namespace: Lai/onnxruntime/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lai/onnxruntime/OnnxRuntime;->load(Ljava/lang/String;)V",
+      "dex": "classes.dex",
+      "offset_cu": 217,
+      "target": "Ljava/lang/System;->load(Ljava/lang/String;)V",
+      "category": "ONNX native loader",
+      "namespace": "declared third-party namespace: Lai/onnxruntime/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lai/onnxruntime/OnnxRuntime;->load(Ljava/lang/String;)V",
+      "dex": "classes.dex",
+      "offset_cu": 269,
+      "target": "Ljava/lang/System;->load(Ljava/lang/String;)V",
+      "category": "ONNX native loader",
+      "namespace": "declared third-party namespace: Lai/onnxruntime/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lai/onnxruntime/OnnxRuntime;->load(Ljava/lang/String;)V",
+      "dex": "classes.dex",
+      "offset_cu": 321,
+      "target": "Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V",
+      "category": "ONNX native loader",
+      "namespace": "declared third-party namespace: Lai/onnxruntime/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Landroidx/datastore/preferences/protobuf/E0;-><init>()V",
+      "dex": "classes.dex",
+      "offset_cu": 4,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "serialization reflection",
+      "namespace": "declared third-party namespace: Landroidx/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "androidx.datastore.preferences.protobuf.DescriptorMessageInfoFactory"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "androidx.datastore.preferences.protobuf.DescriptorMessageInfoFactory"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Landroidx/datastore/preferences/protobuf/E0;-><init>()V",
+      "dex": "classes.dex",
+      "offset_cu": 15,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "serialization reflection",
+      "namespace": "declared third-party namespace: Landroidx/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "method",
+        "Landroidx/datastore/preferences/protobuf/DescriptorMessageInfoFactory;",
+        "getInstance"
+      ],
+      "argument_facts": [
+        [
+          "method",
+          "Landroidx/datastore/preferences/protobuf/DescriptorMessageInfoFactory;",
+          "getInstance"
+        ],
+        [
+          "int",
+          0
+        ],
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Landroidx/datastore/preferences/protobuf/K0;-><clinit>()V",
+      "dex": "classes.dex",
+      "offset_cu": 3,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "serialization reflection",
+      "namespace": "declared third-party namespace: Landroidx/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "androidx.datastore.preferences.protobuf.MapFieldSchemaFull"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "androidx.datastore.preferences.protobuf.MapFieldSchemaFull"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Landroidx/datastore/preferences/protobuf/K;-><clinit>()V",
+      "dex": "classes.dex",
+      "offset_cu": 2,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "serialization reflection",
+      "namespace": "declared third-party namespace: Landroidx/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "androidx.datastore.preferences.protobuf.ExtensionRegistry"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "androidx.datastore.preferences.protobuf.ExtensionRegistry"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Landroidx/datastore/preferences/protobuf/M;-><clinit>()V",
+      "dex": "classes.dex",
+      "offset_cu": 2,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "serialization reflection",
+      "namespace": "declared third-party namespace: Landroidx/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "androidx.datastore.preferences.protobuf.Extension"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "androidx.datastore.preferences.protobuf.Extension"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Landroidx/datastore/preferences/protobuf/M;->a()Landroidx/datastore/preferences/protobuf/M;",
+      "dex": "classes.dex",
+      "offset_cu": 22,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "serialization reflection",
+      "namespace": "declared third-party namespace: Landroidx/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        [
+          "int",
+          0
+        ],
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Landroidx/datastore/preferences/protobuf/Q;-><clinit>()V",
+      "dex": "classes.dex",
+      "offset_cu": 10,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "serialization reflection",
+      "namespace": "declared third-party namespace: Landroidx/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "androidx.datastore.preferences.protobuf.ExtensionSchemaFull"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "androidx.datastore.preferences.protobuf.ExtensionSchemaFull"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Landroidx/datastore/preferences/protobuf/U0;-><clinit>()V",
+      "dex": "classes.dex",
+      "offset_cu": 3,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "serialization reflection",
+      "namespace": "declared third-party namespace: Landroidx/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "androidx.datastore.preferences.protobuf.NewInstanceSchemaFull"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "androidx.datastore.preferences.protobuf.NewInstanceSchemaFull"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Landroidx/datastore/preferences/protobuf/h0;->i(Ljava/lang/Class;)Landroidx/datastore/preferences/protobuf/h0;",
+      "dex": "classes.dex",
+      "offset_cu": 19,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;",
+      "category": "serialization reflection",
+      "namespace": "declared third-party namespace: Landroidx/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        [
+          "int",
+          1
+        ],
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Landroidx/datastore/preferences/protobuf/h0;->k(Ljava/lang/reflect/Method;Landroidx/datastore/preferences/protobuf/N0;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "dex": "classes.dex",
+      "offset_cu": 0,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "serialization reflection",
+      "namespace": "declared third-party namespace: Landroidx/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Landroidx/datastore/preferences/protobuf/e1;-><clinit>()V",
+      "dex": "classes.dex",
+      "offset_cu": 2,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "serialization reflection",
+      "namespace": "declared third-party namespace: Landroidx/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "androidx.datastore.preferences.protobuf.GeneratedMessageV3"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "androidx.datastore.preferences.protobuf.GeneratedMessageV3"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Landroidx/datastore/preferences/protobuf/e1;->A(Z)Landroidx/datastore/preferences/protobuf/t1;",
+      "dex": "classes.dex",
+      "offset_cu": 3,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "serialization reflection",
+      "namespace": "declared third-party namespace: Landroidx/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "androidx.datastore.preferences.protobuf.UnknownFieldSetSchema"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "androidx.datastore.preferences.protobuf.UnknownFieldSetSchema"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Landroidx/datastore/preferences/protobuf/e;-><clinit>()V",
+      "dex": "classes.dex",
+      "offset_cu": 3,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "serialization reflection",
+      "namespace": "declared third-party namespace: Landroidx/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "libcore.io.Memory"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "libcore.io.Memory"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Landroidx/datastore/preferences/protobuf/e;-><clinit>()V",
+      "dex": "classes.dex",
+      "offset_cu": 13,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "serialization reflection",
+      "namespace": "declared third-party namespace: Landroidx/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "org.robolectric.Robolectric"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "org.robolectric.Robolectric"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Landroidx/fragment/app/a0;->b(Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/lang/Class;",
+      "dex": "classes.dex",
+      "offset_cu": 28,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "declared third-party namespace: Landroidx/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        [
+          "int",
+          0
+        ],
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Landroidx/lifecycle/F;->b(Ljava/lang/Class;)I",
+      "dex": "classes.dex",
+      "offset_cu": 115,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "declared third-party namespace: Landroidx/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Landroidx/lifecycle/d;->a(Ljava/util/List;Landroidx/lifecycle/A;Landroidx/lifecycle/t;Ljava/lang/Object;)V",
+      "dex": "classes.dex",
+      "offset_cu": 35,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "declared third-party namespace: Landroidx/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Landroidx/lifecycle/d;->a(Ljava/util/List;Landroidx/lifecycle/A;Landroidx/lifecycle/t;Ljava/lang/Object;)V",
+      "dex": "classes.dex",
+      "offset_cu": 47,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "declared third-party namespace: Landroidx/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Landroidx/lifecycle/d;->a(Ljava/util/List;Landroidx/lifecycle/A;Landroidx/lifecycle/t;Ljava/lang/Object;)V",
+      "dex": "classes.dex",
+      "offset_cu": 52,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "declared third-party namespace: Landroidx/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/adobe/marketing/mobile/LocalNotificationHandler;->a(Landroid/content/Context;)Landroid/graphics/Bitmap;",
+      "dex": "classes.dex",
+      "offset_cu": 77,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "Adobe notification compatibility",
+      "namespace": "declared third-party namespace: Lcom/adobe/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "method",
+        "Landroid/content/res/Resources;",
+        "getDrawable"
+      ],
+      "argument_facts": [
+        [
+          "method",
+          "Landroid/content/res/Resources;",
+          "getDrawable"
+        ],
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/adobe/marketing/mobile/LocalNotificationHandler;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+      "dex": "classes.dex",
+      "offset_cu": 262,
+      "target": "Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "Adobe notification compatibility",
+      "namespace": "declared third-party namespace: Lcom/adobe/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "android.app.NotificationChannel"
+      ],
+      "argument_facts": [
+        null,
+        [
+          "str",
+          "android.app.NotificationChannel"
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/adobe/marketing/mobile/LocalNotificationHandler;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+      "dex": "classes.dex",
+      "offset_cu": 317,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "Adobe notification compatibility",
+      "namespace": "declared third-party namespace: Lcom/adobe/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "method",
+        "Landroid/app/NotificationChannel;",
+        "setDescription"
+      ],
+      "argument_facts": [
+        [
+          "method",
+          "Landroid/app/NotificationChannel;",
+          "setDescription"
+        ],
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/adobe/marketing/mobile/LocalNotificationHandler;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+      "dex": "classes.dex",
+      "offset_cu": 327,
+      "target": "Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "Adobe notification compatibility",
+      "namespace": "declared third-party namespace: Lcom/adobe/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "androidx.core.app.NotificationCompat$Builder"
+      ],
+      "argument_facts": [
+        null,
+        [
+          "str",
+          "androidx.core.app.NotificationCompat$Builder"
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/adobe/marketing/mobile/LocalNotificationHandler;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+      "dex": "classes.dex",
+      "offset_cu": 365,
+      "target": "Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "Adobe notification compatibility",
+      "namespace": "declared third-party namespace: Lcom/adobe/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "androidx.core.app.NotificationCompat$Style"
+      ],
+      "argument_facts": [
+        null,
+        [
+          "str",
+          "androidx.core.app.NotificationCompat$Style"
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/adobe/marketing/mobile/LocalNotificationHandler;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+      "dex": "classes.dex",
+      "offset_cu": 379,
+      "target": "Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "Adobe notification compatibility",
+      "namespace": "declared third-party namespace: Lcom/adobe/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "androidx.core.app.NotificationCompat$BigTextStyle"
+      ],
+      "argument_facts": [
+        null,
+        [
+          "str",
+          "androidx.core.app.NotificationCompat$BigTextStyle"
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/adobe/marketing/mobile/LocalNotificationHandler;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+      "dex": "classes.dex",
+      "offset_cu": 408,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "Adobe notification compatibility",
+      "namespace": "declared third-party namespace: Lcom/adobe/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "method",
+        "Landroidx/core/app/NotificationCompat$BigTextStyle;",
+        "bigText"
+      ],
+      "argument_facts": [
+        [
+          "method",
+          "Landroidx/core/app/NotificationCompat$BigTextStyle;",
+          "bigText"
+        ],
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/adobe/marketing/mobile/LocalNotificationHandler;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+      "dex": "classes.dex",
+      "offset_cu": 415,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "Adobe notification compatibility",
+      "namespace": "declared third-party namespace: Lcom/adobe/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "method",
+        "Landroidx/core/app/NotificationCompat$Builder;",
+        "setStyle"
+      ],
+      "argument_facts": [
+        [
+          "method",
+          "Landroidx/core/app/NotificationCompat$Builder;",
+          "setStyle"
+        ],
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/adobe/marketing/mobile/LocalNotificationHandler;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+      "dex": "classes.dex",
+      "offset_cu": 456,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "Adobe notification compatibility",
+      "namespace": "declared third-party namespace: Lcom/adobe/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "method",
+        "Landroidx/core/app/NotificationCompat$Builder;",
+        "setSmallIcon"
+      ],
+      "argument_facts": [
+        [
+          "method",
+          "Landroidx/core/app/NotificationCompat$Builder;",
+          "setSmallIcon"
+        ],
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/adobe/marketing/mobile/LocalNotificationHandler;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+      "dex": "classes.dex",
+      "offset_cu": 481,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "Adobe notification compatibility",
+      "namespace": "declared third-party namespace: Lcom/adobe/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "method",
+        "Landroidx/core/app/NotificationCompat$Builder;",
+        "setLargeIcon"
+      ],
+      "argument_facts": [
+        [
+          "method",
+          "Landroidx/core/app/NotificationCompat$Builder;",
+          "setLargeIcon"
+        ],
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/adobe/marketing/mobile/LocalNotificationHandler;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+      "dex": "classes.dex",
+      "offset_cu": 508,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "Adobe notification compatibility",
+      "namespace": "declared third-party namespace: Lcom/adobe/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "method",
+        "Landroidx/core/app/NotificationCompat$Builder;",
+        "setContentTitle"
+      ],
+      "argument_facts": [
+        [
+          "method",
+          "Landroidx/core/app/NotificationCompat$Builder;",
+          "setContentTitle"
+        ],
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/adobe/marketing/mobile/LocalNotificationHandler;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+      "dex": "classes.dex",
+      "offset_cu": 516,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "Adobe notification compatibility",
+      "namespace": "declared third-party namespace: Lcom/adobe/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "method",
+        "Landroidx/core/app/NotificationCompat$Builder;",
+        "setContentTitle"
+      ],
+      "argument_facts": [
+        [
+          "method",
+          "Landroidx/core/app/NotificationCompat$Builder;",
+          "setContentTitle"
+        ],
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/adobe/marketing/mobile/LocalNotificationHandler;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+      "dex": "classes.dex",
+      "offset_cu": 533,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "Adobe notification compatibility",
+      "namespace": "declared third-party namespace: Lcom/adobe/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "method",
+        "Landroidx/core/app/NotificationCompat$Builder;",
+        "setContentText"
+      ],
+      "argument_facts": [
+        [
+          "method",
+          "Landroidx/core/app/NotificationCompat$Builder;",
+          "setContentText"
+        ],
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/adobe/marketing/mobile/LocalNotificationHandler;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+      "dex": "classes.dex",
+      "offset_cu": 550,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "Adobe notification compatibility",
+      "namespace": "declared third-party namespace: Lcom/adobe/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "method",
+        "Landroidx/core/app/NotificationCompat$Builder;",
+        "setContentIntent"
+      ],
+      "argument_facts": [
+        [
+          "method",
+          "Landroidx/core/app/NotificationCompat$Builder;",
+          "setContentIntent"
+        ],
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/adobe/marketing/mobile/LocalNotificationHandler;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+      "dex": "classes.dex",
+      "offset_cu": 605,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "Adobe notification compatibility",
+      "namespace": "declared third-party namespace: Lcom/adobe/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "method",
+        "Landroidx/core/app/NotificationCompat$Builder;",
+        "setDeleteIntent"
+      ],
+      "argument_facts": [
+        [
+          "method",
+          "Landroidx/core/app/NotificationCompat$Builder;",
+          "setDeleteIntent"
+        ],
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/adobe/marketing/mobile/LocalNotificationHandler;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+      "dex": "classes.dex",
+      "offset_cu": 626,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "Adobe notification compatibility",
+      "namespace": "declared third-party namespace: Lcom/adobe/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "method",
+        "Landroidx/core/app/NotificationCompat$Builder;",
+        "setAutoCancel"
+      ],
+      "argument_facts": [
+        [
+          "method",
+          "Landroidx/core/app/NotificationCompat$Builder;",
+          "setAutoCancel"
+        ],
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/adobe/marketing/mobile/LocalNotificationHandler;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V",
+      "dex": "classes.dex",
+      "offset_cu": 636,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "Adobe notification compatibility",
+      "namespace": "declared third-party namespace: Lcom/adobe/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "method",
+        "Landroidx/core/app/NotificationCompat$Builder;",
+        "getNotification"
+      ],
+      "argument_facts": [
+        [
+          "method",
+          "Landroidx/core/app/NotificationCompat$Builder;",
+          "getNotification"
+        ],
+        null,
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/bumptech/glide/c;->a(Landroid/content/Context;)Lcom/bumptech/glide/c;",
+      "dex": "classes.dex",
+      "offset_cu": 10,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "com.bumptech.glide.GeneratedAppGlideModuleImpl"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "com.bumptech.glide.GeneratedAppGlideModuleImpl"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/android/gms/common/server/response/FastJsonResponse;->getFieldValue(Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;)Ljava/lang/Object;",
+      "dex": "classes.dex",
+      "offset_cu": 66,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "Google SDK reflection",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/android/gms/common/internal/BaseGmsClient;->zzo(Lcom/google/android/gms/common/internal/BaseGmsClient;)Z",
+      "dex": "classes.dex",
+      "offset_cu": 32,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "Google SDK reflection",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/android/gms/cloudmessaging/zzc;->loadClass(Ljava/lang/String;Z)Ljava/lang/Class;",
+      "dex": "classes.dex",
+      "offset_cu": 26,
+      "target": "Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;Z)Ljava/lang/Class;",
+      "category": "Google SDK reflection",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-super",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/android/gms/dynamic/RemoteCreator;->getRemoteCreatorInstance(Landroid/content/Context;)Ljava/lang/Object;",
+      "dex": "classes.dex",
+      "offset_cu": 19,
+      "target": "Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "Google SDK reflection",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/android/gms/common/util/WorkSourceUtil;-><clinit>()V",
+      "dex": "classes.dex",
+      "offset_cu": 127,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "Google SDK reflection",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "android.os.WorkSource$WorkChain"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "android.os.WorkSource$WorkChain"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/android/gms/common/util/WorkSourceUtil;->add(Landroid/os/WorkSource;ILjava/lang/String;)V",
+      "dex": "classes.dex",
+      "offset_cu": 20,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "Google SDK reflection",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/android/gms/common/util/WorkSourceUtil;->add(Landroid/os/WorkSource;ILjava/lang/String;)V",
+      "dex": "classes.dex",
+      "offset_cu": 41,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "Google SDK reflection",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/android/gms/common/util/WorkSourceUtil;->fromPackageAndModuleExperimentalPi(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Landroid/os/WorkSource;",
+      "dex": "classes.dex",
+      "offset_cu": 67,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "Google SDK reflection",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/android/gms/common/util/WorkSourceUtil;->fromPackageAndModuleExperimentalPi(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Landroid/os/WorkSource;",
+      "dex": "classes.dex",
+      "offset_cu": 83,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "Google SDK reflection",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/android/gms/common/util/WorkSourceUtil;->fromPackageAndModuleExperimentalPi(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Landroid/os/WorkSource;",
+      "dex": "classes.dex",
+      "offset_cu": 97,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "Google SDK reflection",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/android/gms/common/util/WorkSourceUtil;->get(Landroid/os/WorkSource;I)I",
+      "dex": "classes.dex",
+      "offset_cu": 12,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "Google SDK reflection",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/android/gms/common/util/WorkSourceUtil;->getName(Landroid/os/WorkSource;I)Ljava/lang/String;",
+      "dex": "classes.dex",
+      "offset_cu": 12,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "Google SDK reflection",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/android/gms/common/util/WorkSourceUtil;->isEmpty(Landroid/os/WorkSource;)Z",
+      "dex": "classes.dex",
+      "offset_cu": 5,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "Google SDK reflection",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/android/gms/common/util/WorkSourceUtil;->size(Landroid/os/WorkSource;)I",
+      "dex": "classes.dex",
+      "offset_cu": 5,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "Google SDK reflection",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/android/gms/common/wrappers/InstantApps;->isInstantApp(Landroid/content/Context;)Z",
+      "dex": "classes.dex",
+      "offset_cu": 56,
+      "target": "Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "Google SDK reflection",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "com.google.android.instantapps.supervisor.InstantAppsRuntime"
+      ],
+      "argument_facts": [
+        null,
+        [
+          "str",
+          "com.google.android.instantapps.supervisor.InstantAppsRuntime"
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/android/gms/dynamite/DynamiteModule;->getLocalVersion(Landroid/content/Context;Ljava/lang/String;)I",
+      "dex": "classes.dex",
+      "offset_cu": 32,
+      "target": "Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "Google external module/security provider",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/android/gms/dynamite/DynamiteModule;->zza(Landroid/content/Context;Ljava/lang/String;Z)I",
+      "dex": "classes.dex",
+      "offset_cu": 23,
+      "target": "Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "Google external module/security provider",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "com.google.android.gms.dynamite.DynamiteModule$DynamiteLoaderClassLoader"
+      ],
+      "argument_facts": [
+        null,
+        [
+          "str",
+          "com.google.android.gms.dynamite.DynamiteModule$DynamiteLoaderClassLoader"
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/android/gms/dynamite/DynamiteModule;->zzd(Ljava/lang/ClassLoader;)V",
+      "dex": "classes.dex",
+      "offset_cu": 3,
+      "target": "Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "Google external module/security provider",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "com.google.android.gms.dynamiteloader.DynamiteLoaderV2"
+      ],
+      "argument_facts": [
+        null,
+        [
+          "str",
+          "com.google.android.gms.dynamiteloader.DynamiteLoaderV2"
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/android/gms/dynamite/DynamiteModule;->zzg(Landroid/content/Context;)Lcom/google/android/gms/dynamite/zzq;",
+      "dex": "classes.dex",
+      "offset_cu": 27,
+      "target": "Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "Google external module/security provider",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "com.google.android.gms.chimera.container.DynamiteLoaderImpl"
+      ],
+      "argument_facts": [
+        null,
+        [
+          "str",
+          "com.google.android.gms.chimera.container.DynamiteLoaderImpl"
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/android/gms/dynamite/DynamiteModule;->instantiate(Ljava/lang/String;)Landroid/os/IBinder;",
+      "dex": "classes.dex",
+      "offset_cu": 6,
+      "target": "Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "Google external module/security provider",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/android/gms/dynamite/zzc;-><init>(Ljava/lang/String;Ljava/lang/ClassLoader;)V",
+      "dex": "classes.dex",
+      "offset_cu": 0,
+      "target": "Ldalvik/system/PathClassLoader;-><init>(Ljava/lang/String;Ljava/lang/ClassLoader;)V",
+      "category": "Google external module/security provider",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-direct",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/android/gms/dynamite/zzc;->loadClass(Ljava/lang/String;Z)Ljava/lang/Class;",
+      "dex": "classes.dex",
+      "offset_cu": 21,
+      "target": "Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;Z)Ljava/lang/Class;",
+      "category": "Google external module/security provider",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-super",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/android/gms/internal/auth/zzcp;->zza(Landroid/content/Context;)Lcom/google/android/gms/internal/auth/zzdh;",
+      "dex": "classes.dex",
+      "offset_cu": 358,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "Google SDK reflection",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "method",
+        "Ljava/lang/Throwable;",
+        "addSuppressed"
+      ],
+      "argument_facts": [
+        [
+          "method",
+          "Ljava/lang/Throwable;",
+          "addSuppressed"
+        ],
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/android/gms/internal/auth/zzeo;-><clinit>()V",
+      "dex": "classes.dex",
+      "offset_cu": 10,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "Google SDK reflection",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "com.google.protobuf.ExtensionSchemaFull"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "com.google.protobuf.ExtensionSchemaFull"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/android/gms/internal/auth/zzev;->zzb(Ljava/lang/Class;)Lcom/google/android/gms/internal/auth/zzev;",
+      "dex": "classes.dex",
+      "offset_cu": 19,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;",
+      "category": "Google SDK reflection",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        [
+          "int",
+          1
+        ],
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/android/gms/internal/auth/zzev;->zzg(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "dex": "classes.dex",
+      "offset_cu": 0,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "Google SDK reflection",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/android/gms/internal/auth/zzfp;-><init>()V",
+      "dex": "classes.dex",
+      "offset_cu": 8,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "Google SDK reflection",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "com.google.protobuf.DescriptorMessageInfoFactory"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "com.google.protobuf.DescriptorMessageInfoFactory"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/android/gms/internal/auth/zzfp;-><init>()V",
+      "dex": "classes.dex",
+      "offset_cu": 19,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "Google SDK reflection",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "method",
+        "Lcom/google/protobuf/DescriptorMessageInfoFactory;",
+        "getInstance"
+      ],
+      "argument_facts": [
+        [
+          "method",
+          "Lcom/google/protobuf/DescriptorMessageInfoFactory;",
+          "getInstance"
+        ],
+        [
+          "int",
+          0
+        ],
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/android/gms/internal/auth/zzft;-><clinit>()V",
+      "dex": "classes.dex",
+      "offset_cu": 3,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "Google SDK reflection",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "com.google.protobuf.MapFieldSchemaFull"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "com.google.protobuf.MapFieldSchemaFull"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/android/gms/internal/auth/zzgd;-><clinit>()V",
+      "dex": "classes.dex",
+      "offset_cu": 3,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "Google SDK reflection",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "com.google.protobuf.NewInstanceSchemaFull"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "com.google.protobuf.NewInstanceSchemaFull"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/android/gms/internal/auth/zzgk;-><clinit>()V",
+      "dex": "classes.dex",
+      "offset_cu": 3,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "Google SDK reflection",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "com.google.protobuf.GeneratedMessage"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "com.google.protobuf.GeneratedMessage"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/android/gms/internal/auth/zzgk;-><clinit>()V",
+      "dex": "classes.dex",
+      "offset_cu": 13,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "Google SDK reflection",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "com.google.protobuf.UnknownFieldSetSchema"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "com.google.protobuf.UnknownFieldSetSchema"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/android/gms/security/ProviderInstaller;->installIfNeeded(Landroid/content/Context;)V",
+      "dex": "classes.dex",
+      "offset_cu": 116,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "Google external module/security provider",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        [
+          "int",
+          0
+        ],
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/android/gms/security/ProviderInstaller;->zzb(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;",
+      "dex": "classes.dex",
+      "offset_cu": 4,
+      "target": "Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "Google external module/security provider",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/android/gms/security/ProviderInstaller;->zzc(Landroid/content/Context;Landroid/content/Context;Ljava/lang/String;)V",
+      "dex": "classes.dex",
+      "offset_cu": 28,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "Google external module/security provider",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        [
+          "int",
+          0
+        ],
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lg/V;->f(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Landroid/view/View;",
+      "dex": "classes.dex",
+      "offset_cu": 24,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        [
+          "int",
+          0
+        ],
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/api/client/googleapis/auth/oauth2/DefaultCredentialProvider;->useGAEStandardAPI()Z",
+      "dex": "classes.dex",
+      "offset_cu": 28,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "Google SDK reflection",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/api/client/googleapis/auth/oauth2/DefaultCredentialProvider;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "dex": "classes.dex",
+      "offset_cu": 0,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "Google SDK reflection",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/api/client/util/FieldInfo;->setValue(Ljava/lang/Object;Ljava/lang/Object;)V",
+      "dex": "classes.dex",
+      "offset_cu": 31,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "Google SDK reflection",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/api/client/util/IOUtils;->isSymbolicLink(Ljava/io/File;)Z",
+      "dex": "classes.dex",
+      "offset_cu": 2,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "Google SDK reflection",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "java.nio.file.Files"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "java.nio.file.Files"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/api/client/util/IOUtils;->isSymbolicLink(Ljava/io/File;)Z",
+      "dex": "classes.dex",
+      "offset_cu": 17,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "Google SDK reflection",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "method",
+        "Ljava/io/File;",
+        "toPath"
+      ],
+      "argument_facts": [
+        [
+          "method",
+          "Ljava/io/File;",
+          "toPath"
+        ],
+        null,
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/api/client/util/IOUtils;->isSymbolicLink(Ljava/io/File;)Z",
+      "dex": "classes.dex",
+      "offset_cu": 35,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "Google SDK reflection",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "method",
+        "Ljava/nio/file/Files;",
+        "isSymbolicLink"
+      ],
+      "argument_facts": [
+        [
+          "method",
+          "Ljava/nio/file/Files;",
+          "isSymbolicLink"
+        ],
+        [
+          "int",
+          0
+        ],
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/gson/internal/M;->a(Ljava/lang/Object;Ljava/lang/reflect/AccessibleObject;)Z",
+      "dex": "classes.dex",
+      "offset_cu": 6,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "Google SDK reflection",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/gson/internal/W;-><clinit>()V",
+      "dex": "classes.dex",
+      "offset_cu": 10,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "Google SDK reflection",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "sun.misc.Unsafe"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "sun.misc.Unsafe"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/gson/internal/W;-><clinit>()V",
+      "dex": "classes.dex",
+      "offset_cu": 62,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "Google SDK reflection",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "method",
+        "Ljava/io/ObjectStreamClass;",
+        "getConstructorId"
+      ],
+      "argument_facts": [
+        [
+          "method",
+          "Ljava/io/ObjectStreamClass;",
+          "getConstructorId"
+        ],
+        [
+          "int",
+          0
+        ],
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/gson/internal/S;->a(Ljava/lang/Class;)Ljava/lang/Object;",
+      "dex": "classes.dex",
+      "offset_cu": 14,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "Google SDK reflection",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/gson/internal/T;->a(Ljava/lang/Class;)Ljava/lang/Object;",
+      "dex": "classes.dex",
+      "offset_cu": 19,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "Google SDK reflection",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        [
+          "int",
+          0
+        ],
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/gson/internal/U;->a(Ljava/lang/Class;)Ljava/lang/Object;",
+      "dex": "classes.dex",
+      "offset_cu": 15,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "Google SDK reflection",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        [
+          "int",
+          0
+        ],
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/gson/internal/bind/k;->c(Lc5/d;Ljava/lang/Object;)V",
+      "dex": "classes.dex",
+      "offset_cu": 25,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "Google SDK reflection",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/google/gson/internal/sql/c;-><clinit>()V",
+      "dex": "classes.dex",
+      "offset_cu": 2,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "Google SDK reflection",
+      "namespace": "declared third-party namespace: Lcom/google/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "java.sql.Date"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "java.sql.Date"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lf3/c;->a(Ljava/lang/String;)V",
+      "dex": "classes.dex",
+      "offset_cu": 0,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lg/P;->A()V",
+      "dex": "classes.dex",
+      "offset_cu": 297,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lg/P;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;",
+      "dex": "classes.dex",
+      "offset_cu": 41,
+      "target": "Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lg/U;->onClick(Landroid/view/View;)V",
+      "dex": "classes.dex",
+      "offset_cu": 131,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Li0/z;->a()Ljava/util/Set;",
+      "dex": "classes.dex",
+      "offset_cu": 2,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "android.text.EmojiConsistency"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "android.text.EmojiConsistency"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Li0/z;->a()Ljava/util/Set;",
+      "dex": "classes.dex",
+      "offset_cu": 13,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "method",
+        "Landroid/text/EmojiConsistency;",
+        "getEmojiConsistencySet"
+      ],
+      "argument_facts": [
+        [
+          "method",
+          "Landroid/text/EmojiConsistency;",
+          "getEmojiConsistencySet"
+        ],
+        [
+          "int",
+          0
+        ],
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lj/i;->onMenuItemClick(Landroid/view/MenuItem;)Z",
+      "dex": "classes.dex",
+      "offset_cu": 16,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lj/i;->onMenuItemClick(Landroid/view/MenuItem;)Z",
+      "dex": "classes.dex",
+      "offset_cu": 33,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lj/j;->a(Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "dex": "classes.dex",
+      "offset_cu": 9,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        [
+          "int",
+          0
+        ],
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lj/j;->b(Landroid/view/MenuItem;)V",
+      "dex": "classes.dex",
+      "offset_cu": 159,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lk0/d;-><init>()V",
+      "dex": "classes.dex",
+      "offset_cu": 12,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "android.text.DynamicLayout$ChangeWatcher"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "android.text.DynamicLayout$ChangeWatcher"
+        ],
+        [
+          "int",
+          0
+        ],
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Ll/H0;->onHoverEvent(Landroid/view/MotionEvent;)Z",
+      "dex": "classes.dex",
+      "offset_cu": 107,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Ll/H0;->onHoverEvent(Landroid/view/MotionEvent;)Z",
+      "dex": "classes.dex",
+      "offset_cu": 120,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Ll/H0;->onHoverEvent(Landroid/view/MotionEvent;)Z",
+      "dex": "classes.dex",
+      "offset_cu": 133,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lp2/g;->e()Ljava/lang/String;",
+      "dex": "classes.dex",
+      "offset_cu": 20,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lu3/n;->a(Ljava/lang/String;)Lcom/google/android/datatransport/cct/CctBackendFactory;",
+      "dex": "classes.dex",
+      "offset_cu": 161,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lv4/S;-><clinit>()V",
+      "dex": "classes.dex",
+      "offset_cu": 4,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "sun.misc.SharedSecrets"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "sun.misc.SharedSecrets"
+        ],
+        [
+          "int",
+          0
+        ],
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lv4/S;-><clinit>()V",
+      "dex": "classes.dex",
+      "offset_cu": 14,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "method",
+        "Lsun/misc/SharedSecrets;",
+        "getJavaLangAccess"
+      ],
+      "argument_facts": [
+        [
+          "method",
+          "Lsun/misc/SharedSecrets;",
+          "getJavaLangAccess"
+        ],
+        [
+          "int",
+          0
+        ],
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lv4/S;-><clinit>()V",
+      "dex": "classes.dex",
+      "offset_cu": 39,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "sun.misc.JavaLangAccess"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "sun.misc.JavaLangAccess"
+        ],
+        [
+          "int",
+          0
+        ],
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lv4/S;-><clinit>()V",
+      "dex": "classes.dex",
+      "offset_cu": 58,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "sun.misc.JavaLangAccess"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "sun.misc.JavaLangAccess"
+        ],
+        [
+          "int",
+          0
+        ],
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lv4/S;-><clinit>()V",
+      "dex": "classes.dex",
+      "offset_cu": 81,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lx1/M0;-><init>(Ljava/lang/Class;)V",
+      "dex": "classes.dex",
+      "offset_cu": 40,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lx1/O0;-><init>(Ljava/lang/Class;)V",
+      "dex": "classes.dex",
+      "offset_cu": 40,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lx1/v0;->c(Landroid/content/res/TypedArray;Landroid/content/res/Resources;I)Lx1/j;",
+      "dex": "classes.dex",
+      "offset_cu": 267,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lx1/v0;->c(Landroid/content/res/TypedArray;Landroid/content/res/Resources;I)Lx1/j;",
+      "dex": "classes.dex",
+      "offset_cu": 295,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lz/L;->e(FJLandroid/view/View;Lv/g;)Z",
+      "dex": "classes.dex",
+      "offset_cu": 60,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lz/b;->b(LB/c;Landroid/view/View;[F)V",
+      "dex": "classes.dex",
+      "offset_cu": 76,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lz/b;->b(LB/c;Landroid/view/View;[F)V",
+      "dex": "classes.dex",
+      "offset_cu": 118,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lz/b;->b(LB/c;Landroid/view/View;[F)V",
+      "dex": "classes.dex",
+      "offset_cu": 222,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lz/b;->b(LB/c;Landroid/view/View;[F)V",
+      "dex": "classes.dex",
+      "offset_cu": 310,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lz/b;->b(LB/c;Landroid/view/View;[F)V",
+      "dex": "classes.dex",
+      "offset_cu": 334,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lz/b;->b(LB/c;Landroid/view/View;[F)V",
+      "dex": "classes.dex",
+      "offset_cu": 359,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lz/h;->d(Landroid/view/View;F)V",
+      "dex": "classes.dex",
+      "offset_cu": 58,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lz/x;->d(Landroid/view/View;F)V",
+      "dex": "classes.dex",
+      "offset_cu": 58,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LA9/m;->e(Ljava/lang/String;)Lia/l;",
+      "dex": "classes2.dex",
+      "offset_cu": 39,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "TLS provider compatibility candidate",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LA9/r1;->run()Ljava/lang/Object;",
+      "dex": "classes2.dex",
+      "offset_cu": 10,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "TLS provider compatibility candidate",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LA9/r1;->run()Ljava/lang/Object;",
+      "dex": "classes2.dex",
+      "offset_cu": 15,
+      "target": "Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "TLS provider compatibility candidate",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LA9/s1;->run()Ljava/lang/Object;",
+      "dex": "classes2.dex",
+      "offset_cu": 10,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "TLS provider compatibility candidate",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LA9/s1;->run()Ljava/lang/Object;",
+      "dex": "classes2.dex",
+      "offset_cu": 15,
+      "target": "Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "TLS provider compatibility candidate",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LA9/t1;->run()Ljava/lang/Object;",
+      "dex": "classes2.dex",
+      "offset_cu": 10,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "TLS provider compatibility candidate",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LA9/t1;->run()Ljava/lang/Object;",
+      "dex": "classes2.dex",
+      "offset_cu": 15,
+      "target": "Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "TLS provider compatibility candidate",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LA9/u1;->run()Ljava/lang/Object;",
+      "dex": "classes2.dex",
+      "offset_cu": 10,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "TLS provider compatibility candidate",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LA9/u1;->run()Ljava/lang/Object;",
+      "dex": "classes2.dex",
+      "offset_cu": 15,
+      "target": "Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "TLS provider compatibility candidate",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LA9/v1;->run()Ljava/lang/Object;",
+      "dex": "classes2.dex",
+      "offset_cu": 11,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "TLS provider compatibility candidate",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LA9/v1;->run()Ljava/lang/Object;",
+      "dex": "classes2.dex",
+      "offset_cu": 16,
+      "target": "Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "TLS provider compatibility candidate",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LA9/w1;->run()Ljava/lang/Object;",
+      "dex": "classes2.dex",
+      "offset_cu": 6,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "TLS provider compatibility candidate",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LE7/a;->q()Ljava/lang/StackTraceElement;",
+      "dex": "classes2.dex",
+      "offset_cu": 99,
+      "target": "Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "java.lang.Module"
+      ],
+      "argument_facts": [
+        null,
+        [
+          "str",
+          "java.lang.Module"
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LE7/a;->q()Ljava/lang/StackTraceElement;",
+      "dex": "classes2.dex",
+      "offset_cu": 119,
+      "target": "Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "java.lang.module.ModuleDescriptor"
+      ],
+      "argument_facts": [
+        null,
+        [
+          "str",
+          "java.lang.module.ModuleDescriptor"
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LE7/a;->q()Ljava/lang/StackTraceElement;",
+      "dex": "classes2.dex",
+      "offset_cu": 152,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LE7/a;->q()Ljava/lang/StackTraceElement;",
+      "dex": "classes2.dex",
+      "offset_cu": 165,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LE7/a;->q()Ljava/lang/StackTraceElement;",
+      "dex": "classes2.dex",
+      "offset_cu": 178,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LG7/b;->a(Ljava/lang/Throwable;Ljava/lang/Throwable;)V",
+      "dex": "classes2.dex",
+      "offset_cu": 18,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LH5/j;->g(Landroid/bluetooth/BluetoothGatt;)Z",
+      "dex": "classes2.dex",
+      "offset_cu": 13,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LH7/a;-><clinit>()V",
+      "dex": "classes2.dex",
+      "offset_cu": 8,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "android.os.Build$VERSION"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "android.os.Build$VERSION"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LI7/a;-><clinit>()V",
+      "dex": "classes2.dex",
+      "offset_cu": 8,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "android.os.Build$VERSION"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "android.os.Build$VERSION"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LM7/v;-><clinit>()V",
+      "dex": "classes2.dex",
+      "offset_cu": 3,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "kotlin.reflect.jvm.internal.ReflectionFactoryImpl"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "kotlin.reflect.jvm.internal.ReflectionFactoryImpl"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LP6/d;-><clinit>()V",
+      "dex": "classes2.dex",
+      "offset_cu": 7,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "io.grpc.override.ContextStorageOverride"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "io.grpc.override.ContextStorageOverride"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LT6/Y;-><clinit>()V",
+      "dex": "classes2.dex",
+      "offset_cu": 21,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "io.opentelemetry.opencensusshim.OpenTelemetryTraceComponentImpl"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "io.opentelemetry.opencensusshim.OpenTelemetryTraceComponentImpl"
+        ],
+        [
+          "int",
+          1
+        ],
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LT6/Y;-><clinit>()V",
+      "dex": "classes2.dex",
+      "offset_cu": 44,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "io.opencensus.impl.trace.TraceComponentImpl"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "io.opencensus.impl.trace.TraceComponentImpl"
+        ],
+        [
+          "int",
+          1
+        ],
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LT6/Y;-><clinit>()V",
+      "dex": "classes2.dex",
+      "offset_cu": 65,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "io.opencensus.impllite.trace.TraceComponentImplLite"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "io.opencensus.impllite.trace.TraceComponentImplLite"
+        ],
+        [
+          "int",
+          1
+        ],
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LV7/g;->a(Landroid/os/Looper;)Landroid/os/Handler;",
+      "dex": "classes2.dex",
+      "offset_cu": 19,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "method",
+        "Landroid/os/Handler;",
+        "createAsync"
+      ],
+      "argument_facts": [
+        [
+          "method",
+          "Landroid/os/Handler;",
+          "createAsync"
+        ],
+        [
+          "int",
+          0
+        ],
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "LW6/b;-><clinit>()V",
+      "dex": "classes2.dex",
+      "offset_cu": 21,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "io.opentelemetry.opencensusshim.OpenTelemetryContextManager"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "io.opentelemetry.opencensusshim.OpenTelemetryContextManager"
+        ],
+        [
+          "int",
+          1
+        ],
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/panasonic/jp/lumixlab/LlcApplication;-><clinit>()V",
+      "dex": "classes2.dex",
+      "offset_cu": 29,
+      "target": "Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V",
+      "category": "App native bootstrap",
+      "namespace": "Panasonic namespace",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "llc"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "llc"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/panasonic/jp/lumixlab/LlcApplication;-><clinit>()V",
+      "dex": "classes2.dex",
+      "offset_cu": 34,
+      "target": "Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V",
+      "category": "App native bootstrap",
+      "namespace": "Panasonic namespace",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "redacted_constant_sha256",
+        "4d8f7b477722e9dc1668268a7f8da0f5a84e3644a3c02ba0213c259d9d81f3af"
+      ],
+      "argument_facts": [
+        [
+          "redacted_constant_sha256",
+          "4d8f7b477722e9dc1668268a7f8da0f5a84e3644a3c02ba0213c259d9d81f3af"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/panasonic/jp/lumixlab/LlcApplication;-><clinit>()V",
+      "dex": "classes2.dex",
+      "offset_cu": 39,
+      "target": "Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V",
+      "category": "App native bootstrap",
+      "namespace": "Panasonic namespace",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "cube_merge"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "cube_merge"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/panasonic/jp/lumixlab/database/AppDatabase;->p(Landroid/content/Context;)Lcom/panasonic/jp/lumixlab/database/AppDatabase;",
+      "dex": "classes2.dex",
+      "offset_cu": 410,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;",
+      "category": "App Room generated implementation loading",
+      "namespace": "Panasonic namespace",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        [
+          "int",
+          1
+        ],
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/panasonic/jp/lumixlab/util/v;->R0()Z",
+      "dex": "classes2.dex",
+      "offset_cu": 53,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "App OS/Harmony compatibility",
+      "namespace": "Panasonic namespace",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "com.huawei.system.BuildEx"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "com.huawei.system.BuildEx"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/panasonic/jp/lumixlab/util/v;->R0()Z",
+      "dex": "classes2.dex",
+      "offset_cu": 64,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "App OS/Harmony compatibility",
+      "namespace": "Panasonic namespace",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "method",
+        "Lcom/huawei/system/BuildEx;",
+        "getOsBrand"
+      ],
+      "argument_facts": [
+        [
+          "method",
+          "Lcom/huawei/system/BuildEx;",
+          "getOsBrand"
+        ],
+        [
+          "class",
+          "Lcom/huawei/system/BuildEx;"
+        ],
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/panasonic/jp/lumixlab/util/v;->S0()Z",
+      "dex": "classes2.dex",
+      "offset_cu": 2,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "App OS/Harmony compatibility",
+      "namespace": "Panasonic namespace",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "android.os.SystemProperties"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "android.os.SystemProperties"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/panasonic/jp/lumixlab/util/v;->S0()Z",
+      "dex": "classes2.dex",
+      "offset_cu": 24,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "App OS/Harmony compatibility",
+      "namespace": "Panasonic namespace",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "method",
+        "Landroid/os/SystemProperties;",
+        "get"
+      ],
+      "argument_facts": [
+        [
+          "method",
+          "Landroid/os/SystemProperties;",
+          "get"
+        ],
+        [
+          "class",
+          "Landroid/os/SystemProperties;"
+        ],
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lcom/techor/techorfilter/ImageFilter;-><clinit>()V",
+      "dex": "classes2.dex",
+      "offset_cu": 2,
+      "target": "Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V",
+      "category": "image/media native bootstrap",
+      "namespace": "declared third-party namespace: Lcom/techor/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "techorfilter"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "techorfilter"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lio/github/crow_misia/libyuv/Yuv;-><clinit>()V",
+      "dex": "classes2.dex",
+      "offset_cu": 9,
+      "target": "Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V",
+      "category": "image/media native bootstrap",
+      "namespace": "declared third-party namespace: Lio/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "yuv_android"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "yuv_android"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Ljp/co/cyberagent/android/gpuimage/GPUImageNativeLibrary;-><clinit>()V",
+      "dex": "classes2.dex",
+      "offset_cu": 2,
+      "target": "Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V",
+      "category": "image/media native bootstrap",
+      "namespace": "declared third-party namespace: Ljp/co/cyberagent/",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "yuv-decoder"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "yuv-decoder"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Loa/t0;->invoke(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "dex": "classes2.dex",
+      "offset_cu": 8,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lq8/s;-><clinit>()V",
+      "dex": "classes2.dex",
+      "offset_cu": 295,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;",
+      "category": "HTTP/TLS platform compatibility candidate",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "org.eclipse.jetty.alpn.ALPN"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "org.eclipse.jetty.alpn.ALPN"
+        ],
+        [
+          "int",
+          1
+        ],
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lq8/s;-><clinit>()V",
+      "dex": "classes2.dex",
+      "offset_cu": 305,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;",
+      "category": "HTTP/TLS platform compatibility candidate",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        [
+          "int",
+          1
+        ],
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lq8/s;-><clinit>()V",
+      "dex": "classes2.dex",
+      "offset_cu": 315,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;",
+      "category": "HTTP/TLS platform compatibility candidate",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        [
+          "int",
+          1
+        ],
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lq8/s;-><clinit>()V",
+      "dex": "classes2.dex",
+      "offset_cu": 325,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;",
+      "category": "HTTP/TLS platform compatibility candidate",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        [
+          "int",
+          1
+        ],
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lq8/d;->a(Ljava/security/cert/X509Certificate;)Ljava/security/cert/X509Certificate;",
+      "dex": "classes2.dex",
+      "offset_cu": 13,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "HTTP/TLS platform compatibility candidate",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lq8/e;-><init>()V",
+      "dex": "classes2.dex",
+      "offset_cu": 17,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "HTTP/TLS platform compatibility candidate",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lq8/e;-><init>()V",
+      "dex": "classes2.dex",
+      "offset_cu": 27,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "HTTP/TLS platform compatibility candidate",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lq8/e;-><init>()V",
+      "dex": "classes2.dex",
+      "offset_cu": 37,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "HTTP/TLS platform compatibility candidate",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lq8/e;-><init>()V",
+      "dex": "classes2.dex",
+      "offset_cu": 161,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "HTTP/TLS platform compatibility candidate",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "dalvik.system.CloseGuard"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "dalvik.system.CloseGuard"
+        ]
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lq8/e;->g()Ljava/lang/Object;",
+      "dex": "classes2.dex",
+      "offset_cu": 12,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "HTTP/TLS platform compatibility candidate",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        [
+          "int",
+          0
+        ],
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lq8/e;->g()Ljava/lang/Object;",
+      "dex": "classes2.dex",
+      "offset_cu": 25,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "HTTP/TLS platform compatibility candidate",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lq8/e;->j(Ljava/lang/Object;Ljava/lang/String;)V",
+      "dex": "classes2.dex",
+      "offset_cu": 18,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "HTTP/TLS platform compatibility candidate",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lq8/g;-><clinit>()V",
+      "dex": "classes2.dex",
+      "offset_cu": 19,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;",
+      "category": "HTTP/TLS platform compatibility candidate",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "A9.m"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "A9.m"
+        ],
+        [
+          "int",
+          0
+        ],
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lq8/j;-><clinit>()V",
+      "dex": "classes2.dex",
+      "offset_cu": 17,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;",
+      "category": "HTTP/TLS platform compatibility candidate",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "org.conscrypt.Conscrypt$Version"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "org.conscrypt.Conscrypt$Version"
+        ],
+        [
+          "int",
+          0
+        ],
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lq8/k;->invoke(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "dex": "classes2.dex",
+      "offset_cu": 209,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "HTTP/TLS platform compatibility candidate",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lq8/m;->a(Ljavax/net/ssl/SSLSocket;)V",
+      "dex": "classes2.dex",
+      "offset_cu": 9,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "HTTP/TLS platform compatibility candidate",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        [
+          "int",
+          0
+        ],
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lq8/m;->d(Ljavax/net/ssl/SSLSocket;Ljava/lang/String;Ljava/util/List;)V",
+      "dex": "classes2.dex",
+      "offset_cu": 46,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "HTTP/TLS platform compatibility candidate",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        [
+          "int",
+          0
+        ],
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lq8/m;->f(Ljavax/net/ssl/SSLSocket;)Ljava/lang/String;",
+      "dex": "classes2.dex",
+      "offset_cu": 9,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "HTTP/TLS platform compatibility candidate",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        [
+          "int",
+          0
+        ],
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lq8/q;-><clinit>()V",
+      "dex": "classes2.dex",
+      "offset_cu": 19,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;",
+      "category": "HTTP/TLS platform compatibility candidate",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "exact literal target recovered",
+      "literal_target": [
+        "str",
+        "org.openjsse.net.ssl.OpenJSSE"
+      ],
+      "argument_facts": [
+        [
+          "str",
+          "org.openjsse.net.ssl.OpenJSSE"
+        ],
+        [
+          "int",
+          0
+        ],
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lr8/i;->b(Ljavax/net/ssl/SSLSocket;)Ljava/lang/String;",
+      "dex": "classes2.dex",
+      "offset_cu": 12,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "HTTP/TLS platform compatibility candidate",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        [
+          "int",
+          0
+        ]
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lr8/i;->d(Ljavax/net/ssl/SSLSocket;Ljava/lang/String;Ljava/util/List;)V",
+      "dex": "classes2.dex",
+      "offset_cu": 21,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "HTTP/TLS platform compatibility candidate",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lr8/i;->d(Ljavax/net/ssl/SSLSocket;Ljava/lang/String;Ljava/util/List;)V",
+      "dex": "classes2.dex",
+      "offset_cu": 32,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "HTTP/TLS platform compatibility candidate",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lr8/i;->d(Ljavax/net/ssl/SSLSocket;Ljava/lang/String;Ljava/util/List;)V",
+      "dex": "classes2.dex",
+      "offset_cu": 55,
+      "target": "Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "category": "HTTP/TLS platform compatibility candidate",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lt9/a;->run()Ljava/lang/Object;",
+      "dex": "classes2.dex",
+      "offset_cu": 2,
+      "target": "Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lt9/b;->a(Ljava/lang/String;)Ljava/lang/Class;",
+      "dex": "classes2.dex",
+      "offset_cu": 8,
+      "target": "Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;",
+      "category": "framework/obfuscated reflection; semantics pending",
+      "namespace": "obfuscated/other; ownership needs code evidence",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null,
+        null
+      ],
+      "opcode": "invoke-virtual",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    },
+    {
+      "caller": "Lwseemann/media/FFmpegMediaMetadataRetriever;-><clinit>()V",
+      "dex": "classes2.dex",
+      "offset_cu": 26,
+      "target": "Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V",
+      "category": "image/media native bootstrap",
+      "namespace": "declared third-party namespace: Lwseemann/",
+      "resolution": "target/runtime argument unresolved",
+      "literal_target": null,
+      "argument_facts": [
+        null
+      ],
+      "opcode": "invoke-static",
+      "method_target_signature_limit": "Reflection overload/argument-array types not inferred; class/name recovery is not runtime invocation proof."
+    }
+  ],
+  "category_counts": {
+    "framework/obfuscated reflection; semantics pending": 111,
+    "ONNX native loader": 5,
+    "serialization reflection": 14,
+    "Adobe notification compatibility": 17,
+    "Google SDK reflection": 39,
+    "Google external module/security provider": 10,
+    "TLS provider compatibility candidate": 12,
+    "App native bootstrap": 3,
+    "App Room generated implementation loading": 1,
+    "App OS/Harmony compatibility": 4,
+    "image/media native bootstrap": 4,
+    "HTTP/TLS platform compatibility candidate": 23
+  },
+  "resolution_counts": {
+    "target/runtime argument unresolved": 148,
+    "exact literal target recovered": 95
+  },
+  "method": "Worklist CFG constant intersection, switch and exception edges, const/move/class/forName/loadClass/getMethod/concat; computed fields/arrays/builders/interprocedural values remain unknown.",
+  "scope": "243 exact inherited candidates only; semantic category and exact target resolution are separate. All literal string values are filtered before publication."
+}

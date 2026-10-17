@@ -1,0 +1,296 @@
+{
+  "libraries": [
+    {
+      "library": "libavcodec.so",
+      "size": 7377464,
+      "sha256": "4bcd087282fe141181be4cb770218d94f1f924f2a99a6770ce36a91d22d1e9aa",
+      "exact_NUL_terminated_name_hits": {
+        "splitYuvArrayToYAndUv": [],
+        "nativeOnComplete": [],
+        "com/google/android/gms/tasks/NativeOnCompleteListener": []
+      },
+      "split_function_exact_RELA_addends": [],
+      "split_function_stored_uint64_hits": [],
+      "stored_pointer_scan_ranges": []
+    },
+    {
+      "library": "libavformat.so",
+      "size": 1461856,
+      "sha256": "4d364b5e2855c8e828eb02474c3cec47b8801f88a59c8625dc64a260604eaa79",
+      "exact_NUL_terminated_name_hits": {
+        "splitYuvArrayToYAndUv": [],
+        "nativeOnComplete": [],
+        "com/google/android/gms/tasks/NativeOnCompleteListener": []
+      },
+      "split_function_exact_RELA_addends": [],
+      "split_function_stored_uint64_hits": [],
+      "stored_pointer_scan_ranges": []
+    },
+    {
+      "library": "libavutil.so",
+      "size": 491368,
+      "sha256": "3676eb0ed26d540287ab8470c8abe618153afc45258451298b5d4ffd18ff010b",
+      "exact_NUL_terminated_name_hits": {
+        "splitYuvArrayToYAndUv": [],
+        "nativeOnComplete": [],
+        "com/google/android/gms/tasks/NativeOnCompleteListener": []
+      },
+      "split_function_exact_RELA_addends": [],
+      "split_function_stored_uint64_hits": [],
+      "stored_pointer_scan_ranges": []
+    },
+    {
+      "library": "libc++_shared.so",
+      "size": 1374336,
+      "sha256": "c4c2fe5cbcb1fba0003a31fc7ab29a9bb12df6cc187ec45a806462540e83d93b",
+      "exact_NUL_terminated_name_hits": {
+        "splitYuvArrayToYAndUv": [],
+        "nativeOnComplete": [],
+        "com/google/android/gms/tasks/NativeOnCompleteListener": []
+      },
+      "split_function_exact_RELA_addends": [],
+      "split_function_stored_uint64_hits": [],
+      "stored_pointer_scan_ranges": []
+    },
+    {
+      "library": "libcrypto.so",
+      "size": 2676640,
+      "sha256": "49db5bf9fdee2c87209085717497ac604b8768d589df32a85d8124c3f7604b4a",
+      "exact_NUL_terminated_name_hits": {
+        "splitYuvArrayToYAndUv": [],
+        "nativeOnComplete": [],
+        "com/google/android/gms/tasks/NativeOnCompleteListener": []
+      },
+      "split_function_exact_RELA_addends": [],
+      "split_function_stored_uint64_hits": [],
+      "stored_pointer_scan_ranges": []
+    },
+    {
+      "library": "libcube_merge.so",
+      "size": 11976,
+      "sha256": "91c35f56413f0e6fd8108000104a4270b6beee64121bfd954ada56e510c03d2f",
+      "exact_NUL_terminated_name_hits": {
+        "splitYuvArrayToYAndUv": [],
+        "nativeOnComplete": [],
+        "com/google/android/gms/tasks/NativeOnCompleteListener": []
+      },
+      "split_function_exact_RELA_addends": [],
+      "split_function_stored_uint64_hits": [],
+      "stored_pointer_scan_ranges": []
+    },
+    {
+      "library": "libde265.so",
+      "size": 1329336,
+      "sha256": "546563ccbc766ed8015a980d163e85af52af54f2eb193e1bb2e7471f04970d58",
+      "exact_NUL_terminated_name_hits": {
+        "splitYuvArrayToYAndUv": [],
+        "nativeOnComplete": [],
+        "com/google/android/gms/tasks/NativeOnCompleteListener": []
+      },
+      "split_function_exact_RELA_addends": [],
+      "split_function_stored_uint64_hits": [],
+      "stored_pointer_scan_ranges": []
+    },
+    {
+      "library": "libffmpeg_mediametadataretriever_jni.so",
+      "size": 58720,
+      "sha256": "dfd412e3103b203ed96adbbf30e2c70053afdeaf172c1a5cc9a8b849ff9ee471",
+      "exact_NUL_terminated_name_hits": {
+        "splitYuvArrayToYAndUv": [],
+        "nativeOnComplete": [],
+        "com/google/android/gms/tasks/NativeOnCompleteListener": []
+      },
+      "split_function_exact_RELA_addends": [],
+      "split_function_stored_uint64_hits": [],
+      "stored_pointer_scan_ranges": []
+    },
+    {
+      "library": "libheif.so",
+      "size": 994704,
+      "sha256": "e229d1a052a48ceb6defe47570ee6a448bf3c461205132580e4a52c961df8e83",
+      "exact_NUL_terminated_name_hits": {
+        "splitYuvArrayToYAndUv": [],
+        "nativeOnComplete": [],
+        "com/google/android/gms/tasks/NativeOnCompleteListener": []
+      },
+      "split_function_exact_RELA_addends": [],
+      "split_function_stored_uint64_hits": [],
+      "stored_pointer_scan_ranges": []
+    },
+    {
+      "library": "libllc.so",
+      "size": 104008,
+      "sha256": "7433d705215bb92e7a87b9005277127e5851c7a4638ca8f6a3db17d2a00927df",
+      "exact_NUL_terminated_name_hits": {
+        "splitYuvArrayToYAndUv": [],
+        "nativeOnComplete": [],
+        "com/google/android/gms/tasks/NativeOnCompleteListener": []
+      },
+      "split_function_exact_RELA_addends": [],
+      "split_function_stored_uint64_hits": [],
+      "stored_pointer_scan_ranges": [
+        {
+          "section": ".gcc_except_table",
+          "file_offset": 14424,
+          "size": 84,
+          "sha256": "74358a7d482ccc5f1736dce5af485b8792fbfcc1ab50cea8bf4e7e318b22475c"
+        },
+        {
+          "section": ".rodata",
+          "file_offset": 14512,
+          "size": 6588,
+          "sha256": "4d6258dce5f1857ccf47568f33ce73eeb438e09eae45a484f8afbba6485cdf62"
+        },
+        {
+          "section": ".eh_frame_hdr",
+          "file_offset": 21100,
+          "size": 996,
+          "sha256": "52eae9c0ff07e1bf2e3c00ff0a1eb5c59bd5da0d94c94f4513182f70646f53f3"
+        },
+        {
+          "section": ".eh_frame",
+          "file_offset": 22096,
+          "size": 6616,
+          "sha256": "150ff73e3e3e88e821890e786112188ed25f5d87b6a4d05d34dc36a973f49635"
+        },
+        {
+          "section": ".data.rel.ro",
+          "file_offset": 99776,
+          "size": 392,
+          "sha256": "3eefc4790b52024832ea4c03c6e7a781f3ef9416866a959b2777fce101ad9d61"
+        },
+        {
+          "section": ".got",
+          "file_offset": 100712,
+          "size": 40,
+          "sha256": "2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb"
+        },
+        {
+          "section": ".got.plt",
+          "file_offset": 100752,
+          "size": 928,
+          "sha256": "e444f83d86b3807a2e43b6956205c6eb168b1a77bc153fff2c2664761dbc39d1"
+        },
+        {
+          "section": ".data",
+          "file_offset": 101680,
+          "size": 32,
+          "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+        }
+      ]
+    },
+    {
+      "library": "libonnxruntime.so",
+      "size": 18214224,
+      "sha256": "3fc3e79539f06f67360a810e60eb5c513db5febc16f7bc71e5d9e8ce39e3d775",
+      "exact_NUL_terminated_name_hits": {
+        "splitYuvArrayToYAndUv": [],
+        "nativeOnComplete": [],
+        "com/google/android/gms/tasks/NativeOnCompleteListener": []
+      },
+      "split_function_exact_RELA_addends": [],
+      "split_function_stored_uint64_hits": [],
+      "stored_pointer_scan_ranges": []
+    },
+    {
+      "library": "libonnxruntime4j_jni.so",
+      "size": 75720,
+      "sha256": "adcaf5e11ff65ad7b54725b2869118568b14ce2f3596d1b6f082ed0c774f2539",
+      "exact_NUL_terminated_name_hits": {
+        "splitYuvArrayToYAndUv": [],
+        "nativeOnComplete": [],
+        "com/google/android/gms/tasks/NativeOnCompleteListener": []
+      },
+      "split_function_exact_RELA_addends": [],
+      "split_function_stored_uint64_hits": [],
+      "stored_pointer_scan_ranges": []
+    },
+    {
+      "library": "libssl.so",
+      "size": 590168,
+      "sha256": "f8be5421e9186804504bd4f74e76fe23b71af401d311b559479500f227fd24ec",
+      "exact_NUL_terminated_name_hits": {
+        "splitYuvArrayToYAndUv": [],
+        "nativeOnComplete": [],
+        "com/google/android/gms/tasks/NativeOnCompleteListener": []
+      },
+      "split_function_exact_RELA_addends": [],
+      "split_function_stored_uint64_hits": [],
+      "stored_pointer_scan_ranges": []
+    },
+    {
+      "library": "libswscale.so",
+      "size": 350224,
+      "sha256": "f381b19a9947ac25acb95e91c539ff31c634fca2ca70939b4bb8afb36c85b581",
+      "exact_NUL_terminated_name_hits": {
+        "splitYuvArrayToYAndUv": [],
+        "nativeOnComplete": [],
+        "com/google/android/gms/tasks/NativeOnCompleteListener": []
+      },
+      "split_function_exact_RELA_addends": [],
+      "split_function_stored_uint64_hits": [],
+      "stored_pointer_scan_ranges": []
+    },
+    {
+      "library": "libtechorfilter.so",
+      "size": 6340624,
+      "sha256": "03e1c4e11e86012e03faf025fd566be79df3fc75ee28d38433d676a959b3d25f",
+      "exact_NUL_terminated_name_hits": {
+        "splitYuvArrayToYAndUv": [],
+        "nativeOnComplete": [],
+        "com/google/android/gms/tasks/NativeOnCompleteListener": []
+      },
+      "split_function_exact_RELA_addends": [],
+      "split_function_stored_uint64_hits": [],
+      "stored_pointer_scan_ranges": []
+    },
+    {
+      "library": "libyuv-decoder.so",
+      "size": 6216,
+      "sha256": "ed3709f2b4b425746befbc6c6aab2235446ecbb37a33647b030828d8c6688dcf",
+      "exact_NUL_terminated_name_hits": {
+        "splitYuvArrayToYAndUv": [],
+        "nativeOnComplete": [],
+        "com/google/android/gms/tasks/NativeOnCompleteListener": []
+      },
+      "split_function_exact_RELA_addends": [],
+      "split_function_stored_uint64_hits": [],
+      "stored_pointer_scan_ranges": []
+    },
+    {
+      "library": "libyuv.so",
+      "size": 403888,
+      "sha256": "987926e77bddb9880e16dfb11201d6fb0429c4ff462a74e0bd0965b3de4d85c3",
+      "exact_NUL_terminated_name_hits": {
+        "splitYuvArrayToYAndUv": [],
+        "nativeOnComplete": [],
+        "com/google/android/gms/tasks/NativeOnCompleteListener": []
+      },
+      "split_function_exact_RELA_addends": [],
+      "split_function_stored_uint64_hits": [],
+      "stored_pointer_scan_ranges": []
+    },
+    {
+      "library": "libyuv_android.so",
+      "size": 899360,
+      "sha256": "dab061cb65b5b86318c5a01b2c47ac6da7da064421a5c9ef71b71123b0df5809",
+      "exact_NUL_terminated_name_hits": {
+        "splitYuvArrayToYAndUv": [],
+        "nativeOnComplete": [],
+        "com/google/android/gms/tasks/NativeOnCompleteListener": []
+      },
+      "split_function_exact_RELA_addends": [],
+      "split_function_stored_uint64_hits": [],
+      "stored_pointer_scan_ranges": []
+    }
+  ],
+  "patterns": {
+    "strings": [
+      "splitYuvArrayToYAndUv\\0",
+      "nativeOnComplete\\0",
+      "com/google/android/gms/tasks/NativeOnCompleteListener\\0"
+    ],
+    "split_pointer_uint64_le": "0x16e18"
+  },
+  "limits": "Exact NUL-terminated bytes (not proof of a JNI table), libllc all RELA exact-addend matches, and allocated non-executable PROGBITS exact uint64 values. No search of runtime-created strings/pointers, computed registration, system libraries or external Google modules. Results do not establish runtime binding or nonexistence."
+}
